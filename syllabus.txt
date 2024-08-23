@@ -2,7 +2,7 @@ CS 433/533 - Web Security
 
 Fall 2024
 
-CRNs: 23043, 23044, 23045 (433) and 23046, 23047, 23048 (533)
+CRNs: 20312, 20313, 20314 (433) and 20315, 20316, 20317 (533)
 
 Instructor: Michael L. Nelson <mln@cs.odu.edu>
                 http://www.cs.odu.edu/~mln/
