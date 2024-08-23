@@ -130,7 +130,7 @@ his course materials (although any errors are mine).
 
 ### Assignments (subject to change)
 
-* Weekly review of current events: [#cs533f23](https://twitter.com/search?q=%23cs533f23&src=typed_query&f=live)
+* Weekly review of current events: [#cs533f24](https://twitter.com/search?q=%23cs533f24&src=typed_query&f=live)
 
 * Assignment 1: Basics of HTML, Javascript, and Node
    * [Due: September 13](/assignments/assignment-1.md)
