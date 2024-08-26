@@ -50,7 +50,7 @@ his course materials (although any errors are mine).
    * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
    * Inside look at modern web browser: [1](https://developers.google.com/web/updates/2018/09/inside-browser-part1), [2](https://developers.google.com/web/updates/2018/09/inside-browser-part2), [3](https://developers.google.com/web/updates/2018/09/inside-browser-part3)
    * [Architecture of the World Wide Web, Volume One](https://www.w3.org/TR/webarch/)
-   * [Class slides](https://docs.google.com/presentation/d/1FaFNxFVoVhM7_iGNLu_SQPAVssxWv3Bsm8q7FyCPWjU/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1VH6XEHQUUDqGKRti_QwGHLSo1INi0oLKKwZu9kiqsCM/edit)
 
 * Week 02 - Cookies, Sessions
    * [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
