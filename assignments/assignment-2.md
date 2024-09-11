@@ -17,6 +17,7 @@ Points available: 15
    * localhost:4000/silo.html
    * localhost:4000/Ozark
 * For each path, have a sentence or two in HTML that explains why this is a favorite of yours
+* For each path, set a cookie that echos the corresponding favorite of yours (make up a syntax for your key-value pair, but keep the values human-readable)
 
 ### Youtube video
 
