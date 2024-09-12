@@ -1,9 +1,12 @@
 # Assignment 1 CS 533 F24
 ## Jim Ecker
 
+This repository contains all of the code developed while completing commandline workshops in HTML, Javascript, and Node.
+
+
 ### Files
 
-* [html](html)
+* [html/](html)
 
 | Lesson               | File                 |
 |----------------------|----------------------|
@@ -20,7 +23,7 @@
 | Styles and Scripts   | [styles.html](html/styles.html)     |
 
 
-* [javascript](javascript)
+* [javascrip/](javascript)
 
 | Lesson                 | File                                                              |
 |------------------------|-------------------------------------------------------------------|
@@ -46,7 +49,7 @@
 | Scope                  | [scope.js](javascript/scope.js)                                   |
 
 
-* [node](node)
+* [node/](node)
 
 | Lesson               | File                                                    |
 |----------------------|---------------------------------------------------------|
