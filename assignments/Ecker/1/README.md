@@ -1,7 +1,7 @@
 # Assignment 1 CS 533 F24
 ## Jim Ecker
 
-This repository contains all of the code developed while completing commandline workshops in HTML, Javascript, and Node.
+This repository contains all of the code developed while completing commandline workshops in HTML, Javascript, and Node.js.
 
 
 ### Files
