@@ -1,15 +1,15 @@
 
-## This is an example of how Assignment 1 should be submitted
+## Assignment 1 submission
 * We have three directories
-  * [html](html)
+  * [html](html) 
   * [javascript](javascript)
   * [node](node)
   
   Here are the screenshots of completing all the excercises
   
-<img src="html/learnhtml9-10-24.png" width="700">
-<img src="javascript/javascripting2024-09-11.png" width="700">
-<img src="node/learnyounode2024-09-12.png" width="700">
+<img src="html/learnhtml9-10-24.png">
+<img src="javascript/javascripting2024-09-11.png">
+<img src="node/learnyounode2024-09-12.png">
 
   
   * The video of the files and test completion pages is available at:
