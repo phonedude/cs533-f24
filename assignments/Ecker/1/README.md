@@ -23,7 +23,7 @@ This repository contains all of the code developed while completing commandline 
 | Styles and Scripts   | [styles.html](html/styles.html)     |
 
 
-* [javascrip/](javascript)
+* [javascript/](javascript)
 
 | Lesson                 | File                                                              |
 |------------------------|-------------------------------------------------------------------|
