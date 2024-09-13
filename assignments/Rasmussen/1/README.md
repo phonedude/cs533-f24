@@ -79,4 +79,6 @@ After completing each workshop I took a screen shot showingcompletion of each ex
 <img src="./javascript/images/javascripting_screenshot.png" width="700">
 <img src="./node/images/node_screenshot.png" width="700">
 
-The video of the files and test completion pages is available at: [https://youtu.be/i1cYvm1NWJk](https://youtu.be/i1cYvm1NWJk)
+The video of the files and test completion pages is available at: [https://youtu.be/nILWewUGT7Y](https://youtu.be/nILWewUGT7Y).
+
+<em>Note: Make sure to set the Quality to 1080p60<sup>HD</sup></em>
