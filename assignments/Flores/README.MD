@@ -6,9 +6,9 @@
   
   Here are the screenshots of completing all the excercises
   
-<img src="assignments/Flores/html/learnhtml9-10-24.png" width="700">
-<img src="assignments/Flores/javascript/javascripting2024-09-11 19-49-43.png" width="700">
-<img src="assignments/Flores/node/learnyounode2024-09-12 17-58-23.png" width="700">
+<img src="html/learnhtml9-10-24.png" width="700">
+<img src="javascript/javascripting2024-09-11 19-49-43.png" width="700">
+<img src="node/learnyounode2024-09-12 17-58-23.png" width="700">
   
   * The video of the files and test completion pages is available at:
   
