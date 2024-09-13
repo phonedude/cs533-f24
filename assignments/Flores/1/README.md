@@ -9,7 +9,7 @@
   
 <img src="html/learnhtml9-10-24.png">
 <img src="javascript/javascripting2024-09-11.png">
-<img src="node/learnyounode2024-09-12.png">
+<img src="node/learnarnyounode20240912.png">
 
   
   * The video of the files and test completion pages is available at:
