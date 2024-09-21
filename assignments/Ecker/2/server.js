@@ -18,6 +18,7 @@ const setCookie = (type, name) => (request, response, next) => {
 };
 
 app.use(express.static('pages'));
+app.use(express.static('favicons'));
 
 // Function to convert a string to title case
 function toTitleCase(str) {
