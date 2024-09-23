@@ -410,9 +410,9 @@ Server running at http://localhost:4000/
 
 #### Access a served route
 
-Make an http request to http://localhost:4000{`route`}
+Make an http request to ht<area>tp://localhost:4000`route`
 
-e.g. route `/halflife`: [http://localhost:4000/halflife](http://localhost:4000/halflife):
+e.g. route `/halflife`: [http://localhost:4000/halflife](http://localhost:4000/halflife)
 
 - The server serves the `half--life.html` page located at `pages/game-series/half--life.html`.
 - The `favorite` cookie is set to `Game Series: Half-Life`.
