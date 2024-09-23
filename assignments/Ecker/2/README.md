@@ -171,6 +171,18 @@ function toTitleCase(str) {
   });
 }
 
+// Function to handle double dashes and convert to title case
+function handleDoubleDashes(str) {
+  // Temporarily replace '--' with a null character
+  str = str.replace(/--/g, '\0');
+  // Replace single dashes with spaces
+  str = str.replace(/-/g, ' ');
+  // Restore '--' (null character) back to '-'
+  str = str.replace(/\0/g, '-');
+  // Convert to title case
+  return toTitleCase(str);
+  }
+
 // Function to recursively read files from a directory
 function readFilesRecursively(dir, callback) {
   fs.readdirSync(dir).forEach((fileOrDir) => {
@@ -207,16 +219,10 @@ function buildRoutes() {
     let nameWithExt = pathSegments[1];
     let name = path.basename(nameWithExt, '.html');
 
-    // Handle double dashes for 'type'
-    type = type.replace(/--/g, '\0'); // Temporarily replace '--' with null character
-    type = type.replace(/-/g, ' '); // Replace single dashes with spaces
-    type = type.replace(/\0/g, '-'); // Restore '--' as '-'
+    // Handle double dashes for 'type' and 'name'
+    type = handleDoubleDashes(type);
     type = toTitleCase(type);
-
-    // Handle double dashes for 'name'
-    name = name.replace(/--/g, '\0');
-    name = name.replace(/-/g, ' ');
-    name = name.replace(/\0/g, '-');
+    name = handleDoubleDashes(name);
     name = toTitleCase(name);
 
     // Build the route path by removing all dashes and converting to lowercase
@@ -308,14 +314,14 @@ The server uses a function called `buildRoutes` to dynamically create routes bas
     ```js
     // Function to handle double dashes and convert to title case
     function handleDoubleDashes(str) {
-    // Temporarily replace '--' with a null character
-    str = str.replace(/--/g, '\0');
-    // Replace single dashes with spaces
-    str = str.replace(/-/g, ' ');
-    // Restore '--' (null character) back to '-'
-    str = str.replace(/\0/g, '-');
-    // Convert to title case
-    return toTitleCase(str);
+      // Temporarily replace '--' with a null character
+      str = str.replace(/--/g, '\0');
+      // Replace single dashes with spaces
+      str = str.replace(/-/g, ' ');
+      // Restore '--' (null character) back to '-'
+      str = str.replace(/\0/g, '-');
+      // Convert to title case
+      return toTitleCase(str);
     }
     ```
 
@@ -328,6 +334,7 @@ The server uses a function called `buildRoutes` to dynamically create routes bas
     ```
     * `type:game-series` becomes `type:Game Series`
     * `name:half--life` becomes `name:Half-Life`
+    
 4. **Building the Route Path**
 
     The route path is constructed by removing all dashes from the `name` and then converting it to lower case
