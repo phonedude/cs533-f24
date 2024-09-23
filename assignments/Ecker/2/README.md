@@ -408,7 +408,7 @@ Server running at http://localhost:4000/
 
 #### Access a served route
 
-Make an http request to http://localhost:4000 `route`
+Make an http request to ht<area>tp://localhost:4000`route`
 
 e.g. route `/halflife`: [http://localhost:4000/halflife](http://localhost:4000/halflife)
 
