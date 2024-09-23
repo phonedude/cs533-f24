@@ -5,6 +5,27 @@ const fs = require('fs');
 const app = express();
 const port = 4000;
 
+/* 
+List of acronyms to be fully capitalized
+  There does not appear to be a good option to reliably capitalize abbreviations and acronyms
+  from the NPM
+  
+  I tried both title-case and ap-style-title-case packages and neither correctly capitalized "TV"
+  This is my solution for now - using a list of common abbreviations and checking against it. I would
+  like a more robust solution but for this project this will suffice.
+
+  - Jim
+*/
+const ACRONYMS = new Set([
+  'TV', 'USA', 'UK', 'NASA', 'FBI', 'CIA', 'HTML', 'CSS', 'JSON', 'ID', 'CPU', 'RAM',
+  'API', 'HTTP', 'HTTPS', 'SQL', 'XML', 'WWW', 'URL', 'URI', 'TCP', 'UDP', 'IP',
+  'DNS', 'GUI', 'SDK', 'JPEG', 'PNG', 'GIF', 'PDF', 'UN', 'EU', 'GPS', 'AI', 'VR',
+  'AR', 'IOT', 'SMTP', 'FTP', 'SSH', 'REST', 'SOAP', 'JWT', 'USB', 'GPU', 'ATM',
+  'LED', 'LCD', 'CD', 'DVD', 'HD', 'SSD', 'BIOS', 'OS', 'PC', 'IT', 'HR', 'CEO',
+  'CFO', 'COO', 'CTO', 'VPN', 'LAN', 'WAN', 'PIN', 'DOB', 'ASAP', 'ETA', 'FYI',
+  'DIY', 'BRB', 'LOL', 'OMG', 'BTW', 'IDK', 'IMHO', 'IRL', 'JK', 'N/A', 'R&D'
+]);
+
 app.use(cookieParser());
 
 // Set Cookie
@@ -20,10 +41,14 @@ const setCookie = (type, name) => (request, response, next) => {
 app.use(express.static('pages'));
 app.use(express.static('favicons'));
 
-// Function to convert a string to title case
+// Function to convert a string to title case with acronym handling
 function toTitleCase(str) {
-  return str.replace(/\b\w+/g, function (word) {
-    return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
+  return str.replace(/\b\w+\b/g, function (word) {
+    if (ACRONYMS.has(word.toUpperCase())) {
+      return word.toUpperCase();
+    } else {
+      return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
+    }
   });
 }
 
