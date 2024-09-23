@@ -56,7 +56,7 @@ The video demo is available at https://youtu.be/Y3RZsPSoEUY
 
 ## File Structure
 
-```cpp
+```css
 assignments/Ecker/2/
 ├── server.js
 ├── images/
@@ -65,7 +65,7 @@ assignments/Ecker/2/
 │   └── pm-render.png
 │   └── hl-render.png
 ├── favicons/
-│       ├── br
+│       ├── br/
 │       │   └── android-chrome-192x192.png
 │       │   └── android-chrome-512x512.png
 │       │   └── apple-touch-icon.png
@@ -75,7 +75,7 @@ assignments/Ecker/2/
 │       │   └── favicon.ico
 │       │   └── mstile-150x150.png
 │       │   └── site.webmanifest
-│       ├── bm
+│       ├── bm/
 │       │   └── android-chrome-192x192.png
 │       │   └── android-chrome-512x512.png
 │       │   └── apple-touch-icon.png
@@ -85,7 +85,7 @@ assignments/Ecker/2/
 │       │   └── favicon.ico
 │       │   └── mstile-150x150.png
 │       │   └── site.webmanifest
-│       ├── pm
+│       ├── pm/
 │       │   └── android-chrome-192x192.png
 │       │   └── android-chrome-512x512.png
 │       │   └── apple-touch-icon.png
@@ -95,16 +95,16 @@ assignments/Ecker/2/
 │       │   └── favicon.ico
 │       │   └── mstile-150x150.png
 │       │   └── site.webmanifest
-│       ├── hl
-│       │   └── android-chrome-192x192.png
-│       │   └── android-chrome-512x512.png
-│       │   └── apple-touch-icon.png
-│       │   └── browserconfig.xml
-│       │   └── favicon-16x16.png
-│       │   └── favicon-32x32.png
-│       │   └── favicon.ico
-│       │   └── mstile-150x150.png
-│       │   └── site.webmanifest
+│       └── hl/
+│           └── android-chrome-192x192.png
+│           └── android-chrome-512x512.png
+│           └── apple-touch-icon.png
+│           └── browserconfig.xml
+│           └── favicon-16x16.png
+│           └── favicon-32x32.png
+│           └── favicon.ico
+│           └── mstile-150x150.png
+│           └── site.webmanifest
 └── pages/
     ├── artist/
     │   └── bad-religion.html
@@ -112,8 +112,8 @@ assignments/Ecker/2/
     │   └── barney-miller.html
     ├── book-series/
     │   └── perry-mason.html
-    ├── game-series/
-    │   └── half--life.html
+    └── game-series/
+        └── half--life.html
 ```
 
 ## server.js
