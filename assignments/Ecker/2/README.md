@@ -56,9 +56,14 @@ The video demo is available at https://youtu.be/Y3RZsPSoEUY
 
 ## File Structure
 
-```
-favorite-things/
+```cpp
+assignments/Ecker/2/
 ├── server.js
+├── images/
+│   └── br-render.png
+│   └── bm-render.png
+│   └── pm-render.png
+│   └── hl-render.png
 ├── favicons/
 │       ├── br
 │       │   └── android-chrome-192x192.png
@@ -109,9 +114,6 @@ favorite-things/
     │   └── perry-mason.html
     ├── game-series/
     │   └── half--life.html
-    └── movie/
-        └── inception.html
-
 ```
 
 ## server.js
