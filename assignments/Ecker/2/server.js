@@ -101,10 +101,8 @@ function buildRoutes() {
     let name = path.basename(nameWithExt, '.html');
 
     // Handle double dashes for 'type' and 'name'
-    type = handleDoubleDashes(type);
-    type = toTitleCase(type);
-    name = handleDoubleDashes(name);
-    name = toTitleCase(name);
+    type = toTitleCase(handleDoubleDashes(type));
+    name = toTitleCase(handleDoubleDashes(name));
 
     // Build the route path by removing all dashes and converting to lowercase
     const routePath = '/' + nameWithExt.replace('.html', '').replace(/-/g, '').toLowerCase();
