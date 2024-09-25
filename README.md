@@ -56,7 +56,7 @@ his course materials (although any errors are mine).
    * [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
    * [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
    * [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
-   * [Class slides](https://docs.google.com/presentation/d/1ECq0Q9aFiIWBrPq79nUihsLaknYczZt_c5xFZHFC1Rs/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1xWjpIO2qa4ODR_WtnEPca09QLJR53Tg342tgaSHOvlc/edit)
 
 * Week 03 - Cross-Site Request Forgery, Same Origin Policy
    * [SameSite Cookies Explained](https://web.dev/samesite-cookies-explained/)
@@ -65,18 +65,18 @@ his course materials (although any errors are mine).
    * [Same Origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
    * [Cross-Site Request Forgery Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
    * [Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin)
-   * [Class slides](https://docs.google.com/presentation/d/1XYuu3Vu7GwwHM1KzSsG9IPMHglc3bfD-IIUADXIggVo/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1iq7VzvbNLPmX-NacqP9rxtcu5t9KzNsoDOEH5DD_QLI/edit)
 
 * Week 04 - Exceptions to the Same Origin Policy
    * [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options), [RFC 7034](https://tools.ietf.org/html/rfc7034)
    * [Frame Hijacking](https://seclab.stanford.edu/websec/frames/)
    * [Busting Frame Busting](https://seclab.stanford.edu/websec/framebusting/)
-   * [Class slides](https://docs.google.com/presentation/d/17h10fVeoSunelmmmM57fAfVBa14hy1wPhHfuUqHTfYQ/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1Plnj7daapSkTP_asfJSS3EKoI7VZ2gGapaTPFQX9M1g/edit)
 
 * Week 05 - Cross-Site Scripting (XSS)
    * [Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
    * [XSS Filter Evasion Cheat Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
-   * [Class slides](https://docs.google.com/presentation/d/1eaHS8z9UogRbuAkiY5XrypBwfkpyt29nH96jwVfy1KA/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1ba-AcmEJpOBz33qlDne6Re0d4hhwflil1WnlW_z_Rh8/edit)
 
 * Week 06 - XSS and Content Security Policy (CSP)
    * [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
