@@ -14,6 +14,6 @@ This project demonstrates setting up a Node.js server with Express and Cookie-Pa
 3. Open the paths in the browser.
 
 ## Video
-A video showing the assignment can be found at the following link: [Assignment 2 YouTube Video Link](https://youtu.be/GpT5RFLraek
+A video showing the assignment can be found at the following link: [Assignment 2 YouTube Video Link](https://youtu.be/GpT5RFLraek)
 
 
