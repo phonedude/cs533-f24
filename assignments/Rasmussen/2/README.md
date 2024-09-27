@@ -3,7 +3,7 @@
 
 For this assignment we used node.js to serve four different endpoints, each of which set a distinct cookie. Each endpoint pointed to an HTML page providing details on some of our favorite things.
 
-We installed node.js, installed and imported any libraries necessary to run our website, and wrote the code necessary to display the web content as well as set distinct cookies for each endpoint.
+We installed `node.js`, installed and imported any libraries necessary to run our website (e.g. `npm install express` ), and wrote the code necessary to display our web content as well as set distinct cookies for each endpoint's HTTP response.
 
 After completing this website we have the following directory structure:
 
@@ -54,6 +54,4 @@ The video of me demonstrating the website is available at: [https://youtu.be/nJm
 
 <em>Note: Make sure to set the Quality to 1080p60<sup>HD</sup></em>
 
-Oh, one last thing... I did try and snag the Extra Credit by including a favicon!
-
-<img src="./public/images/mj_favicon.png" width="15">
+Oh, one last thing... I did try and snag the Extra Credit by including a favicon! <img src="./public/images/mj_favicon.png" width="15">
