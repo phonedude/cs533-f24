@@ -1,0 +1,106 @@
+/* Styling for the current page */
+.current-page {
+  background-color: #8c7373;
+  color: white;
+  pointer-events: none;
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  border: none; /* Remove any border */
+}
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  text-align: center; /* Only center the heading */
+}
+
+h2 {
+  color: #8c7373;
+  font-size: 1.5em;
+  text-align: center; /* Only center the heading */
+}
+
+p {
+  font-size: 1.1em;
+  color: #555;
+  text-align: left; /* Align text to the left */
+  line-height: 1.6; /* Improve readability */
+  max-width: 800px; /* Limit width for better readability */
+  margin: 20px auto; /* Center content horizontally but align text left */
+}
+
+/* Navigation menu */
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Center the nav menu */
+  margin-bottom: 40px; /* Add space between the menu and content */
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 10px 20px;
+  background-color: #416386;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #78a3d1;
+}
+
+/* Center the image */
+.center-image {
+  display: block;  /* Ensures the image is treated as a block-level element */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; /* Space below the image */
+  max-width: 100%; /* Ensure the image scales with the container */
+  height: auto; /* Keep the image's aspect ratio */
+}
+
+/* Box around content */
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 40px;
+  color: #888;
+  font-size: 0.9em;
+  text-align: center; /* Center footer text */
+}
+
+/* Styling for the image credit and license links */
+footer a {
+  color: #416386;
+  background-color: transparent;
+  text-decoration: underline;
+  padding: 0; /* Remove padding */
+}
+
+footer a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  background-color: transparent; /* Ensure no background */
+}
