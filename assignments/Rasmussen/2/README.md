@@ -1,9 +1,9 @@
 ## Assignment 2, CS 433/533 Web Security, Fall 2024 
 ### Anton Rasmussen
 
-For this assignment we used node.js to serve four different endpoints, each of which set a distinct cookie. Each endpoint pointed to an HTML page providing details on some of our favorite things.
+For this assignment, we developed a website using a web server to serve four distinct endpoints, each of which sets a unique cookie. Each endpoint links to an HTML page that provides details on some of our favorite things.
 
-We installed `node.js`, installed and imported any libraries necessary to run our website (e.g. `npm install express` ), and wrote the code necessary to display our web content as well as set distinct cookies for each endpoint's HTTP response.
+In order to create our webserver we installed `node.js`, installed and imported any libraries necessary to run our website (e.g. `npm install express` ), and wrote the code necessary to display our web content as well as set distinct cookies for each endpoint's HTTP response.
 
 After completing this website we have the following directory structure:
 
@@ -40,15 +40,20 @@ After completing this website we have the following directory structure:
 6 directories, 22 files
 
 ```
-Note: I ran `tree -I 'node_modules'` to ignore the verbose node_modules directory; notably this directory is configured to be ignored by git.
+Note: I ran `tree -I 'node_modules'` to ignore the verbose `node_modules` directory; notably this directory is hidden (i.e. configured to be ignored by git).
 
 After completing each page I took a screen shot showing both the page and the cookie being set on that page:
 
 <img src="./images/Index_Screenshot.png" width="700">
+<p class="center-text"><small><em>Index Page (no cookie set)</em></small></p>
 <img src="./images/Carter_Screenshot.png" width="700">
+<p><small><em>Favorite Drummer (cookie set-> favDrummer=Beauford)</em></small></p>
 <img src="./images/Shane_Screenshot.png" width="700">
+<p><small><em>Favorite Comedian (cookie set-> favCommedian=Gillis)</em></small></p>
 <img src="./images/Cyberpunk_Screenshot.png" width="700">
+<p><small><em>Favorite Video Game (cookie set-> favGame=Cyberpunk)</em></small></p>
 <img src="./images/Sierra_Screenshot.png" width="700">
+<p><small><em>Favorite Musician (cookie set-> favSinger=Ferrell)</em></small></p>
 
 The video of me demonstrating the website is available at: [https://youtu.be/nJmFVZ9MW-A](https://www.youtube.com/watch?v=nJmFVZ9MW-A).
 
