@@ -1,14 +1,14 @@
-/* Styling for the current page */
+
 .current-page {
   background-color: #8c7373;
   color: white;
   pointer-events: none;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
   font-weight: bold;
-  border: none; /* Remove any border */
+  border: none;
 }
 
-/* General styling */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f5;
@@ -19,30 +19,30 @@ body {
 h1 {
   color: #333;
   font-size: 2.5em;
-  text-align: center; /* Only center the heading */
+  text-align: center;
 }
 
 h2 {
   color: #8c7373;
   font-size: 1.5em;
-  text-align: center; /* Only center the heading */
+  text-align: center;
 }
 
 p {
   font-size: 1.1em;
   color: #555;
-  text-align: left; /* Align text to the left */
-  line-height: 1.6; /* Improve readability */
-  max-width: 800px; /* Limit width for better readability */
-  margin: 20px auto; /* Center content horizontally but align text left */
+  text-align: left;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
-/* Navigation menu */
+
 ul {
   list-style-type: none;
   padding: 0;
-  text-align: center; /* Center the nav menu */
-  margin-bottom: 40px; /* Add space between the menu and content */
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 li {
@@ -64,17 +64,19 @@ a:hover {
   background-color: #78a3d1;
 }
 
-/* Center the image */
-.center-image {
-  display: block;  /* Ensures the image is treated as a block-level element */
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; /* Space below the image */
-  max-width: 100%; /* Ensure the image scales with the container */
-  height: auto; /* Keep the image's aspect ratio */
+.center-text {
+  text-align: center;
 }
 
-/* Box around content */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   background-color: white;
   padding: 40px;
@@ -84,23 +86,23 @@ a:hover {
   margin: auto;
 }
 
-/* Footer styling */
+
 footer {
   margin-top: 40px;
   color: #888;
   font-size: 0.9em;
-  text-align: center; /* Center footer text */
+  text-align: center;
 }
 
-/* Styling for the image credit and license links */
+
 footer a {
   color: #416386;
   background-color: transparent;
   text-decoration: underline;
-  padding: 0; /* Remove padding */
+  padding: 0;
 }
 
 footer a:hover {
-  color: #0056b3; /* Darker blue on hover */
-  background-color: transparent; /* Ensure no background */
+  color: #0056b3;
+  background-color: transparent;
 }

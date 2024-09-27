@@ -1,66 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> <!-- TODO: figure out why Google Translate keeps triggering -->
+  <head>
+    <title>Favorite Drummer</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/video_styles.css">
+    <link rel="icon" href="/images/mj_favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>My Favorite Drummer: Carter Beauford</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="drums" class="current-page">Drums</a></li>
+        <li><a href="comedy">Comedy</a></li>
+        <li><a href="videogames">Video Games</a></li>
+        <li><a href="music">Music</a></li>
+      </ul>
+    </nav>
 
-<head>
-  <title>Favorite Drummer</title>
-  <link rel="stylesheet" href="/styles/styles.css">
-  <link rel="icon" href="/images/mj_favicon.png" type="image/x-icon">
-</head>
+    <main>
+      <img alt="Carter Beauford performing in 2008" 
+           src="/images/Carter_Beauford.jpg"
+           class="center-image"
+           onclick="openModal('https://www.youtube.com/embed/E2zpoIlEasY?si=W3WsHJfgj1Cvg59B')">
+      <p>Carter Beauford is my favorite drummer.</p>
+      <p>
+        Drummers are musicians and Carter is my favorite because of how musical he is. That said,
+        Carter is a "drummer's" drummer. He is a master of his craft and has an open style of playing that's
+        unmatachable (left-hand lead on a right-hand kit)--the result of watching Buddy Rich on TV at
+        such a young age (two years old) he didn't realize, when he set the drums up to mirror Buddy's kit,
+        he was actually training himself to play left-handed.
+      </p>
+      <p>
+        Because of this simple "mistake," Carter began a journey of drumming with less restriction --
+        his unique style affording an ambidextrous ability to easily move around the drums and fludily
+        play beats no matter which hand played which drum.
+      </p>
+      <p>
+        Oddly almost a footnote in his storied musical career (playing with the likes of legends such as
+        Victor Wooten and Bela Fleck), for those who aren't aware, he is the long-time drummer for the Dave Matthews Band.
+      </p>
+    </main>
+    
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<body>
-  <header>
-    <h1>My Favorite Drummer: Carter Beauford</h1>
-  </header>
+    <footer>
+      <div>
+      <p>
+        <small>
+            Image credits:
+            <a href="https://www.flickr.com/photos/dmbrasil/2981300091/in/faves-24788065@N02/">Rodrigo Simas</a>,
+            <em>Carter Beauford Dave Matthews Band ao vivo no Vivo Rio, Rio de Janeiro (30/09/2008)</em>. 
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.
+        </small>
+      </p>
+    </div>
+    <div>
+      <p>
+        <small>
+            Video credits:
+            <a href="https://www.youtube.com/watch?v=E2zpoIlEasY">Carter Beauford - #41 (Studio)</a>.
+            Used under <em>fair use</em> for commentary and educational purposes. 
+        </small>  
+      </p>
+    </div>
+    </footer>
 
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="drums" class="current-page">Drums</a></li>
-      <li><a href="comedy">Comedy</a></li>
-      <li><a href="videogames">Video Games</a></li>
-      <li><a href="music">Music</a></li>
-    </ul>
-  </nav>
-
-  <!-- Above this is static format -->
-
-  <main>
-    <img alt="Beauford performing in 2008" 
-         src="/images/Carter_Beauford.jpg"
-         class="center-image" />
-    <p>
-      Carter Beauford is my favorite drummer because of how musical he is. His
-      open style playing (left-hand lead) is the result of watching Buddy Rich
-      on TV at such a young age (two years old) that he didn't realize that
-      when he set the drums up to match Buddy's kit he was actually seeing a
-      mirror image.
-    </p>
-    <p>
-      Because of this simple "mistake," Carter began a journey of drumming
-      with a unique style of playing that afforded him an ambidextrous ability
-      to easily move around the drums and fludily play beats no matter which
-      hand played which drum.
-    </p>
-    <p>
-      For those who aren't aware, he is the drummer for the Dave Matthews
-      Band.
-    </p>
-  </main>
-
-  <!-- Below this is static format -->
-  <footer>
-    <!-- Attribution for the image -->
-    <p>
-      <small>
-        Image credit:
-        <a href="https://www.flickr.com/photos/dmbrasil/2981300091/in/faves-24788065@N02/">Rodrigo Simas</a>,
-        <em>Carter Beauford Dave Matthews Band ao vivo no Vivo Rio, Rio de
-          Janeiro (30/09/2008)</em>. Licensed under
-        <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.
-      </small>
-    </p>
-    <p>&copy; 2024 Anton Rasmussen. All rights reserved.</p>
-  </footer>
-</body>
-
+    <script src="/scripts/modal.js"></script>
+  </body>
 </html>
