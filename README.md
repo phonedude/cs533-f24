@@ -82,7 +82,7 @@ his course materials (although any errors are mine).
    * [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
    * [CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy](https://research.google/pubs/pub45542/)
    * [Defence in Depth: The medieval castle approach to internet security](https://medstack.co/blog/defence-in-depth-the-medieval-castle-approach-to-internet-security/)
-   * [Class slides](https://docs.google.com/presentation/d/1zl9Fnz0_izeb9l4wXYsMuCIlb9J7XfnHgjGZ53LT_ms/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1m9aiIwfehu37zgkfMXaN1nI2VYO8AisGc_4dsZLYIrg/edit)
 
 * Week 07 - Fingerprinting and Privacy
    * [Browser Fingerprinting: An Introduction and the Challenges Ahead](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead)
