@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 08 Oct 2024 00:08:45 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://thesun.co.uk/
+x-rq: dca6 
+
+HTTP/2 301 
+server: nginx
+date: Tue, 08 Oct 2024 00:08:45 GMT
+content-type: text/html; charset=UTF-8
+x-hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: WordPress VIP <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+x-redirect-by: WordPress
+location: https://www.thesun.co.uk/
+strict-transport-security: max-age=31536000
+x-rq: dca6 96 185 443
+x-cache: MISS
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 819687
+date: Tue, 08 Oct 2024 00:08:46 GMT
+server: nginx/1.25.3
+x-generated-by: @newsint/nu-sun-helios 1.1395.3
+cache-control: max-age=30, s-maxage=30, stale-if-error=600, public
+x-rendered-from: pagebuilder
+etag: W/"c81e7-rRhtDa2sZgT9cx6iyue32W65VY4"
+set-cookie: nuk_customer_country_code=US; Path=/; Secure; SameSite=None
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+vary: Accept-Encoding
+x-cache: Miss from cloudfront
+via: 1.1 7bac70c3c5deda2f56c0a3aff53deab0.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD55-P3
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: uXOvBqhkbrgVzxt5Tejgo6p6Jxd9Tg1Z7FxD38N0MW9IRrbxkScTRA==
+

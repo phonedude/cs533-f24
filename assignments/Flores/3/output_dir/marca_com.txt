@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 08 Oct 2024 00:07:03 GMT
+Server: Varnish
+X-Varnish: 435063529
+Location: https://marca.com/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/2 301 
+date: Tue, 08 Oct 2024 00:07:03 GMT
+server: Varnish
+x-varnish: 400704629
+location: https://www.marca.com/
+content-length: 0
+
+HTTP/2 200 
+content-type: text/html; charset=iso-8859-15
+referrer-policy: unsafe-url
+cache-control: s-maxage=60
+x-backend: CONTENT
+accept-ranges: bytes
+age: 0
+date: Tue, 08 Oct 2024 00:07:04 GMT
+x-served-by: cache-ams2100116-AMS, cache-iad-kcgs7200055-IAD
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1728346024.902628,VS0,VE121
+vary: Accept-Encoding, User-Agent
+content-length: 787197
+

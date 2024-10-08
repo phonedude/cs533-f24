@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://lefigaro.fr/
+Date: Tue, 08 Oct 2024 00:07:02 GMT
+Connection: keep-alive
+X-Left-TTL: -1728346023
+
+HTTP/2 301 
+content-length: 0
+location: https://www.lefigaro.fr/
+date: Tue, 08 Oct 2024 00:07:02 GMT
+x-left-ttl: -1728346023
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+x-premium: 0
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: upgrade-insecure-requests
+x-frame-options: sameorigin
+link: <https://static.lefigaro.fr/header/js/figh-index.3954f44.js>; rel="preload"; as="script",<https://static.lefigaro.fr/figconsent/figconsent-v2-short-ttl.js>; rel="preload"; as="script",</build/modern/js/initial-vendors.7792aabbc49a59f8.js>; rel="preload"; integrity="sha384-7pdKRu7zhqbO0XLqiX6pAmEOy4oYCM/FvJvNLxf7kzAWcZLCrxkn1OzKC4b5+AFB"; as="script"; crossorigin="anonymous",</build/modern/js/globals/handleFiganalytics.d3af1371e4c84155.js>; rel="preload"; integrity="sha384-v1K4oNLCx5YfTLn+CfZW8KuETJ/Vt2Y2z+sjmEKb05k2y7eSl2d7bIp4CWyE6Dlj"; as="script"; crossorigin="anonymous",<https://static.lefigaro.fr/figanalytics/figanalytics-short-ttl.js>; rel="preload"; as="script",<https://static.lefigaro.fr/common/fonts/SourceSansPro/sourcesanspro-semibold.woff2>; rel="preload"; as="font"; crossorigin="anonymous",<https://static.lefigaro.fr/common/fonts/SourceSansPro/sourcesanspro-regular.woff2>; rel="preload"; as="font"; crossorigin="anonymous",<https://static.lefigaro.fr/common/fonts/NotoSerif/notoserif-bold.woff2>; rel="preload"; as="font"; crossorigin="anonymous",<https://static.lefigaro.fr>; rel="preconnect",<https://i.f1g.fr>; rel="preconnect",<https://collector.appconsent.io>; rel="preconnect",<https://cdn.appconsent.io/loader-clear.js>; rel="preload"; as="script"; crossorigin="anonymous",<https://www.googletagmanager.com>; rel="dns-prefetch",<https://cdn.appconsent.io>; rel="dns-prefetch"
+x-using-nginx-controller: true
+edge-cache-tag-truncated: 1
+x-shard-target: proxy1
+x-real-age: 266
+expires: Tue, 08 Oct 2024 00:07:02 GMT
+cache-control: max-age=0, no-cache, private
+pragma: no-cache
+date: Tue, 08 Oct 2024 00:07:02 GMT
+x-left-ttl: 24
+
