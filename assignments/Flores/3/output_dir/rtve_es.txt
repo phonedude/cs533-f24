@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+date: Tue, 08 Oct 2024 00:07:52 GMT
+server: Apache/2.4.57 (Rocky Linux) OpenSSL/3.0.7
+location: https://www.rtve.es/
+content-length: 228
+content-type: text/html; charset=iso-8859-1
+x-rtve-backend: goto.0000001e.(10.210.25.195).(http://pfvarnish.irtve.rtve.int:80).(ttl:10.000000)
+x-rtve-url: /
+x-rtve-grace: 28800.000
+x-rtve-ttl: 60.000
+cache-control: max-age=30
+x-varnish: 585995787 578234652
+via: 1.1 varnish (Varnish/6.0)
+x-rtve-cache: hit
+access-control-allow-origin: *
+
+HTTP/2 200 
+content-type: text/html; charset=ISO-8859-1
+cpc-age: 46
+cpc-cache: HIT
+cache-control: max-age=30
+accept-ranges: bytes
+age: 784
+date: Tue, 08 Oct 2024 00:08:41 GMT
+x-served-by: cache-mad22082-MAD, cache-iad-kcgs7200117-IAD
+x-cache: MISS, HIT
+x-cache-hits: 0, 0
+x-timer: S1728346122.728120,VS0,VE2
+server: RTVE Server
+vary: Accept-Encoding
+content-length: 1078427
+

@@ -1,0 +1,60 @@
+HTTP/1.1 301 HTTPS Redirect
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://buzzfeed.com/
+Accept-Ranges: bytes
+Date: Tue, 08 Oct 2024 00:06:47 GMT
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: bf-geo-country=US; expires=Wed, 09 Oct 2024 00:06:47 GMT; path=/; domain=.buzzfeed.com;
+Set-Cookie: ccpa=true; expires=Tue, 22 Oct 2024 00:06:47 GMT; path=/; domain=buzzfeed.com;
+Timing-Allow-Origin: *
+X-Served-By: cache-iad-kiad7000095-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1728346008.721888,VS0,VE0
+
+HTTP/2 301 
+retry-after: 0
+location: https://www.buzzfeed.com/
+accept-ranges: bytes
+date: Tue, 08 Oct 2024 00:06:47 GMT
+x-frame-options: SAMEORIGIN
+set-cookie: bf-geo-country=US; expires=Wed, 09 Oct 2024 00:06:47 GMT; path=/; domain=.buzzfeed.com;
+set-cookie: ccpa=true; expires=Tue, 22 Oct 2024 00:06:47 GMT; path=/; domain=buzzfeed.com;
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000; preload
+timing-allow-origin: *
+x-served-by: cache-iad-kcgs7200026-IAD
+x-cache: HIT
+x-cache-hits: 0
+x-timer: S1728346008.755911,VS0,VE0
+content-length: 0
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+cache-control: no-cache, no-store, must-revalidate
+content-language: en
+document-policy: js-profiling
+etag: "176e9d-kN1Ad25KAFd/1jLT8gSP5IBFSvg"
+expires: 0
+pragma: no-cache
+set-cookie: next-i18next=en; path=/; expires=Wed, 08 Oct 2025 00:06:22 GMT
+x-request-id: 1f9e83f550a670100f54adadc4f89aca
+accept-ranges: bytes
+date: Tue, 08 Oct 2024 00:06:47 GMT
+age: 25
+x-frame-options: SAMEORIGIN
+set-cookie: dsl25_frhf=control;expires=Tue, 05 Nov 2024 00:06:47 GMT;
+set-cookie: bf-geo-country=US; expires=Wed, 09 Oct 2024 00:06:47 GMT; path=/; domain=.buzzfeed.com;
+set-cookie: ccpa=true; expires=Tue, 22 Oct 2024 00:06:47 GMT; path=/; domain=www.buzzfeed.com;
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000; preload
+timing-allow-origin: *
+x-served-by: cache-iad-kiad7000108-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1728346008.789719,VS0,VE6
+vary: X-BF-User-Edition, Accept-Encoding, X-BF-Canary, X-BF-Canary-Site-Router, X-BF-Canary-Perimeter, X-BF-Canary-Feed-UI
+content-length: 1535645
+
