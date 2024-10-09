@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Favorite Comedian</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/video_styles.css">
+    <link rel="icon" href="/images/mj_favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>My Favorite Comedian: Shane Gillis</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="drums">Drums</a></li>
+        <li><a href="comedy" class="current-page">Comedy</a></li>
+        <li><a href="videogames">Video Games</a></li>
+        <li><a href="music">Music</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <img alt="Shane Gillis performing on Saturday Night Live in 2024" 
+           src="/images/Shane_Gillis.jpg"   
+           class="center-image" 
+           onclick="openModal('https://www.youtube.com/embed/2YnonYf463s')">
+           <p class="center-text"><small><em>Click the image to see a video of Shane</em></small></p>
+      <p>Shane Gillis is my favorite comedian.</p>
+      <p>
+        Shane Gillis is funny. While that is an obvious reason to like a comedian, 
+        I think the risks he takes balancing being offensive and being funny, 
+        how he uses his position to help his friends find success, and how he 
+        employs (often uncomfortable) aspects of U.S. History in his jokes are 
+        what makes him stand out among other comedians of his age and cohort.
+      </p>
+      <p>
+        For those who aren't aware, Shane was a cast member on
+        <em>Saturday Night Live</em> for a week. He was fired before the season
+        started when it was discovered that he had used racist slurs and made
+        homophobic jokes on a podcast years prior to being cast on SNL.
+      </p>
+      <p>
+        Since being fired from SNL, he has been a guest on many podcasts, has a
+        podcast of his own, has a show on Netflix called <em>Tires</em> and,
+        after apologizing for his insensitive jokes, was even invited back to
+        <em>Saturday Night Live</em> to host an episode.
+      </p>
+      <p>
+        Personally, I like the image of him at the Mall of America because I
+        have performed stand-up comedy at that club and bombed so hard with my
+        own poorly thought out, badly timed, insensitive jokes that I was never
+        able to find the courage to get back on stage after the MC chastised me
+        and the crowd turned. While Shane has definitely said things in
+        his past that are offensive and regrettable, I think he is a good
+        example of how someone can learn from their mistakes, grow as a person,
+        and work to comeback from life's setbacks--for him that meant getting
+        back up on stage, contiuing to tell risky jokes (with a new found
+        sensitivity to his podcast content), make people laugh, and do what he loves.
+      </p>
+    </main>
+
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p>
+          <small>
+            Image credits:
+            <a href="https://commons.wikimedia.org/wiki/File:Shane_Gillis_at_MOA_(cropped).jpg">Nemo1080</a>,
+            <em>Shane Gillis performing at the House of Comedy at the Mall of America in 2021</em>.
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+        </p>
+          </small>
+      </div>
+      <div>
+        <p>
+          <small>
+            Video credits:
+            <a href="https://www.youtube.com/watch?v=2YnonYf463s">Shane Gillis Stand-Up Monologue - SNL</a>.
+            Used under <em>fair use</em> for commentary and educational purposes.
+          </small>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/scripts/modal.js"></script>
+  </body>
+</html>
