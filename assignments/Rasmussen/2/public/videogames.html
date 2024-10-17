@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Favorite Videogame</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/video_styles.css">
+    <link rel="icon" href="/images/mj_favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>My Favorite Videogame: Cyberpunk 2077</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="drums">Drums</a></li>
+        <li><a href="comedy">Comedy</a></li>
+        <li><a href="videogames" class="current-page">Video Games</a></li>
+        <li><a href="music">Music</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <img alt="Cyberpunk 2077 box art"
+           src="/images/Cyberpunk_2077.jpg"
+           class="center-image" 
+           onclick="openModal('https://www.youtube.com/embed/JUWtWPX6hgs')">
+           <p class="center-text"><small><em>Click the image to see a video of Cyberpunk 2077</em></small></p>
+      <p>Cyberpunk 2077 is my favorite videogame.</p>
+      <p>
+        Cyberpunk 2077 is an open-world action role-playing game set in the dystopian "Night City," 
+        a huge map that hosts a load of characters obsessed with power, weaponry, vehicles, 
+        and body modification. My character V is a mercenary trying to survive and thrive in 
+        the Cyber landscape. Keanu Reeves makes an appearance as character Johnny Silverhand, 
+        which lends a cool rock-star vibe to the game.
+      </p>
+      <p>
+        While the game itself is probably my favorite videogame of all time, namely
+        because of how many different things you can do in the game and because of the mix 
+        of rugged and futuristic "Cyberpunk" esthetics, which appeals to my love of
+        technology. The best part of the game for me are the Inception-like qualities--one 
+        of the coolest easter eggs that I have found in the game are these game-within-a game 
+        video games that you can play when you walk up to an arcade machine at a bar. Indeed,
+        they are fun enough that I have spent hours playing them instead of the main game lol.
+      </p>
+    </main>
+
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p>
+          <small>
+            Image credits:
+            <a href="https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png">Cyberpunk 2077 box art</a>, 
+            <em>by CD Projekt</em>.
+            Used under <em>fair use</em> for commentary and educational purposes.
+          </small>
+        </p>  
+      </div>
+      <div>
+        <p>
+          <small>
+            Video credits:
+            <a href="https://www.youtube.com/watch?v=JUWtWPX6hgs">Cyberpunk 2077: Real Life 8K Graphics with DreamPunk 1.0 | 
+            Path Tracing Mod Gameplay & Showcase</a>.
+            Used under <em>fair use</em> for commentary and educational purposes.
+          </small>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/scripts/modal.js"></script>
+  </body>
+</html>
