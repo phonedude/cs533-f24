@@ -1,0 +1,5 @@
+const fs=require('fs')
+let buf = fs.readFileSync(process.argv[2])
+let str = buf.toString()
+let contents = str.split('\n')
+console.log(contents.length-1)
