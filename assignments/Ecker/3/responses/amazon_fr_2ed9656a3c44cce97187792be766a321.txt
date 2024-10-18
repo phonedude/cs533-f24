@@ -1,0 +1,37 @@
+URL: http://amazon.fr
+Status Code: 200 OK
+Headers:
+Cache-Control: no-cache
+Connection: close
+Connection: Transfer-Encoding
+Date: Fri, 18 Oct 2024 22:19:30 GMT
+Pragma: no-cache
+Server: Server
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Language: fr-FR
+Content-Type: text/html;charset=UTF-8
+Expires: -1
+Accept-CH: ect,rtt,downlink,device-memory,sec-ch-device-memory,viewport-width,sec-ch-viewport-width,dpr,sec-ch-dpr,sec-ch-ua-platform,sec-ch-ua-platform-version
+Accept-CH-Lifetime: 86400
+Alt-Svc: h3=":443"; ma=93600
+Client-Date: Fri, 18 Oct 2024 22:19:30 GMT
+Client-Peer: 23.220.129.182:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global CA G2
+Client-SSL-Cert-Subject: /CN=www.amazon.fr
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests;report-uri https://metrics.media-amazon.com/
+Content-Security-Policy-Report-Only: default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline';report-uri https://metrics.media-amazon.com/
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Amz-Rid: 5R5RZA3KNT6FH4MAF80A
+X-Amzn-Cdn-Id: ak-0.5dfda17.1729289970.10e224e7
+X-Cache: NotCacheable from child
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1;

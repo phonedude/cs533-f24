@@ -1,0 +1,49 @@
+URL: http://public-api.wordpress.com
+Status Code: 200 OK
+Headers:
+Cache-Control: max-age=300, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:20:04 GMT
+Server: nginx
+Vary: Accept-Encoding
+Vary: accept, content-type, cookie
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Fri, 18 Oct 2024 21:10:37 GMT
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Fri, 18 Oct 2024 22:20:04 GMT
+Client-Peer: 192.0.78.12:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Domain Validation Secure Server CA
+Client-SSL-Cert-Subject: /CN=*.wordpress.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Host-Header: WordPress.com
+Link: <https://wp.me/p2gHKz-pRl>; rel=shortlink
+Strict-Transport-Security: max-age=31536000
+Title: REST API – WordPress.com Developer Resources
+X-Ac: 5.dca _dca STALE
+X-Frame-Options: SAMEORIGIN
+X-Hacker: Want root?  Visit join.a8c.com/hacker and mention this header.
+X-Meta-Application-Name: WordPress.com Developer Resources
+X-Meta-Description: Welcome to the WordPress.com REST API. Below, you'll find a full listing of all the available endpoints. As we add more endpoints, they will be automatically documented here and available through the Developer Console. If you're not sure how to make calls to the API, you might want to check out the Getting Started guide…
+X-Meta-Generator: WordPress.com
+X-Meta-Msapplication-TileImage: https://developer.wordpress.com/wp-content/uploads/2024/02/wp_favicon_devs_64x64px.png?w=128
+X-Meta-Msapplication-Tooltip: Create cool applications that integrate with WordPress.com
+X-Meta-Msapplication-Window: width=device-width;height=device-height
+X-Meta-Robots: max-image-preview:large
+X-Meta-Twitter-App-Id-Googleplay: com.jetpack.android
+X-Meta-Twitter-App-Id-Ipad: 1565481562
+X-Meta-Twitter-App-Id-Iphone: 1565481562
+X-Meta-Twitter-App-Name-Googleplay: Jetpack
+X-Meta-Twitter-App-Name-Ipad: Jetpack
+X-Meta-Twitter-App-Name-Iphone: Jetpack
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Creator: @AutomatticEng
+X-Meta-Twitter-Image: https://developer.wordpress.com/wp-content/uploads/2024/02/wp_favicon_devs_64x64px.png?w=128
+X-Meta-Twitter-Site: @AutomatticEng
+X-Meta-Twitter-Text-Title: REST API
+X-Meta-Viewport: width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1
+X-Nananana: Batcache-Set

@@ -1,0 +1,6 @@
+URL: https://ssl-images-amazon.com
+Status Code: 500 Can't connect to ssl-images-amazon.com:443 (No address associated with hostname)
+Headers:
+Content-Type: text/plain
+Client-Date: Fri, 18 Oct 2024 22:20:08 GMT
+Client-Warning: Internal response

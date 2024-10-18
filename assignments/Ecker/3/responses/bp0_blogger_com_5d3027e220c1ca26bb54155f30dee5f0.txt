@@ -1,0 +1,26 @@
+URL: https://bp0.blogger.com
+Status Code: 400 Bad Request
+Headers:
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:35 GMT
+Server: fife
+Vary: Origin
+Content-Length: 1555
+Content-Type: text/html; charset=UTF-8
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:19:35 GMT
+Client-Peer: 142.251.111.138:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=*.blogger.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Timing-Allow-Origin: *
+Title: Error 400 (Bad Request)!!1
+X-Content-Type-Options: nosniff
+X-Meta-Charset: utf-8
+X-Meta-Viewport: initial-scale=1, minimum-scale=1, width=device-width
+X-XSS-Protection: 0

@@ -1,0 +1,70 @@
+URL: http://jstor.org
+Status Code: 200 OK
+Headers:
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:50 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Server: envoy
+Vary: Cookie, origin, Accept-Encoding,Fastly-SSL,Origin,X-Requested-Host
+Content-Length: 42753
+Content-Type: text/html; charset=utf-8
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Fri, 18 Oct 2024 22:19:50 GMT
+Client-Peer: 151.101.128.152:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 OV TLS CA 2024 Q2
+Client-SSL-Cert-Subject: /C=US/ST=New York/L=New York/O=Ithaka Harbors, Inc./CN=jstor.org
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Link: <https://static.ithaka.org>; rel="preconnect"
+Link: <https://cdn.cookielaw.org>; rel="preconnect"
+Link: <https://geolocation.onetrust.com>; rel="preconnect"
+Link: <https://www.googletagmanager.com>; rel="preconnect"
+Link: <https://www.google-analytics.com>; rel="dns-prefetch"
+Link: <https://status-app.jstor.org>; rel="dns-prefetch"
+Link: </assets/long-lived_20201006/js/scoped-custom-element-registry@0.0.3.min.js>; as="script"; rel="preload"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/global/js/global.min.js>; as="script"; rel="preload"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/global/css/global.css>; as="style"; rel="preload"
+Link: <https://static.ithaka.org/pharos/assets/fonts/GT-America-Standard-Regular.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://static.ithaka.org/pharos/assets/fonts/GT-America-Standard-Medium.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://static.ithaka.org/pharos/assets/fonts/IvarHeadline-Medium.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: </mfe-registry-service/public/mfe/header/remoteEntry/path/>; as="fetch"; crossorigin="crossorigin"; rel="preload"
+Link: </mfe-registry-service/public/mfe/footer/remoteEntry/path/>; as="fetch"; crossorigin="crossorigin"; rel="preload"
+Link: </mfe-registry-service/public/mfe/query-builder/remoteEntry/path/>; as="fetch"; crossorigin="crossorigin"; rel="preload"
+Link: <//www.jstor.org/assets/search_20240909T192832/build/search/css/homepage.css>; as="style"; rel="preload"
+Link: <//www.jstor.org/assets/search_20240909T192832/build/search/js/homepage.min.js>; as="script"; rel="preload"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/images/favicons/android-chrome-192x192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/images/favicons/android-chrome-512x512.png>; rel="icon"; sizes="512x512"; type="image/png"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/images/favicons/apple-touch-icon.png>; rel="apple-touch-icon"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/images/favicons/favicon-16x16.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/images/favicons/favicon-48x48.png>; rel="icon"; sizes="48x48"; type="image/png"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/images/favicons/favicon-32x32.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: <//www.jstor.org/assets/global_20240429T123451/build/global/css/global.css>; rel="stylesheet"
+Link: <//www.jstor.org/assets/search_20240909T192832/build/search/css/homepage.css>; rel="stylesheet"
+Link: <https://www.jstor.org/>; rel="canonical"
+Set-Cookie: AccessSession=H4sIAAAAAAAA_5WSW2sbMRCF_4ueM0aXkTTaN2PohUIfEqfQllJ0dbesE7OXltbkv1e7Nk6eHLogGJ39zszRao9smtrEGmaMiqQJwXtSgNYQkEELwTifU8wpq8huWHuorMSV1HVJvUI7i3ODkrCUVKTJvCBFScUWVYRJobp14JXrFzBw4zQWBBFkAsxFA2E2QFoUU6zPRKnCnR_nUVxWkIOgrZSNcI3mK8vRGUOCf5mx6Spm9QkbrlPWLdQYWVN8N-Qb9st3S9qLx225uHicJW2Vmj1-HPuBNUe22VT847pKm22tfrdd1_r9EKZ-9_3TIn-u8v1drW43SwWLfDfT77fv1h_W7Kn2m8Yf6xjH2vPrt7o9l8fTV1YWLQpTbfkULwUVdEigvSBAgRKoBASyKD1mxExiPtifQ670bd61jw91v28f2n37N7_p_I41Yz_VE3fnAcpJPQ_ozqZ-Md0Pua_xXsSQ5jlGNjIH7yKEyDWgtAo8DwVs0BotSc-1_-8YTr0WQ3DO1SWEy8RtyhGKsgEwWg0-kgQeBTmvY-CeP4d42z9Oh6sZ5Ivpu5k-Da-X8nN5z1952Okyz7_U0z9jTZZ4awMAAA; Path=/; SameSite=Lax; Secure
+Set-Cookie: AccessSessionSignature=34049225b93690d3aed58ede99c419bd6e943c43f0277df13d51898cf96e3693; Path=/; SameSite=Lax; Secure
+Set-Cookie: AccessSessionTimedSignature=26da97b2adb490ea07dc1421979dcd5c1c2c3e1386165e76744fc864d3ae1da9; Path=/; SameSite=Lax; Secure
+Set-Cookie: UUID=663c8584-aa83-4768-8647-b69aedcede3c; expires=Mon, 18 Oct 2027 22:19:50 GMT; Max-Age=94608000; Path=/; SameSite=None; Secure
+Set-Cookie: csrftoken=gPN50gX68tclnIfjzwk3ozDexi9tntRe; expires=Fri, 17 Oct 2025 22:19:50 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+Set-Cookie: ReferringRequestId=fastly-default:5fbd13dd2788b806cb1bf85cdd8a1b04; Path=/; SameSite=Lax; Secure
+Title: JSTOR Home
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Envoy-Upstream-Service-Time: 123
+X-Frame-Options: DENY
+X-JSTOR-Restarts: 0
+X-Meta-Charset: UTF-8
+X-Meta-Description: JSTOR is a digital library of academic journals, books, and primary sources.
+X-Meta-Msapplication-Config: /assets/browserconfig.xml
+X-Meta-Msapplication-TileColor: #DA532C
+X-Meta-Msapplication-TileImage: /assets/mstile-150x150.png
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Robots: noarchive,NOODP
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Served-By: cache-iad-kiad7000105-IAD, cache-iad-kjyo7100153-IAD
+X-Timer: S1729289991.605021,VS0,VE142

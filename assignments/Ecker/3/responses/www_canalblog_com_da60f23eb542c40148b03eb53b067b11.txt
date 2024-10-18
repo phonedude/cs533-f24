@@ -1,0 +1,24 @@
+URL: http://www.canalblog.com
+Status Code: 200 OK
+Headers:
+Cache-Control: public, s-maxage=3600
+Connection: close
+Date: Fri, 18 Oct 2024 21:51:50 GMT
+Accept-Ranges: bytes
+Age: 1761
+Content-Length: 113941
+Content-Type: text/html; charset=UTF-8
+Client-Date: Fri, 18 Oct 2024 22:21:11 GMT
+Client-Peer: 185.128.239.106:80
+Client-Response-Num: 1
+Link: <https://assets.canalblog.com/c/site/v2024.20.02/images/canalblog/favicon.ico>; rel="icon"
+Link: <https://assets.canalblog.com/c/site/v2024.20.02/canalblog.f878b290.css>; rel="stylesheet"
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=31536000;preload
+Title: Canalblog - Les meilleurs blogs et la meilleure plateforme de blog
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Meta-Charset: utf-8
+X-Meta-Description: Le portail d'Canalblog ! Le meilleur de l'info et des articles de nos blogueurs ! Créez facilement et gratuitement un blog sur Canalblog ! Forums, communautés et annuaire de blog sur Canalblog !
+X-Meta-Viewport: width=device-width
+X-Xss-Protection: 1;mode=block

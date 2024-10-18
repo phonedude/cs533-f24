@@ -3,11 +3,15 @@ use strict;
 use warnings;
 use LWP::UserAgent;
 use HTTP::Cookies;
+use HTTP::Response;
 use IO::Socket::SSL;
 use Mozilla::CA;
 use List::Util qw(min max sum);
 use POSIX qw(floor);
 use Term::ProgressBar::Simple;
+use File::Path qw(make_path);
+use File::Basename;
+use Digest::MD5 qw(md5_hex);
 
 # Check if filename is provided as an argument
 if (@ARGV != 1) {
@@ -36,6 +40,12 @@ print "Number of URLs: $num_urls\n";
 
 my $progress = Term::ProgressBar::Simple->new($num_urls);
 
+# Create a directory to store responses
+my $responses_dir = "responses";
+unless (-d $responses_dir) {
+    make_path($responses_dir) or die "Failed to create directory '$responses_dir': $!";
+}
+
 # Arrays to store data for summary statistics
 my @num_cookies_list;
 my @site_data; # Array of hashes for each site's data
@@ -50,8 +60,13 @@ my %cookie_attribute_counts = (
     Path_NotRoot    => 0,
 );
 
-foreach my $url (@urls) {
+my $counter = 0;
+
+foreach my $original_url (@urls) {
+    $counter++;
+
     # Add 'http://' if the URL doesn't have a scheme
+    my $url = $original_url;
     unless ($url =~ m{^https?://}) {
         $url = "http://$url";
     }
@@ -68,22 +83,14 @@ foreach my $url (@urls) {
         timeout => 20,
     );
 
-    my @responses;
-
-    # Add a handler to capture response codes and cookies at each step
-    $ua->add_handler("response_header", sub {
-        my ($response, $ua, $h) = @_;
-        my $code    = $response->code;
-        my @cookies = $response->header('Set-Cookie');
-        push @responses, {
-            code    => $code,
-            cookies => \@cookies,
-        };
-        return;
-    });
-
     # Perform the request
     my $response = $ua->get($url);
+
+    # If the initial request failed and the URL didn't have a scheme, try 'https://'
+    if ($response->is_error && $original_url !~ m{^https?://}) {
+        $url = "https://$original_url";
+        $response = $ua->get($url);
+    }
 
     # Get the final response code
     my $final_code = $response->code;
@@ -147,6 +154,17 @@ foreach my $url (@urls) {
         num_cookies  => $num_cookies,
     };
 
+    # Save HTTP headers to a file (only the head)
+    my $response_filename = sanitize_filename($url);
+    my $response_filepath = "$responses_dir/$response_filename.txt";
+
+    open(my $resp_fh, '>', $response_filepath) or die "Could not open file '$response_filepath' $!";
+    print $resp_fh "URL: $url\n";
+    print $resp_fh "Status Code: " . $response->code . " " . $response->message . "\n";
+    print $resp_fh "Headers:\n";
+    print $resp_fh $response->headers_as_string;
+    close($resp_fh);
+
     # Update the progress bar
     $progress++;
 }
@@ -162,7 +180,7 @@ print $md_fh "| No. | URL | Final Status Code | Number of Cookies |\n";
 print $md_fh "|-----|-----|-------------------|-------------------|\n";
 
 # Table Rows
-my $counter = 1;
+$counter = 1;
 foreach my $site (@site_data) {
     print $md_fh "| $counter | $site->{url} | $site->{final_code} | $site->{num_cookies} |\n";
     $counter++;
@@ -202,3 +220,18 @@ print $md_fh "  - **Path not '/'**: $cookie_attribute_counts{Path_NotRoot}\n";
 close($md_fh);
 
 print "\nReport generated in 'README.md'\n";
+print "HTTP headers saved in the '$responses_dir' directory.\n";
+
+# Function to sanitize filenames based on URL
+sub sanitize_filename {
+    my ($url) = @_;
+    # Remove scheme (http:// or https://)
+    $url =~ s{^https?://}{};
+    # Replace non-alphanumeric characters with underscores
+    $url =~ s{[^a-zA-Z0-9]}{_}g;
+    # Limit filename length to avoid filesystem limitations
+    $url = substr($url, 0, 50);
+    # Append MD5 hash of the URL to ensure uniqueness
+    my $hash = md5_hex($url);
+    return "$url\_$hash";
+}

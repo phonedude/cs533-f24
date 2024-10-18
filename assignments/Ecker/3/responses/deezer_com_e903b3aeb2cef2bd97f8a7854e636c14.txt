@@ -1,0 +1,44 @@
+URL: http://deezer.com
+Status Code: 200 OK
+Headers:
+Cache-Control: no-store, no-cache, must-revalidate
+Connection: close
+Connection: Transfer-Encoding
+Date: Fri, 18 Oct 2024 22:19:36 GMT
+Pragma: no-cache
+Server: Apache
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Fri, 18 Oct 2024 22:19:36 GMT
+Client-Peer: 23.212.251.12:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=FR/O=Gandi/CN=Gandi RSA Domain Validation Secure Server CA 3
+Client-SSL-Cert-Subject: /CN=*.deezer.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy-Report-Only: upgrade-insecure-requests ; report-uri /csp-report
+Content-Security-Policy-Report-Only: block-all-mixed-content ; report-uri /csp-report
+Link: <https://e-cdn-files.dzcdn.net/cache/css/sass_c/bootstrap-tempo.28eecc423b5dcc4cb869.css>; as="style"; rel="preload"; nopush
+P3p: policyref="/w3c/p3p.xml" CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+Set-Cookie: sid=fr8739b97f3dbf210f02e672db07746610d08f8c; path=/; domain=.deezer.com; secure; HttpOnly; SameSite=None
+Set-Cookie: dzr_uniq_id=dzr_uniq_id_fr03e8b0114b8493de4bef49bced63c054e45755; expires=Wed, 16 Apr 2025 22:19:36 GMT; Max-Age=15552000; path=/; domain=.deezer.com; secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Deezer | Listen to music | Online music streaming platform
+X-Akamai-Transformed: 9 14162 0 pmb=mTOE,1
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Host: blm-web-130
+X-Meta-Charset: utf-8
+X-Meta-Description: The power of music. 120 million tracks, new music, exclusive features, on iOS and Android. Discover now
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Description: The power of music. 120 million tracks, new music, exclusive features, on iOS and Android. Discover now
+X-Meta-Twitter-Image: https://cdn-files.dzcdn.net/img/common/og-deezer-logo.png
+X-Meta-Twitter-Site: @deezer
+X-Meta-Twitter-Title: Deezer | Listen to music | Online music streaming platform
+X-Meta-Twitter-Url: https://www.deezer.com/us/
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Org: FR
+X-Ua-Compatible: IE=edge,chrome=1,requiresActiveX=true

@@ -1,0 +1,27 @@
+URL: http://doi.org
+Status Code: 200 OK
+Headers:
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:38 GMT
+Via: 1.1 9b26879979e6603c426ea24fcf38661c.cloudfront.net (CloudFront)
+Accept-Ranges: bytes
+ETag: "40ca3249393c605326f122c98984af8a"
+Server: AmazonS3
+Content-Encoding: gzip
+Content-Length: 6951
+Content-Type: text/html
+Last-Modified: Tue, 17 Sep 2024 17:33:27 GMT
+Client-Date: Fri, 18 Oct 2024 22:19:37 GMT
+Client-Peer: 3.163.80.57:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
+Client-SSL-Cert-Subject: /CN=doi.org
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Amz-Cf-Id: HT_55Mc3ncpgM05MO9qPNHd55K1kOZvL8KR_fG3EoBzIyRN__MCZ2Q==
+X-Amz-Cf-Pop: ATL58-P7
+X-Amz-Meta-Md5chksum: 40ca3249393c605326f122c98984af8a
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Miss from cloudfront

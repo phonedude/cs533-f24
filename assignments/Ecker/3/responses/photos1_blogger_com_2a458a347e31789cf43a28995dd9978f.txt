@@ -1,0 +1,23 @@
+URL: https://photos1.blogger.com
+Status Code: 404 Not Found
+Headers:
+Cache-Control: public, max-age=300
+Connection: close
+Date: Fri, 18 Oct 2024 22:15:37 GMT
+Age: 266
+Server: sffe
+Content-Length: 43
+Content-Type: image/gif
+Expires: Fri, 18 Oct 2024 22:20:37 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:20:03 GMT
+Client-Peer: 172.253.63.147:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=*.blogger.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0

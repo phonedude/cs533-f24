@@ -1,0 +1,26 @@
+URL: https://godaddy.com
+Status Code: 403 Forbidden
+Headers:
+Cache-Control: max-age=0, no-cache, no-store
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:45 GMT
+Pragma: no-cache
+Server: AkamaiGHost
+Content-Length: 367
+Content-Type: text/html
+Expires: Fri, 18 Oct 2024 22:19:45 GMT
+Client-Date: Fri, 18 Oct 2024 22:19:45 GMT
+Client-Peer: 23.13.154.6:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
+Client-SSL-Cert-Subject: /C=US/ST=Arizona/L=Tempe/O=GoDaddy Inc./CN=*.godaddy.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Mime-Version: 1.0
+Server-Timing: ak_p; desc="1729289985953_400321166_99666508_16_15964_22_26_-";dur=1
+Title: Access Denied
+X-ARC: 6a
+X-Frame-Options: DENY
+X-ORIGIN-TAG: frontdoor

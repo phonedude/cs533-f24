@@ -1,0 +1,6 @@
+URL: https://linktr.ee
+Status Code: 500 Header line too long (limit is 8192)
+Headers:
+Content-Type: text/plain
+Client-Date: Fri, 18 Oct 2024 22:19:52 GMT
+Client-Warning: Internal response

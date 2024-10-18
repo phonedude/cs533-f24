@@ -1,0 +1,43 @@
+URL: http://fb.me
+Status Code: 200 OK
+Headers:
+Cache-Control: private, no-cache, no-store, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:40 GMT
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html; charset="utf-8"
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Fri, 18 Oct 2024 22:19:40 GMT
+Client-Peer: 31.13.66.35:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Menlo Park/O=Meta Platforms, Inc./CN=*.facebook.com
+Client-SSL-Cipher: TLS_CHACHA20_POLY1305_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: default-src data: blob: 'self' https://*.fbsbx.com 'unsafe-inline' *.facebook.com *.fbcdn.net 'unsafe-eval';script-src *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'unsafe-inline' blob: data: 'self' connect.facebook.net 'unsafe-eval' https://*.google-analytics.com *.google.com;style-src *.fbcdn.net data: *.facebook.com 'unsafe-inline' https://fonts.googleapis.com;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' http://localhost:3103 wss://gateway.facebook.com wss://edge-chat.facebook.com wss://snaptu-d.facebook.com wss://kaios-d.facebook.com/ v.whatsapp.net *.fbsbx.com *.fb.com https://*.google-analytics.com;font-src data: *.facebook.com *.fbcdn.net *.fbsbx.com https://fonts.gstatic.com;img-src *.fbcdn.net *.facebook.com data: https://*.fbsbx.com facebook.com *.cdninstagram.com fbsbx.com fbcdn.net connect.facebook.net *.carriersignal.info blob: android-webview-video-poster: *.whatsapp.net *.fb.com *.oculuscdn.com *.tenor.co *.tenor.com *.giphy.com https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://*.google-analytics.com;media-src *.cdninstagram.com blob: *.fbcdn.net *.fbsbx.com www.facebook.com *.facebook.com data: *.tenor.co *.tenor.com https://*.giphy.com;frame-src *.facebook.com *.fbsbx.com fbsbx.com data: www.instagram.com *.fbcdn.net https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://td.doubleclick.net *.google.com *.doubleclick.net;worker-src blob: *.facebook.com data:;block-all-mixed-content;upgrade-insecure-requests;
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Cross-Origin-Resource-Policy: same-origin
+Document-Policy: force-load-at-top
+Link: </data/manifest/>; crossorigin="use-credentials"; id="MANIFEST_LINK"; rel="manifest"
+Link: <https://static.xx.fbcdn.net/rsrc.php/yB/r/2sFJRNmJ5OP.ico>; rel="icon"
+Link: <https://static.xx.fbcdn.net/rsrc.php/v4/yP/l/0,cross/9LBDXwreWca.css>; crossorigin="anonymous"; data-bootloader-hash="B7kkvhv"; rel="stylesheet"; type="text/css"
+Link: <https://static.xx.fbcdn.net/rsrc.php/v4/yW/l/0,cross/yBJwnih9Pj9.css>; crossorigin="anonymous"; data-bootloader-hash="wXaVolg"; rel="stylesheet"; type="text/css"
+Permissions-Policy: accelerometer=(), attribution-reporting=(self), autoplay=(), bluetooth=(), browsing-topics=(self), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(self), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(self), fullscreen=(self), gamepad=*, geolocation=(self), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(self), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=(self);report-to="permissions_policy"
+Refresh: 0; URL=/unsupportedbrowser?_fb_noscript=1
+Report-To: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":259200,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown&brsid=7427243909426424663"}]}, {"max_age":21600,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/"}],"group":"permissions_policy"}
+Reporting-Endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", default="https://www.facebook.com/ajax/browser_error_reports/?device_level=unknown&brsid=7427243909426424663", permissions_policy="https://www.facebook.com/ajax/browser_error_reports/"
+Strict-Transport-Security: max-age=15552000; preload
+Title: Update Your Browser
+X-Content-Type-Options: nosniff
+X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=21, rtx=0, c=10, mss=1392, tbw=3407, tp=-1, tpl=-1, uplat=129, ullat=0
+X-FB-Debug: my64Pskv1I/KkJG2cZGpCKrTm8foPgNUIIQxIHCxA+4TYcte8QPa1ZVvtbNi3LQ1f2TfWkQ8QG7Jb3Fy/8GQ7g==
+X-Frame-Options: DENY
+X-Meta-Bingbot: noarchive
+X-Meta-Charset: utf-8
+X-Meta-Referrer: default
+X-XSS-Protection: 0

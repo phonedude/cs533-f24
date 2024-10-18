@@ -1,0 +1,97 @@
+URL: http://washingtonpost.com
+Status Code: 200 OK
+Headers:
+Cache-Control: max-age=60
+Connection: close
+Connection: Transfer-Encoding
+Date: Fri, 18 Oct 2024 22:21:08 GMT
+ETag: W/"qgylunhyg91rhjm"
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 18 Oct 2024 22:22:08 GMT
+Last-Modified: Friday, 18-Oct-2024 22:19:45 GMT
+Akamai-True-TTL: 120
+Client-Date: Fri, 18 Oct 2024 22:21:08 GMT
+Client-Peer: 96.7.18.230:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Entrust, Inc./OU=See www.entrust.net\/legal-terms/OU=(c) 2016 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1J
+Client-SSL-Cert-Subject: /C=US/ST=District of Columbia/L=Washington/jurisdictionC=US/jurisdictionST=Delaware/O=The Washington Post (WP Company LLC)/businessCategory=Private Organization/serialNumber=415412/CN=www.washingtonpost.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests
+Link: <https://www.washingtonpost.com/favicon.svg>; rel="icon"; type="image/svg+xml"
+Link: <https://www.washingtonpost.com/touch-icon-iphone.png>; rel="icon"; type="image/png"
+Link: <https://www.washingtonpost.com/touch-icon-iphone.png>; rel="apple-touch-icon"
+Link: <https://www.washingtonpost.com/touch-icon-ipad.png>; rel="apple-touch-icon"; sizes="152x152"
+Link: <https://www.washingtonpost.com/touch-icon-ipad-retina.png>; rel="apple-touch-icon"; sizes="167x167"
+Link: <https://www.washingtonpost.com/touch-icon-iphone-retina.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: </>; property="og:url"
+Link: <https://adserver-us.adtech.advertising.com>; rel="dns-prefetch"
+Link: <https://secure.adnxs.com>; rel="dns-prefetch"
+Link: <https://bidder.criteo.com>; rel="dns-prefetch"
+Link: <https://static.criteo.net>; rel="dns-prefetch"
+Link: <https://cdn.krxd.net>; rel="dns-prefetch"
+Link: <https://widgets.outbrain.com>; rel="dns-prefetch"
+Link: <https://images.outbrain.com>; rel="dns-prefetch"
+Link: <https://log.outbrain.com>; rel="dns-prefetch"
+Link: <https://amplifypixel.outbrain.com>; rel="dns-prefetch"
+Link: <https://odb.outbrain.com>; rel="dns-prefetch"
+Link: <https://js-sec.indexww.com>; rel="dns-prefetch"
+Link: <https://as-sec.casalemedia.com>; rel="dns-prefetch"
+Link: <https://as.casalemedia.com>; rel="dns-prefetch"
+Link: <https://sofia.trustx.org>; rel="dns-prefetch"
+Link: <https://c.amazon-adsystem.com>; rel="dns-prefetch"
+Link: <https://s.amazon-adsystem.com>; rel="dns-prefetch"
+Link: <https://aax.amazon-adsystem.com>; rel="dns-prefetch"
+Link: <https://t.teads.tv>; rel="dns-prefetch"
+Link: <https://beacon.krxd.net>; rel="dns-prefetch"
+Link: <https://unpkg.com>; rel="dns-prefetch"
+Link: <https://r.3gl.net>; rel="dns-prefetch"
+Link: <https://www.google-analytics.com>; rel="preconnect"
+Link: <https://www.googletagmanager.com>; rel="preconnect"
+Link: <https://adservice.google.com>; rel="preconnect"
+Link: <https://www.washingtonpost.com/>; itemprop="url"; rel="canonical"
+Link: <https://www.washingtonpost.com>; hreflang="en"
+Link: </assembler/_next/static/css/cd02d46013280e1a.css>; as="style"; rel="preload"
+Link: </assembler/_next/static/css/cd02d46013280e1a.css>; data-n-g=""; rel="stylesheet"
+Link: </assembler/_next/static/css/ecd3f72bb060a70c.css>; as="style"; rel="preload"
+Link: </assembler/_next/static/css/ecd3f72bb060a70c.css>; rel="stylesheet"
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=10002
+Server-Timing: origin; dur=0
+Server-Timing: ak_p; desc="1729290058293_400321355_1975650432_1000175_22772_21_24_-";dur=1
+Set-Cookie: wp_devicetype=0; expires=Sun, 17-Nov-2024 22:21:08 GMT; path=/; domain=.washingtonpost.com; secure; SameSite=None
+Set-Cookie: wp_ak_v_v=0|20210407; expires=Sun, 17-Nov-2024 22:21:08 GMT; path=/; domain=.washingtonpost.com; secure; SameSite=None
+Set-Cookie: wp_ak_kywrd_ab=1; expires=Sat, 02-Nov-2024 22:21:08 GMT; path=/; domain=.washingtonpost.com; secure; SameSite=None
+Set-Cookie: wp_ak_ob=1|20240131; max-age= 2592000; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Set-Cookie: wp_ak_signinv2=1|20230125; max-age=2592000; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Set-Cookie: wp_ak_om=1|20230731; max-age=2592000; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Set-Cookie: wp_ak_wab=0|2|1|0|1|1|0|0|1|20230418; max-age=31536000; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Set-Cookie: wp_ak_v_mab=0|0|3|1|20240926; max-age=31536000; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Set-Cookie: wp_geo=US|VA|544|23501|; max-age=3600; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Strict-Transport-Security: max-age=15768000
+Title: The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video - The Washington Post
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,1
+X-EdgeConnect-Cache-Status: 1
+X-Frame-Options: SAMEORIGIN
+X-Meta-Audio-Url: 
+X-Meta-Charset: utf-8
+X-Meta-Description: Breaking news, live coverage, investigations, analysis, video, photos and opinions from The Washington Post. Subscribe for the latest on U.S. and international news, politics, business, technology, climate change, health and wellness, sports, science, weather, lifestyle and more.
+X-Meta-External: true
+X-Meta-Google-Site-Verification: 6Bi3yUCN2g3lzvqapLfrbgkQxob5YCjmZidGa2qiM4g
+X-Meta-Keywords: washington d.c. news,dc news,virginia news,maryland news,breaking news video,photos,world news,local news,national news,us news,foreign news,dc traffic;dc weather,Obama,government,federal government,White House,dc sports,politics,politics news,political news,political opinion,environment,economy,technology,education,travel,dc,virginia,Maryland,washington post
+X-Meta-Magnet: 
+X-Meta-News-Keywords: washington d.c. news,dc news,virginia news,maryland news,breaking news video,photos,world news,local news,national news,us news,foreign news,dc traffic;dc weather,Obama,government,federal government,White House,dc sports,politics,politics news,political news,political opinion,environment,economy,technology,education,travel,dc,virginia,Maryland,washington post
+X-Meta-Next-Head-Count: 66
+X-Meta-Referrer: unsafe-url
+X-Meta-Robots: index,follow
+X-Meta-Theme: normal
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Site: 
+X-Meta-Viewport: width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.5, maximum-scale=2.0
+X-Origin-Cache: EXPIRED
+X-Origin-Upstream-Status: 200
+X-UA-Compatible: IE=edge,chrome=1
+X-Wp-Request-Id: 0.4b6bdc17.1729290058.75c20880

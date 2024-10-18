@@ -1,0 +1,81 @@
+URL: http://spiegel.de
+Status Code: 200 OK
+Headers:
+Cache-Control: public, max-age=0,s-maxage=90
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:05 GMT
+Via: 1.1 google
+Accept-Ranges: bytes
+Vary: X-Forwarded-Proto, X-Authorized-Sppur, Accept-Encoding
+Content-Length: 1619246
+Content-Type: text/html; charset=utf-8
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:20:08 GMT
+Client-Peer: 128.65.210.182:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Domain Validation Secure Server CA
+Client-SSL-Cert-Subject: /CN=www.spiegel.de
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: frame-ancestors 'self'
+Imagetoolbar: no
+Link: <https://www.spiegel.de/public/spon/json/manifest.json>; rel="manifest"
+Link: <https://cdn.prod.www.spiegel.de>; rel="preconnect"
+Link: <https://cdn.prod.www.spiegel.de>; rel="dns-prefetch"
+Link: <https://sp-spiegel-de.spiegel.de>; rel="preconnect"
+Link: <https://sp-spiegel-de.spiegel.de>; rel="dns-prefetch"
+Link: <https://www.spiegel.de/>; rel="canonical"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/favicon.ico>; rel="shortcut icon"; type="image/ico"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon.png>; rel="apple-touch-icon"; sizes="57x57"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon72.png>; rel="apple-touch-icon"; sizes="72x72"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon76.png>; rel="apple-touch-icon"; sizes="76x76"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon114.png>; rel="apple-touch-icon"; sizes="114x114"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon120.png>; rel="apple-touch-icon"; sizes="120x120"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon144.png>; rel="apple-touch-icon"; sizes="144x144"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon152.png>; rel="apple-touch-icon"; sizes="152x152"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/images/icons/touch-icon180.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/generated/css/styles.4bf0ccd3f7729c3bf42c.css>; as="style"; rel="preload"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/generated/js/commons.723d75480cfab8552016.js>; as="script"; rel="preload"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/generated/js/header.904fee8688181fc71cd7.js>; as="script"; rel="preload"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/generated/js/vendors.9b9685c11c1cc1f6081c.js>; as="script"; rel="preload"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/generated/js/index.88293dc63f2794c77330.js>; as="script"; rel="preload"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSans4UI-Bold.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSans4UI-Regular.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSlab4UICd-ExtraBold.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSans4-6SemiBold.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSerifTextUI-Regular.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSerifTextUI-Italic.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSerifTextUI-Bold.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSerifTextUI-BoldItalic.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://cdn.prod.www.spiegel.de/public/shared/fonts/SpiegelSerifDisplayUI-BoldItalic.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
+Link: <https://www.spiegel.de/schlagzeilen/index.rss>; rel="alternate"; title="DER SPIEGEL | RSS Schlagzeilen"; type="application/rss+xml"
+Link: <https://www.spiegel.de/index.rss>; rel="alternate"; title="DER SPIEGEL | RSS Nachrichten"; type="application/rss+xml"
+Link: <https://cdn.prod.www.spiegel.de/public/spon/generated/css/styles.4bf0ccd3f7729c3bf42c.css>; rel="stylesheet"
+Strict-Transport-Security: max-age=2592000;
+Title: DER SPIEGEL | Online-Nachrichten
+X-Cache: HIT
+X-Cache-Grace: 3600.000
+X-Meta-Apple-Itunes-App: app-id=424881832
+X-Meta-Author: DER SPIEGEL, Hamburg, Germany
+X-Meta-Charset: utf-8
+X-Meta-Copyright: DER SPIEGEL, Hamburg, Germany
+X-Meta-Description: Deutschlands führende Nachrichtenseite. Alles Wichtige aus Politik, Wirtschaft, Sport, Kultur, Wissenschaft, Technik und mehr.
+X-Meta-Email: spiegel_online@spiegel.de
+X-Meta-Google-Site-Verification: lwpSnwoyvMkHS9nHmLBZuYOashAHfooOHSHeA_KS7ek
+X-Meta-Last-Modified: 2024-10-19T00:09:22+02:00
+X-Meta-Locale: de_DE
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Msvalidate.01: 0EE91CCF2745FAE5C53BFE9A010D3C79
+X-Meta-Notdm: true
+X-Meta-Referrer: origin-when-cross-origin
+X-Meta-Robots: index, follow, noarchive, noodp
+X-Meta-Theme-Color: #e64415
+X-Meta-Theme-Color: #D03D12
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Creator: @derspiegel
+X-Meta-Twitter-Image: https://cdn.prod.www.spiegel.de/public/spon/images/logos/fb_logo_default.jpg
+X-Meta-Twitter-Site: @derspiegel
+X-Meta-Twitter-Title: DER SPIEGEL | Online-Nachrichten
+X-Meta-Viewport: width=device-width,initial-scale=1,user-scalable=yes

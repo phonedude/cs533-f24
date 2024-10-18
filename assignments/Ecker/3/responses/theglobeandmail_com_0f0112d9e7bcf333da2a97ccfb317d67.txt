@@ -1,0 +1,79 @@
+URL: http://theglobeandmail.com
+Status Code: 200 OK
+Headers:
+Cache-Control: private, max-age=60
+Connection: close
+Connection: Transfer-Encoding
+Date: Fri, 18 Oct 2024 22:20:12 GMT
+ETag: W/"45a85c-/5iGzfaNr+oLu5TrYMZxrehfyzY"
+Server: openresty
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 18 Oct 2024 22:21:12 GMT
+Last-Modified: Fri, 18 Oct 2024 22:18:12 GMT
+Client-Date: Fri, 18 Oct 2024 22:20:12 GMT
+Client-Peer: 23.38.126.11:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert EV RSA CA G2
+Client-SSL-Cert-Subject: /jurisdictionC=CA/jurisdictionST=Ontario/businessCategory=Private Organization/serialNumber=1458735/C=CA/ST=Ontario/L=Toronto/O=The Globe and Mail Inc./CN=www.theglobeandmail.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: media-src https: blob:; connect-src 'self' https: blob: wss:; child-src https: blob:; default-src https: wss: 'unsafe-inline' 'unsafe-eval' data:; font-src https: data:; img-src https: data: blob:;
+Link: <https://www.googletagmanager.com>; rel="preconnect dns-prefetch"
+Link: <https://securepubads.g.doubleclick.net>; rel="preconnect dns-prefetch"
+Link: <https://c.amazon-adsystem.com>; rel="preconnect dns-prefetch"
+Link: <https://fastlane.rubiconproject.com>; rel="preconnect dns-prefetch"
+Link: <https://s.go-mpulse.net>; rel="preconnect dns-prefetch"
+Link: <https://www.queryly.com>; rel="preconnect dns-prefetch"
+Link: <https://www.theglobeandmail.com>; rel="canonical"
+Link: </pf/dist/components/output-types/default.css?d=635>; id="fusion-output-type-styles"; rel="stylesheet"; type="text/css"
+Link: </pf/dist/components/combinations/default.css?d=635>; id="fusion-template-styles"; rel="stylesheet"; type="text/css"
+Link: <https://www.theglobeandmail.com/files/dev/www/cache-long/fonts/Pratt-Bold.woff2?v=3>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.theglobeandmail.com/files/dev/www/cache-long/fonts/GMsans-Web-Bold.woff2?v=3>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.theglobeandmail.com/files/dev/www/cache-long/fonts/Pratt.woff2?v=3>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.theglobeandmail.com/files/dev/www/cache-long/fonts/GMsans-Web-Regular.woff2?v=3>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.theglobeandmail.com/files/dev/www/cache-long/fonts/GMsans-Web-Label.woff2?v=3>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://assets.zephr.com/zephr-browser/1.6.2/zephr-browser.umd.js>; as="script"; rel="preload"
+Link: <https://www.theglobeandmail.com/pf/resources/assets/meta/apple-touch-icon.png?d=635>; rel="apple-touch-icon"; sizes="180x180"
+Link: <https://www.theglobeandmail.com/pf/resources/assets/meta/favicon-32x32.png?d=635>; rel="icon"; sizes="32x32"; type="image/png"
+Link: <https://www.theglobeandmail.com/pf/resources/assets/meta/favicon-16x16.png?d=635>; rel="icon"; sizes="16x16"; type="image/png"
+Link: <https://www.theglobeandmail.com/pf/resources/assets/meta/manifest.json?d=635>; rel="manifest"
+Link: <https://www.theglobeandmail.com/pf/resources/assets/meta/safari-pinned-tab.svg?d=635>; color="var(--color-red-500)"; rel="mask-icon"
+Link: <https://www.theglobeandmail.com/pf/resources/assets/meta/favicon.ico?d=635>; rel="shortcut icon"
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=33
+Server-Timing: origin; dur=0
+Server-Timing: ak_p; desc="1729290012248_388398599_2273022458_3229_6941_15_34_-";dur=1
+Set-Cookie: ak_user={"timezone":"EST","network":"cox","country_code":"US","region_code":"VA","city":"NORFOLK","ip":"24.254.225.47"}; expires=Fri, 18-Oct-2024 22:35:12 GMT; path=/; domain=.theglobeandmail.com
+Set-Cookie: akaas_AS_tgam_tgam_prod=2147483647~rv=26~id=038dea97a22cd50b08b121412eb57c38; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+Strict-Transport-Security: max-age=86400
+Title: The Globe and Mail: Canadian, World, Politics and Business News & Analysis
+X-Akamai-Transformed: 9 667489 0 pmb=mRUM,2
+X-Arc-Pb-Mx-Id: 00000000
+X-Arc-Pb-Request-Id: 0b9ecc7b-29a7-4be1-b386-60eea7079aed
+X-Arc-Pb-Request-Id: 509afb67-6f70-419a-b393-d719d156d9ea
+X-Arc-Request-Id: 0.77e2617.1729290012.877b91fa
+X-Arc-Ttl: -1
+X-Meta-Apple-Itunes-App: app-id=429228415,app-argument=https://www.theglobeandmail.com/homepage/,affiliate-data=ct=smart_banner&pt=456993
+X-Meta-Apple-Mobile-Web-App-Title: The Globe and Mail
+X-Meta-Application-Name: The Globe and Mail
+X-Meta-Arc-Id: /homepage
+X-Meta-Charset: utf-8
+X-Meta-Description: The Globe and Mail offers the most authoritative news in Canada, featuring national and international news
+X-Meta-Keywords: canadian news,national newspaper,daily news,breaking news,political news,world news,canadian business news,canadian newspapers online,international news,report on business,national news,canadian sports,travel information,globe and mail,globe & mail
+X-Meta-Msapplication-Config: https://www.theglobeandmail.com/pf/resources/assets/meta/browserconfig.xml?d=635
+X-Meta-Msapplication-Navbutton-Color: var(--color-red-500)
+X-Meta-Msapplication-TileColor: var(--color-red-500)
+X-Meta-Msapplication-TileImage: /pf/resources/assets/meta/mstile-144x144.png?d=635
+X-Meta-Theme-Color: var(--color-red-500)
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Description: The Globe and Mail offers the most authoritative news in Canada, featuring national and international news
+X-Meta-Twitter-Image: https://www.theglobeandmail.com/pf/resources/assets/meta/twitter-summary-240x240.png?d=635
+X-Meta-Twitter-Image-Alt: The Globe and Mail
+X-Meta-Twitter-Site: @globeandmail
+X-Meta-Twitter-Title: The Globe and Mail: Canadian, World, Politics and Business News & Analysis
+X-Meta-Twitter-Url: https://www.theglobeandmail.com/homepage/
+X-Meta-Viewport: width=device-width,minimum-scale=1,initial-scale=1

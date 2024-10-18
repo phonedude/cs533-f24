@@ -1,0 +1,44 @@
+URL: http://myaccount.google.com
+Status Code: 200 OK
+Headers:
+Cache-Control: no-cache, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:55 GMT
+Pragma: no-cache
+Accept-Ranges: bytes
+Server: sffe
+Vary: Accept-Encoding
+Content-Length: 78023
+Content-Type: text/html
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Last-Modified: Tue, 17 Sep 2024 06:00:00 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:19:55 GMT
+Client-Peer: 142.251.163.104:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=www.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy-Report-Only: script-src  'nonce-KnWFhVhEfccqZcivBbNYPA' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/www_google; base-uri 'none'
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/www_google
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="uxe-owners-acl/www_google"
+Cross-Origin-Resource-Policy: cross-origin
+Link: <https://www.gstatic.com/images/branding/googleg/2x/googleg_standard_color_192dp.png>; rel="apple-touch-icon-precomposed"; sizes="180x180"
+Link: <https://www.gstatic.com/images/branding/product/ico/googleg_standard_32dp.ico>; rel="icon"; sizes="32x32"; type="image/png"
+Link: <https://www.gstatic.com/images/branding/product/ico/googleg_standard_16dp.ico>; rel="icon"; sizes="16x16"; type="image/png"
+Link: <https://www.gstatic.com/images/branding/product/ico/googleg_alldp.ico>; rel="shortcut icon"
+Link: <https://www.google.com/account/about/>; rel="canonical"
+Link: <https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en>; nonce="KnWFhVhEfccqZcivBbNYPA"; rel="stylesheet"
+Link: <https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css>; nonce="KnWFhVhEfccqZcivBbNYPA"; rel="stylesheet"
+Link: </account/about/static/css/index.min.css?cache=8d9960b>; nonce="KnWFhVhEfccqZcivBbNYPA"; rel="stylesheet"
+Report-To: {"group":"uxe-owners-acl/www_google","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/www_google"}]}
+Title: Learn More About Google's Secure and Protected Accounts - Google
+X-Content-Type-Options: nosniff
+X-Meta-Charset: utf-8
+X-Meta-Description: Sign in to your Google Account and learn how to set up security and other account notifications to create a personalized, secure experience.
+X-Meta-Referrer: no-referrer
+X-Meta-Viewport: initial-scale=1, minimum-scale=1, width=device-width
+X-XSS-Protection: 0

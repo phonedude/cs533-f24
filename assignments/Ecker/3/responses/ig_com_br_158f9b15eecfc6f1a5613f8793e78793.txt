@@ -1,0 +1,18 @@
+URL: https://ig.com.br
+Status Code: 403 Forbidden
+Headers:
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:48 GMT
+Server: cloudflare
+Content-Length: 16
+Content-Type: text/plain; charset=UTF-8
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Alt-Svc: h3=":443"; ma=86400
+CF-RAY: 8d4be97d9da6073f-IAD
+Client-Date: Fri, 18 Oct 2024 22:19:48 GMT
+Client-Peer: 104.18.29.20:80
+Client-Response-Num: 1
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN

@@ -1,0 +1,45 @@
+URL: http://accounts.google.com
+Status Code: 200 OK
+Headers:
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:26 GMT
+Pragma: no-cache
+Accept-Ranges: none
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:19:26 GMT
+Client-Peer: 142.251.179.84:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=accounts.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Base: https://accounts.google.com/v3/signin/
+Content-Security-Policy: script-src 'nonce-9bCfXpmXAr5Ro39g32vEbg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Cross-Origin-Resource-Policy: same-site
+Link: <//www.gstatic.com>; rel="preconnect"
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Refresh: 0; url=/v3/signin/rejected?continue=https://accounts.google.com/&dsh=S-704466649:1729289966648982&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://accounts.google.com/&ifkv=ARpgrqfiKjJ7KMFAHGH0ruSBi0ziic-UppMtlzWNVkETlXu3YiSpWf5BLllylTHeJDC8d7tbL9lYIw&rhlk=js&rrk=47
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwz1IAnEYB2D5wxshDhEOYkMlCOFQd1JIQ4NFU0GCgUMfmnimEKedZ9CeQyRERCni4OzaYF9GRVEUnHonRUFDIHkSFQU1hr8HHmOeOYxWg3fAajizHTP3QoNN4nzxjQXwYrHJrlFUmkzCj4DOvjGV0tkmHqR1VsJ9U4vl8KrUYrdo-W0xB74UMvSK48tZmsXUk0IZfLip0DMG_ysk45G5SmUcK1bJjf3vVbJjJFCjFfyJ1-gPG5c10pHvU2kCT1wqnaO2pdIj2tMquTCWUymB-VOVCtgzqlEvTnk1msFpn0YevAtrpOCOuU57KFnqtIE-T53msNvU-Vm-P-zoyu5ufzHbUDC26o-GBFGOyuthKSbKghhaSsqRZDQhSGuC5HdyzmGe40cGOd4f59om_ZlV"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Sign in - Google Accounts
+X-Auto-Login: realm=com.google&args=continue%3Dhttps://accounts.google.com/
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Meta-Chrome: nointentdetection
+X-Meta-Description: 
+X-Meta-Referrer: origin
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Ua-Compatible: IE=edge
+X-XSS-Protection: 0

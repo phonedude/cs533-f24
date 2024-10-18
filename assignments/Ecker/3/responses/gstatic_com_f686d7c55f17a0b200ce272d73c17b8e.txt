@@ -1,0 +1,24 @@
+URL: https://gstatic.com
+Status Code: 404 Not Found
+Headers:
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:47 GMT
+Server: sffe
+Content-Length: 1561
+Content-Type: text/html; charset=UTF-8
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:19:47 GMT
+Client-Peer: 172.253.63.94:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=*.gstatic.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Cross-Origin-Resource-Policy: cross-origin
+Title: Error 404 (Not Found)!!1
+X-Content-Type-Options: nosniff
+X-Meta-Charset: utf-8
+X-Meta-Viewport: initial-scale=1, minimum-scale=1, width=device-width
+X-XSS-Protection: 0

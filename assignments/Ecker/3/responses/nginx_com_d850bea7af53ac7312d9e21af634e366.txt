@@ -1,0 +1,62 @@
+URL: http://nginx.com
+Status Code: 200 OK
+Headers:
+Cache-Control: max-age=300
+Connection: close
+Date: Fri, 18 Oct 2024 22:20:01 GMT
+Via: F5CDN
+Accept-Ranges: bytes
+Age: 167
+ETag: "4384b-624c79a53d695"
+Server: volt-cdn
+Vary: Accept-Encoding,User-Agent
+Content-Length: 276555
+Content-Type: text/html;charset=utf-8
+Last-Modified: Fri, 18 Oct 2024 22:12:46 GMT
+Client-Date: Fri, 18 Oct 2024 22:20:01 GMT
+Client-Peer: 159.60.190.101:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Entrust, Inc./OU=See www.entrust.net\/legal-terms/OU=(c) 2014 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1M
+Client-SSL-Cert-Subject: /C=US/ST=Washington/L=Seattle/jurisdictionC=US/jurisdictionST=Washington/O=F5, Inc./businessCategory=Private Organization/serialNumber=601692492/CN=www.f5.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: frame-ancestors 'self' *.cybersource.com *.salesforce.com *.force.com *.salesforce-sites.com ; form-action *.cybersource.com *.salesforce.com *.force.com 'self' *.salesforce-sites.com
+Link: <https://www.f5.com/go/product/welcome-to-nginx>; rel="canonical"
+Link: </etc.clientlibs/base/clientlibs/base-resources/resources/fonts/Proxima/Proxima-reg.woff2>; as="font"; crossorigin/="crossorigin/"; rel="preload"; type="font/woff2"
+Link: </etc.clientlibs/base/clientlibs/base-resources/resources/fonts/Neusa/Neusa-Reg.woff2>; as="font"; crossorigin/="crossorigin/"; rel="preload"; type="font/woff2"
+Link: </etc.clientlibs/f5-com/clientlibs/clientlib-base.2b389220ce38056f0c57919d76a98d18.css>; rel="stylesheet"; type="text/css"
+Link: </etc.clientlibs/f5-com/clientlibs/clientlib-components.94fc231f2bb936debde8b49db4cac744.css>; rel="stylesheet"; type="text/css"
+Link: <https://static.cloud.coveo.com>; crossorigin/="crossorigin/"; rel="preconnect"
+Link: </content/dam/f5-com/global-configuration/favicons/apple-touch-icon.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: </content/dam/f5-com/global-configuration/favicons/favicon-16x16.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/favicon-32x32.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/mstile-150x150.png>; rel="icon"; sizes="150x150"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/android-chrome-192x192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/android-chrome-512x512.png>; rel="icon"; sizes="512x512"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/android-chrome-192x192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: </etc.clientlibs/base/clientlibs/base-resources/resources/site.webmanifest>; rel="manifest"
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: AWSALB=3ui2P1gYcX2Ja+4ZkULxfwu6jCBuifTfNszVL8dcBsU9p5SkJKoBtR7pImdYcgeHkXgZGeDYAevf1m1qg8Hhf2FbevU+PYV+TdJQFqw2Z0X1JM5L2izQRmPNmX1p; Expires=Fri, 25 Oct 2024 22:15:33 GMT; Path=/
+Set-Cookie: AWSALBCORS=3ui2P1gYcX2Ja+4ZkULxfwu6jCBuifTfNszVL8dcBsU9p5SkJKoBtR7pImdYcgeHkXgZGeDYAevf1m1qg8Hhf2FbevU+PYV+TdJQFqw2Z0X1JM5L2izQRmPNmX1p; Expires=Fri, 25 Oct 2024 22:15:33 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: 692303=X+m40CoKiH37VA86cgi/JvqhWaa5pzfRSY0TrlN+sfi+VzFCSvL8COIZSv0CpipTWmtUDUFkYBxJDtJjdnqkjBqGCgdj8cy8GW8tfGwypIQbXVnl4fyo7q2F4+79+iboWULhqg9+7bWBTl2WUOa/+SEy91NOj2l7tJTIgQrfQ10iC1wB; path=/
+Set-Cookie: TS01dc4fc6=018acff88d8f23702700832798c8c9a5d81a34ff87086d82c17b04eb9ad159c756ebf27c3adef982c5a67f4ec4ba0ec779b8751d36; Path=/; Secure; HttpOnly; SameSite=Strict;
+Strict-Transport-Security: max-age=31536000
+Strict-Transport-Security: max-age=31536000
+Title: Welcome to F5 NGINX
+X-Cache-Status: HIT
+X-Content-Type-Options: nosniff
+X-Dispatcher: dispatcher1uswest2-b80
+X-Envoy-Upstream-Service-Time: 259
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: UTF-8
+X-Meta-Description: NIGINX is part of F5, and all previous NGINX.com links now redirect to content on F5.com. Don't worry, we still have all your needs covered to navigate to the pages you're looking for.
+X-Meta-Msapplication-TileColor: #ffffff
+X-Meta-Robots: 
+X-Meta-Template: content-page9
+X-Meta-Theme-Color: #ffffff
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Vhost: publish
+X-Volterra-Location: ny8-nyc
+X-Volterra-Location: ny8-nyc

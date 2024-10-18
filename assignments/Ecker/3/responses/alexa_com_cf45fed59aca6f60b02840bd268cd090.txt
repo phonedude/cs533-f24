@@ -1,0 +1,21 @@
+URL: http://alexa.com
+Status Code: 200 OK
+Headers:
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:27 GMT
+Server: awselb/2.0
+Content-Length: 6779
+Content-Type: text/html; charset=utf-8
+Client-Date: Fri, 18 Oct 2024 22:19:26 GMT
+Client-Peer: 23.22.17.172:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
+Client-SSL-Cert-Subject: /CN=alexa.com
+Client-SSL-Cipher: ECDHE-RSA-AES128-GCM-SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Link: <https://m.media-amazon.com/images/I/01fIEYtWhrL.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: <https://m.media-amazon.com/images/I/01Ad5Lj8LIL.png>; rel="icon"; sizes="32x32"; type="image/png"
+Title: Amazon Alexa
+X-Meta-Viewport: width=device-width, initial-scale=1

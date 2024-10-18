@@ -1,0 +1,6 @@
+URL: https://amebaownd.com
+Status Code: 500 Can't connect to amebaownd.com:443 (No address associated with hostname)
+Headers:
+Content-Type: text/plain
+Client-Date: Fri, 18 Oct 2024 22:19:30 GMT
+Client-Warning: Internal response

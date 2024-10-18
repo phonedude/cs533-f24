@@ -1,0 +1,72 @@
+URL: http://mail.ru
+Status Code: 200 OK
+Headers:
+Cache-Control: no-cache,no-store,must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:53 GMT
+Pragma: no-cache
+Server: nginx/1.26.2
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 19 Oct 2023 22:19:53 GMT
+Client-Date: Fri, 18 Oct 2024 22:19:54 GMT
+Client-Peer: 217.69.139.202:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign RSA OV SSL CA 2018
+Client-SSL-Cert-Subject: /C=RU/ST=Moscow/L=Moscow/O=VK LLC/CN=mail.ru
+Client-SSL-Cipher: ECDHE-RSA-AES256-GCM-SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: base-uri 'self'; default-src 'none'; form-action https://account.mail.ru https://auth.mail.ru https://e.mail.ru https://yandex.ru https://widgets.mail.ru 'self'; script-src https://*.adlooxtracking.com https://*.adlooxtracking.ru https://*.adsafeprotected.com https://*.doubleverify.com https://*.imgsmail.ru https://*.mail.ru https://*.moatads.com https://*.mradx.net https://*.serving-sys.com https://*.serving-sys.ru https://*.vk.com https://*.vk.ru https://*.weborama-tech.ru https://*.weborama.fr https://an.yandex.ru https://b.delivery.consentmanager.net https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://consentmanager.mgr.consensu.org https://home.mrgcdn.ru https://iframe.s3.yandex.net https://mail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://ok.ru https://st.mycdn.me https://st.okcdn.ru https://static.dzeninfra.ru https://vk.com https://vk.ru https://yandex.ru https://yandex.st https://yastat.net https://yastatic.net 'unsafe-eval' 'unsafe-inline' 'nonce-e244efd3a66d55a20091e417e0eacdae' 'strict-dynamic' 'report-sample'; connect-src https://*.adlooxtracking.com https://*.adlooxtracking.ru https://*.adsafeprotected.com https://*.cold-video.dzeninfra.ru https://*.doubleverify.com https://*.dzen.ru https://*.extcdn.dzeninfra.ru https://*.hot-video.dzeninfra.ru https://*.imgsmail.ru https://*.mail.ru https://*.moatads.com https://*.mradx.net https://*.ok.ru https://api.rustore.ru https://*.serving-sys.com https://*.serving-sys.ru https://*.vk.com https://*.vk.ru https://*.weborama-tech.ru https://*.weborama.fr https://an.yandex.ru https://api-hprof.odkl.ru https://avatars.dzeninfra.ru https://b.delivery.consentmanager.net https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://cdn.dzen.ru https://cold-video.dzeninfra.ru https://consentmanager.mgr.consensu.org https://dzen.ru https://home.mrgcdn.ru https://jstracer.yandex.ru https://log.strm.yandex.ru https://mail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://ok.ru https://playlog.dzen.ru https://s3.dzeninfra.ru https://static.dzeninfra.ru https://strm.yandex.ru https://verify.yandex.ru https://video.dzen.ru https://vk.com https://vk.ru https://yandex.ru https://yandex.st https://yastat.net https://yastatic.net https://ymetrica1.com; img-src blob: data: https://*.mail.ru https://*.radar.imgsmail.ru https://static.rustore.ru https://*.userapi.com https://*.zen.zeta.dzen.ru https://presizer.imgsmail.ru https://i.mycdn.me https://a.delivery.consentmanager.net https://ad.adriver.ru https://amc.yandex.ru https://an.yandex.ru https://avatars.dzeninfra.ru https://avatars.mds.yandex.net https://bs.serving-sys.com https://bs.serving-sys.ru https://bs.yandex.ru https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://cdn.dzen.ru https://counter.yadro.ru https://d.mradx.net https://dzen.ru https://favicon.yandex.net https://fmdata.imgsmail.ru https://home.imgsmail.ru https://img.imgsmail.ru https://imgs2.imgsmail.ru https://impression.appsflyer.com https://likemore-go.imgsmail.ru https://limg.imgsmail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://mgcomru.solution.weborama.fr https://pixel.adlooxtracking.ru https://playlog.dzen.ru https://pogoda.imgsmail.ru https://promoimages.hb.bizmrg.com https://pulse.imgsmail.ru https://r.mradx.net https://s3.dzeninfra.ru https://static.dzeninfra.ru https://storage.mds.yandex.net https://video.dzen.ru https://prod-backend.hb.bizmrg.com https://vk.com https://vk.ru https://vkplay.ru https://wcm-ru.frontend.weborama.fr https://wcm.weborama-tech.ru https://www.tns-counter.ru https://yandex.ru https://yastatic.net 'self'; manifest-src https://limg.imgsmail.ru; media-src blob: data: https://*.cold-video.dzeninfra.ru https://*.extcdn.dzeninfra.ru https://*.hot-video.dzeninfra.ru https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://*.ok.ru https://*.strm.yandex.ru https://*.vk.com https://*.vk.ru https://*.yandex.net https://cdn.dzen.ru https://cold-video.dzeninfra.ru https://mail.ru https://ok.ru https://strm.yandex.ru https://video.dzen.ru https://vk.com https://vk.ru https://yandex.ru https://yandex.st https://yastat.net https://yastatic.net; style-src blob: https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://b.delivery.consentmanager.net https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://consentmanager.mgr.consensu.org https://home.mrgcdn.ru https://static.dzeninfra.ru https://yandex.st https://yastat.net https://yastatic.net 'unsafe-eval' 'unsafe-inline'; font-src blob: data: https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://an.yandex.ru https://yastat.net https://yastatic.net 'self'; frame-src https://*.doubleverify.com https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://*.ok.ru https://*.vk.com https://*.vk.ru https://*.yandex.ru https://app.appsflyer.com https://awaps.yandex.net https://mail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://mini.vkplay.ru https://ok.ru https://vk.com https://vk.ru https://yandex.ru https://yastat.net https://yastatic.net https://widgets.mail.ru; report-uri https://cspreport.mail.ru/home?disposition=report&rev=16.07.24;
+Link: <//limg.imgsmail.ru/splash/v/i/favicon-fp-4374578eb3.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <//limg.imgsmail.ru/splash/v/i/apple-touch-icon-144x144-fp-9d5ae59f30.png>; rel="apple-touch-icon-precomposed"; sizes="144x144"
+Link: <//limg.imgsmail.ru/splash/v/i/apple-touch-icon-114x114-fp-5ab3552268.png>; rel="apple-touch-icon-precomposed"; sizes="114x114"
+Link: <//limg.imgsmail.ru/splash/v/i/apple-touch-icon-72x72-fp-c2f9d14764.png>; rel="apple-touch-icon-precomposed"; sizes="72x72"
+Link: <//limg.imgsmail.ru/splash/v/i/apple-touch-icon-57x57-fp-2439ed2dfc.png>; rel="apple-touch-icon-precomposed"
+Link: <https://chrome.google.com/webstore/detail/egfgboclmgbokjeenpnghneoaogefnjn>; id="default-webstore-link"; rel="chrome-webstore-item"
+Link: </s/v/i/share-fp-2e87f99290.png>; rel="image_src"
+Set-Cookie: act=9d286a6269dc4c88a23a83f11d9a1800; path=/; domain=.mail.ru; Secure; HttpOnly; SameSite=None
+Set-Cookie: o=:3074:ABU=.m; Path=/; Domain=mail.ru; Expires=Sat, 18 Oct 2025 22:19:53 GMT
+Set-Cookie: oid=k9hyZNiohpLnuNQRJUZ7; Path=/; Domain=mail.ru; Max-Age=315360000
+Set-Cookie: mrcu=760D6712DF0902DE3C242FE1FE18; expires=Mon, 16 Oct 2034 22:19:53 GMT; path=/; domain=.mail.ru; Secure; HttpOnly; SameSite=None
+Title: Mail: почта, поиск в интернете, новости, игры
+X-Content-Type-Options: nosniff
+X-ETime: 0.280
+X-Frame-Options: SAMEORIGIN
+X-Host: lf125.m.smailru.net
+X-Meta-Charset: utf-8
+X-Meta-Description: Почта Mail — крупнейшая бесплатная почта, быстрый и удобный интерфейс, неограниченный объем ящика, надежная защита от спама и вирусов, мобильная версия и приложения для смартфонов. Доступ по IMAP, SMS-уведомления, интерфейс на разных языках и темы оформления Почты. Также на Mail: новости, поиск в интернете, авто, спорт, игры, знакомства, погода, работа.
+X-Meta-Keywords: почта, создать почту, почтовый ящик, почта для телефона, регистрация в почте, бесплатная электронная почта, новости, поиск в интернете, авто, спорт, игры, знакомства, погода, работа
+X-Meta-Msapplication-Name: Mail
+X-Meta-Msapplication-Navbutton-Color: #2A79F6
+X-Meta-Msapplication-Notification: frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://news.mail.ru/rss/&id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://news.mail.ru/rss/&id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://news.mail.ru/rss/&id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://news.mail.ru/rss/&id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://news.mail.ru/rss/&id=5; cycle=1
+X-Meta-Msapplication-Square150x150logo: //limg.imgsmail.ru/splash/v/i/mstile-150x150-fp-140ec4d231.png
+X-Meta-Msapplication-Square310x310logo: //limg.imgsmail.ru/splash/v/i/mstile-310x310-fp-63638ee34d.png
+X-Meta-Msapplication-Square70x70logo: //limg.imgsmail.ru/splash/v/i/mstile-70x70-fp-e0ece2a92b.png
+X-Meta-Msapplication-Starturl: /
+X-Meta-Msapplication-TileColor: #2A79F6
+X-Meta-Msapplication-TileImage: //limg.imgsmail.ru/splash/v/i/mstile-144x144-fp-9d5ae59f30.png
+X-Meta-Msapplication-Tooltip: Mail
+X-Meta-Msapplication-Wide310x150logo: //limg.imgsmail.ru/splash/v/i/mstile-310x150-fp-94c8c665a2.png
+X-Meta-Referrer: always
+X-Meta-Twitter-App-Id-Googleplay: ru.mail.mailapp
+X-Meta-Twitter-App-Id-Ipad: id511310430
+X-Meta-Twitter-App-Id-Iphone: id511310430
+X-Meta-Twitter-App-Name-Googleplay: Почта Mail
+X-Meta-Twitter-App-Name-Ipad: Почта Mail
+X-Meta-Twitter-App-Name-Iphone: Почта Mail
+X-Meta-Twitter-App-Url-Googleplay: https://play.google.com/store/apps/details?id=ru.mail.mailapp
+X-Meta-Twitter-App-Url-Ipad: https://itunes.apple.com/RU/app/id511310430?mt=8
+X-Meta-Twitter-App-Url-Iphone: https://itunes.apple.com/RU/app/id511310430?mt=8
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Creator: @mailru
+X-Meta-Twitter-Description: Mail — крупнейшая бесплатная почта, быстрый и удобный интерфейс, неограниченный объем ящика, надежная защита от спама и вирусов, мобильная версия и приложения для смартфонов. Также на Mail: новости, поиск в интернете, игры, авто, спорт, знакомства, погода, работа
+X-Meta-Twitter-Domain: mail.ru
+X-Meta-Twitter-Image: /s/v/i/share-fp-2e87f99290.png
+X-Meta-Twitter-Site: @mailru
+X-Meta-Twitter-Title: Mail: почта, поиск в интернете, новости, игры
+X-Meta-Viewport: width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=4
+X-Mru-Request-Id: 55d394b3
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1; mode=block; report=https://cspreport.mail.ru/xxssprotection

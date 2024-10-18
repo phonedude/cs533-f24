@@ -1,0 +1,26 @@
+URL: https://imdb.com
+Status Code: 403 Forbidden
+Headers:
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:49 GMT
+Via: 1.1 3b9a4e8ac030b86036f01eb0511155ee.cloudfront.net (CloudFront)
+Server: Server
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Type: text/html
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Fri, 18 Oct 2024 22:19:49 GMT
+Client-Peer: 13.225.212.152:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M01
+Client-SSL-Cert-Subject: /CN=us.dd.imdb.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Title: 403 Forbidden
+X-Amz-Cf-Id: Itfq79T9uWPy1bvb5GslhEWPHeQwSsmryaGyo76a2ecAQWJDAvrZkQ==
+X-Amz-Cf-Pop: ATL59-P10
+X-Amz-Rid: G81120WQG4Z76AX6K5GK
+X-Cache: Error from cloudfront

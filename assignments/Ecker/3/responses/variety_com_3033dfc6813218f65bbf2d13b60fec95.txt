@@ -1,0 +1,50 @@
+URL: http://variety.com
+Status Code: 200 OK
+Headers:
+Cache-Control: max-age=300, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:20:56 GMT
+Accept-Ranges: bytes
+Server: nginx
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Client-Date: Fri, 18 Oct 2024 22:20:56 GMT
+Client-Peer: 192.0.66.176:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E5
+Client-SSL-Cert-Subject: /CN=variety.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: frame-ancestors 'none'
+Content-Security-Policy-Report-Only: default-src data: 'unsafe-inline' 'unsafe-eval' https: blob: http://*.files.wordpress.com wss://variety.com; report-uri https://pmcuri.report-uri.com/r/d/csp/reportOnly
+Host-Header: a9130478a60e5f9135f765b23f26593b
+Link: <https://variety.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://wp.me/c8uak>; rel=shortlink
+Strict-Transport-Security: max-age=300
+Title: Variety
+Title: Variety
+X-Cache: MISS
+X-Hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+X-Meta-AlexaVerifyID: 4IBqfMBcohHTnitnTLanYijElhs
+X-Meta-Apple-Mobile-Web-App-Status-Bar-Style: black-translucent
+X-Meta-Charset: UTF-8
+X-Meta-Description: Entertainment news, film reviews, awards, film festivals, box office, entertainment industry conferences
+X-Meta-Generator: WordPress 6.5.5
+X-Meta-Msapplication-Config: https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/browserconfig.xml
+X-Meta-Msapplication-TileColor: #eff4ff
+X-Meta-Msapplication-TileImage: https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-144x144.png
+X-Meta-Msapplication-TileImage: https://variety.com/wp-content/uploads/2018/06/variety-favicon.png?w=128
+X-Meta-Robots: max-image-preview:large
+X-Meta-Robots: noai, noimageai
+X-Meta-Robots: index, follow
+X-Meta-Theme-Color: #ffffff
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Site: @variety
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Powered-By: WordPress VIP <https://wpvip.com>
+X-Rq: dca8 96 184 443
+X-UA-Compatible: IE=Edge

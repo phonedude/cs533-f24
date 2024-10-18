@@ -1,0 +1,88 @@
+URL: http://independent.co.uk
+Status Code: 200 OK
+Headers:
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:49 GMT
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Age: 26
+ETag: W/"456b7-l9eEvDJTMhX4zIpzx0nrm2JkjKs-gzip"
+Content-Language: en
+Content-Length: 284343
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Cache-Tag: independent.co.uk,v8.13.1,us,section_1741
+Canary: 1
+Client-Date: Fri, 18 Oct 2024 22:19:49 GMT
+Client-Peer: 151.101.193.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q2
+Client-SSL-Cert-Subject: /CN=*.independent.co.uk
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Link: </manifest.json>; crossorigin="use-credentials"; rel="manifest"
+Link: <https://www.independent.co.uk/us>; rel="canonical"
+Link: </img/shortcut-icons/favicon.ico>; rel="shortcut icon"; type="image/ico"
+Link: </img/shortcut-icons/icon-192x192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: </img/shortcut-icons/icon-512x512.png>; rel="icon"; sizes="512x512"; type="image/png"
+Link: </img/shortcut-icons/icon-192x192.png>; rel="apple-touch-icon"
+Link: <https://assets.the-independent.com/fonts/Independent-Serif-Medium.woff2>; as="font"; crossorigin="true"; rel="preload"; type="font/woff2"
+Link: <https://assets.the-independent.com/fonts/Independent-Serif-Medium-Italic.woff2>; as="font"; crossorigin="true"; rel="preload"; type="font/woff2"
+Link: <https://assets.the-independent.com/fonts/Independent-Sans-Regular.woff2>; as="font"; crossorigin="true"; rel="preload"; type="font/woff2"
+Link: <https://assets.the-independent.com/fonts/Independent-Sans-Medium.woff2>; as="font"; crossorigin="true"; rel="preload"; type="font/woff2"
+Link: <//cdn.taboola.com>; crossorigin="true"; rel="preconnect"
+Link: <https://www.independent.co.uk/us/rss>; rel="alternate"; title="RSS"; type="application/rss+xml"
+Link: <https://www.independent.co.uk/us>; hreflang="en-gb"; rel="alternate"
+Link: <https://www.the-independent.com/us>; hreflang="en-us"; rel="alternate"
+Link: <https://static.independent.co.uk/2024/08/16/18/harris-trump-15-august-split.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp>; as="image"; fetchpriority="high"; imagesizes="imageSizes"; imagesrcset="https://static.independent.co.uk/2024/08/16/18/harris-trump-15-august-split.jpg?quality=75&width=375&auto=webp 375w, https://static.independent.co.uk/2024/08/16/18/harris-trump-15-august-split.jpg?quality=75&width=640&auto=webp 640w"; rel="preload"
+Link: <https://static.independent.co.uk/2024/10/02/17/Election_2024-Trump_Shooting_66872.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp>; as="image"; fetchpriority="fetchPriority"; imagesizes="imageSizes"; imagesrcset="https://static.independent.co.uk/2024/10/02/17/Election_2024-Trump_Shooting_66872.jpg?quality=75&width=375&auto=webp 375w, https://static.independent.co.uk/2024/10/02/17/Election_2024-Trump_Shooting_66872.jpg?quality=75&width=640&auto=webp 640w"; rel="preload"
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: subscriber_origin=us ; Path=/ ;
+Set-Cookie: _pc_subscriber_origin=us ; Path=/ ;
+Set-Cookie: feat__support_now_donate_copy=false ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 12 Nov 2024 22:19:49 GMT ;
+Set-Cookie: feat__pubx_integration=true ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 17 Dec 2024 22:19:49 GMT ;
+Set-Cookie: esi-uuid=67627f5b-b464-4c86-a999-fd76ab91bd6b ; Path=/ ; Secure; HttpOnly; Expires=Sat, 18 Oct 2025 22:19:49 GMT ;
+Set-Cookie: esi-permutive-id=67627f5b-b464-4c86-a999-fd76ab91bd6b; Path=/ ; Secure ;
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: subscriber_origin=us ; Path=/ ;
+Set-Cookie: _pc_subscriber_origin=us ; Path=/ ;
+Set-Cookie: feat__support_now_donate_copy=false ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 12 Nov 2024 22:19:49 GMT ;
+Set-Cookie: feat__pubx_integration=true ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 17 Dec 2024 22:19:49 GMT ;
+Set-Cookie: esi-uuid=67627f5b-b464-4c86-a999-fd76ab91bd6b ; Path=/ ; Secure; HttpOnly; Expires=Sat, 18 Oct 2025 22:19:49 GMT ;
+Set-Cookie: esi-permutive-id=67627f5b-b464-4c86-a999-fd76ab91bd6b; Path=/ ; Secure ;
+Speculation-Rules: /speculationrules.json
+Strict-Transport-Security: max-age=63072000;  preload
+Title: The Independent | Latest news and features from US, UK and worldwide
+X-Backend: flow-us
+X-Cache: HIT, MISS
+X-Cache-Hits: 4, 0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Head-Hash: 
+X-Meta-AdPageType: Hub Page
+X-Meta-Amp-Google-Client-Id-Api: googleanalytics
+X-Meta-Category: US
+X-Meta-Charset: utf-8
+X-Meta-Description: Latest news, comment and features from The Independent US
+X-Meta-Page Path: /us
+X-Meta-Page Type: Category
+X-Meta-Robots: max-image-preview:large,max-video-preview:-1
+X-Meta-Sitename: The Independent
+X-Meta-Theme-Color: #f7f7f7
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Description: Latest news, comment and features from The Independent US
+X-Meta-Twitter-Image: https://www.independent.co.uk/img/shortcut-icons/icon-96x96.png
+X-Meta-Twitter-Site: @Independent
+X-Meta-Twitter-Title: The Independent | Latest news and features from US, UK and worldwide | The Independent
+X-Meta-Viewport: width=device-width,initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1
+X-Served-By: cache-lga21963-LGA, cache-iad-kiad7000051-IAD
+X-Timer: S1729289990.758582,VS0,VE9
+X-Xss-Protection: 1; mode=block

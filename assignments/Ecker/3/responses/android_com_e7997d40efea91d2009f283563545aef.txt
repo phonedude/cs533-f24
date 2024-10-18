@@ -1,0 +1,97 @@
+URL: http://android.com
+Status Code: 200 OK
+Headers:
+Cache-Control: private, max-age=3000
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:31 GMT
+Accept-Ranges: bytes
+Server: sffe
+Vary: Accept-Encoding
+Content-Length: 647998
+Content-Type: text/html
+Expires: Fri, 18 Oct 2024 22:19:31 GMT
+Last-Modified: Thu, 17 Oct 2024 15:38:00 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:19:31 GMT
+Client-Peer: 142.251.163.113:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=www.android.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/android
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="uxe-owners-acl/android"
+Link: <https://www.android.com/>; rel="canonical"
+Link: <https://www.android.com/>; hreflang="x-default"; rel="alternate"
+Link: <https://www.android.com/intl/da_dk/>; hreflang="da-dk"; rel="alternate"
+Link: <https://www.android.com/intl/de_be/>; hreflang="de-be"; rel="alternate"
+Link: <https://www.android.com/intl/de_de/>; hreflang="de-de"; rel="alternate"
+Link: <https://www.android.com/intl/en_au/>; hreflang="en-au"; rel="alternate"
+Link: <https://www.android.com/intl/en_be/>; hreflang="en-be"; rel="alternate"
+Link: <https://www.android.com/intl/en_ca/>; hreflang="en-ca"; rel="alternate"
+Link: <https://www.android.com/intl/en_hk/>; hreflang="en-hk"; rel="alternate"
+Link: <https://www.android.com/intl/en_ie/>; hreflang="en-ie"; rel="alternate"
+Link: <https://www.android.com/intl/en_in/>; hreflang="en-in"; rel="alternate"
+Link: <https://www.android.com/intl/en_nz/>; hreflang="en-nz"; rel="alternate"
+Link: <https://www.android.com/intl/en_ph/>; hreflang="en-ph"; rel="alternate"
+Link: <https://www.android.com/intl/en_uk/>; hreflang="en-gb"; rel="alternate"
+Link: <https://www.android.com/>; hreflang="en-us"; rel="alternate"
+Link: <https://www.android.com/intl/es-419_mx/>; hreflang="es-mx"; rel="alternate"
+Link: <https://www.android.com/intl/es_es/>; hreflang="es-es"; rel="alternate"
+Link: <https://www.android.com/intl/es_us/>; hreflang="es-us"; rel="alternate"
+Link: <https://www.android.com/intl/fil_ph/>; hreflang="fil-ph"; rel="alternate"
+Link: <https://www.android.com/intl/fr_be/>; hreflang="fr-be"; rel="alternate"
+Link: <https://www.android.com/intl/fr_ca/>; hreflang="fr-ca"; rel="alternate"
+Link: <https://www.android.com/intl/fr_fr/>; hreflang="fr-fr"; rel="alternate"
+Link: <https://www.android.com/intl/hi_in/>; hreflang="hi-in"; rel="alternate"
+Link: <https://www.android.com/intl/id_id/>; hreflang="id-id"; rel="alternate"
+Link: <https://www.android.com/intl/it_it/>; hreflang="it-it"; rel="alternate"
+Link: <https://www.android.com/intl/ja_jp/>; hreflang="ja-jp"; rel="alternate"
+Link: <https://www.android.com/intl/ko_kr/>; hreflang="ko-kr"; rel="alternate"
+Link: <https://www.android.com/intl/nl_be/>; hreflang="nl-be"; rel="alternate"
+Link: <https://www.android.com/intl/nl_nl/>; hreflang="nl-nl"; rel="alternate"
+Link: <https://www.android.com/intl/no_no/>; hreflang="no-no"; rel="alternate"
+Link: <https://www.android.com/intl/pl_pl/>; hreflang="pl-pl"; rel="alternate"
+Link: <https://www.android.com/intl/pt_br/>; hreflang="pt-br"; rel="alternate"
+Link: <https://www.android.com/intl/pt_pt/>; hreflang="pt-pt"; rel="alternate"
+Link: <https://www.android.com/intl/ru_ru/>; hreflang="ru-ru"; rel="alternate"
+Link: <https://www.android.com/intl/sv_se/>; hreflang="sv-se"; rel="alternate"
+Link: <https://www.android.com/intl/th_th/>; hreflang="th-th"; rel="alternate"
+Link: <https://www.android.com/intl/tr_tr/>; hreflang="tr-tr"; rel="alternate"
+Link: <https://www.android.com/intl/vi_vn/>; hreflang="vi-vn"; rel="alternate"
+Link: <https://www.android.com/intl/zh-CN_cn/>; hreflang="zh-cn"; rel="alternate"
+Link: <https://www.android.com/intl/zh-HK_hk/>; hreflang="zh-hk"; rel="alternate"
+Link: <https://www.android.com/intl/zh-TW_tw/>; hreflang="zh-tw"; rel="alternate"
+Link: </static/img/favicon.ico?cache=33c79c9>; rel="shortcut icon"
+Link: </static/img/favicons/16.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: </static/img/favicons/32.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: </static/img/favicons/60.png>; rel="apple-touch-icon"
+Link: </static/img/favicons/76.png>; rel="apple-touch-icon"; sizes="76x76"
+Link: </static/img/favicons/120.png>; rel="apple-touch-icon"; sizes="120x120"
+Link: </static/img/favicons/152.png>; rel="apple-touch-icon"; sizes="152x152"
+Link: </static/img/favicons/180.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: <https://lh3.googleusercontent.com/>; crossorigin="crossorigin"; rel="preconnect"
+Link: <https:///www.gstatic.com/>; crossorigin="crossorigin"; rel="preconnect"
+Link: <https://www.googletagmanager.com/>; crossorigin="crossorigin"; rel="preconnect"
+Link: </static/_css/home-critical.min.css?cache=f0d0aa9>; as="style"; onload="this.rel='stylesheet'"; rel="preload"
+Link: </static/_css/critical.min.css?cache=af1dabc>; as="style"; onload="this.rel='stylesheet'"; rel="preload"
+Link: </static/_css/home.min.css?cache=758f5d1>; rel="stylesheet"
+Link: </static/_css/base.min.css?cache=d252501>; rel="stylesheet"
+Link: </static/_css/sticky-dialog.min.css?cache=7ab12e5>; media="print"; onload="this.media='all'"; rel="stylesheet"
+Link: </static/_css/survey.min.css?cache=438c02b>; media="print"; onload="this.media='all'"; rel="stylesheet"
+Report-To: {"group":"uxe-owners-acl/android","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/android"}]}
+Title: Android | Do More With Google on Android Phones & Devices
+X-Content-Type-Options: nosniff
+X-Meta-Charset: utf-8
+X-Meta-Description: Discover more about Android & learn how our devices can help you Do more with Google with  hyper connectivity, powerful protection, Google apps, & Quick Share.
+X-Meta-Keywords: 
+X-Meta-Referrer: no-referrer
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Description: Discover more about Android & learn how our devices can help you Do more with Google with  hyper connectivity, powerful protection, Google apps, & Quick Share.
+X-Meta-Twitter-Image: https://lh3.googleusercontent.com/LYUDWiiqyTSiwzbPsJnYhfTzA3kUAoYgRy_1mpKTZOuLtpaMTaNdPKm8Xesm5mxA_zUSIGy6RO4PxhUnIDgTgbmroxgVpudnc0XKWW0cByZXppI2WGo
+X-Meta-Twitter-Site: https://www.android.com/
+X-Meta-Twitter-Title: Android | Do More With Google on Android Phones & Devices
+X-Meta-Viewport: initial-scale=1, minimum-scale=1, width=device-width
+X-XSS-Protection: 0

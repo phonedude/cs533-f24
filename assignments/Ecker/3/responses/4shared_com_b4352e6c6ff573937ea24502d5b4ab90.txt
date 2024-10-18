@@ -1,0 +1,36 @@
+URL: http://4shared.com
+Status Code: 200 OK
+Headers:
+Cache-Control: no-cache
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:24 GMT
+Pragma: no-cache
+Server: 573
+Content-Language: en
+Content-Type: text/html;charset=UTF-8
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Client-Date: Fri, 18 Oct 2024 22:19:25 GMT
+Client-Peer: 199.101.134.235:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
+Client-SSL-Cert-Subject: /CN=*.4shared.com
+Client-SSL-Cipher: ECDHE-RSA-AES128-GCM-SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Link: <https://static.4shared.com/css/index.4min.css?ver=-1698363617>; rel="stylesheet"; type="text/css"
+Link: <https://static.4shared.com/js/plugins/slick/slick.4min.css?ver=-1540363795>; rel="stylesheet"; type="text/css"
+Set-Cookie: day1host=h; Domain=.4shared.com; Expires=Sat, 19-Oct-2024 22:19:25 GMT; Path=/
+Title: 4shared.com - free file sharing and storage
+X-Meta-Apple-Itunes-App: app-id=444426162
+X-Meta-Charset: utf-8
+X-Meta-Description: Online file sharing and storage - 15 GB free web space. Easy registration. File upload progressor. Multiple file transfer. Fast download.
+X-Meta-Format-Detection: telephone=no
+X-Meta-Format-Detection: address=no
+X-Meta-Google-Site-Verification: TAHHq_0Z0qBcUDZV7Tcq0Qr_Rozut_akWgbrOLJnuVo
+X-Meta-Google-Site-Verification: 1pukuwcL35yu6lXh5AspbjLpwdedmky96QY43zOq89E
+X-Meta-Google-Site-Verification: maZ1VodhpXzvdfDpx-2KGAD03FyFGkd7b7H9HAiaYOU
+X-Meta-Keywords: file sharing, free web space, online storage, share files, photo image music mp3 video sharing, dedicated hosting, enterprise sharing, file transfer, file hosting, internet file sharing
+X-Meta-Viewport: width=device-width, initial-scale=1.0, interactive-widget=resizes-content
+X-UA-Compatible: IE=edge

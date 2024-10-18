@@ -1,0 +1,45 @@
+URL: http://gmail.com
+Status Code: 200 OK
+Headers:
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:45 GMT
+Pragma: no-cache
+Accept-Ranges: none
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:19:45 GMT
+Client-Peer: 142.251.179.84:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=accounts.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Base: https://accounts.google.com/v3/signin/
+Content-Security-Policy: script-src 'nonce-9QTKqM0mL8MBHgIW9XDXrg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Cross-Origin-Resource-Policy: same-site
+Link: <https://www.google.com/gmail/about/>; rel="canonical"
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Refresh: 0; url=/v3/signin/rejected?continue=https://mail.google.com/mail/u/0/&dsh=S890181485:1729289984993537&emr=1&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://mail.google.com/mail/u/0/&ifkv=ARpgrqcRN13wpHYIhHxWmlhMo3djM68BSz7XTnTeBESbUXRLZs_6blRqPD9WsgxH_HovTIKWIbTS-w&osid=1&rhlk=js&rrk=47&service=mail
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwz1IAmEcB2B54R9hDREOYkMlCNJQd5JUQ8MFTQV9DS2VJp4pxGnnGTQWOEQuQVZIkLNrg30ZFUVRoOd70hc0BJIn0VBQY_R74LFusS6rwzLhdlgKzmMmzVbZMM7k3pkfL-Zq7BqVYo2p-Ok32RcmkyZbx4OUyfK43VxnGbzK19kt2n_qzI2v2R16w6GFXZrE5HOR0vhwU6IXDPyVSMUjm04FHMzpJGHnh04uDPvLtIjfsTL9YvWyTCaKHZwkPOnjdI7GBqdHdKU4eTGa4RTHvVNOWWwbMKgdR6YMGsPRaYPG8S5kUBE3bRVKo2qv0Bq2NjWunt0fNrQ88f1-Z08guuSLBGVFi2grITWqaLISnE9o4UQkLqvLsurzCJ5eURC93YLoiwn_plOVoQ"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Gmail
+X-Auto-Login: realm=com.google&args=service%3Dmail%26continue%3Dhttps://mail.google.com/mail/u/0/
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Meta-Chrome: nointentdetection
+X-Meta-Description: Gmail is email that’s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.
+X-Meta-Referrer: origin
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Ua-Compatible: IE=edge
+X-XSS-Protection: 0

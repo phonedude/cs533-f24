@@ -1,0 +1,92 @@
+URL: http://opera.com
+Status Code: 200 OK
+Headers:
+Cache-Control: max-age=3600
+Connection: close
+Date: Fri, 18 Oct 2024 22:20:03 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Language: en
+Content-Length: 110522
+Content-Type: text/html; charset=utf-8
+Client-Date: Fri, 18 Oct 2024 22:20:03 GMT
+Client-Peer: 3.128.60.244:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+Client-SSL-Cert-Subject: /C=NO/L=Oslo/O=Opera Norway AS/CN=www.opera.com
+Client-SSL-Cipher: ECDHE-ECDSA-AES128-GCM-SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: frame-ancestors 'self' https://*.opera.com; upgrade-insecure-requests;
+Cross-Origin-Opener-Policy: same-origin
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/mobile-images/home/opera__home--hero--floating.0bb7eed93838.webp>; as="image"; rel="preload"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/hero-top/home/opera__home--hero.510a4780fbd8.webp>; as="image"; rel="preload"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/main.142155aee0ef.js>; as="script"; rel="preload"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/apple-touch-icon.555ee4c450b1.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/favicon-32x32.ddd494719bed.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/favicon-16x16.052be2038748.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: </webmanifest>; rel="manifest"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/safari-pinned-tab.2ff3aa479bec.svg>; color="#ff0a21"; rel="mask-icon"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/favicon.90b13d0c7b36.ico>; rel="shortcut icon"
+Link: <https://www.opera.com/>; rel="canonical"
+Link: <https://www.opera.com/>; hreflang="en"; rel="alternate"
+Link: <https://www.opera.com/de>; hreflang="de"; rel="alternate"
+Link: <https://www.opera.com/es>; hreflang="es"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-HN"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-AR"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-SV"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-PR"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-DO"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-EC"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-GT"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-PE"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-BO"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-NI"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-VE"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-PA"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-CR"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-UY"; rel="alternate"
+Link: <https://www.opera.com/es-419>; hreflang="es-PY"; rel="alternate"
+Link: <https://www.opera.com/fr>; hreflang="fr"; rel="alternate"
+Link: <https://www.opera.com/hu>; hreflang="en-HU"; rel="alternate"
+Link: <https://www.opera.com/id>; hreflang="en-ID"; rel="alternate"
+Link: <https://www.opera.com/it>; hreflang="it"; rel="alternate"
+Link: <https://www.opera.com/ja>; hreflang="ja"; rel="alternate"
+Link: <https://www.opera.com/ko>; hreflang="en-KR"; rel="alternate"
+Link: <https://www.opera.com/no>; hreflang="en-NO"; rel="alternate"
+Link: <https://www.opera.com/pl>; hreflang="pl"; rel="alternate"
+Link: <https://www.opera.com/pt>; hreflang="pt-PT"; rel="alternate"
+Link: <https://www.opera.com/pt-br>; hreflang="pt-BR"; rel="alternate"
+Link: <https://www.opera.com/ru>; hreflang="ru"; rel="alternate"
+Link: <https://www.opera.com/tr>; hreflang="tr"; rel="alternate"
+Link: <https://www.opera.com/ua>; hreflang="en-UA"; rel="alternate"
+Link: <https://www.opera.com/vi>; hreflang="en-VN"; rel="alternate"
+Link: <https://www.opera.com/zh-cn>; hreflang="en-CN"; rel="alternate"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/latinext.d7788e6fd132.css>; as="style"; media="screen"; rel="preload"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/latinext.d7788e6fd132.css>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne.a90d2619accd.css>; as="style"; media="screen"; rel="preload"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne.a90d2619accd.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne-320.4eb0e0b405f4.css>; media="screen and (min-width: 320px)"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne-640.9343d3c37bce.css>; media="screen and (min-width: 640px)"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne-768.ffc8d3e61481.css>; media="screen and (min-width: 768px)"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne-1024.fa0ba1810435.css>; media="screen and (min-width: 1024px)"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne-1224.f455e6f99cb2.css>; media="screen and (min-width: 1224px)"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne-1824.2173f5ae90e1.css>; media="screen and (min-width: 1824px)"; rel="stylesheet"; type="text/css"
+Link: <https://cdn-production-opera-website.operacdn.com/staticfiles/mainOne-1924.ec3e7ebf2c85.css>; media="screen and (min-width: 1924px)"; rel="stylesheet"; type="text/css"
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Title: Opera Web Browser | Faster, Safer, Smarter | Opera
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: UTF-8
+X-Meta-Description: Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.
+X-Meta-Msapplication-Config: https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/browserconfig.f5848516ccd3.xml
+X-Meta-Msapplication-TileColor: #da532c
+X-Meta-Theme-Color: #ffffff
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Description: Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.
+X-Meta-Twitter-Image: https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/og/og-opera-lp-home.93205b794a09.png
+X-Meta-Twitter-Site: @opera
+X-Meta-Twitter-Title: Opera Web Browser | Faster, Safer, Smarter | Opera
+X-Meta-Viewport: initial-scale=1, width=device-width

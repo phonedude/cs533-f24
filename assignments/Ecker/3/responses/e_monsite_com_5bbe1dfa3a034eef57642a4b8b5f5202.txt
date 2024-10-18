@@ -1,0 +1,25 @@
+URL: https://e-monsite.com
+Status Code: 403 Forbidden
+Headers:
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:37 GMT
+Server: cloudflare
+Content-Length: 16
+Content-Type: text/plain; charset=UTF-8
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Alt-Svc: h3=":443"; ma=86400
+CF-RAY: 8d4be938b8906747-ATL
+Client-Date: Fri, 18 Oct 2024 22:19:37 GMT
+Client-Peer: 104.21.235.29:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WE1
+Client-SSL-Cert-Subject: /CN=e-monsite.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vt%2FG2uPlgGT1AvTJYd5E9lKsbNo7K7SUaDR%2FuJWMM22rX8HLbzgkv%2BCIIA%2Bwvc1QmSzXK40l%2BmKNkuF0ixzo0ieZkpVM5a1VXjWCWsrqumoQn8kfGF%2BhTwPYvbK2%2FIDr"}],"group":"cf-nel","max_age":604800}
+X-Frame-Options: SAMEORIGIN

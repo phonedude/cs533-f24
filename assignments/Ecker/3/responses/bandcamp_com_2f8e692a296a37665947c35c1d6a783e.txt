@@ -1,0 +1,40 @@
+URL: http://bandcamp.com
+Status Code: 200 OK
+Headers:
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:31 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Server: nginx
+Vary: Accept-Encoding, Accept-Encoding
+Content-Length: 530572
+Content-Type: text/html; charset=UTF-8
+Client-Date: Fri, 18 Oct 2024 22:19:31 GMT
+Client-Peer: 151.101.193.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q3
+Client-SSL-Cert-Subject: /CN=*.bandcamp.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-htR3OOHuPb10uXV818wN7Q==' 'report-sample' 'strict-dynamic'
+Link: <https://bandcamp.com/>;   rel="canonical"
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: client_id=59F24054A3B7DF1A19ED846CBCA53F7EADA43C5596357B11A3099C1A0A8A0DF0; domain=.bandcamp.com; path=/; expires=Mon, 16 Oct 2034 22:19:31 -0000; secure; HttpOnly; SameSite=Lax
+Set-Cookie: session=1%09r%3A%5B%22nilZ0f0x1729289971%22%5D%09t%3A1729289971; domain=.bandcamp.com; path=/; expires=Mon, 02 Dec 2024 22:19:31 GMT
+Set-Cookie: unique_24h=223; domain=.bandcamp.com; path=/; expires=Sat, 19 Oct 2024 22:19:31 GMT
+Set-Cookie: session=1%09r%3A%5B%22nilZ0f0x1729289971%22%5D%09t%3A1729289971; domain=.bandcamp.com; path=/; expires=Mon, 02 Dec 2024 22:19:31 GMT
+Set-Cookie: cart_client_id=59F24054A3B7DF1A19ED846CBCA53F7EADA43C5596357B11A3099C1A0A8A0DF0; domain=.bandcamp.com; path=/; expires=Sat, 18 Oct 2025 22:19:31 -0000; secure; HttpOnly; SameSite=Lax
+Set-Cookie: BACKENDID3=flexocentral-511j-5; path=/; Secure
+Strict-Transport-Security: max-age=63072000
+Title: Bandcamp
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Meta-Apple-Mobile-Web-App-Capable: yes
+X-Meta-Description: 
+ Discover amazing music and directly support the artists who make it.
+X-Meta-Msapplication-TileColor: #603cba
+X-Meta-Theme-Color: #ffffff
+X-Served-By: cache-iad-kiad7000027-IAD
+X-Timer: S1729289972.712615,VS0,VE241

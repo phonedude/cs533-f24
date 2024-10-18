@@ -1,0 +1,33 @@
+URL: http://bloomberg.com
+Status Code: 200 OK
+Headers:
+Cache-Control: public, max-age=5, private, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+Connection: close
+Date: Fri, 18 Oct 2024 22:19:33 GMT
+Accept-Ranges: bytes
+ETag: "67129045-2dca"
+Server: openresty
+Vary: Accept-Encoding
+Content-Length: 11722
+Content-Type: text/html
+Content-Type: text/html; charset=utf-8
+Last-Modified: Fri, 18 Oct 2024 16:43:49 GMT
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Fri, 18 Oct 2024 22:19:33 GMT
+Client-Peer: 151.101.129.73:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+Client-SSL-Cert-Subject: /C=US/ST=New York/L=New York/O=Bloomberg LP/CN=www.bloomberg.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Link: <https://assets.bwbx.io>; rel=preconnect; crossorigin, <https://assets.bwbx.io>; rel=preconnect, <https://sourcepointcmp.bloomberg.com>; rel=preconnect; crossorigin, <https://tpc.googlesyndication.com	>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect; crossorigin
+Strict-Transport-Security: max-age=31557600
+Title: Bloomberg - Are you a robot?
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Meta-Robots: noindex
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Served-By: cache-iad-kjyo7100086-IAD
+X-Timer: S1729289974.690540,VS0,VE7
