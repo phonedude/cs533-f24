@@ -1,0 +1,51 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 08 Oct 2024 00:08:39 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 08 Oct 2024 01:08:39 GMT
+Location: https://plesk.com/
+Set-Cookie: __cf_bm=rD.DH7B.95aofsCgCaaQRRpcK_t9ahH_i1xOvdI9jts-1728346119-1.0.1.1-MLZalijzED0fnhBRj4lfm83NXhumNoScuDa4QwwWZg8gaMNS33QOjrS5K__kps8twA3ivGxgM8CTADaX6aZ.TA; path=/; expires=Tue, 08-Oct-24 00:38:39 GMT; domain=.plesk.com; HttpOnly
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 8cf1e5cfa8447c9c-EWR
+
+HTTP/2 301 
+date: Tue, 08 Oct 2024 00:08:39 GMT
+location: https://www.plesk.com/
+x-powered-by: PleskLin
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=QN.KedXFWNwJOqzHjiUWHXdEFQz.g2ouVdwMI2X91PM-1728346119-1.0.1.1-cJJ1bR14G54UWZ2hys5CMSpCKnWBkLVZebDhGTwa2MwHede.T9kYVX.kwaBqTIsSQlQ4q5vT1QFM5tZHIuMNtQ; path=/; expires=Tue, 08-Oct-24 00:38:39 GMT; domain=.plesk.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=15552000
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 8cf1e5d01f5a8c42-EWR
+
+HTTP/2 200 
+date: Tue, 08 Oct 2024 00:08:40 GMT
+content-type: text/html; charset=UTF-8
+x-powered-by: PHP/8.2.24
+x-powered-by: PleskLin
+x-xss-protection: 1; mode=block
+x-dns-prefetch-control: on
+content-security-policy: frame-ancestors 'self'; default-src https: *.crazyegg.com blob:; frame-src https: 'self' 'unsafe-inline' 'unsafe-eval'; script-src https: 'self' 'unsafe-inline' 'unsafe-eval' *.crazyegg.com blob:; connect-src 'self' https: wss: *.crazyegg.com; img-src https: 'self' data: *.crazyegg.com; style-src https: 'unsafe-inline'; font-src https: 'unsafe-inline' data:;
+x-frame-options: SAMEORIGIN
+link: <https://www.plesk.com/wp-json/>; rel="https://api.w.org/"
+link: <https://www.plesk.com/wp-json/wp/v2/pages/27874>; rel="alternate"; title="JSON"; type="application/json"
+link: <https://www.plesk.com/>; rel=shortlink
+cache-control: public, max-age=172800
+expires: Wed, 09 Oct 2024 16:17:59 GMT
+x-litespeed-cache: hit
+access-control-allow-origin: *
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=HflxQ5.Wzi7yo9p7LFGuOMyITNZxDt3dLcXt7l.h6mQ-1728346120-1.0.1.1-Wi01jrwCqxPMd0LgpCur69bnPbEPqlDJZgfaQY12f4EP_itdlkj5wAFVU01_n_wT9XkQKktVzJlKNNui6bZCkw; path=/; expires=Tue, 08-Oct-24 00:38:40 GMT; domain=.plesk.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=15552000
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 8cf1e5d15d5e8c72-EWR
+

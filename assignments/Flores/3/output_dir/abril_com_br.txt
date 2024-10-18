@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 08 Oct 2024 00:06:38 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://abril.com.br/
+x-rq: dca6 
+
+HTTP/2 302 
+server: nginx
+date: Tue, 08 Oct 2024 00:06:38 GMT
+content-type: text/html; charset=utf-8
+x-safe-redirect-manager: true
+x-safe-redirect-id: 106919
+x-redirect-by: Safe Redirect Manager
+location: https://assine.abril.com.br/?redirect=abrilcom
+strict-transport-security: max-age=86400
+x-rq: dca6 96 184 443
+x-cache: MISS
+
+HTTP/2 200 
+server: nginx
+date: Tue, 08 Oct 2024 00:06:38 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+x-hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: WordPress VIP <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+link: <https://assine.abril.com.br/wp-json/>; rel="https://api.w.org/"
+link: <https://assine.abril.com.br/wp-json/wp/v2/pages/61>; rel="alternate"; title="JSON"; type="application/json"
+link: <https://assine.abril.com.br/>; rel=shortlink
+x-rq: dca5 96 184 443
+accept-ranges: bytes
+cache-control: max-age=300, must-revalidate
+x-cache: HIT
+
