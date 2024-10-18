@@ -262,8 +262,8 @@ def get_cookie_stats(all_cookie_data):
 
 ## Detailed Site Information
 
-| URL | Final URL | Status Code | Number of Cookies | Cookie Attributes |
-|-----|-----------|-------------|-------------------|-------------------|
+| URL | Status Code | Number of Cookies | Cookie Attributes | Final URL |
+|-----|-------------|-------------------|-------------------|-----------|
 """
     )
 
@@ -289,9 +289,9 @@ def get_cookie_stats(all_cookie_data):
         )
 
         markdown_content += (
-            f"| {site['url']} | {site.get('final_url', 'N/A')} | "
-            f"{site.get('status_code', 'N/A')} | {len(site['cookies'])} | "
-            f"{cookie_attribute_policy} |\n"
+            f"| {site['url']} | {site.get('status_code', 'N/A')} | "
+            f"{len(site['cookies'])} | {cookie_attribute_policy} | "
+            f"{site.get('final_url', 'N/A')} |\n"
         )
 
     markdown_content += """
