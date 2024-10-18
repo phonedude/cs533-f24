@@ -1,15 +1,23 @@
-URL: http://trustpilot.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:56 GMT
+Location: https://www.trustpilot.com/
+Client-Date: Fri, 18 Oct 2024 22:27:56 GMT
+Client-Peer: 52.211.4.10:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+
+
+HTTP/1.1 200 OK
 Cache-Control: public, max-age=1200
 Connection: close
 Date: Fri, 18 Oct 2024 22:19:53 GMT
-Via: 1.1 5c526e69ed5dfdb2673e47af81eb433c.cloudfront.net (CloudFront)
-Age: 22
+Via: 1.1 607a5a7b199f84a8bd0ab302c38a0bfc.cloudfront.net (CloudFront)
+Age: 483
 Vary: Accept-Encoding
 Content-Type: text/html; charset=utf-8
-Client-Date: Fri, 18 Oct 2024 22:20:15 GMT
-Client-Peer: 3.165.181.116:443
+Client-Date: Fri, 18 Oct 2024 22:27:56 GMT
+Client-Peer: 3.165.181.29:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
 Client-SSL-Cert-Subject: /CN=*.trustpilot.com
@@ -63,7 +71,7 @@ Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static
 Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static/css/19473a922deef7da.css>; data-n-p=""; rel="stylesheet"
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Title: Trustpilot Reviews: Experience the power of customer reviews
-X-Amz-Cf-Id: S3f9VSv52oVWgToRWYy1iWtdgIxEsM5Ck-JYzRQneaCjDDJxnUqWhA==
+X-Amz-Cf-Id: hMuqS6Vy2u4jOjD-ccN-3r-8I_8v5GLc9ti5nwoQoFtLFGJG82Q_kA==
 X-Amz-Cf-Pop: ATL59-P9
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
@@ -79,3 +87,5 @@ X-Meta-Robots: max-image-preview:large, max-snippet:-1, max-video-preview:-1
 X-Meta-Theme-Color: #1c1c1c
 X-Meta-Viewport: width=device-width, initial-scale=1
 X-XSS-Protection: 0
+
+

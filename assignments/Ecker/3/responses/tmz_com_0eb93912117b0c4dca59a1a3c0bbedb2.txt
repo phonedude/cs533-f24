@@ -1,19 +1,58 @@
-URL: http://tmz.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-store, max-age=0
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:55 GMT
+Pragma: no-cache
+Location: https://tmz.com/
+Server: EasyRedir
+Content-Length: 158
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:55 GMT
+Client-Peer: 13.248.160.137:80
+Client-Response-Num: 1
+ER-Request-ID: bcf0bb513764122ec686c14349e1a457
+Title: 301 Moved Permanently
+X-Content-Type-Options: nosniff
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-store, max-age=0
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:55 GMT
+Pragma: no-cache
+Location: https://www.tmz.com/
+Server: EasyRedir
+Content-Length: 158
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:55 GMT
+Client-Peer: 76.223.34.124:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
+Client-SSL-Cert-Subject: /CN=tmz.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+ER-Request-ID: 2b53192201e063c159e81d0147c3707e
+ER-Rule-Id: r-006bd06f-a30a-4117-97f7-edd8de7e158a
+Title: 301 Moved Permanently
+X-Content-Type-Options: nosniff
+
+
+HTTP/1.1 200 OK
 Cache-Control: max-age=30, public, s-maxage=60
 Connection: close
-Date: Fri, 18 Oct 2024 22:20:03 GMT
-Via: 1.1 b7741ea084ea57c67340e91528ba25b8.cloudfront.net (CloudFront)
-Age: 13
+Date: Fri, 18 Oct 2024 22:27:36 GMT
+Via: 1.1 1cb46285023b6ec2cb9ac4522f312f70.cloudfront.net (CloudFront)
+Age: 20
 Server: Apache
 Vary: CloudFront-Viewer-Country,Accept-Encoding
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
 Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Platform, Sec-CH-UA
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:20:15 GMT
-Client-Peer: 18.165.116.101:443
+Client-Date: Fri, 18 Oct 2024 22:27:56 GMT
+Client-Peer: 18.165.116.33:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon ECDSA 256 M03
 Client-SSL-Cert-Subject: /CN=tmz.com
@@ -28,7 +67,7 @@ Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-f
 Referrer-Policy: unsafe-url
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Title: Celebrity News | Entertainment News | TMZ.com
-X-Amz-Cf-Id: nfsWusFyxQM93BrTjJT5MPemcssRi-JwpKHGjWRGdfX3MRQxyQAzZg==
+X-Amz-Cf-Id: CQPU_rtJ02qWDID3Jd0ZY6j9_LK9t1zJ8he-vwDhcBj2NAknm5XGfQ==
 X-Amz-Cf-Pop: ATL58-P6
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
@@ -75,3 +114,5 @@ X-Meta-Viewport: width=device-width,initial-scale=1,minimum-scale=0.25,maximum-s
 X-Meta-Y-Key: 14cb04e4656b0c58
 X-UA-Compatible: IE=Edge,chrome=1
 X-XSS-Protection: 1; mode=block
+
+

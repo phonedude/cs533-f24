@@ -1,14 +1,26 @@
-URL: http://variety.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:28:36 GMT
+Location: https://variety.com/
+Server: nginx
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:28:36 GMT
+Client-Peer: 192.0.66.176:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Rq: dca8 
+
+
+HTTP/1.1 200 OK
 Cache-Control: max-age=300, must-revalidate
 Connection: close
-Date: Fri, 18 Oct 2024 22:20:56 GMT
+Date: Fri, 18 Oct 2024 22:28:37 GMT
 Accept-Ranges: bytes
 Server: nginx
 Vary: Accept-Encoding
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:20:56 GMT
+Client-Date: Fri, 18 Oct 2024 22:28:37 GMT
 Client-Peer: 192.0.66.176:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E5
@@ -48,3 +60,5 @@ X-Meta-Viewport: width=device-width, initial-scale=1.0
 X-Powered-By: WordPress VIP <https://wpvip.com>
 X-Rq: dca8 96 184 443
 X-UA-Compatible: IE=Edge
+
+

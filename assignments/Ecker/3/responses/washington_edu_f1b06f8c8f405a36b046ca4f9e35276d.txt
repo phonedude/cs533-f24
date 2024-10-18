@@ -1,8 +1,16 @@
-URL: http://washington.edu
-Status Code: 200 OK
-Headers:
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Connection: close
+Location: http://www.washington.edu/
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:28:38 GMT
+Client-Peer: 34.82.219.4:80
+Client-Response-Num: 1
+
+
+HTTP/1.1 200 OK
 Connection: Upgrade
-Date: Fri, 18 Oct 2024 22:20:57 GMT
+Date: Fri, 18 Oct 2024 22:28:38 GMT
 Upgrade: h2
 Accept-Ranges: bytes
 ETag: "12c77-624b168d70fc0"
@@ -10,8 +18,8 @@ Server: Apache
 Content-Length: 76919
 Content-Type: text/html
 Last-Modified: Thu, 17 Oct 2024 19:44:07 GMT
-Client-Date: Fri, 18 Oct 2024 22:20:57 GMT
-Client-Peer: 128.208.60.183:80
+Client-Date: Fri, 18 Oct 2024 22:28:38 GMT
+Client-Peer: 34.168.51.100:80
 Client-Response-Num: 1
 Link: <//www.washington.edu>; rel="dns-prefetch"
 Link: <//fonts.googleapis.com>; rel="dns-prefetch"
@@ -33,3 +41,5 @@ X-Meta-Twitter-Creator: @uw
 X-Meta-Twitter-Site: @uw
 X-Meta-Viewport: width=device-width, initial-scale=1
 X-UA-Compatible: IE=edge
+
+

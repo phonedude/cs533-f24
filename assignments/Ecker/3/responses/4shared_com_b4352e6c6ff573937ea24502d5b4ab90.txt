@@ -1,16 +1,28 @@
-URL: http://4shared.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=31536000, public
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:04 GMT
+Location: https://www.4shared.com
+Server: nginx
+Content-Length: 178
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:04 GMT
+Client-Peer: 204.155.146.95:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
 Cache-Control: no-cache
 Connection: close
-Date: Fri, 18 Oct 2024 22:19:24 GMT
+Date: Fri, 18 Oct 2024 22:27:04 GMT
 Pragma: no-cache
-Server: 573
+Server: 566
 Content-Language: en
 Content-Type: text/html;charset=UTF-8
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Client-Date: Fri, 18 Oct 2024 22:19:25 GMT
-Client-Peer: 199.101.134.235:443
+Client-Date: Fri, 18 Oct 2024 22:27:04 GMT
+Client-Peer: 199.101.134.234:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
 Client-SSL-Cert-Subject: /CN=*.4shared.com
@@ -21,7 +33,7 @@ Client-SSL-Warning: Peer certificate not verified
 Client-Transfer-Encoding: chunked
 Link: <https://static.4shared.com/css/index.4min.css?ver=-1698363617>; rel="stylesheet"; type="text/css"
 Link: <https://static.4shared.com/js/plugins/slick/slick.4min.css?ver=-1540363795>; rel="stylesheet"; type="text/css"
-Set-Cookie: day1host=h; Domain=.4shared.com; Expires=Sat, 19-Oct-2024 22:19:25 GMT; Path=/
+Set-Cookie: day1host=h; Domain=.4shared.com; Expires=Sat, 19-Oct-2024 22:27:04 GMT; Path=/
 Title: 4shared.com - free file sharing and storage
 X-Meta-Apple-Itunes-App: app-id=444426162
 X-Meta-Charset: utf-8
@@ -34,3 +46,5 @@ X-Meta-Google-Site-Verification: maZ1VodhpXzvdfDpx-2KGAD03FyFGkd7b7H9HAiaYOU
 X-Meta-Keywords: file sharing, free web space, online storage, share files, photo image music mp3 video sharing, dedicated hosting, enterprise sharing, file transfer, file hosting, internet file sharing
 X-Meta-Viewport: width=device-width, initial-scale=1.0, interactive-widget=resizes-content
 X-UA-Compatible: IE=edge
+
+

@@ -1,17 +1,30 @@
-URL: http://focus.de
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=2592000
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:21 GMT
+Location: https://www.focus.de/
+Server: nginx
+Content-Length: 162
+Content-Type: text/html
+Expires: Sun, 17 Nov 2024 22:27:21 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:21 GMT
+Client-Peer: 23.212.248.8:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
 Cache-Control: max-age=60
 Connection: close
 Connection: Transfer-Encoding
-Date: Fri, 18 Oct 2024 22:19:41 GMT
+Date: Fri, 18 Oct 2024 22:27:21 GMT
 Content-Language: de-DE
 Content-Type: text/html;charset=UTF-8
-Expires: Fri, 18 Oct 2024 22:20:41 GMT
-Last-Modified: Fri, 18 Oct 2024 22:18:57 GMT
+Expires: Fri, 18 Oct 2024 22:28:21 GMT
+Last-Modified: Fri, 18 Oct 2024 22:26:59 GMT
 Accept-CH: sec-ch-ua-model,sec-ch-ua-platform-version
 Access-Control-Allow-Origin: *
-Client-Date: Fri, 18 Oct 2024 22:19:41 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:22 GMT
 Client-Peer: 23.212.248.10:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert TLS RSA SHA256 2020 CA1
@@ -36,7 +49,7 @@ Link: <https://www.focus.de/>; rel="canonical"
 Link: <https://m.focus.de/>; media="only screen and (max-width: 640px)"; rel="alternate"
 Link: <https://amp.focus.de/>; rel="amphtml"
 Link: <https://static.focus.de/fonts/open-sans-subset.woff2>; as="font"; crossorigin="crossorigin"; rel="preload"; type="font/woff2"
-Link: <https://www.focus.de/resources/ts28820971/ver1-0/css/fol.min1.css>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <https://www.focus.de/resources/ts28820952/ver1-0/css/fol.min1.css>; media="screen"; rel="stylesheet"; type="text/css"
 Link: <https://rss.focus.de/>; rel="alternate"; title="Startseite RSS-Feed"; type="application/rss+xml"
 Link: <https://rss.focus.de/politik/>; rel="alternate"; title="Politik RSS-Feed"; type="application/rss+xml"
 Link: <https://rss.focus.de/finanzen/>; rel="alternate"; title="Finanzen RSS-Feed"; type="application/rss+xml"
@@ -54,7 +67,7 @@ Permissions-Policy: ch-ua-model=*,ch-ua-platform-version=*
 Title: FOCUS online - Nachrichten
 X-Meta-Author: FOCUS online
 X-Meta-Cache-Control: no-cache
-X-Meta-Date: 2024-10-19T00:18:57+02:00
+X-Meta-Date: 2024-10-19T00:26:59+02:00
 X-Meta-Description: FOCUS Online – minutenaktuelle Nachrichten und Service-Informationen von Deutschlands modernem Nachrichtenmagazin.
 X-Meta-Msvalidate.01: 18FEC93808733136F33F992192FA967D
 X-Meta-Pragma: no-cache
@@ -65,3 +78,5 @@ X-Meta-Twitter-Site: @focusonline
 X-Meta-Twitter-Title: 
 X-Meta-Viewport: width=device-width
 Xkey: s1
+
+

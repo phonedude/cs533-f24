@@ -1,16 +1,64 @@
-URL: http://netflix.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Via: 1.1 i-0f06b96ca31b686b8 (us-east-1)
+Location: https://netflix.com/
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:38 GMT
+Client-Peer: 3.225.92.8:80
+Client-Response-Num: 1
+Set-Cookie: nfvdid=BQFmAAEBEF4DmV3SGRxETXTWsOb9AodAx7VSrvTtygiHsFvvaRjBy6-GEaVvCLaqXWiCx9dAv4pZNmtipHiFFb75SROEV8oB27trYl_OodWTw-VRGuym8g%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Netflix.Nfstatus: 1_21
+X-Netflix.Proxy.Execution-Time: 7
+X-Originating-URL: http://netflix.com/
+X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache, no-store
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:38 GMT
+Via: 1.1 i-0fc77f03988b60626 (us-east-1)
+Location: https://www.netflix.com/
+Server: envoy
+Client-Date: Fri, 18 Oct 2024 22:27:38 GMT
+Client-Peer: 3.225.92.8:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Secure Site ECC CA-1
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Los Gatos/O=Netflix/CN=www.netflix.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Edge-Control: no-cache, no-store
+Set-Cookie: SecureNetflixId=v%3D3%26mac%3DAQEAEQABABQJJm-uU93D_Q3PM60QSsIaW2y8ZnlVtGA.%26dt%3D1729290458290; Domain=.netflix.com; Expires=Sat, 18 Oct 2025 22:27:38 GMT; Path=/; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: NetflixId=v%3D3%26ct%3DBgjHlOvcAxLBAd9W8DCNa-QSJi7CuXm7UOIIhYZ42q-bXe68LmaVOIZyhkluYj2Dyn1Vq68C6Uiazamc8_k7W94R8T1ucD3Od701cZVxRzMGvkdpLnqPufeKglwqQMmBJXKgB_KcuarC2y8h-trE0-69O9qDn6Cqg6PJaO3rEVIrxZJrAyT-9CCbRtEGdLTWEaWBjzQolFpZTGkgEoLsHt4QHDQPvtRbhM7orcTlyK5XOsaYsBOPkJ2bBjnrLpYpEMECo-TiBTLPlHEYBiIOCgyFSlmAqvtuVArPw0Y.; Domain=.netflix.com; Expires=Sat, 18 Oct 2025 22:27:38 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-B3-Traceid: 6712e0da357af3440a9589737694f18c
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: lo_svc
+X-Envoy-Upstream-Service-Time: 22
+X-Frame-Options: DENY
+X-Netflix.Nfstatus: 1_1
+X-Netflix.Proxy.Execution-Time: 58
+X-Originating-URL: http://netflix.com/
+X-Request-Id: c118a22a-1102-4ccc-8253-1d2f83f79d18
+X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+
+
+HTTP/1.1 200 OK
 Cache-Control: no-cache, no-store, must-revalidate
 Connection: close
-Date: Fri, 18 Oct 2024 22:19:58 GMT
+Date: Fri, 18 Oct 2024 22:27:38 GMT
 Pragma: no-cache
-Via: 1.1 i-0f293d155708fbb16 (us-east-1)
+Via: 1.1 i-0b6d9ea9650defad8 (us-east-1)
 Server: envoy
 Content-Type: text/html; charset=utf-8
 Expires: 0
 Accept-Ch: Sec-CH-UA-Platform-Version,Sec-CH-UA-Model
-Client-Date: Fri, 18 Oct 2024 22:19:58 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:38 GMT
 Client-Peer: 52.3.144.142:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Secure Site ECC CA-1
@@ -28,13 +76,13 @@ Link: <https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico>; re
 Link: <https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png>; rel="apple-touch-icon"
 Origin-Trial: Aob+++752GiUzm1RNSIkM9TINnQDxTlxz02v8hFJK/uGO2hmXnJqH8c/ZpI05b2nLsHDhGO3Ce2zXJUFQmO7jA4AAAB1eyJvcmlnaW4iOiJodHRwczovL25ldGZsaXguY29tOjQ0MyIsImZlYXR1cmUiOiJFbmNyeXB0ZWRNZWRpYUhkY3BQb2xpY3lDaGVjayIsImV4cGlyeSI6MTU0MzI0MzQyNCwiaXNTdWJkb21haW4iOnRydWV9
 Origin-Trial: Avmn/LBDmMaBYzfLDTgViRmGZnwcz/LsvceSBBKvevKOrStLHjbpZK3zFjSRuw3ampe7aV2MzJO7//lZ9Nm82hQAAABpeyJvcmlnaW4iOiJodHRwczovL25ldGZsaXguY29tOjQ0MyIsImlzU3ViZG9tYWluIjp0cnVlLCJmZWF0dXJlIjoiV2ViQXBwTG9jYWxGb2xkZXIiLCJleHBpcnkiOjE3MjU0OTQzOTl9
-Set-Cookie: flwssn=538c9c20-4c8f-4215-8e1d-3355499dcb6b; Max-Age=10800; Domain=.netflix.com; Path=/
+Set-Cookie: flwssn=07590929-7381-43fd-b263-819d3b061b52; Max-Age=10800; Domain=.netflix.com; Path=/
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Title: Netflix - Watch TV Shows Online, Watch Movies Online
-X-B3-Traceid: 6712df0ef15a19f1a995e3424213a483
+X-B3-Traceid: 6712e0dad107d3f2dc3511ffd6085aa4
 X-Content-Type-Options: nosniff
 X-Envoy-Decorator-Operation: lo_svc
-X-Envoy-Upstream-Service-Time: 447
+X-Envoy-Upstream-Service-Time: 399
 X-Frame-Options: DENY
 X-Meta-Apple-Mobile-Web-App-Capable: yes
 X-Meta-Apple-Mobile-Web-App-Status-Bar-Style: black
@@ -47,9 +95,11 @@ X-Meta-Twitter-Card: summary_large_image
 X-Meta-Twitter-Site: @netflix
 X-Meta-Viewport: width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0
 X-Netflix.Nfstatus: 1_1
-X-Netflix.Proxy.Execution-Time: 481
+X-Netflix.Proxy.Execution-Time: 436
 X-Originating-URL: http://www.netflix.com/
-X-Request-Id: bdd9a4fe-8a54-42bf-b1c8-cca8e48903e2
+X-Request-Id: 42aed63a-2538-47e3-9494-57d7b19a90ab
 X-Robots-Tag: index
 X-UA-Compatible: IE=edge
 X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+
+

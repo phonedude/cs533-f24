@@ -95,6 +95,13 @@ foreach my $original_url (@urls) {
     # Get the final response code
     my $final_code = $response->code;
 
+    # Collect all responses including redirects
+    my @responses;
+    my $res = $response;
+    do {
+        unshift @responses, $res;
+    } while ($res = $res->previous);
+
     # Collect cookie data
     my @all_cookies;
     $cookie_jar->scan(sub {
@@ -154,15 +161,25 @@ foreach my $original_url (@urls) {
         num_cookies  => $num_cookies,
     };
 
-    # Save HTTP headers to a file (only the head)
+    # Save HTTP headers to a file (including redirects)
     my $response_filename = sanitize_filename($url);
     my $response_filepath = "$responses_dir/$response_filename.txt";
 
     open(my $resp_fh, '>', $response_filepath) or die "Could not open file '$response_filepath' $!";
-    print $resp_fh "URL: $url\n";
-    print $resp_fh "Status Code: " . $response->code . " " . $response->message . "\n";
-    print $resp_fh "Headers:\n";
-    print $resp_fh $response->headers_as_string;
+
+    foreach my $res (@responses) {
+        # Get the HTTP protocol and status line
+        my $protocol = $res->protocol || 'HTTP/1.1';
+        my $status_line = "$protocol " . $res->code . " " . $res->message;
+
+        # Print the status line
+        print $resp_fh "$status_line\n";
+
+        # Print the headers
+        my $headers = $res->headers_as_string("\n");
+        print $resp_fh "$headers\n\n";
+    }
+
     close($resp_fh);
 
     # Update the progress bar

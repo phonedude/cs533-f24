@@ -1,12 +1,28 @@
-URL: http://apache.org
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:10 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://apache.org/
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:10 GMT
+Client-Peer: 151.101.2.132:80
+Client-Response-Num: 1
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000042-IAD
+X-Timer: S1729290431.743753,VS0,VE0
+
+
+HTTP/1.1 200 OK
 Cache-Control: max-age=3600
 Connection: close
-Date: Fri, 18 Oct 2024 22:19:31 GMT
+Date: Fri, 18 Oct 2024 22:27:10 GMT
 Via: 1.1 varnish, 1.1 varnish
 Accept-Ranges: bytes
-Age: 3365
+Age: 224
 ETag: "fbb1-624c38f54da94"
 Server: Apache
 Vary: Accept-Encoding
@@ -14,7 +30,7 @@ Content-Length: 64433
 Content-Type: text/html
 Expires: Fri, 18 Oct 2024 18:23:23 GMT
 Last-Modified: Fri, 18 Oct 2024 17:23:22 GMT
-Client-Date: Fri, 18 Oct 2024 22:19:31 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:10 GMT
 Client-Peer: 151.101.2.132:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
@@ -56,6 +72,8 @@ X-Meta-Msapplication-TileColor: #603cba
 X-Meta-Msapplication-TileImage: /favicons/mstile-144x144.png
 X-Meta-Theme-Color: #282661
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Served-By: cache-hel1410034-HEL, cache-iad-kjyo7100025-IAD
-X-Timer: S1729289972.515874,VS0,VE1
+X-Served-By: cache-hel1410034-HEL, cache-iad-kiad7000140-IAD
+X-Timer: S1729290431.822030,VS0,VE1
 X-UA-Compatible: IE=edge
+
+

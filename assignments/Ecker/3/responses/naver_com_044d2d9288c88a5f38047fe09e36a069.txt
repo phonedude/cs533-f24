@@ -1,15 +1,40 @@
-URL: http://naver.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:37 GMT
+Location: http://www.naver.com/
+Server: nfront
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:37 GMT
+Client-Peer: 223.130.200.219:80
+Client-Response-Num: 1
+Referrer-Policy: unsafe-url
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:37 GMT
+Location: https://www.naver.com/
+Server: nfront
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:37 GMT
+Client-Peer: 23.202.152.238:80
+Client-Response-Num: 1
+Referrer-Policy: unsafe-url
+Title: 302 Found
+
+
+HTTP/1.1 200 OK
 Cache-Control: no-cache, no-store, must-revalidate
 Connection: close
 Connection: Transfer-Encoding
-Date: Fri, 18 Oct 2024 22:19:58 GMT
+Date: Fri, 18 Oct 2024 22:27:38 GMT
 Pragma: no-cache
 Server: nfront
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:19:57 GMT
-Client-Peer: 23.220.128.185:443
+Client-Date: Fri, 18 Oct 2024 22:27:38 GMT
+Client-Peer: 23.202.152.238:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=GeoTrust RSA CA 2018
 Client-SSL-Cert-Subject: /C=KR/ST=Gyeonggi-do/L=Seongnam-si/O=NAVER Cloud Corp./CN=ssl.pstatic.net
@@ -44,3 +69,5 @@ X-Meta-Twitter-Url: https://www.naver.com/
 X-Meta-Viewport: width=1190
 X-UA-Compatible: IE=edge
 X-Xss-Protection: 1; mode=block
+
+

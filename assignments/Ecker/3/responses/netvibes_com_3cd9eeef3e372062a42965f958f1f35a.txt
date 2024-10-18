@@ -1,11 +1,63 @@
-URL: http://netvibes.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:20:00 GMT
+Date: Fri, 18 Oct 2024 22:27:39 GMT
+Location: https://netvibes.com/
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:39 GMT
+Client-Peer: 193.189.143.34:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Slb: slb2
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:39 GMT
+Location: https://www.netvibes.com/
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:39 GMT
+Client-Peer: 193.189.143.34:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Domain Validation Secure Server CA
+Client-SSL-Cert-Subject: /CN=*.netvibes.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Title: 301 Moved Permanently
+X-Slb: slb3
+
+
+HTTP/1.1 302 Found
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:39 GMT
+Location: https://www.netvibes.com/consent?url=https%3A%2F%2Fwww.netvibes.com%2F
+Content-Type: text/html; charset=UTF-8
+Client-Date: Fri, 18 Oct 2024 22:27:39 GMT
+Client-Peer: 193.189.143.34:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Domain Validation Secure Server CA
+Client-SSL-Cert-Subject: /CN=*.netvibes.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Set-Cookie: lang=en_US; expires=Sat, 02-Nov-2024 22:27:39 GMT; Max-Age=1296000; path=/; secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Slb: slb1
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:40 GMT
 Vary: Accept-Encoding
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:20:00 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:40 GMT
 Client-Peer: 193.189.143.34:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Domain Validation Secure Server CA
@@ -25,3 +77,5 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Meta-Viewport: initial-scale=1.0, user-scalable=yes
 X-Slb: slb1
+
+

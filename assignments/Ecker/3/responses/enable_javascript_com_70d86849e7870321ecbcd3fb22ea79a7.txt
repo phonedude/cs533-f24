@@ -1,11 +1,42 @@
-URL: http://enable-javascript.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:19:38 GMT
+Date: Fri, 18 Oct 2024 22:27:18 GMT
+Location: https://enable-javascript.com/
+Server: nginx
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:18 GMT
+Client-Peer: 34.90.220.148:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:18 GMT
+Location: https://www.enable-javascript.com/
+Server: nginx
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:18 GMT
+Client-Peer: 34.90.220.148:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
+Client-SSL-Cert-Subject: /CN=enable-javascript.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:19 GMT
 Server: nginx
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:19:38 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:19 GMT
 Client-Peer: 34.90.220.148:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
@@ -51,3 +82,5 @@ X-Meta-Keywords: enable javascript, browser, internet explorer, firefox, chrome,
 X-Meta-Robots: NOODP
 X-Meta-Viewport: width=device-width, initial-scale=1
 X-UA-Compatible: IE=Edge
+
+

@@ -1,23 +1,41 @@
-URL: http://video.google.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public, max-age=2592000
+Connection: close
+Date: Fri, 18 Oct 2024 22:28:37 GMT
+Location: http://www.google.com/videohp
+Server: gws
+Content-Length: 226
+Content-Type: text/html; charset=UTF-8
+Expires: Sun, 17 Nov 2024 22:28:37 GMT
+Client-Date: Fri, 18 Oct 2024 22:28:37 GMT
+Client-Peer: 142.251.111.138:80
+Client-Response-Num: 1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-CbMfPHWq9k5-SqT5odujqw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Title: 301 Moved
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+
+
+HTTP/1.1 200 OK
 Cache-Control: private, max-age=0
 Connection: close
-Date: Fri, 18 Oct 2024 22:20:57 GMT
+Date: Fri, 18 Oct 2024 22:28:37 GMT
 Accept-Ranges: none
 Server: gws
 Vary: Accept-Encoding
 Content-Type: text/html; charset=ISO-8859-1
 Expires: -1
-Client-Date: Fri, 18 Oct 2024 22:20:56 GMT
-Client-Peer: 142.251.163.106:80
+Client-Date: Fri, 18 Oct 2024 22:28:37 GMT
+Client-Peer: 142.251.167.99:80
 Client-Response-Num: 1
 Client-Transfer-Encoding: chunked
-Content-Security-Policy: object-src 'none';base-uri 'self';script-src 'nonce-TyiD7mmhDhSNomfht0VATw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other
+Content-Security-Policy: object-src 'none';base-uri 'self';script-src 'nonce-6g5su-_fr68qgEq1-k3KZw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other
 P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
-Set-Cookie: AEC=AVYB7co3kxTIlyuQN2DCe2-hU4G380iNIDS2VQoM48XVcW6IJgK9W3qETQ; expires=Wed, 16-Apr-2025 22:20:57 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
-Set-Cookie: NID=518=tkDBaMLi7QiewwKC57RQ2WZzTShqz_SsUU7whC_jzq9JWVUPOCcT3zIzo4vbV6TgJodb5KjFOQ76W6Ok_-dbYEVvab-hOJPoxhDI5nZ0aIaNXN6DLYZdr9_QO1HL1akF1vhS-KCFYLZwnMdv81KI2Tl_yhUoToTgoAoiyBocXaoMNHZlnI6mOD8ATZsrnp7hPV4; expires=Sat, 19-Apr-2025 22:20:57 GMT; path=/; domain=.google.com; HttpOnly
+Set-Cookie: AEC=AVYB7cp9C1tw0pr1xN5Ls_gLBN5uiBfaeIBGvLXzxw5AQraiFTxqS7gfXBw; expires=Wed, 16-Apr-2025 22:28:37 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=518=fLDfe2dd2H68FaOh_Nr6LSl3VoY_k7hIeqRjOTlDbU635yjQuB7DG-ofQNZjxgsRrx40KTQvqTybSnCV6mEIFCXjaXnWIzG89rSmTU63AysZ_hO6i3FgCxQi2lMzBpDsCuE77NruoqZOm3df-Za2SXYfSyhCDdFePij-Ko3fSMXyC3mDdfHFWOvBM-qfGy0RoFor; expires=Sat, 19-Apr-2025 22:28:37 GMT; path=/; domain=.google.com; HttpOnly
 Title: Google Videos
 X-Frame-Options: SAMEORIGIN
 X-Meta-Description: Search millions of videos from across the web.
 X-XSS-Protection: 0
+
+

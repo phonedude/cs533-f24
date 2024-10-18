@@ -1,14 +1,24 @@
-URL: http://prezi.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:20:04 GMT
+Date: Fri, 18 Oct 2024 22:27:45 GMT
+Location: https://prezi.com/
+Content-Length: 166
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:45 GMT
+Client-Peer: 34.225.94.67:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:45 GMT
 Vary: Cookie, Accept-Language, Accept-Encoding
 Content-Language: en
 Content-Length: 93090
 Content-Type: text/html; charset=utf-8
-Client-Date: Fri, 18 Oct 2024 22:20:04 GMT
-Client-Peer: 34.239.81.250:443
+Client-Date: Fri, 18 Oct 2024 22:27:45 GMT
+Client-Peer: 34.225.94.67:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
 Client-SSL-Cert-Subject: /CN=prezi.com
@@ -33,8 +43,8 @@ Link: <https://prezi.com/hu/>; hreflang="hu"; rel="alternate"
 Link: <https://prezi.com/it/>; hreflang="it"; rel="alternate"
 Permissions-Policy: usb=(), xr-spatial-tracking=()
 Referrer-Policy: strict-origin-when-cross-origin
-Set-Cookie: csrftoken=mwJ6oOlPPPvUdthYJdBO1uOKHrTIcTNM; Domain=.prezi.com; expires=Fri, 17 Oct 2025 22:20:04 GMT; Max-Age=31449600; Path=/; SameSite=Lax
-Set-Cookie: __putma=1faa7e3a-8d9f-11ef-aafc-fe3e6dd06109; Domain=.prezi.com; expires=Thu, 13 Oct 2044 22:20:04 GMT; Max-Age=630720000; Path=/; SameSite=none; Secure
+Set-Cookie: csrftoken=Nw8X7HRpoZPd0zo19quE8Qa30XT8Lvy0; Domain=.prezi.com; expires=Fri, 17 Oct 2025 22:27:45 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+Set-Cookie: __putma=32ce9914-8da0-11ef-a493-fe3e6dd06109; Domain=.prezi.com; expires=Thu, 13 Oct 2044 22:27:45 GMT; Max-Age=630720000; Path=/; SameSite=none; Secure
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Title: Presentations and videos with engaging visuals for hybrid teams | Prezi Present
 X-Content-Type-Options: nosniff
@@ -48,3 +58,5 @@ X-Meta-Verify-V1: eyaAlbc+dH3kl2VfR/7FXmEfNj940c7ERDeqoUWtmUk=
 X-Meta-Viewport: width=device-width, initial-scale=1
 X-Meta-Y-Key: c35eebc2904a0fbc
 X-UA-Compatible: IE=edge
+
+

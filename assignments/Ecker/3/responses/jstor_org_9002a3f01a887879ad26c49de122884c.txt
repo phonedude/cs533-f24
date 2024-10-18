@@ -1,8 +1,23 @@
-URL: http://jstor.org
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Permanent Redirect
 Connection: close
-Date: Fri, 18 Oct 2024 22:19:50 GMT
+Date: Fri, 18 Oct 2024 22:27:30 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://www.jstor.org/
+Retry-After: 0
+Server: Varnish
+Content-Length: 59
+Client-Date: Fri, 18 Oct 2024 22:27:30 GMT
+Client-Peer: 151.101.0.152:80
+Client-Response-Num: 1
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kjyo7100115-IAD
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:30 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
 Server: envoy
@@ -10,8 +25,8 @@ Vary: Cookie, origin, Accept-Encoding,Fastly-SSL,Origin,X-Requested-Host
 Content-Length: 42753
 Content-Type: text/html; charset=utf-8
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Fri, 18 Oct 2024 22:19:50 GMT
-Client-Peer: 151.101.128.152:443
+Client-Date: Fri, 18 Oct 2024 22:27:31 GMT
+Client-Peer: 151.101.0.152:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 OV TLS CA 2024 Q2
 Client-SSL-Cert-Subject: /C=US/ST=New York/L=New York/O=Ithaka Harbors, Inc./CN=jstor.org
@@ -45,16 +60,16 @@ Link: <//www.jstor.org/assets/global_20240429T123451/build/images/favicons/favic
 Link: <//www.jstor.org/assets/global_20240429T123451/build/global/css/global.css>; rel="stylesheet"
 Link: <//www.jstor.org/assets/search_20240909T192832/build/search/css/homepage.css>; rel="stylesheet"
 Link: <https://www.jstor.org/>; rel="canonical"
-Set-Cookie: AccessSession=H4sIAAAAAAAA_5WSW2sbMRCF_4ueM0aXkTTaN2PohUIfEqfQllJ0dbesE7OXltbkv1e7Nk6eHLogGJ39zszRao9smtrEGmaMiqQJwXtSgNYQkEELwTifU8wpq8huWHuorMSV1HVJvUI7i3ODkrCUVKTJvCBFScUWVYRJobp14JXrFzBw4zQWBBFkAsxFA2E2QFoUU6zPRKnCnR_nUVxWkIOgrZSNcI3mK8vRGUOCf5mx6Spm9QkbrlPWLdQYWVN8N-Qb9st3S9qLx225uHicJW2Vmj1-HPuBNUe22VT847pKm22tfrdd1_r9EKZ-9_3TIn-u8v1drW43SwWLfDfT77fv1h_W7Kn2m8Yf6xjH2vPrt7o9l8fTV1YWLQpTbfkULwUVdEigvSBAgRKoBASyKD1mxExiPtifQ670bd61jw91v28f2n37N7_p_I41Yz_VE3fnAcpJPQ_ozqZ-Md0Pua_xXsSQ5jlGNjIH7yKEyDWgtAo8DwVs0BotSc-1_-8YTr0WQ3DO1SWEy8RtyhGKsgEwWg0-kgQeBTmvY-CeP4d42z9Oh6sZ5Ivpu5k-Da-X8nN5z1952Okyz7_U0z9jTZZ4awMAAA; Path=/; SameSite=Lax; Secure
-Set-Cookie: AccessSessionSignature=34049225b93690d3aed58ede99c419bd6e943c43f0277df13d51898cf96e3693; Path=/; SameSite=Lax; Secure
-Set-Cookie: AccessSessionTimedSignature=26da97b2adb490ea07dc1421979dcd5c1c2c3e1386165e76744fc864d3ae1da9; Path=/; SameSite=Lax; Secure
-Set-Cookie: UUID=663c8584-aa83-4768-8647-b69aedcede3c; expires=Mon, 18 Oct 2027 22:19:50 GMT; Max-Age=94608000; Path=/; SameSite=None; Secure
-Set-Cookie: csrftoken=gPN50gX68tclnIfjzwk3ozDexi9tntRe; expires=Fri, 17 Oct 2025 22:19:50 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
-Set-Cookie: ReferringRequestId=fastly-default:5fbd13dd2788b806cb1bf85cdd8a1b04; Path=/; SameSite=Lax; Secure
+Set-Cookie: AccessSession=H4sIAAAAAAAA_5WSW2vbQBCF_8s-Z8zs7Kx2V2_G0AuFPiROoS2h7E2uipwYXVpak__elewmeXKoQDB79J2ZI42OYpraJGqhMZOjZMFL3QDLRoJlltBwRm1TdoqkuBLtobDEK9LlJr1iM4tzA--jrhIbSlKyqZQz3ipnQ4q5Illh4foFdCxtNFiBsVUFbBoC75QDlyWnFBuXcyxw58d5FBKDRJB2S1STqRWuHFbGMin6MmPTZczhgg0XKa30Qo1R1I3vhnwlfvpuSfvkcVuU_zwSpbasqtnjx7EfRH0Um03BP66LtNmW6lfbda3fD2Hqd98-LfLnIt_elOp6s1SwyDcz_X77bv1hLR5Lv2n8vo5xLD2_3pXjuTyevrIybFhWxZZP8VJQQYcE2ktb1sYEtgkM1jB5zszZzmsbfx9yoa_zrn24L-d9e9_u2z_5Ted3oh77qbxxdx6gHOl5QHc29Yvpdsh9ifciBlXPMcqKc_AuQoiogcko8BgaMEFrNpY8av_fMZx6LYZERPUUwmWLJuUIjTIBOBoNPloCjNI6r2NAj88h3vYP0-FiBnoxfTfTp-FlKT-W5_jKJU7LPP9Sj38BE-4gJmsDAAA; Path=/; SameSite=Lax; Secure
+Set-Cookie: AccessSessionSignature=8d68d9cd7057d2c26d7f1e7d04a38d8649314dc34444ae979bba50b65c337354; Path=/; SameSite=Lax; Secure
+Set-Cookie: AccessSessionTimedSignature=64ca2a2d5985ed9325c063a33ad626a97ecbda160d80dbc4bac8f41cb9c9b9a3; Path=/; SameSite=Lax; Secure
+Set-Cookie: UUID=50e292d8-a15f-41f1-8441-f4e058de9321; expires=Mon, 18 Oct 2027 22:27:30 GMT; Max-Age=94608000; Path=/; SameSite=None; Secure
+Set-Cookie: csrftoken=5nWFIFA1wV6aXpkJ7C9IXezACC3pf9EZ; expires=Fri, 17 Oct 2025 22:27:30 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+Set-Cookie: ReferringRequestId=fastly-default:db40e937e3c7b09f8cd5a07305c9babe; Path=/; SameSite=Lax; Secure
 Title: JSTOR Home
 X-Cache: MISS, MISS
 X-Cache-Hits: 0, 0
-X-Envoy-Upstream-Service-Time: 123
+X-Envoy-Upstream-Service-Time: 152
 X-Frame-Options: DENY
 X-JSTOR-Restarts: 0
 X-Meta-Charset: UTF-8
@@ -66,5 +81,7 @@ X-Meta-MSSmartTagsPreventParsing: true
 X-Meta-MSSmartTagsPreventParsing: true
 X-Meta-Robots: noarchive,NOODP
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Served-By: cache-iad-kiad7000105-IAD, cache-iad-kjyo7100153-IAD
-X-Timer: S1729289991.605021,VS0,VE142
+X-Served-By: cache-iad-kiad7000056-IAD, cache-iad-kiad7000164-IAD
+X-Timer: S1729290451.825998,VS0,VE168
+
+

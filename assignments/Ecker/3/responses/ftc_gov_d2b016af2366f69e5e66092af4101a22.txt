@@ -1,17 +1,26 @@
-URL: http://ftc.gov
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:22 GMT
+Location: https://www.ftc.gov/
+Server: AkamaiGHost
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:22 GMT
+Client-Peer: 104.68.241.95:80
+Client-Response-Num: 1
+
+
+HTTP/1.1 200 OK
 Cache-Control: public, max-age=300
 Connection: close
-Date: Fri, 18 Oct 2024 22:19:42 GMT
+Date: Fri, 18 Oct 2024 22:27:23 GMT
 Accept-Ranges: bytes
-ETag: "1729289770"
+ETag: "1729290384"
 Vary: Cookie
 Content-Language: en
 Content-Length: 1000454
 Content-Type: text/html; charset=UTF-8
-Last-Modified: Fri, 18 Oct 2024 22:16:10 GMT
-Client-Date: Fri, 18 Oct 2024 22:19:42 GMT
+Last-Modified: Fri, 18 Oct 2024 22:26:24 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:23 GMT
 Client-Peer: 104.68.241.95:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=GeoTrust RSA CA 2018
@@ -46,7 +55,7 @@ Link: <https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;
 Link: </themes/custom/ftc_uswds/build/css/styles.css?slkmkt>; media="all"; rel="stylesheet"
 Strict-Transport-Security: max-age=31536000 ; preload
 Title: Federal Trade Commission | Protecting America's Consumers
-X-Cache-Hits: 130
+X-Cache-Hits: 32
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Meta-Charset: utf-8
@@ -63,3 +72,5 @@ X-Meta-Twitter-Site: @FTC
 X-Meta-Twitter-Site-Id: 187993109
 X-Meta-Twitter-Title: Federal Trade Commission
 X-Meta-Viewport: width=device-width, initial-scale=1.0
+
+

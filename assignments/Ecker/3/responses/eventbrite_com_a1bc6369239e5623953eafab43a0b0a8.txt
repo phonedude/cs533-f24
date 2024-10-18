@@ -1,18 +1,56 @@
-URL: http://eventbrite.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:20 GMT
+Via: 1.1 35ccb6cc125c2f90120be4104c394baa.cloudfront.net (CloudFront)
+Location: https://eventbrite.com/
+Server: CloudFront
+Content-Length: 167
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:20 GMT
+Client-Peer: 108.139.15.16:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Amz-Cf-Id: CZEMVgmNjjTVCwUMZME5XUr1iYysadFR_HQEsEBRJO4Yat9zqRbNlw==
+X-Amz-Cf-Pop: ATL58-P2
+X-Cache: Redirect from cloudfront
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:20 GMT
+Via: 1.1 de6760156d781e28f72545a2e9243b26.cloudfront.net (CloudFront), 1.1 78d82ac849fe1d87e48659ba126792fe.cloudfront.net (CloudFront)
+Location: https://www.eventbrite.com
+Server: CloudFront
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:20 GMT
+Client-Peer: 108.139.15.77:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
+Client-SSL-Cert-Subject: /CN=eventbrite.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Amz-Cf-Id: xCJjh7Ymuzpo6lQi_Ks6aHYrIEV5dlUUthHlIsngMFs5RKzZZogzbw==
+X-Amz-Cf-Pop: IAD79-C1
+X-Amz-Cf-Pop: ATL58-P2
+X-Cache: Miss from cloudfront
+
+
+HTTP/1.1 200 OK
 Cache-Control: public, max-age=300, s-maxage=600
 Connection: close
-Date: Fri, 18 Oct 2024 22:16:31 GMT
-Via: 1.1 bad43b7a5f64a218c0ba43b47a8d182e.cloudfront.net (CloudFront), 1.1 f191c7ddc7f4299b09e1d20e7caf0344.cloudfront.net (CloudFront)
-Age: 189
+Date: Fri, 18 Oct 2024 22:26:31 GMT
+Via: 1.1 acb5e0138f17ffe7929a4d64a50c4a24.cloudfront.net (CloudFront), 1.1 1c154fd264f63b7337d5237240584530.cloudfront.net (CloudFront)
+Age: 49
 Server: CloudFront
 Vary: Accept-Encoding
 Content-Language: en
 Content-Length: 143169
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:19:40 GMT
-Client-Peer: 108.139.15.77:443
+Client-Date: Fri, 18 Oct 2024 22:27:20 GMT
+Client-Peer: 108.139.15.36:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
 Client-SSL-Cert-Subject: /CN=eventbrite.com
@@ -84,16 +122,16 @@ Link: <https://www.eventbrite.fi/>; hreflang="en-fi"; rel="alternate"
 Link: <https://www.eventbrite.ch/>; hreflang="de-ch"; rel="alternate"
 Link: <https://www.eventbrite.ch/fr_CH/>; hreflang="fr-ch"; rel="alternate"
 Link: <https://www.eventbrite.com/>; hreflang="x-default"; rel="alternate"
-Set-Cookie: csrftoken=195736a512e04a3faf781b5688479f10;Domain= .eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=none
+Set-Cookie: csrftoken=525135efc3754f9885565a0b48f3232d;Domain= .eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=none
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Title: Eventbrite - Discover the Best Local Events & Things to Do
-X-Amz-Apigw-Id: f3ep6FpmIAMEYWA=
-X-Amz-Cf-Id: w8T_n8FPfg0paCG5vL0m7BnsU26BILVy6cimLtkbpOwWZYsOFt0Hog==
+X-Amz-Apigw-Id: f3gHrFYjIAMEsLA=
+X-Amz-Cf-Id: FoWBPqYLYfE_NNFpeu5fB8PbYOnoyh251D0T8ivq2scEUulBjlrUfg==
 X-Amz-Cf-Pop: IAD79-C1
 X-Amz-Cf-Pop: ATL58-P2
 X-Amzn-Remapped-Connection: keep-alive
-X-Amzn-Remapped-Date: Fri, 18 Oct 2024 22:16:31 GMT
-X-Amzn-RequestId: 1010097a-559d-4a35-84bf-ae8622cc1e18
+X-Amzn-Remapped-Date: Fri, 18 Oct 2024 22:26:31 GMT
+X-Amzn-RequestId: 605daec6-1048-4b3e-9ade-fe8706c70b25
 X-Cache: Miss from cloudfront
 X-Meta-Apple-Mobile-Web-App-Title: Eventbrite
 X-Meta-Application-Name: Eventbrite
@@ -107,3 +145,5 @@ X-Meta-Theme-Color: #f6682f
 X-Meta-Viewport: initial-scale=1, width=device-width
 X-Meta-Y-Key: d92e23811007b438
 X-UA-Compatible: IE=edge,chrome=1
+
+

@@ -1,20 +1,52 @@
-URL: http://thetimes.co.uk
-Status Code: 200 OK
-Headers:
+HTTP/1.1 307 Temporary Redirect
+Cache-Control: max-age=60
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:53 GMT
+Location: https://thetimes.co.uk/
+Server: openresty/1.11.2.3
+Content-Length: 193
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:53 GMT
+Client-Peer: 54.76.240.177:80
+Client-Response-Num: 1
+Title: 307 Temporary Redirect
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=60
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:54 GMT
+Location: https://www.thetimes.com
+Server: openresty/1.11.2.3
+Content-Length: 191
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:54 GMT
+Client-Peer: 52.208.17.106:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R10
+Client-SSL-Cert-Subject: /CN=thetimes.co.uk
+Client-SSL-Cipher: ECDHE-RSA-AES128-GCM-SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
 Cache-Control: public, max-age=180, stale-if-error=178
 Connection: close
-Date: Fri, 18 Oct 2024 22:18:16 GMT
-Via: 1.1 6893a7827ca9ecde25800b077828fa86.cloudfront.net (CloudFront)
-Age: 118
-ETag: "11c200-nWxftTq0yMLardo+VGHct8tTaaQ"
+Date: Fri, 18 Oct 2024 22:25:04 GMT
+Via: 1.1 768749d9a41dac0d441eb7c85f1a68ec.cloudfront.net (CloudFront)
+Age: 170
+ETag: "1d3fe0-vcFGBcHpPmOBMe3IrnrxPUcD5UI"
 Server: CloudFront
 Vary: Accept-Encoding
-Content-Length: 1163776
+Content-Length: 1916896
 Content-Type: text/html; charset=utf-8
-Expires: Fri, 18 Oct 2024 22:21:15 GMT
+Expires: Fri, 18 Oct 2024 22:28:03 GMT
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:20:14 GMT
-Client-Peer: 3.163.115.30:443
+Client-Date: Fri, 18 Oct 2024 22:27:55 GMT
+Client-Peer: 3.163.115.83:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
 Client-SSL-Cert-Subject: /CN=*.nukcdn.com
@@ -35,11 +67,11 @@ Link: <https://www.thetimes.com/assets/optimizely/custom/tnl_custom_snippet.js>;
 Set-Cookie: nuk_customer_location_hint=GLOBAL; path=/; domain=.thetimes.com
 Set-Cookie: nuk_zephr_decisions=eyJ1bmxvY2stYnktdXJsLS0tZnJlbmNoLWVsZWN0aW9uIjoiTk9fQUNDRVNTIiwidW5sb2NrLWJ5LXVybCI6Ik5PX0FDQ0VTUyIsInRpbWVzLXRyYXZlbC11bmxvY2stYXBpIjoiTk9fQUNDRVNTIiwidGltZXMtYW5vbnltb3VzLXRyaWFsIjoiQVJUSUNMRV9BQ0NFU1MiLCJuZXctaG90LWNvbGQtcGF5d2FsbCI6Ik5PX0FDQ0VTUzpBOlJFR1dBTEwiLCJoYWxpZmF4LS0tdW5sb2NrLWJwdGwtc2VjdGlvbiI6Ik5PX0FDQ0VTUyIsImNvcnBvcmF0ZS1pcC1uZXciOiJOT19BQ0NFU1MiLCJjb3Jwb3JhdGUtaXAtYWNjZXNzLTIiOiJOT19BQ0NFU1MiLCJjb3Jwb3JhdGUtaXAtYWNjZXNzIjoiTk9fQUNDRVNTIiwiYnlwYXNzLXBheXdhbGwtZm9yLXBlcmZvcm1hbmNlLW1vbml0b3JpbmciOiJOT19BQ0NFU1M6QiJ9; path=/
 Set-Cookie: nuk_customer_country_code=US; path=/; domain=.thetimes.com; secure
-Set-Cookie: nuk_customer_region_code=OR; path=/; domain=.thetimes.com; secure
+Set-Cookie: nuk_customer_region_code=UT; path=/; domain=.thetimes.com; secure
 Set-Cookie: euconsent-v2=expire; expires=Tue, 01-Jan-2019 00:00:00 GMT; path=/
 Title: The Times & The Sunday Times: breaking news & today's latest headlines
 X-ACS-Version: 2
-X-Amz-Cf-Id: 1qNmKmwIxxXkxyu2HyfjhKDwnUJvdyddORi2CcFO1HTTA8Wu0DrVlQ==
+X-Amz-Cf-Id: kyrTUwTC1wLzBT28Yd3nGuG1eX8R0xb00xkXzatxR1tJT8OH5iiyqQ==
 X-Amz-Cf-Pop: ATL58-P9
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
@@ -59,3 +91,5 @@ X-Meta-Twitter-Url: https://www.thetimes.com
 X-Meta-Viewport: width=device-width, initial-scale=1
 X-UA-Compatible: IE=edge
 X-XSS-Protection: 0
+
+

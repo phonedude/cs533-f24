@@ -1,15 +1,25 @@
-URL: http://myspace.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:35 GMT
+Location: https://myspace.com:443/
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Client-Date: Fri, 18 Oct 2024 22:27:35 GMT
+Client-Peer: 34.111.176.156:80
+Client-Response-Num: 1
+
+
+HTTP/1.1 200 OK
 Cache-Control: no-cache
 Connection: close
-Date: Fri, 18 Oct 2024 22:41:31 GMT
+Date: Fri, 18 Oct 2024 22:38:24 GMT
 Via: 1.1 google, 1.1 google
 Vary: Accept-Encoding
-Content-Length: 241956
+Content-Length: 241968
 Content-Type: text/html; charset=utf-8
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Fri, 18 Oct 2024 22:19:55 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:36 GMT
 Client-Peer: 34.111.176.156:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
@@ -31,14 +41,14 @@ Link: <https://x.myspacecdn.com/new/common/images/favicons/72-iPad.png>; rel="ap
 Link: <https://x.myspacecdn.com/new/common/images/favicons/114-Retina-iPhone.png>; rel="apple-touch-icon"; sizes="114x114"
 Link: <https://x.myspacecdn.com/new/common/images/favicons/144-Retina-iPad.png>; rel="apple-touch-icon"; sizes="144x144"
 Link: <https://myspace.com/discover/featured>; rel="canonical"
-Set-Cookie: persistent_id=pid%3D4ac9cf83-ccd4-48be-b72b-323ae7bd67ae%26llid%3D%26lprid%3D%26lltime%3D; domain=.myspace.com; path=/; expires=Thu, 13 Oct 2044 22:41:31 GMT; httpOnly
-Set-Cookie: visit_id=eba19cfd-961a-4ade-bd8b-d3d337dee6ad; domain=.myspace.com; path=/; expires=Fri, 18 Oct 2024 23:11:31 GMT; httpOnly
-Set-Cookie: beacons_enabled=true; domain=.myspace.com; path=/; expires=Fri, 18 Oct 2024 23:11:31 GMT
-Set-Cookie: player=sequenceId%3D-1%26paused%3Dtrue%26currentTime%3D0%26volume%3D0.5%26mute%3Dfalse%26shuffled%3Dfalse%26repeat%3Doff%26mode%3Dqueue%26pinned%3Dfalse%26streamStartDateTime%3D%26at%3D360%26incognito%3Dfalse%26allowSkips%3Dtrue%26ccOn%3Dfalse; domain=.myspace.com; path=/; expires=Sun, 17 Nov 2024 22:41:31 GMT
+Set-Cookie: persistent_id=pid%3D4daa8657-d345-4441-a961-f76638230524%26llid%3D%26lprid%3D%26lltime%3D; domain=.myspace.com; path=/; expires=Thu, 13 Oct 2044 22:38:24 GMT; httpOnly
+Set-Cookie: visit_id=b966cc98-9195-438e-bb82-a1f58578f53b; domain=.myspace.com; path=/; expires=Fri, 18 Oct 2024 23:08:24 GMT; httpOnly
+Set-Cookie: beacons_enabled=true; domain=.myspace.com; path=/; expires=Fri, 18 Oct 2024 23:08:24 GMT
+Set-Cookie: player=sequenceId%3D-1%26paused%3Dtrue%26currentTime%3D0%26volume%3D0.5%26mute%3Dfalse%26shuffled%3Dfalse%26repeat%3Doff%26mode%3Dqueue%26pinned%3Dfalse%26streamStartDateTime%3D%26at%3D360%26incognito%3Dfalse%26allowSkips%3Dtrue%26ccOn%3Dfalse; domain=.myspace.com; path=/; expires=Sun, 17 Nov 2024 22:38:24 GMT
 Strict-Transport-Security: max-age=31536000
 Title: Featured Content on Myspace
 X-Frame-Options: SAMEORIGIN
-X-Handling-Host: ash2-app206
+X-Handling-Host: ash2-app209
 X-Meta-Charset: utf-8
 X-Meta-Description: Featured Content on Myspace
 X-Meta-Keywords: Myspace, social entertainment, artist tools, social media, social discovery, creative community, empowering expression, stream music, music videos, music, share music, playlists, mixes, profiles, discovery, discover
@@ -46,5 +56,7 @@ X-Meta-Msapplication-TileColor: #313131
 X-Meta-Msapplication-TileImage: https://x.myspacecdn.com/new/common/images/favicons/tile.png
 X-Meta-P-Domain-Verify: 9069a95798cb530a18cfa50cec2757d1
 X-Meta-Title: Featured Content on Myspace
-X-Response-Time: 57ms
-X-Trackingid: 6119d885-8611-4aee-a952-f22923f6fe80
+X-Response-Time: 71ms
+X-Trackingid: 3a67104b-e8ad-4821-ae46-7f45d88def2d
+
+

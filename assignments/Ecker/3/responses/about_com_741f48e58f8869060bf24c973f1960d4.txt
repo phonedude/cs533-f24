@@ -1,18 +1,62 @@
-URL: http://about.com
-Status Code: 200 OK
-Headers:
-Cache-Control: max-age=60
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=3600
 Connection: close
-Date: Fri, 18 Oct 2024 22:19:26 GMT
+Date: Fri, 18 Oct 2024 22:27:05 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
-Age: 2637901
+Age: 300349
+Location: https://www.dotdash.com/
+Server: Apache/2.4.56 (Amazon Linux) OpenSSL/3.0.8
+Content-Length: 232
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Fri, 18 Oct 2024 22:27:05 GMT
+Client-Peer: 151.101.2.137:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Cache: HIT
+X-Cache-Hits: 28
+X-Served-By: cache-iad-kiad7000024-IAD
+X-Timer: S1729290425.102892,VS0,VE0
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=60
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:05 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://www.dotdashmeredith.com/
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:05 GMT
+Client-Peer: 151.101.66.137:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
+Client-SSL-Cert-Subject: /CN=*.dotdash.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000063-IAD
+X-Timer: S1729290425.208149,VS0,VE0
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=60
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:05 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Age: 2638360
 ETag: "20537-I8hKV56F19Rn8Cw3o59Fb7ctP3w"
 Vary: Accept-Encoding
 Content-Length: 132407
 Content-Type: text/html; charset=utf-8
-Client-Date: Fri, 18 Oct 2024 22:19:26 GMT
-Client-Peer: 151.101.194.137:443
+Client-Date: Fri, 18 Oct 2024 22:27:05 GMT
+Client-Peer: 151.101.66.137:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R10
 Client-SSL-Cert-Subject: /CN=*.dotdashmeredith.com
@@ -56,7 +100,7 @@ Referrer-Policy: no-referrer
 Strict-Transport-Security: max-age=15552000; includeSubDomains
 Title: Dotdash Meredith - America's Largest Digital & Print Publisher
 X-Cache: HIT
-X-Cache-Hits: 0
+X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
 X-Dns-Prefetch-Control: off
 X-Download-Options: noopen
@@ -69,5 +113,7 @@ X-Meta-Robots: all
 X-Meta-Theme-Color: #000000
 X-Meta-Viewport: width=device-width, initial-scale=1
 X-Permitted-Cross-Domain-Policies: none
-X-Served-By: cache-iad-kcgs7200113-IAD, cache-iad-kjyo7100039-IAD
+X-Served-By: cache-iad-kcgs7200113-IAD, cache-iad-kjyo7100137-IAD
 X-Xss-Protection: 0
+
+

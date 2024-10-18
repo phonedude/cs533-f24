@@ -1,17 +1,34 @@
-URL: http://plus.google.com
-Status Code: 200 OK
-Headers:
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public, max-age=1800
+Connection: close
+Date: Fri, 18 Oct 2024 22:15:37 GMT
+Age: 728
+Location: https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html
+Server: sffe
+Content-Length: 314
+Content-Type: text/html; charset=UTF-8
+Expires: Fri, 18 Oct 2024 22:45:37 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:45 GMT
+Client-Peer: 172.253.122.113:80
+Client-Response-Num: 1
+Cross-Origin-Resource-Policy: cross-origin
+Title: 301 Moved
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+
+
+HTTP/1.1 200 OK
 Cache-Control: private, max-age=0
 Connection: close
-Date: Fri, 18 Oct 2024 22:20:03 GMT
+Date: Fri, 18 Oct 2024 22:27:45 GMT
 Accept-Ranges: none
 Server: GSE
 Vary: Accept-Encoding
 Content-Type: text/html; charset=UTF-8
-Expires: Fri, 18 Oct 2024 22:20:03 GMT
+Expires: Fri, 18 Oct 2024 22:27:45 GMT
 Last-Modified: Fri, 18 Oct 2024 21:03:02 GMT
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Fri, 18 Oct 2024 22:20:03 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:45 GMT
 Client-Peer: 172.253.62.132:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
@@ -21,7 +38,6 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Client-Transfer-Encoding: chunked
-Content-Security-Policy: frame-ancestors 'self'
 Link: <https://www.blogger.com/static/v1/widgets/3566091532-css_bundle_v2.css>; rel="stylesheet"; type="text/css"
 Link: <https://fonts.googleapis.com/css?family=Roboto:400italic,400,500,500italic,700,700italic>; rel="stylesheet"; type="text/css"
 Link: <https://fonts.googleapis.com/icon?family=Material+Icons>; rel="stylesheet"
@@ -37,7 +53,6 @@ Link: <https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5245696872
 Strict-Transport-Security: max-age=86400; includeSubDomains
 Title: Google Workspace Updates: New community features for Google Chat and an update on Currents
 X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
 X-Meta-Generator: blogger
 X-Meta-Google-Adsense-Platform-Account: ca-host-pub-1556223355139109
 X-Meta-Google-Adsense-Platform-Domain: blogspot.com
@@ -46,3 +61,5 @@ X-Meta-Twitter-Creator: @google
 X-Meta-Viewport: width=device-width, height=device-height, minimum-scale=1.0, initial-scale=1.0, user-scalable=0
 X-UA-Compatible: IE=Edge
 X-XSS-Protection: 1; mode=block
+
+

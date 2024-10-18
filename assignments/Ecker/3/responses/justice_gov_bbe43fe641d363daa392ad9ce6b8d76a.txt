@@ -1,17 +1,41 @@
-URL: http://justice.gov
-Status Code: 200 OK
-Headers:
-Cache-Control: public, max-age=34
+HTTP/1.0 302 Moved Temporarily
+Connection: close
+Location: https://justice.gov/
+Server: BigIP
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:31 GMT
+Client-Peer: 149.101.82.100:80
+Client-Response-Num: 1
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Location: https://www.justice.gov/
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:31 GMT
+Client-Peer: 149.101.82.100:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Entrust, Inc./OU=See www.entrust.net\/legal-terms/OU=(c) 2012 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1K
+Client-SSL-Cert-Subject: /C=US/ST=District of Columbia/L=Washington/O=U.S. Department of Justice/CN=www.justice.gov
+Client-SSL-Cipher: ECDHE-RSA-AES128-GCM-SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=23
 Connection: close
 Connection: Transfer-Encoding
-Date: Fri, 18 Oct 2024 22:19:51 GMT
+Date: Fri, 18 Oct 2024 22:27:31 GMT
 ETag: "1729289579"
 Server: nginx
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Expires: Fri, 18 Oct 2024 22:20:25 GMT
+Expires: Fri, 18 Oct 2024 22:27:54 GMT
 Last-Modified: Fri, 18 Oct 2024 22:12:59 GMT
-Client-Date: Fri, 18 Oct 2024 22:19:51 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:31 GMT
 Client-Peer: 96.7.22.19:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=GeoTrust RSA CA 2018
@@ -52,3 +76,5 @@ X-Meta-Twitter-Description: Official website of the U.S. Department of Justice (
 X-Meta-Viewport: width=device-width, initial-scale=1.0
 X-Request-ID: v-2279061e-8d9e-11ef-b666-0f9bb44955af
 X-XSS-Protection: 1; mode=block
+
+

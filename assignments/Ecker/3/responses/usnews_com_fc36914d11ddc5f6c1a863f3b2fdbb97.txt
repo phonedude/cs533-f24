@@ -1,6 +1,6 @@
-URL: https://usnews.com
-Status Code: 500 read timeout
-Headers:
+HTTP/1.1 500 read timeout
 Content-Type: text/plain
-Client-Date: Fri, 18 Oct 2024 22:20:55 GMT
+Client-Date: Fri, 18 Oct 2024 22:28:36 GMT
 Client-Warning: Internal response
+
+
