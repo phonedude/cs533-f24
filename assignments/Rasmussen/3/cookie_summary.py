@@ -239,7 +239,37 @@ def get_cookie_stats(all_cookie_data):
     median_cookies = statistics.median(cookies_per_site)
 
     markdown_content = (
-        f"""# Cookie Analysis Report
+        f"""## Assignment 3, CS 433/533 Web Security, Fall 2024 
+### Anton Rasmussen
+
+For this assignment, we created a script to analyze 100 of the Mozilla top 500 web sites.
+
+This script (`cookie_summary.py`) reads a list of URLs from an input file (`ARASM002@ODU.EDU`), 
+fetches each URL, extracts cookies along with their attributes, compiles statistics, and
+generates a Markdown report that includes HTTP response details.
+
+```
+.
+|__ README.md -- the markdown file that you are reading; this is this assignment's final report
+|__ cookie_summary.py -- a Python script that reads a list of URLs and helps us produce the final report
+|__ output.txt -- the cookie_summary.py script run log (Note that there were two ERRORs)
+```
+
+## Extra Credit
+
+- The title of slide 48 in week 4 is a literary reference. Briefly describe this literary reference, both the origin and the meaning in the slides.
+
+I believe the reference in question is "Turtles All The Way Down." From my understanding this comes from a conversation with a teacher 
+and a student where the student asks about the Earth and the teacher says the Earth rests on the back of a turtle. 
+Then the student asks, "Well, what does the turtle rest on?" and the teacher says "It's turtles all the way down." 
+Often this is used when people ask about philosophical concepts like "if God made everything, who made God?" It's this idea that 
+at a certain point we have to admit that the problem results in saying something like "God made God," which is infitely recursive. 
+
+Similarly, in the example cited on the slide, if only top-level windows are checked for vulnerabilities then frames can hold malicious code; but, 
+if only the first frame within a window is checked then frames within frames can hold vulnerabilites, etc. etc. 
+
+Another way of looking at it is to say that we must be vigilant at every level, all the way down!
+
 
 ## Summary Statistics
 
