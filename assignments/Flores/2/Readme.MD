@@ -14,11 +14,11 @@ node server.js
 
 ## Pages with cookies
 
-(gladiatorcookie.png)
+![](gladiatorcookie.png)
 
-(johnnycashcookie.png)
+![](johnnycashcookie.png)
 
-(kaijucoookie.png)
+![](kaijucoookie.png)
 
 
 (karatekidcookie.png)
