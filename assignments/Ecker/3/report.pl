@@ -13,7 +13,6 @@ use Term::ProgressBar::Simple;
 use File::Path qw(make_path);
 use File::Basename;
 use Digest::MD5 qw(md5_hex);
-use HTTP::Headers::Util qw(split_header_words);
 use Time::Piece;
 
 # Variables for command-line options
@@ -123,19 +122,21 @@ foreach my $original_url (@urls) {
     foreach my $res (@responses) {
         my @set_cookie_headers = $res->header('Set-Cookie');
         foreach my $set_cookie (@set_cookie_headers) {
-            my @parsed_cookies = parse_set_cookie($set_cookie);
-            foreach my $cookie (@parsed_cookies) {
-                # Filter expired cookies if not including them
-                if (!$include_expired && is_cookie_expired($cookie)) {
-                    next;
-                }
-                push @all_cookies, $cookie;
+            my $cookie = parse_set_cookie($set_cookie);
+            # Filter expired cookies if not including them
+            if (!$include_expired && is_cookie_expired($cookie)) {
+                next;
             }
+            push @all_cookies, $cookie;
         }
     }
 
     my $num_cookies = scalar @all_cookies;
     push @num_cookies_list, $num_cookies;
+
+    # Debugging: Print the number of cookies found for each URL
+    # Uncomment the following line if you want to see debug info
+    # print "URL: $url - Cookies Found: $num_cookies\n";
 
     # Analyze cookie attributes
     foreach my $cookie (@all_cookies) {
@@ -160,11 +161,12 @@ foreach my $original_url (@urls) {
         # Count SameSite
         if (defined $cookie->{samesite}) {
             $cookie_attribute_counts{SameSite}++;
-            if (lc($cookie->{samesite}) eq 'strict') {
+            my $samesite_value = lc($cookie->{samesite});
+            if ($samesite_value eq 'strict') {
                 $cookie_attribute_counts{SameSite_Strict}++;
-            } elsif (lc($cookie->{samesite}) eq 'lax') {
+            } elsif ($samesite_value eq 'lax') {
                 $cookie_attribute_counts{SameSite_Lax}++;
-            } elsif (lc($cookie->{samesite}) eq 'none') {
+            } elsif ($samesite_value eq 'none') {
                 $cookie_attribute_counts{SameSite_None}++;
             }
         }
@@ -279,38 +281,34 @@ sub sanitize_filename {
 # Function to parse Set-Cookie header into a hash
 sub parse_set_cookie {
     my ($set_cookie_str) = @_;
-    my @cookies;
-    my @tokens = split_header_words($set_cookie_str);
-
-    foreach my $token (@tokens) {
-        my %cookie;
-        $cookie{key} = shift @$token;
-        $cookie{value} = shift @$token;
-
-        while (@$token) {
-            my $attr = shift @$token;
-            my $val  = shift @$token;
-            $attr = lc($attr);
-
-            if ($attr eq 'expires') {
-                $cookie{expires} = $val;
-            } elsif ($attr eq 'path') {
-                $cookie{path} = $val;
-            } elsif ($attr eq 'domain') {
-                $cookie{domain} = $val;
-            } elsif ($attr eq 'secure') {
-                $cookie{secure} = 1;
-                unshift @$token, $val if defined $val;
-            } elsif ($attr eq 'httponly') {
-                $cookie{httponly} = 1;
-                unshift @$token, $val if defined $val;
-            } elsif ($attr eq 'samesite') {
-                $cookie{samesite} = $val;
-            }
+    my %cookie;
+    
+    # Split the Set-Cookie string on semicolons
+    my @parts = split /;\s*/, $set_cookie_str;
+    
+    # The first part is the 'key=value'
+    my ($key, $value) = split /=/, shift @parts, 2;
+    $cookie{key} = $key;
+    $cookie{value} = $value;
+    
+    # Process the remaining attributes
+    foreach my $part (@parts) {
+        if ($part =~ /^expires=(.+)$/i) {
+            $cookie{expires} = $1;
+        } elsif ($part =~ /^path=(.+)$/i) {
+            $cookie{path} = $1;
+        } elsif ($part =~ /^domain=(.+)$/i) {
+            $cookie{domain} = $1;
+        } elsif ($part =~ /^secure$/i) {          # Corrected: Using $part
+            $cookie{secure} = 1;
+        } elsif ($part =~ /^httponly$/i) {        # Corrected: Using $part
+            $cookie{httponly} = 1;
+        } elsif ($part =~ /^samesite=(.+)$/i) {
+            $cookie{samesite} = $1;
         }
-        push @cookies, \%cookie;
     }
-    return @cookies;
+    
+    return (\%cookie);
 }
 
 # Function to check if a cookie is expired
@@ -318,14 +316,16 @@ sub is_cookie_expired {
     my ($cookie) = @_;
     if (defined $cookie->{expires}) {
         my $expires_str = $cookie->{expires};
+        my $expired = 0; # Initialize as not expired
         eval {
             my $expires_time = Time::Piece->strptime($expires_str, '%a, %d-%b-%Y %H:%M:%S %Z');
             my $current_time = gmtime;
             if ($expires_time < $current_time) {
-                return 1; # Cookie is expired
+                $expired = 1; # Cookie is expired
             }
         };
-        # If parsing fails, assume the cookie is not expired
+        # If parsing fails, $expired remains 0
+        return $expired;
     }
     return 0; # Cookie is not expired
 }
