@@ -20,6 +20,8 @@ node server.js
 
 ![](kaijucoookie.png)
 
+![](karatekidcookie.png)
+
 
 (karatekidcookie.png)
 
