@@ -14,14 +14,14 @@ node server.js
 
 ## Pages with cookies
 
-![Gladiator page](gladiatorcookie.png)
+(gladiatorcookie.png)
 
-![Johnny Cash Page](johnnycashcookie.png)
+(johnnycashcookie.png)
 
-![Kaiju Page](kaijucoookie.png)
+(kaijucoookie.png)
 
 
-![Karate Kid Page](karatekidcookie.png)
+(karatekidcookie.png)
 
 ## Instructions
 1. Install dependencies: `npm install`
