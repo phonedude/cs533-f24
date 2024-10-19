@@ -1,6 +1,0 @@
-HTTP/1.1 500 Can't connect to clickbank.net:443 (No address associated with hostname)
-Content-Type: text/plain
-Client-Date: Fri, 18 Oct 2024 22:27:15 GMT
-Client-Warning: Internal response
-
-

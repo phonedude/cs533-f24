@@ -1,0 +1,169 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:38 GMT
+Pragma: no-cache
+Location: https://news.google.com/
+Server: ESF
+Content-Length: 0
+Content-Type: application/binary
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:38 GMT
+Client-Peer: 172.253.63.102:80
+Client-Response-Num: 1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Set-Cookie: NID=518=dVOz2YLb38UROfrpZwfeCYnpAzmRSQO_h4KGLBBh5bk7vsjpsVXgosQY8AJeGSJczpc-FvWcymju0YjHIS5MrF2SNuNDdVlgG59r4rD9mh9bB5kpKSh1_py00zyHJKGe6lKJW6MgV8w2BsP17ZlXTUUwWElxlCyp0XaX7i6btkEMorXYNOY; expires=Sun, 20-Apr-2025 03:15:38 GMT; path=/; domain=.google.com; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+
+
+HTTP/1.1 302 Found
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:38 GMT
+Pragma: no-cache
+Location: https://news.google.com/home?hl=en-US&gl=US&ceid=US:en
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Content-Length: 0
+Content-Type: application/binary
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Sat, 19 Oct 2024 03:15:38 GMT
+Client-Peer: 172.253.63.139:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=*.news.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/DotsSplashUi/cspreport
+Content-Security-Policy: script-src 'nonce-9Hdqb7-y8kqDyRr4eeavzQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DotsSplashUi/cspreport;worker-src 'self'
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Cross-Origin-Resource-Policy: same-site
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Set-Cookie: GN_PREF=W251bGwsIkNBSVNEQWpheU15NEJoRFlfcFhyQVEiXQ__; Expires=Sat, 19-Apr-2025 15:15:38 GMT; Path=/; Secure
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:38 GMT
+Pragma: no-cache
+Accept-Ranges: none
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Sat, 19 Oct 2024 03:15:38 GMT
+Client-Peer: 172.253.63.102:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=*.news.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Base: https://news.google.com/
+Content-Security-Policy: script-src 'nonce-9ZaPEh5nUQheeOs0ZvnOww' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DotsSplashUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/DotsSplashUi/cspreport
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Cross-Origin-Resource-Policy: same-site
+Link: <//www.gstatic.com>; rel="preconnect"
+Link: <https://news.google.com/home>; rel="canonical"
+Link: <https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w16>; rel="shortcut icon"; sizes="16x16"
+Link: <https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w24>; rel="shortcut icon"; sizes="24x24"
+Link: <https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w32>; rel="shortcut icon"; sizes="32x32"
+Link: <https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w48>; rel="shortcut icon"; sizes="48x48"
+Link: <//www.gstatic.com>; rel="preconnect"
+Link: <//fonts.gstatic.com>; rel="preconnect"
+Link: <//lh3.googleusercontent.com>; rel="preconnect"
+Link: <//lh4.googleusercontent.com>; rel="preconnect"
+Link: <//lh5.googleusercontent.com>; rel="preconnect"
+Link: <//lh6.googleusercontent.com>; rel="preconnect"
+Link: <//ssl.gstatic.com>; rel="preconnect"
+Link: <https://www.google-analytics.com/analytics.js>; rel="preconnect"
+Link: <https://fonts.googleapis.com/css?family=Google+Sans+Text_old:400,500,700,400i,500i,700i>; rel="stylesheet"
+Link: <_/DotsSplashUi/manifest.json>; crossorigin="use-credentials"; rel="manifest"
+Link: </?lfhs=2>; rel="home"
+Link: </?lfhs=2>; rel="msapplication-starturl"
+Link: <//www.gstatic.com/gnews/logo/google_news_192.png>; rel="icon"; sizes="192x192"
+Link: <//www.gstatic.com/gnews/logo/google_news_192.png>; rel="apple-touch-icon-precomposed"; sizes="192x192"
+Link: <//www.gstatic.com/gnews/logo/google_news_192.png>; rel="msapplication-square192x192logo"; sizes="192x192"
+Link: <//www.gstatic.com/gnews/logo/google_news_512.png>; rel="icon"; sizes="512x512"
+Link: <//www.gstatic.com/gnews/logo/google_news_512.png>; rel="apple-touch-icon-precomposed"; sizes="512x512"
+Link: <//www.gstatic.com/gnews/logo/google_news_512.png>; rel="msapplication-square512x512logo"; sizes="512x512"
+Link: <//www.gstatic.com/gnews/logo/google_news_1024.png>; rel="icon"; sizes="1024x1024"
+Link: <//www.gstatic.com/gnews/logo/google_news_1024.png>; rel="apple-touch-icon-precomposed"; sizes="1024x1024"
+Link: <//www.gstatic.com/gnews/logo/google_news_1024.png>; rel="msapplication-square1024x1024logo"; sizes="1024x1024"
+Link: <//www.gstatic.com/gnews/logo/google_news_120.png>; rel="icon"; sizes="120x120"
+Link: <//www.gstatic.com/gnews/logo/google_news_120.png>; rel="apple-touch-icon-precomposed"; sizes="120x120"
+Link: <//www.gstatic.com/gnews/logo/google_news_120.png>; rel="msapplication-square120x120logo"; sizes="120x120"
+Link: <//www.gstatic.com/gnews/logo/google_news_152.png>; rel="icon"; sizes="152x152"
+Link: <//www.gstatic.com/gnews/logo/google_news_152.png>; rel="apple-touch-icon-precomposed"; sizes="152x152"
+Link: <//www.gstatic.com/gnews/logo/google_news_152.png>; rel="msapplication-square152x152logo"; sizes="152x152"
+Link: <//www.gstatic.com/gnews/logo/google_news_167.png>; rel="icon"; sizes="167x167"
+Link: <//www.gstatic.com/gnews/logo/google_news_167.png>; rel="apple-touch-icon-precomposed"; sizes="167x167"
+Link: <//www.gstatic.com/gnews/logo/google_news_167.png>; rel="msapplication-square167x167logo"; sizes="167x167"
+Link: <//www.gstatic.com/gnews/logo/google_news_180.png>; rel="icon"; sizes="180x180"
+Link: <//www.gstatic.com/gnews/logo/google_news_180.png>; rel="apple-touch-icon-precomposed"; sizes="180x180"
+Link: <//www.gstatic.com/gnews/logo/google_news_180.png>; rel="msapplication-square180x180logo"; sizes="180x180"
+Link: <//www.gstatic.com/gnews/logo/google_news_80.png>; rel="icon"; sizes="80x80"
+Link: <//www.gstatic.com/gnews/logo/google_news_80.png>; rel="apple-touch-icon-precomposed"; sizes="80x80"
+Link: <//www.gstatic.com/gnews/logo/google_news_80.png>; rel="msapplication-square80x80logo"; sizes="80x80"
+Link: <//www.gstatic.com/gnews/logo/google_news_87.png>; rel="icon"; sizes="87x87"
+Link: <//www.gstatic.com/gnews/logo/google_news_87.png>; rel="apple-touch-icon-precomposed"; sizes="87x87"
+Link: <//www.gstatic.com/gnews/logo/google_news_87.png>; rel="msapplication-square87x87logo"; sizes="87x87"
+Link: <//www.gstatic.com/gnews/logo/google_news_58.png>; rel="icon"; sizes="58x58"
+Link: <//www.gstatic.com/gnews/logo/google_news_58.png>; rel="apple-touch-icon-precomposed"; sizes="58x58"
+Link: <//www.gstatic.com/gnews/logo/google_news_58.png>; rel="msapplication-square58x58logo"; sizes="58x58"
+Link: <//www.gstatic.com/gnews/logo/google_news_60.png>; rel="icon"; sizes="60x60"
+Link: <//www.gstatic.com/gnews/logo/google_news_60.png>; rel="apple-touch-icon-precomposed"; sizes="60x60"
+Link: <//www.gstatic.com/gnews/logo/google_news_60.png>; rel="msapplication-square60x60logo"; sizes="60x60"
+Link: <//www.gstatic.com/gnews/logo/google_news_40.png>; rel="icon"; sizes="40x40"
+Link: <//www.gstatic.com/gnews/logo/google_news_40.png>; rel="apple-touch-icon-precomposed"; sizes="40x40"
+Link: <//www.gstatic.com/gnews/logo/google_news_40.png>; rel="msapplication-square40x40logo"; sizes="40x40"
+Link: <//www.gstatic.com/gnews/logo/google_news_192.png>; rel="apple-touch-startup-image"; sizes="192x192"
+Link: <//www.gstatic.com/gnews/logo/google_news_512.png>; rel="apple-touch-startup-image"; sizes="512x512"
+Link: <//www.gstatic.com/gnews/logo/google_news_1024.png>; rel="apple-touch-startup-image"; sizes="1024x1024"
+Link: <//www.gstatic.com/gnews/logo/google_news_120.png>; rel="apple-touch-startup-image"; sizes="120x120"
+Link: <//www.gstatic.com/gnews/logo/google_news_152.png>; rel="apple-touch-startup-image"; sizes="152x152"
+Link: <//www.gstatic.com/gnews/logo/google_news_167.png>; rel="apple-touch-startup-image"; sizes="167x167"
+Link: <//www.gstatic.com/gnews/logo/google_news_180.png>; rel="apple-touch-startup-image"; sizes="180x180"
+Link: <//www.gstatic.com/gnews/logo/google_news_80.png>; rel="apple-touch-startup-image"; sizes="80x80"
+Link: <//www.gstatic.com/gnews/logo/google_news_87.png>; rel="apple-touch-startup-image"; sizes="87x87"
+Link: <//www.gstatic.com/gnews/logo/google_news_58.png>; rel="apple-touch-startup-image"; sizes="58x58"
+Link: <//www.gstatic.com/gnews/logo/google_news_60.png>; rel="apple-touch-startup-image"; sizes="60x60"
+Link: <//www.gstatic.com/gnews/logo/google_news_40.png>; rel="apple-touch-startup-image"; sizes="40x40"
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Reporting-Endpoints: default="/_/DotsSplashUi/web-reports?context=eJzjCtHikmLw0pBikPj6kkkNiJ3SZ7AGAPHnHTNYW2-eY50MxEn_zrMWALGhwiVWeyC-nH6JVbXnEqsxENczXGZlMr3MapV_mbVI4gprAxAL8XDcOnFmB5vAg5kvlzApKSflF8an5JcUFxfkJBZnFKcWlaUWxRsZGJkYGhia6hkaxRcYAABGkTPx"
+Strict-Transport-Security: max-age=31536000
+Title: Google News
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Meta-Apple-Itunes-App: app-id=459182288
+X-Meta-Apple-Mobile-Web-App-Capable: yes
+X-Meta-Apple-Mobile-Web-App-Status-Bar-Style: black
+X-Meta-Apple-Mobile-Web-App-Title: News
+X-Meta-Application-Name: News
+X-Meta-Description: Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
+X-Meta-Google-Site-Verification: AcBy5YFny2HQgVUCR18tO5YUTf6MpVlcJqGTd-a9-SI
+X-Meta-Mobile-Web-App-Capable: yes
+X-Meta-Msapplication-Tap-Highlight: no
+X-Meta-Referrer: origin
+X-Meta-Theme-Color: white
+X-Meta-Viewport: width=device-width,initial-scale=1,minimal-ui
+X-Ua-Compatible: IE=edge
+X-XSS-Protection: 0
+
+

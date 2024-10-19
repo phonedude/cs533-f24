@@ -1,14 +1,14 @@
 HTTP/1.1 404 Not Found
 Cache-Control: public, max-age=300
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:42 GMT
+Date: Fri, 18 Oct 2024 22:27:45 GMT
 Server: sffe
 Content-Length: 43
 Content-Type: image/gif
-Expires: Sat, 19 Oct 2024 03:20:42 GMT
+Expires: Fri, 18 Oct 2024 22:32:45 GMT
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Sat, 19 Oct 2024 03:15:42 GMT
-Client-Peer: 172.253.63.105:443
+Client-Date: Fri, 18 Oct 2024 22:27:45 GMT
+Client-Peer: 172.253.63.104:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=*.blogger.com

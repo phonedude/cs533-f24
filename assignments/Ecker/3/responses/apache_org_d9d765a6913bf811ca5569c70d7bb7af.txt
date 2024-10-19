@@ -1,36 +1,36 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:09 GMT
+Date: Fri, 18 Oct 2024 22:27:10 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
 Location: https://apache.org/
 Retry-After: 0
 Server: Varnish
 Content-Length: 0
-Client-Date: Sat, 19 Oct 2024 03:15:09 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:10 GMT
 Client-Peer: 151.101.2.132:80
 Client-Response-Num: 1
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Served-By: cache-iad-kjyo7100175-IAD
-X-Timer: S1729307709.469822,VS0,VE0
+X-Served-By: cache-iad-kiad7000042-IAD
+X-Timer: S1729290431.743753,VS0,VE0
 
 
 HTTP/1.1 200 OK
 Cache-Control: max-age=3600
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:09 GMT
+Date: Fri, 18 Oct 2024 22:27:10 GMT
 Via: 1.1 varnish, 1.1 varnish
 Accept-Ranges: bytes
-Age: 3103
-ETag: "fc07-624ca4412286b"
+Age: 224
+ETag: "fbb1-624c38f54da94"
 Server: Apache
 Vary: Accept-Encoding
-Content-Length: 64519
+Content-Length: 64433
 Content-Type: text/html
-Expires: Sat, 19 Oct 2024 02:23:25 GMT
-Last-Modified: Sat, 19 Oct 2024 01:23:24 GMT
-Client-Date: Sat, 19 Oct 2024 03:15:09 GMT
+Expires: Fri, 18 Oct 2024 18:23:23 GMT
+Last-Modified: Fri, 18 Oct 2024 17:23:22 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:10 GMT
 Client-Peer: 151.101.2.132:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
@@ -64,7 +64,7 @@ Link: </_pagefind/pagefind-ui.css>; rel="stylesheet"
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Title: Welcome to The Apache Software Foundation!
 X-Cache: HIT, HIT
-X-Cache-Hits: 5, 1
+X-Cache-Hits: 1, 1
 X-Meta-Charset: utf-8
 X-Meta-Description: Home page of The Apache Software Foundation
 X-Meta-Msapplication-Config: /favicons/browserconfig.xml
@@ -72,8 +72,8 @@ X-Meta-Msapplication-TileColor: #603cba
 X-Meta-Msapplication-TileImage: /favicons/mstile-144x144.png
 X-Meta-Theme-Color: #282661
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Served-By: cache-hel1410034-HEL, cache-iad-kjyo7100171-IAD
-X-Timer: S1729307710.553352,VS0,VE2
+X-Served-By: cache-hel1410034-HEL, cache-iad-kiad7000140-IAD
+X-Timer: S1729290431.822030,VS0,VE1
 X-UA-Compatible: IE=edge
 
 

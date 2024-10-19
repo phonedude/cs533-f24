@@ -1,34 +1,34 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Date: Fri, 18 Oct 2024 22:28:50 GMT
 Accept-Ranges: bytes
 Location: https://www.fandom.com/explore
 Retry-After: 0
 Server: Varnish
 Vary: Accept-Encoding
 Content-Length: 0
-Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
-Client-Peer: 151.101.0.194:80
+Client-Date: Fri, 18 Oct 2024 22:28:50 GMT
+Client-Peer: 151.101.64.194:80
 Client-Response-Num: 1
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Served-By: cache-iad-kiad7000150-IAD
-X-Timer: S1729307807.326507,VS0,VE0
+X-Served-By: cache-iad-kiad7000165-IAD
+X-Timer: S1729290530.494498,VS0,VE0
 
 
 HTTP/1.1 200 OK
 Cache-Control: max-age=60,stale-while-revalidate=86400,stale-if-error=86400
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Date: Fri, 18 Oct 2024 22:28:50 GMT
 Via: 1.1 varnish, 1.1 varnish
 Accept-Ranges: bytes
-Age: 355
+Age: 603
 Server: envoy
 Vary: Fastly-SSL, Fastly-SSL, Accept-Language,Geo-Region,Accept-Encoding
 Content-Length: 698869
 Content-Type: text/html; charset=UTF-8
-Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
-Client-Peer: 199.232.208.194:443
+Client-Date: Fri, 18 Oct 2024 22:28:50 GMT
+Client-Peer: 199.232.212.194:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q3
 Client-SSL-Cert-Subject: /CN=*.fandom.com
@@ -40,15 +40,15 @@ Content-Security-Policy: upgrade-insecure-requests
 Content-Security-Policy-Report-Only: default-src https: 'self' data: blob:; script-src https: 'self' data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'self' 'unsafe-inline' blob:; report-uri https://services.fandom.com/csp-logger/csp/upstream
 Link: <https://www.fandom.com/wp-json/>; rel="https://api.w.org/"
 Link: <https://www.fandom.com/?p=3211>; rel=shortlink
-Set-Cookie: wikia_beacon_id=Y8D_Yj1M6g; domain=.fandom.com; path=/; expires=Thu, 17 Apr 2025 03:16:47 GMT; SameSite=None; Secure;
-Set-Cookie: _b2=9DUUAbyj1T.1729307807454; domain=.fandom.com; path=/; expires=Mon, 19 Oct 2026 03:16:47 GMT; SameSite=None; Secure;
-Set-Cookie: exp_bucket=76; domain=.fandom.com; path=/; expires=Thu, 17 Apr 2025 03:16:47 GMT;
-Set-Cookie: exp_bucket_2=v2-97; domain=.fandom.com; path=/; expires=Fri, 17 Jan 2025 03:16:47 GMT;
+Set-Cookie: wikia_beacon_id=vl2kj2laf2; domain=.fandom.com; path=/; expires=Wed, 16 Apr 2025 22:28:50 GMT; SameSite=None; Secure;
+Set-Cookie: _b2=ivCSi3rS1v.1729290530612; domain=.fandom.com; path=/; expires=Sun, 18 Oct 2026 22:28:50 GMT; SameSite=None; Secure;
+Set-Cookie: exp_bucket=57; domain=.fandom.com; path=/; expires=Wed, 16 Apr 2025 22:28:50 GMT;
+Set-Cookie: exp_bucket_2=v2-39; domain=.fandom.com; path=/; expires=Thu, 16 Jan 2025 22:28:50 GMT;
 Set-Cookie: Geo={%22region%22:%22VA%22%2C%22city%22:%22williamsburg%22%2C%22country_name%22:%22united states%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22}; path=/; domain=.fandom.com; SameSite=None; Secure;
 Title: Explore | Fandom
-X-Cache: MISS, HIT, MISS
-X-Cache-Hits: 0, 4, 0
-X-Envoy-Upstream-Service-Time: 165
+X-Cache: MISS, HIT, HIT
+X-Cache-Hits: 0, 1, 0
+X-Envoy-Upstream-Service-Time: 181
 X-Meta-Apple-Mobile-Web-App-Title: Fandom
 X-Meta-Application-Name: Fandom
 X-Meta-Charset: utf-8
@@ -62,8 +62,8 @@ X-Meta-Twitter-Image: https://static.wikia.nocookie.net/750feb85-de88-4a4f-b294-
 X-Meta-Twitter-Site: @getfandom
 X-Meta-Twitter-Title: Explore | Fandom
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Served-By: cache-sjc1000114-SJC, cache-wk-sjc11420-SJC, cache-iad-kiad7000080-IAD
-X-Timer: S1729307807.454091,VS0,VE104
+X-Served-By: cache-sjc10047-SJC, cache-wk-sjc11421-SJC, cache-iad-kjyo7100167-IAD
+X-Timer: S1729290531.612381,VS0,VE1
 X-Ua-Compatible: ie=edge
 
 

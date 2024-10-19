@@ -1,0 +1,103 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Location: https://ja.wikipedia.org/
+Server: HAProxy
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 03:15:27 GMT
+Client-Peer: 208.80.154.224:80
+Client-Response-Num: 1
+X-Cache: cp1104 int
+X-Cache-Status: int-tls
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: s-maxage=1200, must-revalidate, max-age=0
+Connection: close
+Date: Sat, 19 Oct 2024 03:09:53 GMT
+Age: 334
+Location: https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8
+Server: mw-web.eqiad.main-685877499b-g8vd8
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sat, 19 Oct 2024 03:09:53 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:28 GMT
+Client-Peer: 208.80.154.224:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
+Client-SSL-Cert-Subject: /CN=*.wikipedia.org
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+Report-To: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Server-Timing: cache;desc="hit-front", host;desc="cp1110"
+Set-Cookie: WMF-Last-Access=19-Oct-2024;Path=/;HttpOnly;secure;Expires=Wed, 20 Nov 2024 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=19-Oct-2024;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed, 20 Nov 2024 00:00:00 GMT
+Set-Cookie: GeoIP=US:VA:Hampton:37.05:-76.34:v4; Path=/; secure; Domain=.wikipedia.org
+Set-Cookie: NetworkProbeLimit=0.001;Path=/;Secure;SameSite=Lax;Max-Age=3600
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+X-Cache: cp1110 miss, cp1110 hit/40
+X-Cache-Status: hit-front
+X-Client-Ip: 24.254.225.47
+X-Content-Type-Options: nosniff
+
+
+HTTP/1.1 200 OK
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate, no-transform
+Connection: close
+Date: Fri, 18 Oct 2024 16:04:53 GMT
+Accept-Ranges: bytes
+Age: 40235
+Server: mw-web.eqiad.main-685877499b-wprrt
+Vary: Accept-Encoding,Cookie,Authorization
+Content-Language: ja
+Content-Length: 128896
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Fri, 18 Oct 2024 16:04:50 GMT
+Accept-Ch: 
+Client-Date: Sat, 19 Oct 2024 03:15:28 GMT
+Client-Peer: 208.80.154.224:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
+Client-SSL-Cert-Subject: /CN=*.wikipedia.org
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Link: </w/load.php?lang=ja&modules=ext.categoryTree.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cext.wikimediamessages.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles&only=styles&skin=vector-2022>; rel="stylesheet"
+Link: </w/load.php?lang=ja&modules=ext.gadget.PDFLinkIcon%2CRedirectColor&only=styles&skin=vector-2022>; rel="stylesheet"
+Link: </w/load.php?lang=ja&modules=site.styles&only=styles&skin=vector-2022>; rel="stylesheet"
+Link: <//upload.wikimedia.org>; rel="preconnect"
+Link: <//ja.m.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8>; media="only screen and (max-width: 640px)"; rel="alternate"
+Link: </w/api.php?action=featuredfeed&feed=featured&feedformat=atom>; rel="alternate"; title="Wikipedia 秀逸な記事フィード"; type="application/atom+xml"
+Link: </static/apple-touch/wikipedia.png>; rel="apple-touch-icon"
+Link: </static/favicon/wikipedia.ico>; rel="icon"
+Link: </w/rest.php/v1/search>; rel="search"; title="Wikipedia (ja)"; type="application/opensearchdescription+xml"
+Link: <//ja.wikipedia.org/w/api.php?action=rsd>; rel="EditURI"; type="application/rsd+xml"
+Link: <https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8>; rel="canonical"
+Link: <https://creativecommons.org/licenses/by-sa/4.0/deed.ja>; rel="license"
+Link: </w/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&feed=atom>; rel="alternate"; title="WikipediaのAtomフィード"; type="application/atom+xml"
+Link: <//meta.wikimedia.org>; rel="dns-prefetch"
+Link: <//login.wikimedia.org>; rel="dns-prefetch"
+Nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+Report-To: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Server-Timing: cache;desc="hit-front", host;desc="cp1110"
+Set-Cookie: WMF-DP=205;Path=/;HttpOnly;secure;Expires=Sat, 19 Oct 2024 00:00:00 GMT
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Title: Wikipedia
+X-Cache: cp1110 miss, cp1110 hit/2558
+X-Cache-Status: hit-front
+X-Client-Ip: 24.254.225.47
+X-Content-Type-Options: nosniff
+X-Meta-Charset: UTF-8
+X-Meta-Format-Detection: telephone=no
+X-Meta-Generator: MediaWiki 1.43.0-wmf.27
+X-Meta-Referrer: origin
+X-Meta-Referrer: origin-when-cross-origin
+X-Meta-ResourceLoaderDynamicStyles: 
+X-Meta-Robots: max-image-preview:standard
+X-Meta-Viewport: width=1120
+
+

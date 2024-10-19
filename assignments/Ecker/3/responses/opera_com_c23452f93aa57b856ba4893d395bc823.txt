@@ -1,25 +1,25 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:41 GMT
+Date: Fri, 18 Oct 2024 22:27:43 GMT
 Location: https://opera.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:41 GMT
-Client-Peer: 185.26.182.103:80
+Client-Date: Fri, 18 Oct 2024 22:27:43 GMT
+Client-Peer: 185.26.182.104:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:41 GMT
+Date: Fri, 18 Oct 2024 22:27:43 GMT
 Location: https://www.opera.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:41 GMT
-Client-Peer: 185.26.182.103:443
+Client-Date: Fri, 18 Oct 2024 22:27:43 GMT
+Client-Peer: 185.26.182.104:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert TLS Hybrid ECC SHA384 2020 CA1
 Client-SSL-Cert-Subject: /C=NO/ST=Oslo/L=Oslo/O=Opera Norway AS/CN=*.opera.com
@@ -34,14 +34,14 @@ Title: 301 Moved Permanently
 HTTP/1.1 200 OK
 Cache-Control: max-age=3600
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:41 GMT
+Date: Fri, 18 Oct 2024 22:27:43 GMT
 Accept-Ranges: bytes
 Vary: Accept-Encoding
 Content-Language: en
 Content-Length: 110522
 Content-Type: text/html; charset=utf-8
-Client-Date: Sat, 19 Oct 2024 03:15:41 GMT
-Client-Peer: 3.16.116.61:443
+Client-Date: Fri, 18 Oct 2024 22:27:44 GMT
+Client-Peer: 18.116.169.102:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
 Client-SSL-Cert-Subject: /C=NO/L=Oslo/O=Opera Norway AS/CN=www.opera.com

@@ -1,11 +1,11 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:29 GMT
+Date: Fri, 18 Oct 2024 22:27:31 GMT
 Location: https://www.lavanguardia.com/
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:29 GMT
-Client-Peer: 213.4.81.197:80
+Client-Date: Fri, 18 Oct 2024 22:27:32 GMT
+Client-Peer: 88.87.219.197:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
 
@@ -13,13 +13,13 @@ Title: 301 Moved Permanently
 HTTP/1.1 200 OK
 Cache-Control: max-age=0, no-cache, no-store
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:30 GMT
+Date: Fri, 18 Oct 2024 22:27:32 GMT
 Pragma: no-cache
-Content-Length: 481694
+Content-Length: 483824
 Content-Type: text/html; charset=UTF-8
-Expires: Sat, 19 Oct 2024 03:15:30 GMT
+Expires: Fri, 18 Oct 2024 22:27:32 GMT
 Access-Control-Max-Age: 86400
-Client-Date: Sat, 19 Oct 2024 03:15:30 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:32 GMT
 Client-Peer: 104.94.117.173:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert TLS RSA SHA256 2020 CA1
@@ -76,7 +76,6 @@ Link: <https://static.lavanguardia.com/css/04337f4.css?1728378888>; media="scree
 Link: <https://static.lavanguardia.com/css/c4f6e1d.css?1728458546>; rel="stylesheet"
 Link: <https://static.lavanguardia.com/css/7fb5b3f.css?1728458546>; rel="stylesheet"
 Link: <https://static.lavanguardia.com/css/fonts.css>; fetchpriority="low"; rel="stylesheet"
-Set-Cookie: wfcms=e40733a496697c4ee5aa225770eb9bda; path=/; HttpOnly
 Title: Últimas noticias, actualidad y última hora en Catalunya, España y el mundo
 X-Frame-Options: SAMEORIGIN
 X-Host: www.lavanguardia.com

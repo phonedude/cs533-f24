@@ -1,0 +1,138 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:45 GMT
+Accept-Ranges: bytes
+Location: https://softonic.com/
+Retry-After: 0
+Content-Length: 0
+Access-Control-Expose-Headers: x-country-code,x-region
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Sat, 19 Oct 2024 03:15:45 GMT
+Client-Peer: 151.101.193.91:80
+Client-Response-Num: 1
+Strict-Transport-Security: max-age=300
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache,no-store,max-age=0,must-revalidate
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:45 GMT
+Accept-Ranges: bytes
+Location: https://www.softonic.com/
+Content-Language: es-ES
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+Access-Control-Expose-Headers: x-country-code,x-region
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Sat, 19 Oct 2024 03:15:45 GMT
+Client-Peer: 151.101.1.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
+Client-SSL-Cert-Subject: /CN=*.softonic.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: upgrade-insecure-requests
+Permissions-Policy: accelerometer=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=()
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=300
+X-Content-Type-Options: nosniff
+X-Country-Code: US
+X-Detected-As: bot
+X-Frame-Options: sameorigin
+X-Is-Bot: true
+X-Region: VA
+X-Request-Id: 3461188256
+X-Version: 1.6377.0
+X-Xss-Protection: 1
+
+
+HTTP/1.1 200 OK
+Cache-Control: public,max-age=900,stale-while-revalidate=600,stale-if-error=31536000
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:45 GMT
+Accept-Ranges: bytes
+Age: 871
+ETag: "9W/7Q0KRbkWof+bwe6OZNti3YSk="
+Vary: x-country-group, Accept-Encoding
+Content-Language: es-ES
+Content-Type: text/html;charset=utf-8
+Access-Control-Expose-Headers: x-country-code,x-region
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Sat, 19 Oct 2024 03:15:45 GMT
+Client-Peer: 151.101.193.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
+Client-SSL-Cert-Subject: /CN=*.softonic.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Link: <https://sdk.privacy-center.org>; rel="preconnect"
+Link: <https://www.googletagmanager.com>; rel="preconnect"
+Link: <https://assets.sftcdn.net>; rel="preconnect"
+Link: <https://images.sftcdn.net>; rel="preconnect"
+Link: <https://assets.sftcdn.net/public/Home.6d8566.css>; crossorigin="anonymous"; media="all"; rel="stylesheet"
+Link: <https://assets.sftcdn.net/public/be7cb1.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://sdk.privacy-center.org>; rel="dns-prefetch"
+Link: <https://www.googletagmanager.com>; rel="dns-prefetch"
+Link: <https://assets.sftcdn.net>; rel="dns-prefetch"
+Link: <https://images.sftcdn.net>; rel="dns-prefetch"
+Link: <https://www.softonic.com/>; rel="canonical"
+Link: <https://www.softonic-ar.com/>; hreflang="ar"; rel="alternate"
+Link: <https://de.softonic.com/>; hreflang="de"; rel="alternate"
+Link: <https://en.softonic.com/>; hreflang="en"; rel="alternate"
+Link: <https://www.softonic.com/>; hreflang="es"; rel="alternate"
+Link: <https://www.softonic.com/>; hreflang="x-default"; rel="alternate"
+Link: <https://fr.softonic.com/>; hreflang="fr"; rel="alternate"
+Link: <https://www.softonic-id.com/>; hreflang="id"; rel="alternate"
+Link: <https://it.softonic.com/>; hreflang="it"; rel="alternate"
+Link: <https://www.softonic.jp/>; hreflang="ja"; rel="alternate"
+Link: <https://www.softonic.kr/>; hreflang="ko"; rel="alternate"
+Link: <https://www.softonic.nl/>; hreflang="nl"; rel="alternate"
+Link: <https://www.softonic.pl/>; hreflang="pl"; rel="alternate"
+Link: <https://www.softonic.com.br/>; hreflang="pt"; rel="alternate"
+Link: <https://www.softonic.ru/>; hreflang="ru"; rel="alternate"
+Link: <https://www.softonic.se/>; hreflang="sv"; rel="alternate"
+Link: <https://www.softonic-th.com/>; hreflang="th"; rel="alternate"
+Link: <https://www.softonic.com.tr/>; hreflang="tr"; rel="alternate"
+Link: <https://vi.softonic.com/>; hreflang="vi"; rel="alternate"
+Link: <https://www.softonic.cn/>; hreflang="zh"; rel="alternate"
+Link: <https://assets.sftcdn.net/public/b80692.ico>; rel="icon"; type="image/x-icon"
+Link: <https://assets.sftcdn.net/public/79e14a.png>; rel="icon"; type="image/png"
+Link: <https://assets.sftcdn.net/public/ad30d0.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: <https://assets.sftcdn.net/public/a5895d.png>; rel="apple-touch-icon"; sizes="180x180"; type="image/png"
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=()
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=300
+Title: Noticias, análisis y descargas de software, guía de las mejores apps - Softonic
+X-Content-Type-Options: nosniff
+X-Country-Code: US
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: UTF-8
+X-Meta-Description: Softonic es el lugar perfecto para descubrir las mejores apps y contenidos para tu dispositivo: noticias, artículos, descargas y más. ¡Bienvenido a tu guía de apps!
+X-Meta-Google-Adsense-Account: sites-8478182238710563
+X-Meta-Robots: all
+X-Meta-Theme-Color: #fff
+X-Meta-Title: Noticias, análisis y descargas de software, guía de las mejores apps  - Softonic
+X-Meta-Viewport: width=device-width,initial-scale=1,minimum-scale=1
+X-Page-Id: home
+X-Permitted-Cross-Domain-Policies: none
+X-Region: VA
+X-Request-Id: 3518395967
+X-Resource-Id: @softonic/home
+X-Server-By: softonic
+X-Ua-Compatible: IE=edge
+X-Version: 1.1268.0
+X-Xss-Protection: 0
+Xkey: es-article-list
+
+

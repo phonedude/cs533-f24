@@ -1,32 +1,32 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Date: Fri, 18 Oct 2024 22:28:50 GMT
 Accept-Ranges: bytes
 Location: https://wikihow.com/
 Retry-After: 0
 Vary: Cookie, Accept-Encoding, User-Agent
 Content-Length: 0
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
-Client-Peer: 151.101.129.91:80
+Client-Date: Fri, 18 Oct 2024 22:28:50 GMT
+Client-Peer: 151.101.65.91:80
 Client-Response-Num: 1
-X-C: cache-iad-kiad7000171-IAD,M
+X-C: cache-iad-kiad7000095-IAD,M
 X-Content-Type-Options: nosniff
-X-Timer: S1729307808.720231,VS0,VE0
+X-Timer: S1729290531.768502,VS0,VE0
 X-Xss-Protection: 1; mode=block
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Date: Fri, 18 Oct 2024 22:28:50 GMT
 Accept-Ranges: bytes
 Location: https://www.wikihow.com/
 Retry-After: 0
 Vary: Cookie, Accept-Encoding, User-Agent
 Content-Length: 0
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
-Client-Peer: 151.101.65.91:443
+Client-Date: Fri, 18 Oct 2024 22:28:50 GMT
+Client-Peer: 151.101.129.91:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Certainly/CN=Certainly Intermediate R1
 Client-SSL-Cert-Subject: /CN=wikihow.com
@@ -35,23 +35,23 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-C: cache-iad-kjyo7100065-IAD,M
+X-C: cache-iad-kiad7000144-IAD,M
 X-Content-Type-Options: nosniff
-X-Timer: S1729307808.818174,VS0,VE0
+X-Timer: S1729290531.910191,VS0,VE0
 X-Xss-Protection: 1; mode=block
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Date: Fri, 18 Oct 2024 22:28:51 GMT
 Accept-Ranges: bytes
 Location: https://www.wikihow.com/Main-Page
 Retry-After: 0
 Vary: Cookie, Accept-Encoding, User-Agent
 Content-Length: 0
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
-Client-Peer: 151.101.129.91:443
+Client-Date: Fri, 18 Oct 2024 22:28:51 GMT
+Client-Peer: 151.101.193.91:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q1
 Client-SSL-Cert-Subject: /CN=*.wikihow.com
@@ -60,26 +60,26 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-C: cache-iad-kiad7000161-IAD,M
+X-C: cache-iad-kjyo7100111-IAD,M
 X-Content-Type-Options: nosniff
-X-Timer: S1729307808.944148,VS0,VE0
+X-Timer: S1729290531.037888,VS0,VE0
 X-Xss-Protection: 1; mode=block
 
 
 HTTP/1.1 200 OK
 Cache-Control: s-maxage=3600, must-revalidate, max-age=0
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:48 GMT
+Date: Fri, 18 Oct 2024 22:28:51 GMT
 Accept-Ranges: bytes
-Age: 18335
+Age: 1058
 Vary: Cookie, Accept-Encoding
 Content-Language: en
 Content-Length: 300491
 Content-Type: text/html; charset=UTF-8
 Last-Modified: Thu, 17 Oct 2024 22:43:18 GMT
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Sat, 19 Oct 2024 03:16:48 GMT
-Client-Peer: 151.101.1.91:443
+Client-Date: Fri, 18 Oct 2024 22:28:51 GMT
+Client-Peer: 151.101.65.91:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q1
 Client-SSL-Cert-Subject: /CN=*.wikihow.com
@@ -112,12 +112,12 @@ Link: <https://th.wikihow.com/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B
 Link: <https://www.wikihow.com.tr/Anasayfa>; hreflang="tr"; rel="alternate"
 Link: <https://www.wikihow.vn/Trang-Ch%C3%ADnh>; hreflang="vi"; rel="alternate"
 Link: <https://zh.wikihow.com/%E9%A6%96%E9%A1%B5>; hreflang="zh"; rel="alternate"
-Set-Cookie: whv=bOCfmn8xaIrKluAQJTw2; expires=Tue, 17 Oct 2034 03:16:48 GMT; domain=.wikihow.com; path=/; secure
+Set-Cookie: whv=fVDndvS9u4GsJdXyJbE2; expires=Mon, 16 Oct 2034 22:28:51 GMT; domain=.wikihow.com; path=/; secure
 Set-Cookie: vr=US-VA; domain=.wikihow.com; path=/; secure
 Set-Cookie: vi=NA; domain=.wikihow.com; path=/; secure
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Title: wikiHow: How-to instructions you can trust.
-X-C: cache-iad-kiad7000034-IAD,H,18335
+X-C: cache-iad-kiad7000166-IAD,M
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Meta-Charset: utf-8
@@ -137,7 +137,7 @@ X-Meta-Twitter-Title: wikiHow
 X-Meta-Twitter-Url: https://www.wikihow.com/Main-Page
 X-Meta-Viewport: initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0, width=device-width
 X-Meta-Viewport: width=device-width
-X-Timer: S1729307808.045616,VS0,VE0
+X-Timer: S1729290531.134538,VS0,VE2
 X-UA-Compatible: IE=edge
 X-Xss-Protection: 1; mode=block
 

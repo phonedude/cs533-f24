@@ -1,14 +1,15 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: public, max-age=1800
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:48 GMT
+Date: Fri, 18 Oct 2024 22:21:10 GMT
+Age: 461
 Location: https://workspace.google.com/
 Server: sffe
 Content-Length: 226
 Content-Type: text/html; charset=UTF-8
-Expires: Sat, 19 Oct 2024 03:46:48 GMT
-Client-Date: Sat, 19 Oct 2024 03:16:48 GMT
-Client-Peer: 172.253.122.100:80
+Expires: Fri, 18 Oct 2024 22:51:10 GMT
+Client-Date: Fri, 18 Oct 2024 22:28:51 GMT
+Client-Peer: 172.253.122.139:80
 Client-Response-Num: 1
 P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
 Title: 301 Moved
@@ -19,7 +20,7 @@ X-XSS-Protection: 0
 HTTP/1.1 200 OK
 Cache-Control: no-cache, must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:16:48 GMT
+Date: Fri, 18 Oct 2024 22:28:51 GMT
 Pragma: no-cache
 Accept-Ranges: bytes
 Server: sffe
@@ -29,7 +30,7 @@ Content-Type: text/html
 Expires: Fri, 01 Jan 1990 00:00:00 GMT
 Last-Modified: Thu, 17 Oct 2024 19:38:00 GMT
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Sat, 19 Oct 2024 03:16:48 GMT
+Client-Date: Fri, 18 Oct 2024 22:28:51 GMT
 Client-Peer: 172.253.122.113:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
@@ -38,14 +39,14 @@ Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
 Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
-Content-Security-Policy: script-src  'nonce-cYR5QhwFvNHg3z1B9WrBtQ' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/workspace-web-team; base-uri 'self'
+Content-Security-Policy: script-src  'nonce-eAOL0JXdkXrkAl85N33L9g' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/workspace-web-team; base-uri 'self'
 Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="workspace-web-team"
 Cross-Origin-Resource-Policy: cross-origin
 Link: <https://workspace.google.com/>; rel="canonical"
 Link: <https://workspace.google.com/static/favicon.ico?cache=4926369>; rel="shortcut icon"; type="image/x-icon"
 Link: <https://fonts.gstatic.com>; rel="preconnect"
 Link: <https://fonts.googleapis.com>; rel="preconnect"
-Link: <https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Google+Sans:400,500,700|Google+Sans+Text:400,500,700|Google+Sans+Display:400,500,700|Roboto:400,500,700&display=swap>; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="stylesheet"
+Link: <https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Google+Sans:400,500,700|Google+Sans+Text:400,500,700|Google+Sans+Display:400,500,700|Roboto:400,500,700&display=swap>; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="stylesheet"
 Link: <https://workspace.google.com/>; hreflang="x-default"; rel="alternate"
 Link: <https://workspace.google.com/>; hreflang="en-US"; rel="alternate"
 Link: <https://workspace.google.com/intl/en_au/>; hreflang="en-AU"; rel="alternate"
@@ -94,23 +95,23 @@ Link: <https://workspace.google.com/intl/pt-PT/>; hreflang="pt-PT"; rel="alterna
 Link: <https://workspace.google.com/intl/cs/>; hreflang="cs"; rel="alternate"
 Link: <https://workspace.google.com/intl/ar_eg/>; hreflang="ar-EG"; rel="alternate"
 Link: <https://workspace.google.com/intl/ar/>; hreflang="ar"; rel="alternate"
-Link: <https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css>; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="stylesheet"
-Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-12u8F33yMpGrJ47b1JYGhI-736f5142ccb97caf0bd51159e678952c-Google_Workspace_Product_5-Icon_Lockup.svg>; as="image"; media="(max-width: 599px)"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-5lQem0kIFDqqrfzKVOVGUO-9fa5d7690db8510f392b8ab2fd55d0fb-22357_GWS_Gemini_Homepage_Desktop_v05.json>; as="fetch"; crossorigin="anonymous"; media="(min-width: 1024px)"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: <https://lh3.googleusercontent.com/BnfyQq16q5BdgpxvrsIk7VhSc8BY0Klmw2N6ksqAw1j8PPYn5OxcdvJ2yVhym7Bl0bWhAaLnBF6UlH1VTVo5MbnIITbRMeYeNLvi=e365-pa-nu-s0-v0-rw>; as="image"; media="(min-width: 1024px)"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-2qiMYLIwoDIBdVcGVVIjNk-6ac5039c94c007dc7bec2bf8b011375b-22357_GWS_Gemini_Homepage_Tablet_v05_Optimized.json>; as="fetch"; crossorigin="anonymous"; media="(min-width: 600px) and (max-width: 1023px)"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: <https://lh3.googleusercontent.com/t7pl3Rszyyj_7kUUq1xDJw0Mx8LUU6dhpudpuAo9jo7bXihk28Hi-pY2Q8reLVUMseZ-Bz0Dw0PnMOxl6idyQRKF0pRblDgTnQs=e365-pa-nu-s0-v0-rw>; as="image"; media="(min-width: 600px) and (max-width: 1023px)"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-3yVHdmbnNO2bcVrDR6Y6Ij-addbb6b2fd34f8c840b1778caa5fb657-22357_GWS_Gemini_Homepage_Mobile_v03.json>; as="fetch"; crossorigin="anonymous"; media="(max-width: 599px)"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: <https://lh3.googleusercontent.com/SdC95s384ih7JZFAtKGSIZ9GtevlU9NmBLzwmC05jjL8pLF5HES8_Sbo4wztc_kWIym4pTO0iKWxiANAJhdSY_ZJr0lNXO4Hqpa2Ow=e365-pa-nu-s0-v0-rw>; as="image"; media="(max-width: 599px)"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: <https://lh3.googleusercontent.com/NjE6L0rhU5SeIlKktNaPcdN8_izCRms8bJNTjR7u6EroMVZTsyG87YYwA3MPOhTEX-NzuP1oTCa5IM2a19XaWgZWLfgSZmQVPEo>; as="image"; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="preload"
-Link: </assets/sPVKQDHb.css>; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="stylesheet"
-Link: </assets/vIoyn1TK.css>; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="stylesheet"
-Link: </assets/C-ybriod.css>; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="stylesheet"
-Link: </assets/D6vfIEh2.css>; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="stylesheet"
-Link: </assets/BZ11Ya-X.css>; nonce="cYR5QhwFvNHg3z1B9WrBtQ"; rel="stylesheet"
+Link: <https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css>; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="stylesheet"
+Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-12u8F33yMpGrJ47b1JYGhI-736f5142ccb97caf0bd51159e678952c-Google_Workspace_Product_5-Icon_Lockup.svg>; as="image"; media="(max-width: 599px)"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-5lQem0kIFDqqrfzKVOVGUO-9fa5d7690db8510f392b8ab2fd55d0fb-22357_GWS_Gemini_Homepage_Desktop_v05.json>; as="fetch"; crossorigin="anonymous"; media="(min-width: 1024px)"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: <https://lh3.googleusercontent.com/BnfyQq16q5BdgpxvrsIk7VhSc8BY0Klmw2N6ksqAw1j8PPYn5OxcdvJ2yVhym7Bl0bWhAaLnBF6UlH1VTVo5MbnIITbRMeYeNLvi=e365-pa-nu-s0-v0-rw>; as="image"; media="(min-width: 1024px)"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-2qiMYLIwoDIBdVcGVVIjNk-6ac5039c94c007dc7bec2bf8b011375b-22357_GWS_Gemini_Homepage_Tablet_v05_Optimized.json>; as="fetch"; crossorigin="anonymous"; media="(min-width: 600px) and (max-width: 1023px)"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: <https://lh3.googleusercontent.com/t7pl3Rszyyj_7kUUq1xDJw0Mx8LUU6dhpudpuAo9jo7bXihk28Hi-pY2Q8reLVUMseZ-Bz0Dw0PnMOxl6idyQRKF0pRblDgTnQs=e365-pa-nu-s0-v0-rw>; as="image"; media="(min-width: 600px) and (max-width: 1023px)"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: <https://storage.googleapis.com/assets_workspace/uploads/7uffzv9dk4sn-3yVHdmbnNO2bcVrDR6Y6Ij-addbb6b2fd34f8c840b1778caa5fb657-22357_GWS_Gemini_Homepage_Mobile_v03.json>; as="fetch"; crossorigin="anonymous"; media="(max-width: 599px)"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: <https://lh3.googleusercontent.com/SdC95s384ih7JZFAtKGSIZ9GtevlU9NmBLzwmC05jjL8pLF5HES8_Sbo4wztc_kWIym4pTO0iKWxiANAJhdSY_ZJr0lNXO4Hqpa2Ow=e365-pa-nu-s0-v0-rw>; as="image"; media="(max-width: 599px)"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: <https://lh3.googleusercontent.com/NjE6L0rhU5SeIlKktNaPcdN8_izCRms8bJNTjR7u6EroMVZTsyG87YYwA3MPOhTEX-NzuP1oTCa5IM2a19XaWgZWLfgSZmQVPEo>; as="image"; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="preload"
+Link: </assets/sPVKQDHb.css>; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="stylesheet"
+Link: </assets/vIoyn1TK.css>; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="stylesheet"
+Link: </assets/C-ybriod.css>; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="stylesheet"
+Link: </assets/D6vfIEh2.css>; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="stylesheet"
+Link: </assets/BZ11Ya-X.css>; nonce="eAOL0JXdkXrkAl85N33L9g"; rel="stylesheet"
 P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
 Report-To: {"group":"workspace-web-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/workspace-web-team"}]}
-Set-Cookie: NID=518=CcwwWscoJXVGzCymRS2BxjioQJfaDEPQv6iHCtDB2JgVc5L4tmSjLRfX9IEI2AWqwJZRMg8xJhHziTGDkOjD8MVrI0ccTbyzwepKl7w0G7l4Mr12zpoDQMN51-n0H8xeLnbCCPSSTpdgzn8PsWtKcS37KbMZ7T-SeYdpfKaA3ONyg75asik; expires=Sun, 20-Apr-2025 03:16:48 GMT; path=/; domain=.google.com; HttpOnly
+Set-Cookie: NID=518=leonQRhWJS7OC8Wf4poB3yQUePJOjne3G5x3mx_XcCyZ265twGq_-ot5yyP-N6WlcxqsjRYjFs-bLinMAEZignHpntIwrVAkDGjkutnBt_0e254w-IPhOlqOh47m4AmKZSMuqI128LUOe6ZW8ukvRNYc2biK0UhskoTbJOxTK2m7qQtKAQ; expires=Sat, 19-Apr-2025 22:28:51 GMT; path=/; domain=.google.com; HttpOnly
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Title: Google Workspace: Secure Online Productivity & Collaboration Tools
 X-Content-Type-Options: nosniff

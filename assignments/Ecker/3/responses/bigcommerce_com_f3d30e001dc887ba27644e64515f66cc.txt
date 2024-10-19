@@ -1,17 +1,17 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: max-age=3600
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:11 GMT
+Date: Fri, 18 Oct 2024 22:27:12 GMT
 Location: https://www.bigcommerce.com/
 Server: cloudflare
 Content-Length: 167
 Content-Type: text/html
-Expires: Sat, 19 Oct 2024 04:15:11 GMT
+Expires: Fri, 18 Oct 2024 23:27:12 GMT
 Alt-Svc: h3=":443"; ma=86400
 BC-Ray: 1
-CF-RAY: 8d4d9a2b6b542426-IAD
-Client-Date: Sat, 19 Oct 2024 03:15:11 GMT
-Client-Peer: 192.200.160.253:443
+CF-RAY: 8d4bf4523e9f05eb-IAD
+Client-Date: Fri, 18 Oct 2024 22:27:12 GMT
+Client-Peer: 63.141.128.3:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
 Client-SSL-Cert-Subject: /C=US/ST=Texas/L=Austin/O=BigCommerce, Inc./CN=*.bigcommerce.com
@@ -25,17 +25,17 @@ Title: 301 Moved Permanently
 HTTP/1.1 403 Forbidden
 Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:11 GMT
+Date: Fri, 18 Oct 2024 22:27:12 GMT
 Server: cloudflare
 Content-Type: text/html; charset=UTF-8
 Expires: Thu, 01 Jan 1970 00:00:01 GMT
 Accept-CH: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
 Alt-Svc: h3=":443"; ma=86400
 BC-Ray: 1
-Cf-Chl-Out: Ma2LgHcZ62lY1q4Hpge+wXRUkMc8XDlgSgnyzlFoHfSRWNgJ3b+FecmjnU016M1f0hoEQgHaFl4qVRIxxJv/1GuxeOP3McsC48wPH8Wsc+ido3HnLZxD0QJzFAFXPoLbBAc9smTAEq18L12zw77H5Q==$0utMWJQH0rRa6BRqRyF3Ow==
+Cf-Chl-Out: b7MacxrzbXr/KQDLQGLcU5rT4Id5MODFprJJFCWVZKD5GxxbcWDhNS6bB2mYcUba+qiSFW0OepcxGV116jp6FK4HW7/4EIIZwzAjh2pi/m8QpEGhVKLN9WrOEfqW804KOFpuATsTPmh1+8rY6zI+pg==$j/DGJhw5v8uxOf4bwbL/rw==
 Cf-Mitigated: challenge
-CF-RAY: 8d4d9a2c2ce613b1-IAD
-Client-Date: Sat, 19 Oct 2024 03:15:11 GMT
+CF-RAY: 8d4bf452fdf3c9a1-IAD
+Client-Date: Fri, 18 Oct 2024 22:27:12 GMT
 Client-Peer: 192.200.160.253:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1

@@ -1,16 +1,16 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: no-store, max-age=0
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:53 GMT
+Date: Fri, 18 Oct 2024 22:27:55 GMT
 Pragma: no-cache
 Location: https://tmz.com/
 Server: EasyRedir
 Content-Length: 158
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:53 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:55 GMT
 Client-Peer: 13.248.160.137:80
 Client-Response-Num: 1
-ER-Request-ID: 68f13ffb1de1f205e8f270bbc86e5e7e
+ER-Request-ID: bcf0bb513764122ec686c14349e1a457
 Title: 301 Moved Permanently
 X-Content-Type-Options: nosniff
 
@@ -18,13 +18,13 @@ X-Content-Type-Options: nosniff
 HTTP/1.1 301 Moved Permanently
 Cache-Control: no-store, max-age=0
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:53 GMT
+Date: Fri, 18 Oct 2024 22:27:55 GMT
 Pragma: no-cache
 Location: https://www.tmz.com/
 Server: EasyRedir
 Content-Length: 158
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:53 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:55 GMT
 Client-Peer: 76.223.34.124:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
@@ -33,7 +33,7 @@ Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
 Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
-ER-Request-ID: 38fbcceaac43533f2fb2ac7f17f18f20
+ER-Request-ID: 2b53192201e063c159e81d0147c3707e
 ER-Rule-Id: r-006bd06f-a30a-4117-97f7-edd8de7e158a
 Title: 301 Moved Permanently
 X-Content-Type-Options: nosniff
@@ -42,17 +42,17 @@ X-Content-Type-Options: nosniff
 HTTP/1.1 200 OK
 Cache-Control: max-age=30, public, s-maxage=60
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:45 GMT
-Via: 1.1 b051e9c33308597b659c33b8999b521c.cloudfront.net (CloudFront)
-Age: 8
+Date: Fri, 18 Oct 2024 22:27:36 GMT
+Via: 1.1 1cb46285023b6ec2cb9ac4522f312f70.cloudfront.net (CloudFront)
+Age: 20
 Server: Apache
 Vary: CloudFront-Viewer-Country,Accept-Encoding
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
 Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Platform, Sec-CH-UA
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:54 GMT
-Client-Peer: 99.84.191.6:443
+Client-Date: Fri, 18 Oct 2024 22:27:56 GMT
+Client-Peer: 18.165.116.33:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon ECDSA 256 M03
 Client-SSL-Cert-Subject: /CN=tmz.com
@@ -67,11 +67,11 @@ Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-f
 Referrer-Policy: unsafe-url
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Title: Celebrity News | Entertainment News | TMZ.com
-X-Amz-Cf-Id: 35_Ls1cepBcW6xCCQFqbmt5jmJ_6lvsoyPsBLu7R1Rx19hoqhobDAQ==
-X-Amz-Cf-Pop: IAD89-C2
+X-Amz-Cf-Id: CQPU_rtJ02qWDID3Jd0ZY6j9_LK9t1zJ8he-vwDhcBj2NAknm5XGfQ==
+X-Amz-Cf-Pop: ATL58-P6
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
-X-Fpc: miss
+X-Fpc: hit
 X-Fpc-Key: 9e4e124dd26ff10f21514103a1262bfd855aed20a2e0b371a6cd3c6d983d027d
 X-Frame-Options: SAMEORIGIN
 X-Meta-Apple-Itunes-App: app-id=299948601

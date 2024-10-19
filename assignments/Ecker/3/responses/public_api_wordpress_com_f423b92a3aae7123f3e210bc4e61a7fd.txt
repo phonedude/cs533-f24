@@ -1,13 +1,13 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:43 GMT
+Date: Fri, 18 Oct 2024 22:27:45 GMT
 Location: https://public-api.wordpress.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:43 GMT
-Client-Peer: 192.0.78.23:80
+Client-Date: Fri, 18 Oct 2024 22:27:45 GMT
+Client-Peer: 192.0.78.22:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
 X-Ac: 2.dca _dca BYPASS
@@ -15,13 +15,13 @@ X-Ac: 2.dca _dca BYPASS
 
 HTTP/1.1 302 Found
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:43 GMT
+Date: Fri, 18 Oct 2024 22:27:46 GMT
 Location: https://developer.wordpress.com/docs/api/
 Server: nginx
 Content-Type: text/html; charset=utf-8
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:43 GMT
-Client-Peer: 192.0.78.23:443
+Client-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Client-Peer: 192.0.78.22:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Domain Validation Secure Server CA
 Client-SSL-Cert-Subject: /CN=*.wordpress.com
@@ -35,16 +35,16 @@ X-Ac: 2.dca _dca BYPASS
 
 
 HTTP/1.1 200 OK
-Cache-Control: max-age=300, must-revalidate
+Cache-Control: max-age=85, must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:43 GMT
+Date: Fri, 18 Oct 2024 22:27:46 GMT
 Server: nginx
 Vary: Accept-Encoding
 Vary: accept, content-type, cookie
 Content-Type: text/html; charset=UTF-8
-Last-Modified: Fri, 18 Oct 2024 22:27:46 GMT
+Last-Modified: Fri, 18 Oct 2024 22:16:29 GMT
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:43 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:46 GMT
 Client-Peer: 192.0.78.13:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Domain Validation Secure Server CA
@@ -80,6 +80,6 @@ X-Meta-Twitter-Image: https://developer.wordpress.com/wp-content/uploads/2024/02
 X-Meta-Twitter-Site: @AutomatticEng
 X-Meta-Twitter-Text-Title: REST API
 X-Meta-Viewport: width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1
-X-Nananana: Batcache-Set
+X-Nananana: Batcache-Hit
 
 

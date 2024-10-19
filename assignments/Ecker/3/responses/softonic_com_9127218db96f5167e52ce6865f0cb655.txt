@@ -1,14 +1,14 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:45 GMT
+Date: Fri, 18 Oct 2024 22:27:47 GMT
 Accept-Ranges: bytes
 Location: https://softonic.com/
 Retry-After: 0
 Content-Length: 0
 Access-Control-Expose-Headers: x-country-code,x-region
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:45 GMT
-Client-Peer: 151.101.193.91:80
+Client-Date: Fri, 18 Oct 2024 22:27:47 GMT
+Client-Peer: 151.101.129.91:80
 Client-Response-Num: 1
 Strict-Transport-Security: max-age=300
 
@@ -16,7 +16,7 @@ Strict-Transport-Security: max-age=300
 HTTP/1.1 301 Moved Permanently
 Cache-Control: no-cache,no-store,max-age=0,must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:45 GMT
+Date: Fri, 18 Oct 2024 22:27:48 GMT
 Accept-Ranges: bytes
 Location: https://www.softonic.com/
 Content-Language: es-ES
@@ -24,8 +24,8 @@ Content-Length: 0
 Content-Type: text/html; charset=utf-8
 Access-Control-Expose-Headers: x-country-code,x-region
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:45 GMT
-Client-Peer: 151.101.1.91:443
+Client-Date: Fri, 18 Oct 2024 22:27:48 GMT
+Client-Peer: 151.101.129.91:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
 Client-SSL-Cert-Subject: /CN=*.softonic.com
@@ -43,7 +43,7 @@ X-Detected-As: bot
 X-Frame-Options: sameorigin
 X-Is-Bot: true
 X-Region: VA
-X-Request-Id: 3461188256
+X-Request-Id: 1735316700
 X-Version: 1.6377.0
 X-Xss-Protection: 1
 
@@ -51,17 +51,17 @@ X-Xss-Protection: 1
 HTTP/1.1 200 OK
 Cache-Control: public,max-age=900,stale-while-revalidate=600,stale-if-error=31536000
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:45 GMT
+Date: Fri, 18 Oct 2024 22:27:48 GMT
 Accept-Ranges: bytes
-Age: 871
-ETag: "9W/7Q0KRbkWof+bwe6OZNti3YSk="
+Age: 920
+ETag: "Sbjbs/g5VF0EwDrHsD5CWyFUywA="
 Vary: x-country-group, Accept-Encoding
 Content-Language: es-ES
 Content-Type: text/html;charset=utf-8
 Access-Control-Expose-Headers: x-country-code,x-region
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:45 GMT
-Client-Peer: 151.101.193.91:443
+Client-Date: Fri, 18 Oct 2024 22:27:48 GMT
+Client-Peer: 151.101.1.91:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
 Client-SSL-Cert-Subject: /CN=*.softonic.com
@@ -127,8 +127,9 @@ X-Meta-Viewport: width=device-width,initial-scale=1,minimum-scale=1
 X-Page-Id: home
 X-Permitted-Cross-Domain-Policies: none
 X-Region: VA
-X-Request-Id: 3518395967
+X-Request-Id: 991341267
 X-Resource-Id: @softonic/home
+X-Resp-Is-Stale: true
 X-Server-By: softonic
 X-Ua-Compatible: IE=edge
 X-Version: 1.1268.0

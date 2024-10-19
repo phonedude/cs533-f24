@@ -1,0 +1,144 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:16:47 GMT
+Accept-Ranges: bytes
+Location: https://wikihow.com/
+Retry-After: 0
+Vary: Cookie, Accept-Encoding, User-Agent
+Content-Length: 0
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Client-Peer: 151.101.129.91:80
+Client-Response-Num: 1
+X-C: cache-iad-kiad7000171-IAD,M
+X-Content-Type-Options: nosniff
+X-Timer: S1729307808.720231,VS0,VE0
+X-Xss-Protection: 1; mode=block
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:16:47 GMT
+Accept-Ranges: bytes
+Location: https://www.wikihow.com/
+Retry-After: 0
+Vary: Cookie, Accept-Encoding, User-Agent
+Content-Length: 0
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Client-Peer: 151.101.65.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Certainly/CN=Certainly Intermediate R1
+Client-SSL-Cert-Subject: /CN=wikihow.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-C: cache-iad-kjyo7100065-IAD,M
+X-Content-Type-Options: nosniff
+X-Timer: S1729307808.818174,VS0,VE0
+X-Xss-Protection: 1; mode=block
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:16:47 GMT
+Accept-Ranges: bytes
+Location: https://www.wikihow.com/Main-Page
+Retry-After: 0
+Vary: Cookie, Accept-Encoding, User-Agent
+Content-Length: 0
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Sat, 19 Oct 2024 03:16:47 GMT
+Client-Peer: 151.101.129.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q1
+Client-SSL-Cert-Subject: /CN=*.wikihow.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-C: cache-iad-kiad7000161-IAD,M
+X-Content-Type-Options: nosniff
+X-Timer: S1729307808.944148,VS0,VE0
+X-Xss-Protection: 1; mode=block
+
+
+HTTP/1.1 200 OK
+Cache-Control: s-maxage=3600, must-revalidate, max-age=0
+Connection: close
+Date: Sat, 19 Oct 2024 03:16:48 GMT
+Accept-Ranges: bytes
+Age: 18335
+Vary: Cookie, Accept-Encoding
+Content-Language: en
+Content-Length: 300491
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Thu, 17 Oct 2024 22:43:18 GMT
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Sat, 19 Oct 2024 03:16:48 GMT
+Client-Peer: 151.101.1.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q1
+Client-SSL-Cert-Subject: /CN=*.wikihow.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Link: </load.php?debug=false&lang=en&modules=ext.wikihow.expertadvicesection.styles%7Cext.wikihow.expertinterviewsection.styles%7Cext.wikihow.green_box%2Crcwidget_styles%2Cslider_styles%2Csocial_footer_styles%7Cext.wikihow.reader_tips.styles%7Cext.wikihow.submit_a_tip.styles%7Cext.wikihow.trusted_sources.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.minerva.base.styles%7Cskins.minerva.content.styles.images%7Cskins.minerva.icons.images%7Cskins.minerva.mainPage.styles%7Czzz.mobile.wikihow.homepage.styles&only=styles&siterev=Ku9uO&skin=wh>; rel="stylesheet"
+Link: <https://www.wikihow.com/skins/WikiHow/wH-initials_152x152.png>; rel="apple-touch-icon"
+Link: </favicon_round.ico>; rel="shortcut icon"
+Link: </opensearch_desc.php>; rel="search"; title="wikiHow (en)"; type="application/opensearchdescription+xml"
+Link: <https://www.wikihow.com/api.php?action=rsd>; rel="EditURI"; type="application/rsd+xml"
+Link: <https://www.wikihow.com/Main-Page>; rel="canonical"
+Link: <https://www.wikihow.com/Main-Page>; hreflang="en"; rel="alternate"
+Link: <https://ar.wikihow.com/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9>; hreflang="ar"; rel="alternate"
+Link: <https://www.wikihow.cz/Hlavn%C3%AD-strana>; hreflang="cs"; rel="alternate"
+Link: <https://de.wikihow.com/Hauptseite>; hreflang="de"; rel="alternate"
+Link: <https://es.wikihow.com/Portada>; hreflang="es"; rel="alternate"
+Link: <https://www.wikihowfarsi.com/%D8%B5%D9%81%D8%AD%D9%87%D9%94-%D8%A7%D8%B5%D9%84%DB%8C>; hreflang="fa"; rel="alternate"
+Link: <https://fr.wikihow.com/Accueil>; hreflang="fr"; rel="alternate"
+Link: <https://hi.wikihow.com/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0>; hreflang="hi"; rel="alternate"
+Link: <https://id.wikihow.com/Halaman-Utama>; hreflang="id"; rel="alternate"
+Link: <https://www.wikihow.it/Pagina-principale>; hreflang="it"; rel="alternate"
+Link: <https://www.wikihow.jp/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8>; hreflang="ja"; rel="alternate"
+Link: <https://ko.wikihow.com/%EB%8C%80%EB%AC%B8>; hreflang="ko"; rel="alternate"
+Link: <https://nl.wikihow.com/Hoofdpagina>; hreflang="nl"; rel="alternate"
+Link: <https://pt.wikihow.com/P%C3%A1gina-principal>; hreflang="pt"; rel="alternate"
+Link: <https://ru.wikihow.com/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0>; hreflang="ru"; rel="alternate"
+Link: <https://th.wikihow.com/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81>; hreflang="th"; rel="alternate"
+Link: <https://www.wikihow.com.tr/Anasayfa>; hreflang="tr"; rel="alternate"
+Link: <https://www.wikihow.vn/Trang-Ch%C3%ADnh>; hreflang="vi"; rel="alternate"
+Link: <https://zh.wikihow.com/%E9%A6%96%E9%A1%B5>; hreflang="zh"; rel="alternate"
+Set-Cookie: whv=bOCfmn8xaIrKluAQJTw2; expires=Tue, 17 Oct 2034 03:16:48 GMT; domain=.wikihow.com; path=/; secure
+Set-Cookie: vr=US-VA; domain=.wikihow.com; path=/; secure
+Set-Cookie: vi=NA; domain=.wikihow.com; path=/; secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Title: wikiHow: How-to instructions you can trust.
+X-C: cache-iad-kiad7000034-IAD,H,18335
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: utf-8
+X-Meta-Description: Learn how to do anything with wikiHow, the world's most popular how-to website. Easy, well-researched, and trustworthy instructions for everything you want to know.
+X-Meta-Generator: MediaWiki 1.33.0-alpha
+X-Meta-ResourceLoaderDynamicStyles: 
+X-Meta-Robots: index,follow
+X-Meta-Theme-Color: #eaecf0
+X-Meta-Twitter-App-Id-Iphone: 309209200
+X-Meta-Twitter-App-Name-Iphone: wikiHow
+X-Meta-Twitter-App-Url-Iphone: wikihow://article?id=5
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Description: wikiHow - How to do anything
+X-Meta-Twitter-Image-Src: https://www.wikihow.com/images/7/71/Wh-logo.jpg
+X-Meta-Twitter-Site: @wikihow
+X-Meta-Twitter-Title: wikiHow
+X-Meta-Twitter-Url: https://www.wikihow.com/Main-Page
+X-Meta-Viewport: initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0, width=device-width
+X-Meta-Viewport: width=device-width
+X-Timer: S1729307808.045616,VS0,VE0
+X-UA-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+
+

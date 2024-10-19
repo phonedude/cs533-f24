@@ -1,23 +1,23 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:18 GMT
+Date: Fri, 18 Oct 2024 22:27:21 GMT
 Location: https://fb.me/
 Server: proxygen-bolt
 Content-Length: 0
 Content-Type: text/plain
-Client-Date: Sat, 19 Oct 2024 03:15:18 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:21 GMT
 Client-Peer: 31.13.66.35:80
 Client-Response-Num: 1
 
 
 HTTP/1.1 302 Found
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:19 GMT
+Date: Fri, 18 Oct 2024 22:27:21 GMT
 Location: https://www.facebook.com/unsupportedbrowser
 Content-Length: 0
 Content-Type: text/html; charset="utf-8"
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:19 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:21 GMT
 Client-Peer: 31.13.66.35:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
@@ -27,21 +27,21 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
-X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=21, rtx=0, c=10, mss=1392, tbw=3621, tp=-1, tpl=-1, uplat=85, ullat=0
-X-FB-Debug: lH1bxZ4TS57x7n6D77510YHnE7AO6Yg+yGHDIYifL1lmGfhD4D2EsVlMXNHdM8yHX+i8ICmc4pNSxoEJw43gKg==
+X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=22, rtx=0, c=10, mss=1392, tbw=3621, tp=-1, tpl=-1, uplat=70, ullat=0
+X-FB-Debug: VXhYT3NhXKRjqne/VpsXTtw46yEsAbZKVk/ZLQBYpmsAjyezYewddfJEyFIz26cbTK/rMeuWXFmdTCiajpKNDQ==
 
 
 HTTP/1.1 200 OK
 Cache-Control: private, no-cache, no-store, must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:19 GMT
+Date: Fri, 18 Oct 2024 22:27:21 GMT
 Pragma: no-cache
 Vary: Accept-Encoding
 Content-Type: text/html; charset="utf-8"
 Expires: Sat, 01 Jan 2000 00:00:00 GMT
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Sat, 19 Oct 2024 03:15:19 GMT
-Client-Peer: 31.13.66.35:443
+Client-Date: Fri, 18 Oct 2024 22:27:21 GMT
+Client-Peer: 157.240.241.35:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
 Client-SSL-Cert-Subject: /C=US/ST=California/L=Menlo Park/O=Meta Platforms, Inc./CN=*.facebook.com
@@ -60,13 +60,13 @@ Link: <https://static.xx.fbcdn.net/rsrc.php/v4/yP/l/0,cross/9LBDXwreWca.css>; cr
 Link: <https://static.xx.fbcdn.net/rsrc.php/v4/yW/l/0,cross/yBJwnih9Pj9.css>; crossorigin="anonymous"; data-bootloader-hash="wXaVolg"; rel="stylesheet"; type="text/css"
 Permissions-Policy: accelerometer=(), attribution-reporting=(self), autoplay=(), bluetooth=(), browsing-topics=(self), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(self), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(self), fullscreen=(self), gamepad=*, geolocation=(self), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(self), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=(self);report-to="permissions_policy"
 Refresh: 0; URL=/unsupportedbrowser?_fb_noscript=1
-Report-To: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":259200,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown&brsid=7427320098349636637"}]}, {"max_age":21600,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/"}],"group":"permissions_policy"}
-Reporting-Endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", default="https://www.facebook.com/ajax/browser_error_reports/?device_level=unknown&brsid=7427320098349636637", permissions_policy="https://www.facebook.com/ajax/browser_error_reports/"
+Report-To: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":259200,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown&brsid=7427245890162923589"}]}, {"max_age":21600,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/"}],"group":"permissions_policy"}
+Reporting-Endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", default="https://www.facebook.com/ajax/browser_error_reports/?device_level=unknown&brsid=7427245890162923589", permissions_policy="https://www.facebook.com/ajax/browser_error_reports/"
 Strict-Transport-Security: max-age=15552000; preload
 Title: Update Your Browser
 X-Content-Type-Options: nosniff
-X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=19, rtx=0, c=10, mss=1392, tbw=3406, tp=-1, tpl=-1, uplat=132, ullat=0
-X-FB-Debug: XwI6jBUtU9JO3eOpxQKd75CW4NrKHzmBN0CU707WaoPFzJWKUacnm62uNfPDY0ZcCVEyynjdy+NSpWcKHWJ8YQ==
+X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=27, rtx=0, c=10, mss=1392, tbw=3406, tp=-1, tpl=-1, uplat=98, ullat=0
+X-FB-Debug: yYnz3tNHfLk/+vcsOpKu9e9nX3c+ytAPHb4qtDl/ALv1C6ju53eZ+MzGWR2NCzJT0S2eUpzIzBPJ8Vg4ynPC2w==
 X-Frame-Options: DENY
 X-Meta-Bingbot: noarchive
 X-Meta-Charset: utf-8

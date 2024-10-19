@@ -1,11 +1,11 @@
 HTTP/1.1 302 Found
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:47 GMT
+Date: Fri, 18 Oct 2024 22:27:50 GMT
 Location: https://www.stanford.edu/
 Server: Apache
 Content-Length: 209
 Content-Type: text/html; charset=iso-8859-1
-Client-Date: Sat, 19 Oct 2024 03:15:47 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:50 GMT
 Client-Peer: 171.67.215.200:80
 Client-Response-Num: 1
 Title: 302 Found
@@ -14,16 +14,16 @@ Title: 302 Found
 HTTP/1.1 200 OK
 Cache-Control: public, max-age=600
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:47 GMT
+Date: Fri, 18 Oct 2024 22:27:50 GMT
 Via: 1.1 varnish, 1.1 varnish, 1.1 varnish
 Accept-Ranges: bytes
-Age: 171
+Age: 357
 Server: nginx
 Vary: Accept-Encoding, Cookie
 Content-Length: 139388
 Content-Type: text/html; charset=UTF-8
-Client-Date: Sat, 19 Oct 2024 03:15:48 GMT
-Client-Peer: 151.101.2.133:443
+Client-Date: Fri, 18 Oct 2024 22:27:50 GMT
+Client-Peer: 151.101.66.133:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Certainly/CN=Certainly Intermediate R1
 Client-SSL-Cert-Subject: /CN=www.stanford.edu
@@ -37,7 +37,7 @@ Link: <https://www.stanford.edu/>; rel=shortlink
 Strict-Transport-Security: max-age=300
 Title: Stanford University
 X-Cache: HIT, MISS, MISS
-X-Cache-Hits: 94, 0, 0
+X-Cache-Hits: 291, 0, 0
 X-Frame-Options: SAMEORIGIN
 X-Meta-Application-Name: Stanford University
 X-Meta-Charset: UTF-8
@@ -57,10 +57,10 @@ X-Meta-Twitter-Site: @Stanford
 X-Meta-Twitter-Title: Stanford University
 X-Meta-Twitter-Url: https://www.stanford.edu/
 X-Meta-Viewport: width=device-width, initial-scale=1, shrink-to-fit=no
-X-Pantheon-Styx-Hostname: styx-fe1-a-5bbb8f6849-kvl65
-X-Served-By: cache-chi-klot8100064-CHI, cache-chi-klot8100064-CHI, cache-iad-kiad7000102-IAD
-X-Styx-Req-Id: 09c56f1c-8dc8-11ef-9cec-c210051b05b6
-X-Timer: S1729307748.923985,VS0,VE28
+X-Pantheon-Styx-Hostname: styx-fe1-a-5bbb8f6849-9fkhl
+X-Served-By: cache-chi-klot8100064-CHI, cache-chi-kigq8000082-CHI, cache-iad-kiad7000047-IAD
+X-Styx-Req-Id: 607c38a6-8d9f-11ef-837e-867d0ea10d31
+X-Timer: S1729290471.623632,VS0,VE33
 X-UA-Compatible: IE=edge
 
 

@@ -1,14 +1,14 @@
 HTTP/1.1 403 Forbidden
 Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:16 GMT
+Date: Fri, 18 Oct 2024 22:27:18 GMT
 Server: cloudflare
 Content-Length: 16
 Content-Type: text/plain; charset=UTF-8
 Expires: Thu, 01 Jan 1970 00:00:01 GMT
 Alt-Svc: h3=":443"; ma=86400
-CF-RAY: 8d4d9a498e75bd59-ATL
-Client-Date: Sat, 19 Oct 2024 03:15:16 GMT
+CF-RAY: 8d4bf476382b6758-ATL
+Client-Date: Fri, 18 Oct 2024 22:27:18 GMT
 Client-Peer: 104.21.235.30:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WE1
@@ -19,8 +19,7 @@ Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: same-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=xx3ddWCT4h%2Fa8YTa5H467oJM6HnwbQ3xO51mi17MjuDVqxJlqPAcSRdOxXqu6p634PO9xqR32UD5yCdOt%2Fu6lPve4gkTtbnLn9UPCl1Loc3UL93lCfWZfvK7tdmfPbWj"}],"group":"cf-nel","max_age":604800}
-Server-Timing: cfL4;desc="?proto=TCP&rtt=23909&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2834&recv_bytes=735&delivery_rate=122360&cwnd=37&unsent_bytes=0&cid=94189b5372ef2aec&ts=43&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=iyqOmOq6BphvLkF51hbtSma7gSvgTliKdx9SKeuLF1%2FSeaBi0And88fM%2BrPw5VnDIJxRd%2Fs6riPc3U8AUmjEfNuU7V5ObqUFATXDPAiIfeJ%2FCiMAqJnLc8zFV%2BphgiL%2F"}],"group":"cf-nel","max_age":604800}
 X-Frame-Options: SAMEORIGIN
 
 

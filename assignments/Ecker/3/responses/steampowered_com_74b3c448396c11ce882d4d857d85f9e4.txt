@@ -1,25 +1,25 @@
 HTTP/1.1 302 Moved Temporarily
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:48 GMT
+Date: Fri, 18 Oct 2024 22:27:50 GMT
 Location: https://steampowered.com/
 Server: nginx
 Content-Length: 138
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:48 GMT
-Client-Peer: 23.213.69.147:80
+Client-Date: Fri, 18 Oct 2024 22:27:50 GMT
+Client-Peer: 104.94.121.98:80
 Client-Response-Num: 1
 Title: 302 Found
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:48 GMT
+Date: Fri, 18 Oct 2024 22:27:51 GMT
 Location: https://store.steampowered.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:48 GMT
-Client-Peer: 23.213.69.147:443
+Client-Date: Fri, 18 Oct 2024 22:27:51 GMT
+Client-Peer: 104.94.121.98:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R10
 Client-SSL-Cert-Subject: /CN=steamcommunity.com
@@ -34,12 +34,12 @@ HTTP/1.1 200 OK
 Cache-Control: no-cache
 Connection: close
 Connection: Transfer-Encoding
-Date: Sat, 19 Oct 2024 03:15:48 GMT
+Date: Fri, 18 Oct 2024 22:27:51 GMT
 Server: nginx
 Content-Type: text/html; charset=UTF-8
 Expires: Mon, 26 Jul 1997 05:00:00 GMT
-Client-Date: Sat, 19 Oct 2024 03:15:48 GMT
-Client-Peer: 23.45.149.185:443
+Client-Date: Fri, 18 Oct 2024 22:27:51 GMT
+Client-Peer: 23.50.124.114:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 Extended Validation Server CA
 Client-SSL-Cert-Subject: /jurisdictionC=US/jurisdictionST=Washington/businessCategory=Private Organization/serialNumber=602 290 773/C=US/ST=Washington/L=Bellevue/O=Valve Corp/CN=store.steampowered.com
@@ -53,15 +53,15 @@ Link: </favicon.ico>; rel="shortcut icon"; type="image/x-icon"
 Link: <https://store.steamstatic.com/public/shared/css/motiva_sans.css?v=ZgykCBYfnbmt&l=english>; rel="stylesheet"; type="text/css"
 Link: <https://store.steamstatic.com/public/shared/css/shared_global.css?v=T7SYzKDJCq4O&l=english>; rel="stylesheet"; type="text/css"
 Link: <https://store.steamstatic.com/public/shared/css/buttons.css?v=QXOI4JpE0639&l=english>; rel="stylesheet"; type="text/css"
-Link: <https://store.steamstatic.com/public/css/v6/store.css?v=qq1OA2dCWH4H&l=english>; rel="stylesheet"; type="text/css"
+Link: <https://store.steamstatic.com/public/css/v6/store.css?v=3QUgCL7uDaTH&l=english>; rel="stylesheet"; type="text/css"
 Link: <https://store.steamstatic.com/public/css/v6/home.css?v=aiilaS6472zY&l=english>; rel="stylesheet"; type="text/css"
 Link: <https://store.steamstatic.com/public/css/v6/creator_hub.css?v=xK5Tmg-eY1Nz&l=english>; rel="stylesheet"; type="text/css"
 Link: <https://store.steamstatic.com/public/shared/css/shared_responsive.css?v=oiUVqA3kUKkv&l=english>; rel="stylesheet"; type="text/css"
 Link: <https://store.steampowered.com/>; rel="canonical"
 Link: <https://cdn.fastly.steamstatic.com/store/home/store_home_share.jpg>; rel="image_src"
 Set-Cookie: steamCountry=US%7Cd74666d08c8ce86b245a647ec1d437b6; Path=/; Secure; HttpOnly; SameSite=None
-Set-Cookie: browserid=3812951881710460064; Expires=Sun, 19 Oct 2025 03:15:48 GMT; Path=/; Secure; SameSite=None
-Set-Cookie: sessionid=f0d846dcaf823525dbe164ef; Path=/; Secure; SameSite=None
+Set-Cookie: browserid=3897394374723532766; Expires=Sat, 18 Oct 2025 22:27:51 GMT; Path=/; Secure; SameSite=None
+Set-Cookie: sessionid=0a249fa5167b0a002be6c184; Path=/; Secure; SameSite=None
 Strict-Transport-Security: max-age=10368000
 Title: Welcome to Steam
 X-Frame-Options: DENY

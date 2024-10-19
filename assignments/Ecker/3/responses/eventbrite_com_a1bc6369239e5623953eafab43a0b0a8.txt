@@ -1,29 +1,29 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:18 GMT
-Via: 1.1 da53febaa1af8b24d592f546f0d18dd6.cloudfront.net (CloudFront)
+Date: Fri, 18 Oct 2024 22:27:20 GMT
+Via: 1.1 35ccb6cc125c2f90120be4104c394baa.cloudfront.net (CloudFront)
 Location: https://eventbrite.com/
 Server: CloudFront
 Content-Length: 167
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:18 GMT
-Client-Peer: 108.139.15.36:80
+Client-Date: Fri, 18 Oct 2024 22:27:20 GMT
+Client-Peer: 108.139.15.16:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
-X-Amz-Cf-Id: itCCyPJikWkoe7FskW_rXzRZEkYL8wkJfV-GMtiON8OeBEkT9GcLFg==
+X-Amz-Cf-Id: CZEMVgmNjjTVCwUMZME5XUr1iYysadFR_HQEsEBRJO4Yat9zqRbNlw==
 X-Amz-Cf-Pop: ATL58-P2
 X-Cache: Redirect from cloudfront
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:18 GMT
-Via: 1.1 f0f1092b2ad1f0e573a4fcbefe4fb620.cloudfront.net (CloudFront), 1.1 d2a8134957dfaa119e0955491e61bb9c.cloudfront.net (CloudFront)
+Date: Fri, 18 Oct 2024 22:27:20 GMT
+Via: 1.1 de6760156d781e28f72545a2e9243b26.cloudfront.net (CloudFront), 1.1 78d82ac849fe1d87e48659ba126792fe.cloudfront.net (CloudFront)
 Location: https://www.eventbrite.com
 Server: CloudFront
 Content-Length: 0
-Client-Date: Sat, 19 Oct 2024 03:15:18 GMT
-Client-Peer: 108.139.15.109:443
+Client-Date: Fri, 18 Oct 2024 22:27:20 GMT
+Client-Peer: 108.139.15.77:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
 Client-SSL-Cert-Subject: /CN=eventbrite.com
@@ -32,7 +32,7 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-X-Amz-Cf-Id: Muos3aXXH3If-TaITKZFlcHaRAkx6M0EDpyy6x1nM1TtmcJbv7_q7w==
+X-Amz-Cf-Id: xCJjh7Ymuzpo6lQi_Ks6aHYrIEV5dlUUthHlIsngMFs5RKzZZogzbw==
 X-Amz-Cf-Pop: IAD79-C1
 X-Amz-Cf-Pop: ATL58-P2
 X-Cache: Miss from cloudfront
@@ -41,16 +41,16 @@ X-Cache: Miss from cloudfront
 HTTP/1.1 200 OK
 Cache-Control: public, max-age=300, s-maxage=600
 Connection: close
-Date: Sat, 19 Oct 2024 03:06:31 GMT
-Via: 1.1 0173aeb09060ae0dd8c77e399d9e5634.cloudfront.net (CloudFront), 1.1 d5d585dce9ad5e702dfde5c38b8b4b9e.cloudfront.net (CloudFront)
-Age: 527
+Date: Fri, 18 Oct 2024 22:26:31 GMT
+Via: 1.1 acb5e0138f17ffe7929a4d64a50c4a24.cloudfront.net (CloudFront), 1.1 1c154fd264f63b7337d5237240584530.cloudfront.net (CloudFront)
+Age: 49
 Server: CloudFront
 Vary: Accept-Encoding
 Content-Language: en
 Content-Length: 143169
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:18 GMT
-Client-Peer: 108.139.15.77:443
+Client-Date: Fri, 18 Oct 2024 22:27:20 GMT
+Client-Peer: 108.139.15.36:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
 Client-SSL-Cert-Subject: /CN=eventbrite.com
@@ -122,16 +122,16 @@ Link: <https://www.eventbrite.fi/>; hreflang="en-fi"; rel="alternate"
 Link: <https://www.eventbrite.ch/>; hreflang="de-ch"; rel="alternate"
 Link: <https://www.eventbrite.ch/fr_CH/>; hreflang="fr-ch"; rel="alternate"
 Link: <https://www.eventbrite.com/>; hreflang="x-default"; rel="alternate"
-Set-Cookie: csrftoken=2eeb38ac35da430a9f3b2cce6b2dd714;Domain= .eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=none
+Set-Cookie: csrftoken=525135efc3754f9885565a0b48f3232d;Domain= .eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=none
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Title: Eventbrite - Discover the Best Local Events & Things to Do
-X-Amz-Apigw-Id: f4JIqHW5IAMEshA=
-X-Amz-Cf-Id: TQ9_sHmYyoe2QxeK0Ltq4aX7WdxubgHIDY2lURA3cK4DgJeKUvG4OQ==
+X-Amz-Apigw-Id: f3gHrFYjIAMEsLA=
+X-Amz-Cf-Id: FoWBPqYLYfE_NNFpeu5fB8PbYOnoyh251D0T8ivq2scEUulBjlrUfg==
 X-Amz-Cf-Pop: IAD79-C1
 X-Amz-Cf-Pop: ATL58-P2
 X-Amzn-Remapped-Connection: keep-alive
-X-Amzn-Remapped-Date: Sat, 19 Oct 2024 03:06:31 GMT
-X-Amzn-RequestId: b833266f-9134-4876-ace8-caebc78c70fc
+X-Amzn-Remapped-Date: Fri, 18 Oct 2024 22:26:31 GMT
+X-Amzn-RequestId: 605daec6-1048-4b3e-9ade-fe8706c70b25
 X-Cache: Miss from cloudfront
 X-Meta-Apple-Mobile-Web-App-Title: Eventbrite
 X-Meta-Application-Name: Eventbrite

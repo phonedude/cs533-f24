@@ -1,0 +1,91 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:37 GMT
+Location: https://netvibes.com/
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 03:15:37 GMT
+Client-Peer: 193.189.143.34:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Slb: slb3
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:37 GMT
+Location: https://www.netvibes.com/
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 03:15:37 GMT
+Client-Peer: 193.189.143.34:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Domain Validation Secure Server CA
+Client-SSL-Cert-Subject: /CN=*.netvibes.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Title: 301 Moved Permanently
+X-Slb: slb3
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:37 GMT
+Location: /en
+Content-Type: text/html; charset=UTF-8
+Client-Date: Sat, 19 Oct 2024 03:15:37 GMT
+Client-Peer: 193.189.143.34:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Domain Validation Secure Server CA
+Client-SSL-Cert-Subject: /CN=*.netvibes.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Set-Cookie: lang=en_US; expires=Sun, 03-Nov-2024 03:15:37 GMT; Max-Age=1296000; path=/; secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Slb: slb2
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:38 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Client-Date: Sat, 19 Oct 2024 03:15:38 GMT
+Client-Peer: 193.189.143.34:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Domain Validation Secure Server CA
+Client-SSL-Cert-Subject: /CN=*.netvibes.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Link: <http://blog.netvibes.com/rss.php>; rel="alternate"; title="Netvibes blog"; type="application/rss+xml"
+Link: <https://www.netvibes.com/dist/1.css>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <https://www.netvibes.com/dist/welcome.css>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <https://www.netvibes.com/img/netvibes-32x32.png>; rel="icon"; sizes="32x32"
+Link: <https://www.netvibes.com/img/netvibes-48x48.png>; rel="icon"; sizes="48x48"
+Link: <https://www.netvibes.com/img/netvibes-196x196.png>; rel="shortcut icon"; sizes="196x196"
+Link: <https://www.netvibes.com/netvibes-touch-icon.png>; rel="apple-touch-icon"
+Link: <https://www.netvibes.com/favicon.png>; rel="icon"; type="image/png"
+Link: <https://www.netvibes.com/img/netvibes.svg>; color="#84BD00"; rel="mask-icon"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Netvibes Decision-Making Dashboards
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Meta-Application-Name: Netvibes
+X-Meta-Application-Url: https://www.netvibes.com
+X-Meta-Description: Analyze and act on all the data that matters to your brand or business
+X-Meta-Keywords: dashboard, dashboards, social media, social analytics, reputation management, team management, social media monitoring, brand monitoring, brand sentimentn sentiment analysis, company intranet, dashboards, systems integration, community portal, community, communities, customer engagement, watch, tracking, e-reputation, real time data, trending topics, conversations, mentions, live, user-generated, streams, uwa, widget, app, web-app
+X-Meta-Robots: noodp,noydir
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Slb: slb1
+
+

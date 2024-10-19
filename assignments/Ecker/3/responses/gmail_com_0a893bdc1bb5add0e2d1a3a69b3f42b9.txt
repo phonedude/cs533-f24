@@ -1,14 +1,14 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: public, max-age=1800
 Connection: close
-Date: Sat, 19 Oct 2024 03:11:09 GMT
-Age: 252
+Date: Fri, 18 Oct 2024 22:11:09 GMT
+Age: 975
 Location: https://mail.google.com/mail/u/0/
 Server: sffe
 Content-Length: 230
 Content-Type: text/html; charset=UTF-8
-Expires: Sat, 19 Oct 2024 03:41:09 GMT
-Client-Date: Sat, 19 Oct 2024 03:15:21 GMT
+Expires: Fri, 18 Oct 2024 22:41:09 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:24 GMT
 Client-Peer: 142.251.163.19:80
 Client-Response-Num: 1
 Cross-Origin-Resource-Policy: cross-origin
@@ -19,15 +19,15 @@ X-XSS-Protection: 0
 
 HTTP/1.1 302 Found
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:22 GMT
+Date: Fri, 18 Oct 2024 22:27:24 GMT
 Location: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1
 Server: ESF
 Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
 Content-Length: 0
 Content-Type: application/binary
 Alt-Svc: clear
-Client-Date: Sat, 19 Oct 2024 03:15:22 GMT
-Client-Peer: 172.253.62.17:443
+Client-Date: Fri, 18 Oct 2024 22:27:24 GMT
+Client-Peer: 142.251.163.18:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=mail.google.com
@@ -46,17 +46,17 @@ X-XSS-Protection: 0
 HTTP/1.1 302 Found
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:22 GMT
+Date: Fri, 18 Oct 2024 22:27:24 GMT
 Pragma: no-cache
-Location: https://accounts.google.com/InteractiveLogin?continue=https://mail.google.com/mail/u/0/&emr=1&followup=https://mail.google.com/mail/u/0/&osid=1&passive=1209600&service=mail&ifkv=ARpgrqfJQgKcBtLl_n_L5hCdf0PWV88uKKn-s_XXErHDFoR0EN7HDVXo_wR2obGxHzlO-N1g2DfVnQ
+Location: https://accounts.google.com/InteractiveLogin?continue=https://mail.google.com/mail/u/0/&emr=1&followup=https://mail.google.com/mail/u/0/&osid=1&passive=1209600&service=mail&ifkv=ARpgrqeMSgWpCG2taINDB7De23rx7IIMLtuYGIsdzQTQuA3ZqHpticNjxWgr7-T9VJFuUXQqfsKYKw
 Server: ESF
 Content-Length: 0
 Content-Type: application/binary
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
 Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Sat, 19 Oct 2024 03:15:22 GMT
-Client-Peer: 142.251.163.84:443
+Client-Date: Fri, 18 Oct 2024 22:27:24 GMT
+Client-Peer: 64.233.180.84:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=accounts.google.com
@@ -64,12 +64,12 @@ Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
 Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: script-src 'nonce-wpWSCPMVE2tW7HZOeWxKAg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
 Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport
-Content-Security-Policy: script-src 'nonce-tbDPSFdUez-F7ZIzSiNmHg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
 Cross-Origin-Opener-Policy: unsafe-none
 Cross-Origin-Resource-Policy: cross-origin
 Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
-Set-Cookie: __Host-GAPS=1:-TI15FbPssF6NuovtAoy0pID8IV1tQ:tCEP1nYTyP3sKUvY; Expires=Mon, 19-Oct-2026 03:15:22 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+Set-Cookie: __Host-GAPS=1:Gll7jwHAKm4m5eM7UffZdkcS5jrISQ:ejDn60jDMbo3X0Y_; Expires=Sun, 18-Oct-2026 22:27:24 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -78,16 +78,16 @@ X-XSS-Protection: 0
 HTTP/1.1 302 Moved Temporarily
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:22 GMT
+Date: Fri, 18 Oct 2024 22:27:24 GMT
 Pragma: no-cache
-Location: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqeZfrLCuRVxsBsaL-vOT1GwveJBQocHPu2cA-lTE5J9t8iRSU1vK_JxGfMUu5vtmVxkampwaQ&osid=1&passive=1209600&service=mail&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-451143308%3A1729307722518944
+Location: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqepwtinDEZE2ka50lcCo8S2e9d4qSbtMFbiDMHcmJw8eqJ9wD64weJlXMrSKvAtMGGoEnDrNQ&osid=1&passive=1209600&service=mail&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1027334963%3A1729290444510938
 Server: GSE
 Content-Length: 614
 Content-Type: text/html; charset=UTF-8
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Sat, 19 Oct 2024 03:15:22 GMT
-Client-Peer: 142.251.163.84:443
+Client-Date: Fri, 18 Oct 2024 22:27:24 GMT
+Client-Peer: 64.233.180.84:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=accounts.google.com
@@ -96,7 +96,7 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Content-Security-Policy: require-trusted-types-for 'script';report-uri /cspreport
-Content-Security-Policy: script-src 'nonce-WxzhcLbuTFt9AsHB2Olc3g' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Content-Security-Policy: script-src 'nonce-DIlZgU0iP5kpfqRn6z31Qg' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
 Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="coop_gse_qebhlk"
 Report-To: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -109,7 +109,7 @@ X-XSS-Protection: 1; mode=block
 HTTP/1.1 200 OK
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:22 GMT
+Date: Fri, 18 Oct 2024 22:27:24 GMT
 Pragma: no-cache
 Accept-Ranges: none
 Server: ESF
@@ -118,8 +118,8 @@ Content-Type: text/html; charset=utf-8
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
 Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Sat, 19 Oct 2024 03:15:22 GMT
-Client-Peer: 142.251.163.84:443
+Client-Date: Fri, 18 Oct 2024 22:27:24 GMT
+Client-Peer: 64.233.180.84:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=accounts.google.com
@@ -129,15 +129,15 @@ Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Client-Transfer-Encoding: chunked
 Content-Base: https://accounts.google.com/v3/signin/
-Content-Security-Policy: script-src 'nonce-Y-ZqKtfEgpcswql67l6aPQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
 Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Content-Security-Policy: script-src 'nonce-bGo9z_aaATENi0dr7vw_Rw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
 Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
 Cross-Origin-Resource-Policy: same-site
 Link: <https://www.google.com/gmail/about/>; rel="canonical"
 Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
-Refresh: 0; url=/v3/signin/rejected?continue=https://mail.google.com/mail/u/0/&dsh=S-451143308:1729307722518944&emr=1&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://mail.google.com/mail/u/0/&ifkv=ARpgrqeZfrLCuRVxsBsaL-vOT1GwveJBQocHPu2cA-lTE5J9t8iRSU1vK_JxGfMUu5vtmVxkampwaQ&osid=1&rhlk=js&rrk=47&service=mail
+Refresh: 0; url=/v3/signin/rejected?continue=https://mail.google.com/mail/u/0/&dsh=S1027334963:1729290444510938&emr=1&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://mail.google.com/mail/u/0/&ifkv=ARpgrqepwtinDEZE2ka50lcCo8S2e9d4qSbtMFbiDMHcmJw8eqJ9wD64weJlXMrSKvAtMGGoEnDrNQ&osid=1&rhlk=js&rrk=47&service=mail
 Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
-Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwz1IAnEYB2D5wxshDhEOYkMlGNFQd1ZEQ4RBU0JCQ0t1Jp4pxJ2dZ9Dm4hC5RJ9Ig7MQDQ32CRlFIuLHnRQFDYHkHdFQUGP0e-Cx7rIBq9Pi63daCq4L5l1ssmlcyL2zABaWWuwepUqLKfgZMNgXplIG28TTtMHyuG8zWQbv8iYrouPHZH34mj2gN5xaOSQ_pp4rtIOPD1V6weBflWJ4bq_RNU7kauTF3o8auTESqNMqfsfq9IvN2zoZyPdoNImXYxrdoL6l0RO60xoNo5zRKI5HVxplsWtcp26cmdNpFn3zOvmxFNapgtv2Bu2h4mhQEjtt7aVi-aytI3lcPmGuoaC8JkRDoqRG1Y2wIkuqKIWWE2okEY2LyrqoCB7OM8Jz_Oggxwsx7h86MZYQ"
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwz1IAnEYB2D5wxshDhEOYkMlCNJQd5JEQ4NBSwVFDS2VJp4pxGnnGbRVcEPk0mCFODg71mDfZBRFH3reHYVBQyB5Eg0FNUa_Bx5rjvVYnZZRj9Ny7jpm_rk6G8HZwjsLYmm-wa5RLDeYhJ9Bk32hophsEw_SJivijq3JsnhVbLJbdPw0mQdf87v0hsOLezSFSq1MGXy6qdALhv4qJOGRXaUzHCqo5MfuD5XcGA1WaQm_E1X6xfpllUzkuzTy48mARheob2n0jO60Rj6MZzVKYu5Uozx2DOrUiWPTOk3g-IxOk3gX0amM23aDMig5DNrA9UeDFGy3tT6U7g9b2tbM2j5z9YXiy4FYWBDlmLwakeKiLIjhhZQcTcWSgrQiSAEv5-3nOd7Xy_GBBPcPce6auA"
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Title: Gmail
 X-Auto-Login: realm=com.google&args=service%3Dmail%26continue%3Dhttps://mail.google.com/mail/u/0/

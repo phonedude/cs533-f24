@@ -1,0 +1,74 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:34 GMT
+Location: http://www.naver.com/
+Server: nfront
+Content-Length: 162
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 03:15:35 GMT
+Client-Peer: 223.130.192.247:80
+Client-Response-Num: 1
+Referrer-Policy: unsafe-url
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:35 GMT
+Location: https://www.naver.com/
+Server: nfront
+Content-Length: 138
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 03:15:35 GMT
+Client-Peer: 23.202.152.238:80
+Client-Response-Num: 1
+Referrer-Policy: unsafe-url
+Title: 302 Found
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Connection: close
+Connection: Transfer-Encoding
+Date: Sat, 19 Oct 2024 03:15:35 GMT
+Pragma: no-cache
+Server: nfront
+Content-Type: text/html; charset=UTF-8
+Client-Date: Sat, 19 Oct 2024 03:15:35 GMT
+Client-Peer: 23.202.152.238:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=GeoTrust RSA CA 2018
+Client-SSL-Cert-Subject: /C=KR/ST=Gyeonggi-do/L=Seongnam-si/O=NAVER Cloud Corp./CN=ssl.pstatic.net
+Client-SSL-Cipher: ECDHE-RSA-AES128-GCM-SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Link: </favicon.ico?1>; rel="shortcut icon"; type="image/x-icon"
+Link: <https://s.pstatic.net/static/www/nFavicon96.png>; rel="apple-touch-icon-precomposed"
+Link: <https://s.pstatic.net/static/www/u/2014/0328/mma_204243574.png>; rel="apple-touch-icon"; sizes="114x114"
+Link: <https://s.pstatic.net/static/www/u/2014/0328/mma_20432863.png>; rel="apple-touch-icon"
+Link: <https://ssl.pstatic.net/sstatic/search/pc/css/sp_autocomplete_240801.css>; rel="stylesheet"
+Link: <https://www.naver.com/>; rel="canonical"
+Link: <https://m.naver.com/>; media="only screen and (max-width: 767px)"; rel="alternate"
+Link: <https://pm.pstatic.net/resources/css/main.f402c8a5.css>; rel="stylesheet"
+Referrer-Policy: unsafe-url
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Title: NAVER
+X-Frame-Options: DENY
+X-Meta-Apple-Mobile-Web-App-Title: NAVER
+X-Meta-Charset: utf-8
+X-Meta-Description: 네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요
+X-Meta-Google-Site-Verification: uru5NJKa1Bfr5nv5AdQ26Qat7UrPU_02l-PIZRLzI-g
+X-Meta-Referrer: origin
+X-Meta-Robots: index,nofollow
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Description: 네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요
+X-Meta-Twitter-Image: https://s.pstatic.net/static/www/mobile/edit/2016/0705/mobile_212852414260.png
+X-Meta-Twitter-Title: 
+X-Meta-Twitter-Url: https://www.naver.com/
+X-Meta-Viewport: width=1190
+X-UA-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+
+

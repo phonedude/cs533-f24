@@ -1,13 +1,13 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: no-store
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:50 GMT
+Date: Fri, 18 Oct 2024 22:27:52 GMT
 Location: https://techcrunch.com/
 Server: ATS
 Content-Language: en
 Content-Length: 8
 Content-Type: text/html
-Client-Date: Sat, 19 Oct 2024 03:15:50 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:52 GMT
 Client-Peer: 67.195.202.10:80
 Client-Response-Num: 1
 
@@ -15,7 +15,7 @@ Client-Response-Num: 1
 HTTP/1.1 200 OK
 Cache-Control: max-age=300, must-revalidate
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:50 GMT
+Date: Fri, 18 Oct 2024 22:27:52 GMT
 Accept-Ranges: bytes
 Age: 0
 Server: ATS
@@ -23,7 +23,7 @@ Vary: Accept-Encoding, Origin
 Content-Type: text/html; charset=UTF-8
 Access-Control-Allow-Methods: *
 Access-Control-Allow-Origin: https://techcrunch.com
-Client-Date: Sat, 19 Oct 2024 03:15:50 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:53 GMT
 Client-Peer: 67.195.202.10:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
@@ -55,7 +55,7 @@ X-Meta-Twitter-Card: summary_large_image
 X-Meta-Twitter-Site: @TechCrunch
 X-Meta-Viewport: width=device-width, initial-scale=1
 X-Powered-By: WordPress VIP <https://wpvip.com>
-X-Rq: yyz2 85 188 443
+X-Rq: yyz2 85 187 443
 X-XSS-Protection: 1; mode=block
 
 

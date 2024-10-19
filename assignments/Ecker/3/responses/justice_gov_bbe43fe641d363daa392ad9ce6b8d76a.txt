@@ -3,7 +3,7 @@ Connection: close
 Location: https://justice.gov/
 Server: BigIP
 Content-Length: 0
-Client-Date: Sat, 19 Oct 2024 03:15:28 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:31 GMT
 Client-Peer: 149.101.82.100:80
 Client-Response-Num: 1
 
@@ -12,7 +12,7 @@ HTTP/1.1 301 Moved Permanently
 Connection: close
 Location: https://www.justice.gov/
 Content-Length: 0
-Client-Date: Sat, 19 Oct 2024 03:15:29 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:31 GMT
 Client-Peer: 149.101.82.100:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Entrust, Inc./OU=See www.entrust.net\/legal-terms/OU=(c) 2012 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1K
@@ -25,18 +25,18 @@ Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 
 
 HTTP/1.1 200 OK
-Cache-Control: public, max-age=56
+Cache-Control: public, max-age=23
 Connection: close
 Connection: Transfer-Encoding
-Date: Sat, 19 Oct 2024 03:15:29 GMT
-ETag: "1729302047"
+Date: Fri, 18 Oct 2024 22:27:31 GMT
+ETag: "1729289579"
 Server: nginx
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Expires: Sat, 19 Oct 2024 03:16:25 GMT
-Last-Modified: Sat, 19 Oct 2024 01:40:47 GMT
-Client-Date: Sat, 19 Oct 2024 03:15:29 GMT
-Client-Peer: 23.9.154.91:443
+Expires: Fri, 18 Oct 2024 22:27:54 GMT
+Last-Modified: Fri, 18 Oct 2024 22:12:59 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:31 GMT
+Client-Peer: 96.7.22.19:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=GeoTrust RSA CA 2018
 Client-SSL-Cert-Subject: /C=US/ST=District Of Columbia/L=Washington/O=U.S. Department of Justice/CN=www.justice.gov
@@ -60,9 +60,9 @@ Link: </d9/css/css_QFArEE4ftgj3tRkMirybUatf14wasZtT2gGzvnDyJS4.css?delta=0&langu
 Link: </d9/css/css_KRuSQCaWMzUAULwFPdsc67_lBlAznFOQqY8RNR2-zig.css?delta=1&language=en&theme=usdoj_uswds&include=eJxlT9FuwzAI_CFkf1JEDF1YsLEMbpe_X9a1a6W9wHHciaPsTBI2FmnELVa1suc3DG5FUJd6ynBRabvn_1SKjSuDHx5c84rOMJ3sc5l-I8_ozuEQZhrS86MDf8WPO9OYHTU9RijPSFiKDRJr-Q-ly7AW3AiKqWJ3-U18rhkUD5uxkHixK48jW-NTBlfhm-d7TdVoKkPHgR8D--bP6y8mzdbnquIbE9yfzMZ1ZUoXGxUjeHwDsmB6kA>; media="all"; rel="stylesheet"
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Title: Department of Justice | Homepage | United States Department of Justice
-X-Age: 3997
+X-Age: 2
 X-AH-Environment: prod
-X-Cache-Hits: 244
+X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
 X-Drupal-Dynamic-Cache: UNCACHEABLE
 X-Frame-Options: SAMEORIGIN
@@ -74,7 +74,7 @@ X-Meta-HandheldFriendly: true
 X-Meta-MobileOptimized: width
 X-Meta-Twitter-Description: Official website of the U.S. Department of Justice (DOJ). DOJ’s mission is to enforce the law and defend the interests of the United States according to the law; to ensure public safety against
 X-Meta-Viewport: width=device-width, initial-scale=1.0
-X-Request-ID: v-2a099e08-8dbb-11ef-868f-ab61abac1fef
+X-Request-ID: v-2279061e-8d9e-11ef-b666-0f9bb44955af
 X-XSS-Protection: 1; mode=block
 
 

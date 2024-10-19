@@ -1,8 +1,8 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:54 GMT
+Date: Fri, 18 Oct 2024 22:27:56 GMT
 Location: https://www.trustpilot.com/
-Client-Date: Sat, 19 Oct 2024 03:15:54 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:56 GMT
 Client-Peer: 52.211.4.10:80
 Client-Response-Num: 1
 Client-Transfer-Encoding: chunked
@@ -11,13 +11,13 @@ Client-Transfer-Encoding: chunked
 HTTP/1.1 200 OK
 Cache-Control: public, max-age=1200
 Connection: close
-Date: Sat, 19 Oct 2024 02:59:53 GMT
-Via: 1.1 f083772533311135e98c34854de442be.cloudfront.net (CloudFront)
-Age: 961
+Date: Fri, 18 Oct 2024 22:19:53 GMT
+Via: 1.1 607a5a7b199f84a8bd0ab302c38a0bfc.cloudfront.net (CloudFront)
+Age: 483
 Vary: Accept-Encoding
 Content-Type: text/html; charset=utf-8
-Client-Date: Sat, 19 Oct 2024 03:15:54 GMT
-Client-Peer: 3.165.181.67:443
+Client-Date: Fri, 18 Oct 2024 22:27:56 GMT
+Client-Peer: 3.165.181.29:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
 Client-SSL-Cert-Subject: /CN=*.trustpilot.com
@@ -71,7 +71,7 @@ Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static
 Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static/css/19473a922deef7da.css>; data-n-p=""; rel="stylesheet"
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Title: Trustpilot Reviews: Experience the power of customer reviews
-X-Amz-Cf-Id: wa7eyOrhi25ZtvuCZUAEoIhPujuj_K3J0Lpqz3nsNhRlpogF2A5gUA==
+X-Amz-Cf-Id: hMuqS6Vy2u4jOjD-ccN-3r-8I_8v5GLc9ti5nwoQoFtLFGJG82Q_kA==
 X-Amz-Cf-Pop: ATL59-P9
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff

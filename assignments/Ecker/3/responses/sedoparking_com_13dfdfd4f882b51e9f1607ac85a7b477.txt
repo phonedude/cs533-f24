@@ -1,11 +1,11 @@
 HTTP/1.1 302 Found
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:44 GMT
+Date: Fri, 18 Oct 2024 22:27:47 GMT
 Location: //sedoparking.com/infopage/en/index.html
 Server: Parking/1.0
 Content-Length: 0
 Content-Type: text/html; charset=UTF-8
-Client-Date: Sat, 19 Oct 2024 03:15:44 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:47 GMT
 Client-Peer: 64.190.63.136:80
 Client-Response-Num: 1
 X-Cache-Miss-From: parking-697b9cf7ff-b6z57
@@ -13,7 +13,7 @@ X-Cache-Miss-From: parking-697b9cf7ff-b6z57
 
 HTTP/1.1 200 OK
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:44 GMT
+Date: Fri, 18 Oct 2024 22:27:47 GMT
 Accept-Ranges: bytes
 ETag: "66deb79c-1046"
 Server: Parking/1.0
@@ -21,7 +21,7 @@ Vary: Accept-Encoding
 Content-Length: 4166
 Content-Type: text/html
 Last-Modified: Mon, 09 Sep 2024 08:53:48 GMT
-Client-Date: Sat, 19 Oct 2024 03:15:45 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:47 GMT
 Client-Peer: 64.190.63.136:80
 Client-Response-Num: 1
 Link: <//img.sedoparking.com/infopage/css/bootstrap.min.css>; rel="stylesheet"

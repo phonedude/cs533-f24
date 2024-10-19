@@ -1,34 +1,34 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: max-age=3600
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:15 GMT
+Date: Fri, 18 Oct 2024 22:27:17 GMT
 Location: https://doi.org/
 Server: cloudflare
 Content-Length: 167
 Content-Type: text/html
-Expires: Sat, 19 Oct 2024 04:15:15 GMT
+Expires: Fri, 18 Oct 2024 23:27:17 GMT
 Alt-Svc: h3=":443"; ma=86400
-CF-RAY: 8d4d9a442c766905-IAD
-Client-Date: Sat, 19 Oct 2024 03:15:15 GMT
-Client-Peer: 104.26.5.132:80
+CF-RAY: 8d4bf47018d30819-IAD
+Client-Date: Fri, 18 Oct 2024 22:27:17 GMT
+Client-Peer: 172.67.69.3:80
 Client-Response-Num: 1
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=egq74WVJ2fWUaMsQE97PoMHxFTwMkKAdMnaMWbm9OsTc1rTxBiiTT6J9KMkTPV8miMjhUaVToSpZUw8KhuKGT6ozZYlcqIsWjbj9kUphVsTWEfulZzPKRow%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=A8b5shmIoXgQOlTm%2BlNbBfQe8Dukq%2BSCijHVm%2BqQeMHLTeQQu8uACUdH4%2BQCBPtQG3iCjQUFtFb%2Fk3nZ3Axc%2Fa4rqO2v99gwjV2h6f9bJu6%2BiCMQ9UjROZ4%3D"}],"group":"cf-nel","max_age":604800}
 Title: 301 Moved Permanently
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:15 GMT
+Date: Fri, 18 Oct 2024 22:27:17 GMT
 Location: https://www.doi.org/
 Server: cloudflare
 Vary: Origin
 Content-Length: 0
 Alt-Svc: h3=":443"; ma=86400
-CF-Cache-Status: DYNAMIC
-CF-RAY: 8d4d9a44cabf3b1a-IAD
-Client-Date: Sat, 19 Oct 2024 03:15:15 GMT
-Client-Peer: 104.26.5.132:443
+Cf-Cache-Status: DYNAMIC
+CF-RAY: 8d4bf470bfe7c970-IAD
+Client-Date: Fri, 18 Oct 2024 22:27:17 GMT
+Client-Peer: 172.67.69.3:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WE1
 Client-SSL-Cert-Subject: /CN=doi.org
@@ -38,14 +38,14 @@ Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: interest-cohort=(),browsing-topics=()
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=5nsYbaRm1wAQniqLl1kS3%2Fefc9%2FwcLT3KFQqAlZZoslVCGdhvlv1kFlci619UhZUgjSUNuYkNxlYMRVPStUV61UpqIaTC3U2WiV4n1OQRI3cpNQOLfOSqpY%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=B9z0Wy6qez74nDiKdMx9TcrRvVwBtCQ71sxEVgHhQhYEjS2olPHsc9x7z5X7RL3VPLHy1oAx%2B%2BJCbOBKodACEFTdGjTR%2F3UQX%2BitvZT1MgDHYuNtTDii00U%3D"}],"group":"cf-nel","max_age":604800}
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 
 
 HTTP/1.1 200 OK
 Connection: close
-Date: Sat, 19 Oct 2024 03:15:16 GMT
-Via: 1.1 e3098dac6011d7b876f33fc65717302a.cloudfront.net (CloudFront)
+Date: Fri, 18 Oct 2024 22:27:18 GMT
+Via: 1.1 aff20911eaac3f22b90f4012f7ae5d7c.cloudfront.net (CloudFront)
 Accept-Ranges: bytes
 ETag: "40ca3249393c605326f122c98984af8a"
 Server: AmazonS3
@@ -53,7 +53,7 @@ Content-Encoding: gzip
 Content-Length: 6951
 Content-Type: text/html
 Last-Modified: Tue, 17 Sep 2024 17:33:27 GMT
-Client-Date: Sat, 19 Oct 2024 03:15:15 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:17 GMT
 Client-Peer: 3.163.80.129:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
@@ -62,7 +62,7 @@ Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
 Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
-X-Amz-Cf-Id: pp6ytMoUHoSFj_A1ATn1mrSkM5PLD9fgZadiXSe5hkRZv9cMSMOB-w==
+X-Amz-Cf-Id: 813ujWKMe29Ss9AzNZz9dzGDx-Aob_cAkiecWmWojXSlAOjKzW25nA==
 X-Amz-Cf-Pop: ATL58-P7
 X-Amz-Meta-Md5chksum: 40ca3249393c605326f122c98984af8a
 X-Amz-Server-Side-Encryption: AES256

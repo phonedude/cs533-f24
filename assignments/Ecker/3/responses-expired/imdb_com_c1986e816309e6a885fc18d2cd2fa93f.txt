@@ -1,0 +1,46 @@
+HTTP/1.1 302 Found
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:26 GMT
+Location: https://www.imdb.com/
+Server: Server
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Sat, 19 Oct 2024 03:15:27 GMT
+Client-Peer: 52.94.228.167:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M01
+Client-SSL-Cert-Subject: /CN=us.dd.imdb.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Title: 302 Found
+
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:27 GMT
+Via: 1.1 335526d486289f4b1574810d0978956c.cloudfront.net (CloudFront)
+Server: Server
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Type: text/html
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Sat, 19 Oct 2024 03:15:27 GMT
+Client-Peer: 13.225.212.152:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M01
+Client-SSL-Cert-Subject: /CN=us.dd.imdb.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Title: 403 Forbidden
+X-Amz-Cf-Id: FRmBNH4CEcg6uTb8iRvl3SHliEU7oJbEb0hseqyQkIgRPgMejoRPKA==
+X-Amz-Cf-Pop: ATL59-P10
+X-Amz-Rid: D06T7S6RNDYH80FDAJD7
+X-Cache: Error from cloudfront
+
+

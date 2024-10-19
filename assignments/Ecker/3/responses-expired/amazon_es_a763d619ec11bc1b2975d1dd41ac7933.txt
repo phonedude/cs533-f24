@@ -1,0 +1,80 @@
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Date: Sat, 19 Oct 2024 03:15:06 GMT
+Location: https://amazon.es/
+Server: Server
+Content-Length: 163
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 03:15:06 GMT
+Client-Peer: 54.239.33.90:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:06 GMT
+Location: https://www.amazon.es/
+Server: Server
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 03:15:06 GMT
+Client-Peer: 54.239.33.90:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M01
+Client-SSL-Cert-Subject: /CN=*.bw.peg.a2z.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Connection: close
+Date: Sat, 19 Oct 2024 03:15:07 GMT
+Pragma: no-cache
+Via: 1.1 10f3d2d5324392ed1372a7a61355b5ce.cloudfront.net (CloudFront)
+Server: Server
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Language: es-ES
+Content-Type: text/html;charset=UTF-8
+Expires: -1
+Accept-CH: ect,rtt,downlink,device-memory,sec-ch-device-memory,viewport-width,sec-ch-viewport-width,dpr,sec-ch-dpr,sec-ch-ua-platform,sec-ch-ua-platform-version
+Accept-CH-Lifetime: 86400
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Sat, 19 Oct 2024 03:15:07 GMT
+Client-Peer: 18.160.85.199:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global CA G2
+Client-SSL-Cert-Subject: /CN=www.amazon.es
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests;report-uri https://metrics.media-amazon.com/
+Content-Security-Policy-Report-Only: default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline';report-uri https://metrics.media-amazon.com/
+Set-Cookie: session-id=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: session-id-time=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: session-token=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: ubid-acbes=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: at-acbes=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: lc-acbes=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: x-acbes=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: x-wl-uid=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: sess-at-acbes=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Set-Cookie: UserPref=-; path=/; domain=.www.amazon.es; expires=Fri, 19-Oct-2012 03:15:07 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Amz-Cf-Id: IBYbkCJ68KuBzwMybJ_oXtmWtPu67hkPzYMhFf1sE1dVdJ2FK1b-7g==
+X-Amz-Cf-Pop: ATL59-P2
+X-Amz-Rid: G0AWRX173Y9RNXAD74YN
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1;
+
+
