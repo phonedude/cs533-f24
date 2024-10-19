@@ -1,18 +1,18 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: no-cache
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:44 GMT
-Via: 1.1 e03ef7895d7445222ac247ee97fa17d6.cloudfront.net (CloudFront)
+Date: Sat, 19 Oct 2024 04:22:33 GMT
+Via: 1.1 cb9dfd1abc493467162ed3f82b7cfc72.cloudfront.net (CloudFront)
 Location: https://photobucket.com/
 Server: Photobucket
 Vary: Origin
 Content-Length: 167
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:44 GMT
-Client-Peer: 3.161.193.104:80
+Client-Date: Sat, 19 Oct 2024 04:22:32 GMT
+Client-Peer: 3.161.193.53:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
-X-Amz-Cf-Id: t7jvL9S1AJbz5s7uNZjfpO4BbyDAwa-xK5gJsPBTq7O4-RUVevrPzg==
+X-Amz-Cf-Id: kd2QhbbxGuWf8QD2TRYp14xNRB1FQsZMOI1aW6qUdIIqvPDuprTYsw==
 X-Amz-Cf-Pop: ATL59-P8
 X-Cache: Redirect from cloudfront
 
@@ -20,19 +20,19 @@ X-Cache: Redirect from cloudfront
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Connection: close
-Date: Fri, 18 Oct 2024 22:25:42 GMT
-Via: 1.1 564323c34e674762078ff4073ae6fa4e.cloudfront.net (CloudFront)
+Date: Fri, 18 Oct 2024 23:18:18 GMT
+Via: 1.1 0bda97a74954c2e664561e1a967cca0c.cloudfront.net (CloudFront)
 Accept-Ranges: bytes
-Age: 123
-ETag: "3549b652b8dea79f944e3110140ac837"
+Age: 18256
+ETag: "46597f3f852d5beef98d6b878600cc37"
 Server: Photobucket
 Vary: Accept-Encoding
 Vary: Origin
 Content-Length: 2720
 Content-Type: text/html
-Last-Modified: Fri, 18 Oct 2024 22:25:24 GMT
-Client-Date: Fri, 18 Oct 2024 22:27:44 GMT
-Client-Peer: 3.161.193.53:443
+Last-Modified: Fri, 18 Oct 2024 23:18:04 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:33 GMT
+Client-Peer: 3.161.193.104:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
 Client-SSL-Cert-Subject: /CN=photobucket.com
@@ -49,7 +49,7 @@ Link: <https://use.typekit.net/eth1ayr.css>; media="print"; onload="this.media="
 Link: </fonts/Outfit-VariableFont_wght.ttf>; as="font"; crossorigin/="crossorigin/"; rel="preload"; type="font/ttf"
 Link: </static/css/main.254eb688.css>; rel="stylesheet"
 Title: Photo Storage
-X-Amz-Cf-Id: mkAdRPWLW53LWBx57szQZj3HoRigKWoZ9u5xr6nlpq23N9q8rIxhcQ==
+X-Amz-Cf-Id: 0PV9nAOMda-FZE851Kon8SxEnuB8v1xEvlvt_M8MpQ9FkadxMDE3aw==
 X-Amz-Cf-Pop: ATL59-P8
 X-Amz-Server-Side-Encryption: AES256
 X-Cache: Error from cloudfront

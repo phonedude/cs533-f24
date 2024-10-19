@@ -1,11 +1,11 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:31 GMT
+Date: Sat, 19 Oct 2024 04:22:20 GMT
 Location: https://www.lavanguardia.com/
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:32 GMT
-Client-Peer: 88.87.219.197:80
+Client-Date: Sat, 19 Oct 2024 04:22:20 GMT
+Client-Peer: 213.4.81.197:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
 
@@ -13,14 +13,14 @@ Title: 301 Moved Permanently
 HTTP/1.1 200 OK
 Cache-Control: max-age=0, no-cache, no-store
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:32 GMT
+Date: Sat, 19 Oct 2024 04:22:20 GMT
 Pragma: no-cache
-Content-Length: 483824
+Content-Length: 474029
 Content-Type: text/html; charset=UTF-8
-Expires: Fri, 18 Oct 2024 22:27:32 GMT
+Expires: Sat, 19 Oct 2024 04:22:20 GMT
 Access-Control-Max-Age: 86400
-Client-Date: Fri, 18 Oct 2024 22:27:32 GMT
-Client-Peer: 104.94.117.173:443
+Client-Date: Sat, 19 Oct 2024 04:22:20 GMT
+Client-Peer: 23.9.142.181:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert TLS RSA SHA256 2020 CA1
 Client-SSL-Cert-Subject: /C=ES/ST=Barcelona/L=Barcelona/O=Grupo Godo de Comunicacion S.A./CN=www.grupogodo.com

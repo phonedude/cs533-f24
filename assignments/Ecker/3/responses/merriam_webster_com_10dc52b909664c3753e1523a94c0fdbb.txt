@@ -1,32 +1,32 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:34 GMT
-Via: 1.1 221ee5ec812ed71353497211271896dc.cloudfront.net (CloudFront)
+Date: Sat, 19 Oct 2024 04:22:23 GMT
+Via: 1.1 13b997816399b1e7b7a613f5d44b712a.cloudfront.net (CloudFront)
 Location: https://merriam-webster.com/
 Server: CloudFront
 Content-Length: 167
 Content-Type: text/html
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:34 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:22 GMT
 Client-Peer: 3.161.188.10:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
-X-Amz-Cf-Id: y6gpkI61f20_eJH0OWNakmZ8Uyqg1RIG3Amy0rnmIvNPumwATW2SsQ==
+X-Amz-Cf-Id: hrShwlRAi_aL6KThGtqLl3AZNIQY2xJm2Pnq5j0kSMIAg2IiypNfZQ==
 X-Amz-Cf-Pop: ATL59-P7
 X-Cache: Redirect from cloudfront
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 21:38:38 GMT
-Via: 1.1 161dcc499eb1e7daeb500f994e6ebd16.cloudfront.net (CloudFront)
-Age: 2937
+Date: Sat, 19 Oct 2024 03:41:05 GMT
+Via: 1.1 472a2f1271e9459af505e57625ce0e00.cloudfront.net (CloudFront)
+Age: 2478
 Location: https://www.merriam-webster.com:443/
 Server: awselb/2.0
 Content-Length: 134
 Content-Type: text/html
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:35 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:22 GMT
 Client-Peer: 3.161.188.115:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
@@ -36,7 +36,7 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Title: 301 Moved Permanently
-X-Amz-Cf-Id: rIz8k6QoJxUh9n_B16pldxXg2csp6ApQAPH6n-qnZvuq4pZFSgUYdA==
+X-Amz-Cf-Id: GpSjVS-C3123XWznYectzIVjQNm_5MGOdFI2cWsLzL9dTKLDHaxuqA==
 X-Amz-Cf-Pop: ATL59-P7
 X-Cache: Hit from cloudfront
 
@@ -44,16 +44,16 @@ X-Cache: Hit from cloudfront
 HTTP/1.1 200 OK
 Cache-Control: public, max-age=3600
 Connection: close
-Date: Fri, 18 Oct 2024 22:06:07 GMT
-Via: 1.1 ab36a19cbebfafa013306497524434c6.cloudfront.net (CloudFront)
-Age: 1288
+Date: Sat, 19 Oct 2024 04:08:07 GMT
+Via: 1.1 13b997816399b1e7b7a613f5d44b712a.cloudfront.net (CloudFront)
+Age: 856
 Server: nginx
 Vary: Accept-Encoding
-Content-Length: 261807
+Content-Length: 261296
 Content-Type: text/html; charset=utf-8
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:35 GMT
-Client-Peer: 3.161.188.75:443
+Client-Date: Sat, 19 Oct 2024 04:22:23 GMT
+Client-Peer: 3.161.188.29:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
 Client-SSL-Cert-Subject: /CN=*.merriam-webster.com
@@ -74,7 +74,7 @@ Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/OpenSans-400-Latin-Ext
 Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/OpenSans-400-Italic-Latin-Ext.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
 Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/OpenSans-400-Italic-Latin.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
 Title: Merriam-Webster: America's Most Trusted Dictionary
-X-Amz-Cf-Id: ZTHfQr3HpyP0anLfIkq0YdEXhKBupO7wZ6z1bBL4bjJKOuSf9_O1Mg==
+X-Amz-Cf-Id: i4CIBj5BALdqQyr4CYy9pmk6ishtoCcmE93TuLi5HkhQGIt_Old4dA==
 X-Amz-Cf-Pop: ATL59-P7
 X-Cache: Hit from cloudfront
 X-Meta-Charset: UTF-8
@@ -89,7 +89,7 @@ X-Meta-Twitter-Site: @MerriamWebster
 X-Meta-Twitter-Title: Merriam-Webster: America's Most Trusted Dictionary
 X-Meta-Twitter-Url: https://www.merriam-webster.com/
 X-Meta-Viewport: width=device-width, initial-scale=1.0
-X-Rid: rid2d392526-8d9d-11ef-b3c6-0affc7d3e54d
+X-Rid: ridbf270c14-8dcf-11ef-9b92-0a58a9feac02
 X-Ua-Compatible: ie=edge
 
 

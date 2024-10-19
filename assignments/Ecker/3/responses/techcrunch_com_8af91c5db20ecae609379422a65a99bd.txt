@@ -1,13 +1,13 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: no-store
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:52 GMT
+Date: Sat, 19 Oct 2024 04:22:41 GMT
 Location: https://techcrunch.com/
 Server: ATS
 Content-Language: en
 Content-Length: 8
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:52 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:40 GMT
 Client-Peer: 67.195.202.10:80
 Client-Response-Num: 1
 
@@ -15,7 +15,7 @@ Client-Response-Num: 1
 HTTP/1.1 200 OK
 Cache-Control: max-age=300, must-revalidate
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:52 GMT
+Date: Sat, 19 Oct 2024 04:22:41 GMT
 Accept-Ranges: bytes
 Age: 0
 Server: ATS
@@ -23,7 +23,7 @@ Vary: Accept-Encoding, Origin
 Content-Type: text/html; charset=UTF-8
 Access-Control-Allow-Methods: *
 Access-Control-Allow-Origin: https://techcrunch.com
-Client-Date: Fri, 18 Oct 2024 22:27:53 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:41 GMT
 Client-Peer: 67.195.202.10:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA

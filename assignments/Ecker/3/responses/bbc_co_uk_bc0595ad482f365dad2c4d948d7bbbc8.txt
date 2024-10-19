@@ -1,7 +1,7 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:11 GMT
+Date: Sat, 19 Oct 2024 04:22:00 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
 Location: https://bbc.co.uk/
@@ -9,22 +9,22 @@ Retry-After: 0
 Server: Varnish
 Content-Length: 0
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:11 GMT
-Client-Peer: 151.101.0.81:80
+Client-Date: Sat, 19 Oct 2024 04:22:00 GMT
+Client-Peer: 151.101.64.81:80
 Client-Response-Num: 1
 Nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
 Report-To: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://default.bbc-reporting-api.app/report-endpoint','priority':1} ],'include_subdomains':true}
 Req-Svc-Chain: FASTLY
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Served-By: cache-iad-kiad7000133-IAD
-X-Timer: S1729290432.524543,VS0,VE0
+X-Served-By: cache-iad-kiad7000075-IAD
+X-Timer: S1729311721.938546,VS0,VE0
 
 
 HTTP/1.1 301 Moved Permanently
 Cache-Control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:11 GMT
+Date: Sat, 19 Oct 2024 04:22:01 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
 Location: https://www.bbc.co.uk/
@@ -32,7 +32,7 @@ Retry-After: 0
 Server: Varnish
 Content-Length: 0
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:11 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:00 GMT
 Client-Peer: 151.101.192.81:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign RSA OV SSL CA 2018
@@ -47,27 +47,27 @@ Req-Svc-Chain: FASTLY
 Strict-Transport-Security: max-age=31536000; preload
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Served-By: cache-iad-kjyo7100085-IAD
-X-Timer: S1729290432.605742,VS0,VE0
+X-Served-By: cache-iad-kjyo7100064-IAD
+X-Timer: S1729311721.008985,VS0,VE0
 
 
 HTTP/1.1 200 OK
 Cache-Control: private, stale-if-error=90, stale-while-revalidate=30, max-age=0, must-revalidate
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:11 GMT
+Date: Sat, 19 Oct 2024 04:22:01 GMT
 Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
 Accept-Ranges: bytes
 Server: BBC-GTM
 Vary: X-BBC-Edge-Scheme,x-id-oidc-signedin,Accept-Encoding
-Content-Length: 577372
+Content-Length: 575413
 Content-Type: text/html
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Belfrage-Cache-Status: HIT
+Belfrage-Cache-Status: MISS
 Bid: bruce
-Brequestid: 1757cd90b6034b6695f8806f08e03abf
+Brequestid: 7e7cc87ad9954be9bd497c89c6bf1392
 Bsig: 1208f4af15d5afde4f19a9ad56d6a2c7
-Client-Date: Fri, 18 Oct 2024 22:27:11 GMT
-Client-Peer: 151.101.64.81:443
+Client-Date: Sat, 19 Oct 2024 04:22:00 GMT
+Client-Peer: 151.101.0.81:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign RSA OV SSL CA 2018
 Client-SSL-Cert-Subject: /C=GB/ST=London/L=London/O=BRITISH BROADCASTING CORPORATION/CN=www.bbc.com
@@ -75,7 +75,7 @@ Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
 Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
-Content-Security-Policy: default-src 'none'; script-src 'strict-dynamic' 'nonce-6RFx41Jp7KYhVKyTOT5gFhjO7ZaFW3WgYaziDttOsXdJS5B2A2' 'self' 'report-sample' 'unsafe-inline' assets.wearehearken.eu cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.uk platform.twitter.com public.flourish.studio static.bbc.co.uk static.bbci.co.uk static.chartbeat.com static2.chartbeat.com www.bbc.co.uk www.instagram.com www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com bitesize.files.bbci.co.uk www.tiktok.com lf16-tiktok-web.ttwstatic.com static.files.bbci.co.uk; img-src 'self' https: data:; font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk bitesize.files.bbci.co.uk; style-src branding.files.bbci.co.uk cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk ton.twimg.com www.riddle.com 'unsafe-inline' lf16-tiktok-web.ttwstatic.com; frame-src 'self' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com flo.uri.sh graphics.reuters.com www.reuters.com graphics.thomsonreuters.com dynamic.mc-cdn.io vapi.mc-cdn.io vapi.beta.mc-cdn.io elections.mapcreator.io elections.beta.mapcreator.io cdn.mapcreator.io m.facebook.com news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk platform.twitter.com public.flourish.studio static2.chartbeat.com syndication.twitter.com web.facebook.com www.bbc.co.uk www.facebook.com www.instagram.com www.tiktok.com www.ons.gov.uk www.riddle.com www.youtube.com www.youtube-nocookie.com uk-script.dotmetrics.net ssp-app-uk.votenow.tv ssp-app-uktest.votenow.tv ssp-app-ukbench.votenow.tv session.test.bbc.co.uk session.bbc.co.uk session.stage.bbc.co.uk bitesize.files.bbci.co.uk; object-src 'none'; manifest-src static.files.bbci.co.uk bitesize.files.bbci.co.uk; media-src 'self' blob: https:; connect-src 'self' https:; child-src blob:; base-uri 'none'; form-action 'self' platform.twitter.com syndication.twitter.com uk-script.dotmetrics.net/DeviceInfo.dotmetrics; frame-ancestors 'none'; upgrade-insecure-requests; report-to default; report-uri https://webcore.bbc-reporting-api.app/report-endpoint;
+Content-Security-Policy: default-src 'none'; script-src 'strict-dynamic' 'nonce-FtfS+c7ZDTXtS8p7Mromp0dtJs+umHOxc6FmrdJLN6MU42pqV4' 'self' 'report-sample' 'unsafe-inline' assets.wearehearken.eu cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.uk platform.twitter.com public.flourish.studio static.bbc.co.uk static.bbci.co.uk static.chartbeat.com static2.chartbeat.com www.bbc.co.uk www.instagram.com www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com bitesize.files.bbci.co.uk www.tiktok.com lf16-tiktok-web.ttwstatic.com static.files.bbci.co.uk; img-src 'self' https: data:; font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk bitesize.files.bbci.co.uk; style-src branding.files.bbci.co.uk cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk ton.twimg.com www.riddle.com 'unsafe-inline' lf16-tiktok-web.ttwstatic.com; frame-src 'self' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com flo.uri.sh graphics.reuters.com www.reuters.com graphics.thomsonreuters.com dynamic.mc-cdn.io vapi.mc-cdn.io vapi.beta.mc-cdn.io elections.mapcreator.io elections.beta.mapcreator.io cdn.mapcreator.io m.facebook.com news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk platform.twitter.com public.flourish.studio static2.chartbeat.com syndication.twitter.com web.facebook.com www.bbc.co.uk www.facebook.com www.instagram.com www.tiktok.com www.ons.gov.uk www.riddle.com www.youtube.com www.youtube-nocookie.com uk-script.dotmetrics.net ssp-app-uk.votenow.tv ssp-app-uktest.votenow.tv ssp-app-ukbench.votenow.tv session.test.bbc.co.uk session.bbc.co.uk session.stage.bbc.co.uk bitesize.files.bbci.co.uk; object-src 'none'; manifest-src static.files.bbci.co.uk bitesize.files.bbci.co.uk; media-src 'self' blob: https:; connect-src 'self' https:; child-src blob:; base-uri 'none'; form-action 'self' platform.twitter.com syndication.twitter.com uk-script.dotmetrics.net/DeviceInfo.dotmetrics; frame-ancestors 'none'; upgrade-insecure-requests; report-to default; report-uri https://webcore.bbc-reporting-api.app/report-endpoint;
 Fastly-Restarts: 1
 Feature-Policy: accelerometer 'none'; autoplay 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; camera 'none'; document-domain 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; encrypted-media 'none'; fullscreen 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr 'self'; usb 'none'; xr-spatial-tracking 'none'
 Link: <https://www.bbc.co.uk/>; data-rh="true"; rel="canonical"
@@ -91,14 +91,14 @@ Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://def
 Req-Svc-Chain: FASTLY,GTM,BELFRAGE
 Strict-Transport-Security: max-age=31536000; preload
 Title: BBC - Home
-X-BBC-Edge-Cache-Status: HIT
+X-BBC-Edge-Cache-Status: STALE
 X-Cache: HIT
 X-Cache-Age: 1
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
 X-Fastly-Cache-Status: HIT-CLUSTER
 X-Fastly-Pre-Flight-Cache: MISS, HIT
-X-Fastly-Pre-Flight-Cache-Status: HIT-CLUSTER
+X-Fastly-Pre-Flight-Cache-Status: HIT-STALE-CLUSTER
 X-Frame-Options: DENY
 X-LB-NoCache: true
 X-Meta-Charset: utf-8
@@ -116,8 +116,8 @@ X-Meta-Twitter-Site: @BBC
 X-Meta-Twitter-Title: BBC - Home
 X-Meta-Twitter-Url: https://www.bbc.co.uk/
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Served-By: cache-iad-kiad7000082-IAD
-X-Timer: S1729290432.732153,VS0,VE4
+X-Served-By: cache-iad-kiad7000102-IAD
+X-Timer: S1729311721.128981,VS0,VE4
 X-Xss-Protection: 1; mode=block
 
 

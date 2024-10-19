@@ -1,12 +1,12 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:28:51 GMT
+Date: Sat, 19 Oct 2024 04:23:39 GMT
 Location: https://wordpress.org/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:28:51 GMT
+Client-Date: Sat, 19 Oct 2024 04:23:39 GMT
 Client-Peer: 198.143.164.252:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
@@ -14,12 +14,12 @@ Title: 301 Moved Permanently
 
 HTTP/1.1 200 OK
 Connection: close
-Date: Fri, 18 Oct 2024 22:28:51 GMT
+Date: Sat, 19 Oct 2024 04:23:39 GMT
 Server: nginx
 Vary: Accept-Encoding
 Content-Type: text/html; charset=UTF-8
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:28:51 GMT
+Client-Date: Sat, 19 Oct 2024 04:23:39 GMT
 Client-Peer: 198.143.164.252:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Domain Validation Secure Server CA
@@ -45,7 +45,7 @@ X-Meta-Robots: max-image-preview:large
 X-Meta-Twitter-Card: summary_large_image
 X-Meta-Twitter-Creator: @WordPress
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Nc: HIT ord 1
+X-Nc: HIT ord 2
 X-Olaf: ⛄
 
 

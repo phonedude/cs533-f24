@@ -1,27 +1,27 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:13 GMT
-Via: 1.1 cc32f91d3d591d364f0c4e44eaf6525e.cloudfront.net (CloudFront)
+Date: Sat, 19 Oct 2024 04:22:02 GMT
+Via: 1.1 3e445414cb8134bf4b609fdcfe022fcc.cloudfront.net (CloudFront)
 Location: https://booking.com/
 Server: CloudFront
 Content-Length: 167
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:13 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:02 GMT
 Client-Peer: 3.161.150.39:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
-X-Amz-Cf-Id: _MtbFQZFe8niUV2en66N8z6cCyxz_se-32SHpz2S80pVLmsiefDXIg==
+X-Amz-Cf-Id: kTrJi7Q41lVthMqvpqmOByTzm2vOfqfKRlbTWUqMe70m8HcqgDJJBQ==
 X-Amz-Cf-Pop: ATL59-P5
 X-Cache: Redirect from cloudfront
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:13 GMT
-Via: 1.1 85e434b38e99aa5d42b615161498ecb0.cloudfront.net (CloudFront)
+Date: Sat, 19 Oct 2024 04:22:03 GMT
+Via: 1.1 f5b13248899f05d12f1f01f169b30530.cloudfront.net (CloudFront)
 Location: https://www.booking.com/
 Server: nginx
-Client-Date: Fri, 18 Oct 2024 22:27:13 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:02 GMT
 Client-Peer: 3.161.150.124:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
@@ -31,13 +31,13 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Client-Transfer-Encoding: chunked
-Content-Security-Policy-Report-Only: frame-ancestors 'none'; report-uri https://nellie.booking.com/csp-report-uri?type=report&tag=112&pid=ee7c9de056a200cb&e=UmFuZG9tSVYkc2RlIyh9YdPFJGDFjZSqK4Z-4dNTMVsc1HdgGoH-9mttQgG6YFUrK8k1qLEA8k4
+Content-Security-Policy-Report-Only: frame-ancestors 'none'; report-uri https://nellie.booking.com/csp-report-uri?type=report&tag=112&pid=f4601eb5c32201ea&e=UmFuZG9tSVYkc2RlIyh9YdPFJGDFjZSqK4Z-4dNTMVtDEzM6yr8a7hwUwckHcZUoi_jxjnXrSL4
 Nel: {"report_to":"default","max_age":604800}
-Report-To: {"endpoints":[{"url":"https://nellie.booking.com/report"}],"group":"default","max_age":604800}
-Set-Cookie: bkng_sso_auth=CAIQsOnuTRpm4r5bwTwG/k6hfWFEXQ3jJRaYF70N67Pl9LhI4MWIIaSaO8aEdUDE/zkSH3m4VGjnaoinXbyErF2WawYszyYbT+MMAOjIQWGIEprDmZKZpi30Y9n3wYndllJaBctnNzmV4+tMxyAN; Domain=.booking.com; Path=/; Expires=Sun, 18 Oct 2026 22:27:13 GMT; HttpOnly; Secure; SameSite=Lax
-Set-Cookie: pcm_consent=analytical%3Dtrue%26countryCode%3DUS%26consentId%3D9b31aed6-c4d6-4391-b9d0-2ba3c7a299ce%26consentedAt%3D2024-10-18T22%3A27%3A13.366Z%26expiresAt%3D2025-04-16T22%3A27%3A13.366Z%26implicit%3Dtrue%26marketing%3Dtrue%26regionCode%3DVA%26regulation%3Dnone%26legacyRegulation%3Dnone; Domain=.booking.com; Path=/; Expires=Sat, 18 Oct 2025 22:27:13 GMT; HttpOnly; Secure; SameSite=Lax
+Report-To: {"group":"default","endpoints":[{"url":"https://nellie.booking.com/report"}],"max_age":604800}
+Set-Cookie: bkng_sso_auth=CAIQsOnuTRpmgNTd9cMz501SV+GxKXUJkUNJXJM1A3cAtsSUkyjBH7yt+WfcBVexGAtAWNwMPU1nbe2V0u9DrIZZbd5eG323xVeYQTsDkI82YjA6ZZ28wiApvtBHeXqNZX57fdQuhxF2GeamcwPL; Domain=.booking.com; Path=/; Expires=Mon, 19 Oct 2026 04:22:02 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: pcm_consent=analytical%3Dtrue%26countryCode%3DUS%26consentId%3Dc8a5a328-e0db-4aff-9ef5-d8b354fd9368%26consentedAt%3D2024-10-19T04%3A22%3A02.760Z%26expiresAt%3D2025-04-17T04%3A22%3A02.760Z%26implicit%3Dtrue%26marketing%3Dtrue%26regionCode%3DVA%26regulation%3Dnone%26legacyRegulation%3Dnone; Domain=.booking.com; Path=/; Expires=Sun, 19 Oct 2025 04:22:02 GMT; HttpOnly; Secure; SameSite=Lax
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-X-Amz-Cf-Id: HKO_6CyjcqwIQ48iv9-MtXAW2cgMZrhZWMRAWXsS1WALfGmV2A2Dwg==
+X-Amz-Cf-Id: vKbk2fyBsw8T16xLNiEFtlJO9cWJukOZZRozZ3HMjVktw-wEGz6Aew==
 X-Amz-Cf-Pop: ATL59-P5
 X-Cache: Miss from cloudfront
 X-Terms-Of-Service: https://www.booking.com/content/terms.html
@@ -46,15 +46,15 @@ X-Xss-Protection: 1; mode=block
 
 HTTP/1.1 200 OK
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:14 GMT
-Via: 1.1 cc32f91d3d591d364f0c4e44eaf6525e.cloudfront.net (CloudFront)
+Date: Sat, 19 Oct 2024 04:22:03 GMT
+Via: 1.1 ce80e0edae9548001cb89cbc62cbb60c.cloudfront.net (CloudFront)
 Server: nginx
 Vary: Accept-Encoding, User-Agent
 Content-Language: en-us
-Content-Length: 614045
+Content-Length: 614047
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:27:14 GMT
-Client-Peer: 3.161.150.119:443
+Client-Date: Sat, 19 Oct 2024 04:22:03 GMT
+Client-Peer: 3.161.150.39:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
 Client-SSL-Cert-Subject: /C=NL/L=Amsterdam/O=Booking.com BV/CN=*.booking.com
@@ -74,13 +74,13 @@ Link: <https://cf.bstatic.com/static/css/xp-index-sb_cloudfront_sd.iq_ltr/5b5ab8
 Link: <https://cf.bstatic.com/static/css/searchresults_cloudfront_sd.iq_ltr/8e870047203d6cd86bba15557acf89bccc8a5e37.css>; data-defer-prefetch="data-defer-prefetch"; rel="_prefetch"
 Link: <https://cf.bstatic.com/static/css/incentives_cloudfront_sd.iq_ltr/f1558a6e9832a4eb8cfe1d3d14db176bd3564335.css>; media="screen"; rel="stylesheet"; type="text/css"
 Link: <https://cf.bstatic.com/static/css/index_cloudfront_sd.iq_ltr/8c4382cb776a747249815b8dfc6e41527a56143e.css>; rel="stylesheet"
-Link: <https://cf.bstatic.com/static/js/core-deps-inlinedet_cloudfront_sd/f62025e692b596dd53ecd1bd082dfd3197944c50.js>; as="script"; crossorigin="crossorigin"; nonce="k4W7pa6HLKBf5sm"; rel="preload"
-Link: <https://cf.bstatic.com/static/js/jquery_cloudfront_sd/e1e8c0e862309cb4caf3c0d5fbea48bfb8eaad42.js>; as="script"; crossorigin="crossorigin"; nonce="k4W7pa6HLKBf5sm"; rel="preload"
-Link: <https://cf.bstatic.com/static/js/main_cloudfront_sd/32da6122a5a3ca0f494c57851727cb29a05b4dac.js>; as="script"; crossorigin="crossorigin"; nonce="k4W7pa6HLKBf5sm"; rel="preload"
-Link: <https://cf.bstatic.com/static/js/index_cloudfront_sd/693a0892efdf573b00d83496327ad37b653d73d5.js>; as="script"; crossorigin="crossorigin"; nonce="k4W7pa6HLKBf5sm"; rel="preload"
-Link: <https://cf.bstatic.com/static/js/landingpage_cloudfront_sd/f1c8c212c0149249fef02a562a6669d167bc56bc.js>; as="script"; crossorigin="crossorigin"; nonce="k4W7pa6HLKBf5sm"; rel="preload"
-Link: <https://cf.bstatic.com/static/js/searchbox_cloudfront_sd/8c409b90db8d2ce96d4f48a8b2eca3f43a705428.js>; as="script"; crossorigin="crossorigin"; nonce="k4W7pa6HLKBf5sm"; rel="preload"
-Link: <https://cf.bstatic.com/static/js/error_catcher_bec_cloudfront_sd/0acd2ada6c74d5dec978a04ea837952bdf050cd2.js>; as="script"; crossorigin="crossorigin"; nonce="k4W7pa6HLKBf5sm"; rel="preload"
+Link: <https://cf.bstatic.com/static/js/core-deps-inlinedet_cloudfront_sd/f62025e692b596dd53ecd1bd082dfd3197944c50.js>; as="script"; crossorigin="crossorigin"; nonce="5YNaIAkEcUR5ZyC"; rel="preload"
+Link: <https://cf.bstatic.com/static/js/jquery_cloudfront_sd/e1e8c0e862309cb4caf3c0d5fbea48bfb8eaad42.js>; as="script"; crossorigin="crossorigin"; nonce="5YNaIAkEcUR5ZyC"; rel="preload"
+Link: <https://cf.bstatic.com/static/js/main_cloudfront_sd/32da6122a5a3ca0f494c57851727cb29a05b4dac.js>; as="script"; crossorigin="crossorigin"; nonce="5YNaIAkEcUR5ZyC"; rel="preload"
+Link: <https://cf.bstatic.com/static/js/index_cloudfront_sd/693a0892efdf573b00d83496327ad37b653d73d5.js>; as="script"; crossorigin="crossorigin"; nonce="5YNaIAkEcUR5ZyC"; rel="preload"
+Link: <https://cf.bstatic.com/static/js/landingpage_cloudfront_sd/f1c8c212c0149249fef02a562a6669d167bc56bc.js>; as="script"; crossorigin="crossorigin"; nonce="5YNaIAkEcUR5ZyC"; rel="preload"
+Link: <https://cf.bstatic.com/static/js/searchbox_cloudfront_sd/8c409b90db8d2ce96d4f48a8b2eca3f43a705428.js>; as="script"; crossorigin="crossorigin"; nonce="5YNaIAkEcUR5ZyC"; rel="preload"
+Link: <https://cf.bstatic.com/static/js/error_catcher_bec_cloudfront_sd/0acd2ada6c74d5dec978a04ea837952bdf050cd2.js>; as="script"; crossorigin="crossorigin"; nonce="5YNaIAkEcUR5ZyC"; rel="preload"
 Link: <https://www.booking.com/>; rel="canonical"
 Link: <https://www.booking.com/index.en-gb.html>; hreflang="en-gb"; rel="alternate"; title="English (UK)"; type="text/html"
 Link: <https://www.booking.com/>; hreflang="en-us"; rel="alternate"; title="English (US)"; type="text/html"
@@ -133,68 +133,68 @@ Link: <https://cf.bstatic.com/static/img/apple-touch-icon/5db9fd30d96b1796883ee9
 Link: </faq.html&>; rel="help"
 Link: <https://cf.bstatic.com/static/opensearch/en-us/e19e3ca297c466eb18e0b783736192a638f6a66e.xml>; rel="search"; title="Booking.com Online Hotel Reservations"; type="application/opensearchdescription+xml"
 Link: <https://plus.google.com/105443419075154950489>; rel="publisher"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_d79a0.2ff7cd2c.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_d79a0.2ff7cd2c.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_legacy_js.1eb73a85.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_legacy_js.1eb73a85.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_rentalcars_js.e60a54b2.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_rentalcars_js.e60a54b2.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_traveller_ex_js.b773e203.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_traveller_ex_js.b773e203.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_traveller_js.5b252ffa.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_traveller_js.5b252ffa.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_51bf0.a464c9b9.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_51bf0.a464c9b9.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_11250.9ac422c6.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_11250.9ac422c6.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_c2d80.72b904c5.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_c2d80.72b904c5.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_be420.2a2fce13.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_be420.2a2fce13.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_17370.3dfbfe82.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_17370.3dfbfe82.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_d5520.b8e12c71.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_d5520.b8e12c71.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_11660.8cc1b846.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_11660.8cc1b846.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_95d60.3a1aa59b.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_95d60.3a1aa59b.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_a2b30.068ffcef.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_a2b30.068ffcef.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/client.64248786.css>; data-chunk="client"; data-href="static/css/client.64248786.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/97a643cd.e13e8f91.chunk.css>; data-chunk="bIndexLpWebMfe-components-BHAwarenessBanner-BHAwarenessBanner"; data-href="static/css/97a643cd.e13e8f91.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/5638344d.16c64078.chunk.css>; data-chunk="bIndexLpWebMfe-components-DealsCarousel"; data-href="static/css/5638344d.16c64078.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/782ad794.d732ad79.chunk.css>; data-chunk="bIndexLpWebMfe-GenericCarouselComponent"; data-href="static/css/782ad794.d732ad79.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/ace575b5.c8354747.chunk.css>; data-chunk="bIndexLpWebMfe-components-DestinationPostcardsDesktop-DestinationPostcardsDesktop"; data-href="static/css/ace575b5.c8354747.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/f141039c.5350be6c.chunk.css>; data-chunk="bIndexLpWebMfe-components-FullWidthBannerDesktop-FullWidthBannerDesktop"; data-href="static/css/f141039c.5350be6c.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/9214bfa8.8127ec8f.chunk.css>; data-chunk="bIndexLpWebMfe-components-GeniusBenefitsCarousel"; data-href="static/css/9214bfa8.8127ec8f.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/f41dcaf5.54d7a8bb.chunk.css>; data-chunk="bIndexLpWebMfe-components-GeniusSignInBanner-GeniusSignInBanner"; data-href="static/css/f41dcaf5.54d7a8bb.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/6b631c3f.d822a629.chunk.css>; data-chunk="bIndexLpWebMfe-bookingcom-genius-credit-book-and-unlock-mfe-pages-GeniusVipCampaignsIndexBanner-GeniusVipCampaignsIndexBanner"; data-href="static/css/6b631c3f.d822a629.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/63bff8e9.64edf2e4.chunk.css>; data-chunk="bIndexLpWebMfe-components-GlobalAlerts"; data-href="static/css/63bff8e9.64edf2e4.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/59306dc3.3d70c561.chunk.css>; data-chunk="bIndexLpWebMfe-components-HeroBanner-HeroBannerDesktop"; data-href="static/css/59306dc3.3d70c561.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/5f127cf4.2da2e552.chunk.css>; data-chunk="bIndexLpWebMfe-components-HomesGuestsLoveCarousel"; data-href="static/css/5f127cf4.2da2e552.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/282e5b08.502990e8.chunk.css>; data-chunk="bIndexLpWebMfe-components-MerchCarousel-MerchCarouselIndexPage"; data-href="static/css/282e5b08.502990e8.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/5b1239aa.5fdad59a.chunk.css>; data-chunk="bIndexLpWebMfe-components-regions-PickUpWhereYouLeftOff"; data-href="static/css/5b1239aa.5fdad59a.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/2c6b580e.1ff36d44.chunk.css>; data-chunk="bIndexLpWebMfe-RecentlyViewedPropertiesCarouselAsync"; data-href="static/css/2c6b580e.1ff36d44.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/95a17449.1b3463f2.chunk.css>; data-chunk="bIndexLpWebMfe-components-RecentSearchesCarousel"; data-href="static/css/95a17449.1b3463f2.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/7943e0ea.8cd62311.chunk.css>; data-chunk="bIndexLpWebMfe-components-SecondaryBanner-SecondaryBannerDesktop"; data-href="static/css/7943e0ea.8cd62311.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/d8454389.898ef07f.chunk.css>; data-chunk="bIndexLpWebMfe-components-SimilarPropertiesCarousel"; data-href="static/css/d8454389.898ef07f.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/c8637181.b188bba0.chunk.css>; data-chunk="bIndexLpWebMfe-components-TripTypesCarousel"; data-href="static/css/c8637181.b188bba0.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/ce4afa91.b6efbf37.chunk.css>; data-chunk="bIndexLpWebMfe-components-UniqueSellingPoints"; data-href="static/css/ce4afa91.b6efbf37.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/d9560671.77aad6c3.chunk.css>; data-chunk="bIndexLpWebMfe-components-UniqueStaysProperties"; data-href="static/css/d9560671.77aad6c3.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"
-Link: <https://cf.bstatic.com/psb/capla/static/css/b9a82cb8.d890a602.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-GlobalAlerts"; data-href="static/css/b9a82cb8.d890a602.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/cf2b0303.4e70912d.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-GlobalAssets"; data-href="static/css/cf2b0303.4e70912d.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/81da5f32.58b86b99.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-AccommodationFooter"; data-href="static/css/81da5f32.58b86b99.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/dc32f6b7.d923a7ae.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-AccommodationHeader"; data-href="static/css/dc32f6b7.d923a7ae.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/18cad957.59e15d61.chunk.css>; data-chunk="bNativeDisplayAdsNdisplayAdComponent-bNativeDisplayAdsNdisplayAdComponent-IndexPrimaryAd"; data-href="static/css/18cad957.59e15d61.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/8067d7e4.59e15d61.chunk.css>; data-chunk="bNativeDisplayAdsNdisplayAdComponent-bNativeDisplayAdsNdisplayAdComponent-IndexSecondaryAd"; data-href="static/css/8067d7e4.59e15d61.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/09fb2abd.d5c0a0f8.chunk.css>; data-chunk="bGeniusVipWebComponentService-bGeniusVipWebComponentService-GeniusVipVoucherSheet"; data-href="static/css/09fb2abd.d5c0a0f8.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/da3d7717.e2aabab3.chunk.css>; data-chunk="bGeniusWebComponentService-bGeniusWebComponentService-GeniusBenefitsCarouselAccomodationsIndex"; data-href="static/css/da3d7717.e2aabab3.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/3c29a897.9cfd77df.chunk.css>; data-chunk="bGeniusWebComponentService-bGeniusWebComponentService-GeniusSignInSheetIndex"; data-href="static/css/3c29a897.9cfd77df.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/0d919837.e19db1b4.chunk.css>; data-chunk="bSearchWebSearchboxComponentService-bSearchWebSearchboxComponentService-SearchBoxDesktopHorizontal"; data-href="static/css/0d919837.e19db1b4.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/27bbaa9c.efefaf03.chunk.css>; data-chunk="bWebcorePromotionalComponentService-bWebcorePromotionalComponentService-LaunchSheetAccommodationsIndex"; data-href="static/css/27bbaa9c.efefaf03.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Link: <https://cf.bstatic.com/psb/capla/static/css/7e8161ba.289b09a9.chunk.css>; data-chunk="bMarketingRewardsUiWebComponentService-bMarketingRewardsUiWebComponentService-RewardsFunnelBannerAndLandSheet"; data-href="static/css/7e8161ba.289b09a9.chunk.css"; nonce="k4W7pa6HLKBf5sm"; rel="stylesheet"; type="text/css"
-Nel: {"report_to":"default","max_age":604800}
-Report-To: {"endpoints":[{"url":"https://nellie.booking.com/report"}],"group":"default","max_age":604800}
-Set-Cookie: _implmdnbl=2__1__0; path=/; expires=Sun, 20-Oct-2019 22:27:14 GMT; HttpOnly
-Set-Cookie: px_init=0; domain=booking.com; expires=Thu, 05-Oct-2079 20:54:28 GMT; SameSite=Strict; secure; HttpOnly
-Set-Cookie: bkng=11UmFuZG9tSVYkc2RlIyh9Yaa29%2F3xUOLbiKbS0JOgDBJw8XIMldquRgfdIFRVRvtm0h%2BS1znpITOINkUwb0lpmqy2jD7xl8yyEjrcywI4eMOjCvCvyrzQGtA7cf%2BNpT14MbIKS%2BGEk9thmWiVg%2BGv9ZzofH%2BOdzQDArKXUVQhWPK%2FlqJE4thL4bg5xSesKkPO; domain=.booking.com; path=/; expires=Wed, 17-Oct-2029 22:27:14 GMT; Secure; HTTPOnly; SameSite=None
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_d79a0.2ff7cd2c.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_d79a0.2ff7cd2c.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_legacy_js.1eb73a85.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_legacy_js.1eb73a85.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_rentalcars_js.e60a54b2.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_rentalcars_js.e60a54b2.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_traveller_ex_js.b773e203.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_traveller_ex_js.b773e203.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_themes_traveller_js.5b252ffa.css>; data-href="static/css/node_modules_bookingcom_bui-react_themes_traveller_js.5b252ffa.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_51bf0.a464c9b9.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_51bf0.a464c9b9.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_11250.9ac422c6.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_11250.9ac422c6.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_c2d80.72b904c5.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_c2d80.72b904c5.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_be420.2a2fce13.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_be420.2a2fce13.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_17370.3dfbfe82.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_17370.3dfbfe82.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_d5520.b8e12c71.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_d5520.b8e12c71.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_11660.8cc1b846.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_11660.8cc1b846.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_95d60.3a1aa59b.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_95d60.3a1aa59b.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/node_modules_bookingcom_bui-react_index_js-_a2b30.068ffcef.css>; data-href="static/css/node_modules_bookingcom_bui-react_index_js-_a2b30.068ffcef.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/client.64248786.css>; data-chunk="client"; data-href="static/css/client.64248786.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/97a643cd.e13e8f91.chunk.css>; data-chunk="bIndexLpWebMfe-components-BHAwarenessBanner-BHAwarenessBanner"; data-href="static/css/97a643cd.e13e8f91.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/5638344d.16c64078.chunk.css>; data-chunk="bIndexLpWebMfe-components-DealsCarousel"; data-href="static/css/5638344d.16c64078.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/782ad794.d732ad79.chunk.css>; data-chunk="bIndexLpWebMfe-GenericCarouselComponent"; data-href="static/css/782ad794.d732ad79.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/ace575b5.c8354747.chunk.css>; data-chunk="bIndexLpWebMfe-components-DestinationPostcardsDesktop-DestinationPostcardsDesktop"; data-href="static/css/ace575b5.c8354747.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/f141039c.5350be6c.chunk.css>; data-chunk="bIndexLpWebMfe-components-FullWidthBannerDesktop-FullWidthBannerDesktop"; data-href="static/css/f141039c.5350be6c.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/9214bfa8.8127ec8f.chunk.css>; data-chunk="bIndexLpWebMfe-components-GeniusBenefitsCarousel"; data-href="static/css/9214bfa8.8127ec8f.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/f41dcaf5.54d7a8bb.chunk.css>; data-chunk="bIndexLpWebMfe-components-GeniusSignInBanner-GeniusSignInBanner"; data-href="static/css/f41dcaf5.54d7a8bb.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/6b631c3f.d822a629.chunk.css>; data-chunk="bIndexLpWebMfe-bookingcom-genius-credit-book-and-unlock-mfe-pages-GeniusVipCampaignsIndexBanner-GeniusVipCampaignsIndexBanner"; data-href="static/css/6b631c3f.d822a629.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/63bff8e9.64edf2e4.chunk.css>; data-chunk="bIndexLpWebMfe-components-GlobalAlerts"; data-href="static/css/63bff8e9.64edf2e4.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/59306dc3.3d70c561.chunk.css>; data-chunk="bIndexLpWebMfe-components-HeroBanner-HeroBannerDesktop"; data-href="static/css/59306dc3.3d70c561.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/5f127cf4.2da2e552.chunk.css>; data-chunk="bIndexLpWebMfe-components-HomesGuestsLoveCarousel"; data-href="static/css/5f127cf4.2da2e552.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/282e5b08.502990e8.chunk.css>; data-chunk="bIndexLpWebMfe-components-MerchCarousel-MerchCarouselIndexPage"; data-href="static/css/282e5b08.502990e8.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/5b1239aa.5fdad59a.chunk.css>; data-chunk="bIndexLpWebMfe-components-regions-PickUpWhereYouLeftOff"; data-href="static/css/5b1239aa.5fdad59a.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/2c6b580e.1ff36d44.chunk.css>; data-chunk="bIndexLpWebMfe-RecentlyViewedPropertiesCarouselAsync"; data-href="static/css/2c6b580e.1ff36d44.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/95a17449.1b3463f2.chunk.css>; data-chunk="bIndexLpWebMfe-components-RecentSearchesCarousel"; data-href="static/css/95a17449.1b3463f2.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/7943e0ea.8cd62311.chunk.css>; data-chunk="bIndexLpWebMfe-components-SecondaryBanner-SecondaryBannerDesktop"; data-href="static/css/7943e0ea.8cd62311.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/d8454389.898ef07f.chunk.css>; data-chunk="bIndexLpWebMfe-components-SimilarPropertiesCarousel"; data-href="static/css/d8454389.898ef07f.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/c8637181.b188bba0.chunk.css>; data-chunk="bIndexLpWebMfe-components-TripTypesCarousel"; data-href="static/css/c8637181.b188bba0.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/ce4afa91.b6efbf37.chunk.css>; data-chunk="bIndexLpWebMfe-components-UniqueSellingPoints"; data-href="static/css/ce4afa91.b6efbf37.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/d9560671.77aad6c3.chunk.css>; data-chunk="bIndexLpWebMfe-components-UniqueStaysProperties"; data-href="static/css/d9560671.77aad6c3.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"
+Link: <https://cf.bstatic.com/psb/capla/static/css/b9a82cb8.d890a602.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-GlobalAlerts"; data-href="static/css/b9a82cb8.d890a602.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/cf2b0303.4e70912d.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-GlobalAssets"; data-href="static/css/cf2b0303.4e70912d.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/81da5f32.58b86b99.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-AccommodationFooter"; data-href="static/css/81da5f32.58b86b99.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/dc32f6b7.d923a7ae.chunk.css>; data-chunk="bWebShellComponents-bWebShellComponents-AccommodationHeader"; data-href="static/css/dc32f6b7.d923a7ae.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/18cad957.59e15d61.chunk.css>; data-chunk="bNativeDisplayAdsNdisplayAdComponent-bNativeDisplayAdsNdisplayAdComponent-IndexPrimaryAd"; data-href="static/css/18cad957.59e15d61.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/8067d7e4.59e15d61.chunk.css>; data-chunk="bNativeDisplayAdsNdisplayAdComponent-bNativeDisplayAdsNdisplayAdComponent-IndexSecondaryAd"; data-href="static/css/8067d7e4.59e15d61.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/09fb2abd.d5c0a0f8.chunk.css>; data-chunk="bGeniusVipWebComponentService-bGeniusVipWebComponentService-GeniusVipVoucherSheet"; data-href="static/css/09fb2abd.d5c0a0f8.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/da3d7717.e2aabab3.chunk.css>; data-chunk="bGeniusWebComponentService-bGeniusWebComponentService-GeniusBenefitsCarouselAccomodationsIndex"; data-href="static/css/da3d7717.e2aabab3.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/3c29a897.9cfd77df.chunk.css>; data-chunk="bGeniusWebComponentService-bGeniusWebComponentService-GeniusSignInSheetIndex"; data-href="static/css/3c29a897.9cfd77df.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/0d919837.e19db1b4.chunk.css>; data-chunk="bSearchWebSearchboxComponentService-bSearchWebSearchboxComponentService-SearchBoxDesktopHorizontal"; data-href="static/css/0d919837.e19db1b4.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/27bbaa9c.efefaf03.chunk.css>; data-chunk="bWebcorePromotionalComponentService-bWebcorePromotionalComponentService-LaunchSheetAccommodationsIndex"; data-href="static/css/27bbaa9c.efefaf03.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Link: <https://cf.bstatic.com/psb/capla/static/css/7e8161ba.289b09a9.chunk.css>; data-chunk="bMarketingRewardsUiWebComponentService-bMarketingRewardsUiWebComponentService-RewardsFunnelBannerAndLandSheet"; data-href="static/css/7e8161ba.289b09a9.chunk.css"; nonce="5YNaIAkEcUR5ZyC"; rel="stylesheet"; type="text/css"
+Nel: {"max_age":604800,"report_to":"default"}
+Report-To: {"group":"default","endpoints":[{"url":"https://nellie.booking.com/report"}],"max_age":604800}
+Set-Cookie: _implmdnbl=2__1__0; path=/; expires=Mon, 21-Oct-2019 04:22:03 GMT; HttpOnly
+Set-Cookie: px_init=0; domain=booking.com; expires=Fri, 06-Oct-2079 08:44:06 GMT; SameSite=Strict; secure; HttpOnly
+Set-Cookie: bkng=11UmFuZG9tSVYkc2RlIyh9Yaa29%2F3xUOLbbmD9q%2B5pe3V%2BnUrF3U0v0upi5zhASiESMs5UbtTy%2FEwRcyvuCyPEemhej2Yf9UxxwsnyQt1sbtQtCnRHYB6vvYrV3Oc1XsskzznD%2FQ5lRWW5T9dzW1zYaA9hNdHbKarB33vCw0IVRJmpvK5PT%2BOUECpJgi5jZtMQAUecVkzKT6E%3D; domain=.booking.com; path=/; expires=Thu, 18-Oct-2029 04:22:03 GMT; Secure; HTTPOnly; SameSite=None
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Title: Booking.com | Official site | The best hotels, flights, car rentals & accommodations
 Window-Target: _top
-X-Amz-Cf-Id: -tBBGsVnrLuW5VsdhwE6bMrVaZ_2HL5h5suJfjkv7OiDAAWRum29wg==
+X-Amz-Cf-Id: p8RaIdyyrKPznTGMojQ74ZH8YekRh6bKfoqVvR8pmN3XKAGSiti_qg==
 X-Amz-Cf-Pop: ATL59-P5
 X-Cache: Miss from cloudfront
 X-Content-Type-Options: nosniff
 X-Meta-360-Site-Verification: 2e8c87fed403eba0443b3593b6e00448
 X-Meta-Baidu-Site-Verification: dLVQ5IDjl8
-X-Meta-Booking-Verification: cXl9WWd6BPmz2W7rwmeqvKqPAjJh1n_aAnReCjkQM2xJvXQfzNLJyF-z20xoOGQjYAAO0rp7bxSETUuSbI0JHbM03tUzUgepzRGWR4TdfV5fd049kc_s9-Nksc5vCpsaJrDy2WG84S1WPUq4gGUtPz5Bb2nOKBcdXkuyunZxAubEJ7BpSs9l4g7Q9ga2kL1D12nD63kkrJiQ4d13WQlgPT3AZbtlRyjVMHplOlo7rz-at2EdsRSkiqPsXTXehcC8ifIi8lOi9oVeIxzVoO9beievFzN0wcChr9Ur9CwxTugWZ8b5AgVytA
+X-Meta-Booking-Verification: xCHQ8Pe0Sg22VuJit5nu2-nt7YXh73SlTjkP9v87am2d2LlUHrgj7jAkIXRwHv-IOLbdfC6zRu1RYOvwEUcTFtuNNWl37h64H_RSZJvKWrV6zHZzuVwfluu_fMLpXJb_gHq1OIaZb8C9Lrk2pkrZvxg4CHXxnkIw_udX4cwHAxtYoXbRVumprtn8r2d5FT9UJEzXWpfse-Blkb8L-kt60O6M9ou7idUoXT2AqAtdQWc9wP6sl20GnlbX83qqgN52bXBBS7EnChdg9ynzt4S2OGAmv4ShuWlR9JJiDCPmtVyYLiNwmyLyfw
 X-Meta-Description: Explore the world with Booking.com. Big savings on homes, hotels, flights, car rentals, taxis, and attractions – build your perfect trip on any budget.
 X-Meta-Google-Site-Verification: hBGbQDv6qfAgPY0P53tkv7KEIxjnDsju75ScOsASHm8
 X-Meta-Google-Site-Verification: FnQUGgarokGZOLL7XCJR4hCITq2LlfCYk5F-2Th-Pgg

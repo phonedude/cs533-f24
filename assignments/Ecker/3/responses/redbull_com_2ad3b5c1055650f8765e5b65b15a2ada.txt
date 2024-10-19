@@ -1,21 +1,21 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Date: Sat, 19 Oct 2024 04:22:35 GMT
 Location: https://www.redbull.com/
 Server: AkamaiGHost
 Content-Length: 0
-Client-Date: Fri, 18 Oct 2024 22:27:46 GMT
-Client-Peer: 184.25.113.140:80
+Client-Date: Sat, 19 Oct 2024 04:22:34 GMT
+Client-Peer: 23.207.202.16:80
 Client-Response-Num: 1
 
 
 HTTP/1.1 302 Moved Temporarily
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Date: Sat, 19 Oct 2024 04:22:35 GMT
 Location: https://www.redbull.com/us-en
 Server: AkamaiGHost
 Content-Length: 0
-Client-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:35 GMT
 Client-Peer: 23.38.126.18:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Organization Validation Secure Server CA
@@ -32,11 +32,11 @@ HTTP/1.1 200 OK
 Cache-Control: public, max-age=600
 Connection: close
 Connection: Transfer-Encoding
-Date: Fri, 18 Oct 2024 22:27:46 GMT
-ETag: W/"bf0b3-pJ+jZN0VIeA+rWlrQ7Qoo/YcL98"
+Date: Sat, 19 Oct 2024 04:22:35 GMT
+ETag: W/"bf0b3-7q24+qBW0iQ9rX0sMlH07LR/NpM"
 Content-Type: text/html; charset=utf-8
 Application-Name: consumer-app
-Client-Date: Fri, 18 Oct 2024 22:27:47 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:35 GMT
 Client-Peer: 23.38.126.18:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Organization Validation Secure Server CA

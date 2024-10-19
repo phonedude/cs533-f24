@@ -3,7 +3,7 @@ Connection: close
 Location: https://www.nih.gov/
 Server: BigIP
 Content-Length: 0
-Client-Date: Fri, 18 Oct 2024 22:27:43 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:31 GMT
 Client-Peer: 156.40.212.210:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
@@ -19,16 +19,16 @@ HTTP/1.1 200 OK
 Cache-Control: max-age=0, no-cache, no-store
 Connection: close
 Connection: Transfer-Encoding
-Date: Fri, 18 Oct 2024 22:27:43 GMT
+Date: Sat, 19 Oct 2024 04:22:32 GMT
 Pragma: no-cache
-ETag: "1729283795-1"
+ETag: "1729306222-1"
 Content-Language: en
 Content-Type: text/html; charset=utf-8
-Expires: Fri, 18 Oct 2024 22:27:43 GMT
-Last-Modified: Fri, 18 Oct 2024 20:36:35 GMT
+Expires: Sat, 19 Oct 2024 04:22:32 GMT
+Last-Modified: Sat, 19 Oct 2024 02:50:22 GMT
 Cleartype: on
-Client-Date: Fri, 18 Oct 2024 22:27:43 GMT
-Client-Peer: 23.205.106.75:443
+Client-Date: Sat, 19 Oct 2024 04:22:31 GMT
+Client-Peer: 23.48.203.113:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
 Client-SSL-Cert-Subject: /CN=www.nih.gov
@@ -41,9 +41,9 @@ Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' '
 Link: <https://www.nih.gov/>; rel="canonical",<https://www.nih.gov/>; rel="shortlink"
 Strict-Transport-Security: max-age=31536000
 Title: National Institutes of Health (NIH) | Turning Discovery Into Health
-X-Age: 3681
+X-Age: 3370
 X-AH-Environment: prod
-X-Cache-Hits: 3051
+X-Cache-Hits: 3357
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: HIT
 X-Frame-Options: SAMEORIGIN
@@ -62,7 +62,7 @@ X-Meta-Twitter-Description: Official website of the National Institutes of Healt
 X-Meta-Twitter-Title: National Institutes of Health (NIH)
 X-Meta-Twitter-Url: https://www.nih.gov/
 X-Meta-Viewport: width=device-width, initial-scale=1.0
-X-Request-ID: v-9f079b34-8d97-11ef-8501-038d3428a14d
+X-Request-ID: v-e95117c4-8dc9-11ef-b2a6-b7f1e02d4d05
 X-UA-Compatible: IE=edge,chrome=IE6
 X-XSS-Protection: 1; mode=block
 

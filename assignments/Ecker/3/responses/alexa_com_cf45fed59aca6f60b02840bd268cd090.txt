@@ -1,24 +1,24 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:06 GMT
+Date: Sat, 19 Oct 2024 04:21:54 GMT
 Location: https://alexa.com:443/
 Server: awselb/2.0
 Content-Length: 134
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:06 GMT
-Client-Peer: 23.22.17.172:80
+Client-Date: Sat, 19 Oct 2024 04:21:54 GMT
+Client-Peer: 44.199.147.157:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
 
 
 HTTP/1.1 200 OK
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:06 GMT
+Date: Sat, 19 Oct 2024 04:21:55 GMT
 Server: awselb/2.0
 Content-Length: 6779
 Content-Type: text/html; charset=utf-8
-Client-Date: Fri, 18 Oct 2024 22:27:06 GMT
-Client-Peer: 34.228.173.138:443
+Client-Date: Sat, 19 Oct 2024 04:21:54 GMT
+Client-Peer: 23.22.17.172:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
 Client-SSL-Cert-Subject: /CN=alexa.com

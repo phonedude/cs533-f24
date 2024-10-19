@@ -3,7 +3,7 @@ Connection: close
 Location: https://ja.wikipedia.org/
 Server: HAProxy
 Content-Length: 0
-Client-Date: Fri, 18 Oct 2024 22:27:30 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:18 GMT
 Client-Peer: 208.80.154.224:80
 Client-Response-Num: 1
 X-Cache: cp1104 int
@@ -13,15 +13,15 @@ X-Cache-Status: int-tls
 HTTP/1.1 301 Moved Permanently
 Cache-Control: s-maxage=1200, must-revalidate, max-age=0
 Connection: close
-Date: Fri, 18 Oct 2024 22:22:38 GMT
-Age: 291
+Date: Sat, 19 Oct 2024 04:09:52 GMT
+Age: 746
 Location: https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8
-Server: mw-web.eqiad.main-685877499b-bs9cz
+Server: mw-web.eqiad.main-685877499b-srsgl
 Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
 Content-Length: 0
 Content-Type: text/html; charset=UTF-8
-Last-Modified: Fri, 18 Oct 2024 22:22:38 GMT
-Client-Date: Fri, 18 Oct 2024 22:27:30 GMT
+Last-Modified: Sat, 19 Oct 2024 04:09:52 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:18 GMT
 Client-Peer: 208.80.154.224:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
@@ -33,12 +33,12 @@ Client-SSL-Warning: Peer certificate not verified
 Nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
 Report-To: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
 Server-Timing: cache;desc="hit-front", host;desc="cp1110"
-Set-Cookie: WMF-Last-Access=18-Oct-2024;Path=/;HttpOnly;secure;Expires=Tue, 19 Nov 2024 12:00:00 GMT
-Set-Cookie: WMF-Last-Access-Global=18-Oct-2024;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue, 19 Nov 2024 12:00:00 GMT
+Set-Cookie: WMF-Last-Access=19-Oct-2024;Path=/;HttpOnly;secure;Expires=Wed, 20 Nov 2024 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=19-Oct-2024;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed, 20 Nov 2024 00:00:00 GMT
 Set-Cookie: GeoIP=US:VA:Hampton:37.05:-76.34:v4; Path=/; secure; Domain=.wikipedia.org
 Set-Cookie: NetworkProbeLimit=0.001;Path=/;Secure;SameSite=Lax;Max-Age=3600
 Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
-X-Cache: cp1110 miss, cp1110 hit/15
+X-Cache: cp1110 miss, cp1110 hit/62
 X-Cache-Status: hit-front
 X-Client-Ip: 24.254.225.47
 X-Content-Type-Options: nosniff
@@ -47,17 +47,17 @@ X-Content-Type-Options: nosniff
 HTTP/1.1 200 OK
 Cache-Control: private, s-maxage=0, max-age=0, must-revalidate, no-transform
 Connection: close
-Date: Fri, 18 Oct 2024 16:04:53 GMT
+Date: Sat, 19 Oct 2024 03:54:52 GMT
 Accept-Ranges: bytes
-Age: 22957
-Server: mw-web.eqiad.main-685877499b-wprrt
+Age: 1645
+Server: mw-web.eqiad.main-685877499b-t6pj2
 Vary: Accept-Encoding,Cookie,Authorization
 Content-Language: ja
 Content-Length: 128896
 Content-Type: text/html; charset=UTF-8
-Last-Modified: Fri, 18 Oct 2024 16:04:50 GMT
+Last-Modified: Sat, 19 Oct 2024 03:54:49 GMT
 Accept-Ch: 
-Client-Date: Fri, 18 Oct 2024 22:27:30 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:18 GMT
 Client-Peer: 208.80.154.224:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
@@ -84,10 +84,10 @@ Link: <//login.wikimedia.org>; rel="dns-prefetch"
 Nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
 Report-To: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
 Server-Timing: cache;desc="hit-front", host;desc="cp1110"
-Set-Cookie: WMF-DP=629;Path=/;HttpOnly;secure;Expires=Sat, 19 Oct 2024 00:00:00 GMT
+Set-Cookie: WMF-DP=205;Path=/;HttpOnly;secure;Expires=Sat, 19 Oct 2024 00:00:00 GMT
 Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
 Title: Wikipedia
-X-Cache: cp1110 miss, cp1110 hit/1460
+X-Cache: cp1110 miss, cp1110 hit/111
 X-Cache-Status: hit-front
 X-Client-Ip: 24.254.225.47
 X-Content-Type-Options: nosniff

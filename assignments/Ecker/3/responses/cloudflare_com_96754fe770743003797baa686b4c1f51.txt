@@ -1,15 +1,15 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: max-age=3600
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:15 GMT
+Date: Sat, 19 Oct 2024 04:22:05 GMT
 Location: https://www.cloudflare.com/
 Server: cloudflare
 Content-Length: 167
 Content-Type: text/html
-Expires: Fri, 18 Oct 2024 23:27:15 GMT
+Expires: Sat, 19 Oct 2024 05:22:05 GMT
 Alt-Svc: h3=":443"; ma=86400
-CF-RAY: 8d4bf4681ca50626-IAD
-Client-Date: Fri, 18 Oct 2024 22:27:15 GMT
+CF-RAY: 8d4dfc295e0e505b-ORF
+Client-Date: Sat, 19 Oct 2024 04:22:04 GMT
 Client-Peer: 104.16.133.229:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WE1
@@ -19,7 +19,7 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Mzw6vG%2B01FW7VFj%2FgHAh4%2Bemf1LFv0%2BGCYeJ1Nrjrgc1g8709ZqpWFVpD3xrS%2BZH3L09Ns%2Bd9ElFfqptK8LFSnuYNov9VR9BN8X3ZvXLr%2F%2FnSjNeyXM6i7wHn7iKrRCy"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Hg6ryX4lKUSOo4XHNre4v81lTLRMii43jcuYkJGf710xO%2FN0l0m3E%2F3gbvc5N4CmTL3enQ0O0xF9Hk2AfU7%2BzruHG6Dm%2F7q4vF%2BMqcxBNE7AoN0Gq3%2FOBzH8knL%2B7WIy"}],"group":"cf-nel","max_age":604800}
 Strict-Transport-Security: max-age=15780000; includeSubDomains
 Title: 301 Moved Permanently
 
@@ -27,14 +27,14 @@ Title: 301 Moved Permanently
 HTTP/1.1 403 Forbidden
 Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:15 GMT
+Date: Sat, 19 Oct 2024 04:22:05 GMT
 Server: cloudflare
 Content-Length: 16
 Content-Type: text/plain; charset=UTF-8
 Expires: Thu, 01 Jan 1970 00:00:01 GMT
 Alt-Svc: h3=":443"; ma=86400
-CF-RAY: 8d4bf468a80e05f1-IAD
-Client-Date: Fri, 18 Oct 2024 22:27:16 GMT
+CF-RAY: 8d4dfc29dbe74fd5-ORF
+Client-Date: Sat, 19 Oct 2024 04:22:04 GMT
 Client-Peer: 104.16.123.96:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WE1
@@ -45,7 +45,7 @@ Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: same-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=7j9Jv6pbkEnVNEnI3ltfMYfVdL1fSCP7db1uQN5A9uN715s7ZMRq4Fg%2F%2F5SazqeHkyeCqxWt1p3d6oEUl08XdEWxMKX3h5lW9M0WLVubDd0w5KZQCRb89Hn8NlKxsM%2FPyFFHvw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=b7BX6NoT%2ByyVA6vB3lWHWus%2BQbZjJc0fhqtiatvdTWNk%2FgTY5pEqLOogI%2BVL8ngfe07pqcaXDOET7gsGFEgJu%2B4tO2eA1U4VBRyp6jy5TX0qky0gZ8YpfC3aOEU0c6Z0F2pQhQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 X-Frame-Options: SAMEORIGIN
 
 

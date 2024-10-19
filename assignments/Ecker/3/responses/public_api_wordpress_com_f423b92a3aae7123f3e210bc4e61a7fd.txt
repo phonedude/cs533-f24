@@ -1,13 +1,13 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:45 GMT
+Date: Sat, 19 Oct 2024 04:22:34 GMT
 Location: https://public-api.wordpress.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:45 GMT
-Client-Peer: 192.0.78.22:80
+Client-Date: Sat, 19 Oct 2024 04:22:34 GMT
+Client-Peer: 192.0.78.23:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
 X-Ac: 2.dca _dca BYPASS
@@ -15,12 +15,12 @@ X-Ac: 2.dca _dca BYPASS
 
 HTTP/1.1 302 Found
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Date: Sat, 19 Oct 2024 04:22:34 GMT
 Location: https://developer.wordpress.com/docs/api/
 Server: nginx
 Content-Type: text/html; charset=utf-8
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:34 GMT
 Client-Peer: 192.0.78.22:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Domain Validation Secure Server CA
@@ -35,16 +35,16 @@ X-Ac: 2.dca _dca BYPASS
 
 
 HTTP/1.1 200 OK
-Cache-Control: max-age=85, must-revalidate
+Cache-Control: max-age=300, must-revalidate
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Date: Sat, 19 Oct 2024 04:22:35 GMT
 Server: nginx
 Vary: Accept-Encoding
 Vary: accept, content-type, cookie
 Content-Type: text/html; charset=UTF-8
-Last-Modified: Fri, 18 Oct 2024 22:16:29 GMT
+Last-Modified: Sat, 19 Oct 2024 04:01:32 GMT
 Alt-Svc: h3=":443"; ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:46 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:34 GMT
 Client-Peer: 192.0.78.13:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Domain Validation Secure Server CA
@@ -58,7 +58,7 @@ Host-Header: WordPress.com
 Link: <https://wp.me/p2gHKz-pRl>; rel=shortlink
 Strict-Transport-Security: max-age=31536000
 Title: REST API – WordPress.com Developer Resources
-X-Ac: 5.dca _dca STALE
+X-Ac: 1.dca _dca STALE
 X-Frame-Options: SAMEORIGIN
 X-Hacker: Want root?  Visit join.a8c.com/hacker and mention this header.
 X-Meta-Application-Name: WordPress.com Developer Resources
@@ -80,6 +80,6 @@ X-Meta-Twitter-Image: https://developer.wordpress.com/wp-content/uploads/2024/02
 X-Meta-Twitter-Site: @AutomatticEng
 X-Meta-Twitter-Text-Title: REST API
 X-Meta-Viewport: width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1
-X-Nananana: Batcache-Hit
+X-Nananana: Batcache-Set
 
 

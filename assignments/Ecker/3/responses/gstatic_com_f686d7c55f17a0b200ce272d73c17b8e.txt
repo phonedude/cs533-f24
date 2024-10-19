@@ -1,15 +1,16 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: public, max-age=1800
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:27 GMT
+Date: Sat, 19 Oct 2024 03:52:16 GMT
+Age: 1799
 Location: https://www.gstatic.com/
 Server: sffe
 Content-Length: 221
 Content-Type: text/html; charset=UTF-8
-Expires: Fri, 18 Oct 2024 22:57:27 GMT
+Expires: Sat, 19 Oct 2024 04:22:16 GMT
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Fri, 18 Oct 2024 22:27:27 GMT
-Client-Peer: 172.253.122.94:443
+Client-Date: Sat, 19 Oct 2024 04:22:15 GMT
+Client-Peer: 142.251.179.94:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=*.gstatic.com
@@ -25,13 +26,13 @@ X-XSS-Protection: 0
 
 HTTP/1.1 404 Not Found
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:27 GMT
+Date: Sat, 19 Oct 2024 04:22:16 GMT
 Server: sffe
 Content-Length: 1561
 Content-Type: text/html; charset=UTF-8
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Fri, 18 Oct 2024 22:27:27 GMT
-Client-Peer: 142.251.111.94:443
+Client-Date: Sat, 19 Oct 2024 04:22:15 GMT
+Client-Peer: 172.253.122.94:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=*.gstatic.com

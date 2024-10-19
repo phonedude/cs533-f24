@@ -1,31 +1,31 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:25 GMT
-Via: 1.1 19d96a0349f0cb1e8ce2a663e4018302.cloudfront.net (CloudFront)
+Date: Sat, 19 Oct 2024 04:22:14 GMT
+Via: 1.1 49e18f9ee95b9f6208f9b4b975fc96b8.cloudfront.net (CloudFront)
 Location: https://gofundme.com:443/
 Server: awselb/2.0
 Content-Length: 134
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:25 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:13 GMT
 Client-Peer: 143.204.29.23:80
 Client-Response-Num: 1
-Set-Cookie: gdid=6a617819-153a-4304-913c-1e30bb1552e7; path=/; domain=gofundme.com
+Set-Cookie: gdid=ae930e19-ca8b-4dd7-abc4-93c2193341f8; path=/; domain=gofundme.com
 Title: 301 Moved Permanently
-X-Amz-Cf-Id: B49fjVl3PPSgpBq_KAZC1b12Z0nL4rpEM2HBMxtvjexwu7aSN1juag==
+X-Amz-Cf-Id: xBLgUbXA5ZscvCs9Crdemj_f5L-zZWdzztSPzqOxjrDANNhs7bGp7w==
 X-Amz-Cf-Pop: ATL58-P10
 X-Cache: Miss from cloudfront
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:25 GMT
-Via: 1.1 ef558f0f41db627a73ea7bc1c54668ac.cloudfront.net (CloudFront)
+Date: Sat, 19 Oct 2024 04:22:14 GMT
+Via: 1.1 5fa83635f379eeac1d193f761915016a.cloudfront.net (CloudFront)
 Location: https://www.gofundme.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:25 GMT
-Client-Peer: 143.204.29.65:443
+Client-Date: Sat, 19 Oct 2024 04:22:13 GMT
+Client-Peer: 143.204.29.23:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
 Client-SSL-Cert-Subject: /CN=*.gofundme.com
@@ -36,7 +36,7 @@ Client-SSL-Warning: Peer certificate not verified
 Content-Security-Policy-Report-Only: frame-ancestors gofundme.com *.gofundme.com *.hopin.com;
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Title: 301 Moved Permanently
-X-Amz-Cf-Id: VcTvifDaZGH4RDKnZKUceeb3P2aYKTEGprm1O6V4WSJufrNUktg82A==
+X-Amz-Cf-Id: YWhgq9TlEAN76-x-4pS0c9uhDRoPE6CBU-r3PKkWBZXHBD_3w_1tRw==
 X-Amz-Cf-Pop: ATL58-P10
 X-Cache: Miss from cloudfront
 
@@ -44,16 +44,16 @@ X-Cache: Miss from cloudfront
 HTTP/1.1 200 OK
 Cache-Control: max-age=120, s-maxage=120, stale-while-revalidate=3600, stale-if-error=86400
 Connection: close
-Date: Fri, 18 Oct 2024 22:25:18 GMT
-Via: 1.1 71f3e6f8dae4b1fa91452d68c6528350.cloudfront.net (CloudFront)
-Age: 127
-ETag: "wp9wfn9dlixxhf"
+Date: Sat, 19 Oct 2024 04:19:34 GMT
+Via: 1.1 07f9cc43741cc99038a876e32f6cb950.cloudfront.net (CloudFront)
+Age: 160
+ETag: "13qcvnul1sqxxhf"
 Server: nginx
 Vary: Accept-Encoding
 Content-Length: 1584528
 Content-Type: text/html; charset=utf-8
-Client-Date: Fri, 18 Oct 2024 22:27:26 GMT
-Client-Peer: 143.204.29.78:443
+Client-Date: Sat, 19 Oct 2024 04:22:14 GMT
+Client-Peer: 143.204.29.23:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
 Client-SSL-Cert-Subject: /CN=*.gofundme.com
@@ -104,7 +104,7 @@ Link: <https://www.gofundme.com/ssr/_next/static/css/d352af0f80032b34.css>; data
 Set-Cookie: visitor={"locale":"en_US","shimLocale":"en_US","country":"US"}; path=/; domain=.gofundme.com
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Title: GoFundMe | The #1 Crowdfunding and Fundraising Platform
-X-Amz-Cf-Id: McQp-CJ2HslFuuMut8AWI-KwBXa51Q3JzO5Jhe8isB1Kjl1KcFKNwQ==
+X-Amz-Cf-Id: DKjOWCf0NZUO8N5_-miyDJXomJKBno7fMcYUiwWXdFqhE-8Ng18i-Q==
 X-Amz-Cf-Pop: ATL58-P10
 X-Cache: RefreshHit from cloudfront
 X-Meta-Charset: utf-8

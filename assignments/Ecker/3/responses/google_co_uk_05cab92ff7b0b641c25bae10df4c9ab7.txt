@@ -1,16 +1,16 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: public, max-age=2592000
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:26 GMT
+Date: Sat, 19 Oct 2024 04:22:14 GMT
 Location: http://www.google.co.uk/
 Server: gws
 Content-Length: 221
 Content-Type: text/html; charset=UTF-8
-Expires: Sun, 17 Nov 2024 22:27:26 GMT
-Client-Date: Fri, 18 Oct 2024 22:27:26 GMT
-Client-Peer: 172.253.63.94:80
+Expires: Mon, 18 Nov 2024 04:22:14 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:14 GMT
+Client-Peer: 172.253.122.94:80
 Client-Response-Num: 1
-Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-cGRYC0pyuvLqWSOu7Jrvrg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-BkoznszkHrZuTkCY00isbg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
 Title: 301 Moved
 X-Frame-Options: SAMEORIGIN
 X-XSS-Protection: 0
@@ -19,20 +19,20 @@ X-XSS-Protection: 0
 HTTP/1.1 200 OK
 Cache-Control: private, max-age=0
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:26 GMT
+Date: Sat, 19 Oct 2024 04:22:14 GMT
 Accept-Ranges: none
 Server: gws
 Vary: Accept-Encoding
 Content-Type: text/html; charset=ISO-8859-1
 Expires: -1
-Client-Date: Fri, 18 Oct 2024 22:27:26 GMT
-Client-Peer: 172.253.122.94:80
+Client-Date: Sat, 19 Oct 2024 04:22:14 GMT
+Client-Peer: 172.253.115.94:80
 Client-Response-Num: 1
 Client-Transfer-Encoding: chunked
-Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-ccn13TVo-RN8ENAaWVDo_Q' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-eXe8v7Wir9szButEWDCYQg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
 P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
-Set-Cookie: AEC=AVYB7coYx7298q1z0P6vFf6j8rTSWqctUfcQQHVQTOqk8G2ZVd2FicXVK0I; expires=Wed, 16-Apr-2025 22:27:26 GMT; path=/; domain=.google.co.uk; Secure; HttpOnly; SameSite=lax
-Set-Cookie: NID=518=FaZUp1SBF9D6JW4T2vta61v3Elwqz13sqVoYTjP0v0l89_RnehfW3gPaOo-rRw7DfDZ48m5n0iDPxZiTSY_NCrHlmRwftK9qb0J_Ktdlh7bwWhOI6WLttrcUExrAPPm4yRjKGzYXNGhs86ARrMGD1zhmfdHBQGMq6n4I6ovY7WwYGEBHWy9dohgbf7SL0jxPLEc; expires=Sat, 19-Apr-2025 22:27:26 GMT; path=/; domain=.google.co.uk; HttpOnly
+Set-Cookie: AEC=AVYB7cpfpTZjYbIcn1yOl2NC84jWyRF7zhNWfkvrEz5Bk_WLkArleoEIvQ; expires=Thu, 17-Apr-2025 04:22:14 GMT; path=/; domain=.google.co.uk; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=518=Aksb9Y61JaHSOep-pr-geYl3cui_JD79RX3Pp9byDZsGpN8LGPingrC6nxQcC-jKxPII-Bt12imOk6IZRpXaViFTVakZdHApFpKiZy7ak_r6S9ngy9m69Is7XhzSoknCspe4ycwJ_c4zyAt8Krobe_5OiNuAlpJPsHX1pOJ7AXTxac7HOIK0HSB27ycCzP3u1N0; expires=Sun, 20-Apr-2025 04:22:14 GMT; path=/; domain=.google.co.uk; HttpOnly
 Title: Google
 X-Frame-Options: SAMEORIGIN
 X-Meta-Description: Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.

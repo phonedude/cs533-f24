@@ -1,14 +1,14 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:29 GMT
+Date: Sat, 19 Oct 2024 04:22:17 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
 Location: https://independent.co.uk/
 Retry-After: 0
 Content-Length: 0
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:29 GMT
-Client-Peer: 151.101.65.184:80
+Client-Date: Sat, 19 Oct 2024 04:22:17 GMT
+Client-Peer: 151.101.193.184:80
 Client-Response-Num: 1
 Content-Security-Policy: default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:
 Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
@@ -20,13 +20,13 @@ X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-iad-kiad7000135-IAD
+X-Served-By: cache-iad-kiad7000038-IAD
 X-Xss-Protection: 1; mode=block
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:29 GMT
+Date: Sat, 19 Oct 2024 04:22:17 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
 Location: https://www.independent.co.uk/
@@ -34,8 +34,8 @@ Retry-After: 0
 Content-Length: 0
 Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:29 GMT
-Client-Peer: 151.101.65.184:443
+Client-Date: Sat, 19 Oct 2024 04:22:17 GMT
+Client-Peer: 151.101.129.184:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q2
 Client-SSL-Cert-Subject: /CN=independent.co.uk
@@ -52,13 +52,13 @@ X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-iad-kiad7000153-IAD
+X-Served-By: cache-iad-kiad7000023-IAD
 X-Xss-Protection: 1; mode=block
 
 
 HTTP/1.1 307 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:29 GMT
+Date: Sat, 19 Oct 2024 04:22:17 GMT
 Via: 1.1 varnish
 Accept-Ranges: bytes
 Location: /us
@@ -67,8 +67,8 @@ Content-Length: 0
 Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
 Canary: 1
-Client-Date: Fri, 18 Oct 2024 22:27:29 GMT
-Client-Peer: 151.101.1.91:443
+Client-Date: Sat, 19 Oct 2024 04:22:17 GMT
+Client-Peer: 151.101.65.91:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q2
 Client-SSL-Cert-Subject: /CN=*.independent.co.uk
@@ -87,27 +87,27 @@ X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-iad-kiad7000105-IAD
-X-Timer: S1729290449.397989,VS0,VE0
+X-Served-By: cache-iad-kjyo7100136-IAD
+X-Timer: S1729311738.725067,VS0,VE0
 X-Xss-Protection: 1; mode=block
 
 
 HTTP/1.1 200 OK
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:30 GMT
+Date: Sat, 19 Oct 2024 04:22:18 GMT
 Via: 1.1 varnish, 1.1 varnish
 Accept-Ranges: bytes
 Age: 0
-ETag: W/"456b7-l9eEvDJTMhX4zIpzx0nrm2JkjKs-gzip"
+ETag: W/"4bad2-/9wfTNeLeKKgGmCZRCpAbbLgzak-gzip"
 Content-Language: en
-Content-Length: 284343
+Content-Length: 309970
 Content-Type: text/html; charset=utf-8
 Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
 Cache-Tag: independent.co.uk,v8.13.1,us,section_1741
 Canary: 1
-Client-Date: Fri, 18 Oct 2024 22:27:30 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:18 GMT
 Client-Peer: 151.101.129.91:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q2
@@ -132,24 +132,24 @@ Link: <//cdn.taboola.com>; crossorigin="true"; rel="preconnect"
 Link: <https://www.independent.co.uk/us/rss>; rel="alternate"; title="RSS"; type="application/rss+xml"
 Link: <https://www.independent.co.uk/us>; hreflang="en-gb"; rel="alternate"
 Link: <https://www.the-independent.com/us>; hreflang="en-us"; rel="alternate"
-Link: <https://static.independent.co.uk/2024/08/16/18/harris-trump-15-august-split.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp>; as="image"; fetchpriority="high"; imagesizes="imageSizes"; imagesrcset="https://static.independent.co.uk/2024/08/16/18/harris-trump-15-august-split.jpg?quality=75&width=375&auto=webp 375w, https://static.independent.co.uk/2024/08/16/18/harris-trump-15-august-split.jpg?quality=75&width=640&auto=webp 640w"; rel="preload"
-Link: <https://static.independent.co.uk/2024/10/02/17/Election_2024-Trump_Shooting_66872.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp>; as="image"; fetchpriority="fetchPriority"; imagesizes="imageSizes"; imagesrcset="https://static.independent.co.uk/2024/10/02/17/Election_2024-Trump_Shooting_66872.jpg?quality=75&width=375&auto=webp 375w, https://static.independent.co.uk/2024/10/02/17/Election_2024-Trump_Shooting_66872.jpg?quality=75&width=640&auto=webp 640w"; rel="preload"
+Link: <https://static.independent.co.uk/2024/10/19/04/SEI226149412.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp>; as="image"; fetchpriority="high"; imagesizes="imageSizes"; imagesrcset="https://static.independent.co.uk/2024/10/19/04/SEI226149412.jpg?quality=75&width=375&auto=webp 375w, https://static.independent.co.uk/2024/10/19/04/SEI226149412.jpg?quality=75&width=640&auto=webp 640w"; rel="preload"
+Link: <https://static.independent.co.uk/2024/10/18/20/2024-10-18T190851Z_624990940_RC27NAAYSWVY_RTRMADP_3_USA-ELECTION-HARRIS.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp>; as="image"; fetchpriority="fetchPriority"; imagesizes="imageSizes"; imagesrcset="https://static.independent.co.uk/2024/10/18/20/2024-10-18T190851Z_624990940_RC27NAAYSWVY_RTRMADP_3_USA-ELECTION-HARRIS.jpg?quality=75&width=375&auto=webp 375w, https://static.independent.co.uk/2024/10/18/20/2024-10-18T190851Z_624990940_RC27NAAYSWVY_RTRMADP_3_USA-ELECTION-HARRIS.jpg?quality=75&width=640&auto=webp 640w"; rel="preload"
 Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()
 Referrer-Policy: no-referrer-when-downgrade
 Set-Cookie: gdpr=0 ; Path=/ ;
 Set-Cookie: subscriber_origin=us ; Path=/ ;
 Set-Cookie: _pc_subscriber_origin=us ; Path=/ ;
-Set-Cookie: feat__support_now_donate_copy=false ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 12 Nov 2024 22:27:30 GMT ;
-Set-Cookie: feat__pubx_integration=true ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 17 Dec 2024 22:27:30 GMT ;
-Set-Cookie: esi-uuid=4c013345-72ba-42c3-828e-7e6caae16f45 ; Path=/ ; Secure; HttpOnly; Expires=Sat, 18 Oct 2025 22:27:30 GMT ;
-Set-Cookie: esi-permutive-id=4c013345-72ba-42c3-828e-7e6caae16f45; Path=/ ; Secure ;
+Set-Cookie: feat__support_now_donate_copy=true ; Path=/ ; Secure ; HttpOnly ; Expires=Wed, 13 Nov 2024 04:22:18 GMT ;
+Set-Cookie: feat__pubx_integration=true ; Path=/ ; Secure ; HttpOnly ; Expires=Wed, 18 Dec 2024 04:22:18 GMT ;
+Set-Cookie: esi-uuid=d47370ec-ca11-4a88-a26d-4e944bbd2ccf ; Path=/ ; Secure; HttpOnly; Expires=Sun, 19 Oct 2025 04:22:18 GMT ;
+Set-Cookie: esi-permutive-id=d47370ec-ca11-4a88-a26d-4e944bbd2ccf; Path=/ ; Secure ;
 Set-Cookie: gdpr=0 ; Path=/ ;
 Set-Cookie: subscriber_origin=us ; Path=/ ;
 Set-Cookie: _pc_subscriber_origin=us ; Path=/ ;
-Set-Cookie: feat__support_now_donate_copy=false ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 12 Nov 2024 22:27:30 GMT ;
-Set-Cookie: feat__pubx_integration=true ; Path=/ ; Secure ; HttpOnly ; Expires=Tue, 17 Dec 2024 22:27:30 GMT ;
-Set-Cookie: esi-uuid=4c013345-72ba-42c3-828e-7e6caae16f45 ; Path=/ ; Secure; HttpOnly; Expires=Sat, 18 Oct 2025 22:27:30 GMT ;
-Set-Cookie: esi-permutive-id=4c013345-72ba-42c3-828e-7e6caae16f45; Path=/ ; Secure ;
+Set-Cookie: feat__support_now_donate_copy=true ; Path=/ ; Secure ; HttpOnly ; Expires=Wed, 13 Nov 2024 04:22:18 GMT ;
+Set-Cookie: feat__pubx_integration=true ; Path=/ ; Secure ; HttpOnly ; Expires=Wed, 18 Dec 2024 04:22:18 GMT ;
+Set-Cookie: esi-uuid=d47370ec-ca11-4a88-a26d-4e944bbd2ccf ; Path=/ ; Secure; HttpOnly; Expires=Sun, 19 Oct 2025 04:22:18 GMT ;
+Set-Cookie: esi-permutive-id=d47370ec-ca11-4a88-a26d-4e944bbd2ccf; Path=/ ; Secure ;
 Speculation-Rules: /speculationrules.json
 Strict-Transport-Security: max-age=63072000;  preload
 Title: The Independent | Latest news and features from US, UK and worldwide
@@ -175,8 +175,8 @@ X-Meta-Twitter-Image: https://www.independent.co.uk/img/shortcut-icons/icon-96x9
 X-Meta-Twitter-Site: @Independent
 X-Meta-Twitter-Title: The Independent | Latest news and features from US, UK and worldwide | The Independent
 X-Meta-Viewport: width=device-width,initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1
-X-Served-By: cache-lga21963-LGA, cache-iad-kiad7000115-IAD
-X-Timer: S1729290449.470964,VS0,VE540
+X-Served-By: cache-lga21963-LGA, cache-iad-kjyo7100088-IAD
+X-Timer: S1729311738.803716,VS0,VE511
 X-Xss-Protection: 1; mode=block
 
 

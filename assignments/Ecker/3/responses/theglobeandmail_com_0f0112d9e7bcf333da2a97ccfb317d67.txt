@@ -2,7 +2,7 @@ HTTP/1.1 301 Moved Permanently
 Connection: close
 Location: https://www.theglobeandmail.com/
 Content-Length: 0
-Client-Date: Fri, 18 Oct 2024 22:27:53 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:41 GMT
 Client-Peer: 199.198.138.250:80
 Client-Response-Num: 1
 
@@ -11,14 +11,14 @@ HTTP/1.1 200 OK
 Cache-Control: private, max-age=60
 Connection: close
 Connection: Transfer-Encoding
-Date: Fri, 18 Oct 2024 22:27:53 GMT
-ETag: W/"45afc6-SIsTeyl5x93mxC/puQ/kQSNiDWA"
+Date: Sat, 19 Oct 2024 04:22:41 GMT
+ETag: W/"448e6b-aMAKIfdwAuAw9tuSkVc6uHqgO8k"
 Server: openresty
 Content-Type: text/html; charset=utf-8
-Expires: Fri, 18 Oct 2024 22:28:53 GMT
-Last-Modified: Fri, 18 Oct 2024 22:26:47 GMT
-Client-Date: Fri, 18 Oct 2024 22:27:53 GMT
-Client-Peer: 23.38.126.11:443
+Expires: Sat, 19 Oct 2024 04:23:41 GMT
+Last-Modified: Sat, 19 Oct 2024 04:21:06 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:41 GMT
+Client-Peer: 23.38.126.25:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert EV RSA CA G2
 Client-SSL-Cert-Subject: /jurisdictionC=CA/jurisdictionST=Ontario/businessCategory=Private Organization/serialNumber=1458735/C=CA/ST=Ontario/L=Toronto/O=The Globe and Mail Inc./CN=www.theglobeandmail.com
@@ -53,16 +53,16 @@ Link: <https://www.theglobeandmail.com/pf/resources/assets/meta/favicon.ico?d=63
 Server-Timing: cdn-cache; desc=HIT
 Server-Timing: edge; dur=39
 Server-Timing: origin; dur=0
-Server-Timing: ak_p; desc="1729290473252_388398599_2275476086_3887_7043_14_34_-";dur=1
-Set-Cookie: ak_user={"timezone":"EST","network":"cox","country_code":"US","region_code":"VA","city":"NORFOLK","ip":"24.254.225.47"}; expires=Fri, 18-Oct-2024 22:42:53 GMT; path=/; domain=.theglobeandmail.com
-Set-Cookie: akaas_AS_tgam_tgam_prod=2147483647~rv=37~id=808deee1894ee8dea225fce10d4253df; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+Server-Timing: ak_p; desc="1729311761542_388398613_369021192_3923_7729_16_32_-";dur=1
+Set-Cookie: ak_user={"timezone":"EST","network":"cox","country_code":"US","region_code":"VA","city":"NORFOLK","ip":"24.254.225.47"}; expires=Sat, 19-Oct-2024 04:37:41 GMT; path=/; domain=.theglobeandmail.com
+Set-Cookie: akaas_AS_tgam_tgam_prod=2147483647~rv=3~id=b3607566788fd311ea7f56ff64bcfd4d; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
 Strict-Transport-Security: max-age=86400
 Title: The Globe and Mail: Canadian, World, Politics and Business News & Analysis
-X-Akamai-Transformed: 9 667736 0 pmb=mRUM,2
+X-Akamai-Transformed: 9 642819 0 pmb=mRUM,2
 X-Arc-Pb-Mx-Id: 00000000
-X-Arc-Pb-Request-Id: 2720c888-a6c8-4a8f-babc-61adbce7b2a4
-X-Arc-Pb-Request-Id: 069a2cfd-fcf6-4850-b567-a763f6d36e13
-X-Arc-Request-Id: 0.77e2617.1729290473.87a10276
+X-Arc-Pb-Request-Id: 8df9142d-3191-4253-9950-64ffef8cea25
+X-Arc-Pb-Request-Id: 9b415af0-93b2-42e4-bb09-85e4304b2bb7
+X-Arc-Request-Id: 0.157e2617.1729311761.15fed108
 X-Arc-Ttl: -1
 X-Meta-Apple-Itunes-App: app-id=429228415,app-argument=https://www.theglobeandmail.com/homepage/,affiliate-data=ct=smart_banner&pt=456993
 X-Meta-Apple-Mobile-Web-App-Title: The Globe and Mail

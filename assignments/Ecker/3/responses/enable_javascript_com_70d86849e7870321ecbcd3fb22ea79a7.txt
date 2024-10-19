@@ -1,11 +1,11 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:18 GMT
+Date: Sat, 19 Oct 2024 04:22:07 GMT
 Location: https://enable-javascript.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:18 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:06 GMT
 Client-Peer: 34.90.220.148:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
@@ -13,12 +13,12 @@ Title: 301 Moved Permanently
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:18 GMT
+Date: Sat, 19 Oct 2024 04:22:07 GMT
 Location: https://www.enable-javascript.com/
 Server: nginx
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:18 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:07 GMT
 Client-Peer: 34.90.220.148:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
@@ -33,10 +33,10 @@ Title: 301 Moved Permanently
 
 HTTP/1.1 200 OK
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:19 GMT
+Date: Sat, 19 Oct 2024 04:22:07 GMT
 Server: nginx
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:27:19 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:07 GMT
 Client-Peer: 34.90.220.148:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
