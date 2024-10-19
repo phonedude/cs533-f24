@@ -191,3 +191,9 @@ To generate this report yourself, follow these steps:
      - A `responses` directory containing HTTP headers for each URL processed.
 
    - You can view the `README.md` to see the summary and detailed results.
+
+# Extra Credit
+
+I know the Turtles all the Way Down reference from two main sources, ["Surely You Must be Joking Mr. Feynman" by Richard Feynman](https://en.wikipedia.org/wiki/Surely_You%27re_Joking,_Mr._Feynman!) and ["A Brief History of Time" by Stephen Hawking](https://en.wikipedia.org/wiki/A_Brief_History_of_Time). Hawking tells it as a story about a Physics professor explaining the mechanics of the solar system and a little old lady coming up to him and saying "don't you know the Earth rests on the back of a giant turtle?" To which the professor replies, "well whats under the turtle?" The little old lady replies "its turtles all the way down!" Feynman tells it in the first person claming it was he, who was the Physics professor in the story. Anyway, its about infinite regress where the relationship of a thing can include the thing in subsequent instances of the thing.
+
+Thats why Turtles all the Way Down is referenced in slide 48. A window can contain a frame which can contain a frame which can contain a frame, forever including opportunities for an attacker to chain targets and attack vectors forever
