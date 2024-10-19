@@ -210,7 +210,7 @@ HTTP responses for each individual URL can be found in the [responses-expired fo
 | 42 | http://google.pl | 200 | 2 |
 | 43 | http://groups.google.com | 200 | 2 |
 | 44 | https://gstatic.com | 404 | 0 |
-| 45 | https://guardian.co.uk | 500 | 2 |
+| 45 | http://guardian.co.uk | 200 | 4 |
 | 46 | https://ig.com.br | 403 | 0 |
 | 47 | https://imdb.com | 403 | 0 |
 | 48 | http://independent.co.uk | 200 | 17 |
@@ -221,7 +221,7 @@ HTTP responses for each individual URL can be found in the [responses-expired fo
 | 53 | http://last.fm | 200 | 6 |
 | 54 | http://lavanguardia.com | 200 | 0 |
 | 55 | https://linktr.ee | 500 | 0 |
-| 56 | http://mail.ru | 200 | 4 |
+| 56 | http://mail.ru | 200 | 3 |
 | 57 | http://merriam-webster.com | 200 | 0 |
 | 58 | http://myaccount.google.com | 200 | 1 |
 | 59 | http://myspace.com | 200 | 4 |
@@ -269,22 +269,23 @@ HTTP responses for each individual URL can be found in the [responses-expired fo
 
 ## Summary Statistics
 
-- **Total Cookies**: 155
+- **Total Cookies**: 156
 - **Min Cookies per Site**: 0
 - **Max Cookies per Site**: 17
-- **Mean Cookies per Site**: 1.55
+- **Mean Cookies per Site**: 1.56
 - **Median Cookies per Site**: 0.00
 
 ## Cookie Attribute Counts
 
-- **HttpOnly Cookies**: 51
-- **Secure Cookies**: 84
+- **HttpOnly Cookies**: 55
+- **Secure Cookies**: 93
 - **SameSite Cookies**: 57
   - **SameSite=Strict**: 4
   - **SameSite=Lax**: 21
   - **SameSite=None**: 32
-- **Cookies with Path Attribute**: 153
-  - **Path not '/'**: 16
+- **Cookies with Path Attribute**: 154
+  - **Path not '/'**: 0
+
 # Instructions on Running the Script
 
 ## Overview
