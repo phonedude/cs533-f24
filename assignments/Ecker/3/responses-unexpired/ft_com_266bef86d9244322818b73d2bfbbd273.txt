@@ -1,0 +1,122 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:22 GMT
+Accept-Ranges: bytes
+Location: https://ft.com
+Retry-After: 0
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:22 GMT
+Client-Peer: 151.101.130.46:80
+Client-Response-Num: 1
+Content-Security-Policy: upgrade-insecure-requests; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+Content-Security-Policy-Report-Only: default-src https://*.ft.com https: ; font-src https://*.ft.com https: data: ; img-src https://*.ft.com https: data: ; media-src https://*.ft.com https: data: ; script-src 'unsafe-inline' 'unsafe-eval' https://*.ft.com https: ; style-src 'unsafe-inline' https://*.ft.com https: ; worker-src blob: ; connect-src https: wss://ft.coral.coralproject.net ; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+Debug-Error-Response: Redirect to www.ft.com
+X-Content-Type-Options: nosniff
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:22 GMT
+Accept-Ranges: bytes
+Location: https://www.ft.com
+Retry-After: 0
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:22 GMT
+Client-Peer: 151.101.2.46:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Certainly/CN=Certainly Intermediate R1
+Client-SSL-Cert-Subject: /CN=*.ft.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: upgrade-insecure-requests; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+Content-Security-Policy-Report-Only: default-src https://*.ft.com https: ; font-src https://*.ft.com https: data: ; img-src https://*.ft.com https: data: ; media-src https://*.ft.com https: data: ; script-src 'unsafe-inline' 'unsafe-eval' https://*.ft.com https: ; style-src 'unsafe-inline' https://*.ft.com https: ; worker-src blob: ; connect-src https: wss://ft.coral.coralproject.net ; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+Debug-Error-Response: Redirect to www.ft.com
+Strict-Transport-Security: max-age=63072000; preload
+X-Content-Type-Options: nosniff
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:22 GMT
+Accept-Ranges: bytes
+Age: 46
+ETag: W/"5654e-ja6SLhtg5q+Rx4f0q6f9wDDOymQ"
+Vary: ft-flags, ft-anonymous-user, ft-edition, et-app, FT-Site, FT-Regional-News, Accept-Encoding
+Content-Length: 353614
+Content-Type: text/html; charset=utf-8
+Client-Date: Fri, 18 Oct 2024 22:27:22 GMT
+Client-Peer: 151.101.66.46:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Certainly/CN=Certainly Intermediate R1
+Client-SSL-Cert-Subject: /CN=*.ft.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: upgrade-insecure-requests; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+Content-Security-Policy-Report-Only: default-src https://*.ft.com https: ; font-src https://*.ft.com https: data: ; img-src https://*.ft.com https: data: ; media-src https://*.ft.com https: data: ; script-src 'unsafe-inline' 'unsafe-eval' https://*.ft.com https: ; style-src 'unsafe-inline' https://*.ft.com https: ; worker-src blob: ; connect-src https: wss://ft.coral.coralproject.net ; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+Link: <https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&format=svg>; rel="icon"; type="image/svg+xml"
+Link: <https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&format=png&width=32&height=32>; rel="alternate icon"; sizes="32x32"; type="image/png"
+Link: <https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&format=png&width=194&height=194>; rel="alternate icon"; sizes="194x194"; type="image/png"
+Link: <https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&format=png&width=180&height=180>; rel="apple-touch-icon"; sizes="180x180"
+Link: <https://www.ft.com/__assets/creatives/manifest/manifest-v6.json>; rel="manifest"
+Link: <https://www.ft.com/rss/home>; rel="alternate"; type="application/rss+xml"
+Link: <https://www.ft.com/rss/home/international>; rel="alternate"; type="application/rss+xml"
+Link: <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://consent-notice.ft.com/cmp.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://spoor-api.ft.com>; rel="preconnect"
+Link: <https://session-next.ft.com>; crossorigin="use-credentials"; rel="preconnect"
+Link: <https://ads-api.ft.com>; rel="preconnect"
+Link: <https://securepubads.g.doubleclick.net>; rel="preconnect"
+Link: <https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.e95fdf411b11.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/page-kit-components.ad8ef9497dc4.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.07957b144fb4.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-n-syndication.ea6b21a5f84d.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-header.faaf8f1d322e.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.2f3b3befc0ad.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.f74f171098cc.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.98fc7b2c5c0b.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/privacy-components.5b6be93f102b.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-expander.1284835aad36.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-footer.80a1922ff25b.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-message.840239b5f471.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-toggle.02e52d783748.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tooltip.39a3ac0f7b82.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-n-tracking.e71d8e7157d9.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-banner.1f40bdc13c18.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-cookie-message.61b2497a161a.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-date.abcc02d7a200.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-o-typography.175c5da7e8ac.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/react.86664e97e11e.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/superstore.efa85c8c265d.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-n-exponea.cb6b079b5838.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/ftdomdelegate.e7f6d827af4f.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/financial-times-x-engine.ab24e1752fd8.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/preact.1e5ad5be00e3.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/shared.stable.f471da2a32fc.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__assets/hashed/page-kit/scripts.b93f0b6f35bb.bundle.js>; as="script"; rel="preload"; type="application/javascript"
+Link: <https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&font_name=MetricWeb-Regular&system_code=origami&version=1.12>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&font_name=MetricWeb-Semibold&system_code=origami&version=1.12>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&font_name=FinancierDisplayWeb-Regular&system_code=origami&version=1.12>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&font_name=FinancierDisplayWeb-Bold&system_code=origami&version=1.12>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.ft.com/__assets/hashed/page-kit/vendors~page-kit-layout-styles.ddd030a75ca3.css>; rel="stylesheet"
+Link: <https://www.ft.com/__assets/hashed/page-kit/styles.87eafa41dc02.css>; rel="stylesheet"
+Set-Cookie: FTAllocation=13857f46-3dcd-4215-817a-5d7165808305; Expires=Sat, 18 Oct 2025 22:27:22 GMT; Domain=.ft.com; Path=/
+Set-Cookie: FTClientSessionId=a2b03878-88d4-4975-8b5c-ed0a627be9c9; Expires=Sat, 22 Nov 2025 22:27:22 GMT; Domain=.ft.com; Path=/
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Title: Financial Times
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Meta-Apple-Itunes-App: app-id=1200842933
+X-Meta-Charset: utf-8
+X-Meta-Description: News, analysis and opinion from the Financial Times on the latest in markets, economics and politics
+X-Meta-Google-Site-Verification: 4-t8sFaPvpO5FH_Gnw1dkM28CQepjzo8UjjAkdDflTw
+X-Meta-Robots: index,follow,max-snippet:200,max-image-preview:large
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-UA-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+
+

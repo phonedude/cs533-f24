@@ -1,12 +1,12 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:37 GMT
+Date: Sat, 19 Oct 2024 03:15:34 GMT
 Location: http://www.naver.com/
 Server: nfront
 Content-Length: 162
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:37 GMT
-Client-Peer: 223.130.200.219:80
+Client-Date: Sat, 19 Oct 2024 03:15:35 GMT
+Client-Peer: 223.130.192.247:80
 Client-Response-Num: 1
 Referrer-Policy: unsafe-url
 Title: 301 Moved Permanently
@@ -14,11 +14,12 @@ Title: 301 Moved Permanently
 
 HTTP/1.1 302 Moved Temporarily
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:37 GMT
+Date: Sat, 19 Oct 2024 03:15:35 GMT
 Location: https://www.naver.com/
 Server: nfront
+Content-Length: 138
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:37 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:35 GMT
 Client-Peer: 23.202.152.238:80
 Client-Response-Num: 1
 Referrer-Policy: unsafe-url
@@ -29,11 +30,11 @@ HTTP/1.1 200 OK
 Cache-Control: no-cache, no-store, must-revalidate
 Connection: close
 Connection: Transfer-Encoding
-Date: Fri, 18 Oct 2024 22:27:38 GMT
+Date: Sat, 19 Oct 2024 03:15:35 GMT
 Pragma: no-cache
 Server: nfront
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:27:38 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:35 GMT
 Client-Peer: 23.202.152.238:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=GeoTrust RSA CA 2018

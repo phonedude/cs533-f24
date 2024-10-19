@@ -1,0 +1,120 @@
+HTTP/1.1 301 
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:27 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://guardian.co.uk/
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:27 GMT
+Client-Peer: 151.101.129.111:80
+Client-Response-Num: 1
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kjyo7100114-IAD
+X-Timer: S1729290448.646802,VS0,VE0
+
+
+HTTP/1.1 301 
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:27 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://www.theguardian.com/
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:27 GMT
+Client-Peer: 151.101.65.111:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q3
+Client-SSL-Cert-Subject: /CN=theguardian.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Strict-Transport-Security: max-age=31536000
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000121-IAD
+X-Timer: S1729290448.753814,VS0,VE0
+
+
+HTTP/1.1 302 
+Cache-Control: max-age=0,no-transform
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:27 GMT
+Accept-Ranges: bytes
+Location: /us
+Retry-After: 0
+Content-Length: 0
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:27 GMT
+Client-Peer: 151.101.65.111:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q3
+Client-SSL-Cert-Subject: /CN=theguardian.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src 'self' https://assets.guim.co.uk https://pasteup.guim.co.uk https://interactive.guim.co.uk https://dashboard.ophan.co.uk data:; connect-src https: wss: blob:; child-src https: blob:; object-src 'none'; base-uri 'none'
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: GU_mvt_id=949672; expires=Thu, 16 Jan 2025 22:27:27 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: GU_geo_country=US; path=/; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-GU-Edition: us
+X-Timer: S1729290448.853708,VS0,VS0,VE0
+X-XSS-Protection: 1; mode=block
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=60, stale-while-revalidate=6, stale-if-error=864000, private,no-transform
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:28 GMT
+Accept-Ranges: bytes
+Age: 79
+ETag: W/"hash5889292127068238756"
+Vary: Accept-Encoding,User-Agent
+Content-Length: 1091378
+Content-Type: text/html; charset=UTF-8
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:28 GMT
+Client-Peer: 151.101.1.111:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q3
+Client-SSL-Cert-Subject: /CN=theguardian.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src 'self' https://assets.guim.co.uk https://pasteup.guim.co.uk https://interactive.guim.co.uk https://dashboard.ophan.co.uk data:; connect-src https: wss: blob:; child-src https: blob:; object-src 'none'; base-uri 'none'
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Link: <https://assets.guim.co.uk/polyfill.io/v3/polyfill.min.js?rum=0&features=es6%2Ces7%2Ces2017%2Ces2018%2Ces2019%2Cdefault-3.6%2CHTMLPictureElement%2CIntersectionObserver%2CIntersectionObserverEntry%2CURLSearchParams%2Cfetch%2CNodeList.prototype.forEach%2Cnavigator.sendBeacon%2Cperformance.now%2CPromise.allSettled&flags=gated&callback=guardianPolyfilled&unknown=polyfill&cacheClear=1>; rel=prefetch,<https://assets.guim.co.uk/assets/frameworks.client.web.54329d27b5d3d9368122.js>; rel=prefetch,<https://assets.guim.co.uk/assets/index.client.web.23a2466bc68ec1910f96.js>; rel=prefetch,<https://assets.guim.co.uk/javascripts/commercial/07bdb9f2c273f0bc66fb/graun.standalone.commercial.js>; rel=prefetch,,<https://assets.guim.co.uk/>; rel=preconnect,<https://i.guim.co.uk>; rel=preconnect,<https://j.ophan.co.uk>; rel=preconnect,<https://ophan.theguardian.com>; rel=preconnect,<https://api.nextgen.guardianapps.co.uk>; rel=preconnect,<https://hits-secure.theguardian.com>; rel=preconnect,<https://interactive.guim.co.uk>; rel=preconnect,<https://phar.gu-web.net>; rel=preconnect,<https://static.theguardian.com>; rel=preconnect,<https://support.theguardian.com>; rel=preconnect
+Onion-Location: https://www.guardian2zotagl6tmjucg3lrhxdk4dw3lhbqnkvvkywawy3oqfoprid.onion/us
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: GU_mvt_id=949672; expires=Thu, 16 Jan 2025 22:27:28 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: GU_geo_country=US; path=/; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Title: Latest news, sport and opinion from the Guardian
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Gu-Dotcomponents: true
+X-GU-Edition: us
+X-Gu-Frontend-Git-Commit-Id: b27a4afd6542a4fac4818c5763a27b8a82ca196e
+X-Meta-Charset: utf-8
+X-Meta-Description: Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice
+X-Meta-Robots: max-image-preview:large
+X-Meta-Theme-Color: #052962
+X-Meta-Twitter-Dnt: on
+X-Meta-Viewport: width=device-width,minimum-scale=1,initial-scale=1
+X-Timer: S1729290448.935865,VS0,VS0,VE96
+X-XSS-Protection: 1; mode=block
+
+

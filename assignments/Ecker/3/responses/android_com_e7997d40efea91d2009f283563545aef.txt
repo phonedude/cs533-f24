@@ -1,15 +1,15 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: public, max-age=1800
 Connection: close
-Date: Fri, 18 Oct 2024 22:08:22 GMT
-Age: 1128
+Date: Sat, 19 Oct 2024 03:14:37 GMT
+Age: 32
 Location: https://www.android.com/
 Server: sffe
 Content-Length: 221
 Content-Type: text/html; charset=UTF-8
-Expires: Fri, 18 Oct 2024 22:38:22 GMT
-Client-Date: Fri, 18 Oct 2024 22:27:10 GMT
-Client-Peer: 142.251.111.106:80
+Expires: Sat, 19 Oct 2024 03:44:37 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:09 GMT
+Client-Peer: 142.250.31.106:80
 Client-Response-Num: 1
 Title: 301 Moved
 X-Content-Type-Options: nosniff
@@ -19,17 +19,17 @@ X-XSS-Protection: 0
 HTTP/1.1 200 OK
 Cache-Control: private, max-age=3000
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:10 GMT
+Date: Sat, 19 Oct 2024 03:15:09 GMT
 Accept-Ranges: bytes
 Server: sffe
 Vary: Accept-Encoding
 Content-Length: 647998
 Content-Type: text/html
-Expires: Fri, 18 Oct 2024 22:27:10 GMT
+Expires: Sat, 19 Oct 2024 03:15:09 GMT
 Last-Modified: Thu, 17 Oct 2024 15:38:00 GMT
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Fri, 18 Oct 2024 22:27:10 GMT
-Client-Peer: 142.251.163.139:443
+Client-Date: Sat, 19 Oct 2024 03:15:09 GMT
+Client-Peer: 142.251.163.101:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
 Client-SSL-Cert-Subject: /CN=www.android.com

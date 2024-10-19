@@ -1,0 +1,95 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:34 GMT
+Via: 1.1 221ee5ec812ed71353497211271896dc.cloudfront.net (CloudFront)
+Location: https://merriam-webster.com/
+Server: CloudFront
+Content-Length: 167
+Content-Type: text/html
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:34 GMT
+Client-Peer: 3.161.188.10:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Amz-Cf-Id: y6gpkI61f20_eJH0OWNakmZ8Uyqg1RIG3Amy0rnmIvNPumwATW2SsQ==
+X-Amz-Cf-Pop: ATL59-P7
+X-Cache: Redirect from cloudfront
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 21:38:38 GMT
+Via: 1.1 161dcc499eb1e7daeb500f994e6ebd16.cloudfront.net (CloudFront)
+Age: 2937
+Location: https://www.merriam-webster.com:443/
+Server: awselb/2.0
+Content-Length: 134
+Content-Type: text/html
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:35 GMT
+Client-Peer: 3.161.188.115:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
+Client-SSL-Cert-Subject: /CN=*.merriam-webster.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Title: 301 Moved Permanently
+X-Amz-Cf-Id: rIz8k6QoJxUh9n_B16pldxXg2csp6ApQAPH6n-qnZvuq4pZFSgUYdA==
+X-Amz-Cf-Pop: ATL59-P7
+X-Cache: Hit from cloudfront
+
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=3600
+Connection: close
+Date: Fri, 18 Oct 2024 22:06:07 GMT
+Via: 1.1 ab36a19cbebfafa013306497524434c6.cloudfront.net (CloudFront)
+Age: 1288
+Server: nginx
+Vary: Accept-Encoding
+Content-Length: 261807
+Content-Type: text/html; charset=utf-8
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:35 GMT
+Client-Peer: 3.161.188.75:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
+Client-SSL-Cert-Subject: /CN=*.merriam-webster.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Link: </favicon.svg>; rel="icon"
+Link: </safari-pinned-tab.svg>; color="#305f7a"; rel="mask-icon"
+Link: </apple-touch-icon.png>; rel="apple-touch-icon"; sizes="144x144"
+Link: </site.webmanifest>; rel="manifest"
+Link: <https://www.merriam-webster.com>; rel="canonical"
+Link: </dist-cross-dungarees/2024-10-14--21-00-36-vyqvc/compiled/css/style-home-redesign.3f3e86bbbf9a47105d9e.css>; media="screen"; rel="stylesheet"
+Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/Playfair-700-Latin.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/Playfair-700-Italic-Latin.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/OpenSans-400-Latin.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/OpenSans-400-Latin-Ext.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/OpenSans-400-Italic-Latin-Ext.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Link: <https://www.merriam-webster.com/assets/mw/fonts-v2/OpenSans-400-Italic-Latin.woff2>; as="font"; crossorigin="anonymous"; rel="preload"; type="font/woff2"
+Title: Merriam-Webster: America's Most Trusted Dictionary
+X-Amz-Cf-Id: ZTHfQr3HpyP0anLfIkq0YdEXhKBupO7wZ6z1bBL4bjJKOuSf9_O1Mg==
+X-Amz-Cf-Pop: ATL59-P7
+X-Cache: Hit from cloudfront
+X-Meta-Charset: UTF-8
+X-Meta-Description: Find definitions for over 300,000 words from the most authoritative English dictionary. Continuously updated with new words and meanings.
+X-Meta-Msapplication-TileColor: #2b5797
+X-Meta-Referrer: unsafe-url
+X-Meta-Theme-Color: #ffffff
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Description: Find definitions for over 300,000 words from the most authoritative English dictionary. Continuously updated with new words and meanings.
+X-Meta-Twitter-Image: https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png
+X-Meta-Twitter-Site: @MerriamWebster
+X-Meta-Twitter-Title: Merriam-Webster: America's Most Trusted Dictionary
+X-Meta-Twitter-Url: https://www.merriam-webster.com/
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Rid: rid2d392526-8d9d-11ef-b3c6-0affc7d3e54d
+X-Ua-Compatible: ie=edge
+
+

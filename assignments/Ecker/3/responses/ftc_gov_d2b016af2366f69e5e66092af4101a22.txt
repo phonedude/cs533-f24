@@ -1,26 +1,26 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:22 GMT
+Date: Sat, 19 Oct 2024 03:15:20 GMT
 Location: https://www.ftc.gov/
 Server: AkamaiGHost
 Content-Length: 0
-Client-Date: Fri, 18 Oct 2024 22:27:22 GMT
-Client-Peer: 104.68.241.95:80
+Client-Date: Sat, 19 Oct 2024 03:15:20 GMT
+Client-Peer: 23.9.156.228:80
 Client-Response-Num: 1
 
 
 HTTP/1.1 200 OK
 Cache-Control: public, max-age=300
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:23 GMT
+Date: Sat, 19 Oct 2024 03:15:20 GMT
 Accept-Ranges: bytes
-ETag: "1729290384"
+ETag: "1729307421"
 Vary: Cookie
 Content-Language: en
 Content-Length: 1000454
 Content-Type: text/html; charset=UTF-8
-Last-Modified: Fri, 18 Oct 2024 22:26:24 GMT
-Client-Date: Fri, 18 Oct 2024 22:27:23 GMT
+Last-Modified: Sat, 19 Oct 2024 03:10:21 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:20 GMT
 Client-Peer: 104.68.241.95:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=GeoTrust RSA CA 2018
@@ -55,7 +55,7 @@ Link: <https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;
 Link: </themes/custom/ftc_uswds/build/css/styles.css?slkmkt>; media="all"; rel="stylesheet"
 Strict-Transport-Security: max-age=31536000 ; preload
 Title: Federal Trade Commission | Protecting America's Consumers
-X-Cache-Hits: 32
+X-Cache-Hits: 264
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Meta-Charset: utf-8

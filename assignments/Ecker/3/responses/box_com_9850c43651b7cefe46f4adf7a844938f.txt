@@ -1,11 +1,11 @@
 HTTP/1.1 301 Moved Permanently
 Cache-Control: private
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:14 GMT
+Date: Sat, 19 Oct 2024 03:15:13 GMT
 Location: https://box.com:443/
 Content-Length: 0
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:27:14 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:13 GMT
 Client-Peer: 74.112.186.157:80
 Client-Response-Num: 1
 
@@ -13,12 +13,12 @@ Client-Response-Num: 1
 HTTP/1.1 301 Moved Permanently
 Cache-Control: private
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:15 GMT
+Date: Sat, 19 Oct 2024 03:15:13 GMT
 Location: https://www.box.com/
 Content-Length: 0
 Content-Type: text/html; charset=UTF-8
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Client-Date: Fri, 18 Oct 2024 22:27:15 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:13 GMT
 Client-Peer: 74.112.186.157:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
@@ -32,22 +32,22 @@ Client-SSL-Warning: Peer certificate not verified
 HTTP/1.1 200 OK
 Cache-Control: max-age=30, public, s-maxage=2592000
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:15 GMT
+Date: Sat, 19 Oct 2024 03:15:13 GMT
 Via: varnish
-Age: 9430
+Age: 5043
 Server: cloudflare
 Vary: Cookie,Box-Country,X-Box-Geo-Country,X-Frame-Options,Accept-Encoding
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 18 Oct 2024 19:50:03 GMT
+Last-Modified: Sat, 19 Oct 2024 01:51:10 GMT
 Aaa-Loc-Header: US
 Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443"; ma=86400
 Box-Country: US
 CF-Cache-Status: HIT
-CF-RAY: 8d4bf463e9b2390c-IAD
-Client-Date: Fri, 18 Oct 2024 22:27:15 GMT
+CF-RAY: 8d4d9a3afcfbc975-IAD
+Client-Date: Sat, 19 Oct 2024 03:15:13 GMT
 Client-Peer: 103.116.7.20:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
@@ -59,13 +59,13 @@ Client-SSL-Warning: Peer certificate not verified
 Client-Transfer-Encoding: chunked
 Content-Security-Policy: default-src * 'self' blob: data: 'unsafe-inline'; font-src 'self' data: fonts.googleapis.com fonts.gstatic.com; report-uri /report-csp-violation
 Link: <//cdn03.boxcdn.net>; rel=preconnect; crossorigin
-Set-Cookie: __cf_bm=oFL1kO52Z15nSIYDV3VWqyoRTvzXMVXFo1XCP9pii8E-1729290435-1.0.1.1-0Dejcyn6nHY7kk02V.SZys2b1CimOV6eX9zotU6PVuKv2CJYmPKuyHTA_imHGy8nMxPel6V656fCrFHFiAVTmA; path=/; expires=Fri, 18-Oct-24 22:57:15 GMT; domain=.box.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=9j0uH5Xo72NiwBBEKSIOgnNRdaz5NGECvYWNcvUggms-1729307713-1.0.1.1-sBzULqszV1xSgBMrZwhS5DU.6WtDmMKWL.j1rAaI9xHb.NYedv_6_iEa5AU5ZJnBuiz7FozLh5G8bhQuCiVbjQ; path=/; expires=Sat, 19-Oct-24 03:45:13 GMT; domain=.box.com; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=2592000; includeSubDomains; preload
 Title: Secure, AI-Powered Content Management, Workflow & Collaboration
 X-AH-Environment: prod
 X-Box-Geo-Country: US
 X-Cache: HIT
-X-Cache-Hits: 11
+X-Cache-Hits: 2
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Meta-Apple-Mobile-Web-App-Title: Box
@@ -89,7 +89,7 @@ X-Meta-Page-Type: Homepage
 X-Meta-Referrer: no-referrer-when-downgrade
 X-Meta-Theme-Color: #ffffff
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Request-ID: v-2ae1d6fa-8d8a-11ef-bf3c-7b5141774487
+X-Request-ID: v-9d11e792-8dbc-11ef-a5a4-af1385196d7a
 X-XSS-Protection: 1; mode=block
 
 

@@ -1,0 +1,32 @@
+HTTP/1.1 400 Bad Request
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:22 GMT
+Pragma: no-cache
+Accept-Ranges: bytes
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, x-fh-requested-host, accept-encoding
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:22 GMT
+Client-Peer: 199.36.158.100:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR3
+Client-SSL-Cert-Subject: /CN=forms.gle
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'nonce-owHf9lpYIbrYhNZuTbcSHg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DurableDeepLinkUi/cspreport;worker-src 'self',require-trusted-types-for 'script';report-uri /_/DurableDeepLinkUi/cspreport
+Cross-Origin-Opener-Policy: unsafe-none
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Title: Invalid Dynamic Link
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Served-By: cache-iad-kjyo7100047-IAD
+X-Timer: S1729290442.397732,VS0,VE69
+
+

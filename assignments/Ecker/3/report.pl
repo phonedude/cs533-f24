@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use Getopt::Long;
 use LWP::UserAgent;
 use HTTP::Cookies;
 use HTTP::Response;
@@ -12,10 +13,22 @@ use Term::ProgressBar::Simple;
 use File::Path qw(make_path);
 use File::Basename;
 use Digest::MD5 qw(md5_hex);
+use HTTP::Headers::Util qw(split_header_words);
+use Time::Piece;
+
+# Variables for command-line options
+my $include_expired = 0;
+my $output_file     = 'README.md';
+
+# Parse command-line options
+GetOptions(
+    'include-expired' => \$include_expired,
+    'output|o=s'      => \$output_file,
+) or die "Usage: $0 [--include-expired] [-o <output_file>] <filename>\n";
 
 # Check if filename is provided as an argument
 if (@ARGV != 1) {
-    die "Usage: $0 <filename>\n";
+    die "Usage: $0 [--include-expired] [-o <output_file>] <filename>\n";
 }
 
 # Read in the file containing URLs
@@ -37,6 +50,9 @@ my $num_urls = scalar @urls;
 # Output file name and number of URLs
 print "Processing file: $filename\n";
 print "Number of URLs: $num_urls\n";
+print "Including expired cookies in analysis.\n" if $include_expired;
+print "Excluding expired cookies from analysis.\n" unless $include_expired;
+print "Report will be saved to '$output_file'.\n";
 
 my $progress = Term::ProgressBar::Simple->new($num_urls);
 
@@ -102,21 +118,21 @@ foreach my $original_url (@urls) {
         unshift @responses, $res;
     } while ($res = $res->previous);
 
-    # Collect cookie data
+    # Collect Set-Cookie headers from all responses
     my @all_cookies;
-    $cookie_jar->scan(sub {
-        my ($version, $key, $val, $path, $domain, $port, $path_spec, $secure, $expires, $discard, $hash) = @_;
-        push @all_cookies, {
-            key       => $key,
-            value     => $val,
-            path      => $path,
-            secure    => $secure,
-            expires   => $expires,
-            discard   => $discard,
-            httponly  => $hash->{httponly},
-            samesite  => $hash->{samesite},
-        };
-    });
+    foreach my $res (@responses) {
+        my @set_cookie_headers = $res->header('Set-Cookie');
+        foreach my $set_cookie (@set_cookie_headers) {
+            my @parsed_cookies = parse_set_cookie($set_cookie);
+            foreach my $cookie (@parsed_cookies) {
+                # Filter expired cookies if not including them
+                if (!$include_expired && is_cookie_expired($cookie)) {
+                    next;
+                }
+                push @all_cookies, $cookie;
+            }
+        }
+    }
 
     my $num_cookies = scalar @all_cookies;
     push @num_cookies_list, $num_cookies;
@@ -144,11 +160,11 @@ foreach my $original_url (@urls) {
         # Count SameSite
         if (defined $cookie->{samesite}) {
             $cookie_attribute_counts{SameSite}++;
-            if (lc $cookie->{samesite} eq 'strict') {
+            if (lc($cookie->{samesite}) eq 'strict') {
                 $cookie_attribute_counts{SameSite_Strict}++;
-            } elsif (lc $cookie->{samesite} eq 'lax') {
+            } elsif (lc($cookie->{samesite}) eq 'lax') {
                 $cookie_attribute_counts{SameSite_Lax}++;
-            } elsif (lc $cookie->{samesite} eq 'none') {
+            } elsif (lc($cookie->{samesite}) eq 'none') {
                 $cookie_attribute_counts{SameSite_None}++;
             }
         }
@@ -187,10 +203,17 @@ foreach my $original_url (@urls) {
 }
 
 # Generate Markdown table
-open(my $md_fh, '>', 'README.md') or die "Could not open 'README.md' $!";
+open(my $md_fh, '>', $output_file) or die "Could not open '$output_file' $!";
 
 print $md_fh "# Cookie Practices Report\n\n";
 print $md_fh "This report summarizes the cookie practices of $num_urls websites.\n\n";
+
+# Indicate whether expired cookies are included
+if ($include_expired) {
+    print $md_fh "_Note: Expired cookies are **included** in this analysis._\n\n";
+} else {
+    print $md_fh "_Note: Expired cookies are **excluded** from this analysis._\n\n";
+}
 
 # Table Header
 print $md_fh "| No. | URL | Final Status Code | Number of Cookies |\n";
@@ -236,7 +259,7 @@ print $md_fh "  - **Path not '/'**: $cookie_attribute_counts{Path_NotRoot}\n";
 
 close($md_fh);
 
-print "\nReport generated in 'README.md'\n";
+print "\nReport generated in '$output_file'\n";
 print "HTTP headers saved in the '$responses_dir' directory.\n";
 
 # Function to sanitize filenames based on URL
@@ -251,4 +274,58 @@ sub sanitize_filename {
     # Append MD5 hash of the URL to ensure uniqueness
     my $hash = md5_hex($url);
     return "$url\_$hash";
+}
+
+# Function to parse Set-Cookie header into a hash
+sub parse_set_cookie {
+    my ($set_cookie_str) = @_;
+    my @cookies;
+    my @tokens = split_header_words($set_cookie_str);
+
+    foreach my $token (@tokens) {
+        my %cookie;
+        $cookie{key} = shift @$token;
+        $cookie{value} = shift @$token;
+
+        while (@$token) {
+            my $attr = shift @$token;
+            my $val  = shift @$token;
+            $attr = lc($attr);
+
+            if ($attr eq 'expires') {
+                $cookie{expires} = $val;
+            } elsif ($attr eq 'path') {
+                $cookie{path} = $val;
+            } elsif ($attr eq 'domain') {
+                $cookie{domain} = $val;
+            } elsif ($attr eq 'secure') {
+                $cookie{secure} = 1;
+                unshift @$token, $val if defined $val;
+            } elsif ($attr eq 'httponly') {
+                $cookie{httponly} = 1;
+                unshift @$token, $val if defined $val;
+            } elsif ($attr eq 'samesite') {
+                $cookie{samesite} = $val;
+            }
+        }
+        push @cookies, \%cookie;
+    }
+    return @cookies;
+}
+
+# Function to check if a cookie is expired
+sub is_cookie_expired {
+    my ($cookie) = @_;
+    if (defined $cookie->{expires}) {
+        my $expires_str = $cookie->{expires};
+        eval {
+            my $expires_time = Time::Piece->strptime($expires_str, '%a, %d-%b-%Y %H:%M:%S %Z');
+            my $current_time = gmtime;
+            if ($expires_time < $current_time) {
+                return 1; # Cookie is expired
+            }
+        };
+        # If parsing fails, assume the cookie is not expired
+    }
+    return 0; # Cookie is not expired
 }

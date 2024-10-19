@@ -1,0 +1,70 @@
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Date: Fri, 18 Oct 2024 22:27:06 GMT
+Location: https://amazon.co.uk/
+Server: Server
+Content-Length: 163
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:06 GMT
+Client-Peer: 54.239.33.58:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:06 GMT
+Location: https://www.amazon.co.uk/
+Server: Server
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:06 GMT
+Client-Peer: 54.239.34.171:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global CA G2
+Client-SSL-Cert-Subject: /CN=*.peg.a2z.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:07 GMT
+Pragma: no-cache
+Via: 1.1 711d3c800952edc1dd6cabc0c877aa5a.cloudfront.net (CloudFront)
+Server: Server
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Language: en-GB
+Content-Type: text/html;charset=UTF-8
+Expires: -1
+Accept-CH: ect,rtt,downlink,device-memory,sec-ch-device-memory,viewport-width,sec-ch-viewport-width,dpr,sec-ch-dpr,sec-ch-ua-platform,sec-ch-ua-platform-version
+Accept-CH-Lifetime: 86400
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:07 GMT
+Client-Peer: 18.64.231.133:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global CA G2
+Client-SSL-Cert-Subject: /CN=www.amazon.co.uk
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests;report-uri https://metrics.media-amazon.com/
+Content-Security-Policy-Report-Only: default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline';report-uri https://metrics.media-amazon.com/
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Amz-Cf-Id: y2S0dJFsmRGfS14dT2Ijvl72nPWEGFpFlwAslRsT2nwe1oSX1aq4Qg==
+X-Amz-Cf-Pop: ATL56-P1
+X-Amz-Rid: M8KDNGDBE19TGKXX7QCP
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1;
+
+

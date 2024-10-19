@@ -1,0 +1,157 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:26 GMT
+Pragma: no-cache
+Location: https://groups.google.com/
+Server: ESF
+Content-Length: 0
+Content-Type: application/binary
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Client-Date: Fri, 18 Oct 2024 22:27:26 GMT
+Client-Peer: 216.239.38.177:80
+Client-Response-Num: 1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Set-Cookie: NID=518=W54nJmJiNZtml9ITElJC0MMmh-KjWs9TjOctIDaFj_eJu9c7fisb16lurajyWMLwEsIGAtn6bNqM36T2mpXYNQBj3CKr_Q0qzUzdKBWX61PNUbewN-qUbDCMRd4TszKcIkdvJeH0er-i6VBNZYpduvqtsYClU2Oh_sQzjlz8uc4ZYCeAed4; expires=Sat, 19-Apr-2025 22:27:26 GMT; path=/; domain=.google.com; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+
+
+HTTP/1.1 302 Found
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:26 GMT
+Location: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://groups.google.com/&followup=https://groups.google.com/
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Content-Length: 0
+Content-Type: application/binary
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:27:26 GMT
+Client-Peer: 216.239.38.177:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=*.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: script-src 'nonce-voD1x1oHAzV1yEOsbcrmRA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/GroupsFrontendUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/GroupsFrontendUi/cspreport
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Cross-Origin-Resource-Policy: same-site
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+
+
+HTTP/1.1 302 Found
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:26 GMT
+Pragma: no-cache
+Location: https://accounts.google.com/InteractiveLogin?continue=https://groups.google.com/&followup=https://groups.google.com/&osid=1&passive=1209600&ifkv=ARpgrqf-iZVzjVz2zCTd1dAjUp_HXV1n507M4jvE-z6xFh8AJaU3gOYZ60ndp2o3-tbJf9hEIY6epg
+Server: ESF
+Content-Length: 0
+Content-Type: application/binary
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:27:26 GMT
+Client-Peer: 64.233.180.84:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=accounts.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport
+Content-Security-Policy: script-src 'nonce-4kg6Tdc-DLS_yxnOeYn6Ug' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Resource-Policy: cross-origin
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Set-Cookie: __Host-GAPS=1:IL2nrFOb5OzfKOzBd03OecheOUGSeQ:6i_GLAvD6TyGUxx0; Expires=Sun, 18-Oct-2026 22:27:26 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+
+
+HTTP/1.1 302 Moved Temporarily
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:27 GMT
+Pragma: no-cache
+Location: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fgroups.google.com%2F&followup=https%3A%2F%2Fgroups.google.com%2F&ifkv=ARpgrqdTeDr9TbOsuRGSccbZ83Qn8vTKhwewLyKbBfthpLFqxpkAqsJFVVx09DDL90CnAkLfJV8Y&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1911261073%3A1729290447040646
+Server: GSE
+Content-Length: 560
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:27:27 GMT
+Client-Peer: 64.233.180.84:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=accounts.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /cspreport
+Content-Security-Policy: script-src 'nonce-cup1e1MbkN0Lukj4RxkRHQ' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="coop_gse_qebhlk"
+Report-To: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Moved Temporarily
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:27 GMT
+Pragma: no-cache
+Accept-Ranges: none
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Client-Date: Fri, 18 Oct 2024 22:27:27 GMT
+Client-Peer: 64.233.180.84:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WR2
+Client-SSL-Cert-Subject: /CN=accounts.google.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Base: https://accounts.google.com/v3/signin/
+Content-Security-Policy: script-src 'nonce-babllmnMKyPm6S0GKP95cw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Cross-Origin-Resource-Policy: same-site
+Link: <//www.gstatic.com>; rel="preconnect"
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Refresh: 0; url=/v3/signin/rejected?continue=https://groups.google.com/&dsh=S-1911261073:1729290447040646&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://groups.google.com/&ifkv=ARpgrqdTeDr9TbOsuRGSccbZ83Qn8vTKhwewLyKbBfthpLFqxpkAqsJFVVx09DDL90CnAkLfJV8Y&osid=1&rhlk=js&rrk=47
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwz1IAnEYB2D5wxthDREOYkMlGNFQd1ZEQ4RFQxQkNLRUmnimEHfXeQZtLQ6RS_SJNDi7NtiHgkZRFOh5J0VBQyB5Eg0VNYa_Bx7rPuuzOiyTvQ5LznnBPEtVNoWL6Xfmx8Jyjd2gWKwxBT_9JvvCeNxk23iaMFkGD1vrLInXmTq7Q_tvnfXga-qI3nBi9Zi8GH8u0h4-3pboBQP_JZLx3KZRDsfSGnmw-0MjF4b9ZVrDb7lMf1i9KpOJfJdO43g5olMejR2dntCV0GkQpaROUTzJ6pTCjlGDOnFm3qA5nF0wyIv3IYOKuGur0AEq9gptYXtLc6nwcNbUls_-TDsHAtK6LxIURDWiboYUSVQFMbgSU8OxSFRQNgTF5-bcQzzHD_dzvE_mGqdplg0"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Sign in - Google Accounts
+X-Auto-Login: realm=com.google&args=continue%3Dhttps://groups.google.com/
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Meta-Chrome: nointentdetection
+X-Meta-Description: 
+X-Meta-Referrer: origin
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Ua-Compatible: IE=edge
+X-XSS-Protection: 0
+
+

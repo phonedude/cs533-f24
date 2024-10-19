@@ -1,0 +1,92 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:12 GMT
+Location: https://bloomberg.com:443/
+Server: awselb/2.0
+Content-Length: 134
+Content-Type: text/html
+Client-Date: Fri, 18 Oct 2024 22:27:12 GMT
+Client-Peer: 15.197.146.156:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:12 GMT
+Location: https://www.bloomberg.com
+Server: awselb/2.0
+Content-Length: 0
+Content-Type: application/octet-stream
+Client-Date: Fri, 18 Oct 2024 22:27:12 GMT
+Client-Peer: 3.33.146.110:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+Client-SSL-Cert-Subject: /C=US/ST=New York/L=New York/O=Bloomberg LP/CN=wmkt1.cirrus.bloomberg.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: default src 'self'; object src 'none'; upgrade insecure requests; frame ancestors 'self'
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+
+
+HTTP/1.1 307 s2s_high_score
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:13 GMT
+Accept-Ranges: bytes
+Location: https://www.bloomberg.com/tosv2.html?vid=&uuid=1f3a18ac-8da0-11ef-b4a9-7ed3d405f9ec&url=Lw==
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:13 GMT
+Client-Peer: 151.101.1.73:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+Client-SSL-Cert-Subject: /C=US/ST=New York/L=New York/O=Bloomberg LP/CN=www.bloomberg.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Set-Cookie: _pxhd=LR7JeYQEeNztZbQrgpm3i1rgjkQtfSEWKqMy/4JYb-rP8aE06HJhWyjjP3HC0ifay13Hial-tcd0w5SptK3SOA==:fSN8sU0GLPd/jctGYieM/yhw6YLd25gDiJfY3/fAG7DgsPNWaFso5aSe-piRT9q7mY1GdgrOSXNkUJzi10PrjueVi-1-nuVozRC/yjLbqzk=; Expires=Fri, 01 Jan 2021 00:00:00 GMT; path=/;
+Strict-Transport-Security: max-age=31557600
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000126-IAD
+
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=5, private, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:13 GMT
+Accept-Ranges: bytes
+ETag: "67129045-2dca"
+Server: openresty
+Vary: Accept-Encoding
+Content-Length: 11722
+Content-Type: text/html
+Content-Type: text/html; charset=utf-8
+Last-Modified: Fri, 18 Oct 2024 16:43:49 GMT
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Client-Date: Fri, 18 Oct 2024 22:27:13 GMT
+Client-Peer: 151.101.1.73:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+Client-SSL-Cert-Subject: /C=US/ST=New York/L=New York/O=Bloomberg LP/CN=www.bloomberg.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Link: <https://assets.bwbx.io>; rel=preconnect; crossorigin, <https://assets.bwbx.io>; rel=preconnect, <https://sourcepointcmp.bloomberg.com>; rel=preconnect; crossorigin, <https://tpc.googlesyndication.com	>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect; crossorigin
+Strict-Transport-Security: max-age=31557600
+Title: Bloomberg - Are you a robot?
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Meta-Robots: noindex
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Served-By: cache-iad-kiad7000085-IAD
+X-Timer: S1729290433.115856,VS0,VE7
+
+

@@ -1,13 +1,13 @@
 HTTP/1.1 301 Redirect
 Cache-Control: no-store
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:25 GMT
+Date: Sat, 19 Oct 2024 03:15:23 GMT
 Location: https://www.godaddy.com/
 Server: ATS/9.2.3
 Content-Language: en
 Content-Length: 306
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:25 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:23 GMT
 Client-Peer: 208.109.192.70:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
@@ -22,13 +22,13 @@ Title: Document Has Moved
 HTTP/1.1 403 Forbidden
 Cache-Control: max-age=0, no-cache, no-store
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:25 GMT
+Date: Sat, 19 Oct 2024 03:15:23 GMT
 Pragma: no-cache
 Server: AkamaiGHost
 Content-Length: 367
 Content-Type: text/html
-Expires: Fri, 18 Oct 2024 22:27:25 GMT
-Client-Date: Fri, 18 Oct 2024 22:27:25 GMT
+Expires: Sat, 19 Oct 2024 03:15:23 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:23 GMT
 Client-Peer: 23.13.154.6:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http:\/\/certs.godaddy.com\/repository\//CN=Go Daddy Secure Certificate Authority - G2
@@ -38,7 +38,7 @@ Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
 Mime-Version: 1.0
-Server-Timing: ak_p; desc="1729290445500_400321166_100872907_20_19029_22_26_-";dur=1
+Server-Timing: ak_p; desc="1729307723495_400321166_141334425_17_14570_21_24_-";dur=1
 Title: Access Denied
 X-ARC: 6a
 X-Frame-Options: DENY

@@ -1,12 +1,12 @@
 HTTP/1.1 200 OK
 Cache-Control: public, s-maxage=3600
 Connection: close
-Date: Fri, 18 Oct 2024 21:51:50 GMT
+Date: Sat, 19 Oct 2024 02:21:06 GMT
 Accept-Ranges: bytes
-Age: 2222
-Content-Length: 113941
+Age: 3342
+Content-Length: 113556
 Content-Type: text/html; charset=UTF-8
-Client-Date: Fri, 18 Oct 2024 22:28:52 GMT
+Client-Date: Sat, 19 Oct 2024 03:16:49 GMT
 Client-Peer: 185.128.239.106:80
 Client-Response-Num: 1
 Link: <https://assets.canalblog.com/c/site/v2024.20.02/images/canalblog/favicon.ico>; rel="icon"

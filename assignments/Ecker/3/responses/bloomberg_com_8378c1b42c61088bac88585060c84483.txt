@@ -1,24 +1,24 @@
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:12 GMT
+Date: Sat, 19 Oct 2024 03:15:11 GMT
 Location: https://bloomberg.com:443/
 Server: awselb/2.0
 Content-Length: 134
 Content-Type: text/html
-Client-Date: Fri, 18 Oct 2024 22:27:12 GMT
-Client-Peer: 15.197.146.156:80
+Client-Date: Sat, 19 Oct 2024 03:15:11 GMT
+Client-Peer: 3.33.146.110:80
 Client-Response-Num: 1
 Title: 301 Moved Permanently
 
 
 HTTP/1.1 301 Moved Permanently
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:12 GMT
+Date: Sat, 19 Oct 2024 03:15:11 GMT
 Location: https://www.bloomberg.com
 Server: awselb/2.0
 Content-Length: 0
 Content-Type: application/octet-stream
-Client-Date: Fri, 18 Oct 2024 22:27:12 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:11 GMT
 Client-Peer: 3.33.146.110:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
@@ -35,13 +35,13 @@ X-Frame-Options: deny
 
 HTTP/1.1 307 s2s_high_score
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:13 GMT
+Date: Sat, 19 Oct 2024 03:15:11 GMT
 Accept-Ranges: bytes
-Location: https://www.bloomberg.com/tosv2.html?vid=&uuid=1f3a18ac-8da0-11ef-b4a9-7ed3d405f9ec&url=Lw==
+Location: https://www.bloomberg.com/tosv2.html?vid=&uuid=5a3a9c37-8dc8-11ef-a77b-cec5071010cd&url=Lw==
 Retry-After: 0
 Server: Varnish
 Content-Length: 0
-Client-Date: Fri, 18 Oct 2024 22:27:13 GMT
+Client-Date: Sat, 19 Oct 2024 03:15:11 GMT
 Client-Peer: 151.101.1.73:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
@@ -50,17 +50,17 @@ Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
 Client-SSL-Socket-Class: IO::Socket::SSL
 Client-SSL-Version: TLSv1_3
 Client-SSL-Warning: Peer certificate not verified
-Set-Cookie: _pxhd=LR7JeYQEeNztZbQrgpm3i1rgjkQtfSEWKqMy/4JYb-rP8aE06HJhWyjjP3HC0ifay13Hial-tcd0w5SptK3SOA==:fSN8sU0GLPd/jctGYieM/yhw6YLd25gDiJfY3/fAG7DgsPNWaFso5aSe-piRT9q7mY1GdgrOSXNkUJzi10PrjueVi-1-nuVozRC/yjLbqzk=; Expires=Fri, 01 Jan 2021 00:00:00 GMT; path=/;
+Set-Cookie: _pxhd=buTQpOPz-g3IWdRYFlFdJIZ4xgISNDONsno4FF6Yaz0OA6eHUJeUSHt8FRMhQY4GwKAmswoBYe3aEcdRzhUFyA==:K-q5UUDm7p3OPbljhU-WkXzrJ6Dh7yiJYmVC9YI6ccwP5fscQ7Q18kjkWr0qVm65qVLfhNvw6gTr22dIc4wmhR0J3b/LsuFAofaRHdZ4yIM=; Expires=Fri, 01 Jan 2021 00:00:00 GMT; path=/;
 Strict-Transport-Security: max-age=31557600
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Served-By: cache-iad-kiad7000126-IAD
+X-Served-By: cache-iad-kjyo7100094-IAD
 
 
 HTTP/1.1 200 OK
 Cache-Control: public, max-age=5, private, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
 Connection: close
-Date: Fri, 18 Oct 2024 22:27:13 GMT
+Date: Sat, 19 Oct 2024 03:15:11 GMT
 Accept-Ranges: bytes
 ETag: "67129045-2dca"
 Server: openresty
@@ -70,8 +70,8 @@ Content-Type: text/html
 Content-Type: text/html; charset=utf-8
 Last-Modified: Fri, 18 Oct 2024 16:43:49 GMT
 Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
-Client-Date: Fri, 18 Oct 2024 22:27:13 GMT
-Client-Peer: 151.101.1.73:443
+Client-Date: Sat, 19 Oct 2024 03:15:12 GMT
+Client-Peer: 151.101.193.73:443
 Client-Response-Num: 1
 Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
 Client-SSL-Cert-Subject: /C=US/ST=New York/L=New York/O=Bloomberg LP/CN=www.bloomberg.com
@@ -86,7 +86,7 @@ X-Cache: MISS
 X-Cache-Hits: 0
 X-Meta-Robots: noindex
 X-Meta-Viewport: width=device-width, initial-scale=1
-X-Served-By: cache-iad-kiad7000085-IAD
-X-Timer: S1729290433.115856,VS0,VE7
+X-Served-By: cache-iad-kjyo7100071-IAD
+X-Timer: S1729307712.977576,VS0,VE7
 
 

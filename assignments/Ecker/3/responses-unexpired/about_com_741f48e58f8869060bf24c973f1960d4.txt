@@ -1,0 +1,119 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=3600
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:05 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Age: 300349
+Location: https://www.dotdash.com/
+Server: Apache/2.4.56 (Amazon Linux) OpenSSL/3.0.8
+Content-Length: 232
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Fri, 18 Oct 2024 22:27:05 GMT
+Client-Peer: 151.101.2.137:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Cache: HIT
+X-Cache-Hits: 28
+X-Served-By: cache-iad-kiad7000024-IAD
+X-Timer: S1729290425.102892,VS0,VE0
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=60
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:05 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://www.dotdashmeredith.com/
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Fri, 18 Oct 2024 22:27:05 GMT
+Client-Peer: 151.101.66.137:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
+Client-SSL-Cert-Subject: /CN=*.dotdash.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000063-IAD
+X-Timer: S1729290425.208149,VS0,VE0
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=60
+Connection: close
+Date: Fri, 18 Oct 2024 22:27:05 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Age: 2638360
+ETag: "20537-I8hKV56F19Rn8Cw3o59Fb7ctP3w"
+Vary: Accept-Encoding
+Content-Length: 132407
+Content-Type: text/html; charset=utf-8
+Client-Date: Fri, 18 Oct 2024 22:27:05 GMT
+Client-Peer: 151.101.66.137:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R10
+Client-SSL-Cert-Subject: /CN=*.dotdashmeredith.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: script-src 'sha256-KXVenHG583A83LgYtdx9xEh45z4umJCe6yQqRczE4bs=' 'self' jobs.jobvite.com www.googletagmanager.com cdn.jwplayer.com ssl.p.jwpcdn.com; worker-src blob:
+Expect-Ct: max-age=0
+Link: <https://fonts.googleapis.com>; data-n-head="ssr"; rel="preconnect"
+Link: <https://fonts.gstatic.com>; crossorigin=""; data-n-head="ssr"; rel="preconnect"
+Link: <https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap>; data-n-head="ssr"; rel="stylesheet"
+Link: </fonts/InstrumentSans_Condensed-Bold.woff2>; as="font"; crossorigin="anonymous"; data-n-head="ssr"; rel="preload"
+Link: </fonts/InstrumentSans_Condensed-BoldItalic.woff2>; as="font"; crossorigin="anonymous"; data-n-head="ssr"; rel="preload"
+Link: </fonts/InstrumentSans_Condensed-Italic.woff2>; as="font"; crossorigin="anonymous"; data-n-head="ssr"; rel="preload"
+Link: </fonts/InstrumentSans_Condensed-Regular.woff2>; as="font"; crossorigin="anonymous"; data-n-head="ssr"; rel="preload"
+Link: </favicon/apple-touch-icon.png>; data-n-head="ssr"; rel="apple-touch-icon"; sizes="180x180"
+Link: </favicon/favicon-32x32.png>; data-n-head="ssr"; rel="icon"; sizes="32x32"; type="image/png"
+Link: </favicon/favicon-16x16.png>; data-n-head="ssr"; rel="icon"; sizes="16x16"; type="image/png"
+Link: </favicon/favicon.ico>; data-n-head="ssr"; rel="icon"
+Link: </favicon/safari-pinned-tab.svg>; color="#000000"; data-n-head="ssr"; rel="mask-icon"
+Link: </_nuxt/0eec141.js>; as="script"; rel="preload"
+Link: </_nuxt/45c3083.js>; as="script"; rel="preload"
+Link: </_nuxt/b25c1c9.js>; as="script"; rel="preload"
+Link: </_nuxt/40a0d87.js>; as="script"; rel="preload"
+Link: </_nuxt/b2c01d2.js>; as="script"; rel="preload"
+Link: </_nuxt/252fa64.js>; as="script"; rel="preload"
+Link: </_nuxt/43cca84.js>; as="script"; rel="preload"
+Link: </_nuxt/7e35abd.js>; as="script"; rel="preload"
+Link: </_nuxt/7baa7fd.js>; as="script"; rel="preload"
+Link: </_nuxt/bfd2086.js>; as="script"; rel="preload"
+Link: </_nuxt/6028093.js>; as="script"; rel="preload"
+Link: </_nuxt/8ddcb9b.js>; as="script"; rel="preload"
+Link: </_nuxt/a709ac4.js>; as="script"; rel="preload"
+Link: </_nuxt/319d922.js>; as="script"; rel="preload"
+Link: </_nuxt/d37c89b.js>; as="script"; rel="preload"
+Link: </_nuxt/e841e54.js>; as="script"; rel="preload"
+Link: </_nuxt/2d6ec7b.js>; as="script"; rel="preload"
+Link: </_nuxt/ecc46f8.js>; as="script"; rel="preload"
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Title: Dotdash Meredith - America's Largest Digital & Print Publisher
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: utf-8
+X-Meta-Description: Dotdash Meredith is America's largest digital and print publisher, with brands including PEOPLE, Better Homes & Gardens, Allrecipes, Investopedia, Verywell, and more! Learn about career opportunities, our leadership team, and how we can help you reach audiences across our network of trusted brands.
+X-Meta-Format-Detection: telephone=no
+X-Meta-Msapplication-TileColor: #2b5797
+X-Meta-Robots: all
+X-Meta-Theme-Color: #000000
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Permitted-Cross-Domain-Policies: none
+X-Served-By: cache-iad-kcgs7200113-IAD, cache-iad-kjyo7100137-IAD
+X-Xss-Protection: 0
+
+
