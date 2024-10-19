@@ -1,7 +1,11 @@
 const fs = require('fs');
-fs.writeFile('Results.csv', "\"Root Domain\", \"Number of HttpOnly\", \"Number of Secure\", \"Number of SameSite\", \"Number of Lax\", \"Number of Strict\", \"Number of None\", \"Termination Code\"\n", (err)=>{
+fs.writeFile('Results.md', "| Root Domain | Number of HttpOnly | Number of Secure | Number of SameSite | Number of Lax | Number of Strict | Number of None | Termination Code |\n", (err)=>{
     if(err) throw err;
 });
+fs.appendFile('Results.md', "| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n", (err)=>{
+    if(err) throw err;
+});
+var average
 fs.readFile('Sites.txt', 'utf8', (err, data)=>{
     if(err){
         console.error(err);
@@ -24,7 +28,6 @@ fs.readFile('Sites.txt', 'utf8', (err, data)=>{
                 }
                 if(cookie.includes('samesite')){
                     sameSite[0]++;
-                    console.log(cookies[i])
                     if(cookie.includes('samesite=lax')){
                         sameSite[1]++;
                     }
@@ -36,8 +39,8 @@ fs.readFile('Sites.txt', 'utf8', (err, data)=>{
                     }
                 }
             }
-            results = "\"".concat(data[i],"\",","\"",HttpOnly,"\",","\"",Secure,"\",","\"",sameSite[0],"\",","\"",sameSite[1],"\",","\"",sameSite[2],"\",","\"",sameSite[3],"\",","\"",response.status,"\"\n")
-            fs.appendFile('results.csv', results, (err)=>{
+            results = "| ".concat(data[i]," | ",HttpOnly," | ",Secure," | ",sameSite[0]," | ",sameSite[1]," | ",sameSite[2]," | ",sameSite[3]," | ",response.status," |\n")
+            fs.appendFile('results.md', results, (err)=>{
                 if (err) throw err;
             })
         }).catch((e)=>{
