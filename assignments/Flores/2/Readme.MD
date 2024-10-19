@@ -2,11 +2,26 @@
 
 This project demonstrates setting up a Node.js server with Express and Cookie-Parser. It includes four paths for favorite artists, musicians, films, or TV series.
 
+## To run the server
+
+node server.js
+
 ## Paths
 - /Johnnycash
 - /gladiator.html
 - /kaijuno8.html
 - /karate-kid.html
+
+## Pages with cookies
+
+![Gladiator page](gladiatorcookie.png)
+
+![Johnny Cash Page](johnnycashcookie.png)
+
+![Kaiju Page](kaijucoookie.png)
+
+
+![Karate Kid Page](karatekidcookie.png)
 
 ## Instructions
 1. Install dependencies: `npm install`
