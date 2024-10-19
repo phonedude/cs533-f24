@@ -162,7 +162,7 @@ This report summarizes the cookie practices of 100 websites.
 
 _Note: Expired cookies are **included** in this analysis._
 
-HTTP responses for each individual URL can be found in the [responses-expired folder](responses-expired/)
+HTTP responses for each individual URL can be found in the [responses folder](responses/)
 
 | No. | URL | Final Status Code | Number of Cookies |
 |-----|-----|-------------------|-------------------|
