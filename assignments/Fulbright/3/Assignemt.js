@@ -79,9 +79,9 @@ async function everytingElse(website){
     }
 
     var output = "\n\nMin: ".concat(min)
-    output=output.concat("\nMax: ", max)
-    output=output.concat("\nMean: ", mean)
-    output=output.concat("\nMedian: ", median)
+    output=output.concat("\n\nMax: ", max)
+    output=output.concat("\n\nMean: ", mean)
+    output=output.concat("\n\nMedian: ", median)
     fs.appendFile('Results.md', output, (err)=>{
         if(err) throw err;
     });
