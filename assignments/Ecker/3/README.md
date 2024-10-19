@@ -1,3 +1,19 @@
+# Assignment 3 CS 533 F24
+## Jim Ecker
+
+This repository contains all of the code developed while completing assignment 3
+
+# Table of Contents
+- [Cookie Practices Report](#cookie-practices-report)
+  - [Website Cookie Table](#website-cookie-table)
+  - [Summary Statistics](#summary-statistics)
+  - [Cookie Attribute Counts](#cookie-attribute-counts)
+- [Instructions on Running the Script](#instructions-on-running-the-script)
+  - [Prerequisites](#prerequisites)
+  - [Prepare the URLs File](#prepare-the-urls-file)
+  - [Run the Script](#run-the-script)
+  - [Output](#output)
+
 # Cookie Practices Report
 
 This report summarizes the cookie practices of 100 websites.
@@ -123,3 +139,55 @@ This report summarizes the cookie practices of 100 websites.
   - **SameSite=None**: 0
 - **Cookies with Path Attribute**: 143
   - **Path not '/'**: 0
+
+
+
+# Instructions on Running the Script
+
+To generate this report yourself, follow these steps:
+
+1. **Prerequisites:**
+
+   - Ensure you have **Perl** installed on your system.
+   - Install the required Perl modules:
+
+     ```bash
+     cpan LWP::UserAgent HTTP::Cookies IO::Socket::SSL Mozilla::CA List::Util POSIX Term::ProgressBar::Simple File::Path Digest::MD5
+     ```
+
+2. **Prepare the URLs File:**
+
+   - Create a text file (e.g., `urls.txt`) containing the list of websites you want to analyze.
+   - Each URL should be on a separate line.
+   - Example `urls.txt` content:
+
+     ```
+     example.com
+     google.com
+     github.com
+     ```
+
+3. **Run the Script:**
+
+   - Ensure the `report.pl` script is executable. If not, set the executable permission:
+
+     ```bash
+     chmod +x report.pl
+     ```
+
+   - Run the script with the URLs file as an argument:
+
+     ```bash
+     ./report.pl urls.txt
+     ```
+
+   - The script will process each URL and collect cookie data.
+
+4. **Output:**
+
+   - Upon completion, the script will generate:
+
+     - A `README.md` file containing the report (this file).
+     - A `responses` directory containing HTTP headers for each URL processed.
+
+   - You can view the `README.md` to see the summary and detailed results.
