@@ -15,21 +15,23 @@ fs.readFile('Sites.txt', 'utf8', (err, data)=>{
             var Secure=0;
             var sameSite=[0,0,0,0];
             for(var i=0;i<cookies.length;i++){
-                if(cookies[i].includes('HttpOnly')){
+                cookie=cookies[i].toLowerCase();
+                if(cookie.includes('httponly')){
                     HttpOnly++;
                 }
-                if(cookies[i].includes('Secure')){
+                if(cookie.includes('secure')){
                     Secure++;
                 }
-                if(cookies[i].includes('SameSite')){
+                if(cookie.includes('samesite')){
                     sameSite[0]++;
-                    if(cookies[i].includes('SameSite=lax')){
+                    console.log(cookies[i])
+                    if(cookie.includes('samesite=lax')){
                         sameSite[1]++;
                     }
-                    else if(cookies[i].includes('SameSite=strict')){
+                    else if(cookie.includes('samesite=strict')){
                         sameSite[2]++;
                     }
-                    else if(cookies[i].includes('SameSite=none')){
+                    else if(cookie.includes('samesite=none')){
                         sameSite[3]++;
                     }
                 }
