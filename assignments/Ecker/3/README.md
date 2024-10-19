@@ -13,7 +13,8 @@ This repository contains all of the code developed while completing assignment 3
   - [Prepare the URLs File](#prepare-the-urls-file)
   - [Run the Script](#run-the-script)
   - [Output](#output)
-
+- [Extra Credit](#extra-credit)
+  
 # Cookie Practices Report
 
 This report summarizes the cookie practices of 100 websites.
