@@ -64,6 +64,7 @@ unless (-d $responses_dir) {
 # Arrays to store data for summary statistics
 my @num_cookies_list;
 my @site_data; # Array of hashes for each site's data
+my @urls_with_path_not_root; # Array to store URLs with Path != "/"
 my %cookie_attribute_counts = (
     HttpOnly        => 0,
     Secure          => 0,
@@ -119,6 +120,7 @@ foreach my $original_url (@urls) {
 
     # Collect Set-Cookie headers from all responses
     my @all_cookies;
+    my $has_non_root_path = 0; # Flag to check for Path != "/"
     foreach my $res (@responses) {
         my @set_cookie_headers = $res->header('Set-Cookie');
         foreach my $set_cookie (@set_cookie_headers) {
@@ -128,11 +130,20 @@ foreach my $original_url (@urls) {
                 next;
             }
             push @all_cookies, $cookie;
+            # Check if Path is defined and not "/"
+            if (defined $cookie->{path} && $cookie->{path} ne '/') {
+                $has_non_root_path = 1;
+            }
         }
     }
 
     my $num_cookies = scalar @all_cookies;
     push @num_cookies_list, $num_cookies;
+
+    # If any cookie has Path != "/", add the URL to the list
+    if ($has_non_root_path) {
+        push @urls_with_path_not_root, $url;
+    }
 
     # Debugging: Print the number of cookies found for each URL
     # Uncomment the following line if you want to see debug info
@@ -259,6 +270,20 @@ print $md_fh "  - **SameSite=None**: $cookie_attribute_counts{SameSite_None}\n";
 print $md_fh "- **Cookies with Path Attribute**: $cookie_attribute_counts{Path}\n";
 print $md_fh "  - **Path not '/'**: $cookie_attribute_counts{Path_NotRoot}\n";
 
+# New Section: URLs with Cookie Path not "/"
+print $md_fh "\n## URLs with Cookie Path not '/'\n\n";
+
+if (@urls_with_path_not_root) {
+    print $md_fh "The following URLs have at least one cookie with the `Path` attribute set to a value other than `/`:\n\n";
+    my $num = 1;
+    foreach my $u (@urls_with_path_not_root) {
+        print $md_fh "$num. $u\n";
+        $num++;
+    }
+} else {
+    print $md_fh "No URLs have cookies with the `Path` attribute set to a value other than `/`.\n";
+}
+
 close($md_fh);
 
 print "\nReport generated in '$output_file'\n";
@@ -293,18 +318,25 @@ sub parse_set_cookie {
     
     # Process the remaining attributes
     foreach my $part (@parts) {
+        # Remove leading and trailing whitespace
+        $part =~ s/^\s+|\s+$//g;
+        
         if ($part =~ /^expires=(.+)$/i) {
             $cookie{expires} = $1;
+            $cookie{expires} =~ s/^\s+|\s+$//g; # Trim whitespace
         } elsif ($part =~ /^path=(.+)$/i) {
             $cookie{path} = $1;
+            $cookie{path} =~ s/^\s+|\s+$//g; # Trim whitespace
         } elsif ($part =~ /^domain=(.+)$/i) {
             $cookie{domain} = $1;
-        } elsif ($part =~ /^secure$/i) {          # Corrected: Using $part
+            $cookie{domain} =~ s/^\s+|\s+$//g; # Trim whitespace
+        } elsif ($part =~ /^secure$/i) {
             $cookie{secure} = 1;
-        } elsif ($part =~ /^httponly$/i) {        # Corrected: Using $part
+        } elsif ($part =~ /^httponly$/i) {
             $cookie{httponly} = 1;
         } elsif ($part =~ /^samesite=(.+)$/i) {
             $cookie{samesite} = $1;
+            $cookie{samesite} =~ s/^\s+|\s+$//g; # Trim whitespace
         }
     }
     
