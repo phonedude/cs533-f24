@@ -3,21 +3,31 @@
 
 This repository contains all of the code developed while completing assignment 3
 
+I am including two reports:
+
+1. [The first](#cookie-practices-report) is only reporting on unexpired cookies that can be added to a CookieJar.
+2. [The second one](#cookie-practices-report---expired-included) includes expired cookies for completeness.
+
 # Table of Contents
 - [Cookie Practices Report](#cookie-practices-report)
-  - [Website Cookie Table](#website-cookie-table)
   - [Summary Statistics](#summary-statistics)
   - [Cookie Attribute Counts](#cookie-attribute-counts)
 - [Cookie Practices Report - Expired Included](#cookie-practices-report---expired-included)
   - [Summary Statistics](#summary-statistics-1)
   - [Cookie Attribute Counts](#cookie-attribute-counts-1)
 - [Instructions on Running the Script](#instructions-on-running-the-script)
+  - [Overview](#overview)
   - [Prerequisites](#prerequisites)
-  - [Prepare the URLs File](#prepare-the-urls-file)
-  - [Run the Script](#run-the-script)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Basic Usage](#basic-usage)
+    - [Including Expired Cookies](#including-expired-cookies)
+    - [Specifying Output File](#specifying-output-file)
+    - [Combining Options](#combining-options)
   - [Output](#output)
+  - [Notes and Considerations](#notes-and-considerations)
 - [Extra Credit](#extra-credit)
-  
+
 # Cookie Practices Report
 
 This report summarizes the cookie practices of 100 websites.
@@ -278,54 +288,124 @@ HTTP responses for each individual URL can be found in the [responses-expired fo
 
 # Instructions on Running the Script
 
-To generate this report yourself, follow these steps:
+## Overview
 
-1. **Prerequisites:**
+The `report.pl` script is a Perl script designed to analyze the cookie practices of a list of websites. It performs the following actions:
 
-   - Ensure you have **Perl** installed on your system.
-   - Install the required Perl modules:
+- Fetches each website and follows redirects.
+- Collects all `Set-Cookie` headers from the responses.
+- Analyzes cookie attributes such as `HttpOnly`, `Secure`, `SameSite`, and `Path`.
+- Generates a Markdown report summarizing the findings.
+- Saves HTTP headers for each website in a `responses` directory.
 
-     ```bash
-     cpan LWP::UserAgent HTTP::Cookies IO::Socket::SSL Mozilla::CA List::Util POSIX Term::ProgressBar::Simple File::Path Digest::MD5
-     ```
+## Prerequisites
 
-2. **Prepare the URLs File:**
+Before running the script, ensure that you have the following installed on your system:
 
-   - Create a text file (e.g., `urls.txt`) containing the list of websites you want to analyze.
-   - Each URL should be on a separate line.
-   - Example `urls.txt` content:
+- **Perl** (version 5.10 or higher is recommended)
+- **Perl Modules**:
+  - `LWP::UserAgent`
+  - `HTTP::Cookies`
+  - `IO::Socket::SSL`
+  - `Mozilla::CA`
+  - `List::Util`
+  - `POSIX`
+  - `Term::ProgressBar::Simple`
+  - `File::Path`
+  - `Digest::MD5`
+  - `HTTP::Headers::Util`
+  - `Time::Piece`
+  - `Getopt::Long`
 
-     ```
-     example.com
-     google.com
-     github.com
-     ```
+## Installation
 
-3. **Run the Script:**
+1. **Install Perl Modules**
 
-   - Ensure the `report.pl` script is executable. If not, set the executable permission:
+   You can install the required Perl modules using CPAN. Run the following command:
 
-     ```bash
-     chmod +x report.pl
-     ```
+   ```bash
+   cpan install LWP::UserAgent HTTP::Cookies IO::Socket::SSL Mozilla::CA List::Util POSIX Term::ProgressBar::Simple File::Path Digest::MD5 HTTP::Headers::Util Time::Piece Getopt::Long
+   ```
 
-   - Run the script with the URLs file as an argument:
+2. **Make the Script Executable**
+   ```bash
+   chmod +x report.pl
+   ```
+## Usage
 
-     ```bash
-     ./report.pl urls.txt
-     ```
+### Basic Usage
 
-   - The script will process each URL and collect cookie data.
+To run the script with default settings:
 
-4. **Output:**
+```bash
+./report.pl urls.txt
+```
 
-   - Upon completion, the script will generate:
+`urls.txt` is a .txt file containing all of the urls to be analyzed, with each url on a line
 
-     - A `README.md` file containing the report (this file).
-     - A `responses` directory containing HTTP headers for each URL processed.
+#### Including Expired Cookies
 
-   - You can view the `README.md` to see the summary and detailed results.
+By default, the script excludes expired cookies from the analysis. To include expired cookies, use the `--include-expired` flag:
 
+```bash
+./report.pl --include-expired urls.txt
+```
+
+#### Specifying Output File
+
+By default, the script generates the report as `README.md`. To specify a different output file, use the `-o` or `--output` option:
+
+```bash
+./report.pl -o report.md urls.txt
+```
+
+#### Combining Options
+
+Of course, you can combine the `--include-expired` flag and the `-o` option:
+
+```bash
+./report.pl --include-expired -o full_report.md urls.txt
+```
+   
+#### Output
+
+- **Report File**
+
+  The script generates a Markdown report summarizing the cookie practices. By default, it's named `README.md`, but you can specify a different name using the `-o` option.
+
+- **Responses Directory**
+
+  A directory named `responses` is created, containing the HTTP headers for each website processed. The headers include all redirects and are formatted similarly to the output of `curl -I -L -s -k`. Each file has its MD5 hash appended to the url as its file name to avoid naming collisions.
+
+### Notes and Considerations
+
+- **URL Format**
+  
+  - Ensure that your URLs are correctly formatted.
+  - If a URL does not include a scheme (`http://` or `https://`), the script will try `http://` first and then `https://` if needed.
+
+- **Expired Cookies**
+  
+  - Expired cookies are those with an `Expires` attribute in the past.
+  - By default, expired cookies are **excluded** from the analysis.
+  - Use `--include-expired` to include them.
+
+- **Dependencies**
+  
+  - All required Perl modules must be installed prior to running the script.
+  - Some modules may require additional libraries or tools (e.g., `IO::Socket::SSL` may require OpenSSL).
+
+- **Time Synchronization**
+  
+  - The script uses the system's current time to determine if cookies are expired.
+  - Ensure your system clock is accurate.
+
+- **Date Parsing**
+  
+  - The script assumes the `Expires` attribute in cookies follows the format: `Wdy, DD-Mon-YYYY HH:MM:SS GMT`.
+  - If cookies use different date formats, you may need to adjust the `strptime` pattern in the `is_cookie_expired` function.
+  - If parsing fails, the cookie is treated as **not expired** to avoid false exclusions.
+  
 # Extra Credit
 
 I know the Turtles all the Way Down reference from two main sources, ["Surely You Must be Joking Mr. Feynman" by Richard Feynman](https://en.wikipedia.org/wiki/Surely_You%27re_Joking,_Mr._Feynman!) and ["A Brief History of Time" by Stephen Hawking](https://en.wikipedia.org/wiki/A_Brief_History_of_Time). Hawking tells it as a story about a Physics professor explaining the mechanics of the solar system and a little old lady coming up to him and saying "don't you know the Earth rests on the back of a giant turtle?" To which the professor replies, "well whats under the turtle?" The little old lady replies "its turtles all the way down!" Feynman tells it in the first person claming it was he, who was the Physics professor in the story. Anyway, its about infinite regress where the relationship of a thing can include the thing in subsequent instances of the thing.
