@@ -3,6 +3,8 @@
 
 This repository contains all of the code developed while completing assignment 3
 
+HTTP responses for each individual URL can be found in the [responses folder](responses/)
+
 # Table of Contents
 - [Cookie Practices Report](#cookie-practices-report)
   - [Website Cookie Table](#website-cookie-table)
