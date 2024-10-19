@@ -1,5 +1,5 @@
 const fs = require('fs');
-fs.writeFile('Results.md', "\"Root Domain\", \"Number of HttpOnly\", \"Number of Secure\", \"Number of SameSite\", \"Number of Lax\", \"Number of Strict\", \"Number of None\", \"Termination Code\"\n", (err)=>{
+fs.writeFile('Results.csv', "\"Root Domain\", \"Number of HttpOnly\", \"Number of Secure\", \"Number of SameSite\", \"Number of Lax\", \"Number of Strict\", \"Number of None\", \"Termination Code\"\n", (err)=>{
     if(err) throw err;
 });
 fs.readFile('Sites.txt', 'utf8', (err, data)=>{
@@ -35,7 +35,7 @@ fs.readFile('Sites.txt', 'utf8', (err, data)=>{
                 }
             }
             results = "\"".concat(data[i],"\",","\"",HttpOnly,"\",","\"",Secure,"\",","\"",sameSite[0],"\",","\"",sameSite[1],"\",","\"",sameSite[2],"\",","\"",sameSite[3],"\",","\"",response.status,"\"\n")
-            fs.appendFile('results.md', results, (err)=>{
+            fs.appendFile('results.csv', results, (err)=>{
                 if (err) throw err;
             })
         }).catch((e)=>{
