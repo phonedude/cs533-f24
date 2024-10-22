@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 08 Oct 2024 00:08:48 GMT
+Connection: keep-alive
+Location: https://www.trustpilot.com/
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+date: Tue, 08 Oct 2024 00:04:53 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: deny
+cache-control: public, max-age=1200
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 03a399d73bdcccc9e7ad44d059b07ef4.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C1
+x-amz-cf-id: ump5Vt4UXC-7cIX58xhKeVnaOet1sUB5JSZ896aBy_TJRcGNGFRucA==
+age: 235
+

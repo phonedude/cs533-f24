@@ -1,0 +1,49 @@
+HTTP/1.1 302 Found
+Location: https://www.google.com/chrome
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Tue, 08 Oct 2024 00:08:47 GMT
+Server: sffe
+Content-Length: 226
+X-XSS-Protection: 0
+
+HTTP/2 301 
+location: https://www.google.com/chrome/
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+accept-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+critical-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+vary: Accept-Encoding, Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+date: Tue, 08 Oct 2024 00:08:47 GMT
+expires: Tue, 08 Oct 2024 00:38:47 GMT
+cache-control: public, max-age=1800
+server: sffe
+content-length: 227
+x-xss-protection: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+accept-ranges: bytes
+vary: Accept-Encoding, Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+content-type: text/html; charset=UTF-8
+content-length: 484386
+content-security-policy-report-only: script-src  'nonce-v3edXKSXUaVSKkCeAkzC5g' 'report-sample' 'self' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https: https://analytics.google.com https://ssl.google-analytics.com https://www.google-analytics.com https://www.google.com https://www.googleadservices.com https://www.gstatic.com/; object-src 'none'; img-src * data:; connect-src 'self' *.analytics.google.com *.g.doubleclick.net *.google-analytics.com adservice.google.com https://*.googlesyndication.com/ https://analytics.google.com https://www.google-analytics.com https://www.google.com https://www.gstatic.com/; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome; base-uri 'none'
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy-report-only: same-origin; report-to="uxe-owners-acl/chrome"
+report-to: {"group":"uxe-owners-acl/chrome","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/chrome"}]}
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+date: Tue, 08 Oct 2024 00:08:47 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+last-modified: Thu, 03 Oct 2024 20:00:00 GMT
+x-content-type-options: nosniff
+accept-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+critical-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+server: sffe
+x-xss-protection: 0
+set-cookie: NID=518=vuqIzYZmU4d6SPk6KpQ84O-JZ27za3NG5pZ138t9h9okfoZJgt4gaq6Nr5mtfq6PexAYfwqmFJAEjd81bBOyFU5PbqJp-G-xHjs3OSu6tHcKkchpUZQMk2MuBKiGR3bW1jfcbxh9vuYHLoSsBcVTzjLlWC2zxstHXIVOxJ6PaurE0AccZw; expires=Wed, 09-Apr-2025 00:08:47 GMT; path=/; domain=.google.com; HttpOnly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

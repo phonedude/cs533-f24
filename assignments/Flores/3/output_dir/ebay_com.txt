@@ -1,0 +1,849 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://ebay.com/
+Expires: Tue, 08 Oct 2024 00:06:52 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 08 Oct 2024 00:06:52 GMT
+Connection: keep-alive
+
+HTTP/2 301 
+location: https://www.ebay.com/
+x-ebay-pop-id: SLBLVSAZ04
+server: ebay-proxy-server
+expires: Tue, 08 Oct 2024 00:06:52 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Tue, 08 Oct 2024 00:06:52 GMT
+strict-transport-security: max-age=31536000
+
+HTTP/2 302 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: https://www.ebay.com/n/error
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 65
+x-ebay-mesh-server-pod-ip: 10.111.20.35
+x-ebay-mesh-server-duration: 4
+x-ebay-mesh-server-start: 2024-10-08T00:06:52.927Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-slcaz04-02
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-02-6dd999d5b6-8xxmf
+x-ebay-mesh-gw-pod-ip: 10.81.238.213
+x-ebay-mesh-gw-upstream-duration: 8
+x-ebay-mesh-gw-duration: 9
+x-ebay-mesh-gw-start: 2024-10-08T00:06:52.923Z
+x-ebay-mesh-gw-response-flag: -
+x-ebay-tlb-host: Not Found
+x-ebay-tlb-duration: 201
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:52 GMT
+set-cookie: __deba=2NPywP_ryYlCM-ywW8QgV2ymNvn2nfwUr0tjcKkImUqJnGRS5Hldj_no8jaGmwVfXR8UW1J2_XMwSXzXGqPFGHLdNl1xDMjAVeVcndkRMAvySZdvXm2qlOMpnpAxRqG3rgmrzzQh5P4yngnO-XVIhw==; HttpOnly; Secure; Path=/; Domain=.ebay.com; Expires=Sun, 6 Apr 2025 00:06:52 UTC
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 70
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:53 GMT
+
+HTTP/1.1 301 Moved Permanently
+Location: https://pages.ebay.com/messages/page_not_responding.html
+x-ebay-pop-id: SLBSLCAZ01
+Server: ebay-proxy-server
+Content-Length: 0
+Date: Tue, 08 Oct 2024 00:06:53 GMT
+Connection: keep-alive
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:53 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 53
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:53 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:53 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 68
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:53 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:53 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 66
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:54 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:54 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 77
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:54 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:54 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 64
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:54 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:54 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 77
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:54 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:55 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 82
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:55 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:55 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 61
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:55 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:55 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 80
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 62
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 68
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 81
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 78
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 102
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:56 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 66
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:57 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:57 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 66
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:57 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:57 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 453
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:57 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 54
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 79
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 80
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 94
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 303 
+traceid: 01c304a300bc01f4e5e051c9e042be0a
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 87
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 301 
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.22d621c%60%3Ce*5wuo%3B-19269428b7e-0x234a
+content-security-policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+location: https://www.ebay.com/n/error?statuscode=500
+content-length: 0
+x-envoy-upstream-service-time: 29
+x-ebay-mesh-server-pod-ip: 10.98.166.23
+x-ebay-mesh-server-duration: 1
+x-ebay-mesh-server-start: 2024-10-07T23:13:41.757Z
+x-ebay-mesh-server-response-flag: -
+server: ebay-proxy-server
+x-ebay-mesh-gw-name: istioingressgateway-production-rnoaz06-03
+x-ebay-mesh-gw-pod-name: istio-ingressgateway-03-684ccbcd78-57zjp
+x-ebay-mesh-gw-pod-ip: 10.115.148.255
+x-ebay-mesh-gw-upstream-duration: 4
+x-ebay-mesh-gw-duration: 4
+x-ebay-mesh-gw-start: 2024-10-07T23:13:41.755Z
+x-ebay-mesh-gw-response-flag: -
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBSLCAZ01
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
+HTTP/2 303 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+location: http://pages.ebay.com/messages/page_not_responding.html
+content-length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 66
+server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+date: Tue, 08 Oct 2024 00:06:58 GMT
+
