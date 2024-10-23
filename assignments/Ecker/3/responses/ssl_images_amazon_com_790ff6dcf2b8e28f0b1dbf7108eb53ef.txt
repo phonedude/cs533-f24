@@ -1,0 +1,6 @@
+HTTP/1.1 500 Can't connect to ssl-images-amazon.com:443 (No address associated with hostname)
+Content-Type: text/plain
+Client-Date: Sat, 19 Oct 2024 04:22:38 GMT
+Client-Warning: Internal response
+
+

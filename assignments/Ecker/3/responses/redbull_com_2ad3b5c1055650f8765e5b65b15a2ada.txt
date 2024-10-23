@@ -1,0 +1,154 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:35 GMT
+Location: https://www.redbull.com/
+Server: AkamaiGHost
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:34 GMT
+Client-Peer: 23.207.202.16:80
+Client-Response-Num: 1
+
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:35 GMT
+Location: https://www.redbull.com/us-en
+Server: AkamaiGHost
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:35 GMT
+Client-Peer: 23.38.126.18:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Organization Validation Secure Server CA
+Client-SSL-Cert-Subject: /C=AT/ST=Salzburg/O=Red Bull GmbH/CN=redbull.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Extended-Stale-Cache-Match: true
+X-Redirect-Chain: Geo_Redirections
+
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=600
+Connection: close
+Connection: Transfer-Encoding
+Date: Sat, 19 Oct 2024 04:22:35 GMT
+ETag: W/"bf0b3-7q24+qBW0iQ9rX0sMlH07LR/NpM"
+Content-Type: text/html; charset=utf-8
+Application-Name: consumer-app
+Client-Date: Sat, 19 Oct 2024 04:22:35 GMT
+Client-Peer: 23.38.126.18:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo ECC Organization Validation Secure Server CA
+Client-SSL-Cert-Subject: /C=AT/ST=Salzburg/O=Red Bull GmbH/CN=redbull.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Link: <https://img.redbull.com>; rel="preconnect"
+Link: <https://static-cosmos.redbull.com>; rel="preconnect"
+Link: <https://resources.redbull.com>; rel="preconnect"
+Link: <https://qm.redbull.com>; crossorigin=""; rel="preconnect"
+Link: <https://cs.liiift.io>; rel="preconnect"
+Link: <https://img.redbull.com/images/t_favicon_16/favicons/www.redbull.com/single-bull/favicon-16.png>; rel="icon"; sizes="16x16"
+Link: <https://img.redbull.com/images/t_favicon_32/favicons/www.redbull.com/single-bull/favicon-32.png>; rel="icon"; sizes="32x32"
+Link: <https://img.redbull.com/images/t_favicon_96/favicons/www.redbull.com/single-bull/favicon-96.png>; rel="icon"; sizes="96x96"
+Link: <https://img.redbull.com/images/t_favicon_192/favicons/www.redbull.com/single-bull/favicon-192.png>; rel="icon"; sizes="192x192"
+Link: <https://img.redbull.com/images/t_apple-touch-icon_180/favicons/www.redbull.com/single-bull/apple-touch-icon-180.png>; rel="apple-touch-icon"
+Link: <https://img.redbull.com/images/t_apple-touch-icon_180/favicons/www.redbull.com/single-bull/apple-touch-icon-180.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: </v3/resources/manifest.json>; rel="manifest"
+Link: </v3/resources/opensearch.xml>; rel="search"; type="application/opensearchdescription+xml"
+Link: <https://www.redbull.com/us-en>; id="publicUrl"; rel="canonical"
+Link: <https://www.redbull.com/al-sq>; hreflang="sq-al"; rel="alternate"
+Link: <https://www.redbull.com/ar-es>; hreflang="es-ar"; rel="alternate"
+Link: <https://www.redbull.com/at-de>; hreflang="de-at"; rel="alternate"
+Link: <https://www.redbull.com/au-en>; hreflang="en-au"; rel="alternate"
+Link: <https://www.redbull.com/az-az>; hreflang="az-az"; rel="alternate"
+Link: <https://www.redbull.com/ba-bs>; hreflang="bs-ba"; rel="alternate"
+Link: <https://www.redbull.com/be-fr>; hreflang="fr-be"; rel="alternate"
+Link: <https://www.redbull.com/be-nl>; hreflang="nl-be"; rel="alternate"
+Link: <https://www.redbull.com/bg-bg>; hreflang="bg-bg"; rel="alternate"
+Link: <https://www.redbull.com/br-pt>; hreflang="pt-br"; rel="alternate"
+Link: <https://www.redbull.com/ca-en>; hreflang="en-ca"; rel="alternate"
+Link: <https://www.redbull.com/ca-fr>; hreflang="fr-ca"; rel="alternate"
+Link: <https://www.redbull.com/car-en>; hreflang="en-029"; rel="alternate"
+Link: <https://www.redbull.com/car-es>; hreflang="es-029"; rel="alternate"
+Link: <https://www.redbull.com/ch-de>; hreflang="de-ch"; rel="alternate"
+Link: <https://www.redbull.com/ch-fr>; hreflang="fr-ch"; rel="alternate"
+Link: <https://www.redbull.com/cl-es>; hreflang="es-cl"; rel="alternate"
+Link: <https://www.redbull.com/cn-zh>; hreflang="zh-cn"; rel="alternate"
+Link: <https://www.redbull.com/co-es>; hreflang="es-co"; rel="alternate"
+Link: <https://www.redbull.com/cz-cs>; hreflang="cs-cz"; rel="alternate"
+Link: <https://www.redbull.com/de-de>; hreflang="de-de"; rel="alternate"
+Link: <https://www.redbull.com/dk-da>; hreflang="da-dk"; rel="alternate"
+Link: <https://www.redbull.com/dz-fr>; hreflang="fr-dz"; rel="alternate"
+Link: <https://www.redbull.com/ec-es>; hreflang="es-ec"; rel="alternate"
+Link: <https://www.redbull.com/ee-et>; hreflang="et-ee"; rel="alternate"
+Link: <https://www.redbull.com/eg-ar>; hreflang="ar-eg"; rel="alternate"
+Link: <https://www.redbull.com/es-es>; hreflang="es-es"; rel="alternate"
+Link: <https://www.redbull.com/fi-fi>; hreflang="fi-fi"; rel="alternate"
+Link: <https://www.redbull.com/fr-fr>; hreflang="fr-fr"; rel="alternate"
+Link: <https://www.redbull.com/gb-en>; hreflang="en-gb"; rel="alternate"
+Link: <https://www.redbull.com/gr-el>; hreflang="el-gr"; rel="alternate"
+Link: <https://www.redbull.com/hk-zh>; hreflang="zh-hk"; rel="alternate"
+Link: <https://www.redbull.com/hr-hr>; hreflang="hr-hr"; rel="alternate"
+Link: <https://www.redbull.com/hu-hu>; hreflang="hu-hu"; rel="alternate"
+Link: <https://www.redbull.com/id-id>; hreflang="id-id"; rel="alternate"
+Link: <https://www.redbull.com/ie-en>; hreflang="en-ie"; rel="alternate"
+Link: <https://www.redbull.com/in-en>; hreflang="en-in"; rel="alternate"
+Link: <https://www.redbull.com/in-hi>; hreflang="hi-in"; rel="alternate"
+Link: <https://www.redbull.com/int-en>; hreflang="x-default"; rel="alternate"
+Link: <https://www.redbull.com/int-en>; hreflang="en"; rel="alternate"
+Link: <https://www.redbull.com/int-es>; hreflang="es"; rel="alternate"
+Link: <https://www.redbull.com/it-it>; hreflang="it-it"; rel="alternate"
+Link: <https://www.redbull.com/jp-ja>; hreflang="ja-jp"; rel="alternate"
+Link: <https://www.redbull.com/ke-en>; hreflang="en-ke"; rel="alternate"
+Link: <https://www.redbull.com/kr-ko>; hreflang="ko-kr"; rel="alternate"
+Link: <https://www.redbull.com/kz-ru>; hreflang="ru-kz"; rel="alternate"
+Link: <https://www.redbull.com/lt-lt>; hreflang="lt-lt"; rel="alternate"
+Link: <https://www.redbull.com/lv-lv>; hreflang="lv-lv"; rel="alternate"
+Link: <https://www.redbull.com/mea-ar>; hreflang="ar-145"; rel="alternate"
+Link: <https://www.redbull.com/mea-en>; hreflang="en-145"; rel="alternate"
+Link: <https://www.redbull.com/mk-mk>; hreflang="mk-mk"; rel="alternate"
+Link: <https://www.redbull.com/mx-es>; hreflang="es-mx"; rel="alternate"
+Link: <https://www.redbull.com/my-en>; hreflang="en-my"; rel="alternate"
+Link: <https://www.redbull.com/ng-en>; hreflang="en-ng"; rel="alternate"
+Link: <https://www.redbull.com/nl-nl>; hreflang="nl-nl"; rel="alternate"
+Link: <https://www.redbull.com/no-no>; hreflang="no-no"; rel="alternate"
+Link: <https://www.redbull.com/nz-en>; hreflang="en-nz"; rel="alternate"
+Link: <https://www.redbull.com/pe-es>; hreflang="es-pe"; rel="alternate"
+Link: <https://www.redbull.com/ph-en>; hreflang="en-ph"; rel="alternate"
+Link: <https://www.redbull.com/pk-en>; hreflang="en-pk"; rel="alternate"
+Link: <https://www.redbull.com/pl-pl>; hreflang="pl-pl"; rel="alternate"
+Link: <https://www.redbull.com/pt-pt>; hreflang="pt-pt"; rel="alternate"
+Link: <https://www.redbull.com/ro-ro>; hreflang="ro-ro"; rel="alternate"
+Link: <https://www.redbull.com/rs-sr>; hreflang="sr-rs"; rel="alternate"
+Link: <https://www.redbull.com/ru-ru>; hreflang="ru-ru"; rel="alternate"
+Link: <https://www.redbull.com/se-en>; hreflang="en-se"; rel="alternate"
+Link: <https://www.redbull.com/sg-en>; hreflang="en-sg"; rel="alternate"
+Link: <https://www.redbull.com/si-sl>; hreflang="sl-si"; rel="alternate"
+Link: <https://www.redbull.com/sk-sk>; hreflang="sk-sk"; rel="alternate"
+Link: <https://www.redbull.com/th-th>; hreflang="th-th"; rel="alternate"
+Link: <https://www.redbull.com/tr-tr>; hreflang="tr-tr"; rel="alternate"
+Link: <https://www.redbull.com/tw-zh>; hreflang="zh-Hant"; rel="alternate"
+Link: <https://www.redbull.com/ua-uk>; hreflang="uk-ua"; rel="alternate"
+Link: <https://www.redbull.com/us-en>; hreflang="en-us"; rel="alternate"
+Link: <https://www.redbull.com/za-en>; hreflang="en-za"; rel="alternate"
+Set-Cookie: rb_geolocation=us; path=/
+Title: Red Bull Energy Drink – Gives You Wiiings
+X-Akamai-User-Cache-Control: public, max-age=600
+X-Content-Type-Options: nosniff
+X-Extended-Stale-Cache-Match: true
+X-Frame-Options: sameorigin
+X-Meta-Charset: utf-8
+X-Meta-Description: Welcome to the World of Red Bull. Find the latest news and stories about our energy drinks, athletes, artists, content, events, livestreams and more. 
+X-Meta-Google-Site-Verification: id90zZCX95dykFhAP-n6MWAp8d-3Bxp0x4im8Eo2Ez4
+X-Meta-Msapplication-Config: /v3/resources/browserconfig.xml
+X-Meta-Robots: max-image-preview:large
+X-Meta-Theme-Color: #001e3c
+X-Meta-Viewport: width=device-width,initial-scale=1
+X-Redirect-Chain: VMGR04
+X-XSS-Protection: 1;mode=block
+
+

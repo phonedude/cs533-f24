@@ -1,0 +1,79 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:00 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://apache.org/
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:21:59 GMT
+Client-Peer: 151.101.2.132:80
+Client-Response-Num: 1
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kjyo7100137-IAD
+X-Timer: S1729311720.194969,VS0,VE0
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:00 GMT
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Age: 3513
+ETag: "fc07-624ca4412286b"
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 64519
+Content-Type: text/html
+Expires: Sat, 19 Oct 2024 02:23:25 GMT
+Last-Modified: Sat, 19 Oct 2024 01:23:24 GMT
+Client-Date: Sat, 19 Oct 2024 04:21:59 GMT
+Client-Peer: 151.101.2.132:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
+Client-SSL-Cert-Subject: /CN=apache.org
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: default-src 'self' data: 'unsafe-inline' https://www.apachecon.com/ https://analytics.apache.org/ http://analytics.apache.org/ https://www.youtube-nocookie.com https://www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://analytics.apache.org/ http://analytics.apache.org/ https://www.youtube-nocookie.com https://www.youtube.com; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; img-src 'self' 'https://www.apache.org/';
+Link: </favicons/apple-touch-icon-57x57.png>; rel="apple-touch-icon"; sizes="57x57"
+Link: </favicons/apple-touch-icon-60x60.png>; rel="apple-touch-icon"; sizes="60x60"
+Link: </favicons/apple-touch-icon-72x72.png>; rel="apple-touch-icon"; sizes="72x72"
+Link: </favicons/apple-touch-icon-76x76.png>; rel="apple-touch-icon"; sizes="76x76"
+Link: </favicons/apple-touch-icon-114x114.png>; rel="apple-touch-icon"; sizes="114x114"
+Link: </favicons/apple-touch-icon-120x120.png>; rel="apple-touch-icon"; sizes="120x120"
+Link: </favicons/apple-touch-icon-144x144.png>; rel="apple-touch-icon"; sizes="144x144"
+Link: </favicons/apple-touch-icon-152x152.png>; rel="apple-touch-icon"; sizes="152x152"
+Link: </favicons/apple-touch-icon-180x180.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: </favicons/favicon-32x32.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: </favicons/favicon-194x194.png>; rel="icon"; sizes="194x194"; type="image/png"
+Link: </favicons/favicon-96x96.png>; rel="icon"; sizes="96x96"; type="image/png"
+Link: </favicons/android-chrome-192x192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: </favicons/favicon-16x16.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: </favicons/manifest.json>; rel="manifest"
+Link: </favicons/favicon.ico>; rel="shortcut icon"
+Link: </css/Montserrat-300-600.css>; rel="stylesheet"
+Link: </css/min.bootstrap.css>; rel="stylesheet"
+Link: </css/styles.css>; rel="stylesheet"
+Link: </css/new-ui.css>; rel="stylesheet"
+Link: </_pagefind/pagefind-ui.css>; rel="stylesheet"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Title: Welcome to The Apache Software Foundation!
+X-Cache: HIT, HIT
+X-Cache-Hits: 5, 4
+X-Meta-Charset: utf-8
+X-Meta-Description: Home page of The Apache Software Foundation
+X-Meta-Msapplication-Config: /favicons/browserconfig.xml
+X-Meta-Msapplication-TileColor: #603cba
+X-Meta-Msapplication-TileImage: /favicons/mstile-144x144.png
+X-Meta-Theme-Color: #282661
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Served-By: cache-hel1410034-HEL, cache-iad-kiad7000159-IAD
+X-Timer: S1729311720.274538,VS0,VE0
+X-UA-Compatible: IE=edge
+
+

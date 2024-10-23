@@ -1,0 +1,118 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-store, max-age=0
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:44 GMT
+Pragma: no-cache
+Location: https://tmz.com/
+Server: EasyRedir
+Content-Length: 158
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 04:22:43 GMT
+Client-Peer: 13.248.160.137:80
+Client-Response-Num: 1
+ER-Request-ID: a9eff671237df4c0fc8af7cf3032f550
+Title: 301 Moved Permanently
+X-Content-Type-Options: nosniff
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-store, max-age=0
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:44 GMT
+Pragma: no-cache
+Location: https://www.tmz.com/
+Server: EasyRedir
+Content-Length: 158
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 04:22:44 GMT
+Client-Peer: 13.248.160.137:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R11
+Client-SSL-Cert-Subject: /CN=tmz.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+ER-Request-ID: 37d645ae8c3126a3fbb85ba15594f6a5
+ER-Rule-Id: r-006bd06f-a30a-4117-97f7-edd8de7e158a
+Title: 301 Moved Permanently
+X-Content-Type-Options: nosniff
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=30, public, s-maxage=60
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:28 GMT
+Via: 1.1 78155beece79c9273afed07bfc32411a.cloudfront.net (CloudFront)
+Age: 16
+Server: Apache
+Vary: CloudFront-Viewer-Country,Accept-Encoding
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Platform, Sec-CH-UA
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Sat, 19 Oct 2024 04:22:44 GMT
+Client-Peer: 18.165.116.101:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon ECDSA 256 M03
+Client-SSL-Cert-Subject: /CN=tmz.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy: upgrade-insecure-requests;
+Link: <https://imagez.tmz.com>; rel="preconnect"; crossorigin="anonymous",<https://static.tmz.com>; rel="preconnect"; crossorigin="anonymous",<https://strike.fox.com>; rel="preconnect",<https://foxkit.fox.com>; rel="preconnect"
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-mobile=*, ch-ua-model=*, ch-ua-platform-version=*, ch-ua-platform=*, ch-ua=*
+Referrer-Policy: unsafe-url
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Title: Celebrity News | Entertainment News | TMZ.com
+X-Amz-Cf-Id: yYTkmNvb4bwQsNnVdVvfu0qVzH1iWTAJKJnh1QG8fjOjyTmh4bhzkg==
+X-Amz-Cf-Pop: ATL58-P6
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+X-Fpc: hit
+X-Fpc-Key: 9e4e124dd26ff10f21514103a1262bfd855aed20a2e0b371a6cd3c6d983d027d
+X-Frame-Options: SAMEORIGIN
+X-Meta-Apple-Itunes-App: app-id=299948601
+X-Meta-Apple-Mobile-Web-App-Capable: yes
+X-Meta-Apple-Mobile-Web-App-Status-Bar-Style: black
+X-Meta-Apple-Mobile-Web-App-Title: TMZ.COM
+X-Meta-Application-Name: TMZ.COM
+X-Meta-Charset: utf-8
+X-Meta-Description: Breaking the biggest stories in celebrity and entertainment news. Get exclusive access to the latest stories, photos, and video as only TMZ can.
+X-Meta-Google-Site-Verification: UUmtbUBf3djgPpCeLefe_PbFsOc6JGxfXmHzpjFLAEQ
+X-Meta-Mobile-Web-App-Capable: yes
+X-Meta-Msapplication-Navbutton-Color: #000000
+X-Meta-Msapplication-Starturl: https://www.tmz.com/?adid=IE9pin
+X-Meta-Msapplication-Task: name=Home;action-uri=https://www.tmz.com/;icon-uri=https://static.tmz.com/tmz-web/icons/favicon-32x32-v1.png
+X-Meta-Msapplication-Task: name=Videos;action-uri=https://www.tmz.com/watch/;icon-uri=https://static.tmz.com/tmz-web/icons/favicon-32x32-v1.png
+X-Meta-Msapplication-Task: name=Photos;action-uri=https://www.tmz.com/photos/;icon-uri=https://static.tmz.com/tmz-web/icons/favicon-32x32-v1.png
+X-Meta-Msapplication-TileColor: #000000
+X-Meta-Msapplication-TileImage: https://static.tmz.com/tmz-web/icons/msapplication-tile-image-270x270-v1.png
+X-Meta-Msapplication-Tooltip: TMZ | Entertainment News
+X-Meta-Msapplication-Window: width=1024;height=768
+X-Meta-Msvalidate.01: AFEB17971BCF30779AEA662782EF26F4
+X-Meta-P-Domain-Verify: 933e74ace98032aadbc3328616280038
+X-Meta-Referrer: unsafe-url
+X-Meta-Robots: index,follow
+X-Meta-Theme-Color: #000000
+X-Meta-Twitter-App-Id-Googleplay: com.rhythmnewmedia.tmz
+X-Meta-Twitter-App-Id-Ipad: 299948601
+X-Meta-Twitter-App-Id-Iphone: 299948601
+X-Meta-Twitter-App-Name-Googleplay: TMZ
+X-Meta-Twitter-App-Name-Ipad: TMZ
+X-Meta-Twitter-App-Name-Iphone: TMZ
+X-Meta-Twitter-App-Url-Googleplay: https://play.google.com/store/apps/details?id=com.rhythmnewmedia.tmz&utm_source=twittermeta&utm_medium=social&utm_campaign=twitter-meta
+X-Meta-Twitter-App-Url-Ipad: https://itunes.apple.com/app/apple-store/id299948601?pt=201436&ct=Twitter%20Meta&mt=8
+X-Meta-Twitter-App-Url-Iphone: https://itunes.apple.com/app/apple-store/id299948601?pt=201436&ct=Twitter%20Meta&mt=8
+X-Meta-Twitter-Card: app
+X-Meta-Twitter-Description: Get everything TMZ in the palm of your hand -- from 24/7 exclusives and breaking celebrity news to the hottest videos and galleries Plus ... watch "TMZ Live", "TMZ Sports" and clips from "TMZ" TV without ever leaving the app.
+X-Meta-Twitter-Site: @TMZ
+X-Meta-Verify-V1: Wtpd0N6FufoE2XqopQJoTjWV6Co/Mny9BTaswPJbPPA=
+X-Meta-Viewport: width=device-width,initial-scale=1,minimum-scale=0.25,maximum-scale=10
+X-Meta-Y-Key: 14cb04e4656b0c58
+X-UA-Compatible: IE=Edge,chrome=1
+X-XSS-Protection: 1; mode=block
+
+

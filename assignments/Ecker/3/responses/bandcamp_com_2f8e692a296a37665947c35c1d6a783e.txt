@@ -1,0 +1,59 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:00 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Location: https://bandcamp.com/
+Retry-After: 0
+Server: Varnish
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:00 GMT
+Client-Peer: 151.101.1.91:80
+Client-Response-Num: 1
+Strict-Transport-Security: max-age=63072000
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000149-IAD
+X-Timer: S1729311720.360692,VS0,VE0
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:00 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Server: nginx
+Vary: Accept-Encoding, Accept-Encoding
+Content-Length: 531922
+Content-Type: text/html; charset=UTF-8
+Client-Date: Sat, 19 Oct 2024 04:22:00 GMT
+Client-Peer: 151.101.1.91:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q3
+Client-SSL-Cert-Subject: /CN=*.bandcamp.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-OXTX45BL0ANouQ2bJQRewg==' 'report-sample' 'strict-dynamic'
+Link: <https://bandcamp.com/>;   rel="canonical"
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: client_id=DD01DBE5E095A40B8F31922B2A18E5CCD33E0E5AE8FF8D4740894E6EB695DF91; domain=.bandcamp.com; path=/; expires=Tue, 17 Oct 2034 04:22:00 -0000; secure; HttpOnly; SameSite=Lax
+Set-Cookie: session=1%09r%3A%5B%22nilZ0f0x1729311720%22%5D%09t%3A1729311720; domain=.bandcamp.com; path=/; expires=Tue, 03 Dec 2024 04:22:00 GMT
+Set-Cookie: unique_24h=223; domain=.bandcamp.com; path=/; expires=Sun, 20 Oct 2024 04:22:00 GMT
+Set-Cookie: session=1%09r%3A%5B%22nilZ0f0x1729311720%22%5D%09t%3A1729311720; domain=.bandcamp.com; path=/; expires=Tue, 03 Dec 2024 04:22:00 GMT
+Set-Cookie: cart_client_id=DD01DBE5E095A40B8F31922B2A18E5CCD33E0E5AE8FF8D4740894E6EB695DF91; domain=.bandcamp.com; path=/; expires=Sun, 19 Oct 2025 04:22:00 -0000; secure; HttpOnly; SameSite=Lax
+Set-Cookie: BACKENDID3=flexocentral-731z-1; path=/; Secure
+Strict-Transport-Security: max-age=63072000
+Title: Bandcamp
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Meta-Apple-Mobile-Web-App-Capable: yes
+X-Meta-Description: 
+ Discover amazing music and directly support the artists who make it.
+X-Meta-Msapplication-TileColor: #603cba
+X-Meta-Theme-Color: #ffffff
+X-Served-By: cache-iad-kiad7000092-IAD
+X-Timer: S1729311720.458619,VS0,VE312
+
+

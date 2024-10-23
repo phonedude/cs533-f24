@@ -1,0 +1,122 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:29 GMT
+Location: https://nginx.com/
+Server: volt-adc
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:29 GMT
+Client-Peer: 159.60.134.0:80
+Client-Response-Num: 1
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:29 GMT
+Location: https://www.nginx.com/
+Server: volt-adc
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:29 GMT
+Client-Peer: 159.60.134.0:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
+Client-SSL-Cert-Subject: /CN=*.nginx.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Set-Cookie: e9ee03=1lJ3kZsDnxfYLjybCWys6VpoaZnAg8kNLGeiTDwKfUEGriyTL2pvSXhsbSxQQktGGgK4sn3XdAqgTvL7reR2XuNGPm9d7gnlFKPozpH3Z1MQRHzycu1wQDAt0zWORJSoeL4BQzbwQqZ2rWVWKZk9VaBxxhMSgqhy4ZKWRtj3DvynoRwI; path=/
+Strict-Transport-Security: max-age=31536000
+X-Volterra-Location: dc12-ash
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:30 GMT
+Location: https://www.f5.com/go/product/welcome-to-nginx
+Server: volt-adc
+Content-Length: 254
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Sat, 19 Oct 2024 04:22:30 GMT
+Client-Peer: 159.60.134.0:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E6
+Client-SSL-Cert-Subject: /CN=*.nginx.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: AWSALB=RBk3K1AHembPlAfAI/fDgv1C3jwowyK7tzzgWJY8U3QnXKozEhx/oxx2fd2GF/y4dS48kvzJNztUbkD2Kks/j2K+geuLA/PPMaWInrBMQRSx75DCs0aC/TPiPVdK; Expires=Sat, 26 Oct 2024 04:22:30 GMT; Path=/
+Set-Cookie: AWSALBCORS=RBk3K1AHembPlAfAI/fDgv1C3jwowyK7tzzgWJY8U3QnXKozEhx/oxx2fd2GF/y4dS48kvzJNztUbkD2Kks/j2K+geuLA/PPMaWInrBMQRSx75DCs0aC/TPiPVdK; Expires=Sat, 26 Oct 2024 04:22:30 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: e9ee03=0ePVfT943BqzYjQBPK3gw2QLh6Z1wzSZIWViRTJLZ3XpJWTf2q5cfr1/hEwq/fUk2w4crEX0kK/bfNzd6nyQXBRPRr2aPTaKJIQvkhcLjk0RHFlDLsiEco4NsFmGHC4EEYMbY3hzmXgqiF6jOMX6TR3LXfHKiRguJpfqQ22LH/yZviN2; path=/
+Set-Cookie: TS01dc4fc6=01273bf856fe6feca487640841b95dee6e274d5250b1f56d3c131074cdb3deb7ecf2b2a29182762446fc195d9d6cc375b4d8ce4c03; Path=/; Secure; HttpOnly; SameSite=Strict; 
+Strict-Transport-Security: max-age=31536000
+Title: 301 Moved Permanently
+X-Dispatcher: dispatcher2uswest2-b80
+X-Envoy-Upstream-Service-Time: 330
+X-Vhost: publish
+X-Volterra-Location: dc12-ash
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=300
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:31 GMT
+Via: F5CDN
+Accept-Ranges: bytes
+Age: 107
+ETag: "43877-624ccbe40f377"
+Server: volt-cdn
+Vary: Accept-Encoding,User-Agent
+Content-Length: 276599
+Content-Type: text/html;charset=utf-8
+Last-Modified: Sat, 19 Oct 2024 04:20:44 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:31 GMT
+Client-Peer: 159.60.190.97:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Entrust, Inc./OU=See www.entrust.net\/legal-terms/OU=(c) 2014 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1M
+Client-SSL-Cert-Subject: /C=US/ST=Washington/L=Seattle/jurisdictionC=US/jurisdictionST=Washington/O=F5, Inc./businessCategory=Private Organization/serialNumber=601692492/CN=www.f5.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: frame-ancestors 'self' *.cybersource.com *.salesforce.com *.force.com *.salesforce-sites.com ; form-action *.cybersource.com *.salesforce.com *.force.com 'self' *.salesforce-sites.com
+Link: <https://www.f5.com/go/product/welcome-to-nginx>; rel="canonical"
+Link: </etc.clientlibs/base/clientlibs/base-resources/resources/fonts/Proxima/Proxima-reg.woff2>; as="font"; crossorigin/="crossorigin/"; rel="preload"; type="font/woff2"
+Link: </etc.clientlibs/base/clientlibs/base-resources/resources/fonts/Neusa/Neusa-Reg.woff2>; as="font"; crossorigin/="crossorigin/"; rel="preload"; type="font/woff2"
+Link: </etc.clientlibs/f5-com/clientlibs/clientlib-base.2b389220ce38056f0c57919d76a98d18.css>; rel="stylesheet"; type="text/css"
+Link: </etc.clientlibs/f5-com/clientlibs/clientlib-components.94fc231f2bb936debde8b49db4cac744.css>; rel="stylesheet"; type="text/css"
+Link: <https://static.cloud.coveo.com>; crossorigin/="crossorigin/"; rel="preconnect"
+Link: </content/dam/f5-com/global-configuration/favicons/apple-touch-icon.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: </content/dam/f5-com/global-configuration/favicons/favicon-16x16.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/favicon-32x32.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/mstile-150x150.png>; rel="icon"; sizes="150x150"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/android-chrome-192x192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/android-chrome-512x512.png>; rel="icon"; sizes="512x512"; type="image/png"
+Link: </content/dam/f5-com/global-configuration/favicons/android-chrome-192x192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: </etc.clientlibs/base/clientlibs/base-resources/resources/site.webmanifest>; rel="manifest"
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: AWSALB=doV7vFp0wKsE1d3CxGwKnVtLz2mIJTFD4aawlOvNpPYIoHmE630j1CRpOxgfR4ObIFINJHJFIiafysVvUeQIQvVZbJrWF5rymHBPdgTmQqIsqNulj3q51NGq1o3B; Expires=Sat, 26 Oct 2024 04:22:31 GMT; Path=/
+Set-Cookie: AWSALBCORS=doV7vFp0wKsE1d3CxGwKnVtLz2mIJTFD4aawlOvNpPYIoHmE630j1CRpOxgfR4ObIFINJHJFIiafysVvUeQIQvVZbJrWF5rymHBPdgTmQqIsqNulj3q51NGq1o3B; Expires=Sat, 26 Oct 2024 04:22:31 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: 692303=qbvFPaMOK+5Q18oZz7oVyNF2p+TX+thhsWfF1P8HKJ+tHAfdAIqcP63S9spRoYQO/nEinCYfEkWWXGw1X5xW+GTKP5zK9HuQrotrnKjfxt35JU7Pd8unzUlwo2YO3cq9bA309Hnji+aOlI64MFF8bIlS+XhzX40t+QkrR81QMRuWIYCf; path=/
+Set-Cookie: TS01dc4fc6=011101e881c8b5f4871e2281827ca026d2835e025e88d17eeeb279ca720b218bf1c5971a80b5a6cd68c76677ffb5f3725acb48e2b3; Path=/; Secure; HttpOnly; SameSite=Strict;
+Strict-Transport-Security: max-age=31536000
+Strict-Transport-Security: max-age=31536000
+Title: Welcome to F5 NGINX
+X-Cache-Status: EXPIRED
+X-Content-Type-Options: nosniff
+X-Dispatcher: dispatcher1uswest2-b80
+X-Envoy-Upstream-Service-Time: 330
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: UTF-8
+X-Meta-Description: NIGINX is part of F5, and all previous NGINX.com links now redirect to content on F5.com. Don't worry, we still have all your needs covered to navigate to the pages you're looking for.
+X-Meta-Msapplication-TileColor: #ffffff
+X-Meta-Robots: 
+X-Meta-Template: content-page9
+X-Meta-Theme-Color: #ffffff
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Vhost: publish
+X-Volterra-Location: ny8-nyc
+X-Volterra-Location: ny8-nyc
+
+

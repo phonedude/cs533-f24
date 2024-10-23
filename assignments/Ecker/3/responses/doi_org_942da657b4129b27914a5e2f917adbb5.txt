@@ -1,0 +1,71 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=3600
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:05 GMT
+Location: https://doi.org/
+Server: cloudflare
+Content-Length: 167
+Content-Type: text/html
+Expires: Sat, 19 Oct 2024 05:22:05 GMT
+Alt-Svc: h3=":443"; ma=86400
+CF-RAY: 8d4dfc2eff0e9c5b-IAD
+Client-Date: Sat, 19 Oct 2024 04:22:05 GMT
+Client-Peer: 104.26.5.132:80
+Client-Response-Num: 1
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=V%2FNiuKHeuKokYT4KdSXyTO8vhTsXYKrajjuxyRYvdNX5RX80m0kohPQI8bXPVqMXElq4rQyWmqTUrCRWwLInwEsrhNo1YcPjb0RsyjYGhzuitrblawTWLUQ%3D"}],"group":"cf-nel","max_age":604800}
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:06 GMT
+Location: https://www.doi.org/
+Server: cloudflare
+Vary: Origin
+Content-Length: 0
+Alt-Svc: h3=":443"; ma=86400
+CF-Cache-Status: DYNAMIC
+CF-RAY: 8d4dfc2f8cd29c4f-IAD
+Client-Date: Sat, 19 Oct 2024 04:22:05 GMT
+Client-Peer: 172.67.69.3:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WE1
+Client-SSL-Cert-Subject: /CN=doi.org
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Permissions-Policy: interest-cohort=(),browsing-topics=()
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=5J%2FxnKgAREsj%2F7bTQXM6Pr%2Fk%2FJZ%2Fb0H2ynn0REHaIECErmU%2Bzxjo35bskARh9u3iOVDLIImksjmP8NGGsBMEfdh%2FIp3SDNo%2BfAuvTr7ZkNAA5AbITjX0uxg%3D"}],"group":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:07 GMT
+Via: 1.1 a562f14b2c08b760a0c76599ed0eaf98.cloudfront.net (CloudFront)
+Accept-Ranges: bytes
+ETag: "40ca3249393c605326f122c98984af8a"
+Server: AmazonS3
+Content-Encoding: gzip
+Content-Length: 6951
+Content-Type: text/html
+Last-Modified: Tue, 17 Sep 2024 17:33:27 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:06 GMT
+Client-Peer: 3.163.80.8:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M02
+Client-SSL-Cert-Subject: /CN=doi.org
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Amz-Cf-Id: 67_7IwNH7JY0cJqN3A37SPlnaO2mHBwjc9redG8oFOWBsFfEPbImWg==
+X-Amz-Cf-Pop: ATL58-P7
+X-Amz-Meta-Md5chksum: 40ca3249393c605326f122c98984af8a
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Miss from cloudfront
+
+
