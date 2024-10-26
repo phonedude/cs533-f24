@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+location: https://t-online.de/
+x-request-id: 01926974-efab-7336-b8e8-af561b433f8a
+cache-control: public,max-age=300
+
+HTTP/2 301 
+content-length: 0
+location: https://www.t-online.de/
+x-request-id: 01926974-f0cd-75ca-88c8-096476b510fb
+cache-control: public,max-age=300
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 1263890
+date: Tue, 08 Oct 2024 00:07:45 GMT
+cache-control: max-age=90, stale-while-revalidate=30, stale-if-error=86400
+x-envoy-upstream-service-time: 0
+server: envoy
+x-varnish: 27466082 28448544
+x-varnish: 18302543 18302489
+via: 1.1 ip-10-0-86-248.eu-west-1.compute.internal (Varnish/7.5), 1.1 ip-10-0-86-248.eu-west-1.compute.internal (Varnish/7.5), 1.1 64084bd9866ab1b036a99b332a805410.cloudfront.net (CloudFront)
+etag: W/"vetag3d4ff38859e7b1faeba3276dca5555785459b499c598cf74d7e5fc77585a9737"
+accept-ranges: bytes
+hits: 11
+x-ttl: 78.866
+x-grace: 30.000
+x-keep: 128.000
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+x-amz-cf-pop: IAD66-C1
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: mpyBIHp-bfcGJp-60_ga92CPGlIOI8C8rIa8lb6tSsqedD4Oh7quoA==
+age: 70
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy: frame-ancestors 'self' https://*.t-online.de;
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Origin
+

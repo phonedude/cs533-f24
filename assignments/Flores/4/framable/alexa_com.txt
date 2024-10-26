@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Tue, 08 Oct 2024 00:06:39 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://alexa.com:443/
+
+HTTP/2 200 
+server: awselb/2.0
+date: Tue, 08 Oct 2024 00:06:39 GMT
+content-type: text/html; charset=utf-8
+content-length: 6779
+
