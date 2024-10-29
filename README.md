@@ -102,7 +102,7 @@ his course materials (although any errors are mine).
 
 * Week 10 - Authentication
     * [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-    * [Class slides](https://docs.google.com/presentation/d/1DSTAmRKJgc6_2-IrzZI_M12eflqM_OSn57Vy00z9iVI/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1dS0WQ4l6vaZozTOwXZH0dlLqCzTA6lH0yJYFrnd6f4Y/edit)
 
 * Week 11 - Local HTTP Server Security
     * [Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!](https://infosecwriteups.com/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5)
