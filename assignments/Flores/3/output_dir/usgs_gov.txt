@@ -1,0 +1,29 @@
+HTTP/1.0 302 Redirect
+Connection: Close
+Location: https://usgs.gov/
+
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 07 Oct 2024 23:33:37 GMT
+X-XSS-Protection: 1; mode=block
+Location: https://www.usgs.gov/
+Content-Type: text/html; charset=iso-8859-1
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Date: Mon, 07 Oct 2024 23:33:40 GMT
+Server: nginx
+Cache-Control: must-revalidate, no-cache, private
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 624a1750702d82319b25f17c35c73d04.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD89-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: kMBM1s8bS0ApY72AKkVZ9KU0izDbwSQTijLaGPVtHgkmfgxwhicrGg==
+
