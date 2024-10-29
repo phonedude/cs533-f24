@@ -8,7 +8,7 @@
 ## Framable Sites Test:
 
 - A script (`generate_iframe_files.js`) was used to generate HTML files for 100 assigned sites.
-- A Node.js server (`frame_server.js`) served these files at `http://localhost:3001` to test if each site allowed framing.
+- A Node.js server (`frame-server-1.js`) served these files at `http://localhost:4000` to test if each site allowed framing.
 
 ### Results:
 Some sites allowed framing, while others blocked it using headers like `X-Frame-Options` or `Content-Security-Policy`.
