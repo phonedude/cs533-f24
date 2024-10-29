@@ -1,33 +1,33 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 08 Oct 2024 00:06:49 GMT
+Date: Mon, 07 Oct 2024 23:33:08 GMT
 Content-Type: text/html
 Content-Length: 167
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Tue, 08 Oct 2024 01:06:49 GMT
+Expires: Tue, 08 Oct 2024 00:33:08 GMT
 Location: https://doi.org/
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=U3%2FRQdu4Z1RHjFJ%2Bjyg9NRWHMaeeyVgjwno4F6H9lbyHOgLirhIaWn6B9ocr5bFsZE2joCyTqr%2BksN9uNE%2Be3lSfRSqwGyI%2Ffk0hJUGK%2B1nCxJ5u1FXuRo8%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=NY468jRaplis2hMIGbM8JQDDh54cLDNRZf%2BO4bOx9o9GeIRJIB%2FXhDF9s5%2FQku5zaZCGqok9sERx4JGmZHICOEskjjcg4R4SpjNorv4d%2FpywgsmSDSNdi7U%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8cf1e3214fac42c4-EWR
+CF-RAY: 8cf1b1ca8a66437f-EWR
 
 HTTP/2 301 
-date: Tue, 08 Oct 2024 00:06:49 GMT
+date: Mon, 07 Oct 2024 23:33:09 GMT
 content-length: 0
 location: https://www.doi.org/
 vary: Origin
 permissions-policy: interest-cohort=(),browsing-topics=()
 cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=q%2B0gtYEU5Ppl6JPw%2BOVanlhgd5Z4VuIQIOzkboGeIB%2BKYDw0sgcPy%2BViw5NdAqbAe76l25isisxQCf8prheDlbpeAg4J7Htnoa%2FD86VoJBA1lr5B1pXjPRs%3D"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=9IIGd27tN6jbO8DVA6nVTHCgY90sISwCwfc0gWb2TwwJrtMfN8vRLf%2FYOQrqzCbO4xbGwbq%2BHDBz0fWvG6MOSP9bveP%2BoWm4xlVlR90B%2FLWjJ0GLvUToLz0%3D"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 server: cloudflare
-cf-ray: 8cf1e321ba6f5e7d-EWR
+cf-ray: 8cf1b1cbeaf20ca2-EWR
 
 HTTP/2 200 
 content-type: text/html
 content-length: 6951
-date: Tue, 08 Oct 2024 00:06:51 GMT
+date: Mon, 07 Oct 2024 23:33:10 GMT
 last-modified: Tue, 17 Sep 2024 17:33:27 GMT
 etag: "40ca3249393c605326f122c98984af8a"
 x-amz-server-side-encryption: AES256
@@ -36,7 +36,7 @@ content-encoding: gzip
 accept-ranges: bytes
 server: AmazonS3
 x-cache: Miss from cloudfront
-via: 1.1 16dfaf786e60aa9bf3b94684a08564c6.cloudfront.net (CloudFront)
+via: 1.1 95ad9d4dc596fb803e3114c8dbdc4b60.cloudfront.net (CloudFront)
 x-amz-cf-pop: IAD61-P1
-x-amz-cf-id: RfLlay98UFSQRLAqoX0veDM4CV4RVMSU560Hp_0AhJv12GPS9IfZww==
+x-amz-cf-id: Cg0-8dWg3XOa9-4uF3CcfyJkUF1i5eeJZG1kMy1ziWoUikK3Rm15bw==
 

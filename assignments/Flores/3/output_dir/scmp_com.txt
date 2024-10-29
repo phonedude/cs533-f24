@@ -1,23 +1,23 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 08 Oct 2024 00:08:42 GMT
+Date: Mon, 07 Oct 2024 23:33:30 GMT
 Content-Type: text/html
 Content-Length: 167
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Tue, 08 Oct 2024 01:08:42 GMT
+Expires: Tue, 08 Oct 2024 00:33:30 GMT
 Location: https://www.scmp.com/
 Server: cloudflare
-CF-RAY: 8cf1e5e0ce937cf3-EWR
+CF-RAY: 8cf1b253791e18f6-EWR
 alt-svc: h3=":443"; ma=86400
 
 HTTP/2 403 
-date: Tue, 08 Oct 2024 00:08:42 GMT
+date: Mon, 07 Oct 2024 23:33:30 GMT
 content-type: text/html; charset=UTF-8
 x-frame-options: SAMEORIGIN
 referrer-policy: same-origin
 cache-control: max-age=15
-expires: Tue, 08 Oct 2024 00:08:57 GMT
-set-cookie: __cf_bm=nuH2et9zRHOPeLeOh3vyQM3zTza2rOEvF9qyxN8V1lg-1728346122-1.0.1.1-6H10m_qVVwc4SC9to16A2Y7mu6OxU5nggTyJ0Nj1KPpike5Kgm9RRqz4an_z3PIVtUSJqz4rQeBzqaaH1FuEmA; path=/; expires=Tue, 08-Oct-24 00:38:42 GMT; domain=.scmp.com; HttpOnly; Secure; SameSite=None
+expires: Mon, 07 Oct 2024 23:33:45 GMT
+set-cookie: __cf_bm=rz_4Xmo_thPbHkDwpjX9iOco1PkKSFsXWHFRTAimOZw-1728344010-1.0.1.1-HxqtTSVYLBft5pgMTF2DQ5w2IHKOoNbEf_1gLDibuHw2atEjM1V_R3.mOfiuOQOsL6ia6qJTI.NGRm5su6Lztw; path=/; expires=Tue, 08-Oct-24 00:03:30 GMT; domain=.scmp.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 8cf1e5e139ee429b-EWR
+cf-ray: 8cf1b253ee8a7c7e-EWR
 

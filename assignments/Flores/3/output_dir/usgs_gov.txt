@@ -3,7 +3,7 @@ Connection: Close
 Location: https://usgs.gov/
 
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 08 Oct 2024 00:08:49 GMT
+Date: Mon, 07 Oct 2024 23:33:37 GMT
 X-XSS-Protection: 1; mode=block
 Location: https://www.usgs.gov/
 Content-Type: text/html; charset=iso-8859-1
@@ -12,7 +12,7 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 HTTP/1.1 200 OK
 Content-Type: text/html; charset=UTF-8
 Connection: close
-Date: Tue, 08 Oct 2024 00:08:50 GMT
+Date: Mon, 07 Oct 2024 23:33:40 GMT
 Server: nginx
 Cache-Control: must-revalidate, no-cache, private
 Content-Language: en
@@ -22,8 +22,8 @@ X-Drupal-Cache: MISS
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 X-Cache: Miss from cloudfront
-Via: 1.1 2b0c54ffe9876882253b010d44184bdc.cloudfront.net (CloudFront)
+Via: 1.1 624a1750702d82319b25f17c35c73d04.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD89-P2
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: a8sD9Eh4g60raoAE5gnKIXqbCjimr4KaAMWgnjXuoZbBukQPaEf2jQ==
+X-Amz-Cf-Id: kMBM1s8bS0ApY72AKkVZ9KU0izDbwSQTijLaGPVtHgkmfgxwhicrGg==
 

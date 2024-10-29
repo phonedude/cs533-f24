@@ -1,30 +1,30 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 08 Oct 2024 00:06:46 GMT
+Date: Mon, 07 Oct 2024 23:33:04 GMT
 Content-Type: text/html
 Content-Length: 167
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Tue, 08 Oct 2024 01:06:46 GMT
+Expires: Tue, 08 Oct 2024 00:33:04 GMT
 Location: https://apnews.com/
-Set-Cookie: __cf_bm=s6t6gOBgNziA6InK4y3k7x7sDJBLJuRqHNRx30tLWQY-1728346006-1.0.1.1-u3eDSNvNumd0QWUsP2MdZvDoELPpGGBNYszQWdNs_ifSNX7dh7_4NJH4cZ_qLkbdG38L.FjJ_zm5.nBCWCvZ9PnffBhs_yK4nVmoENtwmMc; path=/; expires=Tue, 08-Oct-24 00:36:46 GMT; domain=.apnews.com; HttpOnly
+Set-Cookie: __cf_bm=AVPpez9uGZB3RhoCRfukXLR3jueosCqMkqbqqtTfj8U-1728343984-1.0.1.1-w8Ji.USqGuSwnRv8nMpx9g9UIbMF0thukE2seHsQuDRZa_RWe3GicWfOl3EOK6OCjir839Mb2oZoqxSuPnvkPCh_QfYvc.3trLXpPkxFZY8; path=/; expires=Tue, 08-Oct-24 00:03:04 GMT; domain=.apnews.com; HttpOnly
 Server: cloudflare
-CF-RAY: 8cf1e30f79e50f4a-EWR
+CF-RAY: 8cf1b1ac9e07c340-EWR
 
 HTTP/2 200 
-date: Tue, 08 Oct 2024 00:06:47 GMT
+date: Mon, 07 Oct 2024 23:33:04 GMT
 content-type: text/html;charset=UTF-8
 strict-transport-security: max-age=31536000; includeSubDomains
 content-security-policy: frame-ancestors 'self' https://cms.apnews.com/
 cache-control: public, max-age=120, stale-if-error=86400
 x-powered-by: Brightspot
 vary: Accept-Encoding
-x-envoy-upstream-service-time: 5092
+x-envoy-upstream-service-time: 5404
 x-envoy-decorator-operation: brightspot-frontend-verify.prod-news.svc.cluster.local:80/*
 via: 1.1 google
 cf-cache-status: HIT
-age: 43
-last-modified: Tue, 08 Oct 2024 00:06:04 GMT
-set-cookie: __cf_bm=Nkz5VwFoii7NMv8JUZZeKUnBU5Blcc2M38NHl943cmI-1728346007-1.0.1.1-JU3uDRtoBPYJg5hp0HTeueT7Fzy0MRbWFdQw.wXxPasZlsj5_bb2VvI6jtRKNlERNNMFAHH3tEoVtPy7HcRcettCjDQ06y7SA8U16M0VB9Q; path=/; expires=Tue, 08-Oct-24 00:36:47 GMT; domain=.apnews.com; HttpOnly; Secure; SameSite=None
+age: 87
+last-modified: Mon, 07 Oct 2024 23:31:37 GMT
+set-cookie: __cf_bm=NHUzAfChjz6FMlfGcqZARZ5TgbXUmb.LKpsVLyv5aQI-1728343984-1.0.1.1-uFGzrQGpD6U3E7PBPXo38yP5Ao0DXKPpk8yxgyqDCuxF37koohYCy1VwCfhfknXKbxZfwTjmlVqsVWUvhPyOwCFI5_kxxjBmHhJFxAwB_Kc; path=/; expires=Tue, 08-Oct-24 00:03:04 GMT; domain=.apnews.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 8cf1e30fed144219-EWR
+cf-ray: 8cf1b1ad08df43ff-EWR
 

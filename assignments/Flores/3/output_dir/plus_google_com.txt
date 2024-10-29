@@ -1,26 +1,24 @@
 HTTP/1.1 301 Moved Permanently
 Location: https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html
 Cross-Origin-Resource-Policy: cross-origin
-Content-Type: text/html; charset=UTF-8
 X-Content-Type-Options: nosniff
-Date: Tue, 08 Oct 2024 00:08:40 GMT
-Expires: Tue, 08 Oct 2024 00:38:40 GMT
-Cache-Control: public, max-age=1800
 Server: sffe
 Content-Length: 314
 X-XSS-Protection: 0
+Date: Mon, 07 Oct 2024 23:27:29 GMT
+Expires: Mon, 07 Oct 2024 23:57:29 GMT
+Cache-Control: public, max-age=1800
+Content-Type: text/html; charset=UTF-8
+Age: 360
 
 HTTP/2 200 
-content-security-policy: upgrade-insecure-requests
-content-security-policy-report-only: default-src https: blob: data: 'unsafe-inline' 'unsafe-eval'; report-to blogspot; report-uri https://www.blogger.com/cspreport
-report-to: {"group":"blogspot","max_age":2592000,"endpoints":[{"url":"https://www.blogger.com/cspreport"}]}
 strict-transport-security: max-age=86400; includeSubDomains
 content-type: text/html; charset=UTF-8
-expires: Tue, 08 Oct 2024 00:08:40 GMT
-date: Tue, 08 Oct 2024 00:08:40 GMT
+expires: Mon, 07 Oct 2024 23:33:29 GMT
+date: Mon, 07 Oct 2024 23:33:29 GMT
 cache-control: private, max-age=0
-last-modified: Mon, 07 Oct 2024 23:58:59 GMT
-etag: W/"eef92b8f0c527f03d696121130e7e9b643847c7943b45de70255f91e9cb80d2f"
+last-modified: Mon, 07 Oct 2024 21:59:24 GMT
+etag: W/"693929ebfee21016aec93b3be8127a95aad7a7f6df587d373b64102caf43d9d6"
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-length: 0

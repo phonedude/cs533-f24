@@ -1,39 +1,14 @@
-HTTP/1.1 301 Moved Permanently
-Date: Tue, 08 Oct 2024 00:06:47 GMT
-Content-Type: text/html
-Content-Length: 167
-Connection: keep-alive
-Cache-Control: max-age=3600
-Expires: Tue, 08 Oct 2024 01:06:47 GMT
-Location: https://bestfreecams.club/
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yREhga51zakv%2B3DAN9kqKkTSkA9Ep9lsT%2BHlcGLkh0Lr4BXK4qsO%2FGNxkXdvVQ4CzzVGLCUe5ale0NDqEmkHzfiLJakFWcr0%2FdinMirQXN0bi7ftzm4ZHLy9IQnYncJb64VR0A%3D%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Speculation-Rules: "/cdn-cgi/speculation"
-Server: cloudflare
-CF-RAY: 8cf1e311292b4261-EWR
-
-HTTP/2 301 
-date: Tue, 08 Oct 2024 00:06:47 GMT
-content-length: 0
-location: https://www.bestfreecams.club/
-x-amz-id-2: lGXcRDTFgvSHwWQP1RQjCt1WLe6bS2gtDVxsfe2dRGTBoYAYKT+KLLcExu9z61CpMGJVn8fbI74=
-x-amz-request-id: TJ1X1S79AV6BKY15
-cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=B2M%2Fv8VTWQuFK2IYlgD%2FL%2BrNCjSfdisBWvnpmWcEwfhuZgYR0kEQbURWZPUqwYUj0qCjTB5L3CxY7%2B9FOHaVqVljIksdtqZoepa5IIl8llV73QMgqKp8w6K5Rw1xAs8BaxK7eQ%3D%3D"}],"group":"cf-nel","max_age":604800}
-nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-server: cloudflare
-cf-ray: 8cf1e311a8834249-EWR
-
-HTTP/2 200 
-date: Tue, 08 Oct 2024 00:06:47 GMT
-content-type: text/html
-x-amz-id-2: 8kD+D4lsBkKoXUyxzin+RuSE/mytmzqwIvTLlPIUwOdCyXVZRnPr9sGuKqmE6b3cZpiiFF/n+QM=
-x-amz-request-id: TJ1ZDXFF8GFNHR91
-last-modified: Sun, 17 Jan 2021 11:50:09 GMT
-cf-cache-status: DYNAMIC
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=oBKYkKA7cThs6E8TljUhmJa20zFyG4dfQQenwcXakXIlfOLDXv9jy5WPfoSYjiDFNcDULlEATk2t4orE%2FPdUYBi4YKYaY8Q7ZeZSVNbF64OD%2FjCgOI4oXiqUp6WKUnavy4BdnB7meyo%3D"}],"group":"cf-nel","max_age":604800}
-nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-speculation-rules: "/cdn-cgi/speculation"
-server: cloudflare
-cf-ray: 8cf1e3124be9727b-EWR
-
+<html><head>
+<base href>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252">
+<title>BestFreeCams.club - Only the Best Free Live Cams</title>
+<meta name="description" content>
+<meta name="keywords" content="webcams, cams, girls on cam, girls on webcam, live girls, live webcams">
+</head>
+<body>
+<script>
+         setTimeout(function(){
+            window.location.href = 'https://www.bestfreecams.club/top.html';
+         }, 200);
+      </script>
+</body></html>

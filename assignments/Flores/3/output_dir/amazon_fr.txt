@@ -1,6 +1,6 @@
 HTTP/1.1 301 Moved Permanently
 Server: Server
-Date: Tue, 08 Oct 2024 00:06:46 GMT
+Date: Mon, 07 Oct 2024 23:33:03 GMT
 Content-Type: text/html
 Content-Length: 163
 Connection: keep-alive
@@ -8,7 +8,7 @@ Location: https://amazon.fr/
 
 HTTP/1.1 301 Moved Permanently
 Server: Server
-Date: Tue, 08 Oct 2024 00:06:46 GMT
+Date: Mon, 07 Oct 2024 23:33:03 GMT
 Content-Type: text/html
 Connection: keep-alive
 Location: https://www.amazon.fr/
@@ -17,7 +17,7 @@ HTTP/2 405
 server: Server
 content-type: text/html;charset=UTF-8
 content-length: 0
-x-amz-rid: 8WWGXKDMT7321H0XYE5M
+x-amz-rid: JHGV39RTXNVH4NFAE6VQ
 cache-control: no-cache
 pragma: no-cache
 expires: -1
@@ -25,8 +25,8 @@ allow: GET, POST, PUT, DELETE, OPTIONS
 vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,User-Agent
 strict-transport-security: max-age=47474747; includeSubDomains; preload
 x-frame-options: SAMEORIGIN
-date: Tue, 08 Oct 2024 00:06:46 GMT
+date: Mon, 07 Oct 2024 23:33:04 GMT
 alt-svc: h3=":443"; ma=93600
-x-amzn-cdn-id: ak-0.6fc83017.1728346006.3c69b44f
+x-amzn-cdn-id: ak-0.6fc83017.1728343983.3bce4ac8
 x-cache: NotCacheable from child
 

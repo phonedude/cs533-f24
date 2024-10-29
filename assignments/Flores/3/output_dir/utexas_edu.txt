@@ -7,13 +7,13 @@ Server: nginx
 X-Pantheon-Styx-Hostname: styx-fe4-b-b586bd68-2lhnd
 X-Styx-Req-Id: 4465ac8b-8498-11ef-8a12-3e06126c13ad
 Cache-Control: public, max-age=86400
-Date: Tue, 08 Oct 2024 00:08:50 GMT
-X-Served-By: cache-chi-klot8100033-CHI, cache-iad-kiad7000023-IAD
+Date: Mon, 07 Oct 2024 23:33:41 GMT
+X-Served-By: cache-chi-klot8100033-CHI, cache-iad-kcgs7200150-IAD
 X-Cache: HIT, HIT
 X-Cache-Hits: 9, 0
-X-Timer: S1728346131.936724,VS0,VE5
+X-Timer: S1728344021.002049,VS0,VE9
 Vary: Cookie, Cookie
-Age: 48632
+Age: 46522
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
@@ -25,13 +25,13 @@ server: nginx
 strict-transport-security: max-age=300
 x-pantheon-styx-hostname: styx-fe4-b-77dcff9f9-c464x
 x-styx-req-id: 1b4b5cc8-7feb-11ef-9de3-b61050ccc7e3
-date: Tue, 08 Oct 2024 00:08:51 GMT
-x-served-by: cache-chi-klot8100126-CHI, cache-iad-kiad7000099-IAD
+date: Mon, 07 Oct 2024 23:33:41 GMT
+x-served-by: cache-chi-klot8100126-CHI, cache-iad-kiad7000128-IAD
 x-cache: HIT, HIT
-x-cache-hits: 10, 2
-x-timer: S1728346131.122519,VS0,VE4
+x-cache-hits: 10, 0
+x-timer: S1728344021.042610,VS0,VE5
 vary: Cookie, Cookie
-age: 562809
+age: 560699
 accept-ranges: bytes
 via: 1.1 varnish, 1.1 varnish
 content-length: 0
@@ -40,9 +40,9 @@ HTTP/2 200
 cache-control: public, max-age=300
 content-language: en
 content-type: text/html; charset=utf-8
-etag: W/"1728344429-0"
+etag: W/"1728340820-0"
 expires: Sun, 19 Nov 1978 05:00:00 GMT
-last-modified: Mon, 07 Oct 2024 23:40:29 GMT
+last-modified: Mon, 07 Oct 2024 22:40:20 GMT
 link: <https://www.utexas.edu>; rel="canonical",<https://www.utexas.edu>; rel="shortlink"
 server: nginx
 strict-transport-security: max-age=300
@@ -50,16 +50,16 @@ x-content-type-options: nosniff
 x-drupal-cache: HIT
 x-frame-options: SAMEORIGIN
 x-generator: Drupal 7 (http://drupal.org)
-x-pantheon-styx-hostname: styx-fe4-a-6c9ddd647d-xrm68
-x-styx-req-id: 7484ccd2-8506-11ef-8f75-a272e4556f09
-date: Tue, 08 Oct 2024 00:08:51 GMT
-x-served-by: cache-chi-klot8100133-CHI, cache-iad-kcgs7200148-IAD
+x-pantheon-styx-hostname: styx-fe4-a-6c9ddd647d-dgw7n
+x-styx-req-id: 234102ed-84fd-11ef-807a-a2c2c43d6021
+date: Mon, 07 Oct 2024 23:33:41 GMT
+x-served-by: cache-chi-klot8100133-CHI, cache-iad-kcgs7200172-IAD
 x-cache: HIT, HIT
-x-cache-hits: 3, 0
-x-timer: S1728346131.185814,VS0,VE53
+x-cache-hits: 5, 1
+x-timer: S1728344021.079151,VS0,VE5
 vary: Accept-Encoding, Cookie, Cookie, Cookie
-age: 69
+age: 118
 accept-ranges: bytes
 via: 1.1 varnish, 1.1 varnish
-content-length: 85592
+content-length: 85591
 

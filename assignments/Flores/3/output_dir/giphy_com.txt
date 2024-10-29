@@ -4,8 +4,8 @@ Content-Length: 0
 Retry-After: 0
 Location: https://giphy.com/
 Accept-Ranges: bytes
-Date: Tue, 08 Oct 2024 00:07:00 GMT
-X-Served-By: cache-iad-kiad7000152-IAD
+Date: Mon, 07 Oct 2024 23:33:17 GMT
+X-Served-By: cache-iad-kiad7000146-IAD
 X-Cache: HIT
 X-Cache-Hits: 0
 Strict-Transport-Security: max-age=15465600
@@ -16,13 +16,13 @@ content-type: text/html; charset=utf-8
 x-frame-options: DENY
 x-robots-tag: noai, noimageai
 accept-ranges: bytes
-date: Tue, 08 Oct 2024 00:07:00 GMT
-age: 6
-x-served-by: cache-iad-kcgs7200177-IAD
+date: Mon, 07 Oct 2024 23:33:17 GMT
+age: 24
+x-served-by: cache-iad-kcgs7200028-IAD
 x-cache: HIT
 x-cache-hits: 1
-x-timer: S1728346020.159407,VS0,VE2
+x-timer: S1728343998.545625,VS0,VE2
 vary: Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding, X-Client-Country-Code, X-UA-Device, Fastly-SSL
 strict-transport-security: max-age=15465600
-content-length: 224044
+content-length: 229907
 

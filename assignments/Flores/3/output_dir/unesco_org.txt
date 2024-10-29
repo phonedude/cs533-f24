@@ -22,12 +22,12 @@ content-type: text/html; charset=UTF-8
 x-cacheable: YES
 x-storage: memoire
 x-cache: ZIP
-age: 4498
+age: 2386
 accept-ranges: bytes
-x-cache-hits: 7810
+x-cache-hits: 4137
 content-length: 148813
 x-xss-protection: 1; mode=block
 x-content-type-options: nosniff
 strict-transport-security: max-age=31536000
-set-cookie: TS0121e8f2=01520792954286761d5bedccca1decfcee69a9f853bbdced63940eb8f2bc17124ca3c3af33ce7790ad4efbed22604b8c1f81bbd97a; Path=/; Domain=.www.unesco.org; samesite=None; Secure
+set-cookie: TS0121e8f2=015207929561a3aa10908be407a411e84cc60c1c8863824208bb972c21591b62621b58cfb84efd4a6136aa7b3ac2f070ac0a68123e; Path=/; Domain=.www.unesco.org; samesite=None; Secure
 
