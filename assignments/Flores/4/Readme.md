@@ -90,23 +90,28 @@ These websites either blocked framing without specifying the method clearly or d
 - target_com.html
 
 ___
-
-
 ## Frame Path Attack Demonstration:
 
-- Demonstrated how using the `Path` attribute for cookies is insecure.
+### Overview:
+
+This section demonstrates how the `Path` attribute for cookies is insecure by showing how a parent page can steal cookies from an iframed page if only the `Path` attribute is used in the `Set-Cookie` header.
 
 ### Setup:
 
-- **Parent Page** (`parent.html`) contains an iframe to load `iframe.html` and attempts to steal cookies.
-- **Iframe Page** (`iframe.html`) sets cookies with the `Path` attribute.
-- Both files were served via a Node.js server (`frame_server.js`) at `http://localhost:3001`.
+- **Parent Page (`parent.html`)**: Contains an iframe that loads `iframe.html` and attempts to steal cookies set by `iframe.html`.
+- **Iframe Page (`iframe.html`)**: Sets a cookie with the `Path` attribute.
+- Both files are served via a Node.js server using the script `frame-server-1.js`, running on `http://localhost:4000`.
+  
+The parent page attempts to access the cookies from the iframed page despite the `Path` restriction.
 
-### Conclusion:
-The `Path` attribute alone is insufficient to prevent unauthorized cookie access.
+### Code Structure:
 
-## Screenshots:
-Here are screenshots of the (partial) completion.
+- `frame-server-1.js`: The Node.js script serves both the parent and iframe HTML files. It also sets the cookie for the `iframe.html` with the following attributes:
+  ```javascript
+  res.setHeader('Set-Cookie', 'myCookie=stealable; Path=/iframe');
+
+
+
 
 ## Video Links:
 
