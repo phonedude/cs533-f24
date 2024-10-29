@@ -1,0 +1,105 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Via: 1.1 i-0909ce78603a0af25 (us-east-1)
+Location: https://netflix.com/
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:26 GMT
+Client-Peer: 3.211.157.115:80
+Client-Response-Num: 1
+Set-Cookie: nfvdid=BQFmAAEBEM-jVZwkZAVmiu0Yn56uiadAUG4kwCrwc5hYZmrJY9HBT2E_BKh6T_jaknO99UlvFKCLAYOUQbsOFomJlRLtZC0qWDR2bdNSR6g2J8TLUk_PwA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Netflix.Nfstatus: 1_21
+X-Netflix.Proxy.Execution-Time: 2
+X-Originating-URL: http://netflix.com/
+X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache, no-store
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:27 GMT
+Via: 1.1 i-0fcef8f1014b37a9a (us-east-1)
+Location: https://www.netflix.com/
+Server: envoy
+Client-Date: Sat, 19 Oct 2024 04:22:26 GMT
+Client-Peer: 3.211.157.115:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Secure Site ECC CA-1
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Los Gatos/O=Netflix/CN=www.netflix.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Edge-Control: no-cache, no-store
+Set-Cookie: SecureNetflixId=v%3D3%26mac%3DAQEAEQABABThh-TQl1n9u-iTPlMm1IohzLMM9tAzqqQ.%26dt%3D1729311747252; Domain=.netflix.com; Expires=Sun, 19 Oct 2025 04:22:27 GMT; Path=/; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: NetflixId=v%3D3%26ct%3DBgjHlOvcAxLBAcN-ZlIYEFjfzhGQoajsl3u2Jhw5mREAag_ynOWvNpwrQYW0VFITZaEDVH9el6NyRsC6yD5A2LftPUj1d7FX38TabhgMU3pZjbJPkExStl0wV-6sHWsS9ZSAg93xeOxjtxzD0GaNd4fd_0awXVFjGsoTbt_yVxMvJkz9bhflNoPMbaL-WpP8_vBN5mKxBINMP2zr5nuSuY7Vx103FlQp3MIUPUE6msKuoR8R7Q-GOFWLDlY3Es-xSA7-Fp6kdkl9wMcYBiIOCgyol0oMyVEsJbI-lIA.; Domain=.netflix.com; Expires=Sun, 19 Oct 2025 04:22:27 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-B3-Traceid: 671334037cb21176b615a8990d731c1f
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: lo_svc
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: DENY
+X-Netflix.Nfstatus: 1_1
+X-Netflix.Proxy.Execution-Time: 39
+X-Originating-URL: http://netflix.com/
+X-Request-Id: b7e33f9e-b01e-4857-872d-5c5302bdd1c1
+X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:27 GMT
+Pragma: no-cache
+Via: 1.1 i-0788c64befc653820 (us-east-1)
+Server: envoy
+Content-Type: text/html; charset=utf-8
+Expires: 0
+Accept-Ch: Sec-CH-UA-Platform-Version,Sec-CH-UA-Model
+Client-Date: Sat, 19 Oct 2024 04:22:27 GMT
+Client-Peer: 3.211.157.115:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Secure Site ECC CA-1
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Los Gatos/O=Netflix/CN=www.netflix.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy-Report-Only: default-src https: wss: 'unsafe-inline' 'unsafe-eval'; font-src https: data: ; img-src  https: data: blob: ; media-src https: blob: ; worker-src https: blob: ; report-uri https://www.netflix.com/log/www/csp/1;
+Link: <https://assets.nflxext.com/web/ffe/wp/./ui/signup/nmhp/nmhpFrameworkClient.30656b0951260efe7ebb.js>; as="script"; rel="preload"
+Link: <https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp.a1bcda71010575046231.css>; data-uia="botLink"; rel="stylesheet"; type="text/css"
+Link: <https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp-reskin.6a003302aa4c93b29722.css>; data-uia="botLink"; rel="stylesheet"; type="text/css"
+Link: <https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico>; rel="shortcut icon"
+Link: <https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png>; rel="apple-touch-icon"
+Origin-Trial: Aob+++752GiUzm1RNSIkM9TINnQDxTlxz02v8hFJK/uGO2hmXnJqH8c/ZpI05b2nLsHDhGO3Ce2zXJUFQmO7jA4AAAB1eyJvcmlnaW4iOiJodHRwczovL25ldGZsaXguY29tOjQ0MyIsImZlYXR1cmUiOiJFbmNyeXB0ZWRNZWRpYUhkY3BQb2xpY3lDaGVjayIsImV4cGlyeSI6MTU0MzI0MzQyNCwiaXNTdWJkb21haW4iOnRydWV9
+Origin-Trial: Avmn/LBDmMaBYzfLDTgViRmGZnwcz/LsvceSBBKvevKOrStLHjbpZK3zFjSRuw3ampe7aV2MzJO7//lZ9Nm82hQAAABpeyJvcmlnaW4iOiJodHRwczovL25ldGZsaXguY29tOjQ0MyIsImlzU3ViZG9tYWluIjp0cnVlLCJmZWF0dXJlIjoiV2ViQXBwTG9jYWxGb2xkZXIiLCJleHBpcnkiOjE3MjU0OTQzOTl9
+Set-Cookie: flwssn=a487dd53-c65e-44d0-9148-563ea647a2ea; Max-Age=10800; Domain=.netflix.com; Path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Netflix - Watch TV Shows Online, Watch Movies Online
+X-B3-Traceid: 67133403f4712ff1d998029a9afbb6f7
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: lo_svc
+X-Envoy-Upstream-Service-Time: 443
+X-Frame-Options: DENY
+X-Meta-Apple-Mobile-Web-App-Capable: yes
+X-Meta-Apple-Mobile-Web-App-Status-Bar-Style: black
+X-Meta-Apple-Touch-Icon: https://assets.nflxext.com/en_us/layout/ecweb/netflix-app-icon_152.jpg
+X-Meta-Charset: utf-8
+X-Meta-Description: Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.
+X-Meta-Format-Detection: telephone=no
+X-Meta-Keywords: watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies United States, watch TV online, no download, full length movies
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Site: @netflix
+X-Meta-Viewport: width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0
+X-Netflix.Nfstatus: 1_1
+X-Netflix.Proxy.Execution-Time: 479
+X-Originating-URL: http://www.netflix.com/
+X-Request-Id: 569916ce-566a-4900-aa9d-0113305aa18b
+X-Robots-Tag: index
+X-UA-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+
+

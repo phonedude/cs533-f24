@@ -1,0 +1,135 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:11 GMT
+Via: 1.1 fba964c0fe0a574ad166a8c459c9410a.cloudfront.net (CloudFront)
+Location: https://gettyimages.com/
+Server: CloudFront
+Content-Length: 167
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 04:22:11 GMT
+Client-Peer: 18.155.1.3:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Amz-Cf-Id: 8Lx4uISSw3QimSRqyiQd1EVRsNKAqHADxDE5j8OppnSQWfBcESsTqg==
+X-Amz-Cf-Pop: ATL59-P3
+X-Cache: Redirect from cloudfront
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:12 GMT
+Via: 1.1 1148ba400afef59fe8b086c32a9a15c2.cloudfront.net (CloudFront)
+Location: https://www.gettyimages.com/
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:11 GMT
+Client-Peer: 18.155.1.83:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
+Client-SSL-Cert-Subject: /CN=www.gettyimages.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Selected-Fe: getty_frontend
+X-Amz-Cf-Id: agSdy4rBU3GjoGlu9b-e3Esh7bJBjBRtGgw5EjXBcABHWPffWsya1Q==
+X-Amz-Cf-Pop: ATL59-P3
+X-Cache: Miss from cloudfront
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:12 GMT
+Via: 1.1 b0a0b581dcccd27fc074709437a90f04.cloudfront.net (CloudFront)
+ETag: W/"7f32c89c95d1a2b54fa88d09f870a938"
+Vary: Accept-Encoding
+Content-Language: en-us
+Content-Type: text/html; charset=utf-8
+Client-Date: Sat, 19 Oct 2024 04:22:12 GMT
+Client-Peer: 18.155.1.129:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
+Client-SSL-Cert-Subject: /CN=www.gettyimages.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Link: <//spectrum.gettyimages.com>; rel="preconnect"
+Link: <//media.gettyimages.com>; rel="preconnect"
+Link: <//static.gettyimages.com>; rel="preconnect"
+Link: <//spectrum.gettyimages.com>; rel="dns-prefetch"
+Link: <//media.gettyimages.com>; rel="dns-prefetch"
+Link: <//static.gettyimages.com>; rel="dns-prefetch"
+Link: <https://fonts.gstatic.com>; rel="preconnect"
+Link: <https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext>; rel="stylesheet"
+Link: </landing/assets/css/getty.abf0c0191ecded49c953.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: </landing/assets/css/application.e11c9d23c785f30118ab.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <https://www.gettyimages.com.au/>; hreflang="en-AU"; rel="alternate"
+Link: <https://www.gettyimages.be/>; hreflang="nl-BE"; rel="alternate"
+Link: <https://www.gettyimages.com.br/>; hreflang="pt-BR"; rel="alternate"
+Link: <https://www.gettyimages.ca/>; hreflang="en-CA"; rel="alternate"
+Link: <https://www.gettyimages.dk/>; hreflang="en-DK"; rel="alternate"
+Link: <https://www.gettyimages.de/>; hreflang="de"; rel="alternate"
+Link: <https://www.gettyimages.es/>; hreflang="es"; rel="alternate"
+Link: <https://www.gettyimages.fr/>; hreflang="fr"; rel="alternate"
+Link: <https://www.gettyimages.in/>; hreflang="en-IN"; rel="alternate"
+Link: <https://www.gettyimages.ie/>; hreflang="en-IE"; rel="alternate"
+Link: <https://www.gettyimages.it/>; hreflang="it"; rel="alternate"
+Link: <https://www.gettyimages.com.mx/>; hreflang="es-MX"; rel="alternate"
+Link: <https://www.gettyimages.nl/>; hreflang="nl"; rel="alternate"
+Link: <https://www.gettyimages.co.nz/>; hreflang="en-NZ"; rel="alternate"
+Link: <https://www.gettyimages.no/>; hreflang="en-NO"; rel="alternate"
+Link: <https://www.gettyimages.at/>; hreflang="de-AT"; rel="alternate"
+Link: <https://www.gettyimages.pt/>; hreflang="pt"; rel="alternate"
+Link: <https://www.gettyimages.ch/>; hreflang="de-CH"; rel="alternate"
+Link: <https://www.gettyimages.fi/>; hreflang="en-FI"; rel="alternate"
+Link: <https://www.gettyimages.se/>; hreflang="sv"; rel="alternate"
+Link: <https://www.gettyimages.ae/>; hreflang="en-AE"; rel="alternate"
+Link: <https://www.gettyimages.co.uk/>; hreflang="en-GB"; rel="alternate"
+Link: <https://www.gettyimages.com/>; hreflang="en-US"; rel="alternate"
+Link: <https://www.gettyimages.hk/>; hreflang="zh-HK"; rel="alternate"
+Link: <https://www.gettyimages.co.jp/>; hreflang="ja"; rel="alternate"
+Link: <https://www.gettyimages.com/>; hreflang="x-default"; rel="alternate"
+Link: <https://www.gettyimages.com>; rel="canonical"
+Link: </sign-in?returnurl=%2F>; rel="signin"
+Link: </purchase/cart>; rel="cart"
+Link: <http://www.gettyimages.com/opensearch.xml>; rel="search"; type="application/opensearchdescription+xml"
+Referrer-Policy: strict-origin-when-cross-origin
+Selected-Fe: getty_frontend
+Set-Cookie: unisess=C29yEuagoDUZDmh8C6cCK9fyNQ1EdVfYt2ZcJMj2J%2FIJyYoXnhfRl1m6LVCuHbsmykKdnOEMUUhv7nfJtLE1mMsqbjxg8E8BNu964do1oO10lJCJcMzU0Nlh%2BfBsRnWGdj2U%2BBGfr8rEsp05warstZZS0hd5xUrlxpBpyDcSGLhZvlOPXv39Adgb64Lh4HA%3D--mQoKrVpX0F9P82JJ--3af5CGWw%2BY3D8hhW6wsUcA%3D%3D; path=/; secure; HttpOnly; SameSite=Lax
+Set-Cookie: giu=nv=1&lv=2024-10-19T04%3A22%3A12Z; path=/; expires=Wed, 19 Oct 2044 04:22:12 -0000; secure; HttpOnly
+Set-Cookie: vis=vid=8f134ee2-2fab-4f0b-ac8f-e466eec43dc9; domain=.gettyimages.com; path=/; expires=Wed, 19 Oct 2044 04:22:12 -0000; secure
+Set-Cookie: uac=t=cYf4jGJK91M2cM3eS0hvRlFhqj1RiB0HRjIjTA91IORGNwuQAxJeouxMcmb8Qqqnl2V7IcUicKgM9%2FnQD6b5XodMB8jUxrXaU3mNcu9f9SPQRPN2WuxIa0eHHZdSt0Ven7BqDRN3C%2BJcJxDQT%2B9F0Lijn0M7TcGBmzNmvVyqaME%3D%7C77u%2FSDE2TXpWc3BzWlc4SXdnVXgxalAKMTAwCgpkTVgwR1E9PQpmTXowR1E9PQowCgoKMAoxMDAKCjEwMAowCjhmMTM0ZWUyLTJmYWItNGYwYi1hYzhmLWU0NjZlZWM0M2RjOQoK%7C3%7C1%7C1&d; path=/; expires=Wed, 19 Oct 2044 04:22:12 -0000; secure; HttpOnly
+Set-Cookie: csrf=t=Op8jbA%2FLJ2FrunNrt57uDxHNWMhCFwUNxhFeBSpd9TA%3D; path=/; expires=Wed, 19 Oct 2044 04:22:12 -0000; secure; HttpOnly
+Strict-Transport-Security: max-age=2592000
+Title: Royalty-Free Stock Photos, Creative Images & Vectors | News, Fashion, and Entertainment imagery - Getty Images
+X-Amz-Cf-Id: qgFomG54aGsCG26ZEfv6w2ORR8nlLB34boqxGe1YP1CShO_TaGwxQg==
+X-Amz-Cf-Pop: ATL59-P3
+X-Backend: app_landing
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Meta-Apple-Itunes-App: app-id=376812381, app-argument=https://www.gettyimages.com
+X-Meta-Apple-Mobile-Web-App-Capable: yes
+X-Meta-Apple-Mobile-Web-App-Status-Bar-Style: black-translucent
+X-Meta-Charset: utf-8
+X-Meta-Csrf-Param: authenticity_token
+X-Meta-Csrf-Token: KV9C-19Vx6GIt-Mw-YNNAcqmOhG6-XVSlrkOfk7Hw6JbrMOW8ApuGQ65jLlybXgJKELO1ucLuXrWDbXGSPOJLQ
+X-Meta-Description: Discover Getty Images' unrivaled collection of royalty-free images to find the perfect stock photo, vector, or illustration that resonates with your customers.
+X-Meta-Google-Site-Verification: EzTFgFTZSDjAQvukrk-ONWYWLO9iKq62KIgJvRvBxHs
+X-Meta-Msvalidate.01: F521F521DC752C3BC8B83288705E4B2C
+X-Meta-Robots: noai, noimageai
+X-Meta-Title: 
+X-Meta-Title: Royalty-Free Stock Photos, Creative Images & Vectors | News, Fashion, and Entertainment imagery
+X-Meta-Verify-V1: qSTzi1fLrxUKcNwXIRjtZAmfCng+KSvVWyD+PaSoosg=
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Permitted-Cross-Domain-Policies: none
+X-Proxy-Build: 2404670
+X-Request-Id: 0A330591-B284_0A337E8E-01BB_671333F4_D851C-7F63-130
+X-Runtime: 0.113496
+X-Timing-Wait: 21/0/0/115
+X-Xss-Protection: 1; mode=block
+
+

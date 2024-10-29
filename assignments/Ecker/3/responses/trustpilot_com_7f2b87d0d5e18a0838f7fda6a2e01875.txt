@@ -1,0 +1,91 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:44 GMT
+Location: https://www.trustpilot.com/
+Client-Date: Sat, 19 Oct 2024 04:22:44 GMT
+Client-Peer: 99.80.211.63:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=1200
+Connection: close
+Date: Sat, 19 Oct 2024 04:19:53 GMT
+Via: 1.1 50e98452eaaa9be993c9b27b78e5af24.cloudfront.net (CloudFront)
+Age: 172
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Client-Date: Sat, 19 Oct 2024 04:22:44 GMT
+Client-Peer: 3.165.181.116:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
+Client-SSL-Cert-Subject: /CN=*.trustpilot.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Link: <https://cdn.trustpilot.net/brand-assets/4.3.0/favicons/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: </manifest.json>; rel="manifest"
+Link: <https://cdn.trustpilot.net/brand-assets/4.3.0/favicons/apple-touch-icon.png>; rel="apple-touch-icon"; sizes="180x180"
+Link: <https://cdn.trustpilot.net/brand-assets/4.3.0/favicons/favicon-32x32.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: <https://cdn.trustpilot.net/brand-assets/4.3.0/favicons/favicon-16x16.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: <https://cdn.trustpilot.net/brand-assets/4.3.0/favicons/safari-pinned-tab.svg>; color="#00b67a"; rel="mask-icon"
+Link: <https://consumersite-assets.trustpilot.net>; crossorigin=""; rel="preconnect"
+Link: <https://cdn.trustpilot.net/>; crossorigin=""; rel="preconnect"
+Link: <https://api.amplitude.com/>; crossorigin=""; rel="preconnect"
+Link: <https://user-images.trustpilot.com/>; crossorigin=""; rel="preconnect"
+Link: <https://cdn.segment.com/analytics.js/v1/8tb69qtawc/analytics.min.js>; rel="prefetch"
+Link: <https://static.hotjar.com/c/hotjar-391767.js?sv=6>; rel="prefetch"
+Link: <https://cdn.cookielaw.org>; crossorigin=""; rel="preconnect"
+Link: <https://geolocation.onetrust.com>; crossorigin=""; rel="preconnect"
+Link: <https://www.trustpilot.com>; rel="canonical"
+Link: <https://dk.trustpilot.com>; hreflang="da"; rel="alternate"
+Link: <https://at.trustpilot.com>; hreflang="de-AT"; rel="alternate"
+Link: <https://ch.trustpilot.com>; hreflang="de-CH"; rel="alternate"
+Link: <https://de.trustpilot.com>; hreflang="de"; rel="alternate"
+Link: <https://au.trustpilot.com>; hreflang="en-AU"; rel="alternate"
+Link: <https://ca.trustpilot.com>; hreflang="en-CA"; rel="alternate"
+Link: <https://uk.trustpilot.com>; hreflang="en-GB"; rel="alternate"
+Link: <https://ie.trustpilot.com>; hreflang="en-IE"; rel="alternate"
+Link: <https://nz.trustpilot.com>; hreflang="en-NZ"; rel="alternate"
+Link: <https://www.trustpilot.com>; hreflang="x-default"; rel="alternate"
+Link: <https://www.trustpilot.com>; hreflang="en"; rel="alternate"
+Link: <https://es.trustpilot.com>; hreflang="es"; rel="alternate"
+Link: <https://fi.trustpilot.com>; hreflang="fi"; rel="alternate"
+Link: <https://fr-be.trustpilot.com>; hreflang="fr-BE"; rel="alternate"
+Link: <https://fr.trustpilot.com>; hreflang="fr"; rel="alternate"
+Link: <https://it.trustpilot.com>; hreflang="it"; rel="alternate"
+Link: <https://jp.trustpilot.com>; hreflang="ja"; rel="alternate"
+Link: <https://no.trustpilot.com>; hreflang="nb"; rel="alternate"
+Link: <https://nl-be.trustpilot.com>; hreflang="nl-BE"; rel="alternate"
+Link: <https://nl.trustpilot.com>; hreflang="nl"; rel="alternate"
+Link: <https://pl.trustpilot.com>; hreflang="pl"; rel="alternate"
+Link: <https://br.trustpilot.com>; hreflang="pt-BR"; rel="alternate"
+Link: <https://pt.trustpilot.com>; hreflang="pt"; rel="alternate"
+Link: <https://se.trustpilot.com>; hreflang="sv"; rel="alternate"
+Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static/css/0f67331109c0c081.css>; as="style"; rel="preload"
+Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static/css/0f67331109c0c081.css>; data-n-g=""; rel="stylesheet"
+Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static/css/19473a922deef7da.css>; as="style"; rel="preload"
+Link: <https://consumersite-assets.trustpilot.net/consumersite-home/_next/static/css/19473a922deef7da.css>; data-n-p=""; rel="stylesheet"
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Title: Trustpilot Reviews: Experience the power of customer reviews
+X-Amz-Cf-Id: WSexdZ26XZALaESpKtkLEIGis_CoUim_L24351GMHVT673kqs0UknQ==
+X-Amz-Cf-Pop: ATL59-P9
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Meta-Apple-Itunes-App: app-id=1608392803, app-argument=https://www.trustpilot.com/
+X-Meta-Apple-Mobile-Web-App-Title: Trustpilot
+X-Meta-Application-Name: Trustpilot
+X-Meta-Charset: UTF-8
+X-Meta-Description: We're all about consumer reviews. Get the real inside story from shoppers like you. Read, write and share reviews on Trustpilot today.
+X-Meta-Msapplication-TileColor: #1c1c1c
+X-Meta-Next-Head-Count: 56
+X-Meta-Robots: max-image-preview:large, max-snippet:-1, max-video-preview:-1
+X-Meta-Theme-Color: #1c1c1c
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-XSS-Protection: 0
+
+

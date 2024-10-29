@@ -1,0 +1,96 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public,max-age=300
+Connection: close
+Location: https://t-online.de/
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:39 GMT
+Client-Peer: 54.217.253.146:80
+Client-Response-Num: 1
+X-Request-Id: 0192a303-5eac-762a-b6f2-f1a4d256a948
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public,max-age=300
+Connection: close
+Location: https://www.t-online.de/
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:40 GMT
+Client-Peer: 54.217.253.146:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=E5
+Client-SSL-Cert-Subject: /CN=t-online.de
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Request-Id: 0192a303-60a7-7e94-8c0f-90065ec78e8c
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=90, stale-while-revalidate=30, stale-if-error=86400
+Connection: close
+Date: Sat, 19 Oct 2024 04:21:33 GMT
+Via: 1.1 ip-10-0-56-216.eu-west-1.compute.internal (Varnish/7.5), 1.1 ip-10-0-56-216.eu-west-1.compute.internal (Varnish/7.5), 1.1 282c7063f0dcd150a1ec354174c83f68.cloudfront.net (CloudFront)
+Accept-Ranges: bytes
+Age: 98
+ETag: W/"vetag98e1c7d0c46e8e3a5849f211bab64ed0db3ed3dc60eb7fb30bba353c29e8f100"
+Server: envoy
+Vary: Accept-Encoding
+Vary: Origin
+Content-Length: 1223880
+Content-Type: text/html; charset=utf-8
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Sat, 19 Oct 2024 04:22:40 GMT
+Client-Peer: 54.230.31.81:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon ECDSA 256 M03
+Client-SSL-Cert-Subject: /CN=www.t-online.de
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Content-Security-Policy: frame-ancestors 'self' https://*.t-online.de;
+Hits: 22
+Link: <https://www.t-online.de/>; rel="canonical"
+Link: <https://www.t-online.de/feed.rss>; rel="alternate"; title="News & E-Mail bei t-online.de | Politik, Sport, Unterhaltung & Ratgeber"; type="application/rss+xml"
+Link: <https://images.t-online.de/2024/10/2QaJ60GWCvPz/402x517:2985x1679/fit-in/150x0/filters:blur(25)/jubel-in-schwarz-gelb-die-dortmunder-bejubeln-das-tor-von-ramy-bensebaini.jpg>; as="image"; rel="preload"
+Link: </favicon.ico>; crossorigin="use-credentials"; rel="shortcut icon"
+Link: </favicon-32x32.png>; crossorigin="use-credentials"; rel="icon"; sizes="32x32"; type="image/png"
+Link: </favicon-16x16.png>; crossorigin="use-credentials"; rel="icon"; sizes="16x16"; type="image/png"
+Link: </apple-touch-icon.png>; crossorigin="use-credentials"; rel="apple-touch-icon"; sizes="180x180"
+Link: </apple-touch-icon-precomposed.png>; crossorigin="use-credentials"; rel="apple-touch-icon-precomposed"; sizes="100x100"
+Link: </manifest.json>; crossorigin="use-credentials"; rel="manifest"
+Link: <https://consent.t-online.de/unified/wrapperMessagingWithoutDetection.js>; as="script"; data-testid="Consent.Sourcepoint.PreloadLink"; rel="preload"
+Referrer-Policy: strict-origin-when-cross-origin
+Server-Timing: cdn-cache-hit,cdn-pop;desc="ATL56-C3",cdn-rid;desc="JhLNBsRAZ7JQlUEDVQayZ8s-2Ra08QxVkHPG-4clm6BXJMtvoMNuGQ==",cdn-hit-layer;desc="REC",cdn-downstream-fbl;dur=32
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Title: News & E-Mail bei t-online.de | Politik, Sport, Unterhaltung & Ratgeber
+X-Amz-Cf-Id: JhLNBsRAZ7JQlUEDVQayZ8s-2Ra08QxVkHPG-4clm6BXJMtvoMNuGQ==
+X-Amz-Cf-Pop: ATL56-C3
+X-Cache: RefreshHit from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 0
+X-Grace: 30.000
+X-Keep: 128.000
+X-Meta-Apple-Itunes-App: app-id=339777505, app-argument=https://www.t-online.de/
+X-Meta-Charset: utf-8
+X-Meta-Company: Ströer Digital Publishing GmbH
+X-Meta-Copyright: t-online.de
+X-Meta-Description: Aktuelle News aus Politik, Sport, Unterhaltung, Wirtschaft & Finanzen | Ratgeber Leben, Gesundheit und Heim & Garten | E-Mail und Shopping bei t-online.de.
+X-Meta-Google-Adsense-Account: sites-6198894835015426
+X-Meta-Language: de
+X-Meta-Next-Head-Count: 23
+X-Meta-Robots: max-snippet:-1, max-image-preview:large, max-video-preview:-1
+X-Meta-Robots: index,follow
+X-Meta-Theme-Color: #FFFFFF
+X-Meta-Theme-Color: #0A0C14
+X-Meta-Twitter-Card: summary_large_image
+X-Meta-Twitter-Site: @tonline
+X-Meta-Twitter-Widgets-Csp: on
+X-Meta-Viewport: width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover
+X-Ttl: 58.690
+X-Varnish: 629276924 626625987
+X-Varnish: 619121793 626986941
+X-XSS-Protection: 1; mode=block
+
+

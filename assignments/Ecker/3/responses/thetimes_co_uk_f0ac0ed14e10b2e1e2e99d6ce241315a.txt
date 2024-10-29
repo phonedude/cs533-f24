@@ -1,0 +1,95 @@
+HTTP/1.1 307 Temporary Redirect
+Cache-Control: max-age=60
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:42 GMT
+Location: https://thetimes.co.uk/
+Server: openresty/1.11.2.3
+Content-Length: 193
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 04:22:42 GMT
+Client-Peer: 54.76.240.177:80
+Client-Response-Num: 1
+Title: 307 Temporary Redirect
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=60
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:42 GMT
+Location: https://www.thetimes.com
+Server: openresty/1.11.2.3
+Content-Length: 191
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 04:22:42 GMT
+Client-Peer: 54.76.240.177:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R10
+Client-SSL-Cert-Subject: /CN=thetimes.co.uk
+Client-SSL-Cipher: ECDHE-RSA-AES128-GCM-SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_2
+Client-SSL-Warning: Peer certificate not verified
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=180, stale-if-error=178
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:08 GMT
+Via: 1.1 a1b2735f2a7b650b7f10bffd38aa8ffa.cloudfront.net (CloudFront)
+Age: 35
+ETag: "1f8885-y8mNsgPPz9kofxCtOqaoc4Mq3I4"
+Server: CloudFront
+Vary: Accept-Encoding
+Content-Length: 2066565
+Content-Type: text/html; charset=utf-8
+Expires: Sat, 19 Oct 2024 04:25:07 GMT
+Alt-Svc: h3=":443"; ma=86400
+Client-Date: Sat, 19 Oct 2024 04:22:43 GMT
+Client-Peer: 3.163.115.116:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Amazon/CN=Amazon RSA 2048 M03
+Client-SSL-Cert-Subject: /CN=*.nukcdn.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Link: </d/img/theTimesBackground-eb98bb2db5.png>; as="image"; fetchpriority="high"; rel="preload"
+Link: </d/img/headlineBackground-cabdc9b89a.webp>; as="image"; fetchpriority="high"; rel="preload"
+Link: </d/img/puzzleBackground-fc6cc048a0.webp>; as="image"; fetchpriority="high"; rel="preload"
+Link: <https://www.thetimes.com>; rel="canonical"
+Link: <https://www.thetimes.com/>; hreflang="en-gb"; rel="alternate"
+Link: <https://www.thetimes.com/us>; hreflang="en-us"; rel="alternate"
+Link: <https://www.thetimes.com/>; hreflang="x-default"; rel="alternate"
+Link: </store/favicon-32x32.png>; /}"="/}""; rel="icon"
+Link: </store/favicon-72x72.png>; /}"="/}""; rel="apple-touch-icon"
+Link: <https://www.thetimes.com/assets/optimizely/custom/tnl_custom_snippet.js>; as="script"; data-react-helmet="true"; data-testid="optimizely-link"; rel="preload"
+Set-Cookie: nuk_customer_location_hint=GLOBAL; path=/; domain=.thetimes.com
+Set-Cookie: nuk_zephr_decisions=eyJ1bmxvY2stYnktdXJsLS0tZnJlbmNoLWVsZWN0aW9uIjoiTk9fQUNDRVNTIiwidW5sb2NrLWJ5LXVybCI6Ik5PX0FDQ0VTUyIsInRpbWVzLXRyYXZlbC11bmxvY2stYXBpIjoiTk9fQUNDRVNTIiwidGltZXMtYW5vbnltb3VzLXRyaWFsIjoiQVJUSUNMRV9BQ0NFU1MiLCJuZXctaG90LWNvbGQtcGF5d2FsbCI6Ik5PX0FDQ0VTUzpBOlJFR1dBTEwiLCJoYWxpZmF4LS0tdW5sb2NrLWJwdGwtc2VjdGlvbiI6Ik5PX0FDQ0VTUyIsImNvcnBvcmF0ZS1pcC1uZXciOiJOT19BQ0NFU1MiLCJjb3Jwb3JhdGUtaXAtYWNjZXNzLTIiOiJOT19BQ0NFU1MiLCJjb3Jwb3JhdGUtaXAtYWNjZXNzIjoiTk9fQUNDRVNTIiwiYnlwYXNzLXBheXdhbGwtZm9yLXBlcmZvcm1hbmNlLW1vbml0b3JpbmciOiJOT19BQ0NFU1M6QiJ9; path=/
+Set-Cookie: nuk_customer_country_code=US; path=/; domain=.thetimes.com; secure
+Set-Cookie: nuk_customer_region_code=NC; path=/; domain=.thetimes.com; secure
+Set-Cookie: euconsent-v2=expire; expires=Tue, 01-Jan-2019 00:00:00 GMT; path=/
+Title: The Times & The Sunday Times: breaking news & today's latest headlines
+X-ACS-Version: 2
+X-Amz-Cf-Id: oh27MQj7NG6HARW01kQNHmxMZE0d6B3v80UrbTU4lqsuf6AyAKWi-w==
+X-Amz-Cf-Pop: ATL58-P9
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: utf-8
+X-Meta-Description: The latest UK and world news, business, sport and comment from The Times and The Sunday Times
+X-Meta-Facebook-Domain-Verification: nluxklg2n3hgp7m3ktb58262ksaory
+X-Meta-Facebook-Domain-Verification: owpqttwd1q9p69lwy0c5vjv4o76o9f
+X-Meta-Google-Site-Verification: wgOLxykhpsfs3Xzr-122VxguqHHRcfHDzAod4gQaIm8
+X-Meta-Google-Site-Verification: GiMbvk3MUq3dgqwJE9xy-V9V_8NA52PZY4FuIKddoVw
+X-Meta-Twitter-Account-Id: 6107422
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Description: News and opinion from The Times & The Sunday Times
+X-Meta-Twitter-Image: /d/img/dual-masthead-placeholder-1x1-35687a1d6a.png
+X-Meta-Twitter-Title: The Times & The Sunday Times
+X-Meta-Twitter-Url: https://www.thetimes.com
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 0
+
+
