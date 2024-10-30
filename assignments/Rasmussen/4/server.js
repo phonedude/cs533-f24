@@ -6,15 +6,28 @@ const axios = require('axios');
 const app = express();
 const port = 4000;
 
-// Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public')));
-
 // Serve static files from the 'frameable' directory
 app.use('/frameable', express.static(path.join(__dirname, 'frameable')));
 
 // Route for the root URL
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// Route for the vulnerable page
+app.get('/frame-path-attack/vulnerable-page', (req, res) => {
+    // Set a cookie with only Path attribute
+    res.cookie('sensitiveData', 'secret123', {
+        path: '/frame-path-attack/vulnerable-page',
+        httpOnly: false // Making it accessible via JavaScript for demo
+    });
+    
+    res.sendFile(path.join(__dirname, 'frame-path-attack/vulnerable-page', 'vulnerable.html'));
+});
+
+// Route for the attacker page
+app.get('/frame-path-attack/attacker-page', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frame-path-attack/attacker-page', 'attacker.html'));
 });
 
 // Function to check if a website is frameable

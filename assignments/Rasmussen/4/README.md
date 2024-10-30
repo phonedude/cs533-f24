@@ -1,7 +1,7 @@
 
 # Website Rendering Results
 
-## Frameable Websites (30)
+## Frameable Websites (29)
 - http://4shared.com
 - http://abcnews.go.com
 - http://biblegateway.com
@@ -30,10 +30,9 @@
 - http://webmd.com
 - http://wikimedia.org
 - http://www.wix.com
-- http://yadi.sk
 - http://zippyshare.com
 
-## Not Frameable Websites (70)
+## Not Frameable Websites (71)
 - [http://alibaba.com](frameable/alibaba.com.html) (Reason: X-Frame-Options)
 - [http://aliexpress.com](frameable/aliexpress.com.html) (Reason: Error)
 - [http://aol.com](frameable/aol.com.html) (Reason: X-Frame-Options)
@@ -74,7 +73,7 @@
 - [http://jstor.org](frameable/jstor.org.html) (Reason: X-Frame-Options)
 - [http://justgiving.com](frameable/justgiving.com.html) (Reason: X-Frame-Options)
 - [http://latimes.com](frameable/latimes.com.html) (Reason: X-Frame-Options)
-- [http://linkedin.com](frameable/linkedin.com.html) (Reason: Error)
+- [http://linkedin.com](frameable/linkedin.com.html) (Reason: X-Frame-Options)
 - [http://mailchimp.com](frameable/mailchimp.com.html) (Reason: X-Frame-Options)
 - [http://naver.com](frameable/naver.com.html) (Reason: X-Frame-Options)
 - [http://nytimes.com](frameable/nytimes.com.html) (Reason: X-Frame-Options)
@@ -102,6 +101,7 @@
 - [http://www.gov.uk](frameable/www.gov.uk.html) (Reason: X-Frame-Options)
 - [http://www.over-blog.com](frameable/www.over-blog.com.html) (Reason: X-Frame-Options)
 - [http://www.yahoo.com](frameable/www.yahoo.com.html) (Reason: X-Frame-Options)
+- [http://yadi.sk](frameable/yadi.sk.html) (Reason: Content-Security-Policy)
 - [http://ytimg.com](frameable/ytimg.com.html) (Reason: Error)
 - [http://zendesk.com](frameable/zendesk.com.html) (Reason: Content-Security-Policy)
     
