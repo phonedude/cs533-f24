@@ -9,6 +9,9 @@ const port = 4000;
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Serve static files from the 'frameable' directory
+app.use('/frameable', express.static(path.join(__dirname, 'frameable')));
+
 // Route for the root URL
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -23,9 +26,12 @@ const isFrameable = async (url) => {
 
         // Check if the website has headers that prevent framing
         if (xFrameOptions || (contentSecurityPolicy && contentSecurityPolicy.includes('frame-ancestors'))) {
-            return false;
+            return {
+                frameable: false,
+                reason: xFrameOptions ? 'X-Frame-Options' : 'Content-Security-Policy'
+            };
         }
-        return true;
+        return { frameable: true };
     } catch (error) {
         if (error.response) {
             console.error(`Error checking ${url}:`, error.message);
@@ -34,8 +40,17 @@ const isFrameable = async (url) => {
         } else {
             console.error(`Error checking ${url}:`, error.message);
         }
-        return false;
+        return { frameable: false, reason: 'Error' };
     }
+};
+
+// Function to generate a specific HTML page for each website
+const generateWebsitePage = (website, frameable) => {
+    const websiteName = website.replace('http://', '').replace('https://', '');
+    const template = fs.readFileSync(path.join(__dirname, 'templates', 'frameable_template.html'), 'utf-8');
+    const frameContent = frameable ? `<iframe src="${website}" frameborder="0"></iframe>` : `<div class="not-frameable">Website was not frameable</div>`;
+    const htmlContent = template.replace(/{{websiteName}}/g, websiteName).replace(/{{frameContent}}/g, frameContent);
+    fs.writeFileSync(path.join(__dirname, 'frameable', `${websiteName}.html`), htmlContent);
 };
 
 // Route to check frameability of websites and render them in boxes
@@ -43,76 +58,71 @@ app.get('/check-frameable', async (req, res) => {
     const filePath = path.join(__dirname, 'data', 'ARASM002@ODU.EDU');
     let websites = fs.readFileSync(filePath, 'utf-8').split('\n').filter(Boolean);
 
-    // Filter out britannica.com
-    websites = websites.filter(website => website !== 'britannica.com');
-
     const results = await Promise.all(websites.map(async (website) => {
-        const frameable = await isFrameable(`http://${website}`);
-        return { website: `http://${website}`, frameable };
+        if (website === 'britannica.com') {
+            // Mock result for britannica.com
+            const frameable = false;
+            const reason = 'Too many redirects';
+            generateWebsitePage(`http://${website}`, frameable);
+            return { website: `http://${website}`, frameable, reason };
+        } else {
+            const { frameable, reason } = await isFrameable(`http://${website}`);
+            generateWebsitePage(`http://${website}`, frameable);
+            return { website: `http://${website}`, frameable, reason };
+        }
     }));
 
-    let htmlContent = `
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Frameable Websites</title>
-            <style>
-                .container {
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                .box {
-                    width: 20%;
-                    padding: 10px;
-                    box-sizing: border-box;
-                }
-                iframe {
-                    width: 100%;
-                    height: 200px;
-                    border: 1px solid #ccc;
-                }
-                .url {
-                    text-align: center;
-                    margin-top: 5px;
-                    font-size: 12px;
-                }
-                .not-frameable {
-                    text-align: center;
-                    color: red;
-                    font-size: 12px;
-                }
-            </style>
-        </head>
-        <body>
-            <div class="container">
-    `;
+    let frameableCount = 0;
+    let notFrameableCount = 0;
+    let frameableList = [];
+    let notFrameableList = [];
 
     results.forEach(result => {
         if (result.frameable) {
-            htmlContent += `
+            frameableCount++;
+            frameableList.push(result.website);
+        } else {
+            notFrameableCount++;
+            notFrameableList.push({ website: result.website, reason: result.reason });
+        }
+    });
+
+    const template = fs.readFileSync(path.join(__dirname, 'templates', 'index_template.html'), 'utf-8');
+    let content = '';
+
+    results.forEach(result => {
+        if (result.frameable) {
+            content += `
                 <div class="box">
                     <iframe src="${result.website}" frameborder="0"></iframe>
-                    <div class="url">${result.website}</div>
+                    <div class="url"><a href="/frameable/${result.website.replace('http://', '').replace('https://', '')}.html">${result.website}</a></div>
                 </div>
             `;
         } else {
-            htmlContent += `
+            content += `
                 <div class="box">
-                    <div class="not-frameable">Cannot frame ${result.website}</div>
+                    <div class="not-frameable">🚫</div>
+                    <div class="url"><a href="/frameable/${result.website.replace('http://', '').replace('https://', '')}.html">Cannot frame ${result.website}</a></div>
                 </div>
             `;
         }
     });
 
-    htmlContent += `
-            </div>
-        </body>
-        </html>
+    const htmlContent = template.replace('{{content}}', content);
+    res.send(htmlContent);
+
+    // Update README.md
+    const readmeContent = `
+# Website Rendering Results
+
+## Frameable Websites (${frameableCount})
+${frameableList.map(website => `- ${website}`).join('\n')}
+
+## Not Frameable Websites (${notFrameableCount})
+${notFrameableList.map(item => `- [${item.website}](frameable/${item.website.replace('http://', '').replace('https://', '')}.html) (Reason: ${item.reason})`).join('\n')}
     `;
 
-    res.send(htmlContent);
+    fs.writeFileSync(path.join(__dirname, 'README.md'), readmeContent);
 });
 
 // Start the server
