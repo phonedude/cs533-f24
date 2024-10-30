@@ -72,7 +72,7 @@ def parse_set_cookie_headers(set_cookie_headers, default_domain):
             'expires': None,
         }
 
-        # Iterate over the remaining parts to extract attributes
+        # Extract attributes
         for attr in parts[1:]:
             attr = attr.strip()
             if attr.lower() == 'httponly':
@@ -91,7 +91,6 @@ def parse_set_cookie_headers(set_cookie_headers, default_domain):
             elif attr.lower().startswith('expires='):
                 expires_value = attr.split('=', 1)[1]
                 cookie_info['expires'] = expires_value
-            # We can add more attributes as needed
 
         cookies.append(cookie_info)
     return cookies
