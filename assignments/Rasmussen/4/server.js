@@ -11,20 +11,33 @@ app.use('/frameable', express.static(path.join(__dirname, 'frameable')));
 
 // Route for the root URL
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, './', 'index.html'));
 });
 
 // Route for the vulnerable page
 app.get('/frame-path-attack/vulnerable-page', (req, res) => {
-    // Set a cookie with only Path attribute
+    // Remove X-Frame-Options header to ensure framing works
+    res.removeHeader('X-Frame-Options');
+    
+    // Set multiple cookies to increase chances of demonstration
     res.cookie('sensitiveData', 'secret123', {
         path: '/frame-path-attack/vulnerable-page',
-        httpOnly: false // Making it accessible via JavaScript for demo
+        httpOnly: false,
+        sameSite: 'Lax'  // Changed to Lax which is more permissive than Strict
     });
+    
+    res.cookie('sessionId', 'demo-session-12345', {
+        path: '/frame-path-attack/vulnerable-page',
+        httpOnly: false,
+        sameSite: 'Lax'
+    });
+    
+    // Add headers to explicitly allow framing
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
     
     res.sendFile(path.join(__dirname, 'frame-path-attack/vulnerable-page', 'vulnerable.html'));
 });
-
 // Route for the attacker page
 app.get('/frame-path-attack/attacker-page', (req, res) => {
     res.sendFile(path.join(__dirname, 'frame-path-attack/attacker-page', 'attacker.html'));
