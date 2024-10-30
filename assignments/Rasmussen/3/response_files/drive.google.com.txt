@@ -1,0 +1,35 @@
+URL: http://drive.google.com
+Final URL: https://workspace.google.com/intl/en-US/products/drive/
+Status Code: 200
+
+Headers:
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Security-Policy: script-src  'nonce-w1tTctNIPpse-Cc77zeS3w' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/workspace-web-team; base-uri 'self'
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="workspace-web-team"
+Report-To: {"group":"workspace-web-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/workspace-web-team"}]}
+Date: Wed, 30 Oct 2024 21:04:39 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Last-Modified: Tue, 29 Oct 2024 16:18:00 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+Content Snippet (first 500 characters):
+<!doctype html>
+<html lang="en" dir="ltr" itemscope itemtype="https://schema.org/WebPage">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Google Drive: Share Files Online with Secure Cloud Storage | Google Workspace</title>
+    <meta name="description" content="Learn about Google Driveâs file sharing platform that provides a personal, secure cloud storage option to share content with other users." />
+    <link rel="canonical" href="https://workspace.google.com/products/drive/" />
+    <link 

@@ -1,0 +1,24 @@
+URL: http://aol.com
+Final URL: https://www.aol.com/
+Status Code: 200
+
+Headers:
+Date: Wed, 30 Oct 2024 21:04:27 GMT
+Content-Type: text/html; charset=utf-8
+Expect-CT: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+Content-Encoding: gzip
+content-security-policy: upgrade-insecure-requests; block-all-mixed-content; sandbox allow-modals allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-orientation-lock allow-pointer-lock;
+cache-control: no-cache, no-store, private, must-revalidate
+Age: 0
+Server: ATS
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html><html id="atomic" class="NoJs chrome desktop" lang="en-US"><head prefix="og: http://ogp.me/ns#"><script>window.performance && window.performance.mark && window.performance.mark('PageStart');</script><meta charSet="utf-8"/><meta http-equiv="content-type" content="text/html; charset=UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><meta http-equiv="x-dns-prefetch-control" content="on"/><meta name="author" content="AOL"/><meta name="google-site-verification" con

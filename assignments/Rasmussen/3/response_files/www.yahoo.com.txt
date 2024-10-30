@@ -1,0 +1,31 @@
+URL: http://www.yahoo.com
+Final URL: https://www.yahoo.com/
+Status Code: 200
+
+Headers:
+expect-ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+content-type: text/html; charset=utf-8
+content-encoding: gzip
+date: Wed, 30 Oct 2024 21:06:27 GMT
+x-envoy-upstream-service-time: 83
+server: ATS
+Age: 0
+Cache-Control: no-store, no-cache, max-age=0, private
+Expires: -1
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: frame-ancestors 'self' https://*.builtbygirls.com https://*.rivals.com https://*.engadget.com https://*.intheknow.com https://*.autoblog.com https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.search.yahoo.com https://*.pnr.ouryahoo.com https://pnr.ouryahoo.com https://*.search.aol.com https://*.search.huffpost.com https://*.onesearch.com https://*.verizonmedia.com https://*.publishing.oath.com https://cdn.taboola.com https://ads.taboola.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=news&region=US&lang=en-US&device=desktop&yrid=6o9nr8tivmg0j&partner=;
+
+Content Snippet (first 500 characters):
+<!doctype html><html data-color-scheme id=atomic class="ltr fp  desktop  fp-none bkt900,seamless ua-chrome ua-91.0 isModern" lang=en-US><head><script nonce=fe35d5da4c7d25e2d4d2b6e36a828d814bca823e8b69db532ed4334b8018b735>
+        window.performance.mark('PageStart');
+        document.documentElement.className += ' JsEnabled jsenabled';
+        /**
+        * Empty darlaOnready method, to avoid JS error.
+        * This can happen when Async Darla JS file is loaded earlier than Darla Proxy JS.
+    

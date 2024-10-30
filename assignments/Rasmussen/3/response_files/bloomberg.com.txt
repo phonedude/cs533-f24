@@ -1,0 +1,38 @@
+URL: http://bloomberg.com
+Final URL: https://www.bloomberg.com/tosv2.html?vid=&uuid=8def34e2-9702-11ef-aad8-18303f895785&url=Lw==
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Server: openresty
+Last-Modified: Tue, 29 Oct 2024 21:41:08 GMT
+ETag: W/"67215674-2dca"
+Cache-Control: public, max-age=5, private, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:04:29 GMT
+X-Served-By: cache-iad-kjyo7100123-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1730322270.985531,VS0,VE10
+Strict-Transport-Security: max-age=31557600
+Link: <https://assets.bwbx.io>; rel=preconnect; crossorigin, <https://assets.bwbx.io>; rel=preconnect, <https://sourcepointcmp.bloomberg.com>; rel=preconnect; crossorigin, <https://tpc.googlesyndication.com	>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect; crossorigin
+Vary: Accept-Encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+transfer-encoding: chunked
+
+Content Snippet (first 500 characters):
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Bloomberg - Are you a robot?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <style rel="stylesheet">
+        @font-face {
+            font-family: BWHaasGroteskWeb;
+            font-display: swap;
+            font-weight: 400;
+            font-style: normal;
+            src: url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-55Roman-Web-7998fbcba8.eot');

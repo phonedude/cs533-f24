@@ -1,0 +1,23 @@
+URL: http://marca.com
+Final URL: https://www.marca.com/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 134101
+Content-Type: text/html; charset=iso-8859-15
+Content-Encoding: gzip
+Referrer-Policy: unsafe-url
+Cache-Control: s-maxage=60
+x-backend: CONTENT
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:05:39 GMT
+Age: 8
+X-Served-By: cache-ams2100116-AMS, cache-iad-kiad7000101-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 2, 1
+X-Timer: S1730322340.851575,VS0,VE1
+Vary: Accept-Encoding, User-Agent
+
+Content Snippet (first 500 characters):
+ <!DOCTYPE html><html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/><meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/><title data-ue-c="innerHTML" data-ue-u="title">MARCA - Diario online líder en información deportiva</title><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0"><meta name="keywords" content=""/><meta name="news_keywords" content=""/><!-- ##IBEXCLU --><link Href="https://www.marca.com" dat

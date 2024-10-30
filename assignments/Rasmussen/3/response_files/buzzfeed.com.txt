@@ -1,0 +1,47 @@
+URL: http://buzzfeed.com
+Final URL: https://www.buzzfeed.com/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 201367
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Encoding: gzip
+Content-Language: en
+Document-Policy: js-profiling
+Etag: "131f66-q8IWPMHr5/1Op9rkGNSSNG+uT1E"
+Expires: 0
+Pragma: no-cache
+Set-Cookie: next-i18next=en; path=/; expires=Thu, 30 Oct 2025 21:04:06 GMT, dsl25_frhf=control;expires=Wed, 27 Nov 2024 21:04:32 GMT;
+X-Request-Id: b9cd5bcf7b0c721d5cf3d6b31789c847
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:04:32 GMT
+Age: 26
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000; preload
+Timing-Allow-Origin: *
+X-Served-By: cache-iad-kjyo7100042-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1730322272.262966,VS0,VE3
+Vary: X-BF-User-Edition, Accept-Encoding, X-BF-Canary, X-BF-Canary-Site-Router, X-BF-Canary-Perimeter, X-BF-Canary-Feed-UI
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html><html class="undefined " lang="en-us"><head><script>
+  window.BZFD = window.BZFD || {};
+  window.BZFD.Config = {
+    bfwInfoCookie: 'bf2-b_info'
+  };
+</script><script>((env)=>{
+        window.BFADS = {
+            badges: env.badges || null,
+            buzz_id: null,
+            compilation_id: null,
+            cms_tag: env.cms_tags,
+            cms_tags: env.cms_tags,
+            dfp_keyword: env.dfp_keyword,
+            pagetype: env.pagetype,
+            recipe_id: null,
+    

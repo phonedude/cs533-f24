@@ -1,0 +1,37 @@
+URL: http://apache.org
+Final URL: https://apache.org/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 16070
+Server: Apache
+Last-Modified: Wed, 30 Oct 2024 17:23:28 GMT
+ETag: "fd2e-625b4f5c762f3-gzip"
+Cache-Control: max-age=3600
+Expires: Wed, 30 Oct 2024 18:23:35 GMT
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self' data: 'unsafe-inline' https://www.apachecon.com/ https://analytics.apache.org/ http://analytics.apache.org/ https://www.youtube-nocookie.com https://www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://analytics.apache.org/ http://analytics.apache.org/ https://www.youtube-nocookie.com https://www.youtube.com; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; img-src 'self' https://www.apache.org/;
+Content-Type: text/html
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:04:28 GMT
+Age: 2427
+X-Served-By: cache-hel1410034-HEL, cache-iad-kjyo7100057-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 7, 1
+X-Timer: S1730322268.093427,VS0,VE1
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Home page of The Apache Software Foundation">
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" h

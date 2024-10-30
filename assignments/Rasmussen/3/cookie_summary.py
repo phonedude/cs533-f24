@@ -190,6 +190,27 @@ def get_cookie_stats(all_cookie_data):
     Returns:
     - str: A string containing the Markdown-formatted report.
     """
+    # Create response_files directory if it doesn't exist
+    os.makedirs('response_files', exist_ok=True)
+    
+    # Save response details to individual files
+    for site in all_cookie_data:
+        url_parsed = urlparse(site['url'])
+        hostname = url_parsed.netloc.replace(':', '_')  # Replace colons for Windows compatibility
+        filename = f"response_files/{hostname}.txt"
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            response_details = site.get('response_details', {})
+            f.write(f"URL: {site['url']}\n")
+            f.write(f"Final URL: {site.get('final_url', 'N/A')}\n")
+            f.write(f"Status Code: {response_details.get('status_code', 'N/A')}\n")
+            f.write("\nHeaders:\n")
+            headers = response_details.get('headers', {})
+            for header_name, header_value in headers.items():
+                f.write(f"{header_name}: {header_value}\n")
+            f.write("\nContent Snippet (first 500 characters):\n")
+            f.write(response_details.get('content_snippet', ''))
+
     # Initialize counters
     total_cookies = 0
     httponly_count = 0
@@ -253,6 +274,7 @@ generates a Markdown report that includes HTTP response details.
 |__ README.md -- the markdown file that you are reading; this is this assignment's final report
 |__ cookie_summary.py -- a Python script that reads a list of URLs and helps us produce the final report
 |__ output.txt -- the cookie_summary.py script run log (Note that there were two ERRORs)
+|__ response_files/ -- directory containing detailed HTTP responses for each site
 ```
 
 ## Extra Credit
@@ -297,71 +319,35 @@ Another way of looking at it is to say that we must be vigilant at every level, 
 """
     )
 
+    # Add detailed site information
     for site in all_cookie_data:
-        cookie_attributes = []
+        url = site['url']
+        status_code = site['status_code']
+        num_cookies = len(site['cookies'])
+        
+        # Format cookie attributes
+        cookie_attrs = []
         for cookie in site['cookies']:
-            attributes = []
-            if cookie.get('httponly'):
-                attributes.append('HttpOnly')
-            if cookie.get('secure'):
-                attributes.append('Secure')
-            samesite = cookie.get('samesite')
-            if samesite != False:
-                samesite_value = samesite.split(': ')[1]
-                attributes.append(f"SameSite={samesite_value}")
-
-            cookie_attributes.append(
-                f"{cookie['name']}: {', '.join(attributes)}"
-            )
-
-        cookie_attribute_policy = (
-            '<br>'.join(cookie_attributes) or 'N/A'
-        )
-
-        markdown_content += (
-            f"| {site['url']} | {site.get('status_code', 'N/A')} | "
-            f"{len(site['cookies'])} | {cookie_attribute_policy} | "
-            f"{site.get('final_url', 'N/A')} |\n"
-        )
-
-    markdown_content += """
-
-## Individual Cookie Details
-
-| URL | Cookie Name | HttpOnly | Secure | SameSite | Path |
-|-----|-------------|----------|--------|----------|------|
-"""
-    for site in all_cookie_data:
-        for cookie in site['cookies']:
-            markdown_content += (
-                f"| {site['url']} | {cookie['name']} | "
-                f"{cookie.get('httponly', False)} | "
-                f"{cookie.get('secure', False)} | "
-                f"{cookie.get('samesite')} | "
-                f"{cookie.get('path', '/')} |\n"
-            )
+            attrs = []
+            if cookie['httponly']:
+                attrs.append('HttpOnly')
+            if cookie['secure']:
+                attrs.append('Secure')
+            if cookie['samesite']:
+                attrs.append(f"SameSite={cookie['samesite']}")
+            cookie_attrs.append(f"{cookie['name']}: {', '.join(attrs)}")
+        
+        cookie_attr_str = '; '.join(cookie_attrs)
+        final_url = site['final_url'] if site['final_url'] else 'N/A'
+        
+        markdown_content += f"| {url} | {status_code} | {num_cookies} | {cookie_attr_str} | {final_url} |\n"
 
     markdown_content += """
 
 ## HTTP Response Details
 
+Response details for each site have been saved to individual files in the 'response_files' directory.
 """
-    for site in all_cookie_data:
-        response_details = site.get('response_details', {})
-        markdown_content += f"### URL: {site['url']}\n"
-        markdown_content += f"- **Final URL:** {site.get('final_url', 'N/A')}\n"
-        markdown_content += f"- **Status Code:** {response_details.get('status_code', 'N/A')}\n"
-        markdown_content += "- **Headers:**\n"
-        headers = response_details.get('headers', {})
-        for header_name, header_value in headers.items():
-            markdown_content += f"  - {header_name}: {header_value}\n"
-        content_snippet = response_details.get('content_snippet', '')
-        if content_snippet:
-            markdown_content += "- **Content Snippet (first 500 characters):**\n"
-            # Escape backticks to prevent Markdown formatting issues
-            content_snippet = content_snippet.replace('`', '\\`')
-            markdown_content += f"```\n{content_snippet}\n```\n"
-        markdown_content += "\n---\n"
 
     return markdown_content
 

@@ -1,0 +1,26 @@
+URL: http://ikea.com
+Final URL: https://www.ikea.com/
+Status Code: 200
+
+Headers:
+Server: IKEA Server
+Content-Type: text/html; charset=utf-8
+Akamai-GRN: 0.d19b3e17.1730322314.288cc238
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+x-ms-version: 2018-03-28
+x-ms-request-id: 60a14c6f-401e-0067-37b2-268dca000000
+ETag: "0x8DCF4C9CC435F52"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=900
+Expires: Wed, 30 Oct 2024 21:20:14 GMT
+Date: Wed, 30 Oct 2024 21:05:14 GMT
+Content-Length: 16567
+Connection: keep-alive
+Akamai-Cache-Status: Hit from child
+Set-Cookie: _abck=401F21AB3D25052A1C1D0119C0BAEE28~-1~YAAQ0Zs+F5NwfsySAQAArDU/3wx/0qG+I2RSpD3SjuGHziug4cuYKGKsYGu5ASnn6D1qQJ6WS40s+KxD2TB2D62dRM92KtVgy5+/VtX11KLUMQldCt2PNR2HJgp+YqvWSy6kKb8maRXaO7Ymk1SzVLllm2kt/RXIusuODVQo5H5DShBryCzIn6GSAD+T3Mo19cc3kU0VO4NV4IQdfKGy4oY12n4UrZ68h6KhYpIjnQhkIUqlIq18HszDWIalmGEz/jfPllgTY4YOumbsuk2x1FFL9nzHmgcAWpZKJfgdZp1hR4qWlNnF+dCmE7TViTn7TKpqemhs4ZhvHT8NA7/rvC7xZYYO3j5WHXHN5l7BEfa+5xfofZaN6Sm18I26vNsfHKn1cZyWwHqD7mjUi7RYKCUeoeXRC8RyoHD7~-1~-1~-1; Domain=.ikea.com; Path=/; Expires=Thu, 30 Oct 2025 21:05:14 GMT; Max-Age=31536000; Secure, bm_sz=C950E8EC3D2A74317DFF0708B07F5E4A~YAAQ0Zs+F5RwfsySAQAArDU/3xlRnmYtz1C+TQJzgWld4RoknEa24TvamE7n7nXkhqShLdpk9orKjV/JrxVukEF0NWtk36JVb5MZe7pGY8t5YiBffgTSWYWqGnOcLFpNDnmUJ8WIOYqsXGk3qyDndegjIvdXavezo0qwOaiQJFBdS5EbidYO99vtXmV4cS0tzHpfsU0DlvgwIOSHGCfh1E1fkgYR7ZESMFKrc5KTCa4KAOOY+Y9ExRzOFUfJTpmJT2dZxxtx2b2DGJxelmITrrmIoJWCpLc5Km+FmhDDeIq7JXXlIavt57eFTPbzt2bld6mo7JtdAMaMG13d9BPg70XX59pXgKifPHJZyEX2smATabpM6TNSMbvqAq/PG3QyYYyzad36/g==~3749445~4534593; Domain=.ikea.com; Path=/; Expires=Thu, 31 Oct 2024 01:05:14 GMT; Max-Age=14400
+
+Content Snippet (first 500 characters):
+<!doctype html><html lang="en" dir="ltr"><head><title>Hej! Welcome to IKEA Global</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow"><meta property="og:title" content="Hej! Welcome to IKEA Global"><meta name="twitter:title" content="Hej! Welcome to IKEA Global"><link rel="canonical" href="https://www.ikea.com/"><meta property="og:url" conte

@@ -1,0 +1,24 @@
+URL: http://zippyshare.com
+Final URL: http://zippyshare.com/
+Status Code: 200
+
+Headers:
+Server: nginx/1.10.3 (Ubuntu)
+Date: Wed, 30 Oct 2024 21:06:31 GMT
+Content-Type: text/html
+Content-Length: 4771
+Last-Modified: Thu, 25 May 2023 21:37:27 GMT
+Connection: keep-alive
+ETag: "646fd517-12a3"
+Accept-Ranges: bytes
+
+Content Snippet (first 500 characters):
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Zippyshare.com - [now defunct] Free File Hosting</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href="css/bootstrap.min.v2.css" rel="stylesheet">
+		<link href="css/font-awesome.v2.css" rel=

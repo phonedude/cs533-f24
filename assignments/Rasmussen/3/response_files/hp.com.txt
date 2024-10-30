@@ -1,0 +1,43 @@
+URL: http://hp.com
+Final URL: https://www.hp.com/us-en/home.html
+Status Code: 200
+
+Headers:
+Content-Type: text/html;charset=utf-8
+Server: Apache
+X-Dispatcher: dispatcher2westus2-28533384
+X-Vhost: publish
+X-Content-Type-Options: nosniff
+Last-Modified: Wed, 30 Oct 2024 18:54:08 GMT
+ETag: "c32df-625b63a061c65-gzip"
+Accept-Ranges: bytes
+X-Akamai-Transformed: 9 - 0 pmb=mTOE,1
+Content-Encoding: gzip
+Cache-Control: max-age=491
+Expires: Wed, 30 Oct 2024 21:13:24 GMT
+Date: Wed, 30 Oct 2024 21:05:13 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive, Transfer-Encoding
+Vary: Accept-Encoding
+Set-Cookie: aka_client_code=US-
+X-Frame-Options: SAMEORIGIN, SAMEORIGIN, SAMEORIGIN
+Strict-Transport-Security: max-age=600
+Akamai-GRN: 0.b0c83017.1730322313.dc562303
+Server-Timing: ak_p; desc="1730322313765_389073072_3696632579_30_14128_19_0_-";dur=1
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html class=" " xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" dir="ltr">
+  
+    <head>
+    <meta charset="UTF-8"/>
+    <title>Laptop Computers, Desktops, Printers, Ink &amp; Toner  | HP® Official Site</title>
+    <script type="application/ld+json">
+      {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : "HP",
+        "url" : "https://www.hp.com/"
+      }
+    </script>
+    <link href="/content/dam/sites/worldwide/dems/f

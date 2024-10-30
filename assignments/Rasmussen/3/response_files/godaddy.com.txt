@@ -1,0 +1,31 @@
+URL: http://godaddy.com
+Final URL: https://www.godaddy.com/
+Status Code: 403
+
+Headers:
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 367
+Expires: Wed, 30 Oct 2024 21:05:04 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 30 Oct 2024 21:05:04 GMT
+Connection: close
+Set-Cookie: market=en-US; expires=Thu, 30-Oct-2025 21:05:04 GMT; path=/; domain=.godaddy.com, currency=USD; expires=Thu, 30-Oct-2025 21:05:04 GMT; path=/; domain=.godaddy.com, akaas_godaddy-com-wildcard=2147483647~rv=95~id=a361deb664882522c5f9248ea92ee134~rn=; path=/; Secure; SameSite=None
+X-Frame-Options: DENY
+X-ORIGIN-TAG: frontdoor
+X-ARC: 2, 6a
+Server-Timing: ak_p; desc="1730322304571_389979077_60025202_17_18860_21_28_-";dur=1
+
+Content Snippet (first 500 characters):
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;www&#46;godaddy&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;c59b3e17&#46;1730322304&#46;393e972
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;c59b3e17&#46;1730322304&#46;393e972</P>
+</BODY>
+</HTML>
