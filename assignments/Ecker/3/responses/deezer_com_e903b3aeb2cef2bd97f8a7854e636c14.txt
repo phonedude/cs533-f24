@@ -1,0 +1,115 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:05 GMT
+Via: 1.1 cc1306ed8bded6aee0221810c99f7636.cloudfront.net (CloudFront)
+Location: https://deezer.com/
+Server: CloudFront
+Content-Length: 167
+Content-Type: text/html
+Client-Date: Sat, 19 Oct 2024 04:22:04 GMT
+Client-Peer: 18.244.202.43:80
+Client-Response-Num: 1
+Title: 301 Moved Permanently
+X-Amz-Cf-Id: SBXszf_JsV3DHjWWrTiH2A3iEd5jnGKOtz9KM4yLCFdKShq6XzSF_A==
+X-Amz-Cf-Pop: ATL58-P4
+X-Cache: Redirect from cloudfront
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Fri, 18 Oct 2024 08:47:26 GMT
+Via: 1.1 dfd34e1e01b522d0fbbf77a5352081ce.cloudfront.net (CloudFront)
+Age: 70479
+Location: https://www.deezer.com/
+Server: AmazonS3
+Content-Length: 0
+Client-Date: Sat, 19 Oct 2024 04:22:04 GMT
+Client-Peer: 18.244.202.73:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=FR/O=Gandi/CN=Gandi RSA Organization Validation Secure Server CA 3
+Client-SSL-Cert-Subject: /C=FR/ST=Ile-de-France/O=Deezer SA/CN=*.deezer.com
+Client-SSL-Cipher: TLS_AES_128_GCM_SHA256
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+X-Amz-Cf-Id: fOXV2zNrNPJiYaGKWke5CfPc5RJZJwVVYqmEf-XNOe2rbvuVDm9kQg==
+X-Amz-Cf-Pop: ATL58-P4
+X-Cache: Hit from cloudfront
+
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-store, no-cache, must-revalidate
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:05 GMT
+Pragma: no-cache
+Location: https://www.deezer.com/us/
+Server: Apache
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:05 GMT
+Client-Peer: 23.48.203.147:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=FR/O=Gandi/CN=Gandi RSA Domain Validation Secure Server CA 3
+Client-SSL-Cert-Subject: /CN=*.deezer.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+P3p: policyref="/w3c/p3p.xml" CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+Set-Cookie: sid=fr0c6b5ac4c1e251ac50b928238c5815d52d5dc7; path=/; domain=.deezer.com; secure; HttpOnly; SameSite=None
+Set-Cookie: dzr_uniq_id=dzr_uniq_id_frd7450e56f14ff6d2bc62b07aaad46741bc4979; expires=Thu, 17 Apr 2025 04:22:05 GMT; Max-Age=15552000; path=/; domain=.deezer.com; secure; SameSite=None
+Set-Cookie: _abck=BFF67E01B9797C1FC1EC3CD3054A8274~-1~YAAQisgwF37TAJ6SAQAA4NcCowx5WPIjIrOK78dJXykO5ywhTvxSetuGvWx6+ZufYQE54Pj+nXmBLL3PvL+ME1mm8JSsU4Ooa7+2cCUQAhHcZjkpR1DJyrSdDFDNwGT2Tgj9Lcv4T1FLO5d5h2WrZuOh3zRFHv/f5cnIPAA/TUjl/lp2wxBz3YcHxscARtLhPegZmPgCRBa2wnamaOynOGPVhhvI67Q2P9gGCpwKfCJ4oxV7m+qhBlHXhteH0H+KpLFwFrYj2ESjzyYGQGTo9SavsLz4GlKMX3sngJI1PF+3DbP0tKLPvc6zn6/eMPwg54629iwyFJXyrVKwHqM5uohpImIDu7Ntd9H9I9h1zEOgcZ5ZAysOmEek4bVFI2nAOXd0gwc2K3oRqEhPelaspvdmp8yJcHvGhiQ=~-1~-1~-1; Domain=.deezer.com; Path=/; Expires=Sun, 19 Oct 2025 04:22:05 GMT; Max-Age=31536000; SameSite=None; Secure
+Set-Cookie: bm_sz=4B54E1F423E25710B4197AEF2044279F~YAAQisgwF3/TAJ6SAQAA4NcCoxm7OHroy2Zn6upKOSdiD7e4GqZSmAnAVeliNLNFuYJthIBf/4q1jUZbNuqgJE+6+3mGAeuERLNrmSzv4Klo5OTEsr2+KbkUuhgPXZUUwD8m9hB7qhNEJU0BRYub4xuixIPzOiVwnREe3SNqgY6hC8ShuPXaAT0pGRPE+6KY7rvRk/T+g61GSrnKkemiEBc2PBP37sex5rgjbO8AoI6AZVFrs+56kSl+yYf1nJbbkatKKPrS7UtokorGiIxd7MWmW+OcNLHfLDfnhKjIQttBN4CsfYyLfwE4lqIlXAtijv3fOrMuT4X8GY1kSoOJhKBR/dxU5n4YkKsSi/ta~4534838~4277313; Domain=.deezer.com; Path=/; Expires=Sat, 19 Oct 2024 08:22:05 GMT; Max-Age=14400; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Host: blm-web-164
+X-Org: FR
+X-Ua-Compatible: IE=edge,chrome=1,requiresActiveX=true
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate
+Connection: close
+Connection: Transfer-Encoding
+Date: Sat, 19 Oct 2024 04:22:05 GMT
+Pragma: no-cache
+Server: Apache
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Sat, 19 Oct 2024 04:22:05 GMT
+Client-Peer: 23.48.203.147:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=FR/O=Gandi/CN=Gandi RSA Domain Validation Secure Server CA 3
+Client-SSL-Cert-Subject: /CN=*.deezer.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Content-Security-Policy-Report-Only: upgrade-insecure-requests ; report-uri /csp-report
+Content-Security-Policy-Report-Only: block-all-mixed-content ; report-uri /csp-report
+Link: <https://e-cdn-files.dzcdn.net/cache/css/sass_c/bootstrap-tempo.28eecc423b5dcc4cb869.css>; as="style"; rel="preload"; nopush
+P3p: policyref="/w3c/p3p.xml" CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+Set-Cookie: sid=fr0c6b5ac4c1e251ac50b928238c5815d52d5dc7; path=/; domain=.deezer.com; secure; HttpOnly; SameSite=None
+Set-Cookie: dzr_uniq_id=dzr_uniq_id_frd7450e56f14ff6d2bc62b07aaad46741bc4979; expires=Thu, 17 Apr 2025 04:22:05 GMT; Max-Age=15552000; path=/; domain=.deezer.com; secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Title: Deezer | Listen to music | Online music streaming platform
+X-Akamai-Transformed: 9 14163 0 pmb=mTOE,1
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Host: blm-web-25
+X-Meta-Charset: utf-8
+X-Meta-Description: The power of music. 120 million tracks, new music, exclusive features, on iOS and Android. Discover now
+X-Meta-Twitter-Card: summary
+X-Meta-Twitter-Description: The power of music. 120 million tracks, new music, exclusive features, on iOS and Android. Discover now
+X-Meta-Twitter-Image: https://cdn-files.dzcdn.net/img/common/og-deezer-logo.png
+X-Meta-Twitter-Site: @deezer
+X-Meta-Twitter-Title: Deezer | Listen to music | Online music streaming platform
+X-Meta-Twitter-Url: https://www.deezer.com/us/
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Org: FR
+X-Ua-Compatible: IE=edge,chrome=1,requiresActiveX=true
+
+

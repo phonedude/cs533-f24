@@ -1,0 +1,27 @@
+HTTP/1.1 301 Moved Permanently
+location: https://www.theglobeandmail.com/
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: openresty
+x-arc-pb-mx-id: 00000000
+etag: W/"479853-Dze0oIvKMh9OhZt11vU2BISF5Qk"
+x-arc-pb-request-id: 73504cf6-158f-4ca7-92e0-77c6271e0936
+last-modified: Mon, 07 Oct 2024 23:33:29 GMT
+x-arc-pb-request-id: 569680be-4ba9-4204-a0f6-8c7fd084f158
+mpulse_cdn_cache: REVALIDATE
+mpulse_origin_time: 3299
+cache-control: private, max-age=60
+expires: Mon, 07 Oct 2024 23:34:33 GMT
+date: Mon, 07 Oct 2024 23:33:33 GMT
+set-cookie: ak_user={"timezone":"EST","network":"","country_code":"US","region_code":"VA","city":"ASHBURN","ip":"128.82.16.2"}; expires=Mon, 07-Oct-2024 23:48:33 GMT; path=/; domain=.theglobeandmail.com
+set-cookie: akaas_AS_tgam_tgam_prod=2147483647~rv=29~id=85c8e77ec1324ac9409ffafbae9651bc; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=86400
+content-security-policy: media-src https: blob:; connect-src 'self' https: blob: wss:; child-src https: blob:; default-src https: wss: 'unsafe-inline' 'unsafe-eval' data:; font-src https: data:; img-src https: data: blob:;
+x-arc-ttl: 120
+x-arc-request-id: 0.a00a3d17.1728344013.12784f4
+server-timing: ak_p; desc="1728344013793_389876384_19367156_594_4872_8_17_15";dur=1
+

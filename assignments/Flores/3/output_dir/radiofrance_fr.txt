@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 07 Oct 2024 23:33:29 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.radiofrance.fr/
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-security-policy: frame-ancestors 'self'
+etag: W/"16e0wy5"
+permissions-policy: camera=(), geolocation=(), accelerometer=(), payment=(), usb=(), xr-spatial-tracking=()
+referrer-policy: no-referrer-when-downgrade
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-sveltekit-page: true
+x-xss-protection: 1; mode=block
+cache-control: public, max-age=3
+date: Mon, 07 Oct 2024 23:33:29 GMT
+strict-transport-security: max-age=15768000
+origin: ""
+server-timing: ak_p; desc="1728344009556_400219734_46894724_11695_5974_7_11_15";dur=1
+

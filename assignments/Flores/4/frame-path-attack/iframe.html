@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Iframe Page</title>
+  <script>
+    // Set a cookie with a specific Path attribute that should restrict it
+    document.cookie = "iframeCookie=iframeValue; Path=/iframe; SameSite=None; Secure";
+  </script>
+</head>
+<body>
+  <h1>Iframe Content</h1>
+  <p>This page has set a cookie with the path `/iframe`.</p>
+</body>
+</html>
