@@ -295,7 +295,7 @@ In the image below we see boxes with both frameable and non-frameable content.
 
 2. A demonstration of a cookie theft vulnerability using iframes, showing how cookies scoped only with the Path attribute can be accessed by malicious pages.
 
-In the images below we see a vulnerable page that sets a cookie and then an attacker page that steals the cooking from the vulnerable page via an iFrame.
+In the images below we see a vulnerable page that sets a cookie and then an attacker page that steals the cookie from the vulnerable page via an iFrame.
 
 ![Screenshot showing cookie theft vulnerability](images/Vulnerable_Page_Cookie.png)
 
@@ -317,7 +317,7 @@ In the first image below, we see that Alibaba appears to be unframeable. However
 
 ![Screenshot showing non-frameable box](images/Alibaba_Non-Frameable.png)
 ![Screenshot showing bypass JSON](images/Alibaba_Bypass.png)
-![Screenshot showing bypass JSON](images/Alibaba_Bypass.png)
+![Screenshot showing bypass JSON](images/Alibaba_Bypass_Box.png)
 
 We were able to test for the ability to bypass using both the proxy technique and the sandbox technique; however, each of the above 10 use the proxy technique.
 
