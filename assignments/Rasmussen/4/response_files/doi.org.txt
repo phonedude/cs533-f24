@@ -6,7 +6,7 @@ Headers:
 content-type: text/html
 content-length: 6951
 connection: keep-alive
-date: Thu, 31 Oct 2024 02:51:39 GMT
+date: Thu, 31 Oct 2024 04:05:26 GMT
 last-modified: Tue, 17 Sep 2024 17:33:27 GMT
 etag: "40ca3249393c605326f122c98984af8a"
 x-amz-server-side-encryption: AES256
@@ -14,9 +14,9 @@ x-amz-meta-md5chksum: 40ca3249393c605326f122c98984af8a
 accept-ranges: bytes
 server: AmazonS3
 x-cache: Miss from cloudfront
-via: 1.1 9317f1a4c7320bdeb8f38066b985748a.cloudfront.net (CloudFront)
+via: 1.1 cef2b4d24f9bca7ece48f6be33efd62c.cloudfront.net (CloudFront)
 x-amz-cf-pop: IAD66-C2
-x-amz-cf-id: d_4B6C2Mqmax5eR7QAxYs5tKnFcHQ5We4J5piz6OHem1AzDT7woz5w==
+x-amz-cf-id: FctotH8Eh4z-IfEPCxvJA9ptix09RnSEaYht6Q9lrjqXHKR4Zd7iAw==
 
 Content Snippet (first 500 characters):
 <!DOCTYPE html>

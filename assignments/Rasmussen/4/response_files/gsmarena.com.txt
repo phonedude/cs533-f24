@@ -3,14 +3,14 @@ Final URL: https://www.gsmarena.com/
 Status Code: 200
 
 Headers:
-date: Thu, 31 Oct 2024 02:51:38 GMT
+date: Thu, 31 Oct 2024 04:05:25 GMT
 server: Apache
 upgrade: h2
 connection: Upgrade, Keep-Alive
 x-powered-by: PHP/7.4.33
 vary: Accept-Encoding
 content-security-policy: frame-ancestors 'self' *.gsmarena.com;
-content-length: 14446
+content-length: 14450
 keep-alive: timeout=15, max=100
 content-type: text/html; charset=utf-8
 

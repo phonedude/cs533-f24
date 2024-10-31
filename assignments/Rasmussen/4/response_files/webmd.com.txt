@@ -3,41 +3,41 @@ Final URL: https://www.webmd.com/
 Status Code: 200
 
 Headers:
-date: Thu, 31 Oct 2024 02:51:39 GMT
+date: Thu, 31 Oct 2024 04:05:26 GMT
 content-type: text/html
 transfer-encoding: chunked
 connection: keep-alive
 cf-cache-status: HIT
 access-control-allow-origin: *
-age: 87
+age: 51
 cache-control: no-cache, no-store, must-revalidate
-set-cookie: lrt_wrk=lrt1_cached_k8_worker_4_19R_3W_2024-10-10_14:17:11_gdbp_false_gtedgefrom_MA1_E_false_UC_false_UD_false_mp_false_active_true_from_MA1_ovr_null_config_envName_.k8s.lb._envNameFound_true_actv_true_blk_N/A_1730343099254_hvid_false; domain=webmd.com; path=/,gtinfo={"ct":"Norfolk","c":"Norfolk City","cc":"51710","st":"VA","sc":"47","z":"23502","lat":"36.85","lon":"-76.21","dma":"544","cntr":"usa","cntrc":"840","tz":null,"ci":"98.183.222.96"}; domain=webmd.com; path=/,VisitorId=cb588856-d2d9-4ef1-6cb3-63d71fd6c12f; Expires=Tue, 31 Oct 2034 02:51:39 GMT; domain=webmd.com; path=/,ab=default; domain=.webmd.com; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT,__cf_bm=WfzALeSTbqCUugcjl01lkDG2mgRIw_O5sImJvQRkiqg-1730343099-1.0.1.1-Jdy0g1ethBmmMTjqrbopSeUdZyMrJUoko1vqcJToCVNpptHW_Q6C5PR18pRkX0L4QCuhh5zOVXiUH8w7H9B0Ig; path=/; expires=Thu, 31-Oct-24 03:21:39 GMT; domain=.www.webmd.com; HttpOnly; Secure; SameSite=None
+set-cookie: lrt_wrk=lrt1_cached_k8_worker_4_19R_3W_2024-10-10_14:17:11_gdbp_false_gtedgefrom_MA1_E_false_UC_false_UD_false_mp_false_active_true_from_MA1_ovr_null_config_envName_.k8s.lb._envNameFound_true_actv_true_blk_N/A_1730347526089_hvid_false; domain=webmd.com; path=/,gtinfo={"ct":"Norfolk","c":"Norfolk City","cc":"51710","st":"VA","sc":"47","z":"23502","lat":"36.85","lon":"-76.21","dma":"544","cntr":"usa","cntrc":"840","tz":null,"ci":"98.183.222.96"}; domain=webmd.com; path=/,VisitorId=a637ab93-aca2-405a-6b22-4bd495e67fdd; Expires=Tue, 31 Oct 2034 04:05:26 GMT; domain=webmd.com; path=/,ab=default; domain=.webmd.com; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT,__cf_bm=WI4mh.mpvOixdyyF7joTwA5cW6yRVXJtYIvZKSv7160-1730347526-1.0.1.1-pgsYb.r2M5rYmgS4gYLlhyuY5Jk9X.voI3AS9CzPKxYnUFvw33D7HYyvimYxlUFDhoctd_sKVbQTVECwBJ65Mg; path=/; expires=Thu, 31-Oct-24 04:35:26 GMT; domain=.www.webmd.com; HttpOnly; Secure; SameSite=None
 cf-edge-cache-control: s-maxage=119, maxage=10, proxy-revalidate, stale-while-revalidate=30
-cf-wrk: lrt1_cached_k8_worker_4_19R_3W_2024-10-10_14:17:11_gdbp_false_gtedgefrom_MA1_E_false_UC_false_UD_false_mp_false_active_true_from_MA1_ovr_null_config_envName_.k8s.lb._envNameFound_true_actv_true_blk_N/A_1730343099254
+cf-wrk: lrt1_cached_k8_worker_4_19R_3W_2024-10-10_14:17:11_gdbp_false_gtedgefrom_MA1_E_false_UC_false_UD_false_mp_false_active_true_from_MA1_ovr_null_config_envName_.k8s.lb._envNameFound_true_actv_true_blk_N/A_1730347526089
 content-security-policy: upgrade-insecure-requests
 x-backend: default
 x-backend-by: default
-x-cache: HIT
+x-cache: MISS
 x-cache-control-by: override
 x-cache-duration: 0.083333333333333h
-x-cache-expiry: Thursday, 31-Oct-2024 02:52:43 GMT
+x-cache-expiry: Thursday, 31-Oct-2024 04:04:12 GMT
 x-cache-reason: routing
-x-cache-time: Thursday, 31-Oct-2024 02:47:43 GMT
+x-cache-time: Thursday, 31-Oct-2024 03:59:12 GMT
 x-datacenter: MA1
-x-dbg-gt: gtinfo={"ct":null,"c":null,"cc":null,"st":null,"sc":null,"z":null,"lat":"51.49640","lon":"-0.12240","dma":null,"cntr":"GBR","cntrc":"826","tz":"Europe/London","ci":"51.195.219.187","debug":"Cloudflare"}
+x-dbg-gt: gtinfo={"ct":"Denver","c":"Denver","cc":"8031","st":"CO","sc":"6","z":"80219","lat":"39.7","lon":"-105.03","dma":"751","cntr":"usa","cntrc":"840","tz":null,"ci":"98.97.153.194"}
 x-edge-cache-duration: 0.033333333333333h
-x-edge-cache-expiry: Thursday, 31-Oct-2024 02:49:43 GMT
+x-edge-cache-expiry: Thursday, 31-Oct-2024 04:01:12 GMT
 x-gt-setter: usr
 x-redis: redis_server_2
 x-route: pg
 x-route-akamai: N/A
 x-runtime: new
 x-true-client-ip: 98.183.222.96
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=4YAVyK3BxKU6CJ9LKEHu%2BThgaPD1pR2tuYzXTpbf%2FeWmFzXvrbyWcLBrBzZcixSwUIfT6roowN7x9rH9hs5WvKRSqBmv%2B5ab6eHYYRdhxZfebTHejU66i7%2FgheKk5gk%3D"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ufGi4%2FbBOGM8Xr5Utr9jHX46xArbAg%2BToMeoyLXhPVEguXgGRU5LXAI9kbUtNV9t5aRzDPReqOeLi996aWmjG0qhO8UPr9nRTS9XTwqt%2Bi1f8BxEs94F8ChK%2Fs9zrp4%3D"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
 vary: Accept-Encoding
 server: cloudflare
-cf-ray: 8db0583209ea4fd9-ORF
+cf-ray: 8db0c445ae7a9292-ORF
 alt-svc: h3=":443"; ma=86400
 
 Content Snippet (first 500 characters):

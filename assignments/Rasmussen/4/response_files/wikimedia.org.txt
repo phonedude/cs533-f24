@@ -3,15 +3,15 @@ Final URL: https://www.wikimedia.org/
 Status Code: 200
 
 Headers:
-date: Thu, 31 Oct 2024 02:29:38 GMT
+date: Thu, 31 Oct 2024 03:28:08 GMT
 cache-control: s-maxage=3600, must-revalidate, max-age=0
 server: ATS/9.2.5
 etag: W/"4ae9-62484de1d2940"
 last-modified: Tue, 15 Oct 2024 14:35:41 GMT
 content-type: text/html
 vary: Accept-Encoding
-age: 1320
-x-cache: cp1114 hit, cp1114 hit/136
+age: 2237
+x-cache: cp1114 hit, cp1114 hit/193
 x-cache-status: hit-front
 server-timing: cache;desc="hit-front", host;desc="cp1114"
 strict-transport-security: max-age=106384710; includeSubDomains; preload

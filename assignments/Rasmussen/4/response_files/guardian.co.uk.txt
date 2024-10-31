@@ -4,18 +4,18 @@ Status Code: 200
 
 Headers:
 connection: keep-alive
-content-length: 127850
+content-length: 127000
 x-gu-dotcomponents: true
 link: <https://assets.guim.co.uk/polyfill.io/v3/polyfill.min.js?rum=0&features=es6%2Ces7%2Ces2017%2Ces2018%2Ces2019%2Cdefault-3.6%2CHTMLPictureElement%2CIntersectionObserver%2CIntersectionObserverEntry%2CURLSearchParams%2Cfetch%2CNodeList.prototype.forEach%2Cnavigator.sendBeacon%2Cperformance.now%2CPromise.allSettled&flags=gated&callback=guardianPolyfilled&unknown=polyfill&cacheClear=1>; rel=prefetch,<https://assets.guim.co.uk/assets/frameworks.client.web.291ea3346dc06fa0cd3f.js>; rel=prefetch,<https://assets.guim.co.uk/assets/index.client.web.a0e12e3e7645d0bbd3b4.js>; rel=prefetch,<https://assets.guim.co.uk/javascripts/commercial/07bdb9f2c273f0bc66fb/graun.standalone.commercial.js>; rel=prefetch,,<https://assets.guim.co.uk/>; rel=preconnect,<https://i.guim.co.uk>; rel=preconnect,<https://j.ophan.co.uk>; rel=preconnect,<https://ophan.theguardian.com>; rel=preconnect,<https://api.nextgen.guardianapps.co.uk>; rel=preconnect,<https://hits-secure.theguardian.com>; rel=preconnect,<https://interactive.guim.co.uk>; rel=preconnect,<https://phar.gu-web.net>; rel=preconnect,<https://static.theguardian.com>; rel=preconnect,<https://support.theguardian.com>; rel=preconnect
-etag: W/"hash6877407766985740154"
+etag: W/"hash-6247777558192896766"
 onion-location: https://www.guardian2zotagl6tmjucg3lrhxdk4dw3lhbqnkvvkywawy3oqfoprid.onion/us
 x-gu-frontend-git-commit-id: a09b6e37a0072fd08bc34766a60b61b3839f86c0
 content-type: text/html; charset=UTF-8
 accept-ranges: bytes
-date: Thu, 31 Oct 2024 02:51:40 GMT
-age: 36
-set-cookie: GU_mvt_id=70928; expires=Wed, 29 Jan 2025 02:51:40 GMT; path=/; domain=.theguardian.com; Secure,GU_geo_country=US; path=/; Secure
-x-timer: S1730343100.247566,VS0,VS0,VE2
+date: Thu, 31 Oct 2024 04:05:26 GMT
+age: 5
+set-cookie: GU_mvt_id=754594; expires=Wed, 29 Jan 2025 04:05:26 GMT; path=/; domain=.theguardian.com; Secure,GU_geo_country=US; path=/; Secure
+x-timer: S1730347526.053621,VS0,VS0,VE2
 strict-transport-security: max-age=63072000; includeSubDomains; preload
 x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block

@@ -5,19 +5,19 @@ Status Code: 200
 Headers:
 server: Apache
 content-type: text/html;charset=utf-8
-set-cookie: country=US; expires=Thu, 31-Oct-2024 14:51:41 GMT; path=/; secure,sbsd_ss=ab8e18ef4e; Secure; SameSite=None; Domain=.playstation.com; Path=/; HttpOnly; Max-Age=3600,sbsd=sK6K71mdwpciev1ze9tH4/zVpJsbdDdqgyEsV6vTgFJwOrN2+hQ0KB/FxbCF2ZJmzA+52RuW4ZWBM1W6ZtE09lqvbA040eXuoBtJqqFuqAX+KZTzdjSd3HAccM1nZkClgjOAXjxDPXD3bum83Bz7hybd4RXUBd9SssbwKKm7MHj3X2/cpsDc3uUZI1v9Vk2s9; Secure; SameSite=None; Domain=.playstation.com; Path=/; HttpOnly; Max-Age=2678400,sbsd_o=FD05AD2F77B6BCEBE68A346AE0B9FCDA23B68877A4434C40C22B4AC6285967F5~sD9YmMV+GoOGGVvUHLhPUz5Z4FLZSaBnfKaF16uQm88CDhbNg8/Zgi+FWYFUvEEzyArFO2wjEH8/r1mgEDLQBfbUyoIFZU04dOJ2LVNUz6+RFtxZkuQczxeWicUpykNaMjGMpXpYdHebEVp7FOoBsc0uuz24bNEWip2fsunYewNYwtZVZu1imX4f9gxjSz08Ja3WDFsyb7IQnejNpGhtBlrX0FwtzcXu4BIJUIVH23PI=; Secure; SameSite=None; Domain=.playstation.com; Path=/; Max-Age=86400,AKA_A2=A; expires=Thu, 31-Oct-2024 03:51:41 GMT; path=/; domain=playstation.com; secure; HttpOnly,country=US; expires=Thu, 31-Oct-2024 14:51:41 GMT; path=/; secure,AKA_A2=A; expires=Thu, 31-Oct-2024 03:51:41 GMT; path=/; domain=playstation.com; secure; HttpOnly,country=US; expires=Thu, 31-Oct-2024 14:51:41 GMT; path=/; secure,AKA_A2=A; expires=Thu, 31-Oct-2024 03:51:41 GMT; path=/; domain=playstation.com; secure; HttpOnly,country=US; expires=Thu, 31-Oct-2024 14:51:41 GMT; path=/; secure,AKA_A2=A; expires=Thu, 31-Oct-2024 03:51:41 GMT; path=/; domain=playstation.com; secure; HttpOnly
+set-cookie: country=US; expires=Thu, 31-Oct-2024 16:05:28 GMT; path=/; secure,sbsd_ss=ab8e18ef4e; Secure; SameSite=None; Domain=.playstation.com; Path=/; HttpOnly; Max-Age=3600,sbsd=sujorKHCKnQhY/OjzEu5drZhOxZ7FeXYFDokQeOAf/3o3xpF2vpPRnaRGsCeJfUhQRK8B4h/dAhkzDdnKjcIsmkD9DX+oVbczABWpEh6BpoCoqPE3+k+wGg0FxZ14mHoeOzFGsAJFow4HiuzUo/4bReJEw5rbJNFCrDqsf1mlMDzdaZx3aTxadYF6pe+O92uE; Secure; SameSite=None; Domain=.playstation.com; Path=/; HttpOnly; Max-Age=2678400,sbsd_o=EA4D46EF28F58E16574FBF1A32077E500FC6AF9FDD5E798EBBFCA97A143C7C7D~sb2qSHq7hqfhnBKiwIscHhpeCVJHY1O5Hm5cDJYj1zkWRW7DS8mhptiEi9Hoahmp6ZoAnmjGGHJJUk18DreFipfmTPxrkmeNkSJ2RCbzVjp690rFSfssVgF5W92ZxFme4fnuouBj/ZtMH0UmIV2GFqJ6GQnZ1BVZUcA7NHvU6n40hNWmT/j4X+rXWyXAaNuqbungXGeCfP6WiyB+jMyjHsD9Z/uvanTlt+j7kNnO/+jck6p6TPXRpIubme0ciFnnY; Secure; SameSite=None; Domain=.playstation.com; Path=/; Max-Age=86400,AKA_A2=A; expires=Thu, 31-Oct-2024 05:05:28 GMT; path=/; domain=playstation.com; secure; HttpOnly,country=US; expires=Thu, 31-Oct-2024 16:05:28 GMT; path=/; secure,AKA_A2=A; expires=Thu, 31-Oct-2024 05:05:28 GMT; path=/; domain=playstation.com; secure; HttpOnly,country=US; expires=Thu, 31-Oct-2024 16:05:28 GMT; path=/; secure,AKA_A2=A; expires=Thu, 31-Oct-2024 05:05:28 GMT; path=/; domain=playstation.com; secure; HttpOnly,country=US; expires=Thu, 31-Oct-2024 16:05:28 GMT; path=/; secure,AKA_A2=A; expires=Thu, 31-Oct-2024 05:05:28 GMT; path=/; domain=playstation.com; secure; HttpOnly
 strict-transport-security: max-age=63072000; includeSubdomains; preload;
 link: <https://static.playstation.com>;rel="preconnect",<https://c.evidon.com>;rel="preconnect",<https://assets.adobedtm.com>;rel="preconnect",<https://fast.fonts.net>;rel="preconnect",<https://static.ads-twitter.com>;rel="preconnect",<https://connect.facebook.net>;rel="preconnect",<https://social.playstation.com>;rel="preconnect", <https://web-toolbar.playstation.com>;rel="preconnect",<https://www.youtube.com>;rel="preconnect",<https://cdn.evgnet.com>;rel="preconnect",<https://cdn.decibelinsight.net>;rel="preconnect",<https://web-commerce-anywhere.playstation.com>;rel="preconnect"
 vary: Accept-Encoding
 x-vhost: publish
 x-frame-options: SAMEORIGIN
-x-dispatcher: dispatcher2apnortheast1-b80
+x-dispatcher: dispatcher1uswest1-b80
 x-content-type-options: nosniff
 x-akamai-transformed: 9 571671 0 pmb=mTOE,1
-expires: Thu, 31 Oct 2024 02:51:41 GMT
+expires: Thu, 31 Oct 2024 04:05:28 GMT
 cache-control: max-age=0, no-cache, no-store
 pragma: no-cache
-date: Thu, 31 Oct 2024 02:51:41 GMT
+date: Thu, 31 Oct 2024 04:05:28 GMT
 transfer-encoding: chunked
 connection: keep-alive, Transfer-Encoding
 

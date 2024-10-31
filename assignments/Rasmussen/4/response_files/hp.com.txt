@@ -13,16 +13,16 @@ etag: "c32df-625bbd8a53a6b-gzip"
 accept-ranges: bytes
 x-akamai-transformed: 9 - 0 pmb=mTOE,1
 cache-control: max-age=864
-expires: Thu, 31 Oct 2024 03:06:05 GMT
-date: Thu, 31 Oct 2024 02:51:41 GMT
+expires: Thu, 31 Oct 2024 04:19:52 GMT
+date: Thu, 31 Oct 2024 04:05:28 GMT
 transfer-encoding: chunked
 connection: keep-alive, Transfer-Encoding
 vary: Accept-Encoding
-set-cookie: aka_client_code=US-en,_abck=3F840B48823D53852A46C95126974900~-1~YAAQSt/aF97RuL+SAQAAt2J84Ay+a1Ezmyfz56zw71X2PVUNbh+7wxNnVw49OTL9zz/XFpn0DfVPcC73hBabvQbVbeRHdFkORE4tpaniJPRbqFR1wUgVNn5v6fmI4qynkGfFr++2Uo1GwErB2G+KqYUpYwMwB4L33v/wb5/egazPcmotiUZvgHObrCPtJTcngZOtsxBNLfLFGEuKuvkt17aCw0CYKPCV7vu63HHPvi3tcFMv7ZoHEj4VWZiJdVpwumKvvD27jSc1JEx2P1hkLMb27A5wb3IKLPiauj6Y0afN6QuwJBCzNO86LtLVzjCDLampoZWlzoEmqY3RmxPHpAUFg5iJ1naHg51ITVRvR29evKaV5bp1ESyRSbvvEiigDWuXOuIvDc9+k0hUt2TqgMVoQRxUY9ZSVA==~-1~-1~-1; Domain=.hp.com; Path=/; Expires=Fri, 31 Oct 2025 02:51:41 GMT; Max-Age=31536000; Secure,bm_sz=BB920879AD3BC883C87417BA86ADC54E~YAAQSt/aF9/RuL+SAQAAt2J84Bm0y5LCRBAF2xScjSFws3xPtz+ffG/AQ8wyssKd5sVU/2zKWvicK+psRrO42qup3Kagf1ycP6l622waGF9FIF1Sa2Jqzb3ox1HTGW3pRR+KuH14w5sveVwR35NMlkHXKDvEngRsgCmnNXkJ3IiImYHOflRL0ZEWPbawz/XpyF8FhG+IcIJXqWUSUSOVgdBQs3EWmM5T7ZPAy9oUZn+iUNRNyOSxTT2B2Z7M2B+RmISRNGYvEQ2hvw/02ByfrN68XznSqzDk8IVPRSGkm3fcuOy1K7E6E0KzZ0ivpryLy6Ak/BURw2Np5TtjFpEbGvbvI3IcNGL3yQ3C6dwHSERVEw3ytafj+C2+74xWMcfCHaC9JTpglzJ0yOHIiVR06w/3pCOB0erHtRBI~3682609~4403522; Domain=.hp.com; Path=/; Expires=Thu, 31 Oct 2024 06:51:41 GMT; Max-Age=14400
+set-cookie: aka_client_code=US-en,_abck=7135C4486E22464F5ED1807019B91AC5~-1~YAAQSt/aF0j5vL+SAQAAtfG/4AyVG1P3/kGnB+ykOaft5r8zOgsbXyFOrUm3bn4WRp73xqHNPoQewvNLMy1BBzj7XLBUAhppNpT3jTkSNeo6AFG9xZKIuyzQShQj/2KH7ZkFIM+vFqqflegnvHejUuHyqPrp5eUWsKCMY1TW3IrleH7J7hDR4v9fQKNossQS75pPVOtL2zBc8V11qdMZVUuNasV2yq3+0bUmfK5/Tl6oCpAyjlyXuNxa+BMlq+kc/SxHHvXBrTGs1T4OjaRLSsz09JAapLdDgmrLbgOJ11dP39D+Rps95/2Z/bplLkXkEh7mDDEa1r168uzpQz8PqLFQ/xjKWMhr/pMpOfX0iaXVQxisptOKWM8jx8bT6uEEO/gxH520uj5Wg6Uu8+CSpSV+mEF3wAgilg==~-1~-1~-1; Domain=.hp.com; Path=/; Expires=Fri, 31 Oct 2025 04:05:28 GMT; Max-Age=31536000; Secure,bm_sz=CB86B0DB4B4312FB3C5DDCB1AD8CF5C6~YAAQSt/aF0n5vL+SAQAAtfG/4Bm2sn00zRWyCrQlor4xkGf8wx1H/EijZLFghZrGbw8Z8fN4GBLvYcE23zJFUIEWvrfxC2Wh49zSJe/Ds9HH5lZQaE9rAFQOJmbIgUGc4Rl77hcuFdd6sCqYGUeppk1vlqpiqMm0jjY4llrVWWqqcn2eIi7eONg6kjOpZAjXrLZrSh/UmGATX+q/0S87qWoieDfjxq4OQ6KtrGC/ZRGA9xV0S0o8VuIy7MA03llmaTappN1ZoAs17DCHgq7sh59LWjWzqLihrKK6HmHfLH1LVMqvIG1PssuMhuK5G9fxgick868cwM0V/T5SE0OD+vDZKxYlaA1aGG/CZ4M2v837JA/9h58xSjNnd8Yz61kygychYPggglJv/3bRqv0oxEM+Ul5ejSdtjmLs~4473650~3227970; Domain=.hp.com; Path=/; Expires=Thu, 31 Oct 2024 08:05:28 GMT; Max-Age=14400
 x-frame-options: SAMEORIGIN, SAMEORIGIN, SAMEORIGIN
 strict-transport-security: max-age=600
-akamai-grn: 0.4adfda17.1730343101.a35bade9
-server-timing: ak_p; desc="1730343101002_400219978_2740694505_52_22678_14_44_-";dur=1
+akamai-grn: 0.4adfda17.1730347528.a4a74ae5
+server-timing: ak_p; desc="1730347528557_400219978_2762427109_41_18748_17_36_-";dur=1
 
 Content Snippet (first 500 characters):
 <!DOCTYPE html>

@@ -6,7 +6,7 @@ const axios = require('axios');
 const app = express();
 const port = 4000;
 
-// Add logging utility
+
 const logFile = path.join(__dirname, 'output.txt');
 
 function logToFile(message, type = 'INFO') {
@@ -15,10 +15,8 @@ function logToFile(message, type = 'INFO') {
     fs.appendFileSync(logFile, logMessage);
 }
 
-
 async function generateResponseFile(url, response) {
     try {
-        // Create response_files directory if it doesn't exist
         const responseDir = path.join(__dirname, 'response_files');
         if (!fs.existsSync(responseDir)) {
             fs.mkdirSync(responseDir);
@@ -42,11 +40,10 @@ async function generateResponseFile(url, response) {
             content += `${key}: ${value}\n`;
         });
 
-        // Add content snippet (first 500 characters)
+        // Add content preview (first 500 characters)
         content += '\nContent Snippet (first 500 characters):\n';
         content += response.data.toString().substring(0, 500);
 
-        // Write to file using synchronous version
         fs.writeFileSync(filename, content, 'utf-8');
         logToFile(`Response file generated for ${hostname}`);
 
@@ -58,26 +55,20 @@ async function generateResponseFile(url, response) {
 // Serve static files from the 'frameable' directory
 app.use('/frameable', express.static(path.join(__dirname, 'frameable')));
 
-// Route for the root URL
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './', 'index.html'));
 });
 
-// Route for the vulnerable page
 app.get('/frame-path-attack/vulnerable-page', (req, res) => {
-
     // Set a cookie that's only protected by Path attribute
     res.cookie('serverSecret', 'super_sensitive_data', {
         path: '/frame-path-attack/vulnerable-page',
         httpOnly: false // Allow JavaScript access
     });
-
-    
     res.sendFile(path.join(__dirname, 'frame-path-attack/vulnerable-page', 'vulnerable.html'));
 });
-// Route for the attacker page
+
 app.get('/frame-path-attack/attacker-page', (req, res) => {
-    // Set a cookie for the attacker page path to demonstrate cookie isolation
     res.cookie('attackerCookie', 'not-sensitive', {
         path: '/frame-path-attack/attacker-page',
         httpOnly: false
@@ -85,7 +76,6 @@ app.get('/frame-path-attack/attacker-page', (req, res) => {
     res.sendFile(path.join(__dirname, 'frame-path-attack/attacker-page', 'attacker.html'));
 });
 
-// Function to check if a website is frameable
 const isFrameable = async (url) => {
     logToFile(`Processing URL: ${url}`);
     try {
@@ -99,7 +89,6 @@ const isFrameable = async (url) => {
             }
         });
 
-        // Generate response file
         await generateResponseFile(url, response);
 
         const xFrameOptions = response.headers['x-frame-options'];
@@ -126,7 +115,7 @@ const isFrameable = async (url) => {
     }
 };
 
-// Function to generate a specific HTML page for each website
+// Generate a specific HTML page for each website
 const generateWebsitePage = (website, frameable) => {
     const websiteName = website.replace('http://', '').replace('https://', '');
     const template = fs.readFileSync(path.join(__dirname, 'templates', 'frameable_template.html'), 'utf-8');
@@ -146,18 +135,16 @@ app.get('/check-frameable', async (req, res) => {
             const httpsUrl = `https://${website}`;
             if (website === 'britannica.com') {
                 // Mock result for britannica.com because it kept re-directing me
+                // TODO: fix this!
                 const frameable = false;
                 const reason = 'Too many redirects';
                 generateWebsitePage(httpsUrl, frameable);
                 return { website: httpsUrl, frameable, reason };
             }
-            
             const { frameable, reason } = await isFrameable(httpsUrl);
             generateWebsitePage(httpsUrl, frameable);
             return { website: httpsUrl, frameable, reason };
-
         } catch (error) {
-            // Fallback to HTTP
             const httpUrl = `http://${website}`;
             const { frameable, reason } = await isFrameable(httpUrl);
             generateWebsitePage(httpUrl, frameable);
@@ -165,6 +152,92 @@ app.get('/check-frameable', async (req, res) => {
         }
     }));
 
+    app.get('/check-bypass-frameable', async (req, res) => {
+        const website = req.query.url;
+        if (!website) {
+            return res.status(400).send('URL parameter is required');
+        }
+        try {
+            const response = await axios.get(website, {
+                validateStatus: false,
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                }
+            });
+            const frameable = !response.headers['x-frame-options'] && 
+                              !response.headers['content-security-policy'];
+            let reason = 'Unknown';
+            if (!frameable) {
+                if (response.headers['x-frame-options']) {
+                    reason = 'X-Frame-Options';
+                } else if (response.headers['content-security-policy']) {
+                    reason = 'Content-Security-Policy';
+                }
+            }
+            generateBypassWebsitePage(website, frameable, reason);
+            res.json({ 
+                url: website, 
+                frameable, 
+                reason,
+                page: `frameable/${website.replace('http://', '').replace('https://', '')}.html`
+            });
+        } catch (error) {
+            res.status(500).json({ error: error.message });
+        }
+    });
+    
+    const generateBypassWebsitePage = (website, frameable, reason) => {
+        const websiteName = website.replace('http://', '').replace('https://', '');
+        const template = fs.readFileSync(path.join(__dirname, 'templates', 'frameable_template.html'), 'utf-8');
+        
+        // Create different bypass techniques based on the protection method
+        let frameContent;
+        if (!frameable) {
+            switch(reason) {
+                case 'X-Frame-Options':
+                    frameContent = `
+                        <div class="bypass-demo">
+                            <h3>Original (Blocked):</h3>
+                            <iframe src="${website}" frameborder="0"></iframe>
+                            <h3>Bypass using proxy:</h3>
+                            <iframe src="/proxy?url=${encodeURIComponent(website)}" frameborder="0"></iframe>
+                        </div>`;
+                    break;
+                case 'Content-Security-Policy':
+                    frameContent = `
+                        <div class="bypass-demo">
+                            <h3>Original (Blocked):</h3>
+                            <iframe src="${website}" frameborder="0"></iframe>
+                            <h3>Bypass using sandbox:</h3>
+                            <iframe sandbox="allow-scripts allow-same-origin" src="${website}" frameborder="0"></iframe>
+                        </div>`;
+                    break;
+                default:
+                    frameContent = `<div class="not-frameable">Website was not frameable (${reason})</div>`;
+            }
+        } else {
+            frameContent = `<iframe src="${website}" frameborder="0"></iframe>`;
+        }
+        const htmlContent = template.replace(/{{websiteName}}/g, websiteName).replace(/{{frameContent}}/g, frameContent);
+        fs.writeFileSync(path.join(__dirname, 'frameable', `${websiteName}.html`), htmlContent);
+    };
+    
+    // Proxy route
+    if (!app._router.stack.some(layer => layer.route && layer.route.path === '/proxy')) {
+        app.get('/proxy', async (req, res) => {
+            const targetUrl = req.query.url;
+            try {
+                const response = await axios.get(targetUrl);
+                // Strip frame-busting headers
+                res.removeHeader('X-Frame-Options');
+                res.removeHeader('Content-Security-Policy');
+                res.send(response.data);
+            } catch (error) {
+                res.status(500).send('Proxy error');
+            }
+        });
+    }
+    
     let frameableCount = 0;
     let notFrameableCount = 0;
     let frameableList = [];
@@ -183,6 +256,7 @@ app.get('/check-frameable', async (req, res) => {
     const template = fs.readFileSync(path.join(__dirname, 'templates', 'index_template.html'), 'utf-8');
     let content = '';
 
+    // Create boxes for all sites tested
     results.forEach(result => {
         if (result.frameable) {
             content += `
@@ -204,7 +278,7 @@ app.get('/check-frameable', async (req, res) => {
     const htmlContent = template.replace('{{content}}', content);
     res.send(htmlContent);
 
-    // Update README.md
+    // Recreate README.md
     const readmeContent = `
 ## Assignment 4, CS 433/533 Web Security, Fall 2024
 ### Anton Rasmussen
@@ -217,9 +291,37 @@ The project consists of two main components:
 
 2. A demonstration of a cookie theft vulnerability using iframes, showing how cookies scoped only with the Path attribute can be accessed by malicious pages.
 
+3. Bypassing 10 sites that are not framable:
+- http://localhost:4000/frameable/alibaba.com.html
+- http://localhost:4000/frameable/aol.com.html
+- http://localhost:4000/frameable/apple.com.html
+- http://localhost:4000/frameable/buzzfeed.com.html
+- http://localhost:4000/frameable/discord.com.html
+- http://localhost:4000/frameable/dropbox.com.html
+- http://localhost:4000/frameable/play.google.com.html
+- http://localhost:4000/frameable/prezi.com.html
+- http://localhost:4000/frameable/whitehouse.gov.html
+- http://localhost:4000/frameable/wordpress.org.html
+
+We were able to test for the ability to bypass using both the proxy technique and the sandbox technique; however, each of the above 10 use the proxy technique.
+
+5. Week 5 lecture, slide 65 has a literary reference in its title. Briefly describe this literary reference (but "Buzz Lightyear" does not count), both the origin and the meaning in the slides.
+
+- This is in reference to Coleridge's "Rime of the Ancient Mariner" -- it is a book about a group of sailors who are stranded in the ocean and who become dehydrated but, ironically, are surrounded by water.
+
+The quote is "Water, water, everywhere, Nor any drop to drink." 
+
+The stranded sailors can't drink the water surrounding them because it's ocean saltwater and if they drink it they'll die. 
+
+The reason this relates to the subject of XSS is because there are so many different parsers developers have to employ that it can be hard to know how they will interact because of how complex their interrelationships are. 
+
+When input isn't parsed properly (because knowing all the edge cases is difficult),it leads to increased vulnerability to things like XSS.
+
+
 The project includes:
 - A main index page with links to both demonstrations
 - Individual HTML pages for each tested website showing whether it can be framed
+    - For the 10 websites above we also show how it can be bypassed in a second bo
 - An attacker page that attempts to steal cookies from a vulnerable page
 - A vulnerable page that sets cookies with only path-based protection
 
@@ -230,7 +332,7 @@ After completing this project we have the following directory structure:
 ├── README.md
 ├── data
 │   ├── ARASM002@ODU.EDU
-│   └── ARASM002_test
+│   └── ARASM002_test (sample file for testing)
 ├── frame-path-attack
 │   ├── attacker-page
 │   │   └── attacker.html
@@ -338,8 +440,103 @@ After completing this project we have the following directory structure:
 │   ├── zendesk.com.html
 │   └── zippyshare.com.html
 ├── index.html
+├── output.txt (run log for caputring node.js STDOUT)
 ├── package-lock.json
 ├── package.json
+├── response_files
+│   ├── 4shared.com.txt
+│   ├── abcnews.go.com.txt
+│   ├── alibaba.com.txt
+│   ├── aliexpress.com.txt
+│   ├── aol.com.txt
+│   ├── apache.org.txt
+│   ├── apple.com.txt
+│   ├── arxiv.org.txt
+│   ├── biblegateway.com.txt
+│   ├── biglobe.ne.jp.txt
+│   ├── bloomberg.com.txt
+│   ├── booking.com.txt
+│   ├── buzzfeed.com.txt
+│   ├── cnil.fr.txt
+│   ├── cnn.com.txt
+│   ├── cointernet.com.co.txt
+│   ├── com.com.txt
+│   ├── cpanel.net.txt
+│   ├── discord.com.txt
+│   ├── disqus.com.txt
+│   ├── doi.org.txt
+│   ├── drive.google.com.txt
+│   ├── dropbox.com.txt
+│   ├── ea.com.txt
+│   ├── elmundo.es.txt
+│   ├── espn.com.txt
+│   ├── feedburner.com.txt
+│   ├── g.co.txt
+│   ├── get.google.com.txt
+│   ├── globo.com.txt
+│   ├── gofundme.com.txt
+│   ├── goo.ne.jp.txt
+│   ├── goodreads.com.txt
+│   ├── google.ru.txt
+│   ├── gravatar.com.txt
+│   ├── gsmarena.com.txt
+│   ├── guardian.co.uk.txt
+│   ├── hatena.ne.jp.txt
+│   ├── hindustantimes.com.txt
+│   ├── hp.com.txt
+│   ├── ign.com.txt
+│   ├── ikea.com.txt
+│   ├── imageshack.us.txt
+│   ├── independent.co.uk.txt
+│   ├── jhu.edu.txt
+│   ├── jstor.org.txt
+│   ├── justgiving.com.txt
+│   ├── latimes.com.txt
+│   ├── liberation.fr.txt
+│   ├── linkedin.com.txt
+│   ├── mailchimp.com.txt
+│   ├── marca.com.txt
+│   ├── naver.com.txt
+│   ├── npr.org.txt
+│   ├── nytimes.com.txt
+│   ├── offset.com.txt
+│   ├── oup.com.txt
+│   ├── outlook.com.txt
+│   ├── ovhcloud.com.txt
+│   ├── people.com.txt
+│   ├── php.net.txt
+│   ├── pinterest.fr.txt
+│   ├── pl.wikipedia.org.txt
+│   ├── play.google.com.txt
+│   ├── playstation.com.txt
+│   ├── plos.org.txt
+│   ├── prezi.com.txt
+│   ├── pt.wikipedia.org.txt
+│   ├── reverbnation.com.txt
+│   ├── sakura.ne.jp.txt
+│   ├── samsung.com.txt
+│   ├── search.yahoo.com.txt
+│   ├── sina.com.cn.txt
+│   ├── spiegel.de.txt
+│   ├── support.google.com.txt
+│   ├── thefreedictionary.com.txt
+│   ├── theverge.com.txt
+│   ├── usgs.gov.txt
+│   ├── vistaprint.com.txt
+│   ├── walmart.com.txt
+│   ├── webmd.com.txt
+│   ├── webnode.page.txt
+│   ├── whitehouse.gov.txt
+│   ├── wikimedia.org.txt
+│   ├── wordpress.org.txt
+│   ├── wp.com.txt
+│   ├── www.gov.uk.txt
+│   ├── www.over-blog.com.txt
+│   ├── www.wix.com.txt
+│   ├── www.yahoo.com.txt
+│   ├── yadi.sk.txt
+│   ├── zendesk.com.txt
+│   └── zippyshare.com.txt
 ├── server.js
 └── templates
     ├── frameable_template.html
@@ -353,6 +550,7 @@ Note: I ran tree -I 'node_modules' to ignore the verbose node_modules directory;
 
 - [Which public sites are framable?](https://youtu.be/RbsX8UF_SOQ)
 - [Frame Path attack](https://youtu.be/E4ytD1ksskY)
+- [Bypassing Frames](https://youtu.be/98r6beWKVPg)
 
 
 # Website Rendering Results
@@ -369,5 +567,5 @@ ${notFrameableList.map(item => `- [${item.website}](frameable/${item.website.rep
 
 // Start the server
 app.listen(port, () => {
-    logToFile('Server started on port 3000');
+    logToFile('Server started on port 4000');
 });

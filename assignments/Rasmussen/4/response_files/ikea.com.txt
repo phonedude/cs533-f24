@@ -5,21 +5,21 @@ Status Code: 200
 Headers:
 server: IKEA Server
 content-type: text/html; charset=utf-8
-akamai-grn: 0.d09b3e17.1730343098.b6d09b8d
+akamai-grn: 0.ad6533b8.1730347525.20aab6f9
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
-vary: Accept-Encoding
 x-ms-version: 2018-03-28
 x-ms-request-id: 60a14c6f-401e-0067-37b2-268dca000000
 etag: "0x8DCF4C9CC435F52"
+vary: Accept-Encoding
 cache-control: max-age=900
-expires: Thu, 31 Oct 2024 03:06:38 GMT
-date: Thu, 31 Oct 2024 02:51:38 GMT
+expires: Thu, 31 Oct 2024 04:20:26 GMT
+date: Thu, 31 Oct 2024 04:05:26 GMT
 content-length: 16563
 connection: keep-alive
 akamai-cache-status: Hit from child
-set-cookie: _abck=9D9C9D8EB7D8E32F4139B56F9ED219EC~-1~YAAQ0Js+F01Oc3eSAQAA+1h84AzXvmc7Et3vY7r9Lcrz13b5NQJFe5Syq+D6jS7+c3epQzVuF6cqyRYgVM3Hredm2CmzsJDobtB0+yKRI9ZHp5c7FT8vufS6Q+Qh3jhFSYiXxrumER/j45XE1VWtYkDqXJae44DQKH2eQI9s0SChVGomh71MnU9lVoy2Bq0Jmk/VJsqINWpe8pdykc0dWoL3o1DwdodjPwW3nt63bu63dyY2bhopsFqSXbBdLLI1sh1y6EBFWU9SiTVVYD7O8a6g5F6/MIfkDnH4u0fMQ+lZ5CxFwwmTzhBIpyMP+gmB+y1aEbZHUmaZjL5/YZ63ShVsO7TxI99aY0iYGBGYhWBORTJaHkAQWwIXgV0FZeSrReW5kCju7ivUwUkQ8JTKWXG3ZoG4IiFs3IV2~-1~-1~-1; Domain=.ikea.com; Path=/; Expires=Fri, 31 Oct 2025 02:51:38 GMT; Max-Age=31536000; Secure,bm_sz=70B22B16FF8E043A0839CF3F6B12EA6D~YAAQ0Js+F05Oc3eSAQAA+1h84BnK2LonHWSv9iMq3D8jatiRI2mAzWYiY7jO0CUfvnffAAGNyPCmUaQt5v11zAedH10k29ibL8UhOgAGvXkLuPqT4yCMZ4fFTHoT3GesyoKglmfGTWpH/HUrpC9e/707/Q6++OqEFCgMTTQ5fkvRUPsVQUjhiy44sPgtCyngINwHedz5ERtyALfli2JgqRruwLwswjeeXoS1qJvA3qfZQg3JtBVKrRkU9J0n06fHO9+3LEjen+m/4C9VdZRqMnDnDEUOQ25g+LGGLhCGqWiVIN/071O2yvqLVlcgVQDUbdxcopQK7F/sKBYJW4A1RVy7iOTHG/VBX1idsQSKDveJDUFxwcYcpIhUEQfqHEL13N8XOoTx9LJ7yLiZgahaBkob/gUM/AQhK6rIJONi~3683142~3224386; Domain=.ikea.com; Path=/; Expires=Thu, 31 Oct 2024 06:51:38 GMT; Max-Age=14400
+set-cookie: _abck=C6F0AFBB93A0F3C530519E2DBA8B50DF~-1~YAAQrWUzuK2el7WSAQAAgOi/4Awr+nsRc4+Xjn3Z+BKKnFGLJYcKFRa32Ggbg34h/FOBN5Ko5zbxtNRLl7mCaDgI4g7wA/iCZo7wVENZpMn+/cJ1uWi79FA9cAQN7KM26uVQjBlCLQFXwEhbFZgPVP2Qsi0i5tEkoyykOpVU4AE/c9cYWj3jeGW8TwqlHKoSp3JF9Vgo90pQjK541ygJqHJ9o585yjhiFKLyb5uKC6C5zRzVj0meZwMUSl5gpIhtBH55gC9dkl8S+/P0EXyy4W+hTflC564i3MkfhPo6SDCH7CAgbzdd2G9E0ybamt2qLjYXxZELFjWhpGiSPPdqw63TIMzuDSYtwKJv28NVTD3gRpBKT3x80TggxivfDpvupQ78yPvD2kkMid9B5O3MQtwVqImNKAd6jHU7~-1~-1~-1; Domain=.ikea.com; Path=/; Expires=Fri, 31 Oct 2025 04:05:26 GMT; Max-Age=31536000; Secure,bm_sz=C6B975702DCD22A78527E1B1B02556C9~YAAQrWUzuK6el7WSAQAAgOi/4BknD3TOCSJzjZgF9Sl3XDKM5FynkNn5LUg2FiXeYlxd05YYOZUvZL8YpSEvsHpL2Wqrga2OUwpBjCWpMTjPLQUlrb266CoMe7WjMLEH4Evn4bIB7OpR29I2mPl2Cnw+vp24BWw7znfcvCQM+I+sJr+wvEjWadTPulEe0YpsCtWhA6j+aFe4/FK/WlMDOfGsOkzQHJtzlIHXvkuyPFVRk2Q3UNHpFXbkRs1eamlEQpd33cMTtE908qu0S1FIJoAPEjvO54WaGxpLpMPorEMpkBHPCaYgtD4/sECptZBM2RgoAArFeIvfrHy/G4wy4AoVt3wIaK9Ekvu2W/rtOwbsbgbunuVqmxI9f20vx6h0BeicvmxR+UWeZ71zP7Nk6kZ+Ic7tYU0VdMgYe/QL~3229253~3228724; Domain=.ikea.com; Path=/; Expires=Thu, 31 Oct 2024 08:05:26 GMT; Max-Age=14400
 
 Content Snippet (first 500 characters):
 <!doctype html><html lang="en" dir="ltr"><head><title>Hej! Welcome to IKEA Global</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow"><meta property="og:title" content="Hej! Welcome to IKEA Global"><meta name="twitter:title" content="Hej! Welcome to IKEA Global"><link rel="canonical" href="https://www.ikea.com/"><meta property="og:url" conte

@@ -1,14 +1,25 @@
 URL: https://yadi.sk
-Final URL: https://yadi.sk/showcaptcha?cc=1&mt=FC771D1AFF050B2092D487A48D5F4E0D133E68B6D92FDC90E92E65DD93ABB2E9D01A19DB8454BFCA0CF840F96218C54E0C901A99E478A98B49F2957CB982DECDEB03EA4100767395AEC347C4E98733CA8897300AC30D2409A7370FBC0D8F5FF52D7904B90984E9382656164AF2E74C0B981AF0FEA94D063FB2DD72B2CB220804B391C2BB975925EE78D5214C9C96879C7EB7C9D007A4D8FED225B2226A2C581A2EE7A91383BCBED48FFC193D095F45926F9A8C48CFCB6890B15FC6941AEB92F734E4B209C9E659250B6CCD7FEE2C118755C7DF55E6794A859EE0F4F39A9B5B92C692A08081C0FD22EA89C7E210D46A0DE5126754709E71&retpath=aHR0cHM6Ly95YWRpLnNrLz8%2C_c92270cdbd0a386271c701ded1d6a160&t=2/1730343098/5fd5e85d00c2e936a7b28803f07f7db2&u=5440895205400169418&s=cc7c8abc1d14081866edb0ff349f5c45
+Final URL: https://360.yandex.com/disk/
 Status Code: 200
 
 Headers:
-access-control-allow-origin: yastatic.net
-content-length: 12468
-content-type: text/html
-set-cookie: _yasc=IKYjAHTqqIAG5L0nztRwNHwSQOlMjvh6fxn1nUqZyv7BFpSfSGPN1oGKRSnFIIDJQKs=; domain=.yadi.sk; path=/; expires=Sun, 29 Oct 2034 02:51:40 GMT; secure
-x-yandex-captcha: captcha
-x-yandex-eu-request: 0
+cache-control: max-age=0, must-revalidate, proxy-revalidate, no-cache, no-store, private
+content-security-policy: default-src 'none'; script-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'unsafe-eval' 'nonce-5Fh5/5g1bR0+8nIfFTgHBw==' 'self' 'unsafe-inline' mc.yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yastatic.net; style-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'unsafe-inline' 'self' fonts.googleapis.com; font-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ fonts.gstatic.com; media-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'unsafe-inline' 'self' storage.yandexcloud.net storage.cloud-preprod.yandex.net s3.mds.yandex.net; img-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'self' data: blob: mc.yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yastatic.net downloader.disk.yandex.com downloader.disk.yandex.net yandex.ru favicon.yandex.net storage.yandexcloud.net storage.cloud-preprod.yandex.net s3.mds.yandex.net yc-www-community-images.storage.yandexcloud.net avatars.mds.yandex.net *.storage.yandex.net *.disk.yandex.net; connect-src yandex.ru mc.yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yandexmetrica.com:* 'self' api.passport.yandex.com mail.yandex.com https://pdd.yandex.ru:* https://pdd.yandex.com:* api-stable.dst.yandex.ru cloud-api.yandex.ru s3.mds.yandex.net yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/; frame-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'self' blob: mc.yandex.ru forms.yandex.ru www.youtube.com yandex.com trust.yandex.com calendar.yandex.ru; child-src 'self' blob: mc.yandex.ru; base-uri 'self'; frame-ancestors 'self' https://*.webvisor.com https://metrika.yandex.com https://metrika.yandex.ru https://*.mail.yandex.com https://mail.yandex.com https://disk.yandex.com https://*.disk.yandex.com https://*.disk.dsp.yandex.com https://*.disk.dst.yandex.com https://*.disk-dev.dsd.yandex.com https://*.regtests.dsp.yandex.com https://disk.dst.yandex.com https://disk.dsp.yandex.com; report-uri https://csp.yandex.net/csp?from=tuning&project=tuning&yandex_login=&yandexuid=2054278871730347529;
+content-type: text/html; charset=utf-8
+date: Thu, 31 Oct 2024 04:05:29 GMT
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+pragma: no-cache
+set-cookie: _yasc=UZUXjmSEAEqN6xdEEnn0wE4HI4y/HTdSMBmi1FTkiVNFOGI24hk8RZyKLERDTB4Mng==; domain=.yandex.com; path=/; expires=Sun, 29 Oct 2034 04:05:29 GMT; secure,i=Tv+z8L753SEaSGqzjDCyNgYqtiYPHMF6CxaGyAZh/TKLP4exFYTraVmWbWuCDvrN/YkFa0j5pZn6YBBwBHHZ0OZh9sU=; Expires=Sat, 31-Oct-2026 04:05:29 GMT; Domain=.yandex.com; Path=/; Secure; HttpOnly; SameSite=None,yandexuid=2054278871730347529; Expires=Sat, 31-Oct-2026 04:05:29 GMT; Domain=.yandex.com; Path=/; Secure; SameSite=None,yashr=5665873251730347529; Path=/; Domain=.yandex.com; Expires=Fri, 31 Oct 2025 04:05:29 GMT; SameSite=None; Secure; HttpOnly
+transfer-encoding: chunked
+vary: Accept-Encoding
+x-response-with: YMail
 
 Content Snippet (first 500 characters):
-<!doctype html><html prefix="og: http://ogp.me/ns#" lang="en"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title data-react-helmet="true">Are you not a robot?</title><meta data-react-helmet="true" property="og:title" content="Yandex"><meta data-react-helmet="true" property="og:description" content="Finds everything"><meta data-react-helmet="true" property="og:image" content="https://yastatic.net/s3/
+
+        <!DOCTYPE html>
+        <html itemScope itemType="https://schema.org/WebPage" lang="en">
+            <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+                <title data-react-helmet="true" itemprop="name">Yandex Disk</title>
+                <link rel="canonical" href="https://360.yandex.com/disk/" />
+                <link rel="stylesheet" href="https://yastatic.net/s3/psf/ps-tuning/disk-public-landing.f950883be43fc509b

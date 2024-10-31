@@ -14,12 +14,12 @@ content-security-policy: default-src 'self' data: 'unsafe-inline' https://www.ap
 content-type: text/html
 via: 1.1 varnish, 1.1 varnish
 accept-ranges: bytes
-date: Thu, 31 Oct 2024 02:51:36 GMT
-age: 1682
-x-served-by: cache-hel1410034-HEL, cache-iad-kiad7000123-IAD
+age: 2498
+date: Thu, 31 Oct 2024 04:05:20 GMT
+x-served-by: cache-hel1410034-HEL, cache-iad-kiad7000076-IAD
 x-cache: HIT, HIT
-x-cache-hits: 16, 2
-x-timer: S1730343096.445261,VS0,VE0
+x-cache-hits: 16, 0
+x-timer: S1730347521.912177,VS0,VE1
 vary: Accept-Encoding
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 
