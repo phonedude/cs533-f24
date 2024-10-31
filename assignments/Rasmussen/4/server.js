@@ -285,7 +285,7 @@ app.get('/check-frameable', async (req, res) => {
 
 For this assignment, we explored website framing vulnerabilities by testing the frameability of 100 popular websites and demonstrating a cookie theft attack using iframes.
 
-The project consists of two main components:
+The project consists of the following components:
 
 1. A website framing test that checks whether popular websites can be embedded in iframes, documenting the reasons why some sites cannot be framed (e.g. X-Frame-Options headers, Content-Security-Policy).
 
