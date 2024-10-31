@@ -150,107 +150,107 @@ Note: I ran tree -I 'node_modules' to ignore the verbose node_modules directory;
 
 # Website Rendering Results
 
-## Frameable Websites (30)
-- http://4shared.com
-- http://abcnews.go.com
-- http://biblegateway.com
-- http://bloomberg.com
-- http://booking.com
-- http://com.com
-- http://disqus.com
-- http://doi.org
-- http://elmundo.es
-- http://g.co
-- http://globo.com
-- http://gofundme.com
-- http://ign.com
-- http://liberation.fr
-- http://marca.com
-- http://news.com.au
-- http://npr.org
-- http://offset.com
-- http://pl.wikipedia.org
-- http://plos.org
-- http://pt.wikipedia.org
-- http://sina.com.cn
-- http://thefreedictionary.com
-- http://usgs.gov
-- http://vistaprint.com
-- http://webmd.com
-- http://wikimedia.org
-- http://www.wix.com
-- http://yadi.sk
-- http://zippyshare.com
+## Frameable Websites (31)
+- https://4shared.com
+- https://abcnews.go.com
+- https://aliexpress.com
+- https://biblegateway.com
+- https://booking.com
+- https://com.com
+- https://disqus.com
+- https://doi.org
+- https://elmundo.es
+- https://g.co
+- https://globo.com
+- https://gofundme.com
+- https://ign.com
+- https://liberation.fr
+- https://marca.com
+- https://npr.org
+- https://offset.com
+- https://oup.com
+- https://outlook.com
+- https://pl.wikipedia.org
+- https://plos.org
+- https://pt.wikipedia.org
+- https://sina.com.cn
+- https://thefreedictionary.com
+- https://usgs.gov
+- https://vistaprint.com
+- https://webmd.com
+- https://wikimedia.org
+- https://www.wix.com
+- https://yadi.sk
+- https://zippyshare.com
 
-## Not Frameable Websites (70)
-- [http://alibaba.com](frameable/alibaba.com.html) (Reason: X-Frame-Options)
-- [http://aliexpress.com](frameable/aliexpress.com.html) (Reason: Error)
-- [http://aol.com](frameable/aol.com.html) (Reason: X-Frame-Options)
-- [http://apache.org](frameable/apache.org.html) (Reason: Content-Security-Policy)
-- [http://apple.com](frameable/apple.com.html) (Reason: X-Frame-Options)
-- [http://arxiv.org](frameable/arxiv.org.html) (Reason: X-Frame-Options)
-- [http://biglobe.ne.jp](frameable/biglobe.ne.jp.html) (Reason: X-Frame-Options)
-- [http://britannica.com](frameable/britannica.com.html) (Reason: Too many redirects)
-- [http://buzzfeed.com](frameable/buzzfeed.com.html) (Reason: X-Frame-Options)
-- [http://cambridge.org](frameable/cambridge.org.html) (Reason: Error)
-- [http://cnil.fr](frameable/cnil.fr.html) (Reason: Content-Security-Policy)
-- [http://cnn.com](frameable/cnn.com.html) (Reason: Content-Security-Policy)
-- [http://cointernet.com.co](frameable/cointernet.com.co.html) (Reason: X-Frame-Options)
-- [http://cpanel.net](frameable/cpanel.net.html) (Reason: X-Frame-Options)
-- [http://discord.com](frameable/discord.com.html) (Reason: X-Frame-Options)
-- [http://drive.google.com](frameable/drive.google.com.html) (Reason: X-Frame-Options)
-- [http://dropbox.com](frameable/dropbox.com.html) (Reason: X-Frame-Options)
-- [http://ea.com](frameable/ea.com.html) (Reason: X-Frame-Options)
-- [http://espn.com](frameable/espn.com.html) (Reason: Content-Security-Policy)
-- [http://feedburner.com](frameable/feedburner.com.html) (Reason: X-Frame-Options)
-- [http://forms.gle](frameable/forms.gle.html) (Reason: Error)
-- [http://get.google.com](frameable/get.google.com.html) (Reason: X-Frame-Options)
-- [http://gfycat.com](frameable/gfycat.com.html) (Reason: Error)
-- [http://godaddy.com](frameable/godaddy.com.html) (Reason: Error)
-- [http://goo.ne.jp](frameable/goo.ne.jp.html) (Reason: X-Frame-Options)
-- [http://goodreads.com](frameable/goodreads.com.html) (Reason: X-Frame-Options)
-- [http://google.ru](frameable/google.ru.html) (Reason: X-Frame-Options)
-- [http://gravatar.com](frameable/gravatar.com.html) (Reason: X-Frame-Options)
-- [http://gsmarena.com](frameable/gsmarena.com.html) (Reason: Error)
-- [http://guardian.co.uk](frameable/guardian.co.uk.html) (Reason: X-Frame-Options)
-- [http://hatena.ne.jp](frameable/hatena.ne.jp.html) (Reason: X-Frame-Options)
-- [http://hindustantimes.com](frameable/hindustantimes.com.html) (Reason: X-Frame-Options)
-- [http://hp.com](frameable/hp.com.html) (Reason: X-Frame-Options)
-- [http://ikea.com](frameable/ikea.com.html) (Reason: X-Frame-Options)
-- [http://imageshack.us](frameable/imageshack.us.html) (Reason: X-Frame-Options)
-- [http://independent.co.uk](frameable/independent.co.uk.html) (Reason: X-Frame-Options)
-- [http://jhu.edu](frameable/jhu.edu.html) (Reason: X-Frame-Options)
-- [http://jstor.org](frameable/jstor.org.html) (Reason: X-Frame-Options)
-- [http://justgiving.com](frameable/justgiving.com.html) (Reason: X-Frame-Options)
-- [http://latimes.com](frameable/latimes.com.html) (Reason: X-Frame-Options)
-- [http://linkedin.com](frameable/linkedin.com.html) (Reason: X-Frame-Options)
-- [http://mailchimp.com](frameable/mailchimp.com.html) (Reason: X-Frame-Options)
-- [http://naver.com](frameable/naver.com.html) (Reason: X-Frame-Options)
-- [http://nytimes.com](frameable/nytimes.com.html) (Reason: X-Frame-Options)
-- [http://oup.com](frameable/oup.com.html) (Reason: Error)
-- [http://outlook.com](frameable/outlook.com.html) (Reason: X-Frame-Options)
-- [http://ovhcloud.com](frameable/ovhcloud.com.html) (Reason: X-Frame-Options)
-- [http://people.com](frameable/people.com.html) (Reason: Content-Security-Policy)
-- [http://php.net](frameable/php.net.html) (Reason: X-Frame-Options)
-- [http://pinterest.fr](frameable/pinterest.fr.html) (Reason: X-Frame-Options)
-- [http://play.google.com](frameable/play.google.com.html) (Reason: X-Frame-Options)
-- [http://playstation.com](frameable/playstation.com.html) (Reason: X-Frame-Options)
-- [http://prezi.com](frameable/prezi.com.html) (Reason: X-Frame-Options)
-- [http://reverbnation.com](frameable/reverbnation.com.html) (Reason: X-Frame-Options)
-- [http://sakura.ne.jp](frameable/sakura.ne.jp.html) (Reason: X-Frame-Options)
-- [http://samsung.com](frameable/samsung.com.html) (Reason: X-Frame-Options)
-- [http://search.yahoo.com](frameable/search.yahoo.com.html) (Reason: X-Frame-Options)
-- [http://spiegel.de](frameable/spiegel.de.html) (Reason: Content-Security-Policy)
-- [http://support.google.com](frameable/support.google.com.html) (Reason: X-Frame-Options)
-- [http://theverge.com](frameable/theverge.com.html) (Reason: Content-Security-Policy)
-- [http://walmart.com](frameable/walmart.com.html) (Reason: X-Frame-Options)
-- [http://webnode.page](frameable/webnode.page.html) (Reason: X-Frame-Options)
-- [http://whitehouse.gov](frameable/whitehouse.gov.html) (Reason: X-Frame-Options)
-- [http://wordpress.org](frameable/wordpress.org.html) (Reason: X-Frame-Options)
-- [http://wp.com](frameable/wp.com.html) (Reason: X-Frame-Options)
-- [http://www.gov.uk](frameable/www.gov.uk.html) (Reason: X-Frame-Options)
-- [http://www.over-blog.com](frameable/www.over-blog.com.html) (Reason: X-Frame-Options)
-- [http://www.yahoo.com](frameable/www.yahoo.com.html) (Reason: X-Frame-Options)
-- [http://ytimg.com](frameable/ytimg.com.html) (Reason: Error)
-- [http://zendesk.com](frameable/zendesk.com.html) (Reason: Content-Security-Policy)
+## Not Frameable Websites (69)
+- [https://alibaba.com](frameable/alibaba.com.html) (Reason: X-Frame-Options)
+- [https://aol.com](frameable/aol.com.html) (Reason: X-Frame-Options)
+- [https://apache.org](frameable/apache.org.html) (Reason: Content-Security-Policy)
+- [https://apple.com](frameable/apple.com.html) (Reason: X-Frame-Options)
+- [https://arxiv.org](frameable/arxiv.org.html) (Reason: X-Frame-Options)
+- [https://biglobe.ne.jp](frameable/biglobe.ne.jp.html) (Reason: X-Frame-Options)
+- [https://bloomberg.com](frameable/bloomberg.com.html) (Reason: Content-Security-Policy)
+- [https://britannica.com](frameable/britannica.com.html) (Reason: Too many redirects)
+- [https://buzzfeed.com](frameable/buzzfeed.com.html) (Reason: X-Frame-Options)
+- [https://cambridge.org](frameable/cambridge.org.html) (Reason: Error)
+- [https://cnil.fr](frameable/cnil.fr.html) (Reason: Content-Security-Policy)
+- [https://cnn.com](frameable/cnn.com.html) (Reason: Content-Security-Policy)
+- [https://cointernet.com.co](frameable/cointernet.com.co.html) (Reason: X-Frame-Options)
+- [https://cpanel.net](frameable/cpanel.net.html) (Reason: X-Frame-Options)
+- [https://discord.com](frameable/discord.com.html) (Reason: X-Frame-Options)
+- [https://drive.google.com](frameable/drive.google.com.html) (Reason: X-Frame-Options)
+- [https://dropbox.com](frameable/dropbox.com.html) (Reason: X-Frame-Options)
+- [https://ea.com](frameable/ea.com.html) (Reason: X-Frame-Options)
+- [https://espn.com](frameable/espn.com.html) (Reason: Content-Security-Policy)
+- [https://feedburner.com](frameable/feedburner.com.html) (Reason: X-Frame-Options)
+- [https://forms.gle](frameable/forms.gle.html) (Reason: Error)
+- [https://get.google.com](frameable/get.google.com.html) (Reason: X-Frame-Options)
+- [https://gfycat.com](frameable/gfycat.com.html) (Reason: Error)
+- [https://godaddy.com](frameable/godaddy.com.html) (Reason: Error)
+- [https://goo.ne.jp](frameable/goo.ne.jp.html) (Reason: X-Frame-Options)
+- [https://goodreads.com](frameable/goodreads.com.html) (Reason: X-Frame-Options)
+- [https://google.ru](frameable/google.ru.html) (Reason: X-Frame-Options)
+- [https://gravatar.com](frameable/gravatar.com.html) (Reason: X-Frame-Options)
+- [https://gsmarena.com](frameable/gsmarena.com.html) (Reason: Content-Security-Policy)
+- [https://guardian.co.uk](frameable/guardian.co.uk.html) (Reason: X-Frame-Options)
+- [https://hatena.ne.jp](frameable/hatena.ne.jp.html) (Reason: X-Frame-Options)
+- [https://hindustantimes.com](frameable/hindustantimes.com.html) (Reason: X-Frame-Options)
+- [https://hp.com](frameable/hp.com.html) (Reason: X-Frame-Options)
+- [https://ikea.com](frameable/ikea.com.html) (Reason: X-Frame-Options)
+- [https://imageshack.us](frameable/imageshack.us.html) (Reason: X-Frame-Options)
+- [https://independent.co.uk](frameable/independent.co.uk.html) (Reason: X-Frame-Options)
+- [https://jhu.edu](frameable/jhu.edu.html) (Reason: X-Frame-Options)
+- [https://jstor.org](frameable/jstor.org.html) (Reason: X-Frame-Options)
+- [https://justgiving.com](frameable/justgiving.com.html) (Reason: X-Frame-Options)
+- [https://latimes.com](frameable/latimes.com.html) (Reason: X-Frame-Options)
+- [https://linkedin.com](frameable/linkedin.com.html) (Reason: X-Frame-Options)
+- [https://mailchimp.com](frameable/mailchimp.com.html) (Reason: X-Frame-Options)
+- [https://naver.com](frameable/naver.com.html) (Reason: X-Frame-Options)
+- [https://news.com.au](frameable/news.com.au.html) (Reason: Error)
+- [https://nytimes.com](frameable/nytimes.com.html) (Reason: X-Frame-Options)
+- [https://ovhcloud.com](frameable/ovhcloud.com.html) (Reason: X-Frame-Options)
+- [https://people.com](frameable/people.com.html) (Reason: Content-Security-Policy)
+- [https://php.net](frameable/php.net.html) (Reason: X-Frame-Options)
+- [https://pinterest.fr](frameable/pinterest.fr.html) (Reason: X-Frame-Options)
+- [https://play.google.com](frameable/play.google.com.html) (Reason: X-Frame-Options)
+- [https://playstation.com](frameable/playstation.com.html) (Reason: X-Frame-Options)
+- [https://prezi.com](frameable/prezi.com.html) (Reason: X-Frame-Options)
+- [https://reverbnation.com](frameable/reverbnation.com.html) (Reason: X-Frame-Options)
+- [https://sakura.ne.jp](frameable/sakura.ne.jp.html) (Reason: X-Frame-Options)
+- [https://samsung.com](frameable/samsung.com.html) (Reason: X-Frame-Options)
+- [https://search.yahoo.com](frameable/search.yahoo.com.html) (Reason: X-Frame-Options)
+- [https://spiegel.de](frameable/spiegel.de.html) (Reason: Content-Security-Policy)
+- [https://support.google.com](frameable/support.google.com.html) (Reason: X-Frame-Options)
+- [https://theverge.com](frameable/theverge.com.html) (Reason: Content-Security-Policy)
+- [https://walmart.com](frameable/walmart.com.html) (Reason: X-Frame-Options)
+- [https://webnode.page](frameable/webnode.page.html) (Reason: X-Frame-Options)
+- [https://whitehouse.gov](frameable/whitehouse.gov.html) (Reason: X-Frame-Options)
+- [https://wordpress.org](frameable/wordpress.org.html) (Reason: X-Frame-Options)
+- [https://wp.com](frameable/wp.com.html) (Reason: X-Frame-Options)
+- [https://www.gov.uk](frameable/www.gov.uk.html) (Reason: X-Frame-Options)
+- [https://www.over-blog.com](frameable/www.over-blog.com.html) (Reason: X-Frame-Options)
+- [https://www.yahoo.com](frameable/www.yahoo.com.html) (Reason: X-Frame-Options)
+- [https://ytimg.com](frameable/ytimg.com.html) (Reason: Error)
+- [https://zendesk.com](frameable/zendesk.com.html) (Reason: Content-Security-Policy)
     

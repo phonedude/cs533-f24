@@ -6,6 +6,55 @@ const axios = require('axios');
 const app = express();
 const port = 4000;
 
+// Add logging utility
+const logFile = path.join(__dirname, 'output.txt');
+
+function logToFile(message, type = 'INFO') {
+    const timestamp = new Date().toISOString();
+    const logMessage = `${timestamp} - ${type}: ${message}\n`;
+    fs.appendFileSync(logFile, logMessage);
+}
+
+
+async function generateResponseFile(url, response) {
+    try {
+        // Create response_files directory if it doesn't exist
+        const responseDir = path.join(__dirname, 'response_files');
+        if (!fs.existsSync(responseDir)) {
+            fs.mkdirSync(responseDir);
+            logToFile('Created response_files directory');
+        }
+
+        // Parse URL to get hostname
+        const parsedUrl = new URL(url);
+        const hostname = parsedUrl.hostname.replace(':', '_');
+        const filename = path.join(responseDir, `${hostname}.txt`);
+
+        // Format the response content
+        let content = '';
+        content += `URL: ${url}\n`;
+        content += `Final URL: ${response.request.res.responseUrl || 'N/A'}\n`;
+        content += `Status Code: ${response.status}\n\n`;
+
+        // Add headers
+        content += 'Headers:\n';
+        Object.entries(response.headers).forEach(([key, value]) => {
+            content += `${key}: ${value}\n`;
+        });
+
+        // Add content snippet (first 500 characters)
+        content += '\nContent Snippet (first 500 characters):\n';
+        content += response.data.toString().substring(0, 500);
+
+        // Write to file using synchronous version
+        fs.writeFileSync(filename, content, 'utf-8');
+        logToFile(`Response file generated for ${hostname}`);
+
+    } catch (error) {
+        logToFile(`Error generating response file for ${url}: ${error}`, 'ERROR');
+    }
+}
+
 // Serve static files from the 'frameable' directory
 app.use('/frameable', express.static(path.join(__dirname, 'frameable')));
 
@@ -38,8 +87,21 @@ app.get('/frame-path-attack/attacker-page', (req, res) => {
 
 // Function to check if a website is frameable
 const isFrameable = async (url) => {
+    logToFile(`Processing URL: ${url}`);
     try {
-        const response = await axios.get(url, { maxRedirects: 5 });
+        const response = await axios.get(url, {
+            maxRedirects: 5,
+            timeout: 50000,
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5'
+            }
+        });
+
+        // Generate response file
+        await generateResponseFile(url, response);
+
         const xFrameOptions = response.headers['x-frame-options'];
         const contentSecurityPolicy = response.headers['content-security-policy'];
 
@@ -52,12 +114,13 @@ const isFrameable = async (url) => {
         }
         return { frameable: true };
     } catch (error) {
+        logToFile(`Error checking frameability for ${url}: ${error}`, 'ERROR');
         if (error.response) {
-            console.error(`Error checking ${url}:`, error.message);
+            logToFile(`Error response for ${url}: ${error.response.status} - ${error.response.statusText}`, 'ERROR');
         } else if (error.code === 'ERR_FR_TOO_MANY_REDIRECTS') {
-            console.error(`Too many redirects for ${url}`);
+            logToFile(`Too many redirects for ${url}`, 'ERROR');
         } else {
-            console.error(`Error checking ${url}:`, error.message);
+            logToFile(`Error checking ${url}: ${error.message}`, 'ERROR');
         }
         return { frameable: false, reason: 'Error' };
     }
@@ -78,16 +141,27 @@ app.get('/check-frameable', async (req, res) => {
     let websites = fs.readFileSync(filePath, 'utf-8').split('\n').filter(Boolean);
 
     const results = await Promise.all(websites.map(async (website) => {
-        if (website === 'britannica.com') {
-            // Mock result for britannica.com
-            const frameable = false;
-            const reason = 'Too many redirects';
-            generateWebsitePage(`http://${website}`, frameable);
-            return { website: `http://${website}`, frameable, reason };
-        } else {
-            const { frameable, reason } = await isFrameable(`http://${website}`);
-            generateWebsitePage(`http://${website}`, frameable);
-            return { website: `http://${website}`, frameable, reason };
+        // Try HTTPS first, then fallback to HTTP if needed
+        try {
+            const httpsUrl = `https://${website}`;
+            if (website === 'britannica.com') {
+                // Mock result for britannica.com because it kept re-directing me
+                const frameable = false;
+                const reason = 'Too many redirects';
+                generateWebsitePage(httpsUrl, frameable);
+                return { website: httpsUrl, frameable, reason };
+            }
+            
+            const { frameable, reason } = await isFrameable(httpsUrl);
+            generateWebsitePage(httpsUrl, frameable);
+            return { website: httpsUrl, frameable, reason };
+
+        } catch (error) {
+            // Fallback to HTTP
+            const httpUrl = `http://${website}`;
+            const { frameable, reason } = await isFrameable(httpUrl);
+            generateWebsitePage(httpUrl, frameable);
+            return { website: httpUrl, frameable, reason };
         }
     }));
 
@@ -295,5 +369,5 @@ ${notFrameableList.map(item => `- [${item.website}](frameable/${item.website.rep
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    logToFile('Server started on port 3000');
 });

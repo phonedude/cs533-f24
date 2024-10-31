@@ -1,0 +1,35 @@
+URL: https://whitehouse.gov
+Final URL: https://www.whitehouse.gov/
+Status Code: 200
+
+Headers:
+server: nginx
+date: Thu, 31 Oct 2024 02:51:39 GMT
+content-type: text/html; charset=UTF-8
+transfer-encoding: chunked
+connection: keep-alive
+vary: Accept-Encoding
+x-build-back-better: https://usds.gov/
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000;includeSubdomains;preload
+x-rq: dca6 96 184 443
+accept-ranges: bytes
+cache-control: max-age=300, must-revalidate
+x-cache: HIT
+
+Content Snippet (first 500 characters):
+<!doctype html>
+<html class="no-js alert__has-cookie" lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="google" content="notranslate">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	
+	<!-- If you're reading this, we need your help building back better. https://usds.gov/ -->
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, 

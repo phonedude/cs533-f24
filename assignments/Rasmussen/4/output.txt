@@ -1,0 +1,205 @@
+2024-10-31T02:51:32.542Z - INFO: Server started on port 3000
+2024-10-31T02:51:35.920Z - INFO: Processing URL: https://4shared.com
+2024-10-31T02:51:35.983Z - INFO: Processing URL: https://abcnews.go.com
+2024-10-31T02:51:35.985Z - INFO: Processing URL: https://alibaba.com
+2024-10-31T02:51:35.987Z - INFO: Processing URL: https://aliexpress.com
+2024-10-31T02:51:35.988Z - INFO: Processing URL: https://aol.com
+2024-10-31T02:51:35.990Z - INFO: Processing URL: https://apache.org
+2024-10-31T02:51:35.991Z - INFO: Processing URL: https://apple.com
+2024-10-31T02:51:35.993Z - INFO: Processing URL: https://arxiv.org
+2024-10-31T02:51:35.994Z - INFO: Processing URL: https://biblegateway.com
+2024-10-31T02:51:35.997Z - INFO: Processing URL: https://biglobe.ne.jp
+2024-10-31T02:51:35.999Z - INFO: Processing URL: https://bloomberg.com
+2024-10-31T02:51:36.000Z - INFO: Processing URL: https://booking.com
+2024-10-31T02:51:36.003Z - INFO: Processing URL: https://buzzfeed.com
+2024-10-31T02:51:36.004Z - INFO: Processing URL: https://cambridge.org
+2024-10-31T02:51:36.005Z - INFO: Processing URL: https://cnil.fr
+2024-10-31T02:51:36.006Z - INFO: Processing URL: https://cnn.com
+2024-10-31T02:51:36.007Z - INFO: Processing URL: https://cointernet.com.co
+2024-10-31T02:51:36.009Z - INFO: Processing URL: https://com.com
+2024-10-31T02:51:36.010Z - INFO: Processing URL: https://cpanel.net
+2024-10-31T02:51:36.012Z - INFO: Processing URL: https://discord.com
+2024-10-31T02:51:36.013Z - INFO: Processing URL: https://disqus.com
+2024-10-31T02:51:36.014Z - INFO: Processing URL: https://doi.org
+2024-10-31T02:51:36.015Z - INFO: Processing URL: https://drive.google.com
+2024-10-31T02:51:36.016Z - INFO: Processing URL: https://dropbox.com
+2024-10-31T02:51:36.017Z - INFO: Processing URL: https://ea.com
+2024-10-31T02:51:36.018Z - INFO: Processing URL: https://elmundo.es
+2024-10-31T02:51:36.023Z - INFO: Processing URL: https://espn.com
+2024-10-31T02:51:36.028Z - INFO: Processing URL: https://feedburner.com
+2024-10-31T02:51:36.031Z - INFO: Processing URL: https://forms.gle
+2024-10-31T02:51:36.033Z - INFO: Processing URL: https://g.co
+2024-10-31T02:51:36.035Z - INFO: Processing URL: https://get.google.com
+2024-10-31T02:51:36.036Z - INFO: Processing URL: https://gfycat.com
+2024-10-31T02:51:36.074Z - INFO: Processing URL: https://globo.com
+2024-10-31T02:51:36.108Z - INFO: Processing URL: https://godaddy.com
+2024-10-31T02:51:36.118Z - INFO: Processing URL: https://gofundme.com
+2024-10-31T02:51:36.122Z - INFO: Processing URL: https://goo.ne.jp
+2024-10-31T02:51:36.126Z - INFO: Processing URL: https://goodreads.com
+2024-10-31T02:51:36.129Z - INFO: Processing URL: https://google.ru
+2024-10-31T02:51:36.133Z - INFO: Processing URL: https://gravatar.com
+2024-10-31T02:51:36.135Z - INFO: Processing URL: https://gsmarena.com
+2024-10-31T02:51:36.138Z - INFO: Processing URL: https://guardian.co.uk
+2024-10-31T02:51:36.142Z - INFO: Processing URL: https://hatena.ne.jp
+2024-10-31T02:51:36.146Z - INFO: Processing URL: https://hindustantimes.com
+2024-10-31T02:51:36.203Z - INFO: Processing URL: https://hp.com
+2024-10-31T02:51:36.208Z - INFO: Processing URL: https://ign.com
+2024-10-31T02:51:36.214Z - INFO: Processing URL: https://ikea.com
+2024-10-31T02:51:36.230Z - INFO: Processing URL: https://imageshack.us
+2024-10-31T02:51:36.231Z - INFO: Processing URL: https://independent.co.uk
+2024-10-31T02:51:36.233Z - INFO: Processing URL: https://jhu.edu
+2024-10-31T02:51:36.233Z - INFO: Processing URL: https://jstor.org
+2024-10-31T02:51:36.234Z - INFO: Processing URL: https://justgiving.com
+2024-10-31T02:51:36.234Z - INFO: Processing URL: https://latimes.com
+2024-10-31T02:51:36.236Z - INFO: Processing URL: https://liberation.fr
+2024-10-31T02:51:36.237Z - INFO: Processing URL: https://linkedin.com
+2024-10-31T02:51:36.239Z - INFO: Processing URL: https://mailchimp.com
+2024-10-31T02:51:36.240Z - INFO: Processing URL: https://marca.com
+2024-10-31T02:51:36.241Z - INFO: Processing URL: https://naver.com
+2024-10-31T02:51:36.242Z - INFO: Processing URL: https://news.com.au
+2024-10-31T02:51:36.243Z - INFO: Processing URL: https://npr.org
+2024-10-31T02:51:36.245Z - INFO: Processing URL: https://nytimes.com
+2024-10-31T02:51:36.248Z - INFO: Processing URL: https://offset.com
+2024-10-31T02:51:36.251Z - INFO: Processing URL: https://oup.com
+2024-10-31T02:51:36.254Z - INFO: Processing URL: https://outlook.com
+2024-10-31T02:51:36.256Z - INFO: Processing URL: https://ovhcloud.com
+2024-10-31T02:51:36.257Z - INFO: Processing URL: https://people.com
+2024-10-31T02:51:36.258Z - INFO: Processing URL: https://php.net
+2024-10-31T02:51:36.259Z - INFO: Processing URL: https://pinterest.fr
+2024-10-31T02:51:36.259Z - INFO: Processing URL: https://pl.wikipedia.org
+2024-10-31T02:51:36.260Z - INFO: Processing URL: https://play.google.com
+2024-10-31T02:51:36.262Z - INFO: Processing URL: https://playstation.com
+2024-10-31T02:51:36.265Z - INFO: Processing URL: https://plos.org
+2024-10-31T02:51:36.266Z - INFO: Processing URL: https://prezi.com
+2024-10-31T02:51:36.267Z - INFO: Processing URL: https://pt.wikipedia.org
+2024-10-31T02:51:36.267Z - INFO: Processing URL: https://reverbnation.com
+2024-10-31T02:51:36.268Z - INFO: Processing URL: https://sakura.ne.jp
+2024-10-31T02:51:36.269Z - INFO: Processing URL: https://samsung.com
+2024-10-31T02:51:36.271Z - INFO: Processing URL: https://search.yahoo.com
+2024-10-31T02:51:36.274Z - INFO: Processing URL: https://sina.com.cn
+2024-10-31T02:51:36.276Z - INFO: Processing URL: https://spiegel.de
+2024-10-31T02:51:36.277Z - INFO: Processing URL: https://support.google.com
+2024-10-31T02:51:36.278Z - INFO: Processing URL: https://thefreedictionary.com
+2024-10-31T02:51:36.279Z - INFO: Processing URL: https://theverge.com
+2024-10-31T02:51:36.282Z - INFO: Processing URL: https://usgs.gov
+2024-10-31T02:51:36.288Z - INFO: Processing URL: https://vistaprint.com
+2024-10-31T02:51:36.291Z - INFO: Processing URL: https://walmart.com
+2024-10-31T02:51:36.293Z - INFO: Processing URL: https://webmd.com
+2024-10-31T02:51:36.296Z - INFO: Processing URL: https://webnode.page
+2024-10-31T02:51:36.298Z - INFO: Processing URL: https://whitehouse.gov
+2024-10-31T02:51:36.300Z - INFO: Processing URL: https://wikimedia.org
+2024-10-31T02:51:36.301Z - INFO: Processing URL: https://wordpress.org
+2024-10-31T02:51:36.302Z - INFO: Processing URL: https://wp.com
+2024-10-31T02:51:36.303Z - INFO: Processing URL: https://www.gov.uk
+2024-10-31T02:51:36.305Z - INFO: Processing URL: https://www.over-blog.com
+2024-10-31T02:51:36.307Z - INFO: Processing URL: https://www.wix.com
+2024-10-31T02:51:36.308Z - INFO: Processing URL: https://www.yahoo.com
+2024-10-31T02:51:36.309Z - INFO: Processing URL: https://yadi.sk
+2024-10-31T02:51:36.310Z - INFO: Processing URL: https://ytimg.com
+2024-10-31T02:51:36.311Z - INFO: Processing URL: https://zendesk.com
+2024-10-31T02:51:36.312Z - INFO: Processing URL: https://zippyshare.com
+2024-10-31T02:51:36.414Z - INFO: Response file generated for apache.org
+2024-10-31T02:51:36.437Z - INFO: Response file generated for arxiv.org
+2024-10-31T02:51:36.446Z - INFO: Response file generated for abcnews.go.com
+2024-10-31T02:51:36.491Z - INFO: Response file generated for disqus.com
+2024-10-31T02:51:36.556Z - INFO: Response file generated for discord.com
+2024-10-31T02:51:36.565Z - ERROR: Error checking frameability for https://gfycat.com: Error: getaddrinfo ENOTFOUND gfycat.com
+2024-10-31T02:51:36.565Z - ERROR: Error checking https://gfycat.com: getaddrinfo ENOTFOUND gfycat.com
+2024-10-31T02:51:36.605Z - INFO: Response file generated for cpanel.net
+2024-10-31T02:51:36.616Z - INFO: Response file generated for feedburner.com
+2024-10-31T02:51:36.643Z - INFO: Response file generated for g.co
+2024-10-31T02:51:36.658Z - ERROR: Error checking frameability for https://forms.gle: AxiosError: Request failed with status code 400
+2024-10-31T02:51:36.658Z - ERROR: Error response for https://forms.gle: 400 - Bad Request
+2024-10-31T02:51:36.660Z - INFO: Response file generated for com.com
+2024-10-31T02:51:36.867Z - INFO: Response file generated for justgiving.com
+2024-10-31T02:51:36.904Z - INFO: Response file generated for gravatar.com
+2024-10-31T02:51:36.993Z - INFO: Response file generated for biglobe.ne.jp
+2024-10-31T02:51:37.472Z - INFO: Response file generated for mailchimp.com
+2024-10-31T02:51:37.612Z - INFO: Response file generated for prezi.com
+2024-10-31T02:51:37.629Z - INFO: Response file generated for www.gov.uk
+2024-10-31T02:51:37.658Z - INFO: Response file generated for plos.org
+2024-10-31T02:51:37.693Z - ERROR: Error checking frameability for https://ytimg.com: Error: getaddrinfo ENOTFOUND ytimg.com
+2024-10-31T02:51:37.693Z - ERROR: Error checking https://ytimg.com: getaddrinfo ENOTFOUND ytimg.com
+2024-10-31T02:51:37.726Z - INFO: Response file generated for wordpress.org
+2024-10-31T02:51:37.759Z - INFO: Response file generated for search.yahoo.com
+2024-10-31T02:51:37.830Z - INFO: Response file generated for www.wix.com
+2024-10-31T02:51:37.881Z - INFO: Response file generated for apple.com
+2024-10-31T02:51:37.887Z - INFO: Response file generated for people.com
+2024-10-31T02:51:37.921Z - INFO: Response file generated for support.google.com
+2024-10-31T02:51:37.933Z - INFO: Response file generated for biblegateway.com
+2024-10-31T02:51:37.983Z - INFO: Response file generated for buzzfeed.com
+2024-10-31T02:51:38.009Z - INFO: Response file generated for www.yahoo.com
+2024-10-31T02:51:38.055Z - ERROR: Error checking frameability for https://cambridge.org: AxiosError: Request failed with status code 403
+2024-10-31T02:51:38.055Z - ERROR: Error response for https://cambridge.org: 403 - Forbidden
+2024-10-31T02:51:38.061Z - INFO: Response file generated for bloomberg.com
+2024-10-31T02:51:38.083Z - INFO: Response file generated for cointernet.com.co
+2024-10-31T02:51:38.118Z - INFO: Response file generated for cnn.com
+2024-10-31T02:51:38.173Z - INFO: Response file generated for espn.com
+2024-10-31T02:51:38.174Z - INFO: Response file generated for ea.com
+2024-10-31T02:51:38.183Z - INFO: Response file generated for zippyshare.com
+2024-10-31T02:51:38.260Z - INFO: Response file generated for get.google.com
+2024-10-31T02:51:38.289Z - INFO: Response file generated for gofundme.com
+2024-10-31T02:51:38.309Z - INFO: Response file generated for google.ru
+2024-10-31T02:51:38.349Z - INFO: Response file generated for aol.com
+2024-10-31T02:51:38.354Z - INFO: Response file generated for ign.com
+2024-10-31T02:51:38.367Z - INFO: Response file generated for 4shared.com
+2024-10-31T02:51:38.381Z - INFO: Response file generated for doi.org
+2024-10-31T02:51:38.395Z - INFO: Response file generated for www.over-blog.com
+2024-10-31T02:51:38.451Z - INFO: Response file generated for goodreads.com
+2024-10-31T02:51:38.495Z - ERROR: Error checking frameability for https://godaddy.com: AxiosError: Request failed with status code 403
+2024-10-31T02:51:38.495Z - ERROR: Error response for https://godaddy.com: 403 - Forbidden
+2024-10-31T02:51:38.502Z - INFO: Response file generated for hindustantimes.com
+2024-10-31T02:51:38.541Z - INFO: Response file generated for jstor.org
+2024-10-31T02:51:38.581Z - INFO: Response file generated for ikea.com
+2024-10-31T02:51:38.596Z - INFO: Response file generated for jhu.edu
+2024-10-31T02:51:38.689Z - INFO: Response file generated for elmundo.es
+2024-10-31T02:51:38.723Z - INFO: Response file generated for npr.org
+2024-10-31T02:51:38.745Z - INFO: Response file generated for linkedin.com
+2024-10-31T02:51:38.751Z - INFO: Response file generated for pt.wikipedia.org
+2024-10-31T02:51:38.758Z - INFO: Response file generated for nytimes.com
+2024-10-31T02:51:38.812Z - INFO: Response file generated for latimes.com
+2024-10-31T02:51:38.949Z - INFO: Response file generated for offset.com
+2024-10-31T02:51:38.949Z - INFO: Response file generated for pl.wikipedia.org
+2024-10-31T02:51:38.977Z - INFO: Response file generated for dropbox.com
+2024-10-31T02:51:38.990Z - INFO: Response file generated for gsmarena.com
+2024-10-31T02:51:38.999Z - ERROR: Error checking frameability for https://news.com.au: AxiosError: Request failed with status code 403
+2024-10-31T02:51:38.999Z - ERROR: Error response for https://news.com.au: 403 - Forbidden
+2024-10-31T02:51:39.010Z - INFO: Response file generated for imageshack.us
+2024-10-31T02:51:39.042Z - INFO: Response file generated for booking.com
+2024-10-31T02:51:39.080Z - INFO: Response file generated for whitehouse.gov
+2024-10-31T02:51:39.082Z - INFO: Response file generated for theverge.com
+2024-10-31T02:51:39.103Z - INFO: Response file generated for wikimedia.org
+2024-10-31T02:51:39.141Z - INFO: Response file generated for walmart.com
+2024-10-31T02:51:39.175Z - INFO: Response file generated for reverbnation.com
+2024-10-31T02:51:39.194Z - INFO: Response file generated for wp.com
+2024-10-31T02:51:39.244Z - INFO: Response file generated for webmd.com
+2024-10-31T02:51:39.273Z - INFO: Response file generated for marca.com
+2024-10-31T02:51:39.297Z - INFO: Response file generated for vistaprint.com
+2024-10-31T02:51:39.394Z - INFO: Response file generated for thefreedictionary.com
+2024-10-31T02:51:39.403Z - INFO: Response file generated for oup.com
+2024-10-31T02:51:39.604Z - INFO: Response file generated for zendesk.com
+2024-10-31T02:51:39.793Z - INFO: Response file generated for usgs.gov
+2024-10-31T02:51:39.970Z - INFO: Response file generated for liberation.fr
+2024-10-31T02:51:40.253Z - INFO: Response file generated for guardian.co.uk
+2024-10-31T02:51:40.258Z - INFO: Response file generated for independent.co.uk
+2024-10-31T02:51:40.351Z - INFO: Response file generated for php.net
+2024-10-31T02:51:40.574Z - INFO: Response file generated for spiegel.de
+2024-10-31T02:51:40.727Z - INFO: Response file generated for alibaba.com
+2024-10-31T02:51:40.826Z - INFO: Response file generated for pinterest.fr
+2024-10-31T02:51:40.831Z - INFO: Response file generated for naver.com
+2024-10-31T02:51:40.894Z - INFO: Response file generated for aliexpress.com
+2024-10-31T02:51:40.910Z - INFO: Response file generated for play.google.com
+2024-10-31T02:51:40.959Z - INFO: Response file generated for ovhcloud.com
+2024-10-31T02:51:40.999Z - INFO: Response file generated for drive.google.com
+2024-10-31T02:51:41.080Z - INFO: Response file generated for samsung.com
+2024-10-31T02:51:41.101Z - INFO: Response file generated for hp.com
+2024-10-31T02:51:41.404Z - INFO: Response file generated for webnode.page
+2024-10-31T02:51:41.435Z - INFO: Response file generated for outlook.com
+2024-10-31T02:51:41.441Z - INFO: Response file generated for playstation.com
+2024-10-31T02:51:41.511Z - INFO: Response file generated for yadi.sk
+2024-10-31T02:51:41.576Z - INFO: Response file generated for goo.ne.jp
+2024-10-31T02:51:41.959Z - INFO: Response file generated for sakura.ne.jp
+2024-10-31T02:51:42.327Z - INFO: Response file generated for sina.com.cn
+2024-10-31T02:51:42.493Z - INFO: Response file generated for hatena.ne.jp
+2024-10-31T02:51:43.880Z - INFO: Response file generated for cnil.fr
+2024-10-31T02:51:46.144Z - INFO: Response file generated for globo.com

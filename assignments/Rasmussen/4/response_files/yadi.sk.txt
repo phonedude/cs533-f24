@@ -1,0 +1,14 @@
+URL: https://yadi.sk
+Final URL: https://yadi.sk/showcaptcha?cc=1&mt=FC771D1AFF050B2092D487A48D5F4E0D133E68B6D92FDC90E92E65DD93ABB2E9D01A19DB8454BFCA0CF840F96218C54E0C901A99E478A98B49F2957CB982DECDEB03EA4100767395AEC347C4E98733CA8897300AC30D2409A7370FBC0D8F5FF52D7904B90984E9382656164AF2E74C0B981AF0FEA94D063FB2DD72B2CB220804B391C2BB975925EE78D5214C9C96879C7EB7C9D007A4D8FED225B2226A2C581A2EE7A91383BCBED48FFC193D095F45926F9A8C48CFCB6890B15FC6941AEB92F734E4B209C9E659250B6CCD7FEE2C118755C7DF55E6794A859EE0F4F39A9B5B92C692A08081C0FD22EA89C7E210D46A0DE5126754709E71&retpath=aHR0cHM6Ly95YWRpLnNrLz8%2C_c92270cdbd0a386271c701ded1d6a160&t=2/1730343098/5fd5e85d00c2e936a7b28803f07f7db2&u=5440895205400169418&s=cc7c8abc1d14081866edb0ff349f5c45
+Status Code: 200
+
+Headers:
+access-control-allow-origin: yastatic.net
+content-length: 12468
+content-type: text/html
+set-cookie: _yasc=IKYjAHTqqIAG5L0nztRwNHwSQOlMjvh6fxn1nUqZyv7BFpSfSGPN1oGKRSnFIIDJQKs=; domain=.yadi.sk; path=/; expires=Sun, 29 Oct 2034 02:51:40 GMT; secure
+x-yandex-captcha: captcha
+x-yandex-eu-request: 0
+
+Content Snippet (first 500 characters):
+<!doctype html><html prefix="og: http://ogp.me/ns#" lang="en"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title data-react-helmet="true">Are you not a robot?</title><meta data-react-helmet="true" property="og:title" content="Yandex"><meta data-react-helmet="true" property="og:description" content="Finds everything"><meta data-react-helmet="true" property="og:image" content="https://yastatic.net/s3/

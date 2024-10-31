@@ -1,0 +1,52 @@
+URL: https://nytimes.com
+Final URL: https://www.nytimes.com/
+Status Code: 200
+
+Headers:
+connection: close
+content-length: 243560
+x-b3-traceid: cfe10320a777446fb88c0c5f05dae9ad
+x-nyt-data-last-modified: Thu, 31 Oct 2024 02:51:28 GMT
+last-modified: Thu, 31 Oct 2024 02:51:28 GMT
+x-pagetype: vi-homepage
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+content-type: text/html; charset=utf-8
+x-envoy-upstream-service-time: 311
+server: envoy
+x-envoy-decorator-operation: vi.nyt.net:443/*
+cache-control: s-maxage=30,no-cache
+x-nyt-route: homepage
+x-origin-time: 2024-10-31 02:51:36 UTC
+accept-ranges: bytes
+date: Thu, 31 Oct 2024 02:51:38 GMT
+age: 9
+x-served-by: cache-lga21978-LGA, cache-iad-kjyo7100133-IAD
+x-cache: HIT, HIT
+x-cache-hits: 7, 1
+x-timer: S1730343099.743385,VS0,VE3
+vary: Accept-Encoding, Fastly-SSL
+set-cookie: nyt-a=kl871xwDO1pzjmvcBkkHbz; Expires=Fri, 31 Oct 2025 02:51:38 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure,nyt-gdpr=0; Expires=Thu, 31 Oct 2024 08:51:38 GMT; Path=/; Domain=.nytimes.com,nyt-purr=cfshcfhshckfhdfshgas2; Expires=Fri, 31 Oct 2025 02:51:38 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure,nyt-geo=US; Expires=Thu, 31 Oct 2024 08:51:38 GMT; Path=/; Domain=.nytimes.com,datadome=0; Domain=.nytimes.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax; Secure,nyt-b3-traceid=6d576a3064ae444abd1a8f65718e216d; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+x-gdpr: 0
+permissions-policy: browsing-topics=()
+x-frame-options: DENY
+onion-location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/
+x-api-version: F-F-VI
+content-security-policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob: android-webview-video-poster:; font-src data: https:; connect-src data: https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;
+strict-transport-security: max-age=63072000; preload; includeSubdomains
+access-control-expose-headers: X-Nyt-Mktg-Group, X-Nyt-Mktg-Group
+x-nyt-mktg-group: group1
+x-nyt-home-headers-map: allocation-id=kl871xwDO1pzjmvcBkkHbz
+x-nyt-edge-cache: HIT-HIT
+x-nyt-app-webview: 0
+x-nyt-app-map: webview=false,preloaded=false
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html lang="en" class=" nytapp-vi-homepage "  xmlns:og="http://opengraphprotocol.org/schema/">
+  <head>
+    
+    
+    <meta charset="utf-8" />
+    <title data-rh="true">The New York Times - Breaking News, US News, World News and Videos</title>
+    <meta data-rh="true" name="description" content="Live news, investigations, opinion, photos and video by the journalists of The New York Times from more than 150 countries around the world. Subscribe for coverage of U.S. and internation
