@@ -4,27 +4,27 @@ Status Code: 200
 
 Headers:
 connection: keep-alive
-content-length: 142474
+content-length: 143547
 content-type: text/html; charset=utf-8
 cache-control: no-cache, no-store, must-revalidate
 content-language: en
 document-policy: js-profiling
-etag: "13751a-JUMTEC7ED8nj3GsB6V1RCQ0tyss"
+etag: "13769d-Mdjh0c+mqkbVZuBtbO0NHmvPQEU"
 expires: 0
 pragma: no-cache
-set-cookie: next-i18next=en; path=/; expires=Fri, 31 Oct 2025 02:51:35 GMT,dsl25_frhf=control;expires=Thu, 28 Nov 2024 02:51:37 GMT;,bf-browser-language=en-US,en;q=0.5; expires=Fri, 01 Nov 2024 02:51:37 GMT; path=/; domain=.buzzfeed.com;,bf-geo-country=US; expires=Fri, 01 Nov 2024 02:51:37 GMT; path=/; domain=.buzzfeed.com;,ccpa=true; expires=Thu, 14 Nov 2024 02:51:37 GMT; path=/; domain=www.buzzfeed.com;
-x-request-id: d25349c9a43a5bf841342ffcb1d4a5c7
+set-cookie: next-i18next=en; path=/; expires=Fri, 31 Oct 2025 03:31:37 GMT,dsl25_frhf=control;expires=Thu, 28 Nov 2024 03:32:12 GMT;,bf-browser-language=en-US,en;q=0.5; expires=Fri, 01 Nov 2024 03:32:12 GMT; path=/; domain=.buzzfeed.com;,bf-geo-country=US; expires=Fri, 01 Nov 2024 03:32:12 GMT; path=/; domain=.buzzfeed.com;,ccpa=true; expires=Thu, 14 Nov 2024 03:32:12 GMT; path=/; domain=www.buzzfeed.com;
+x-request-id: aaea722df406ee535887f5cac28bcf50
 accept-ranges: bytes
-date: Thu, 31 Oct 2024 02:51:37 GMT
-age: 3
+date: Thu, 31 Oct 2024 03:32:12 GMT
+age: 34
 x-frame-options: SAMEORIGIN
 content-security-policy: upgrade-insecure-requests
 strict-transport-security: max-age=31536000; preload
 timing-allow-origin: *
-x-served-by: cache-iad-kiad7000147-IAD
+x-served-by: cache-iad-kjyo7100122-IAD
 x-cache: HIT
-x-cache-hits: 1
-x-timer: S1730343098.967849,VS0,VE3
+x-cache-hits: 3
+x-timer: S1730345532.460170,VS0,VE0
 vary: X-BF-User-Edition, Accept-Encoding, X-BF-Canary, X-BF-Canary-Site-Router, X-BF-Canary-Perimeter, X-BF-Canary-Feed-UI
 
 Content Snippet (first 500 characters):
