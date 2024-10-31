@@ -1,0 +1,25 @@
+URL: http://playstation.com
+Final URL: https://www.playstation.com/en-us/
+Status Code: 200
+
+Headers:
+Server: Apache
+Content-Type: text/html;charset=utf-8
+Set-Cookie: sbsd_o=BCC48F322861ADB8D0D0B1F040A382C91DEF5EF173AA2BAA56EF555379AEE149~sQ9uumhtNyWaMVZG5xEEW0AKT/BPXeoEb0SLw9xFaMCMCHoLmRawQtbghyfLGRIs2FgJwVXV3ZZ7/HCdk5si3RqQHBh4A9wZbw0D+byn4DwS0YwLJ+NUZ9neWHTguwrHzUrAxSNxYK0LsQWm8UeYIOeC0/P8h8RXvHxQk4aLqzYZNOByIRa2IMky1mXi2nNKm7dHsZ/6A+SJCgM5hof8Rz/81HN/6dADoY4bY3n37RhXlfo7bclkZx04hLnS0GFwO; Secure; SameSite=None; Domain=.playstation.com; Path=/; Max-Age=86400, sbsd=sElWGW1AlWhU7PgYkK1N5H6r36h8jN+s5X8m8FUfGHP3Zz7zDP9WpL5pmCnOTFQAyNor1RrA3fDye3FK7YqdCr/U8ogaIftzLn6o6CMvsZ+veBo0mGhSygqMmfPF2oPlHAPPbfkFhRK2mnyw9j+CjLjDtM0fCoE5Jd61R1Lnm3tGlg8f+Ys+pc8BBwnXLN7Ir; Secure; SameSite=None; Domain=.playstation.com; Path=/; HttpOnly; Max-Age=2678400
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload;
+Vary: Accept-Encoding
+X-Vhost: publish
+X-Frame-Options: SAMEORIGIN
+X-Dispatcher: dispatcher3uswest1-b80
+X-Content-Type-Options: nosniff
+X-Akamai-Transformed: 9 571671 0 pmb=mTOE,1
+Content-Encoding: gzip
+Expires: Wed, 30 Oct 2024 21:05:50 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 30 Oct 2024 21:05:50 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive, Transfer-Encoding
+
+Content Snippet (first 500 characters):
+<!DOCTYPE HTML><html lang="en-US" xml:lang="en-US" dir="ltr"><head><link rel="preload" media="(min-width: 768px) and (max-width: 1023px)" href="https://gmedia.playstation.com/is/image/SIEPDC/psvr2-homepage-hero-banner-mobile-02-en-24oct22?$1200px$" as="image"/><link rel="preload" media="(min-width: 1024px) and (max-width: 1366px)" href="https://gmedia.playstation.com/is/image/SIEPDC/psvr2-homepage-hero-banner-mobile-02-en-24oct22?$1600px$" as="image"/><link rel="preload" media="(min-width: 1367p

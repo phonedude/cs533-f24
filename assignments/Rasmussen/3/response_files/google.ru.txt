@@ -1,0 +1,25 @@
+URL: http://google.ru
+Final URL: https://www.google.ru/?gws_rd=ssl
+Status Code: 200
+
+Headers:
+Date: Wed, 30 Oct 2024 21:05:08 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-Zl6DOYNWt5kGQ0-tqnOZxQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="gws"
+Report-To: {"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}
+Accept-CH: Sec-CH-Prefers-Color-Scheme, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64
+Permissions-Policy: unload=()
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Encoding: gzip
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: NID=518=KU8dRFw4cbFFYNoAUsy0JpnAfHvvxl5oyIAHB2xiPpE-pZ35N2gcvbjq3f-m9PnYB-RflOhHi9ldMFdUNyTJTWoSZrM3D7ibJdt43HzIvZKpuz_KAgY_pMBfpBJpVwkZlBYeoN1nP5uJ_MnZ2uKuvD0Lm5SqasGdP3Uoke_8G3IBQsBakrYBRTVtVGQ6TrUlnig; expires=Thu, 01-May-2025 21:05:08 GMT; path=/; domain=.google.ru; Secure; HttpOnly; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+Content Snippet (first 500 characters):
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta charset="UTF-8"><meta content="origin" name="referrer"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="Zl6DOYNWt5kGQ0-tqnOZxQ">window._hst=Date.now();performance&&performance.mark&&performance.mark("SearchHeadStart");</script><script nonce="Zl6DOYNWt5kGQ0-tqnOZxQ">(function(){var _g={kEI:'hJ8iZ66jDMTm5NoP79SBuA4',kEXPI:'31'

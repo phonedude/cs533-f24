@@ -1,0 +1,25 @@
+URL: http://gsmarena.com
+Final URL: https://www.gsmarena.com/
+Status Code: 429
+
+Headers:
+Date: Wed, 30 Oct 2024 21:05:09 GMT
+Server: Apache
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+X-Powered-By: PHP/7.4.33
+Retry-After: 36000
+Content-Security-Policy: frame-ancestors 'self' *.gsmarena.com;
+Content-Length: 113
+Keep-Alive: timeout=15, max=100
+Content-Type: text/html;charset=UTF-8
+
+Content Snippet (first 500 characters):
+<html>
+<head>
+<title>Too Many Requests</title>
+</head>
+<body>
+<h1>Too Many Requests</h1>
+</body>
+</html>

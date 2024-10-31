@@ -1,0 +1,39 @@
+URL: http://doi.org
+Final URL: https://www.doi.org/
+Status Code: 200
+
+Headers:
+Content-Type: text/html
+Content-Length: 6951
+Connection: keep-alive
+Date: Wed, 30 Oct 2024 21:04:39 GMT
+Last-Modified: Tue, 17 Sep 2024 17:33:27 GMT
+ETag: "40ca3249393c605326f122c98984af8a"
+x-amz-server-side-encryption: AES256
+x-amz-meta-md5chksum: 40ca3249393c605326f122c98984af8a
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+Via: 1.1 2cfc0bae5f623e4a6a6bc0939f1d71c8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD66-C2
+X-Amz-Cf-Id: bHRpW82PkOa7HKix2TtZALbx1FQyifvPcrWgZX8lAZpf3EweaN6LPw==
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.101.0" />
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="ahrefs-site-verification" content="a4d19d13d080685e48094a2591188be35d7b5db05918a5eb84828500a14f3c5e">
+	
+	<title>Home Page</title>
+	
+	
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+		  rel="stylesheet

@@ -1,0 +1,31 @@
+URL: http://spiegel.de
+Final URL: https://www.spiegel.de/
+Status Code: 200
+
+Headers:
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0,s-maxage=90
+Content-Encoding: gzip
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 30 Oct 2024 21:05:15 GMT
+Strict-Transport-Security: max-age=2592000;
+Vary: X-Forwarded-Proto, X-Authorized-Sppur, Accept-Encoding
+X-Cache: HIT
+X-Cache-Grace: 3600.000
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+Via: 1.1 google
+
+Content Snippet (first 500 characters):
+<!doctype html><html lang="de">
+<head>
+<title>DER SPIEGEL | Online-Nachrichten</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="apple-itunes-app" content="app-id=424881832">
+<link rel="manifest" href="https://www.spiegel.de/public/spon/json/manifest.json">
+<met

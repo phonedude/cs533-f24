@@ -1,0 +1,29 @@
+URL: http://arxiv.org
+Final URL: http://arxiv.org/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 44362
+content-type: text/html; charset=utf-8
+content-security-policy: frame-ancestors 'none'
+x-frame-options: SAMEORIGIN
+x-cloud-trace-context: a72888c42d36f1934983826d0fa01a7b
+server: Google Frontend
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:04:28 GMT
+Age: 101
+X-Served-By: cache-lga21981-LGA, cache-iad-kjyo7100171-IAD
+X-Cache: HIT, HIT
+X-Timer: S1730322269.723095,VS0,VE1
+
+Content Snippet (first 500 characters):
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>  <title>arXiv.org e-Print archive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/browse/0.3.4/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" size

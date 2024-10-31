@@ -1,0 +1,33 @@
+URL: http://abcnews.go.com
+Final URL: https://abcnews.go.com/
+Status Code: 200
+
+Headers:
+Content-Type: text/html; charset=utf-8
+Content-Length: 82093
+Connection: keep-alive
+Date: Wed, 30 Oct 2024 21:04:21 GMT
+Server: nginx/1.24.0
+Expires: Wed, 30 Oct 2024 21:04:27 GMT
+Last-Modified: Wed, 30 Oct 2024 21:04:27 GMT
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 ee9b452ef78932123abe17295c8c65be.cloudfront.net (CloudFront)
+Cache-Control: max-age=6
+Accept-Ranges: bytes
+Set-Cookie: region=ccpa; path=/; Expires=Wed, 06 Nov 2024 21:04:21 GMT;, _dcf=1; path=/; Expires=Wed, 06 Nov 2024 21:04:21 GMT;
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: IAD61-P2
+X-Amz-Cf-Id: mnw5I-MrH9kRQzInUSo_cxpBRb67XnBm06jo4GIpjYWT64RS2T9ssw==
+
+Content Snippet (first 500 characters):
+
+        <!doctype html>
+        <html lang="en" lang="en">
+            <head>
+                <!-- ABCNEWS | fddb6a735c05 | 3404 | a2b444c0ce132515b5ca2ff50968c969934225ba | abcnews.go.com | Wed, 30 Oct 2024 21:04:19 GMT -->
+                <meta charSet="utf-8" />
+                <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+                <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+                <meta property="og:locale" content="en_US" />
+  

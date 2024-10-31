@@ -1,0 +1,42 @@
+URL: http://www.gov.uk
+Final URL: https://www.gov.uk/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 11587
+Content-Type: text/html; charset=utf-8
+Server: nginx
+Cache-Control: max-age=300, public
+Content-Security-Policy: default-src 'self'; base-uri 'none'; img-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com lux.speedcurve.com assets.digital.cabinet-office.gov.uk https://img.youtube.com https://i.ytimg.com; script-src 'self' www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com www.gstatic.com *.ytimg.com www.youtube.com www.youtube-nocookie.com 'nonce-hWLQmMc0xcQYypFVcc8jvg=='; style-src 'self' www.gstatic.com; font-src 'self'; connect-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com lux.speedcurve.com gds-single-consent-staging.app gds-single-consent.app; object-src 'none'; frame-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.youtube.com www.youtube-nocookie.com; frame-ancestors 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk; report-uri https://csp-reporter.publishing.service.gov.uk/report
+Etag: W/"1a3a77f2e19e129358dbf0e31d003c10"
+Link: </assets/frontend/application-52317d426199dc41bb91ca225d09ea009cc40bda1cbb5d9111c02e37222ce2b6.css>; rel=preload; as=style; nopush,</assets/frontend/views/_homepage-cd43eecdb08cd168672be81d5e7a81d8dd01c176583b5665b4d5ba66fc1eba5f.css>; rel=preload; as=style; nopush,</assets/frontend/views/_homepage_header-de0edcd2ce904a93d149eaf13ecbc6eeffd1846210f83e637a74e0a8458536bb.css>; rel=preload; as=style; nopush,</assets/frontend/views/_popular_links-4ecc3766c0884579358bdd11899cce950bd33d5f6a1c99c800fd34f0a20d9a92.css>; rel=preload; as=style; nopush,</assets/frontend/govuk_publishing_components/components/_action-link-6a0bd6b1dea8a06695b7678e5457c809bc4ffd5f0221e557b5ede25238328312.css>; rel=preload; as=style; nopush,</assets/frontend/govuk_publishing_components/components/_cards-e8ebfa5a9585adec676a2602012a8336175448362c4fe0540d77fe6e26f84691.css>; rel=preload; as=style; nopush
+Permissions-Policy: interest-cohort=(), interest-cohort=()
+Via: 1.1 router, 1.1 varnish
+X-Content-Type-Options: nosniff, nosniff
+X-Frame-Options: ALLOWALL
+X-Request-Id: df8f06d5-993b-4b87-b48a-1021e44d5f32
+X-Runtime: 0.034628
+Fastly-Backend-Name: origin
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:06:25 GMT
+Age: 230
+Strict-Transport-Security: max-age=31536000; preload
+X-Served-By: cache-iad-kiad7000134-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1730322386.805410,VS0,VE2
+Vary: Accept-Encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8 govuk-template" lang="en"><![endif]--><!--[if gt IE 8]><!--><html class="govuk-template" lang="en">
+<!--<![endif]-->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="govuk:organisations" content="&lt;OT1056&gt;">
+<meta name="govuk:primary-publishing-organisation" content="Government Digital Service">
+<meta name="govuk:public-updated-at" content="2023-06-28T10:32:34+01:00">
+<meta name="govuk:updated-at" 

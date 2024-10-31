@@ -1,0 +1,34 @@
+URL: http://cambridge.org
+Final URL: https://www.cambridge.org:443/
+Status Code: 200
+
+Headers:
+Date: Wed, 30 Oct 2024 21:04:33 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: CF-IPCountry,Accept-Encoding
+X-Cache-Hits: 2475
+Cache-Control: max-age=86400, public
+X-Cache: HIT
+X-Request-ID: v-e443fa18-96dd-11ef-9ddb-3b102897ce3a
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-XSS-Protection: 1; mode=block
+Content-language: en
+X-Content-Type-Options: nosniff
+Via: varnish
+CF-IPCountry: US
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Wed, 30 Oct 2024 16:42:04 GMT
+X-AH-Environment: prod
+Age: 15747
+X-Served-From: aws
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8dae5bbce868d631-IAD
+Content-Encoding: gzip
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="coh-ie8"  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# "> <![endif]-->
+<!--[if IE 9 ]><html class="coh-ie9"  l

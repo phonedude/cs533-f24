@@ -1,0 +1,32 @@
+URL: http://npr.org
+Final URL: https://www.npr.org/
+Status Code: 200
+
+Headers:
+Content-Type: text/html; charset=UTF-8
+X-Cache-NPR: HIT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-NPR-Trace-ID: renKOSDD2al
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Served-By: pod-www-render-nginx-77f66c6698-bp9dq
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: no-cache
+Date: Wed, 30 Oct 2024 21:05:42 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive, Transfer-Encoding
+Server-Timing: cdn-cache; desc=HIT, edge; dur=1, ak_p; desc="1730322341974_389073066_1905843128_33_11516_22_56_-";dur=1
+
+Content Snippet (first 500 characters):
+<!doctype html><html class="no-js" lang="en"><head><!-- OneTrust Cookies Consent Notice start for npr.org -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/82089dfe-410c-4e1b-a7f9-698174b62a86/OtAutoBlock.js" ></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="82089dfe-410c-4e1b-a7f9-698174b62a86" ></script>
+
+<script type="text/javascript">
+function OptanonWrapper() {
+    NPR_OptanonWr
