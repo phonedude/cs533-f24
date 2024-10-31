@@ -6,19 +6,19 @@ Headers:
 content-type: text/html; charset=utf-8
 transfer-encoding: chunked
 connection: keep-alive
-date: Thu, 31 Oct 2024 04:04:14 GMT
+date: Thu, 31 Oct 2024 04:56:40 GMT
 server: nginx
-set-cookie: visitor={"locale":"en_US","shimLocale":"en_US","country":"US"}; path=/; domain=.gofundme.com,gdid=362f3ea1-b969-4bbc-8684-1e2dd8182613; path=/; domain=.gofundme.com
+set-cookie: visitor={"locale":"en_US","shimLocale":"en_US","country":"US"}; path=/; domain=.gofundme.com,gdid=31e30b8e-603f-434b-8923-dbe7669e2e7f; path=/; domain=.gofundme.com
 cache-control: max-age=120, s-maxage=120, stale-while-revalidate=3600, stale-if-error=86400
-etag: "99njkm3z3sy43c"
+etag: "13sj6qh7gm1y43c"
 content-security-policy-report-only: frame-ancestors gofundme.com *.gofundme.com *.hopin.com;
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 vary: Accept-Encoding
 x-cache: Hit from cloudfront
-via: 1.1 c2095fc8ad28e69d5b1b0d8a45d5666e.cloudfront.net (CloudFront)
+via: 1.1 b9a9cc3569345411c251c3c7f27048e2.cloudfront.net (CloudFront)
 x-amz-cf-pop: IAD61-P4
-x-amz-cf-id: STo43ZyZ2WXqkGmXBeNyBN4tdOJgSrPbqnqMCwKXsHLmfuG5rSB0_A==
-age: 71
+x-amz-cf-id: SbRf1BF0sx3dMgVAEE1DT6lPbYZdIG3ys4OxltiagCBfFQapaOfSbw==
+age: 66
 
 Content Snippet (first 500 characters):
 <!DOCTYPE html><html lang="en-US"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/><title>GoFundMe | The #1 Crowdfunding and Fundraising Platform</title><meta name="description" content="Start your fundraiser in minutes with tools to help you succeed. GoFundMe is the global leader in crowdfunding, trusted by 100+ million people."/><link rel="alternate" href="ios-app://id734130700/gofundme/"/><style>body {height:auto !important

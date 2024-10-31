@@ -3,16 +3,16 @@ Final URL: https://prezi.com/
 Status Code: 200
 
 Headers:
-date: Thu, 31 Oct 2024 04:05:25 GMT
+date: Thu, 31 Oct 2024 04:57:45 GMT
 content-type: text/html; charset=utf-8
-content-length: 13370
+content-length: 13369
 connection: keep-alive
 vary: Cookie, Accept-Language, Accept-Encoding
 x-frame-options: DENY
 content-language: en
 x-content-type-options: nosniff, nosniff
 referrer-policy: strict-origin-when-cross-origin
-set-cookie: csrftoken=AoxHmY3ZrO6C9WHL9Q0aDzwwmQ8qQgWe; Domain=.prezi.com; expires=Thu, 30 Oct 2025 04:05:25 GMT; Max-Age=31449600; Path=/; SameSite=Lax,__putma=5ba69534-973d-11ef-8471-1acb9170b702; Domain=.prezi.com; expires=Wed, 26 Oct 2044 04:05:25 GMT; Max-Age=630720000; Path=/; SameSite=none; Secure
+set-cookie: csrftoken=TFgGncQZtxB7X6bXqo4L9deMoiYgoTRJ; Domain=.prezi.com; expires=Thu, 30 Oct 2025 04:57:45 GMT; Max-Age=31449600; Path=/; SameSite=Lax,__putma=aacda290-9744-11ef-8471-1acb9170b702; Domain=.prezi.com; expires=Wed, 26 Oct 2044 04:57:45 GMT; Max-Age=630720000; Path=/; SameSite=none; Secure
 permissions-policy: usb=(), xr-spatial-tracking=()
 strict-transport-security: max-age=31536000; includeSubDomains
 

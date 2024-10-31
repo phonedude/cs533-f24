@@ -4,22 +4,22 @@ Status Code: 200
 
 Headers:
 connection: keep-alive
-content-length: 116813
+content-length: 117661
 cache-control: public, max-age=120
 content-security-policy: frame-ancestors 'self' http://*.bloomberg.com https://*.bloomberg.com, upgrade-insecure-requests
 content-type: text/html; charset=utf-8
-etag: "4iu4b85w66n060"
+etag: "buv7u1ina3n3rz"
 permissions-policy: join-ad-interest-group=(), run-ad-auction=(), browsing-topics=()
 referrer-policy: no-referrer-when-downgrade
 server: openresty
-set-cookie: exp_pref=AMER; domain=bloomberg.com; path=/;,country_code=US; domain=www.bloomberg.com; path=/;,_pxhd=Mcb4awfAf-hHEtuqnwFpXmCUSzgO25hyDd6tdDZLT7Ek6LqY1zkWgX1fcpDa8/qUq2IZFMvm6F6hhIjVICgv8w==:X3hiMhJi/jGPptLN-B7FgqlsMuiKln11cZbnbea0B32CT4LPiDjghPfofFj3JIn/79yLbEpiKecwSrUBBNJTim-WlL9bwd/jlZeStxhZLFk=; Expires=Fri, 01 Jan 2021 00:00:00 GMT; path=/;
+set-cookie: exp_pref=AMER; domain=bloomberg.com; path=/;,country_code=US; domain=www.bloomberg.com; path=/;,_pxhd=L/LkzwJPmJq0Bi3ra/h8k5Vcm4usRJT4S4dMdSEe2l-c35Qmr5Z/XL52G/vmdn49hkGb7cOOZ7wY-G4/aS3bwA==:av-4fa77bzU/P6qOEgSgWWj6DIcUuSPE11sYZLTst/Yox3e0bXEfM8GoaFsmlh3j9KvdOHRJqV6OtnpgXvLYlrlqTBiG/Pa9dTVqIH6203Y=; Expires=Fri, 01 Jan 2021 00:00:00 GMT; path=/;
 x-content-type-options: nosniff
 x-powered-by: Next.js
 fastly-restarts: 1
 accept-ranges: bytes
-date: Thu, 31 Oct 2024 04:05:25 GMT
-age: 79
-x-served-by: cache-iad-kiad7000053-IAD
+date: Thu, 31 Oct 2024 04:57:46 GMT
+age: 99
+x-served-by: cache-iad-kiad7000083-IAD
 x-cache: HIT
 x-cache-hits: 1
 strict-transport-security: max-age=31557600

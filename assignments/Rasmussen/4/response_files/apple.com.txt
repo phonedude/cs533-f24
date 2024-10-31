@@ -13,11 +13,11 @@ referrer-policy: no-referrer-when-downgrade
 strict-transport-security: max-age=31536000; includeSubdomains; preload
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
-cache-control: max-age=0
-expires: Thu, 31 Oct 2024 04:05:25 GMT
-date: Thu, 31 Oct 2024 04:05:25 GMT
-content-length: 40595
-x-cache: TCP_MEM_HIT from a23-220-104-133.deploy.akamaitechnologies.com (AkamaiGHost/11.6.5-0c617a4be13e71cac2c90d10d87ecf54) (-)
+cache-control: max-age=78
+expires: Thu, 31 Oct 2024 04:59:04 GMT
+date: Thu, 31 Oct 2024 04:57:46 GMT
+content-length: 40593
+x-cache: TCP_MEM_HIT from a23-15-7-191.deploy.akamaitechnologies.com (AkamaiGHost/11.6.5-0c617a4be13e71cac2c90d10d87ecf54) (-)
 connection: keep-alive
 
 Content Snippet (first 500 characters):

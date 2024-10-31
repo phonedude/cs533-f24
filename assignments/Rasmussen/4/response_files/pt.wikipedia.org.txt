@@ -11,8 +11,8 @@ accept-ch:
 vary: Accept-Encoding,Cookie,Authorization
 last-modified: Thu, 31 Oct 2024 04:00:06 GMT
 content-type: text/html; charset=UTF-8
-age: 186
-x-cache: cp1114 miss, cp1114 hit/2
+age: 3329
+x-cache: cp1114 miss, cp1114 hit/434
 x-cache-status: hit-front
 server-timing: cache;desc="hit-front", host;desc="cp1114"
 strict-transport-security: max-age=106384710; includeSubDomains; preload

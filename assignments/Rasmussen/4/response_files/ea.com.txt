@@ -4,13 +4,13 @@ Status Code: 200
 
 Headers:
 content-type: text/html; charset=UTF-8
-last-modified: Thu, 31 Oct 2024 03:53:11 UTC
-content-length: 27157
-cache-control: max-age=158
-expires: Thu, 31 Oct 2024 04:08:04 GMT
-date: Thu, 31 Oct 2024 04:05:26 GMT
+last-modified: Thu, 31 Oct 2024 04:47:43 UTC
+content-length: 27123
+cache-control: max-age=367
+expires: Thu, 31 Oct 2024 05:03:53 GMT
+date: Thu, 31 Oct 2024 04:57:46 GMT
 connection: keep-alive
-set-cookie: EDGESCAPE_COUNTRY=US; path=/,EDGESCAPE_REGION=VA; path=/,EDGESCAPE_TIMEZONE=EST; path=/,ealocale=en-us; expires=Fri, 31-Oct-2025 04:05:26 GMT; path=/; domain=.ea.com; secure
+set-cookie: EDGESCAPE_COUNTRY=US; path=/,EDGESCAPE_REGION=VA; path=/,EDGESCAPE_TIMEZONE=EST; path=/,ealocale=en-us; expires=Fri, 31-Oct-2025 04:57:46 GMT; path=/; domain=.ea.com; secure
 vary: Accept-Encoding
 alt-svc: h3=":443"; ma=93600
 x-l-path: inert

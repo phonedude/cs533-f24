@@ -4,29 +4,29 @@ Status Code: 200
 
 Headers:
 connection: close
-content-length: 231549
-x-b3-traceid: f26144769daf49348d8f602c10d68a64
-x-nyt-data-last-modified: Thu, 31 Oct 2024 04:03:48 GMT
-last-modified: Thu, 31 Oct 2024 04:03:48 GMT
+content-length: 231990
+x-b3-traceid: 6b7821ea85ba41879eea9e94e8425e58
+x-nyt-data-last-modified: Thu, 31 Oct 2024 04:51:51 GMT
+last-modified: Thu, 31 Oct 2024 04:51:51 GMT
 x-pagetype: vi-homepage
 x-xss-protection: 1; mode=block
 x-content-type-options: nosniff
 content-type: text/html; charset=utf-8
-x-envoy-upstream-service-time: 174
+x-envoy-upstream-service-time: 182
 server: envoy
 x-envoy-decorator-operation: vi.nyt.net:443/*
 cache-control: s-maxage=30,no-cache
 x-nyt-route: homepage
-x-origin-time: 2024-10-31 04:03:49 UTC
+x-origin-time: 2024-10-31 04:56:29 UTC
 accept-ranges: bytes
-date: Thu, 31 Oct 2024 04:05:26 GMT
-age: 29
-x-served-by: cache-lga21957-LGA, cache-iad-kjyo7100067-IAD
+date: Thu, 31 Oct 2024 04:57:48 GMT
+age: 19
+x-served-by: cache-lga21954-LGA, cache-iad-kjyo7100042-IAD
 x-cache: HIT, HIT
-x-cache-hits: 1, 1
-x-timer: S1730347526.024025,VS0,VE4
+x-cache-hits: 128, 1
+x-timer: S1730350668.035783,VS0,VE2
 vary: Accept-Encoding, Fastly-SSL
-set-cookie: nyt-a=XCtzS8idOLx5jTF5o_x6rC; Expires=Fri, 31 Oct 2025 04:05:26 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure,nyt-gdpr=0; Expires=Thu, 31 Oct 2024 10:05:26 GMT; Path=/; Domain=.nytimes.com,nyt-purr=cfshcfhshckfhdfshgas2; Expires=Fri, 31 Oct 2025 04:05:26 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure,nyt-geo=US; Expires=Thu, 31 Oct 2024 10:05:26 GMT; Path=/; Domain=.nytimes.com,datadome=0; Domain=.nytimes.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax; Secure,nyt-b3-traceid=89142017909d4c3bbc4bf59da4c31b91; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+set-cookie: nyt-a=4b_oThTlW0Xdzrn8b4THxl; Expires=Fri, 31 Oct 2025 04:57:48 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure,nyt-gdpr=0; Expires=Thu, 31 Oct 2024 10:57:48 GMT; Path=/; Domain=.nytimes.com,nyt-purr=cfshcfhshckfhdfshgas2; Expires=Fri, 31 Oct 2025 04:57:48 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure,nyt-geo=US; Expires=Thu, 31 Oct 2024 10:57:48 GMT; Path=/; Domain=.nytimes.com,datadome=0; Domain=.nytimes.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax; Secure,nyt-b3-traceid=da973231ea7d467aa9bc91d2b9e38d26; Path=/; Domain=.nytimes.com; SameSite=none; Secure
 x-gdpr: 0
 permissions-policy: browsing-topics=()
 x-frame-options: DENY
@@ -36,7 +36,7 @@ content-security-policy: upgrade-insecure-requests; default-src data: 'unsafe-in
 strict-transport-security: max-age=63072000; preload; includeSubdomains
 access-control-expose-headers: X-Nyt-Mktg-Group, X-Nyt-Mktg-Group
 x-nyt-mktg-group: group1
-x-nyt-home-headers-map: allocation-id=XCtzS8idOLx5jTF5o_x6rC
+x-nyt-home-headers-map: allocation-id=4b_oThTlW0Xdzrn8b4THxl
 x-nyt-edge-cache: HIT-HIT
 x-nyt-app-webview: 0
 x-nyt-app-map: webview=false,preloaded=false

@@ -3,17 +3,17 @@ Final URL: https://com.com/
 Status Code: 200
 
 Headers:
-date: Thu, 31 Oct 2024 04:05:21 GMT
+date: Thu, 31 Oct 2024 04:57:43 GMT
 content-type: text/html; charset=UTF-8
 transfer-encoding: chunked
 connection: keep-alive
 set-cookie: XYZSRV=wtc2-a-4; path=/
 cf-cache-status: DYNAMIC
 vary: accept-encoding
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=KIHh%2BMB8Utpi9Io3HhwIBBtnOux7oKkSMY299P5LN2jeEdPdQ6j7Rjs1fXLGCT50qOXNigw7J4IDNMgElA9HyCGu2YSk17c9FqhJ1zvQ5HfQE987jo9ggDE%3D"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=NzQjHQ8wFak3tUAbbRwlGDoZcvgltn7jAhNtji3yVX0nLf5zTEutYwrEFTYnunI7ZRA%2FJVw%2F9EHhVw9YmAYRa5D4ykCNHFq2QNNL35LkuzvBbenYw8UZR%2Fh9HdPCOyCpWvA47Rs%3D"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 server: cloudflare
-cf-ray: 8db0c4299c03c5a6-IAD
+cf-ray: 8db110df3a95d68b-IAD
 
 Content Snippet (first 500 characters):
 <!DOCTYPE html>

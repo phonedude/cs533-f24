@@ -4,17 +4,17 @@ Status Code: 200
 
 Headers:
 server: nginx/1.2.8
-date: Thu, 31 Oct 2024 04:05:26 GMT
+date: Thu, 31 Oct 2024 04:57:48 GMT
 content-type: text/html
-content-length: 2807
+content-length: 2841
 connection: keep-alive
 x-powered-by: PHP/5.2.9
 x-frame-options: SAMEORIGIN
 accept-ranges: bytes
-x-varnish: 1995730309 1995730140
-age: 13
+x-varnish: 1995782457 1995781795
+age: 40
 via: 1.1 varnish
-x-varnish-hits: 13
+x-varnish-hits: 33
 x-varnish-ip: 208.94.3.33
 x-varnish-port: 17001
 vary: Accept-Encoding, User-Agent

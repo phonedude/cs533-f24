@@ -4,7 +4,7 @@ Status Code: 200
 
 Headers:
 server: nginx
-date: Thu, 31 Oct 2024 04:05:28 GMT
+date: Thu, 31 Oct 2024 04:57:50 GMT
 content-type: text/html
 transfer-encoding: chunked
 vary: Accept-Encoding
@@ -15,10 +15,10 @@ access-control-allow-origin: *
 x-toujours-debout-location: BHS
 x-toujours-debout-branch: B
 cache-control: public, must-revalidate, max-age=90, private
-x-iplb-request-id: 0A6F3126:15AC_C063418B:01BB_67230208_6DBC9:4411, 62B7DE60:C1B2_93870066:01BB_67230208_1C48DB2B:0982
+x-iplb-request-id: 0A6F20CA:547E_C063418B:01BB_67230E4E_75E0A:61DD, 62B7DE60:C785_93870066:01BB_67230E4E_1BB69D98:5EC6
 strict-transport-security: max-age=15768000
-x-iplb-instance: 59072
-set-cookie: SERVERID116590=411b079e|ZyMCC|ZyMCC; path=/; HttpOnly
+x-iplb-instance: 58927
+set-cookie: SERVERID116590=411b079e|ZyMOU|ZyMOU; path=/; HttpOnly
 
 Content Snippet (first 500 characters):
 

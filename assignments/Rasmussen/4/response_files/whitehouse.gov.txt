@@ -4,7 +4,7 @@ Status Code: 200
 
 Headers:
 server: nginx
-date: Thu, 31 Oct 2024 04:05:26 GMT
+date: Thu, 31 Oct 2024 04:57:49 GMT
 content-type: text/html; charset=UTF-8
 transfer-encoding: chunked
 connection: keep-alive
@@ -27,9 +27,4 @@ Content Snippet (first 500 characters):
 <head>
 	<meta charset="utf-8">
 	<meta name="google" content="notranslate">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	
-	<!-- If you're reading this, we need your help building back better. https://usds.gov/ -->
-<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:false},ajax:{deny_list:["bam.nr-data.net"]},session_trace:{sampling_rate:0.0,mode:"FIXED_RATE",enabled:true,error_sampling_rate:0.0}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-38cd91aea19ca6f246a",

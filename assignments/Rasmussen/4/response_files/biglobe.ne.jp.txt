@@ -3,7 +3,7 @@ Final URL: https://biglobe.ne.jp/
 Status Code: 200
 
 Headers:
-date: Thu, 31 Oct 2024 04:05:22 GMT
+date: Thu, 31 Oct 2024 04:57:43 GMT
 content-type: text/html
 content-length: 254
 connection: keep-alive

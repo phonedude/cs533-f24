@@ -4,18 +4,18 @@ Status Code: 200
 
 Headers:
 connection: keep-alive
-content-length: 114695
+content-length: 114904
 content-type: text/html; charset=iso-8859-15
 referrer-policy: unsafe-url
 cache-control: s-maxage=60
 x-backend: CONTENT
 accept-ranges: bytes
-date: Thu, 31 Oct 2024 04:05:25 GMT
-age: 24
-x-served-by: cache-ams2100138-AMS, cache-iad-kiad7000030-IAD
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-x-timer: S1730347526.975993,VS0,VE2
+date: Thu, 31 Oct 2024 04:57:47 GMT
+age: 8
+x-served-by: cache-ams2100138-AMS, cache-iad-kiad7000098-IAD
+x-cache: MISS, HIT
+x-cache-hits: 0, 1
+x-timer: S1730350667.109450,VS0,VE2
 vary: Accept-Encoding, User-Agent
 
 Content Snippet (first 500 characters):

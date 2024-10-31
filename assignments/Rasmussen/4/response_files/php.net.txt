@@ -4,18 +4,18 @@ Status Code: 200
 
 Headers:
 server: myracloud
-date: Thu, 31 Oct 2024 04:05:28 GMT
+date: Thu, 31 Oct 2024 04:57:49 GMT
 content-type: text/html; charset=utf-8
 transfer-encoding: chunked
 connection: keep-alive
-last-modified: Thu, 31 Oct 2024 04:00:09 GMT
+last-modified: Thu, 31 Oct 2024 04:50:09 GMT
 content-language: en
 permissions-policy: interest-cohort=()
 x-frame-options: SAMEORIGIN
-set-cookie: COUNTRY=NA%2C98.183.222.96; expires=Thu, 07 Nov 2024 04:05:27 GMT; Max-Age=604800; path=/; domain=.php.net,LAST_NEWS=1730347527; expires=Fri, 31 Oct 2025 04:05:27 GMT; Max-Age=31536000; path=/; domain=.php.net
+set-cookie: COUNTRY=NA%2C98.183.222.96; expires=Thu, 07 Nov 2024 04:57:49 GMT; Max-Age=604800; path=/; domain=.php.net,LAST_NEWS=1730350669; expires=Fri, 31 Oct 2025 04:57:49 GMT; Max-Age=31536000; path=/; domain=.php.net
 link: <https://www.php.net/index>; rel=shorturl
 vary: accept-encoding
-expires: Thu, 31 Oct 2024 04:05:28 GMT
+expires: Thu, 31 Oct 2024 04:57:49 GMT
 cache-control: max-age=0
 
 Content Snippet (first 500 characters):

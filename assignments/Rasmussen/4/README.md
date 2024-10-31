@@ -8,7 +8,18 @@ The project consists of two main components:
 
 1. A website framing test that checks whether popular websites can be embedded in iframes, documenting the reasons why some sites cannot be framed (e.g. X-Frame-Options headers, Content-Security-Policy).
 
+In the image below we see boxes with both frameable and non-frameable content.
+
+![Screenshot showing rendered and non-rendered frames](images/Rendered_and_Non-Rendered_Frames.png)
+
 2. A demonstration of a cookie theft vulnerability using iframes, showing how cookies scoped only with the Path attribute can be accessed by malicious pages.
+
+In the images below we see a vulnerable page that sets a cookie and then an attacker page that steals the cooking from the vulnerable page via an iFrame.
+
+![Screenshot showing cookie theft vulnerability](images/Vulnerable_Page_Cookie.png)
+
+![Screenshot showing cookie theft attacker](images/Attacker_Page_iFrame_Cookie_Stolen.png)
+
 
 3. Bypassing 10 sites that are not framable:
 - http://localhost:4000/frameable/alibaba.com.html
@@ -22,27 +33,35 @@ The project consists of two main components:
 - http://localhost:4000/frameable/whitehouse.gov.html
 - http://localhost:4000/frameable/wordpress.org.html
 
+In the first image below, we see that Alibaba appears to be unframeable. However, by running the bypass endpoint with the Alibaba URL we are able to then go back to the Alibaba page and see a new box that shows we have bypassed the frame restriction. 
+
+![Screenshot showing non-frameable box](images/Alibaba_Non-Frameable.png)
+![Screenshot showing bypass JSON](images/Alibaba_Bypass.png)
+![Screenshot showing bypass JSON](images/Alibaba_Bypass.png)
+
 We were able to test for the ability to bypass using both the proxy technique and the sandbox technique; however, each of the above 10 use the proxy technique.
 
-4. Week 5 lecture, slide 65 has a literary reference in its title. Briefly describe this literary reference (but "Buzz Lightyear" does not count), both the origin and the meaning in the slides.
-
-- This is in reference to Coleridge's "Rime of the Ancient Mariner" -- it is a book about a group of sailors who are stranded in the ocean and who become dehydrated but, ironically, are surrounded by water.
-
-The quote is "Water, water, everywhere, Nor any drop to drink." 
-
-The stranded sailors can't drink the water surrounding them because it's ocean saltwater and if they drink it they'll die. 
-
-The reason this relates to the subject of XSS is because there are so many different parsers developers have to employ that it can be hard to know how they will interact because of how complex their interrelationships are. 
-
-When input isn't parsed properly (because knowing all the edge cases is difficult),it leads to increased vulnerability to things like XSS.
+5. >Week 5 lecture, slide 65 has a literary reference in its title. Briefly describe this literary reference (but "Buzz Lightyear" does not count), both the origin and the meaning in the slides.
 
 
-The project includes:
+    - This is in reference to Coleridge's "Rime of the Ancient Mariner" -- it is a book about a group of sailors who are stranded in the ocean and who become dehydrated but, ironically, are surrounded by water.
+
+    - The quote is "Water, water, everywhere, Nor any drop to drink." 
+
+    - The stranded sailors can't drink the water surrounding them because it's ocean saltwater and if they drink it they'll die. 
+
+    - The reason this relates to the subject of XSS is because there are so many different parsers developers have to employ that it can be hard to know how they will interact because of how complex their interrelationships are. 
+
+    - When input isn't parsed properly (because knowing all the edge cases is difficult), it leads to increased vulnerability to things like XSS.
+
+
+### The project includes:
 - A main index page with links to both demonstrations
 - Individual HTML pages for each tested website showing whether it can be framed
     - For the 10 websites above we also show how it can be bypassed in a second box
 - An attacker page that attempts to steal cookies from a vulnerable page
 - A vulnerable page that sets cookies with only path-based protection
+- A directory of all HTTP responses for each site
 
 After completing this project we have the following directory structure:
 
@@ -319,7 +338,7 @@ Note: I ran tree -I 'node_modules' to ignore the verbose node_modules directory;
 - [https://cambridge.org](frameable/cambridge.org.html) (Reason: Error)
 - [https://cnil.fr](frameable/cnil.fr.html) (Reason: Content-Security-Policy)
 - [https://cnn.com](frameable/cnn.com.html) (Reason: Content-Security-Policy)
-- [https://cointernet.com.co](frameable/cointernet.com.co.html) (Reason: Error)
+- [https://cointernet.com.co](frameable/cointernet.com.co.html) (Reason: X-Frame-Options)
 - [https://cpanel.net](frameable/cpanel.net.html) (Reason: X-Frame-Options)
 - [https://discord.com](frameable/discord.com.html) (Reason: X-Frame-Options)
 - [https://drive.google.com](frameable/drive.google.com.html) (Reason: X-Frame-Options)

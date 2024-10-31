@@ -5,7 +5,7 @@ Status Code: 200
 Headers:
 server: nginx/1.25.5
 content-type: text/html; charset=UTF-8
-content-length: 19943
+content-length: 19860
 x-powered-by: PHP/8.3.12
 link: <https://www.jhu.edu/wp-json/>; rel="https://api.w.org/", <https://www.jhu.edu/wp-json/wp/v2/pages/12375>; rel="alternate"; title="JSON"; type="application/json", <https://www.jhu.edu/>; rel=shortlink
 x-frame-options: SAMEORIGIN, SAMEORIGIN
@@ -14,9 +14,9 @@ referrer-policy: strict-origin, strict-origin-when-cross-origin
 permissions-policy: geolocation=(),midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
 strict-transport-security: max-age=31536000; includeSubDomains; preload, max-age=31536000; includeSubDomains
 x-xss-protection: 1; mode=block, 1; mode=block
-cache-control: max-age=510
-expires: Thu, 31 Oct 2024 04:13:55 GMT
-date: Thu, 31 Oct 2024 04:05:25 GMT
+cache-control: max-age=1316
+expires: Thu, 31 Oct 2024 05:19:43 GMT
+date: Thu, 31 Oct 2024 04:57:47 GMT
 connection: keep-alive
 vary: Accept-Encoding
 
