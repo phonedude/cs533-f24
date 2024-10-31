@@ -3,7 +3,7 @@ Final URL: https://www.aol.com/
 Status Code: 200
 
 Headers:
-date: Thu, 31 Oct 2024 03:32:12 GMT
+date: Thu, 31 Oct 2024 04:05:25 GMT
 content-type: text/html; charset=utf-8
 expect-ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only
 referrer-policy: no-referrer-when-downgrade
@@ -18,7 +18,7 @@ age: 0
 server: ATS
 transfer-encoding: chunked
 connection: keep-alive
-set-cookie: A1=d=AQABBDz6ImcCEM6EIo5yPfOZy1afqPKGAYoFEgEBAQFLJGcsZ9xV0iMA_eMAAA&S=AQAAAouya7-ukel6U-zJ0ptZ9Rc; Expires=Fri, 31 Oct 2025 09:32:12 GMT; Max-Age=31557600; Domain=.aol.com; Path=/; SameSite=Lax; Secure; HttpOnly,A3=d=AQABBDz6ImcCEM6EIo5yPfOZy1afqPKGAYoFEgEBAQFLJGcsZ9xV0iMA_eMAAA&S=AQAAAouya7-ukel6U-zJ0ptZ9Rc; Expires=Fri, 31 Oct 2025 09:32:12 GMT; Max-Age=31557600; Domain=.aol.com; Path=/; SameSite=None; Secure; HttpOnly,A1S=d=AQABBDz6ImcCEM6EIo5yPfOZy1afqPKGAYoFEgEBAQFLJGcsZ9xV0iMA_eMAAA&S=AQAAAouya7-ukel6U-zJ0ptZ9Rc; Domain=.aol.com; Path=/; SameSite=Lax; Secure
+set-cookie: A1=d=AQABBAUCI2cCEKgkDvqqGdil-wQPlo37aBkFEgEBAQFTJGcsZ9xV0iMA_eMAAA&S=AQAAAuTgV1XfY3ZWfQAqQDtMkNE; Expires=Fri, 31 Oct 2025 10:05:25 GMT; Max-Age=31557600; Domain=.aol.com; Path=/; SameSite=Lax; Secure; HttpOnly,A3=d=AQABBAUCI2cCEKgkDvqqGdil-wQPlo37aBkFEgEBAQFTJGcsZ9xV0iMA_eMAAA&S=AQAAAuTgV1XfY3ZWfQAqQDtMkNE; Expires=Fri, 31 Oct 2025 10:05:25 GMT; Max-Age=31557600; Domain=.aol.com; Path=/; SameSite=None; Secure; HttpOnly,A1S=d=AQABBAUCI2cCEKgkDvqqGdil-wQPlo37aBkFEgEBAQFTJGcsZ9xV0iMA_eMAAA&S=AQAAAuTgV1XfY3ZWfQAqQDtMkNE; Domain=.aol.com; Path=/; SameSite=Lax; Secure
 
 Content Snippet (first 500 characters):
 <!DOCTYPE html><html id="atomic" class="NoJs chrome desktop" lang="en-US"><head prefix="og: http://ogp.me/ns#"><script>window.performance && window.performance.mark && window.performance.mark('PageStart');</script><meta charSet="utf-8"/><meta http-equiv="content-type" content="text/html; charset=UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><meta http-equiv="x-dns-prefetch-control" content="on"/><meta name="author" content="AOL"/><meta name="google-site-verification" con

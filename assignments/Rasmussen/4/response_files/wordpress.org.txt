@@ -4,7 +4,7 @@ Status Code: 200
 
 Headers:
 server: nginx
-date: Thu, 31 Oct 2024 03:32:12 GMT
+date: Thu, 31 Oct 2024 04:05:23 GMT
 content-type: text/html; charset=UTF-8
 transfer-encoding: chunked
 connection: keep-alive
@@ -14,7 +14,7 @@ x-olaf: â
 link: <https://wordpress.org/wp-json/>; rel="https://api.w.org/", <https://wordpress.org/wp-json/wp/v2/pages/457>; rel="alternate"; title="JSON"; type="application/json", <https://w.org/>; rel=shortlink
 x-frame-options: SAMEORIGIN
 alt-svc: h3=":443"; ma=86400
-x-nc: HIT ord 2
+x-nc: EXPIRED ord 1
 
 Content Snippet (first 500 characters):
 <!DOCTYPE html>
