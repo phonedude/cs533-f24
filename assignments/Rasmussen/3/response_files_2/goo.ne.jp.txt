@@ -1,0 +1,14 @@
+URL: http://goo.ne.jp
+Final URL: https://www.goo.ne.jp
+Status Code: 200
+
+Headers:
+Cache-Control: must-revalidate, no-cache, no-store, post-check=0, pre-check=0, private
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 01 Nov 2024 23:27:41 GMT
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImhOMWtmOHpRYmJIckI2U2ZaOHh2OHc9PSIsInZhbHVlIjoiNVp4UUtpaHdmN3FvaDF4QUx4SGtlSy9MSmtvcEJybnpWaklzY28wZjc4d0hIb0FTdnFIZC94Mm52aEliYS9MMSIsIm1hYyI6Ijc0MmMxNGM4NzZiMDYzMTdjZmRhMWZhMjA4MzM3ZTAwNjZmNjQwY2FjMmEwMzE3NTEyMWU2YWY3ZDE1MmM5NzUiLCJ0YWciOiIifQ%3D%3D; expires=Sat, 02 Nov 2024 01:27:41 GMT; Max-Age=7200; path=/; secure, top_session=eyJpdiI6InhDdkU0Q0RTMUpodlVuVjNMQXpaMlE9PSIsInZhbHVlIjoiUUE2K3ZZOXVDaU9RYUl2UGVQZnB4Z25iRk9TckJyRlhiZ09vejN0eENWN2F6UHA5ZmRuSldWUWppTHBSSWNsSyIsIm1hYyI6ImM5ZGNiZDE2MDdkNjJlN2Q1MGRiM2Q0YzA5NGEyMjgzMmNmMTk1YmY0MGI5Mzk0MzMxMzlmMjFlYzk0ODE5MzEiLCJ0YWciOiIifQ%3D%3D; expires=Sat, 02 Nov 2024 01:27:41 GMT; Max-Age=7200; path=/; secure; httponly, gootop=NE:0&SJA:0_1535601469&CST:84c9246e0e4024da43bb276191fb336b&SR:&PCE:1&SL:2_3_4_53_11_8_16_6_27; expires=Thu, 01 Nov 2040 23:27:41 GMT; Max-Age=504921600; path=/; secure, gootopstay=eyJpdiI6IndPakxBWkRmTDhsdUFKQVlqSG5pbXc9PSIsInZhbHVlIjoiSUpjWGowMVpBeW94SmJmSVBlb0xqUT09IiwibWFjIjoiNzBmYTYwYjI3NjEwNjVhYjkzZjAxYjI0YTFmYjhhODYxYjk3NDBmYzAxZjhiMjc4NmVlYTBiZDEzY2I2NTMwYiIsInRhZyI6IiJ9; expires=Sat, 01 Nov 2025 23:27:41 GMT; Max-Age=31536000; path=/; secure, mental=eyJpdiI6Ikc1KzhzaHVsczhXMGdVMEhjQlhLYVE9PSIsInZhbHVlIjoiZkg0OVZJOURUMi9rbkpYZWNnMlIyZz09IiwibWFjIjoiZWVjNmIxODAwMGVjZTdjYWU0ZjA4NzE2NDA5MTkxMmY3ZmFlNWQ4MDdmMjYyMDY0ZjRiMWU0MTIwOTNjZWViNyIsInRhZyI6IiJ9; expires=Sat, 02 Nov 2024 23:27:41 GMT; Max-Age=86400; path=/; secure; httponly, gooproperty=AR%3D%26HO%3D1%26MD%3D%26TH%3DM13%26HH%3D%26WEATHER%3D; expires=Sun, 01 Nov 2026 23:27:41 GMT; Max-Age=63072000; path=/; domain=.goo.ne.jp; secure, searchstate=deleted; expires=Thu, 02 Nov 2023 23:27:40 GMT; Max-Age=0; path=/; domain=goo.ne.jp; secure; httponly, TS01ea13e3=016952d21e7bcdfaa0fedbb3bbd0b6929a737fc01965ff6eba426514d9c9f38fdefaaf4aadfbf4586f48367a3945ba7cc58047213a; Path=/, TS011bfe84=016952d21e7bcdfaa0fedbb3bbd0b6929a737fc01965ff6eba426514d9c9f38fdefaaf4aadfbf4586f48367a3945ba7cc58047213a; path=/; domain=.goo.ne.jp, TS011667c7=016952d21e7bcdfaa0fedbb3bbd0b6929a737fc01965ff6eba426514d9c9f38fdefaaf4aadfbf4586f48367a3945ba7cc58047213a; path=/; domain=goo.ne.jp
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Vcap-Request-Id: 3be896da-2344-45b4-6e59-7fa92a445625
+X-Xss-Protection: 1; mode=block
+Transfer-Encoding: chunked

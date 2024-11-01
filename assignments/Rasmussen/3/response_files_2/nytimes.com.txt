@@ -1,0 +1,43 @@
+URL: http://nytimes.com
+Final URL: https://www.nytimes.com/
+Status Code: 200
+
+Headers:
+Connection: close
+Content-Length: 275999
+x-b3-traceid: 349109f24674440d941adaddc0f6fd8a
+x-nyt-data-last-modified: Fri, 01 Nov 2024 23:28:06 GMT
+last-modified: Fri, 01 Nov 2024 23:28:06 GMT
+x-pagetype: vi-homepage
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+content-type: text/html; charset=utf-8
+x-envoy-upstream-service-time: 380
+server: envoy
+x-envoy-decorator-operation: vi.nyt.net:443/*
+content-encoding: gzip
+cache-control: s-maxage=30,no-cache
+x-nyt-route: homepage
+X-Origin-Time: 2024-11-01 23:28:07 UTC
+Accept-Ranges: bytes
+Date: Fri, 01 Nov 2024 23:28:14 GMT
+Age: 7
+X-Served-By: cache-lga21939-LGA, cache-iad-kiad7000097-IAD
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1730503694.128033,VS0,VE4
+Vary: Accept-Encoding, Fastly-SSL
+Set-Cookie: nyt-a=2XZjqF-PcclVdVGlSVpaEB; Expires=Sat, 01 Nov 2025 23:28:14 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure, nyt-gdpr=0; Expires=Sat, 02 Nov 2024 05:28:14 GMT; Path=/; Domain=.nytimes.com, nyt-purr=cfshcfhshckfhdfshgas2; Expires=Sat, 01 Nov 2025 23:28:14 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure, nyt-geo=US; Expires=Sat, 02 Nov 2024 05:28:14 GMT; Path=/; Domain=.nytimes.com, datadome=0; Domain=.nytimes.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax; Secure, nyt-b3-traceid=43743ce06dc64be78008ad373987c21f; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+x-gdpr: 0
+Permissions-Policy: browsing-topics=()
+X-Frame-Options: DENY
+onion-location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/
+X-API-Version: F-F-VI
+Content-Security-Policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob: android-webview-video-poster:; font-src data: https:; connect-src data: https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;
+Strict-Transport-Security: max-age=63072000; preload; includeSubdomains
+Access-Control-Expose-Headers: X-Nyt-Mktg-Group, X-Nyt-Mktg-Group
+x-nyt-mktg-group: group1
+x-nyt-home-headers-map: allocation-id=2XZjqF-PcclVdVGlSVpaEB
+x-nyt-edge-cache: MISS-HIT
+x-nyt-app-webview: 0
+x-nyt-app-map: webview=false,preloaded=false

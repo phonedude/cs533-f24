@@ -1,0 +1,15 @@
+URL: http://support.google.com
+Final URL: https://support.google.com/
+Status Code: 404
+
+Headers:
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info.", CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Fri, 01 Nov 2024 23:28:28 GMT
+Server: support-content-ui
+Content-Length: 1561
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: NID=518=h-S2GUCUUYfaWvlKWhczx0NbBXSfUWB75607F5L1Pfbg6lUkuzjtU-fsAOuOf9XeJ7qNffmPJ3fxapGENF4PWxNgPpLCWDRiREOzVN4_cC9ONLkdTM_yre2SuuywWyO8CbDr5QL7CXaEFpEYOZz0J-Mjutc0ryhJ49uFKKdDizYZDV_Hgrw; expires=Sat, 03-May-2025 23:28:28 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none, NID=518=h-S2GUCUUYfaWvlKWhczx0NbBXSfUWB75607F5L1Pfbg6lUkuzjtU-fsAOuOf9XeJ7qNffmPJ3fxapGENF4PWxNgPpLCWDRiREOzVN4_cC9ONLkdTM_yre2SuuywWyO8CbDr5QL7CXaEFpEYOZz0J-Mjutc0ryhJ49uFKKdDizYZDV_Hgrw; expires=Sat, 03-May-2025 23:28:28 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

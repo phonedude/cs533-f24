@@ -1,0 +1,23 @@
+URL: http://theverge.com
+Final URL: https://www.theverge.com/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 130627
+Content-Type: text/html; charset=utf-8
+content-security-policy: frame-ancestors https://voxmedia.stories.usechorus.com 'self'
+etag: "11xzrg2y8ryjc8l"
+content-encoding: gzip
+Accept-Ranges: bytes
+Date: Fri, 01 Nov 2024 23:28:28 GMT
+Via: 1.1 varnish
+Age: 1077
+X-Served-By: cache-iad-kiad7000094-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1730503709.730456,VS0,VE4
+Vary: Accept-Encoding, X-Vox-Duet-Beta-Cookie, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region
+Set-Cookie: vmidv1=e2b38726-7bb2-4ddd-85e5-99027f6422aa;Expires=Wed, 31 Oct 2029 23:28:28 GMT;Domain=theverge.com;Path=/;SameSite=Lax;Secure
+Cache-Control: no-store,private
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

@@ -1,0 +1,19 @@
+URL: http://godaddy.com
+Final URL: https://www.godaddy.com/
+Status Code: 403
+
+Headers:
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 369
+Expires: Fri, 01 Nov 2024 23:27:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 01 Nov 2024 23:27:39 GMT
+Connection: close
+Set-Cookie: market=en-US; expires=Sat, 01-Nov-2025 23:27:39 GMT; path=/; domain=.godaddy.com, currency=USD; expires=Sat, 01-Nov-2025 23:27:39 GMT; path=/; domain=.godaddy.com, akaas_godaddy-com-wildcard=2147483647~rv=49~id=4d4c58af7546f8c36cf48ea6f572d07f~rn=; path=/; Secure; SameSite=None
+X-Frame-Options: DENY
+X-ORIGIN-TAG: frontdoor
+X-ARC: 2, 6a
+Server-Timing: ak_p; desc="1730503659153_389979077_338036810_20_17278_23_42_-";dur=1

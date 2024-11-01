@@ -1,0 +1,24 @@
+URL: http://britannica.com
+Final URL: https://www.britannica.com:443/
+Status Code: 200
+
+Headers:
+Date: Fri, 01 Nov 2024 23:27:08 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+vary: Accept-Encoding,User-Agent
+x-tserver: ip-10-145-21-19/127.0.1.1
+Set-Cookie: bcomID=5901910727143211013; Max-Age=315360000; Expires=Mon, 30 Oct 2034 23:27:08 GMT; Domain=britannica.com; Path=/, SessionAuth=vQocCUuH5QBOHcXJqs7N9HjTyJ/iJ3slRjzPmgGYTR6gliVPS/L9l0hyn5m3i7ZHoHjIAq4tTl8GIYdV93+5RQ==; Domain=britannica.com; Path=/, subreturn=https%3A%2F%2Fwww.britannica.com%2F; Domain=britannica.com; Path=/, webstats=referer_page=https%3A%2F%2Fwww.britannica.com%2F; Domain=britannica.com; Path=/, __mendel=%7B%27surveyShown%27%3Afalse%2C%27visitedTopicId%27%3A0%2C%27currentDate%27%3A20241101%7D; Domain=britannica.com; Path=/, __cf_bm=vM246OQgHIpTBa69yk5S2qdVVtPnslNTSV9cs_fBzZs-1730503628-1.0.1.1-1fBmWBp08pUDSGNrKk5ov.asASEhMP3_jkzYGrIAoBUQZaOmQnjO2utzCh.C_DUeQKLnYW69xAlSFZ3Qr.Iepg; path=/; expires=Fri, 01-Nov-24 23:57:08 GMT; domain=.britannica.com; HttpOnly; Secure; SameSite=None
+content-language: en-US
+x-wserver: 127.0.0.1
+x-iset: blue
+x-xss-protection: 1; mode=block
+x-permitted-cross-domain-policies: master-only
+expect-ct: max-age=604800
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=A2f16zWiRdIfFh6JmRQ57vlVCRlybUToVJHufSEcO0iNW60kOoxWmx%2FR8HFQNXM%2BQSEM%2BNg3juiP5Ct5eD9TuueInH9UU6Lf04mBhqXg1VOca21gNuxvQzT8z6Wbl4AP7fQa7w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8dbfa75dff9b9292-ORF
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400

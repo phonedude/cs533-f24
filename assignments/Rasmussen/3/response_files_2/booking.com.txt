@@ -1,0 +1,23 @@
+URL: http://booking.com
+Final URL: https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaLICiAEBmAEJuAEXyAEM2AEB6AEBiAIBqAIDuALLx5W5BsACAdICJDkxYTc2NDFiLTZmM2QtNDE2NC1iOWE3LWZkZGU5ZGQ3YjliM9gCBeACAQ&sid=f52c6fe86654e2617bb23a1bfd3635ae&keep_landing=1&sb_price_type=total&
+Status Code: 200
+
+Headers:
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+server: nginx
+date: Fri, 01 Nov 2024 23:27:08 GMT
+cache-control: private
+vary: User-Agent, Accept-Encoding
+content-encoding: gzip
+nel: {"report_to":"default","max_age":604800}
+report-to: {"group":"default","endpoints":[{"url":"https://nellie.booking.com/report"}],"max_age":604800}
+set-cookie: _implmdnbl=2__1__0; path=/; expires=Sun, 03-Nov-2019 23:27:07 GMT; HttpOnly, px_init=0; domain=booking.com; expires=Thu, 02-Nov-2079 22:54:14 GMT; SameSite=Strict; secure; HttpOnly, bkng=11UmFuZG9tSVYkc2RlIyh9Yaa29%2F3xUOLbXpFeYC4TUhCfCZodCo2pbuf8d9P7%2FEXXKNy1ml6J4sp7Zr7thnfoH6FTfEnfyqdPRiRNJ2Usjgk8U8FGcQB0bELhTdhr4U%2FWGnMDxERTTWxpU8jpKqW6Uwb2n9lJFjiqd22UXha7UglVStNvE3B1WDwsLCvTiIQt; domain=.booking.com; path=/; expires=Wed, 31-Oct-2029 23:27:07 GMT; Secure; HTTPOnly; SameSite=None, pcm_personalization_disabled=0; domain=booking.com; path=/; expires=Wed, 30-Apr-2025 23:27:07 GMT; Secure; HTTPOnly
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-recruiting: Like HTTP headers? Come write ours: https://careers.booking.com
+x-xss-protection: 1; mode=block
+X-Cache: Miss from cloudfront
+Via: 1.1 be186fed299dda1ccfe93db37fe3b3fa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD12-P1
+X-Amz-Cf-Id: wtAQIc5S2N_fXvTIyLPlM6mKvoP50bAfdiW_xks7dmzkj7G9RKKOcw==

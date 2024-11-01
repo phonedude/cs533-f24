@@ -1,0 +1,19 @@
+URL: http://arxiv.org
+Final URL: http://arxiv.org/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 44362
+content-type: text/html; charset=utf-8
+content-security-policy: frame-ancestors 'none'
+x-frame-options: SAMEORIGIN
+x-cloud-trace-context: 774c0982665e185d86f709e52d8e8c90
+server: Google Frontend
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Fri, 01 Nov 2024 23:27:06 GMT
+Age: 79
+X-Served-By: cache-lga21981-LGA, cache-iad-kjyo7100139-IAD
+X-Cache: HIT, HIT
+X-Timer: S1730503626.022219,VS0,VE0

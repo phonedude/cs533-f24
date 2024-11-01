@@ -1,0 +1,23 @@
+URL: http://aliexpress.com
+Final URL: https://www.aliexpress.us/?gatewayAdapt=glo2usa&_randl_shipto=US
+Status Code: 200
+
+Headers:
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding
+P3P: CP="CAO PSA OUR"
+X-Application-Context: ae-fn-gateway-f:7001
+Content-Encoding: gzip
+Access-Control-Allow-Origin: https://hz.aliexpress.com
+Server: Tengine/Aserver
+EagleEye-TraceId: 2141115b17305036244282449eac9a
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Date: Fri, 01 Nov 2024 23:27:05 GMT
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: ali_apache_id=33.65.17.91.1730503624433.164741.4; path=/; domain=.aliexpress.com; expires=Wed, 30-Nov-2084 01:01:01 GMT, intl_common_forever=PXHUCLjBqR8O8e876OcrJFpuerGgpghbYWQydllJJ+HnGXujg4OYSQ==; Domain=.aliexpress.us; Expires=Thu, 20-Nov-2092 02:41:11 GMT; Path=/; HttpOnly, intl_locale=en_US; Domain=.aliexpress.us; Path=/, xman_us_f=x_locale=en_US&x_l=1&x_c_chg=1; Domain=.aliexpress.us; Expires=Thu, 20-Nov-2092 02:41:11 GMT; Path=/; Secure; SameSite=None, xman_f=/TeMDnWiq4PMEjsGmlIAF+iwoxhzguu80QxVHPpu6VNyKERnWWLb0w1ZNSIKa3xA; Domain=.aliexpress.us; Expires=Thu, 20-Nov-2092 02:41:11 GMT; Path=/; Secure; SameSite=None; HttpOnly, acs_usuc_t=x_csrf=zoufwhrqcy2d&acs_rt=39f40f0dea1b45339112de3d216284e5; Domain=.aliexpress.us; Path=/; Secure; SameSite=None, xman_t=JICOKubcomqS0ZsPXo3/3Sang4b+CJbRx6OVVYMxb+TWnpg6l2DTS+K02wIN/HbM; Domain=.aliexpress.us; Expires=Thu, 30-Jan-2025 23:27:04 GMT; Path=/; Secure; SameSite=None; HttpOnly, aep_usuc_f=site=usa&c_tp=USD&region=US&b_locale=en_US; Domain=.aliexpress.us; Expires=Thu, 20-Nov-2092 02:41:11 GMT; Path=/; Secure; SameSite=None
+X-Akamai-Fwd-Auth-SHA: 61F74896E633A07533DBC301D17182D79F291A8249BC8BD390762EBD322043BD
+X-Akamai-Fwd-Auth-Data: 852514616, 23.48.200.107, 1730503625, 98.183.222.96
+X-Akamai-Fwd-Auth-Sign: SUFKg1c5CukRsd3DVXBS1S5CyF8zl5tURKQ80r9L1DbT7goHIOXPhDzvSIrID3qiKNdaMByXJIS5i0R3IHCIfOjr1sap0ium8cakVu7fM6Q=
+Server-Timing: ak_p; desc="1730503624293_389073003_16582708_80809_5342_22_28_-";dur=1

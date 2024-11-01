@@ -1,0 +1,22 @@
+URL: http://bloomberg.com
+Final URL: https://www.bloomberg.com/tosv2.html?vid=&uuid=cf1d70d9-98a8-11ef-83b4-6f76db9928ec&url=Lw==
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Server: openresty
+Last-Modified: Thu, 31 Oct 2024 15:16:53 GMT
+ETag: W/"67239f65-2dca"
+Cache-Control: public, max-age=5, private, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Fri, 01 Nov 2024 23:27:06 GMT
+X-Served-By: cache-iad-kiad7000030-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1730503627.970782,VS0,VE14
+Strict-Transport-Security: max-age=31557600
+Link: <https://assets.bwbx.io>; rel=preconnect; crossorigin, <https://assets.bwbx.io>; rel=preconnect, <https://sourcepointcmp.bloomberg.com>; rel=preconnect; crossorigin, <https://tpc.googlesyndication.com	>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect; crossorigin
+Vary: Accept-Encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

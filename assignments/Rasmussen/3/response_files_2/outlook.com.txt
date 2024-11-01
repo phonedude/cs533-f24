@@ -1,0 +1,30 @@
+URL: http://outlook.com
+Final URL: https://outlook.live.com/owa/
+Status Code: 440
+
+Headers:
+Content-Length: 154
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+request-id: a7086797-783f-e676-e462-25870a187b45
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-CalculatedBETarget: IA2PR13MB6587.namprd13.prod.outlook.com
+X-BackEndHttpStatus: 440
+Set-Cookie: RoutingKeyCookie=; expires=Tue, 01-Nov-1994 23:28:15 GMT; path=/;SameSite=None; secure; HttpOnly, HostSwitchPrg=; expires=Tue, 01-Nov-1994 23:28:15 GMT; path=/;SameSite=None; secure; HttpOnly, OptInPrg=; expires=Tue, 01-Nov-1994 23:28:15 GMT; path=/;SameSite=None; secure; HttpOnly
+X-OWA-DiagnosticsInfo: 6;0;0;
+X-BackEnd-Begin: 2024-11-01T23:28:15.527
+X-BackEnd-End: 2024-11-01T23:28:15.543
+X-DiagInfo: IA2PR13MB6587
+X-BEServer: IA2PR13MB6587
+X-UA-Compatible: IE=EmulateIE7
+X-ResponseOrigin: OwaAppPool
+X-Proxy-RoutingCorrectness: 1
+Report-To: {"group":"NelOfficeUpload1","max_age":7200,"endpoints":[{"url":"https://exo.nel.measure.office.net/api/report?TenantId=&FrontEnd=Cafe&DestinationEndpoint=LYH&RemoteIP=2600:8805:1729::&Environment=MT"}],"include_subdomains":true}
+NEL: {"report_to":"NelOfficeUpload1","max_age":7200,"include_subdomains":true,"failure_fraction":1.0,"success_fraction":0.01}
+Alt-Svc: h3=":443";ma=2592000,h3-29=":443";ma=2592000
+X-Proxy-BackendServerStatus: 440
+X-FirstHopCafeEFZ: LYH
+X-FEProxyInfo: BN1PR13CA0003.NAMPRD13.PROD.OUTLOOK.COM
+X-FEEFZInfo: LYH
+X-FEServer: BN1PR13CA0003
+Date: Fri, 01 Nov 2024 23:28:14 GMT

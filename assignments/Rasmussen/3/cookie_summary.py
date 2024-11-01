@@ -98,13 +98,13 @@ def parse_set_cookie_headers(set_cookie_headers, default_domain):
 
 def get_cookies(url):
     """
-    Fetch cookies and HTTP response details from a given URL.
+    Fetch headers and response details from a given URL using the HEAD method.
 
     Parameters:
-    - url (str): The URL to fetch cookies from.
+    - url (str): The URL to fetch headers from.
 
     Returns:
-    - dict: A dict containing the URL, final URL after redirects, status code, cookies, and response details.
+    - dict: A dict containing the URL, final URL after redirects, status code, and response headers.
     """
     if not url.startswith(('http://', 'https://')):
         url = 'http://' + url
@@ -117,49 +117,24 @@ def get_cookies(url):
                 'Chrome/91.0.4472.124 Safari/537.36'
             )
         }
-        response = requests.get(
+        # Use HEAD method to get headers without fetching content
+        response = requests.head(
             url, allow_redirects=True, headers=headers, timeout=10
         )
         final_url = response.url
         status_code = response.status_code
 
-        # Get the default domain from the final URL
-        parsed_url = urlparse(final_url)
-        default_domain = parsed_url.hostname
-
-        # Parse 'Set-Cookie' headers
-        raw_cookies = []
-        try:
-            # Access the raw HTTP response
-            raw_headers = response.raw._original_response.msg
-            raw_cookies = raw_headers.get_all('Set-Cookie')
-            if raw_cookies is None:
-                raw_cookies = []
-        except AttributeError:
-            logging.warning(
-                f"Could not access raw 'Set-Cookie' headers for {url}"
-            )
-            # Fallback to response.headers (NOTE: may not get all cookies)
-            set_cookie = response.headers.get('Set-Cookie')
-            if set_cookie:
-                raw_cookies = [set_cookie]
-            else:
-                raw_cookies = []
-
-        cookie_data = parse_set_cookie_headers(raw_cookies, default_domain)
-
-        # Capture the response details
+        # Capture the response headers
         response_details = {
-            'status_code': response.status_code,
+            'status_code': status_code,
             'headers': dict(response.headers),
-            'content_snippet': response.text[:500],  # Truncate content to first 500 characters
         }
 
         return {
             'url': url,
             'final_url': final_url,
             'status_code': status_code,
-            'cookies': cookie_data,
+            'cookies': [],  # No cookies are parsed here, we only fetch headers
             'response_details': response_details,
         }
 
@@ -173,30 +148,23 @@ def get_cookies(url):
             'response_details': {
                 'status_code': None,
                 'headers': {},
-                'content_snippet': '',
                 'error': str(e),
             },
         }
 
 
+
 def get_cookie_stats(all_cookie_data):
     """
     Compile statistics from the collected cookie data and generate Markdown content.
-
-    Parameters:
-    - all_cookie_data (list): A list of dictionaries containing cookie data for each URL.
-
-    Returns:
-    - str: A string containing the Markdown-formatted report.
+    Saves raw headers to individual files.
     """
-    # Create response_files directory if it doesn't exist
-    os.makedirs('response_files', exist_ok=True)
+    os.makedirs('response_files_2', exist_ok=True)
     
-    # Save response details to individual files
     for site in all_cookie_data:
         url_parsed = urlparse(site['url'])
-        hostname = url_parsed.netloc.replace(':', '_')  # Replace colons for Windows compatibility
-        filename = f"response_files/{hostname}.txt"
+        hostname = url_parsed.netloc.replace(':', '_')  # Windows compatibility
+        filename = f"response_files_2/{hostname}.txt"
         
         with open(filename, 'w', encoding='utf-8') as f:
             response_details = site.get('response_details', {})
@@ -207,8 +175,6 @@ def get_cookie_stats(all_cookie_data):
             headers = response_details.get('headers', {})
             for header_name, header_value in headers.items():
                 f.write(f"{header_name}: {header_value}\n")
-            f.write("\nContent Snippet (first 500 characters):\n")
-            f.write(response_details.get('content_snippet', ''))
 
     # Initialize counters
     total_cookies = 0
@@ -273,7 +239,9 @@ generates a Markdown report that includes HTTP response details.
 |__ README.md -- the markdown file that you are reading; this is this assignment's final report
 |__ cookie_summary.py -- a Python script that reads a list of URLs and helps us produce the final report
 |__ output.txt -- the cookie_summary.py script run log (Note that there were two ERRORs)
-|__ response_files/ -- directory containing detailed HTTP responses for each site
+|__ output_2.txt -- the cookie_summary.py script run log for getting response_files_2
+|__ response_files -- directory containing detailed HTTP responses for each site
+|__ response_files_2 -- the directory containing raw HTTP response headers for each site
 ```
 
 ## Extra Credit
