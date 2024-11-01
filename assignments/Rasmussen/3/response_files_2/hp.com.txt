@@ -1,5 +1,5 @@
 URL: http://hp.com
-Final URL: https://www.hp.com/
+Final URL: https://www.hp.com/us-en/home.html
 Status Code: 503
 
 Headers:
@@ -7,10 +7,10 @@ Server: AkamaiGHost
 Mime-Version: 1.0
 Content-Type: text/html
 Content-Length: 280
-Expires: Fri, 01 Nov 2024 23:27:46 GMT
-Date: Fri, 01 Nov 2024 23:27:46 GMT
+Expires: Fri, 01 Nov 2024 23:36:16 GMT
+Date: Fri, 01 Nov 2024 23:36:16 GMT
 Connection: keep-alive
-Set-Cookie: aka_client_code=US-, _abck=99ECD81552DE03FD72EF2C58000BCF92~-1~YAAQUd/aF31qfumSAQAAgWkO6gyGxr0vzddw7exZEzruUZYb/qSIOWrN42NgpLQ6fYXbRcn++m/LaklCtKhyl60ozvPSHZalE57TYAU3YSmt7IoJIM7S+fTKHwsP2ytR6IasXUAJlth1vC331DvBfRYoOfPqtfDK6h8MJZh7rhRNimL2K+wz/lKdHlnB48nwwQnqZw6i6aMiGOiPR3XHnCyJNiJEUCjet6QfewP8dfNvHT8fiYn/lrWKVH4iPdzjXffL1zowOi7iq8g3zlTX2dj4scrYxgh56a5q6qai9Q24nJZ3Isvd+iWW8Hyfd/fOVWvbOzz7Etgp4dMORanlNyjuxi3rq+dAYPlvPbNBsQJ0t1xaSVVaV9t8bPkPLZnqw7Mktrk2fJai5q7rJUK1CTPXKlSelznhiQ==~-1~-1~-1; Domain=.hp.com; Path=/; Expires=Sat, 01 Nov 2025 23:27:46 GMT; Max-Age=31536000; Secure, bm_sz=327912FED616DD0558ED06B85CF2BCE3~YAAQUd/aF35qfumSAQAAgWkO6hlccwirpP4tiskY9pdcoPkUmC6v9av1ERJKHtdwXBl6g3b9Coz18s9B0vhr0EGAehh0/DUKQ7/aa9hWl0/33Ta4QJ8+GOpLJFZ4/GPLFVsx+EZiBFDkBfRjwHafLNHmvMNEPdKHMB03PWgfvX3i4xDVeeLNAAr8DN5AUQ60w+3o8S0jtrOlF2b8Qm7KCEcbaLuR8k9IP4yZHKBUKmjAK5JYcD6kyw+xWqw3W0xCSRIC1O4/UKOndbpfagPXMg1aLG+Q/PdvvJdtFhXV+wFxnUAHw+sxnP6TyLnOqTJEd+/LttW5ACqx7Q5NZ9mQyHk1gjH6LFnLfn4ZPxR11HEc4gsG2A4Zf+kAXHIO0VHyylb2Bw==~4405571~3683634; Domain=.hp.com; Path=/; Expires=Sat, 02 Nov 2024 03:27:46 GMT; Max-Age=14400
+Set-Cookie: aka_client_code=US-, _abck=8224E4211638F5E19DA3A32163B34415~-1~YAAQUd/aFxGcf+mSAQAAkDEW6gxFz8Xg5ZBpdG5oi+6rFep/5dOVmn5HukoDhFgMc8++e6J59njhgK5iaosIin4a1deMpa71UK7L5yxSrU8exFLd99BeXoyrXiz6mQQQbTMRaP4SREt78WdZfYScdfuTLuoftC2JMHTqr8+jWnsZJHaNSp0mJe74VV25Yp02U7VdG1Y+HkyRg3NHKvTlGZaklnPWp63J1LRdCuYEd4IrcSUD4SghSdWg6KZuukbJSBOc17Cato7Tqcl16ewhrGxjFBN+C6vC5BPI8we1SeOS5hQM42fDWBc3O3fdZM4nmRiN3otCtDiCZ75uNbHaC03tf5A2q1voF3RbIP8hVmCxTRmznjh0gfL3CKM3PCMzffRYgFDzykx77j6VLTD6qBTM5QXXIC7S+A==~-1~-1~-1; Domain=.hp.com; Path=/; Expires=Sat, 01 Nov 2025 23:36:16 GMT; Max-Age=31536000; Secure, bm_sz=5DACC0673AD5100172F533D679903376~YAAQUd/aFxKcf+mSAQAAkDEW6hkG9hbXflXUMPan7ljSD7hgQxwwrjxFvpppohCxeQbRW6sDtXJ99XjKjZHc5zrc9ujI5XKtCcqgR692wIWJLUO54CJCJoA4UVCTCihx3bvlxkJhHqSY5Ra2rGDT/lNvpLrSTSIOE6Bk8pkgGrnv0vH6VTd18GohuxQR/0Co7dGmch6BeArWichlVKbvm1uK8azKpcaJm/FGtU9kSWbEuyEDojbqBQL9SsLgwgiiGGoKyBTRItx7tJYCmGGXZ74uDqI81MIWW8v+svvBLV7gicKbbg8FFWSdbZWh20CTL6H8VPxF6fCSSqTKwAPt/oQ87yM6JJr+yOgKRatr1IfanI25s+7pFMaqy0OtXY0Y532UeQ==~3425841~3687219; Domain=.hp.com; Path=/; Expires=Sat, 02 Nov 2024 03:36:16 GMT; Max-Age=14400
 Strict-Transport-Security: max-age=600
-Akamai-GRN: 0.51dfda17.1730503666.1bea8ba
-Server-Timing: ak_p; desc="1730503665993_400219985_29272250_43_14667_17_40_-";dur=1
+Akamai-GRN: 0.51dfda17.1730504176.1d5b871
+Server-Timing: ak_p; desc="1730504175977_400219985_30783601_30_10191_18_22_-";dur=1

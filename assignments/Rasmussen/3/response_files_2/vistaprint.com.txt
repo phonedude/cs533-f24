@@ -3,22 +3,22 @@ Final URL: https://www.vistaprint.com/
 Status Code: 200
 
 Headers:
-Date: Fri, 01 Nov 2024 23:28:50 GMT
+Date: Fri, 01 Nov 2024 23:38:30 GMT
 Content-Type: text/html
 Connection: keep-alive
-CF-Ray: 8dbfa9d7fd7a505b-ORF
+CF-Ray: 8dbfb803ef884fdb-ORF
 CF-Cache-Status: DYNAMIC
-Age: 62
+Age: 42
 Cache-Control: no-cache, private, max-age=0
 Expires: Thu, 01 Jan 1970 00:00:00 UTC
-Set-Cookie: userContext={%22ctc%22:{%22v1%22:[%22login_prompt_not_logged_in_customers%22%2C%22no_account%22%2C%22design_services_hub_inspiration%22%2C%22es_payment_before_brief_test%22%2C%22es__multi_step_brief%22%2C%22site_tagging_new_customer%22%2C%22new_user_registered_nonregistered%22%2C%22new_customer_fr_de_nl%22]}%2C%22userProfile%22:{%22v1%22:{%22culture%22:%22en-US%22}}}; path=/; domain=.vistaprint.com; expires=Sat, 02 Nov 2024 11:28:49 GMT, ucSearchParams=%7B%7D; path=/; domain=.vistaprint.com; expires=Sun, 01 Dec 2024 23:28:49 GMT, testUserId=_2ea486c2-e7c9-4dc3-a1f4-58831744534c; path=/; domain=.vistaprint.com; Max-Age=15552000, optimizelyEndUserId=_2ea486c2-e7c9-4dc3-a1f4-58831744534c; path=/; domain=.vistaprint.com; Max-Age=15552000, expCtx=; path=/; domain=.vistaprint.com; Max-Age=0, cf-ipcountry=US; Secure; Path=/; SameSite=None
+Set-Cookie: userContext={%22ctc%22:{%22v1%22:[%22login_prompt_not_logged_in_customers%22%2C%22no_account%22%2C%22design_services_hub_inspiration%22%2C%22es_payment_before_brief_test%22%2C%22es__multi_step_brief%22%2C%22site_tagging_new_customer%22%2C%22new_user_registered_nonregistered%22%2C%22new_customer_fr_de_nl%22]}%2C%22userProfile%22:{%22v1%22:{%22culture%22:%22en-US%22}}}; path=/; domain=.vistaprint.com; expires=Sat, 02 Nov 2024 11:38:30 GMT, ucSearchParams=%7B%7D; path=/; domain=.vistaprint.com; expires=Sun, 01 Dec 2024 23:38:30 GMT, testUserId=_46e1dbd3-c5e6-4c0e-ab6f-282a16b5a74f; path=/; domain=.vistaprint.com; Max-Age=15552000, optimizelyEndUserId=_46e1dbd3-c5e6-4c0e-ab6f-282a16b5a74f; path=/; domain=.vistaprint.com; Max-Age=15552000, expCtx=; path=/; domain=.vistaprint.com; Max-Age=0, cf-ipcountry=US; Secure; Path=/; SameSite=None
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-Via: 1.1 04a0a4cf57430a076340ee3dd92076b2.cloudfront.net (CloudFront)
+Via: 1.1 1389e3bf8be1906daa8019802b0774c8.cloudfront.net (CloudFront)
 Pragma: no-cache
 alt-svc: h3=":443"; ma=86400
 vp-ingress-route: Default
-x-amz-cf-id: z1Q68lTew8K4VeJHidFf07JpV3SuqjQKnkMLEjzXVGRZ28wgYpjAoA==
+x-amz-cf-id: q4uAYMK3_8TdH5dFlX81R5qfhEDjHN2WqPnmbd3Sz9ODvo1h96kzSw==
 x-amz-cf-pop: IAD89-P4
 x-amz-expiration: expiry-date="Sat, 09 Nov 2024 00:00:00 GMT", rule-id="NTFiMjNkZmYtN2ZlNS00OWQzLWI3MjYtZTFjOGZkNmE0NjVk"
 x-amz-meta-exclusive-hint: /page-data/en-us/slim_banner_on_homepage/test/camp/usnov1to3dealspage/page-data-83477d5a-2315-4625-8908-3055c39f1762.json

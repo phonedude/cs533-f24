@@ -13,14 +13,14 @@ x-ms-version: 2018-03-28
 Vary: Accept-Encoding
 Content-Encoding: gzip
 Cache-Control: max-age=900
-Expires: Fri, 01 Nov 2024 23:42:46 GMT
-Date: Fri, 01 Nov 2024 23:27:46 GMT
+Expires: Fri, 01 Nov 2024 23:51:17 GMT
+Date: Fri, 01 Nov 2024 23:36:17 GMT
 Content-Length: 14229
 Connection: keep-alive
 X-Frame-Options: SAMEORIGIN
 X-Content-Type-Options: nosniff
 Strict-Transport-Security: max-age=31536000
 Akamai-Cache-Status: Hit from child
-Akamai-GRN: 0.c79b3e17.1730503666.4844d715
+Akamai-GRN: 0.c99b3e17.1730504177.614dfbe
 Server: IKEA Server
-Set-Cookie: _abck=3ABE652AC6D779C7198B532559097FE2~-1~YAAQx5s+Fzpfes2SAQAA7WsO6gxx2V6CkufgxZiAKTbtzlECti4W4FRad3ZG3AF1Ly659NH5adrpp5Dpbw4hBR8QAEr7XWoVvBkCYzLFWQJzNvBzEQRgIMyMwRkmF/VIOGjT/+RjZ/44vX21bQ/5822cj2qTb+2syWJiPEvO/cxx27MsShXsvfNoI3npro4Zrdap4dF0VRslhTFOIzNFkiHL2AGjgCzhRHA0CdY+Dm/GXR6YGzdqZgyy+5UrzDMgSYI5LAo2/s8Jo9v1XjusYJ1c8b957vuqN9bpInOrXOZbZtjifWZ/2Q0Xul1IrOxGuWsf7tG/CIGk4LNaMvOux3R/HX5YMFZdgYitCsK/TOv2A+CSOiSC77P5mskC2TkdZ32aDVsBcItooZ0UOVXFlpnqNC1Ag8JB6xQi~-1~-1~-1; Domain=.ikea.com; Path=/; Expires=Sat, 01 Nov 2025 23:27:46 GMT; Max-Age=31536000; Secure, bm_sz=B65F3BBE188A9D05C88260869BF5F62F~YAAQx5s+Fztfes2SAQAA7WsO6hk7MlY18mPfehiCEvanXiHnEK0Wbn+fPNdJ5zYVVMU175L9Mxjb1LdNrJcTGPAxeRGaPKOsd8y/0OxUikhYUnVyZPM44cRk9Fo3RRdV+QOiO1BOqihPS9No+4p54b6K1RNMexvIQyv1Gb1RBYIRcGrKW/Hrw4JUX1Rum/z/o+IiOP6Xi0E2+2vcUj3itfIQeSaD7GMSPwzbtNbgLeP5noItxvtia0jzaLJzVk9Hg6ni+IhlzjLaNFUxXgt2aVoiUZTmlbYCwA3B2OsB5P7gFY31MS0DxkrKVl/gfabRGj/TQ0ShL6R/KAvxfgIgrGVVZYMCSepInM6YmdTaf3o2Wor1JTONaicUzZlPuZ7JdE+RWjI1~4604739~3421492; Domain=.ikea.com; Path=/; Expires=Sat, 02 Nov 2024 03:27:46 GMT; Max-Age=14400
+Set-Cookie: _abck=AA32575F787D2F4E5332D8DA8BB0AAE0~-1~YAAQyZs+F8/yA+iSAQAAjjgW6gz5Dd9crqN/6S0iE2vUed0xQnGyAS9pYcoYi1XzvACyQdwAOwvI4BdDkpcrzD0fla5boRZAElOF5yo+PykxMxRXcWRXkfhTln+nCfnBaYRMshe06VU4Zj+NYBzujOZ+tfyXyneM57Z4+MvW9Ze8eoTh0omtT+yGxhVVLqghGqyt600GE2FKRz+sGSk2GgMVQMu6TyKj/50dRJbPj/gG9oUQ36VodCB47xgzp/Zz6nfcPW1UW9jsp7CWazphMmZljwMyXRlMcy2bAJCT+no3odLQuWxIgoGFdWevQtG2sVBSAlk1UA9u5O7Zzk4JUpkfp8J+7zQ2/BfgitOuhOFUXFfPWJnAAopkti281lSiQYr6JovdiXRzjKR86oyhopukJRSsfq27ga4n~-1~-1~-1; Domain=.ikea.com; Path=/; Expires=Sat, 01 Nov 2025 23:36:17 GMT; Max-Age=31536000; Secure, bm_sz=E413F7682093545AF3D2F35865C7E49E~YAAQyZs+F9DyA+iSAQAAjjgW6hmUSMHweT0AbzTTYc2hqnS8b+n9tAAkD0VdwgsISAyAKhnO9rrMNDDLL3Dbv69UsHj3oJ0fXVhV5HrTl6pwsI9043j8mD8xRqVoWmywWbW3stYpo+ulo0nHkvoknReHYXfjLwZMFIQ8zeyuESpMnBsj53BHbl1fvdd1BXDyunrhzyw7Oc/SjrNEvzuhRveLSO//t8YU8TWq/Hm2S9ne9DBPqTBkqHpczclVk6hWtmXQp+bMlC+jsnrr/TX/nNmn4lW7bCOOX8KzTlj2zGRd1nPGjyrYC83m4VlPMLC03/uQdETjxZsMxrZ7VmAl0D2aYsUE8BtsdEobQIJiJ6GKoJMM1lDREFh5gZ/3W0TN7Ndc8nz3mw==~4339505~3420724; Domain=.ikea.com; Path=/; Expires=Sat, 02 Nov 2024 03:36:17 GMT; Max-Age=14400

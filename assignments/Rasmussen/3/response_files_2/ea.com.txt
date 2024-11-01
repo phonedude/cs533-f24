@@ -4,12 +4,12 @@ Status Code: 200
 
 Headers:
 Content-Type: text/html; charset=UTF-8
-Last-Modified: Fri, 01 Nov 2024 23:10:47 UTC
+Last-Modified: Fri, 01 Nov 2024 23:27:09 UTC
 Content-Encoding: gzip
-Content-Length: 27504
-Cache-Control: max-age=12
-Expires: Fri, 01 Nov 2024 23:27:28 GMT
-Date: Fri, 01 Nov 2024 23:27:16 GMT
+Content-Length: 27493
+Cache-Control: max-age=475
+Expires: Fri, 01 Nov 2024 23:43:11 GMT
+Date: Fri, 01 Nov 2024 23:35:16 GMT
 Connection: keep-alive
 Set-Cookie: EDGESCAPE_COUNTRY=US; path=/, EDGESCAPE_REGION=VA; path=/, EDGESCAPE_TIMEZONE=EST; path=/
 Vary: Accept-Encoding

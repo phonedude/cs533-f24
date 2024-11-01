@@ -3,7 +3,7 @@ Final URL: https://www.gsmarena.com/
 Status Code: 429
 
 Headers:
-Date: Fri, 01 Nov 2024 23:27:43 GMT
+Date: Fri, 01 Nov 2024 23:36:10 GMT
 Server: Apache
 Upgrade: h2
 Connection: Upgrade, Keep-Alive

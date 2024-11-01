@@ -10,14 +10,15 @@ Content-Encoding: gzip
 x-amz-server-side-encryption: AES256
 x-amz-version-id: Q8Ao97TRzKC6J7OtCbtfGn0hWXe2nHoc
 Server: AmazonS3
-Date: Fri, 01 Nov 2024 23:27:49 GMT
+Date: Fri, 01 Nov 2024 23:36:30 GMT
 Cache-Control: public, max-age=60
 ETag: W/"55ebc441908c63a6d4b7887ecb377602"
 Vary: accept-encoding
-X-Cache: RefreshHit from cloudfront
-Via: 1.1 c57d1eb27f41d3e95fc5060845849c06.cloudfront.net (CloudFront)
+X-Cache: Hit from cloudfront
+Via: 1.1 165ed32c12154887fba331169c8022ee.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: itrrKoCB0xi1sdsAk1ib4c13FLX-dIvvNi7zbET4GYFOdCKcH-mqcA==
+X-Amz-Cf-Id: 486LBeQkMG9tmokSDsMEuDBcQXHXsMgfndojkFeVw-KNt2C4E9iJ6w==
+Age: 2
 X-XSS-Protection: 1; mode=block
 X-Frame-Options: SAMEORIGIN
 Referrer-Policy: same-origin

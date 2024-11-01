@@ -3,7 +3,7 @@ Final URL: https://www.cnil.fr/fr
 Status Code: 200
 
 Headers:
-Date: Fri, 01 Nov 2024 23:27:12 GMT
+Date: Fri, 01 Nov 2024 23:35:07 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: keep-alive
 Cache-Control: must-revalidate, no-cache, private
@@ -18,11 +18,11 @@ content-security-policy: default-src *.openstreetmap.org *.openlayers.org *.arcg
 strict-transport-security: max-age=63072000; includeSubdomains; preload
 referrer-policy: strict-origin-when-cross-origin
 x-xss-protection: 1; mode=block
-x-varnish: 255279637
+x-varnish: 21164985
 Age: 0
 via: 1.1 varnish (Varnish/6.5)
 cache-tags: MISS
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 8dbfa76d48034fe5-ORF
+CF-RAY: 8dbfb2f97e4a4fd2-ORF
 Content-Encoding: gzip

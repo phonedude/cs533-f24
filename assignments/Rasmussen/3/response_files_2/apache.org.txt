@@ -15,11 +15,11 @@ Content-Security-Policy: default-src 'self' data: 'unsafe-inline' https://www.ap
 Content-Type: text/html
 Via: 1.1 varnish, 1.1 varnish
 Accept-Ranges: bytes
-Date: Fri, 01 Nov 2024 23:27:05 GMT
-Age: 73
-X-Served-By: cache-hel1410034-HEL, cache-iad-kjyo7100137-IAD
+Date: Fri, 01 Nov 2024 23:34:55 GMT
+Age: 543
+X-Served-By: cache-hel1410034-HEL, cache-iad-kiad7000087-IAD
 X-Cache: HIT, HIT
 X-Cache-Hits: 2, 1
-X-Timer: S1730503626.788295,VS0,VE1
+X-Timer: S1730504095.202157,VS0,VE1
 Vary: Accept-Encoding
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

@@ -6,7 +6,7 @@ Headers:
 Content-Type: text/html
 Content-Length: 6951
 Connection: keep-alive
-Date: Fri, 01 Nov 2024 23:27:15 GMT
+Date: Fri, 01 Nov 2024 23:35:14 GMT
 Last-Modified: Tue, 17 Sep 2024 17:33:27 GMT
 ETag: "40ca3249393c605326f122c98984af8a"
 x-amz-server-side-encryption: AES256
@@ -15,6 +15,6 @@ Content-Encoding: gzip
 Accept-Ranges: bytes
 Server: AmazonS3
 X-Cache: Miss from cloudfront
-Via: 1.1 05f27386f4cfcb918eb11b3fea4d975e.cloudfront.net (CloudFront)
+Via: 1.1 6946167499a4b8f515865d62f0b0b284.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD61-P1
-X-Amz-Cf-Id: fkuR7S08tmqkvWbF-aizmW_YEz9_dYkh4RhOXmo1YwUbqT8BWE0CIA==
+X-Amz-Cf-Id: aqTuN65LGKkyII-flPI5ty93e8FkU2HlZZrY2uWXgbx74M8-IVu55w==

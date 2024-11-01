@@ -7,11 +7,11 @@ Accept-Ranges: bytes
 Vary: Accept-Encoding
 Content-Type: text/html
 Content-Length: 344518
-Content-Security-Policy: script-src  'nonce--FXCBbyDDkQ2RNPQ8Pm9aw' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/workspace-web-team; base-uri 'self'
+Content-Security-Policy: script-src  'nonce-z5wole5ZmCoA_a_tt4avLA' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/workspace-web-team; base-uri 'self'
 Cross-Origin-Resource-Policy: cross-origin
 Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="workspace-web-team"
 Report-To: {"group":"workspace-web-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/workspace-web-team"}]}
-Date: Fri, 01 Nov 2024 23:27:15 GMT
+Date: Fri, 01 Nov 2024 23:35:14 GMT
 Pragma: no-cache
 Expires: Fri, 01 Jan 1990 00:00:00 GMT
 Cache-Control: no-cache, must-revalidate

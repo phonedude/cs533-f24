@@ -9,14 +9,14 @@ Content-Type: text/html;charset=utf-8
 Server: Apache
 Strict-Transport-Security: max-age=63072000; includeSubdomains; preload;
 X-Content-Type-Options: nosniff
-X-Dispatcher: dispatcher1euwest2-b80
+X-Dispatcher: dispatcher3euwest2-b80
 X-Frame-Options: SAMEORIGIN
 X-Vhost: publish
 Content-Length: 68410
-Expires: Fri, 01 Nov 2024 23:28:20 GMT
+Expires: Fri, 01 Nov 2024 23:37:32 GMT
 Cache-Control: max-age=0, no-cache, no-store
 Pragma: no-cache
-Date: Fri, 01 Nov 2024 23:28:20 GMT
+Date: Fri, 01 Nov 2024 23:37:32 GMT
 Connection: keep-alive
 Vary: Accept-Encoding
-Set-Cookie: sbsd_o=7424234A3374C8B066A19C6C9A921BBF2083A0A0895628D511163F1DD386ADFE~sOosOl4IkDp+5YPS8Z3HYsVD1XhtmdEKFHoDfWJMxs5P8D2CEb8cbMPnuxgUGlDzaM04N8hJ5Q+Ev1yHLmiJMg7AGX45+1/d4PvuAhQyGiejYj/DtKh7F1rSMdJkEFZ68k8WAR4u/w1l7U+6FXo2N+ikBXXqzttejmOZbnSb8dsmQR+7pL39Jpf5kZ2oHDKbe8AEasJFguMk7vKSHM202vHjvzfBBrNk9KgjyIfWoryCvtmsKZ81n27QzvMVL6xtX; Secure; SameSite=None; Domain=.playstation.com; Path=/; Max-Age=86400, sbsd=soK/Ddi9uMpIhnub63ychWXYH4ouciXLUgrIEjJNPfwLr6s2kykmDXGTojdNQXwYXptbn0YN1VcPoQ1sXV/D6HM00M5i67+NtRn0pHcnZ2CNBwQCg0qO/drQBC0//CLpltFEjbqCLNtxDB0qITFtE95wt3rnI8NUR+/J6bcCDX9Jt5FQBybwoPPjxj5gJ+L7j; Secure; SameSite=None; Domain=.playstation.com; Path=/; HttpOnly; Max-Age=2678400
+Set-Cookie: sbsd_o=71842F13ABCC09ED42C5742327630634EE4DF61F6A61DF9477AB8BC6AC6FD15D~sDoJlTX7t0ZYA04PXe4smu8/JLOtvHrjXmELq/qMyRKY3Q/H3KO6oqxicVsDjmnkA8T1qKbKaNArGtg8w5bQnSUU+CfgOqA5UALVA/uushgoaHJWTSm4TQ5IxeVQuYqkFeDOvnynRvkD1g/VaUn43aSTXgySEOhZahts95e7WJEuARbSKT7F+Nn8q+fRjEAaUoTg/S9tjDFyMceiiytZqFLN5kLxVaf1LvOhelSp0DxYYBK1A/4vPmatsj7eIJxHi; Secure; SameSite=None; Domain=.playstation.com; Path=/; Max-Age=86400, sbsd=suKgeRyxmROit6CXwvCutbzz4G8UxrDOXafl+Zwb9UUmDqClnpnB3APht+JW7MfObwlkrMivwL3rYp2q77XF/EphyRVppEBQ4fZDZylDntJenY44OXqwnZlogNTQ4RGDPmXMku5cri4BVG0+Zafb0QE7IP51+5SyVdUSuq+qW9QbZEcUv/K84wOHsDoUcEDfn; Secure; SameSite=None; Domain=.playstation.com; Path=/; HttpOnly; Max-Age=2678400

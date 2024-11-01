@@ -31,7 +31,8 @@ INFO: Processing URL: http://forms.gle
 INFO: Processing URL: http://g.co
 INFO: Processing URL: http://get.google.com
 INFO: Processing URL: http://gfycat.com
-ERROR: Error processing http://gfycat.com: HTTPConnectionPool(host='gfycat.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101af36b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR: Error processing HEAD request for http://gfycat.com: HTTPConnectionPool(host='gfycat.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1062f7d40>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR: Error processing GET request for http://gfycat.com: HTTPConnectionPool(host='gfycat.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1062f4050>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
 INFO: Processing URL: http://globo.com
 INFO: Processing URL: http://godaddy.com
 INFO: Processing URL: http://gofundme.com
@@ -49,6 +50,7 @@ INFO: Processing URL: http://ikea.com
 INFO: Processing URL: http://imageshack.us
 INFO: Processing URL: http://independent.co.uk
 INFO: Processing URL: http://jhu.edu
+ERROR: Error processing GET request for http://jhu.edu: HTTPConnectionPool(host='jhu.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x106368d70>, 'Connection to jhu.edu timed out. (connect timeout=10)'))
 INFO: Processing URL: http://jstor.org
 INFO: Processing URL: http://justgiving.com
 INFO: Processing URL: http://latimes.com
@@ -97,7 +99,8 @@ INFO: Processing URL: http://www.wix.com
 INFO: Processing URL: http://www.yahoo.com
 INFO: Processing URL: http://yadi.sk
 INFO: Processing URL: http://ytimg.com
-ERROR: Error processing http://ytimg.com: HTTPConnectionPool(host='ytimg.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101af2a80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR: Error processing HEAD request for http://ytimg.com: HTTPConnectionPool(host='ytimg.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10620b020>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR: Error processing GET request for http://ytimg.com: HTTPConnectionPool(host='ytimg.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10620b020>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
 INFO: Processing URL: http://zendesk.com
 INFO: Processing URL: http://zippyshare.com
 INFO: Report generated and saved to 'README.md'.

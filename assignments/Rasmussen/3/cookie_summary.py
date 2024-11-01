@@ -98,59 +98,62 @@ def parse_set_cookie_headers(set_cookie_headers, default_domain):
 
 def get_cookies(url):
     """
-    Fetch headers and response details from a given URL using the HEAD method.
+    Fetch headers and cookies from a given URL using HEAD and GET methods.
 
     Parameters:
-    - url (str): The URL to fetch headers from.
+    - url (str): The URL to fetch headers and cookies from.
 
     Returns:
-    - dict: A dict containing the URL, final URL after redirects, status code, and response headers.
+    - dict: A dict containing the URL, final URL after redirects, status code, headers, and cookie data.
     """
     if not url.startswith(('http://', 'https://')):
         url = 'http://' + url
 
-    try:
-        headers = {
-            'User-Agent': (
-                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                'AppleWebKit/537.36 (KHTML, like Gecko) '
-                'Chrome/91.0.4472.124 Safari/537.36'
-            )
-        }
-        # Use HEAD method to get headers without fetching content
-        response = requests.head(
-            url, allow_redirects=True, headers=headers, timeout=10
+    headers = {
+        'User-Agent': (
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+            'AppleWebKit/537.36 (KHTML, like Gecko) '
+            'Chrome/91.0.4472.124 Safari/537.36'
         )
+    }
+
+    response_details = {'status_code': None, 'headers': {}}
+    cookie_data = []
+    final_url = url
+
+    # Step 1: Use HEAD request to get headers and avoid downloading content
+    try:
+        response = requests.head(url, allow_redirects=True, headers=headers, timeout=10)
         final_url = response.url
-        status_code = response.status_code
-
-        # Capture the response headers
-        response_details = {
-            'status_code': status_code,
-            'headers': dict(response.headers),
-        }
-
-        return {
-            'url': url,
-            'final_url': final_url,
-            'status_code': status_code,
-            'cookies': [],  # No cookies are parsed here, we only fetch headers
-            'response_details': response_details,
-        }
-
+        response_details['status_code'] = response.status_code
+        response_details['headers'] = dict(response.headers)
     except RequestException as e:
-        logging.error(f"Error processing {url}: {str(e)}")
-        return {
-            'url': url,
-            'final_url': None,
-            'status_code': None,
-            'cookies': [],
-            'response_details': {
-                'status_code': None,
-                'headers': {},
-                'error': str(e),
-            },
-        }
+        logging.error(f"Error processing HEAD request for {url}: {str(e)}")
+
+    # Step 2: Use GET request to collect cookies without downloading the full content
+    try:
+        response = requests.get(url, allow_redirects=True, headers=headers, timeout=10, stream=True)
+        final_url = response.url  # Update final URL in case of redirects
+        # Collect raw cookies from headers
+        default_domain = urlparse(final_url).hostname
+        raw_cookies = response.headers.get('Set-Cookie', None)
+        
+        if raw_cookies:
+            # Multiple cookies might be separated by commas
+            raw_cookies = raw_cookies.split(',')
+            cookie_data = parse_set_cookie_headers(raw_cookies, default_domain)
+    except RequestException as e:
+        logging.error(f"Error processing GET request for {url}: {str(e)}")
+
+    # Return both header and cookie data
+    return {
+        'url': url,
+        'final_url': final_url,
+        'status_code': response_details['status_code'],
+        'cookies': cookie_data,
+        'response_details': response_details,
+    }
+
 
 
 
