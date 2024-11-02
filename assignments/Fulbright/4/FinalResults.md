@@ -1,0 +1,107 @@
+| Root Domain | Framable | X-Frame-Option | Status |
+| :--- | :---: | :---: | :---: |
+aboutads.info | Failed to aquire | Failed to aquire |
+academia.edu | Failed to aquire | Failed to aquire |
+accounts.google.com | Failed to aquire | Failed to aquire |
+addthis.com | False | sameorigin |
+admin.ch | False | deny |
+adobe.com | Failed to aquire | Failed to aquire |
+ads.google.com | False | deny |
+adssettings.google.com | True |  |
+aliexpress.com | False | sameorigin |
+amazon.co.jp | True |  |
+amazon.com | Failed to aquire | Failed to aquire |
+amazonaws.com | True |  |
+amzn.to | Failed to aquire | Failed to aquire |
+android.com | Failed to aquire | Failed to aquire |
+archives.gov | Failed to aquire | Failed to aquire |
+bbc.com | True |  |
+berkeley.edu | True |  |
+biblegateway.com | True |  |
+bitly.com | False | deny |
+booking.com | False | sameorigin |
+bp.blogspot.com | True |  |
+buydomains.com | Failed to aquire | Failed to aquire |
+canada.ca | False | sameorigin |
+cbc.ca | Failed to aquire | Failed to aquire |
+cnil.fr | True |  |
+cpanel.com | Failed to aquire | Failed to aquire |
+creativecommons.org | False | sameorigin |
+estadao.com.br | False | sameorigin |
+files.wordpress.com | True |  |
+forms.gle | False | sameorigin |
+foursquare.com | False | sameorigin |
+fr.wikipedia.org | False | sameorigin |
+get.google.com | True |  |
+gettyimages.com | True |  |
+gmail.com | False | sameorigin |
+google.ca | Failed to aquire | Failed to aquire |
+google.ru | True |  |
+gooyaabitemplates.com | False | sameorigin |
+harvard.edu | True |  |
+hatena.ne.jp | True |  |
+hugedomains.com | False | sameorigin |
+ibm.com | False | sameorigin |
+insider.com | False | sameorigin |
+interia.pl | False | sameorigin |
+ja.wikipedia.org | False | sameorigin |
+java.com | False | sameorigin |
+jhu.edu | True |  |
+justice.gov | False | sameorigin |
+justjared.com | False | sameorigin |
+kakao.com | False | deny |
+kickstarter.com | False | sameorigin |
+last.fm | True |  |
+latimes.com | True |  |
+m.me | Failed to aquire | Failed to aquire |
+maps.google.com | False | sameorigin |
+metro.co.uk | Failed to aquire | Failed to aquire |
+microsoft.com | Failed to aquire | Failed to aquire |
+myaccount.google.com | Failed to aquire | Failed to aquire |
+myspace.com | False | sameorigin |
+mystrikingly.com | True | sameorigin, sameorigin |
+nasa.gov | False | sameorigin |
+news.google.com | False | deny |
+news.yahoo.com | False | sameorigin |
+newsweek.com | False | deny |
+nikkei.com | True |  |
+nps.gov | False | sameorigin |
+office.com | False | deny |
+outlook.com | False | sameorigin |
+ovhcloud.com | True |  |
+photobucket.com | False | sameorigin |
+play.google.com | False | sameorigin |
+plus.google.com | Failed to aquire | Failed to aquire |
+qq.com | True |  |
+reddit.com | True |  |
+sapo.pt | True |  |
+sciencedirect.com | False | deny |
+scmp.com | False | deny |
+skype.com | False | deny |
+smh.com.au | True |  |
+sony.com | False | sameorigin |
+statista.com | True |  |
+substack.com | False | sameorigin |
+taringa.net | True |  |
+telegra.ph | True |  |
+thefreedictionary.com | False | sameorigin |
+thenai.org | False | sameorigin |
+thetimes.co.uk | True |  |
+time.com | False | sameorigin |
+twimg.com | True | origin |
+unesco.org | False | sameorigin |
+vkontakte.ru | True |  |
+whitehouse.gov | True |  |
+wikia.com | False | sameorigin |
+wikihow.com | Failed to aquire | Failed to aquire |
+wsj.com | True |  |
+www.weebly.com | False | deny |
+www.wix.com | False | sameorigin |
+www.yahoo.com | True |  |
+yandex.ru | Failed to aquire | Failed to aquire |
+youronlinechoices.com | Failed to aquire | Failed to aquire |
+
+
+ Number Framable: 33
+
+ Number Not Framable: 67
