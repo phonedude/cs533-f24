@@ -1,3 +1,11 @@
+# Assignment 4 - Framability Auditing and Frame Path Attacks
+
+This repo contains code and documentation for CS533F24 Assignment 4
+
+
+[Video demo for the framability auditing - Youtube](https://youtu.be/CSRzD5MLef8)
+
+[Video demo for the Frame Path Attack - Youtube](https://youtu.be/miL9tkkbSIE)
 
 # Table of Contents
 
