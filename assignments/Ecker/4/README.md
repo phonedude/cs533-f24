@@ -153,7 +153,7 @@ This repo contains code and documentation for CS533F24 Assignment 4
 
 This Node.js server reads URLs from a text file (`urls.txt`), generates HTML files for each URL, and displays them within iframes. It also creates an `index.html` page with links to each generated page, making it easy to test if a URL is frameable.
 
-![Iframe Test Page](iframe.png)
+![Iframe Test Page](images/iframe.png)
 
 ## How It Works
 
