@@ -102,3 +102,7 @@
 | 98 | https://workspace.google.com | Yes |  |
 | 99 | https://www.canalblog.com | No | X-Frame-Options: deny |
 | 100 | https://www.over-blog.com | No | X-Frame-Options: deny |
+
+# Extra Credit
+
+The reference in slide 65 from week 5 is from [The Rime of the Ancient Mariner by Samuel Taylor Coleridge](https://www.poetryfoundation.org/poems/43997/the-rime-of-the-ancient-mariner-text-of-1834). The reference relates to the abundance of parsers in the process of reading a website and how the very existence of those abundant parsers leads to vulnerabilities, just like the abundance of water can lead a thirsty sailor to drinking water that may end up killing them.
