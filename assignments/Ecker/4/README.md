@@ -10,7 +10,7 @@
 | 6 | https://alexa.com | Yes |  |
 | 7 | https://amazon.co.uk | No | X-Frame-Options: sameorigin |
 | 8 | https://amazon.es | No | X-Frame-Options: sameorigin |
-| 9 | https://amazon.fr | Yes |  |
+| 9 | https://amazon.fr | No | X-Frame-Options: sameorigin |
 | 10 | https://www.amebaownd.com | No | X-Frame-Options: sameorigin |
 | 11 | https://android.com | Yes |  |
 | 12 | https://apache.org | No | Content-Security-Policy: frame-ancestors 'none' |
@@ -67,11 +67,11 @@
 | 63 | https://netvibes.com | No | X-Frame-Options: deny |
 | 64 | https://news.google.com | No | X-Frame-Options: sameorigin |
 | 65 | https://nginx.com | No | X-Frame-Options: sameorigin |
-| 66 | https://nih.gov | Unknown | Connection error: HTTPSConnectionPool(host='nih.gov', port=443): Max retries exceeded with url: / (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) |
+| 66 | https://www.nih.gov | No | X-Frame-Options: sameorigin |
 | 67 | https://opera.com | No | X-Frame-Options: sameorigin |
 | 68 | https://photobucket.com | Yes |  |
 | 69 | https://photos1.blogger.com | Yes |  |
-| 70 | https://plus.google.com | Yes |  |
+| 70 | https://plus.google.com | No | X-Frame-Options: sameorigin |
 | 71 | https://prezi.com | No | X-Frame-Options: deny |
 | 72 | https://public-api.wordpress.com | No | X-Frame-Options: sameorigin |
 | 73 | https://redbull.com | No | X-Frame-Options: sameorigin |

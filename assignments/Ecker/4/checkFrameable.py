@@ -27,6 +27,14 @@ headers_common = {
 
 # Initialize tqdm progress bar
 with tqdm(total=len(urls), desc='Processing URLs', unit='url') as pbar:
+    session = requests.Session()
+
+    # Add retries to handle transient errors
+    retries = Retry(total=3, backoff_factor=1, status_forcelist=[502, 503, 504])
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+
     for i, url in enumerate(urls, start=1):
         original_url = url  # URL as in urls.txt
 
@@ -51,7 +59,8 @@ with tqdm(total=len(urls), desc='Processing URLs', unit='url') as pbar:
         if not domain.startswith('www.'):
             try_domains.append('www.' + domain)
 
-        for attempt, test_domain in enumerate(try_domains):
+        # Resolve the domain
+        for test_domain in try_domains:
             try:
                 socket.gethostbyname(test_domain)
                 resolved_domain = test_domain
@@ -70,84 +79,74 @@ with tqdm(total=len(urls), desc='Processing URLs', unit='url') as pbar:
             pbar.update(1)
             continue
 
-        # Construct the URL with the resolved domain
-        url_with_scheme = scheme + resolved_domain
+        # Attempt to access the URL with and without 'www.'
+        request_domains = [resolved_domain]
+        if resolved_domain != domain and domain not in request_domains:
+            request_domains.append(domain)
 
-        # Record the actual URL used
-        actual_url_used = url_with_scheme
+        success = False
+        for test_domain in request_domains:
+            url_with_scheme = scheme + test_domain
+            actual_url_used = url_with_scheme
+            tried_http = False
 
-        # Try HTTPS first, then HTTP if SSL error occurs
-        tried_http = False
-        headers = {}
-        session = requests.Session()
-
-        # Add retries to handle transient errors
-        retries = Retry(total=3, backoff_factor=1, status_forcelist=[502, 503, 504])
-        adapter = HTTPAdapter(max_retries=retries)
-        session.mount('http://', adapter)
-        session.mount('https://', adapter)
-
-        while True:
-            try:
-                response = session.get(
-                    url_with_scheme,
-                    headers=headers_common,
-                    allow_redirects=True,
-                    timeout=(10, 30),
-                    # SSL verification is enabled by default; no need to set verify=True
-                )
-                final_url = response.url
-                headers = {k.lower(): v for k, v in response.headers.items()}
-                response.content[:1024]  # Read a small part of the content
-                response.close()  # Close the connection
-                break  # Request successful
-            except requests.exceptions.SSLError as e:
-                if not tried_http and scheme == 'https://':
-                    # SSL error, try HTTP
-                    scheme = 'http://'
-                    url_with_scheme = scheme + resolved_domain
-                    actual_url_used = url_with_scheme  # Update actual URL used
-                    tried_http = True
-                    continue
-                else:
-                    # SSL error on HTTP or already tried HTTP
-                    results.append({
-                        'page': i,
-                        'url': actual_url_used,
-                        'framable': 'Unknown',
-                        'reason': f'SSL error: {e}'
-                    })
+            while True:
+                try:
+                    response = session.get(
+                        url_with_scheme,
+                        headers=headers_common,
+                        allow_redirects=True,
+                        timeout=(10, 30),
+                    )
+                    final_url = response.url
+                    headers = {k.lower(): v for k, v in response.headers.items()}
+                    response.content[:1024]  # Read a small part of the content
+                    response.close()  # Close the connection
+                    success = True
+                    break  # Request successful
+                except requests.exceptions.SSLError as e:
+                    if not tried_http and scheme == 'https://':
+                        # SSL error, try HTTP
+                        scheme = 'http://'
+                        url_with_scheme = scheme + test_domain
+                        actual_url_used = url_with_scheme  # Update actual URL used
+                        tried_http = True
+                        continue
+                    else:
+                        # SSL error on HTTP or already tried HTTP
+                        reason = f'SSL error: {e}'
+                        break
+                except requests.exceptions.ConnectionError as e:
+                    if test_domain.startswith('www.') or 'www.' + test_domain in request_domains:
+                        # Already tried with 'www.', cannot proceed
+                        reason = f'Connection error: {e}'
+                        break
+                    else:
+                        # Try adding 'www.' to the domain
+                        test_domain = 'www.' + test_domain
+                        url_with_scheme = scheme + test_domain
+                        actual_url_used = url_with_scheme  # Update actual URL used
+                        request_domains.append(test_domain)
+                        continue
+                except requests.exceptions.ReadTimeout:
+                    # Read timeout occurred
+                    reason = 'Read timeout after 30 seconds'
                     break
-            except requests.exceptions.ReadTimeout:
-                # Read timeout occurred
-                results.append({
-                    'page': i,
-                    'url': actual_url_used,
-                    'framable': 'Unknown',
-                    'reason': 'Read timeout after 30 seconds'
-                })
-                break
-            except requests.exceptions.ConnectionError as e:
-                # Connection error
-                results.append({
-                    'page': i,
-                    'url': actual_url_used,
-                    'framable': 'Unknown',
-                    'reason': f'Connection error: {e}'
-                })
-                break
-            except Exception as e:
-                # Other exceptions
-                results.append({
-                    'page': i,
-                    'url': actual_url_used,
-                    'framable': 'Unknown',
-                    'reason': f'Error accessing URL: {e}'
-                })
-                break
+                except Exception as e:
+                    # Other exceptions
+                    reason = f'Error accessing URL: {e}'
+                    break
+            if success:
+                break  # Exit the loop if successful
 
-        if not headers:
-            # Headers not retrieved due to an error
+        if not success:
+            # All attempts failed
+            results.append({
+                'page': i,
+                'url': actual_url_used,
+                'framable': 'Unknown',
+                'reason': reason
+            })
             pbar.update(1)
             continue
 
