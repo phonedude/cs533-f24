@@ -71,7 +71,7 @@
 | 67 | https://opera.com | No | X-Frame-Options: sameorigin |
 | 68 | https://photobucket.com | Yes |  |
 | 69 | https://photos1.blogger.com | Yes |  |
-| 70 | https://plus.google.com | No | X-Frame-Options: sameorigin |
+| 70 | https://plus.google.com | Yes |  |
 | 71 | https://prezi.com | No | X-Frame-Options: deny |
 | 72 | https://public-api.wordpress.com | No | X-Frame-Options: sameorigin |
 | 73 | https://redbull.com | No | X-Frame-Options: sameorigin |

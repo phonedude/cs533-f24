@@ -19,7 +19,7 @@ const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').filter(Boolean);
 const absoluteUrls = urls.map(ensureAbsoluteURL);
 
 // Directory to store HTML files
-const framableDir = path.join(__dirname, 'frameable');
+const framableDir = path.join(__dirname, 'framable');
 
 // Ensure the directory exists
 if (!fs.existsSync(framableDir)) {
@@ -80,6 +80,6 @@ fs.writeFileSync(path.join(framableDir, 'index.html'), indexContent, 'utf-8');
 // Serve static files
 app.use('/', express.static(framableDir));
 
-app.listen(3000, () => {
-  console.log('Server is running at http://localhost:3000');
+app.listen(3001, () => {
+  console.log('Server is running at http://localhost:3001');
 });
