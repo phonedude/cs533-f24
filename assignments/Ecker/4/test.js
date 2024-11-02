@@ -26,27 +26,26 @@ const outputFile = path.join(__dirname, 'framable_report.md');
     let iframeFailed = false;
     let iframeError = null;
     let embeddedUrl = null;
+    let iframeFrame = null;
 
-    // Set up request and response interceptors
+    // Enable request interception
+    await page.setRequestInterception(true);
+
+    // Map to store response headers per frame
+    const frameResponseHeaders = new Map();
+
+    // Set up request interception
     page.on('request', request => {
-      const requestFrame = request.frame();
-      if (
-        requestFrame &&
-        requestFrame.parentFrame() === page.mainFrame()
-      ) {
-        // This is the request for the iframe
-        embeddedUrl = request.url();
-      }
+      // Allow all requests to continue
+      request.continue();
     });
 
+    // Set up response interception
     page.on('response', response => {
-      const responseFrame = response.frame();
-      if (
-        responseFrame &&
-        responseFrame.parentFrame() === page.mainFrame()
-      ) {
-        // This is the response for the iframe
-        iframeResponseHeaders = response.headers();
+      const request = response.request();
+      if (request.isNavigationRequest()) {
+        const responseFrame = response.frame();
+        frameResponseHeaders.set(responseFrame, response.headers());
       }
     });
 
@@ -62,21 +61,30 @@ const outputFile = path.join(__dirname, 'framable_report.md');
         iframeFailed = true;
         iframeError = new Error('No iframe element found on the page.');
       } else {
-        // Get the content frame of the iframe
-        const frame = await iframeElement.contentFrame();
+        // Get the iframe's src attribute
+        embeddedUrl = await page.evaluate(() => {
+          const iframe = document.querySelector('iframe');
+          return iframe ? iframe.src : null;
+        });
 
-        if (frame === null) {
+        // Get the content frame of the iframe
+        iframeFrame = await iframeElement.contentFrame();
+
+        if (iframeFrame === null) {
           // Iframe failed to load
           iframeFailed = true;
         } else {
           // Try to access the iframe's content
           try {
-            await frame.evaluate(() => document.body.innerHTML);
+            await iframeFrame.evaluate(() => document.body.innerHTML);
           } catch (err) {
             iframeFailed = true;
             iframeError = err;
           }
         }
+
+        // Get the response headers for the iframe's frame
+        iframeResponseHeaders = frameResponseHeaders.get(iframeFrame);
       }
     } catch (err) {
       console.error(`Error loading page ${pageUrl}:`, err);
