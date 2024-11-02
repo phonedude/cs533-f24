@@ -1,104 +1,104 @@
-| Root Domain | Framable | X-Frame-Option | Status |
-| :--- | :---: | :---: | :---: |
+| Root Domain | Framable | X-Frame-Option |
+| :--- | :---: | :---: |
 aboutads.info | Failed to aquire | Failed to aquire |
 academia.edu | Failed to aquire | Failed to aquire |
 accounts.google.com | Failed to aquire | Failed to aquire |
-addthis.com | False | sameorigin |
+addthis.com | False | deny |
 admin.ch | False | deny |
-adobe.com | Failed to aquire | Failed to aquire |
-ads.google.com | False | deny |
+adobe.com | False | sameorigin |
+ads.google.com | Failed to aquire | Failed to aquire |
 adssettings.google.com | True |  |
 aliexpress.com | False | sameorigin |
-amazon.co.jp | True |  |
+amazon.co.jp | Failed to aquire | Failed to aquire |
 amazon.com | Failed to aquire | Failed to aquire |
 amazonaws.com | True |  |
-amzn.to | Failed to aquire | Failed to aquire |
+amzn.to | True |  |
 android.com | Failed to aquire | Failed to aquire |
 archives.gov | Failed to aquire | Failed to aquire |
 bbc.com | True |  |
 berkeley.edu | True |  |
 biblegateway.com | True |  |
-bitly.com | False | deny |
+bitly.com | Failed to aquire | Failed to aquire |
 booking.com | False | sameorigin |
-bp.blogspot.com | True |  |
-buydomains.com | Failed to aquire | Failed to aquire |
-canada.ca | False | sameorigin |
-cbc.ca | Failed to aquire | Failed to aquire |
-cnil.fr | True |  |
-cpanel.com | Failed to aquire | Failed to aquire |
+bp.blogspot.com | False | deny |
+buydomains.com | False | sameorigin |
+canada.ca | Failed to aquire | Failed to aquire |
+cbc.ca | False | sameorigin |
+cnil.fr | Failed to aquire | Failed to aquire |
+cpanel.com | True |  |
 creativecommons.org | False | sameorigin |
-estadao.com.br | False | sameorigin |
-files.wordpress.com | True |  |
+estadao.com.br | True |  |
+files.wordpress.com | False | sameorigin |
 forms.gle | False | sameorigin |
 foursquare.com | False | sameorigin |
-fr.wikipedia.org | False | sameorigin |
-get.google.com | True |  |
+fr.wikipedia.org | True |  |
+get.google.com | False | sameorigin |
 gettyimages.com | True |  |
-gmail.com | False | sameorigin |
-google.ca | Failed to aquire | Failed to aquire |
+gmail.com | True |  |
+google.ca | False | sameorigin |
 google.ru | True |  |
 gooyaabitemplates.com | False | sameorigin |
-harvard.edu | True |  |
-hatena.ne.jp | True |  |
+harvard.edu | Failed to aquire | Failed to aquire |
+hatena.ne.jp | False | sameorigin |
 hugedomains.com | False | sameorigin |
-ibm.com | False | sameorigin |
+ibm.com | True |  |
 insider.com | False | sameorigin |
 interia.pl | False | sameorigin |
 ja.wikipedia.org | False | sameorigin |
-java.com | False | sameorigin |
-jhu.edu | True |  |
-justice.gov | False | sameorigin |
-justjared.com | False | sameorigin |
-kakao.com | False | deny |
+java.com | True |  |
+jhu.edu | Failed to aquire | Failed to aquire |
+justice.gov | True |  |
+justjared.com | True |  |
+kakao.com | Failed to aquire | Failed to aquire |
 kickstarter.com | False | sameorigin |
-last.fm | True |  |
-latimes.com | True |  |
+last.fm | False | sameorigin |
+latimes.com | False | sameorigin |
 m.me | Failed to aquire | Failed to aquire |
 maps.google.com | False | sameorigin |
-metro.co.uk | Failed to aquire | Failed to aquire |
-microsoft.com | Failed to aquire | Failed to aquire |
-myaccount.google.com | Failed to aquire | Failed to aquire |
+metro.co.uk | False | sameorigin |
+microsoft.com | True |  |
+myaccount.google.com | False | deny |
 myspace.com | False | sameorigin |
-mystrikingly.com | True | sameorigin, sameorigin |
-nasa.gov | False | sameorigin |
+mystrikingly.com | False | sameorigin |
+nasa.gov | False | deny |
 news.google.com | False | deny |
 news.yahoo.com | False | sameorigin |
-newsweek.com | False | deny |
-nikkei.com | True |  |
-nps.gov | False | sameorigin |
-office.com | False | deny |
+newsweek.com | False | sameorigin |
+nikkei.com | True | sameorigin, sameorigin |
+nps.gov | Failed to aquire | Failed to aquire |
+office.com | True |  |
 outlook.com | False | sameorigin |
-ovhcloud.com | True |  |
-photobucket.com | False | sameorigin |
+ovhcloud.com | False | deny |
+photobucket.com | True |  |
 play.google.com | False | sameorigin |
-plus.google.com | Failed to aquire | Failed to aquire |
-qq.com | True |  |
-reddit.com | True |  |
+plus.google.com | True |  |
+qq.com | False | sameorigin |
+reddit.com | False | deny |
 sapo.pt | True |  |
-sciencedirect.com | False | deny |
+sciencedirect.com | False | sameorigin |
 scmp.com | False | deny |
-skype.com | False | deny |
+skype.com | True |  |
 smh.com.au | True |  |
-sony.com | False | sameorigin |
+sony.com | True |  |
 statista.com | True |  |
 substack.com | False | sameorigin |
 taringa.net | True |  |
-telegra.ph | True |  |
+telegra.ph | False | sameorigin |
 thefreedictionary.com | False | sameorigin |
-thenai.org | False | sameorigin |
+thenai.org | Failed to aquire | Failed to aquire |
 thetimes.co.uk | True |  |
 time.com | False | sameorigin |
-twimg.com | True | origin |
-unesco.org | False | sameorigin |
-vkontakte.ru | True |  |
-whitehouse.gov | True |  |
+twimg.com | False | sameorigin |
+unesco.org | True |  |
+vkontakte.ru | True | origin |
+whitehouse.gov | Failed to aquire | Failed to aquire |
 wikia.com | False | sameorigin |
-wikihow.com | Failed to aquire | Failed to aquire |
-wsj.com | True |  |
+wikihow.com | True |  |
+wsj.com | False | sameorigin |
 www.weebly.com | False | deny |
-www.wix.com | False | sameorigin |
+www.wix.com | False | deny |
 www.yahoo.com | True |  |
-yandex.ru | Failed to aquire | Failed to aquire |
+yandex.ru | True |  |
 youronlinechoices.com | Failed to aquire | Failed to aquire |
 
 
