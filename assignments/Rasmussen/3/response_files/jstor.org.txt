@@ -1,0 +1,47 @@
+URL: http://jstor.org
+Final URL: https://www.jstor.org/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+x-frame-options: DENY
+content-type: text/html; charset=utf-8
+server: envoy
+set-cookie: AccessSession=H4sIAAAAAAAA_5WSW2vbQBCF_8s-Z8zs7uxNb8bQtBT6kDiFtpSyV0etYhtZKrQm_70r2Th5cqieZo--M3P2cmTj2CbWMFOS5oEcYJAeKEUEh95B0i46GYJVJbEb1u4r6-yCW7kQQiycnsSpQXbOkzXKFBKkqXqlR55sDNoUm6ly_Qwqpb0NRkHgXgJhSeBkkpCi1ZhiFi7FCnd-qLBAQcARJK4Fb1A1XC-k44osF-brhI3XMaVn7HCVchxnaoisKb475Bv223dz2ouHrxEvHsLJYiePH4b-wJojW60q_mlZpdW6VttdX3bdrx-fZ-VLVR7ua3W3miuY5fsJ_LB-v_y4ZM-11Tg8LmMcartv3-vyXB5PBywNGeLTeedTshRkUCGB8twCcRJgSyCwhoSnTJQtn_b0Z58rfZc37W5b10_ttn1q_-Z3nd-wZujHutnuPEA6oaYB3dnUz6aHQ-5rvFcxhH6JkbXIwbsIIaICEkaCx1DABKXIWOFR-f-O4eRbMTgiyksIly2alCMUaQJQrK_LRysAI7fOqxjQ40uI23437q9mEK-mbyb6NLxeys_5P77xsdNlnl_T8z9M0lHvZgMAAA; Path=/; SameSite=Lax; Secure, AccessSessionSignature=66dd3274280489b02d18e6e9dfde848861b21b341531012a9fe7bff50848cabc; Path=/; SameSite=Lax; Secure, AccessSessionTimedSignature=0b235111f1174724efaaf62c3f2bef79dec4a90a25efc7e8e697720f5685a22b; Path=/; SameSite=Lax; Secure, UUID=7fd61b49-0b3a-4dc0-90a9-d69c93bb85fd; expires=Sat, 30 Oct 2027 21:05:16 GMT; Max-Age=94608000; Path=/; SameSite=None; Secure, csrftoken=26In2rxSWbGBCuVY4csfpYE3vbIS4UNY; expires=Wed, 29 Oct 2025 21:05:16 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure, ReferringRequestId=fastly-default:f926b52308a05b696e8c094f011c9a55; Path=/; SameSite=Lax; Secure
+x-envoy-upstream-service-time: 78
+content-encoding: gzip
+X-JSTOR-Restarts: 0
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:05:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000046-IAD, cache-iad-kjyo7100030-IAD
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1730322316.331245,VS0,VE95
+Vary: Cookie, origin, Accept-Encoding,Fastly-SSL,Origin,X-Requested-Host
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+transfer-encoding: chunked
+
+Content Snippet (first 500 characters):
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        
+        <link rel="preconnect" href="https://static.ithaka.org">
+        <link rel="preconnect" href="https://cdn.cookielaw.org">
+        <link rel="preconnect" href="https://geolocation.onetrust.com">
+        <link rel="preconnect" href="https://www.googletagmanager.com">
+
+        <link rel="dns-prefetch" href

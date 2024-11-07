@@ -1,0 +1,37 @@
+URL: http://usgs.gov
+Final URL: https://www.usgs.gov/
+Status Code: 200
+
+Headers:
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Wed, 30 Oct 2024 21:02:16 GMT
+Server: nginx
+Cache-Control: must-revalidate, no-cache, private
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 d3cd567650e598ded7d5dd9266aa396c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD89-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: n2XJwCZ1RdO4riJgb_q50zOCue7jaz__oFtbg7KMWd6KyE_80QJYhg==
+Age: 245
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer', 'GTM-KWRSKS');</script>
+  <!-- End Google Tag Manager -->
+

@@ -1,0 +1,25 @@
+URL: http://gofundme.com
+Final URL: https://www.gofundme.com/
+Status Code: 200
+
+Headers:
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Wed, 30 Oct 2024 21:03:27 GMT
+Server: nginx
+Set-Cookie: visitor={"locale":"en_US","shimLocale":"en_US","country":"US"}; path=/; domain=.gofundme.com
+Cache-Control: max-age=120, s-maxage=120, stale-while-revalidate=3600, stale-if-error=86400
+ETag: "17eed1tfr28y3xj"
+Content-Encoding: gzip
+Content-Security-Policy-Report-Only: frame-ancestors gofundme.com *.gofundme.com *.hopin.com;
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 43ea6d4d093c6f8fb9edddca6fa0cf36.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P4
+X-Amz-Cf-Id: 1M0xg0iVlhDMDKNh3pzqn9iBrdbSizQnqZcZxsTqXd7tI8_bsXTLlg==
+Age: 98
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html><html lang="en-US"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/><title>GoFundMe | The #1 Crowdfunding and Fundraising Platform</title><meta name="description" content="Start your fundraiser in minutes with tools to help you succeed. GoFundMe is the global leader in crowdfunding, trusted by 100+ million people."/><link rel="alternate" href="ios-app://id734130700/gofundme/"/><style>body {height:auto !important

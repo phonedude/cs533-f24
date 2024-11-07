@@ -1,0 +1,28 @@
+URL: http://aliexpress.com
+Final URL: https://www.aliexpress.us/?gatewayAdapt=glo2usa&_randl_shipto=US
+Status Code: 200
+
+Headers:
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding
+P3P: CP="CAO PSA OUR"
+X-Application-Context: ae-fn-gateway-f:7001
+Access-Control-Allow-Origin: https://hz.aliexpress.com
+Server: Tengine/Aserver
+EagleEye-TraceId: 210318c317303222660827565e9a1e
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,2
+Content-Encoding: gzip
+Date: Wed, 30 Oct 2024 21:04:26 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive, Transfer-Encoding
+Set-Cookie: ali_apache_id=33.3.24.195.173032226687.421196.4; path=/; domain=.aliexpress.com; expires=Wed, 30-Nov-2084 01:01:01 GMT, intl_common_forever=3QUWYXim0l8u11rIy0b/wDRpVG2T9k3FXQW9XrGsUCZgvGPw4cR2WA==; Domain=.aliexpress.us; Expires=Tue, 18-Nov-2092 00:18:33 GMT; Path=/; HttpOnly, intl_locale=en_US; Domain=.aliexpress.us; Path=/, xman_us_f=x_locale=en_US&x_l=0&x_c_chg=1&acs_rt=1fce38501f7e4c8cb18f0675f19b9b8e; Domain=.aliexpress.us; Expires=Tue, 18-Nov-2092 00:18:33 GMT; Path=/; Secure; SameSite=None, aep_usuc_f=site=usa&c_tp=USD&region=US&b_locale=en_US; Domain=.aliexpress.us; Expires=Tue, 18-Nov-2092 00:18:33 GMT; Path=/; Secure; SameSite=None
+Server-Timing: edge; dur=2, origin; dur=773, cdn-cache; desc=MISS, ak_p; desc="1730322266069_400321412_1191551879_77491_12400_21_0_-";dur=1
+X-Akamai-Fwd-Auth-SHA: E98095DDE09D43FCE9AB29A761480AB8DF4BA1DE2AAD56F05B36EFF422A62AF5
+X-Akamai-Fwd-Auth-Data: 1120559963, 23.220.107.132, 1730322266, 98.183.222.96
+X-Akamai-Fwd-Auth-Sign: mNGA6aGx0JRCLMgdSKZ5mI9I5kBz64qZoducYfWSZVJCugKcTTiDnAk96lN1eSeW3m6bOQLyGyLToesSkmZrAh9XFTjcyMqK56rlRhaKUCQ=
+
+Content Snippet (first 500 characters):
+
+<!DOCTYPE html><html prefix="og: https://ogp.me/ns/website#" lang="en_US"><head><meta charSet="utf-8"/><meta name="data-spm" content="a2g0o"/><meta http-equiv="content-language" content="en_US"/><title>AliExpress - Affordable Prices on Top Brands with Free Shipping</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="aplus-waiting" content="MAN"/><meta name="aplus-auto-exp-visible" content="0.5"/><meta name="aplus-auto-exp-duration" content="500"/><meta nam

@@ -1,0 +1,32 @@
+URL: http://cnn.com
+Final URL: https://www.cnn.com/
+Status Code: 200
+
+Headers:
+Connection: keep-alive
+Content-Length: 626523
+x-content-hub: build-env=prod; unique-deployment-key=rn1016cw; build-version=v5.14.16-0-g2d332503b1; build-commit-hash=2d332503b11c04c2b352ff1b1c7661311905e19a
+content-security-policy: default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*; script-src 'unsafe-eval' 'unsafe-inline' 'self' *; style-src 'unsafe-inline' 'self' blob: *; child-src 'self' blob: *; frame-src 'self' *; object-src 'self' *; img-src 'self' data: blob: *; media-src 'self' data: blob: *; font-src 'self' data: *; connect-src 'self' data: *; frame-ancestors 'self' https://*.cnn.com:* http://*.cnn.com https://*.cnn.io:* http://*.cnn.io:* *.turner.com:* courageousstudio.com;
+x-last-modified: Wed, 30 Oct 2024 20:55:14 GMT
+access-control-allow-origin: *
+x-content-type-options: nosniff
+content-type: text/html; charset=utf-8
+cache-control: max-age=60
+x-xss-protection: 1; mode=block
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:04:36 GMT
+Via: 1.1 varnish
+Age: 549
+set-cookie: SecGpc=0; Domain=.cnn.com; Path=/; SameSite=None; Secure, countryCode=US; Domain=.cnn.com; Path=/; SameSite=None; Secure, stateCode=VA; Domain=.cnn.com; Path=/; SameSite=None; Secure, geoData=norfolk|VA|23513|US|NA|-400|broadband|36.890|-76.240|544; Domain=.cnn.com; Path=/; SameSite=None; Secure, FastAB=0=2029,1=0008,2=9162,3=1801,4=6606,5=5401,6=2285,7=8249,8=0362,9=5265,10=3434,11=0957,12=3623,13=7208,14=4861,15=7365,16=4914,17=1271,18=8130,19=7572; Domain=.cnn.com; Path=/; Expires=Thu, 30 Oct 2025 21:04:36 GMT; SameSite=Lax, wbdFch=36a3dc75f37def504e926e6070be1ed2f9d81261; Domain=www.cnn.com; Path=/; Max-Age=30; SameSite=None; Secure
+X-Served-By: cache-iad-kcgs7200113-IAD, cache-iad-kjyo7100141-IAD
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 26
+X-Timer: S1730322276.136171,VS0,VE1
+Vary: Accept-Encoding,Accept-Language
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+Content Snippet (first 500 characters):
+  <!DOCTYPE html>
+<html lang="en" data-uri="cms.cnn.com/_pages/clg34ol9u000047nodabud1o2@published" data-layout-uri="cms.cnn.com/_layouts/layout-homepage/instances/homepage-domestic@published" >
+  <head><style>body,h1,h2,h3,h4,h5{font-family:cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif}:root{--base-space-48:48px;--base-font-letter-spacing-100:1px;--base-size-36:36px;--base-color-transparent-black-20:#0c0c0c33;--base-font-text-transform-uppercase:uppercase;--base-font-text-deco

@@ -1,0 +1,33 @@
+URL: http://news.com.au
+Final URL: https://www.news.com.au/
+Status Code: 403
+
+Headers:
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Length: 1328
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Expires: 0, Wed, 30 Oct 2024 21:05:41 GMT
+Content-Type: text/html
+Date: Wed, 30 Oct 2024 21:05:41 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=600 ; includeSubDomains
+Content-Security-Policy-Report-Only: frame-ancestors 'self'; report-uri https://www.news.com.au/csp-reports
+Content-Security-Policy: block-all-mixed-content; style-src https: 'unsafe-inline'; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; img-src https: data:; frame-src https:;
+X-ARRRG5: /blaize/decision-engine?path=https%3a%2f%2fwww.news.com.au%2f&blaizehost=cdn.news.newscorp.blaize.io&content_id=
+X-ARRRG4: 
+X-PathQS: TRUE
+X-R: GE4TUUZ2IZAUYU2FHJKFGTSTFUYTKNJQHJXHK3DMHJSGKZTBOVWHIOSSKM5EIORRFU4TOOSBHI4TQLJZHA5EEORZHEWTSOJ2IM5DCMBQFUYTAMB2JA5EMQKMKNCTUVCTJZEC2MJVGUYDU3TVNRWDUZDFMZQXK3DUHJJEQOSEHIYS2OJXHJATUOJYFU4TQOSCHI4TSLJZHE5EGORRGAYC2MJQGA5DCNZTGAZTEMRTGQYQ
+Vary: User-Agent
+Akamai-GRN: 0.8c643017.1730322341.d195f7e
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html>
+   <body>
+      <h2>You might have been detected and blocked as a crawler bot!<h2>
+      <h3>News Corp Australia uses software that manages crawler bot traffic on our websites. If you receive this message and are not a crawler bot (and are just a reader or subscriber), please try these steps first:</h3>
+      <ol type = "1">
+         <li>Temporarily disable any AdBlockers / pop-up blockers / script blockers you have enabled</li>
+         <li>Add this site in to the allowed

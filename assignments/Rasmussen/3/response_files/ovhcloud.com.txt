@@ -1,0 +1,32 @@
+URL: http://ovhcloud.com
+Final URL: https://us.ovhcloud.com/
+Status Code: 200
+
+Headers:
+server: nginx
+date: Wed, 30 Oct 2024 21:05:45 GMT
+content-type: text/html
+transfer-encoding: chunked
+vary: Accept-Encoding
+x-frame-options: ORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+access-control-allow-origin: *
+x-toujours-debout-location: BHS
+x-toujours-debout-branch: B
+cache-control: public, must-revalidate, max-age=90, private
+content-encoding: gzip
+x-iplb-request-id: 0A6F2DBA:3FCC_C063418B:01BB_67229FA9_36FC8:6340, 62B7DE60:DE9C_93870066:01BB_67229FA9_2567C54F:42C6
+strict-transport-security: max-age=15768000
+x-iplb-instance: 59103
+set-cookie: SERVERID116590=411b079e|ZyKfr|ZyKfr; path=/; HttpOnly
+
+Content Snippet (first 500 characters):
+
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }</style>
+<link rel="canonical" href="https://us.ovhcloud.com/" />
+<meta name="robots" content="index,

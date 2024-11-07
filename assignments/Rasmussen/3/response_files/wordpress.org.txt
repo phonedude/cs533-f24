@@ -1,0 +1,27 @@
+URL: http://wordpress.org
+Final URL: https://wordpress.org/
+Status Code: 200
+
+Headers:
+Server: nginx
+Date: Wed, 30 Oct 2024 21:06:25 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=3600
+X-Olaf: â
+Link: <https://wordpress.org/wp-json/>; rel="https://api.w.org/", <https://wordpress.org/wp-json/wp/v2/pages/457>; rel="alternate"; title="JSON"; type="application/json", <https://w.org/>; rel=shortlink
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400
+X-nc: HIT ord 2
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel='preload' href='https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/Inter/Inter-latin.woff2' as='font' crossorigin='crossorigin' type='font/woff2' />
+<link rel='preload' href='https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/EB-Garamond/EBGaramond-latin.woff2' as='font' crossorigin='crossorigin' type='font/woff2' />

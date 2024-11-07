@@ -1,0 +1,35 @@
+URL: http://samsung.com
+Final URL: https://www.samsung.com/us/
+Status Code: 200
+
+Headers:
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Wed, 30 Oct 2024 17:33:57 GMT
+ETag: W/"bdbcd-625b51b4b31c8"
+Strict-Transport-Security: max-age=31536000
+X-XSS-Protection: 0
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,3
+Content-Encoding: gzip
+Date: Wed, 30 Oct 2024 21:05:55 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive, Transfer-Encoding
+Set-Cookie: device_type=pc; path=/; domain=.samsung.com
+Server-Timing: cdn-cache; desc=HIT, edge; dur=1, ak_p; desc="1730322355907_400320972_333593913_4015_25566_18_0_-";dur=1
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+	<!-- PWA - manifest
+	<link rel="manifest" href="/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/pwa/manifest/us.json">
+	 -->
+	<!-- PWA - Browser Compatible
+	<script async src="/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/pwa/js/pwacompat.js"></script>
+	 -->
+	<!-- <meta name="theme-color" content="#0c4da2"> -->
+	<!-- Add to home screen for Safari on iOS -->
+    <!-- <meta
