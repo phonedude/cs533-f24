@@ -111,7 +111,7 @@ his course materials (although any errors are mine).
 * Week 12 - DNS rebinding attacks
     * [Millions of Streaming Devices Are Vulnerable to a Retro Web Attack](https://www.wired.com/story/chromecast-roku-sonos-dns-rebinding-vulnerability/)
     * [Protecting Browsers from DNS Rebinding Attacks](https://crypto.stanford.edu/dns/dns-rebinding.pdf)
-    * [Class slides](https://docs.google.com/presentation/d/1sdp10RkKxUyqTtoDH4--UmKTPHQv8jSWu76EATDivhI/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1yH2gE2jwMF-ySg44qflwttsHh7rqFKepfdokYuySGS0/edit)
 
 * Week 13 - Thanksgiving -- no classes
 
