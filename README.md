@@ -145,10 +145,10 @@ his course materials (although any errors are mine).
    * [Due: November 1](/assignments/assignment-4.md)
 
 * Assignment 5: Same-origin Policy, CORS, CSP
-   * [Due: November 15](/assignments/assignment-5.md)
+   * [Due: November 22](/assignments/assignment-5.md)
 
 * Assignment 6: Fingerprinting
-   * Due: [November 29](/assignments/assignment-6.md)
+   * Due: [December 2](/assignments/assignment-6.md)
 
 * Assignment 7: Phishing
    * Due: [December 13](/assignments/assignment-7.md)
