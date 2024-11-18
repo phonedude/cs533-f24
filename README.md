@@ -113,13 +113,13 @@ his course materials (although any errors are mine).
     * [Protecting Browsers from DNS Rebinding Attacks](https://crypto.stanford.edu/dns/dns-rebinding.pdf)
     * [Class slides](https://docs.google.com/presentation/d/1yH2gE2jwMF-ySg44qflwttsHh7rqFKepfdokYuySGS0/edit)
 
-* Week 13 - Thanksgiving -- no classes
-
-* Week 14 - UI Denial-of-service, Phishing, Side Channels
+* Week 13 - UI Denial-of-service, Phishing, Side Channels
     * [The Annoying Site](https://github.com/feross/theannoyingsite.com)
     * [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/)
     * [The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/)
-    * [Class slides](https://docs.google.com/presentation/d/1tFVuMX7r1FDp4ogX1y5hQilBKxfn40hIhB4dQW4Tizc/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1yLOAAMgyweGspggK9R7ZlDBH11G7VRu5yT19QOgPYAA/edit)
+
+* Week 14 - Thanksgiving -- no classes
 
 * Week 15 - Rehosting, Web Archiving
     * [Rewriting History: Changing the Archived Web from the Present](https://rewritinghistory.cs.washington.edu/) ([slides](slides/Lerner-ACM-CCS-2017.pdf), [video](https://www.youtube.com/watch?v=Pn65m3l0Zw8), [DSHR blog post](https://blog.dshr.org/2017/09/attacking-users-of-wayback-machine.html))
