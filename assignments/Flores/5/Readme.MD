@@ -9,24 +9,7 @@
 - **5.3** - Demonstrates embedding a remote site using Content Security Policy (CSP).
 - **5.4** - (Optional) Hosts results from 5.1, 5.2, and 5.3 on GitHub Pages for extra credit.
 
-5/
-├── 5.1/  (CORS JSON Test)
-│   ├── index.html
-│   ├── server1.js
-│   ├── server2.js
-├── 5.2/  (CORS Custom Headers Test)
-│   ├── index.html
-│   ├── server1.js
-│   ├── server2.js
-├── 5.3/  (CSP Embedding Test)
-│   ├── server.js
-|   |── readme.md
-├── 5.4/  (Optional GitHub Pages for Extra Credit)
-│   ├── index.html
-│   ├── server1.js
-│   ├── server2.js
-│   ├── embed.html
-└── README.md
+
 ---
 
 ## **5.1: Blocking and Reading JSON Responses**
@@ -45,11 +28,11 @@ This section demonstrates how cross-origin JSON responses are blocked by default
 - **Blocked Request**:
   - Without enabling CORS, cross-origin requests to `/favorites` are blocked by the browser.
   - **Screenshot**: [Blocked JSON Response](#).
-![allowed](5.1/CORS-testing-blocked5.1.png)
+![blocekd](5.1/CORS-testing-blocked5.1.png)
 - **Allowed Request**:
   - After enabling CORS, cross-origin requests are allowed, and the JSON response is accessible.
   - **Screenshot**: [Allowed JSON Response](#).
-![blocked](5.1/CORS-testing-allowed5.1-1.png)
+![allowed](5.1/CORS-testing-allowed5.1-1.png)
 ---
 
 ## **5.2: Blocking and Reading HTTP Response Headers**
