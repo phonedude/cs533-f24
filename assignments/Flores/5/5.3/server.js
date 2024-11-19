@@ -7,10 +7,10 @@ app.use((req, res, next) => {
     // Uncomment ONE of the following configurations based on what you want to demonstrate:
 
     // 1. Allow embedding from the specified site
-    //res.setHeader('Content-Security-Policy', "frame-src 'self' https://www.dailymotion.com");
+    res.setHeader('Content-Security-Policy', "frame-src 'self' https://www.dailymotion.com");
 
     // 2. Block all embedding
-    res.setHeader('Content-Security-Policy', "frame-src 'none'");
+    //res.setHeader('Content-Security-Policy', "frame-src 'none'");
 
     next();
 });

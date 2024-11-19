@@ -20,6 +20,7 @@
 │   ├── server2.js
 ├── 5.3/  (CSP Embedding Test)
 │   ├── server.js
+|   |── readme.md
 ├── 5.4/  (Optional GitHub Pages for Extra Credit)
 │   ├── index.html
 │   ├── server1.js
@@ -44,11 +45,11 @@ This section demonstrates how cross-origin JSON responses are blocked by default
 - **Blocked Request**:
   - Without enabling CORS, cross-origin requests to `/favorites` are blocked by the browser.
   - **Screenshot**: [Blocked JSON Response](#).
-
+![allowed](5.1/CORS-testing-blocked5.1.png)
 - **Allowed Request**:
   - After enabling CORS, cross-origin requests are allowed, and the JSON response is accessible.
   - **Screenshot**: [Allowed JSON Response](#).
-
+![blocked](5.1/CORS-testing-allowed5.1-1.png)
 ---
 
 ## **5.2: Blocking and Reading HTTP Response Headers**
@@ -67,11 +68,11 @@ This section demonstrates how custom HTTP response headers can be blocked or all
 - **Blocked Headers**:
   - Without exposing the custom headers, the browser blocks access to them.
   - **Screenshot**: [Blocked Custom Headers](#).
-
+![alt text](5.2/exposedHeaders-blocked-5.2..png)
 - **Allowed Headers**:
   - After adding `exposedHeaders` to the CORS configuration, the custom headers are accessible.
   - **Screenshot**: [Allowed Custom Headers](#).
-
+![alt text](5.2/exposedHeaders-allowed-5.2.png)
 ---
 
 ## **5.3: Embedding from Another Site**
@@ -90,11 +91,12 @@ This section demonstrates how the Content Security Policy (CSP) can allow or blo
 - **Allowed Embedding**:
   - The remote site is successfully embedded when CSP allows it.
   - **Screenshot**: [Allowed Embedding](#).
+  ![alt text](5.3/CSP-embedding-enabled5.3.png)
 
 - **Blocked Embedding**:
   - The remote site is blocked when CSP prohibits it.
   - **Screenshot**: [Blocked Embedding](#).
-
+![alt text](5.3/CSP-embedding-blocked-5.3.png)
 ---
 
 ## **5.4: Extra Credit - Hosting on GitHub Pages**
@@ -125,3 +127,9 @@ This section hosts the results of 5.1, 5.2, and 5.3 on GitHub Pages.
 ## Summary:
 
 This assignment demonstrates how to configure and test web security features like CORS and CSP to control cross-origin resource sharing and embedding. Each directory contains code, testing results, and explanations to show how requests and responses behave under different security configurations.
+
+
+---
+
+Author: Samuel Flores
+Date: 2024-11-18
