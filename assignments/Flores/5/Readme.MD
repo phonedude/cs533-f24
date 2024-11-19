@@ -32,7 +32,7 @@ This section demonstrates how cross-origin JSON responses are blocked by default
 - **Allowed Request**:
   - After enabling CORS, cross-origin requests are allowed, and the JSON response is accessible.
   - **Screenshot**: [Allowed JSON Response](#).
-![allowed](5.1/CORS-testing-allowed5.1-1.png)
+![allowed](5.1/CORS-testing-allowed5.1.png)
 ---
 
 ## **5.2: Blocking and Reading HTTP Response Headers**
