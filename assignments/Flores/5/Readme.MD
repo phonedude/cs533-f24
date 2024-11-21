@@ -24,6 +24,34 @@ This section demonstrates how cross-origin JSON responses are blocked by default
 - **Server 2** (`server2.js`):
   - Serves `index.html` which attempts to fetch JSON data from Server 1.
 
+
+
+
+## Testing Steps
+
+### CORS Disabled (Blocking Cross-Origin Requests)
+
+#### Start Server 1 with CORS Disabled
+```bash
+export ENABLE_CORS=false
+node server1.js
+```
+---
+
+```bash
+node server2.js
+```
+#### CORS Enabled (Allowing Cross-Origin Requests)
+Start Server 1 with CORS Enabled
+```bash
+export ENABLE_CORS=true
+node server1.js
+```
+##### Refresh index.html from Server 2
+
+    Navigate again to http://localhost:3000 or refresh the page.
+    The browser successfully fetches and displays the JSON data from http://localhost:4000/favorites.
+
 ### Results:
 - **Blocked Request**:
   - Without enabling CORS, cross-origin requests to `/favorites` are blocked by the browser.
@@ -100,9 +128,9 @@ This section hosts the results of 5.1, 5.2, and 5.3 on GitHub Pages.
 
 ## Video Links:
 
-- **5.1**: [Blocking and Reading JSON Responses](#)
-- **5.2**: [Blocking and Reading Custom Headers](#)
-- **5.3**: [Embedding with CSP](#)
+- **5.1**: [Blocking and Reading JSON Responses](https://youtu.be/lRWsf96g44A)
+- **5.2**: [Blocking and Reading Custom Headers](https://youtu.be/0pjyg5RI_jg)
+- **5.3**: [Embedding with CSP](https://youtu.be/2Ex0jFq0L9c)
 - **5.4**: [GitHub Pages Hosted Results (Extra Credit)](#)
 
 ---

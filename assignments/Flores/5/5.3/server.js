@@ -2,16 +2,20 @@ const express = require('express');
 const app = express();
 const PORT = 4000; // Local server port
 
+// Toggle embedding dynamically with an environment variable
+const ENABLE_EMBEDDING = process.env.ENABLE_EMBEDDING === 'true';
+
 // Middleware to configure Content-Security-Policy
 app.use((req, res, next) => {
-    // Uncomment ONE of the following configurations based on what you want to demonstrate:
-
-    // 1. Allow embedding from the specified site
-    res.setHeader('Content-Security-Policy', "frame-src 'self' https://www.dailymotion.com");
-
-    // 2. Block all embedding
-    //res.setHeader('Content-Security-Policy', "frame-src 'none'");
-
+    if (ENABLE_EMBEDDING) {
+        // Allow embedding from the specified site
+        res.setHeader('Content-Security-Policy', "frame-src 'self' https://www.dailymotion.com");
+        console.log('Embedding is ENABLED');
+    } else {
+        // Block all embedding
+        res.setHeader('Content-Security-Policy', "frame-src 'none'");
+        console.log('Embedding is DISABLED');
+    }
     next();
 });
 
@@ -36,5 +40,6 @@ app.get('/embed.html', (req, res) => {
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}/embed.html`);
+    console.log(`Embedding is currently ${ENABLE_EMBEDDING ? 'ENABLED' : 'DISABLED'}`);
 });
 
