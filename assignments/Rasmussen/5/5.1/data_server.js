@@ -12,11 +12,18 @@ http.createServer((req, res) => {
         res.end('Error loading data.json');
         return;
       }
-      // Note: No CORS headers are set here
+      // Note: No CORS headers are set here, the client can't access the data
       res.writeHead(200, { 'Content-Type': 'application/json' });
+
+      // With CORS headers set, the client can access the data
+      // res.writeHead(200, {
+      //   'Content-Type': 'application/json',
+      //   'Access-Control-Allow-Origin': '*', // Allow all origins
+      // });
+
       res.end(data);
     });
   }
 }).listen(PORT, () => {
-  console.log(`Server #2 running at http://localhost:${PORT}`);
+  console.log(`Data Server running at http://localhost:${PORT}`);
 });
