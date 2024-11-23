@@ -13,13 +13,13 @@ http.createServer((req, res) => {
         return;
       }
       // Note: No CORS headers are set here, the client can't access the data
-      res.writeHead(200, { 'Content-Type': 'application/json' });
+      // res.writeHead(200, { 'Content-Type': 'application/json' });
 
       // With CORS headers set, the client can access the data
-      // res.writeHead(200, {
-      //   'Content-Type': 'application/json',
-      //   'Access-Control-Allow-Origin': '*', // Allow all origins
-      // });
+      res.writeHead(200, {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*', // Allow all origins
+      });
 
       res.end(data);
     });
