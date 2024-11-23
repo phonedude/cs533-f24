@@ -75,7 +75,6 @@ This exercise focuses on:
 1. [CORS Demonstration (5.1)](https://youtu.be/iUX5NCgCknM)
 2. [Custom Headers Demonstration (5.2)](https://youtu.be/0nfrttrXJFY)
 3. [CSP Demonstration (5.3)](https://youtu.be/lnuWI8CvjgM)
-4. [Optional GitHub Pages (5.4)](#)
 
 ---
 
