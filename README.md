@@ -1,17 +1,4 @@
 ### ODU CS 433/533 Web Security, Fall 2024
-Instructor: [Michael L. Nelson](http://www.cs.odu.edu/~mln/) <mln@cs.odu.edu>
-
-Office Hours: Wednesdays 2-4 and by appointment 
-
-Time: Asynchronous, online
-
-Place: Asynchronous, online -- contact mln@cs.odu.edu for the Youtube Playlist URL.  
-
-[Syllabus](https://raw.githubusercontent.com/phonedude/cs533-f24/master/syllabus.txt)
-
-Class Email list: [https://groups.google.com/group/cs533-f24](https://groups.google.com/group/cs533-f24)
-
-[CRNs](https://www.cs.odu.edu/~zeil/courseSchedule/viewer.php?semester=fall24&group=SC251): 20312, 20313, 20314 (433) and 20315, 20316, 20317 (533)
 
 ### Course Objectives
 
