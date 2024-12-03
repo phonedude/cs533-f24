@@ -79,7 +79,7 @@ Requests from User-Agents like `curl` or `wget` receive a plain text response:
 Special response for CLI tools like curl or wget.
 ```
 
-### Local IP Addresses (`192.168.*.*`)
+### Local IP Addresses (`192.168.*.*` or `10.27.*.*`)
 
 Requests from local IP addresses are served a custom page:
 
@@ -210,18 +210,18 @@ These headers are combined into an object, which is then serialized into a JSON 
 
 Below are screenshots demonstrating the fingerprints of different clients:
 
-- **Client 1** (Chrome on Desktop)
-- **Client 2** (Firefox on Desktop)
-- **Client 3** (Safari on Mac)
-- **Client 4** (Chrome on Android Phone)
-- **Client 5** (Safari on iPhone)
-- **Client 6** (`curl` Command-Line Tool)
+- **Client 1** (Chrome on Desktop)![alt text](chrome-fingerprint-1.png)
+- **Client 2** (Firefox on Desktop)![alt text](fingerprinting-firefoxbrowser-1.png)
+- **Client 3** (Opera on Kali Linux)![alt text](fingerprinting-kallinux-operabrowser-1.png)
+- **Client 4** (Safari on iPhone)![alt text](fingerprinting-iphone-safari-1.png)
+- **Client 5** (`curl` Command-Line Tool)![alt text](fingerprinting-curl-1.png)
+- **client 6**(steamdeck using Brave Web Broswer)![alt text](fingerprinting-steamdeck-bravebrowser.-1.png)
 
 **Note:** Replace the placeholder image filenames with actual screenshots from your testing.
 
 ## Video Demonstration
 
-A video demonstrating the assignment can be found at the following link: **Assignment 6 Demonstration Video**
+A video demonstrating the assignment can be found at the following link: **Assignment 6 Demonstration Video** (https://youtu.be/zLsQQuU-kIE)
 
 ## Author
 

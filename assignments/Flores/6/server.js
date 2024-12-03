@@ -7,9 +7,13 @@ const path = require('path');
 const app = express();
 const PORT = 4000;
 
-// Middleware to use cookie-parser and serve static files
+// Configuration variables to control cloaking
+let cloakFor192168 = true;  // Set to true to enable cloaking for 192.168.*.*
+let cloakFor102727 = false;  // Set to true to enable cloaking for 10.27.27.*
+let cloakFile = 'page-1.html';  // File to serve when cloaking is triggered
+
+// Middleware to use cookie-parser
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'html'))); // Serve static HTML files
 
 // In-memory store for fingerprints
 const fingerprints = {};
@@ -17,13 +21,12 @@ const fingerprints = {};
 // Function to generate fingerprint using MD5
 function generateFingerprint(req) {
     const headers = {
-        userAgent: req.headers['user-agent'] || '',         // User-Agent header
-        acceptLanguage: req.headers['accept-language'] || '', // Accept-Language header
-        accept: req.headers['accept'] || '',                 // Accept header
-        encoding: req.headers['accept-encoding'] || '',      // Accept-Encoding header
-        cookies: req.cookies || {},                          // Include cookies for returning users
+        userAgent: req.headers['user-agent'] || '',
+        acceptLanguage: req.headers['accept-language'] || '',
+        accept: req.headers['accept'] || '',
+        encoding: req.headers['accept-encoding'] || '',
+        cookies: req.cookies || {},
     };
-    // Generate MD5 hash of the headers object
     return md5(JSON.stringify(headers));
 }
 
@@ -44,51 +47,61 @@ function logFingerprint(fingerprint, headers) {
     }
 }
 
-// Middleware for cloaking and fingerprinting
+// Middleware for fingerprinting and cloaking (placed before express.static)
 app.use((req, res, next) => {
     const userAgent = req.headers['user-agent'] || '';
     const ipAddress = req.ip;
 
-    // Cloaking logic
-    if (/curl|wget/i.test(userAgent)) {
-        // If the request is from a command-line tool, serve a plain text response
-        res.setHeader('Content-Type', 'text/plain');
-        res.send("Special response for CLI tools like curl or wget.");
-    } else if (
-        ipAddress.startsWith('::ffff:192.168.') || 
-        ipAddress.startsWith('192.168.') || 
-        ipAddress.startsWith('::ffff:10.27.27.') || 
-        ipAddress.startsWith('10.27.27.')
-    ) {
-        // If the request comes from a local IP range or the additional IP range, serve a local-user page
-        res.sendFile(path.join(__dirname, 'html', 'local-user.html'));
+    // Generate the fingerprint
+    const fingerprint = generateFingerprint(req);
+
+    // Check if the fingerprint is already known
+    if (!fingerprints[fingerprint]) {
+        fingerprints[fingerprint] = `page-${Object.keys(fingerprints).length + 1}.html`;
+        console.log(`New client: ${fingerprint} assigned to ${fingerprints[fingerprint]}`);
     } else {
-        // Default behavior with fingerprinting
-        const fingerprint = generateFingerprint(req);
+        console.log(`Returning client: ${fingerprint} with page ${fingerprints[fingerprint]}`);
+    }
 
-        // Check if the fingerprint is already known
-        if (!fingerprints[fingerprint]) {
-            // Assign a unique HTML page to the new client
-            fingerprints[fingerprint] = `page-${Object.keys(fingerprints).length + 1}.html`;
-            console.log(`New client: ${fingerprint}`);
+    // Log the fingerprint and headers
+    logFingerprint(fingerprint, req.headers);
+
+    // Handle only the root URL ('/')
+    if (req.path === '/') {
+        // Cloaking logic
+        if (/curl|wget/i.test(userAgent)) {
+            // Handle requests from CLI tools like curl or wget
+            res.setHeader('Content-Type', 'text/plain');
+            res.send("Special response for CLI tools like curl or wget.");
+        } else if (
+            (cloakFor192168 && (ipAddress.startsWith('::ffff:192.168.') || ipAddress.startsWith('192.168.'))) ||
+            (cloakFor102727 && (ipAddress.startsWith('::ffff:10.27.27.') || ipAddress.startsWith('10.27.27.')))
+        ) {
+            // Serve the specified cloak file for the cloaked IP ranges
+            const filePath = path.join(__dirname, 'html', cloakFile);
+            if (fs.existsSync(filePath)) {
+                res.sendFile(filePath);
+            } else {
+                res.status(404).send(`<h1>404 Not Found: ${cloakFile} not found</h1>`);
+            }
         } else {
-            console.log(`Returning client: ${fingerprint}`);
+            // Serve the assigned HTML page based on the fingerprint
+            const htmlFile = fingerprints[fingerprint];
+            const filePath = path.join(__dirname, 'html', htmlFile);
+            if (fs.existsSync(filePath)) {
+                res.sendFile(filePath);
+            } else {
+                res.status(404).send(`<h1>404 Not Found: ${htmlFile} not found</h1>`);
+            }
         }
-
-        // Log the fingerprint and headers
-        logFingerprint(fingerprint, req.headers);
-
-        // Serve the assigned HTML page
-        const htmlFile = fingerprints[fingerprint];
-        const filePath = path.join(__dirname, 'html', htmlFile);
-        if (fs.existsSync(filePath)) {
-            res.sendFile(filePath);
-        } else {
-            // If the HTML file doesn't exist, send a 404 response
-            res.status(404).send('<h1>404 Not Found</h1>');
-        }
+    } else {
+        // For other paths, pass control to the next middleware
+        next();
     }
 });
+
+// Serve static files (after custom middleware)
+app.use(express.static(path.join(__dirname, 'html')));
 
 // Endpoint for Echo Service to return HTTP request headers
 app.get('/echo', (req, res) => {
