@@ -16,5 +16,5 @@ We used eight different HTTP request headers to form the browser fingerprint, an
 └── README.md
 ```
 
-* The following video demonstrates `6`: https://youtu.be/vLhoEqA89Uw
+* The following video demonstrates `6`: https://youtu.be/QSjL0H6-JZU
 
