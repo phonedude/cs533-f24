@@ -26,13 +26,13 @@ This project demonstrates a phishing site that convincingly mimics the **20minut
 ## Demonstration
 ### Screenshots
 1. **Phishing Page**
-   ![Phishing Page](/phishing-page.png)
+   ![Phishing Page](phishing-page-1.png)
 
 2. **Fake Dashboard**
-   ![Fake Dashboard](/fake-dashboard.png)
+   ![Fake Dashboard](fake-dashboard.png-1.png)
 
 3. **Logged Credentials**
-   ![Logged Credentials](/logged-credentials.png)
+   ![Logged Credentials]!(logged-credentials-1.png)
 
 ### Video Walkthrough
 Watch the full demonstration of the phishing site in action:
