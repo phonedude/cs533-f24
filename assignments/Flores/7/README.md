@@ -32,7 +32,7 @@ This project demonstrates a phishing site that convincingly mimics the **20minut
    ![Fake Dashboard](fake-dashboard.png-1.png)
 
 3. **Logged Credentials**
-   ![Logged Credentials]!(logged-credentials-1.png)
+   ![Logged Credentials](logged-credentials-1.png)
 
 ### Video Walkthrough
 Watch the full demonstration of the phishing site in action:
