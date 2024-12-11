@@ -1,0 +1,5 @@
+username=jsmith
+password=secret
+
+username=jsmith@gmail.com
+password=password
