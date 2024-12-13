@@ -12,6 +12,9 @@ This assignments displays a copy of the [hugedomains website](https://www.hugedo
 
 * The video of 6 files and demonstration is available at: [https://youtu.be/oFW3l6iRoiA](https://youtu.be/oFW3l6iRoiA)
 
+![My phishing website](image.png)
+![Actual website](image-1.png)
+
 # Problems that occured
 
 * dynamically loaded sites like reddit being difficult to recreate properly if I saved the dynamic copy and not the static copy of the html
