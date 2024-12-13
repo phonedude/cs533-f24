@@ -12,4 +12,4 @@ This assignments uses request headers and md5 to create a fingerprint for a give
 
 * The video of 6 files and demonstration is available at: [https://youtu.be/wfrpw_rfs3Q](https://youtu.be/wfrpw_rfs3Q)
 
-
+![Image of fingerprints](image.png)
