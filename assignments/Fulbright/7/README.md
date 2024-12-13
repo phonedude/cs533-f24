@@ -12,7 +12,11 @@ This assignments displays a copy of the [hugedomains website](https://www.hugedo
 
 * The video of the deminstating the phishing website: [https://youtu.be/oFW3l6iRoiA](https://youtu.be/oFW3l6iRoiA)
 
+
+# My phishing website
 ![My phishing website](image.png)
+
+# The acutal website
 ![Actual website](image-1.png)
 
 # Problems that occured
