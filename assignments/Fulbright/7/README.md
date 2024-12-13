@@ -10,7 +10,7 @@ Inorder to run the webserver you need node, express, and body-parser,  installed
 This assignments displays a copy of the [hugedomains website](https://www.hugedomains.com/payment-plan-login.cfm) login page and save the inputed login information to Logins.txt
 
 
-* The video of 6 files and demonstration is available at: [https://youtu.be/oFW3l6iRoiA](https://youtu.be/oFW3l6iRoiA)
+* The video of the deminstating the phishing website: [https://youtu.be/oFW3l6iRoiA](https://youtu.be/oFW3l6iRoiA)
 
 ![My phishing website](image.png)
 ![Actual website](image-1.png)
