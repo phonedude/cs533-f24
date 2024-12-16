@@ -14,10 +14,10 @@ This part of the assignemt is in subdirectory 5.1. The main site is started by u
 
 This part of the assignemt is in subdirectory 5.2. The main site is started by using node to run server.js and the serve distributing the headers is started by using node to run HeaderServer.js for the server that does not have the headers exposed to other sites and ExposedHeaderSever.js for the server that does have the headers exposed to other sites.
 
-* The video of 5.2 files and demonstration is available at: [https://youtu.be/cKOyQ7PxvC4](https://youtu.be/cKOyQ7PxvC4)
+* The video of 5.2 files and demonstration is available at: [https://youtu.be/2wLPVUHSK0s](https://youtu.be/2wLPVUHSK0s)
 
 # 5.3 Content-Security-Policy: embedding from another site
 
 This part of the assignemt is in subdirectory 5.3. The main site is started by using node to run server.js that allows embeding and serverNoEmbeding.js for the server that blocks embed sites.
 
-* The video of 5.3 files and demonstration is available at: [https://youtu.be/2wLPVUHSK0s](https://youtu.be/2wLPVUHSK0s)
+* The video of 5.3 files and demonstration is available at: [https://youtu.be/cKOyQ7PxvC4](https://youtu.be/cKOyQ7PxvC4)
