@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parent Page</title>
+  <script>
+    function CookieStealer() {
+      // Attempting to read the client's cookies
+      const cookies = document.cookie;
+      document.getElementById('cookies').innerText = cookies ? cookies : "No cookies found";
+    }
+
+    // Loading iFrame then tryinf to read the client's cookies
+    window.onload = function() {
+      document.getElementById('iframe').src = "iFrame.html";
+    }
+  </script>
+</head>
+<body>
+  <h1>Parent Page</h1>
+  <p>This page will attempt to steal cookies from client in the iframe below:</p>
+  
+  <iframe id="iframe" src="" width="600" height="400"></iframe>
+  
+  <p><strong>Cookies found in the Parent Page:</strong> <span id="cookies">No cookies found.</span></p>
+  <button onclick="CookieStealer()">Steal Cookie</button>
+</body>
+</html>
