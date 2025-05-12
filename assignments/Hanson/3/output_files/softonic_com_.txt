@@ -1,0 +1,11 @@
+HTTP/1.1 406 Not Acceptable
+Connection: keep-alive
+cache-control: private, no-store
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:28:00 GMT
+access-control-expose-headers: x-country-code,x-region
+Set-Cookie: _swo_vis=SBM-261.1; domain=softonic.com; max-age=1800; path=/; secure
+Set-Cookie: _f_bucket=361; domain=softonic.com; max-age=1296000; path=/; secure
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+Final-URL: http://softonic.com/

@@ -1,0 +1,43 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://foxnews.com/
+Date: Mon, 28 Apr 2025 04:27:08 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.foxnews.com/
+Date: Mon, 28 Apr 2025 04:27:08 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=86400 ; preload
+
+HTTP/2 200 
+last-modified: Mon, 28 Apr 2025 04:21:15 GMT
+content-type: text/html; charset=UTF-8
+etag: "a951087c2a45ed38ecd564ecc3291017"
+x-amz-server-side-encryption: AES256
+via: 1.1 varnish, 1.1 varnish, 1.1 varnish
+x-debug-backend: prod_fn_hp_foxnews
+x-debug-url: /index.html
+cache-control: max-age=90, public
+accept-ranges: bytes
+date: Mon, 28 Apr 2025 04:27:08 GMT
+age: 82
+access-control-allow-origin: *
+access-control-allow-headers: *
+access-control-allow-credentials: false
+access-control-max-age: 86400
+access-control-allow-methods: GET,HEAD
+accept-ch: Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness
+permissions-policy: ch-ua-model=*,ch-ua-platform-version=*,ch-ua=*,ch-ua-mobile=*,ch-ua-platform=*,ch-ua-full-version-list=*,ch-ua-arch=*,ch-ua-bitness=*,ch-ua-model=*
+x-served-by: cache-iad-kiad7000170-IAD, cache-iad-kiad7000161-IAD, cache-phx1710047-PHX
+x-cache: MISS, HIT, HIT
+x-cache-hits: 0, 56, 1
+x-timer: S1745814428.378115,VS0,VE2
+vary: Accept-Encoding
+strict-transport-security: max-age=300
+content-length: 762325
+
+Final-URL: https://www.foxnews.com/

@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 28 Apr 2025 04:27:14 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://gravatar.com/
+
+HTTP/2 200 
+server: nginx
+date: Mon, 28 Apr 2025 04:27:14 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+content-language: en
+p3p: CP="CAO PSA"
+expires: Wed, 11 Jan 1984 05:00:00 GMT
+cache-control: no-cache, must-revalidate, max-age=0
+x-frame-options: SAMEORIGIN
+content-security-policy: default-src gravatar.com *.gravatar.com; script-src gravatar.com *.gravatar.com *.wp.com *.google-analytics.com *.googletagmanager.com *.facebook.net apis.google.com/js/ 'nonce-1f60ae7c9855' 'nonce-9b068983b5b7'; style-src 'self' gravatar.com *.gravatar.com *.wp.com fonts.googleapis.com 'nonce-9b068983b5b7' 'nonce-c5feed659082' 'sha256-NE3gBSsVG0IdyINKOXv7oHDjOD1hoJpOCZQDS8LzvUc=' 'sha256-biLFinpqYMtWHmXfkA1BPeCY0/fNt46SAZ+BBk5YUog=' 'sha256-ONA8DqqhBTsIrZzU3/jZyRdkNkkAGEU74EH252dbGS8=' 'sha256-uYx4ryugsGdahnaIId0IhtdPIgBkKBfNZg2/H0eWhqk=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-xi7Iu5TcqJkb4mlu0FHpAYfWWCETn5kNH3GPA4Coh4M=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-mwgLobMRVXHdR9ol/F3Pdp1ahpD5i83uCvWXMgFOoME=' 'sha256-Fw2RK+YpRih15zbXuAaoQAV98ZS+OLAX6wDQ2AkaEho=' 'sha256-t9/679CRyrVA6r3JGaAzcO+diam/7WLn6KXJHJuOzUI=' 'sha256-h0RPO0+/L+WC46JS6RvM6D3KN9C2LfMai6hxwzVFU2k=' 'sha256-YIktaUP7IBRwVksGEOmRykAcO2jHTw97BHns4OnHTIw=' 'sha256-MSTZvl0psO46WYZImeDzGMr7OqGRUy5RPDaeL19QpBk='; font-src data: gravatar.com *.gravatar.com *.wp.com fonts.gstatic.com; img-src data: https: blob:; media-src https://videos.files.wordpress.com/ s.gravatar.com blob:; frame-src gravatar.com *.gravatar.com automattic.crowdsignal.net widgets.wp.com; connect-src gravatar.com *.gravatar.com *.wp.com data: blob: *.google-analytics.com *.analytics.google.com analytics.google.com https://public-api.wordpress.com/ *.pexels.com *.giphy.com; object-src 'none'; base-uri 'self'; report-uri https://public-api.wordpress.com/csp/; worker-src 'self' blob:;
+alt-svc: h3=":443"; ma=86400
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+
+Final-URL: https://gravatar.com/

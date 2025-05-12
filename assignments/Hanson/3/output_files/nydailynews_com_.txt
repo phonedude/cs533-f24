@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 28 Apr 2025 04:27:36 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://nydailynews.com/
+
+HTTP/2 301 
+server: nginx
+date: Mon, 28 Apr 2025 04:27:36 GMT
+content-type: text/html; charset=UTF-8
+location: https://www.nydailynews.com/
+content-security-policy: default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: data: blob: wss://realtimeeventfeeds.viafoura.co; media-src blob: data: https:; object-src https:; child-src https: data: blob:; upgrade-insecure-requests; block-all-mixed-content;
+x-hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: WordPress VIP <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+x-redirect-by: WordPress
+x-rq: bur7 177 253 80
+x-cache: HIT
+cache-control: private
+
+HTTP/2 200 
+server: nginx
+date: Mon, 28 Apr 2025 04:27:37 GMT
+content-type: text/html; charset=UTF-8
+content-security-policy: default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: data: blob: wss://realtimeeventfeeds.viafoura.co; media-src blob: data: https:; object-src https:; child-src https: data: blob:; upgrade-insecure-requests; block-all-mixed-content;
+x-hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: WordPress VIP <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+link: <https://www.nydailynews.com/wp-json/>; rel="https://api.w.org/"
+link: <https://wp.me/e82Q8>; rel=shortlink
+x-rq: bur7 177 249 80
+accept-ranges: bytes
+x-cache: HIT
+cache-control: private
+
+Final-URL: https://www.nydailynews.com/

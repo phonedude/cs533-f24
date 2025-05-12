@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Mon, 28 Apr 2025 04:26:51 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://amazon.com/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Mon, 28 Apr 2025 04:26:52 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: https://www.amazon.com/
+
+HTTP/2 503 
+content-type: text/html
+server: Server
+date: Mon, 28 Apr 2025 04:26:52 GMT
+x-amz-rid: 8Q15R9CN4D894J2180C6
+vary: Content-Type,Accept-Encoding,User-Agent
+last-modified: Thu, 17 Apr 2025 06:06:47 GMT
+etag: "a6f-632f334f24bc0"
+accept-ranges: bytes
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+x-cache: Error from cloudfront
+via: 1.1 efcabe7b5ec775acb41f567d7bd5e8a6.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX52-P1
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: hb9aAZb2VqfIJsQ2TT2XDuIrDBNBCBGXiu_ntnEHRvEZ1UGDe5sOXg==
+
+Final-URL: https://www.amazon.com/

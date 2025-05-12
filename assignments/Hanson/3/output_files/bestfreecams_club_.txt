@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:26:56 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Mon, 28 Apr 2025 05:26:56 GMT
+Location: https://bestfreecams.club/
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=huIj%2BJ4U5N6KSSOWn7HG4dL1hoVCn8LKvYt1bVuCg7leYX7itdaPpwDsSmFS89wPfRKmGG2I2oiz0DLGcmJQijzgL5fU7uJZ5rybxTOe0%2BskaFK6cYEPFBoNHhth9MHV%2BAdrUQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9373cde88c077d7d-LAX
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=20390&min_rtt=20390&rtt_var=10195&sent=1&recv=3&lost=0&retrans=0&sent_bytes=0&recv_bytes=81&delivery_rate=0&cwnd=230&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+
+HTTP/2 301 
+date: Mon, 28 Apr 2025 04:26:57 GMT
+content-length: 0
+location: https://www.bestfreecams.club/
+x-amz-id-2: JocoNImP8YnNIvfm+OJc92kulAzjOo+qSbxCElvUpBKrx70FvOjWBROLzj6CQYgTs/UcT1yu8gk=
+x-amz-request-id: GW0878A6VMZN2XQ7
+server: cloudflare
+cf-cache-status: DYNAMIC
+cf-ray: 9373cde97f1d0fbd-LAX
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 28 Apr 2025 04:26:57 GMT
+content-type: text/html
+x-amz-id-2: P+I6Qi6tsD8PoEls3WgkIsVZ1j3YywZrKl6Q0OyW6iK6SvBWcKV78bxFsgxltCulivkyuoi0Jes=
+x-amz-request-id: GW03ZH5J9F7NTKDR
+last-modified: Sun, 17 Jan 2021 11:50:09 GMT
+server: cloudflare
+cf-cache-status: DYNAMIC
+cf-ray: 9373cdecbb697cbc-LAX
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://www.bestfreecams.club/

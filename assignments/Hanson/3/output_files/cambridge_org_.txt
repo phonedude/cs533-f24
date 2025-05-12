@@ -1,0 +1,22 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Mon, 28 Apr 2025 04:27:01 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: https://www.cambridge.org:443/
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=dcEdMQdM7T3JU1fJ6lRweejxYpvY8IUAaUvgunPqVMs-1745814421-1.0.1.1-_cEgpWXldH9cQMQ4EgOVj6M364rxV2fiPEeXRElyaZx_aR7CKWdyXBubd_Wi.HZzbrARu8FLy2ZoOj9KBp8t4i5mrM6Exo0WCMUbkVUrsH4; path=/; expires=Mon, 28-Apr-25 04:57:01 GMT; domain=.cambridge.org; HttpOnly
+Server: cloudflare
+CF-RAY: 9373ce02c87652d7-LAX
+
+HTTP/2 403 
+date: Mon, 28 Apr 2025 04:27:01 GMT
+content-type: text/html; charset=UTF-8
+x-frame-options: SAMEORIGIN
+referrer-policy: same-origin
+cache-control: max-age=15
+expires: Mon, 28 Apr 2025 04:27:16 GMT
+set-cookie: __cf_bm=M3oSc0a8eSQAi0eyOO9USytJliWFFfMLZXJT.MBwIcI-1745814421-1.0.1.1-bFOzTg.53jnQ8Gy6lPIIsyeBpYemuZhO8HcFO_yAPeKfZg4zAyj3_VYQHabHVJ6Tt2_pzpLS_t4hZvIAsUtGkVmeLhTAguJLCqT51182fB8; path=/; expires=Mon, 28-Apr-25 04:57:01 GMT; domain=.cambridge.org; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 9373ce068d65ef78-LAX
+
+Final-URL: https://www.cambridge.org:443/

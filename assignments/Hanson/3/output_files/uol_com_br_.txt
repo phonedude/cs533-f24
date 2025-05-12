@@ -1,0 +1,20 @@
+HTTP/1.0 301 Moved Permanently
+Location: https://www.uol.com.br/
+Cache-Control: max-age=60
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/2 200 
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: frame-ancestors 'self' *.intranet *.uolinc.com;
+cache-control: no-transform, max-age=10, must-revalidate, proxy-revalidate
+last-modified: Mon, 28 Apr 2025 04:28:13 GMT
+content-type: text/html;charset=UTF-8
+etag: "2c6e6f1d81a0d09a51715ad12382888d"
+expires: Mon, 28 Apr 2025 04:28:24 GMT
+date: Mon, 28 Apr 2025 04:28:14 GMT
+akamai-cache-status: Miss from child, Miss from parent
+akamai-grn: 0.abcfdb17.1745814494.15b83de8
+
+Final-URL: https://www.uol.com.br/

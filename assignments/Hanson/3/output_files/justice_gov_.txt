@@ -1,0 +1,33 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://justice.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.0 301 Moved Permanently
+Location: https://www.justice.gov/
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Connection: close
+Content-Length: 0
+
+HTTP/2 200 
+content-language: en
+content-type: text/html; charset=UTF-8
+etag: "1745813892"
+last-modified: Mon, 28 Apr 2025 04:18:12 GMT
+server: nginx
+x-age: 315
+x-ah-environment: prod
+x-cache-hits: 6
+x-content-type-options: nosniff
+x-drupal-dynamic-cache: UNCACHEABLE (poor cacheability)
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 10 (https://www.drupal.org)
+x-request-id: v-ccc23d0e-23e7-11f0-9083-2fe0766918bd
+x-xss-protection: 1; mode=block
+cache-control: public, max-age=397
+expires: Mon, 28 Apr 2025 04:33:57 GMT
+date: Mon, 28 Apr 2025 04:27:20 GMT
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+Final-URL: https://www.justice.gov/

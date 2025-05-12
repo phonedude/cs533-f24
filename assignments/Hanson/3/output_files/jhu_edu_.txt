@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.27.2
+Date: Mon, 28 Apr 2025 04:27:19 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Location: https://www.jhu.edu/
+
+HTTP/2 200 
+server: nginx/1.27.2
+content-type: text/html; charset=UTF-8
+x-powered-by: PHP/8.3.20
+link: <https://www.jhu.edu/wp-json/>; rel="https://api.w.org/", <https://www.jhu.edu/wp-json/wp/v2/pages/12375>; rel="alternate"; title="JSON"; type="application/json", <https://www.jhu.edu/>; rel=shortlink
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin
+permissions-policy: geolocation=(),midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+cache-control: max-age=1454
+expires: Mon, 28 Apr 2025 04:51:33 GMT
+date: Mon, 28 Apr 2025 04:27:19 GMT
+
+Final-URL: https://www.jhu.edu/

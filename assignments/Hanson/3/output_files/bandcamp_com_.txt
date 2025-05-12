@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://bandcamp.com/
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:26:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx1710079-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745814416.553218,VS0,VE0
+
+HTTP/2 200 
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-p3Yj8NSbwQwOyFTd9QdJCw==' 'report-sample' 'strict-dynamic'
+set-cookie: BACKENDID3=flexocentral-ddlg-3; path=/; Secure
+server: nginx
+link: <https://bandcamp.com/>;   rel="canonical"
+content-type: text/html; charset=UTF-8
+accept-ranges: bytes
+via: 1.1 varnish, 1.1 varnish
+date: Mon, 28 Apr 2025 04:26:56 GMT
+x-served-by: cache-phx1710033-PHX, cache-phx1710081-PHX
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1745814416.609230,VS0,VE621
+vary: Accept-Encoding, Accept-Encoding
+strict-transport-security: max-age=63072000
+content-length: 412114
+
+Final-URL: https://bandcamp.com/

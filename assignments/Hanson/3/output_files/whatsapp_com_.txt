@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://whatsapp.com/
+Content-Type: text/plain
+Server: proxygen-bolt
+Date: Mon, 28 Apr 2025 04:28:15 GMT
+Connection: keep-alive
+Content-Length: 0
+
+HTTP/2 302 
+location: https://www.whatsapp.com/
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+content-type: text/plain
+content-length: 0
+server: proxygen-bolt
+date: Mon, 28 Apr 2025 04:28:15 GMT
+x-fb-connection-quality: EXCELLENT; q=0.9, rtt=14, rtx=0, c=14, mss=1380, tbw=3297, tp=-1, tpl=-1, uplat=0, ullat=-1
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+vary: Accept-Encoding
+set-cookie: wa_csrf=kue-bzYJpCom56eEHdwlKe; path=/; domain=.whatsapp.com; secure; httponly
+set-cookie: wa_lang_pref=en; expires=Mon, 05-May-2025 04:28:15 GMT; Max-Age=604800; path=/; domain=.whatsapp.com; secure
+set-cookie: wa_ul=a66dd694-cecc-46cf-9bad-5ddecec0d254; expires=Sun, 27-Jul-2025 04:28:15 GMT; Max-Age=7776000; path=/; domain=.www.whatsapp.com; secure; httponly; SameSite=Lax
+reporting-endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", coep_report="https://www.facebook.com/browser_reporting/coep/?minimize=0", default="https://www.whatsapp.com/whatsapp_browser_error_reports/?device_level=unknown&cpp=C3&cv=1022283520&st=1745814495805", permissions_policy="https://www.whatsapp.com/whatsapp_browser_error_reports/"
+report-to: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":86400,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coep\/?minimize=0"}],"group":"coep_report"}, {"max_age":259200,"endpoints":[{"url":"https:\/\/www.whatsapp.com\/whatsapp_browser_error_reports\/?device_level=unknown&cpp=C3&cv=1022283520&st=1745814495805"}]}, {"max_age":21600,"endpoints":[{"url":"https:\/\/www.whatsapp.com\/whatsapp_browser_error_reports\/"}],"group":"permissions_policy"}
+content-security-policy-report-only: default-src 'self' blob:;script-src *.whatsapp.com *.whatsapp.net *.facebook.com *.facebook.net 'nonce-fFNfvrPK' 'self' blob: 'report-sample';style-src *.whatsapp.com *.whatsapp.net 'unsafe-inline' *.facebook.com 'self' data: blob:;connect-src *.whatsapp.com *.whatsapp.net wss://*.facebook.com:* *.fbcdn.net 'self' data: blob:;font-src *.whatsapp.com *.whatsapp.net *.facebook.com static.xx.fbcdn.net data:;img-src *.whatsapp.com *.whatsapp.net *.facebook.com *.fbcdn.net static.xx.fbcdn.net 'self' data: blob:;media-src *.fbcdn.net 'self' data: blob:;child-src 'self' data: blob:;frame-src *.facebook.com *.whatsapp.com 'self' data: blob:;manifest-src 'self' data: blob:;object-src 'self' data: blob:;worker-src *.whatsapp.com *.whatsapp.net *.facebook.com *.facebook.net 'nonce-fFNfvrPK' 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;report-uri https://www.facebook.com/csp/reporting/?minimize=0;
+content-security-policy: default-src 'self' blob:;script-src *.whatsapp.com *.whatsapp.net *.facebook.com *.facebook.net 'nonce-fFNfvrPK' 'self' data: blob:;style-src *.whatsapp.com *.whatsapp.net 'unsafe-inline' *.facebook.com 'self' data: blob:;connect-src *.whatsapp.com *.whatsapp.net wss://*.facebook.com:* *.fbcdn.net 'self' data: blob:;font-src *.whatsapp.com *.whatsapp.net *.facebook.com static.xx.fbcdn.net data:;img-src *.whatsapp.com *.whatsapp.net *.facebook.com *.fbcdn.net static.xx.fbcdn.net 'self' data: blob:;media-src *.fbcdn.net 'self' data: blob:;child-src 'self' data: blob:;frame-src *.facebook.com *.whatsapp.com 'self' data: blob:;manifest-src 'self' data: blob:;object-src 'self' data: blob:;worker-src *.whatsapp.com *.whatsapp.net *.facebook.com *.facebook.net 'nonce-fFNfvrPK' 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;
+permissions-policy: accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to="permissions_policy"
+cross-origin-resource-policy: same-origin
+cross-origin-embedder-policy-report-only: require-corp;report-to="coep_report"
+cross-origin-opener-policy: same-origin-allow-popups
+pragma: no-cache
+cache-control: private, no-cache, no-store, must-revalidate
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: DENY
+origin-agent-cluster: ?1
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+content-type: text/html; charset="utf-8"
+x-fb-debug: u8sap5tV3I8NR0YijcBiknVkxeZ9HUxnDLQfTCt8ecjPCOX2sQHuARnxo1Ag85VkfZxz9BTK6FvpAQEh4Y1lBg==
+date: Mon, 28 Apr 2025 04:28:16 GMT
+x-fb-connection-quality: EXCELLENT; q=0.9, rtt=16, rtx=0, c=16, mss=1380, tbw=3317, tp=-1, tpl=-1, uplat=323, ullat=0
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://www.whatsapp.com/

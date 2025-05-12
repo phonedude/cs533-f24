@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private
+Location: https://myspace.com:443/
+Content-Length: 0
+Date: Mon, 28 Apr 2025 04:27:33 GMT
+Content-Type: text/html; charset=UTF-8
+
+HTTP/2 200 
+vary: Accept-Encoding
+set-cookie: persistent_id=pid%3D0d5216b6-b08c-4633-a990-50cb4120f413%26llid%3D%26lprid%3D%26lltime%3D; domain=.myspace.com; path=/; expires=Sun, 23 Apr 2045 04:40:32 GMT; httpOnly
+set-cookie: visit_id=933bce64-10cc-427e-be7b-a924ac4f850b; domain=.myspace.com; path=/; expires=Mon, 28 Apr 2025 05:10:32 GMT; httpOnly
+set-cookie: beacons_enabled=true; domain=.myspace.com; path=/; expires=Mon, 28 Apr 2025 05:10:32 GMT
+set-cookie: player=sequenceId%3D-1%26paused%3Dtrue%26currentTime%3D0%26volume%3D0.5%26mute%3Dfalse%26shuffled%3Dfalse%26repeat%3Doff%26mode%3Dqueue%26pinned%3Dfalse%26streamStartDateTime%3D%26at%3D360%26incognito%3Dfalse%26allowSkips%3Dtrue%26ccOn%3Dfalse; domain=.myspace.com; path=/; expires=Wed, 28 May 2025 04:40:32 GMT
+x-trackingid: 5694153d-5b4c-451c-b6af-0adac7539443
+cache-control: no-cache
+strict-transport-security: max-age=31536000
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+content-type: text/html; charset=utf-8
+content-length: 247452
+x-response-time: 95ms
+date: Mon, 28 Apr 2025 04:40:32 GMT
+via: 1.1 google, 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+Final-URL: https://myspace.com:443/

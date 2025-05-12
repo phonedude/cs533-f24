@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 28 Apr 2025 04:27:05 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://enable-javascript.com/
+
+HTTP/2 301 
+server: nginx
+date: Mon, 28 Apr 2025 04:27:06 GMT
+content-type: text/html
+content-length: 162
+location: https://www.enable-javascript.com/
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+
+HTTP/2 200 
+server: nginx
+date: Mon, 28 Apr 2025 04:27:06 GMT
+content-type: text/html; charset=UTF-8
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+
+Final-URL: https://www.enable-javascript.com/

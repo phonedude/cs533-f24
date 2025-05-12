@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Mon, 28 Apr 2025 04:26:50 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://alexa.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 4892b1ac8a5bf76f6f3908b66c300c8c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: PHX50-P1
+X-Amz-Cf-Id: TIeU4nWY4ELTQQkJt1a6Jo4cKXhMM6rVDNkD9OlkEsz9j0vGeqJwQA==
+
+HTTP/2 302 
+content-type: application/octet-stream
+content-length: 0
+location: https://www.amazon.com/dp/B0DCCNHWV5?ref=aucc_web_red_xaa_evgn_tx_0001
+server: awselb/2.0
+date: Mon, 28 Apr 2025 04:26:48 GMT
+x-cache: Hit from cloudfront
+via: 1.1 fe7a664e98e1fa233d473b9022e08898.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX50-P1
+x-amz-cf-id: ooXfmiFm_ADvrUOE2VrlxPrTGzsWdgcpGu8a3whU95dKlsreZ7bHlA==
+age: 2
+
+HTTP/2 503 
+content-type: text/html
+date: Mon, 28 Apr 2025 04:26:50 GMT
+expires: -1
+cache-control: no-cache
+pragma: no-cache
+x-cache: Error from cloudfront
+via: 1.1 7db6a248c1f3099c158c6701a621c266.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX52-P1
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: BE21RCFPH8gMdE41vtiyM_bcy80OLIVeXmgSrFs2e9z8o1tej5wOiA==
+
+Final-URL: https://www.amazon.com/dp/B0DCCNHWV5?ref=aucc_web_red_xaa_evgn_tx_0001

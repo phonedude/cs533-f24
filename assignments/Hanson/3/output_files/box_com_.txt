@@ -1,0 +1,47 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private
+Location: https://box.com:443/
+Content-Length: 0
+Date: Mon, 28 Apr 2025 04:27:00 GMT
+Content-Type: text/html; charset=UTF-8
+
+HTTP/2 301 
+cache-control: private
+location: https://www.box.com/
+content-length: 0
+date: Mon, 28 Apr 2025 04:27:00 GMT
+content-type: text/html; charset=UTF-8
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+date: Mon, 28 Apr 2025 04:27:00 GMT
+content-type: text/html; charset=UTF-8
+access-control-allow-origin: *
+box-country: US
+cache-control: max-age=30, public, s-maxage=2592000
+content-language: en
+content-security-policy: default-src * 'self' blob: data: 'unsafe-inline'; font-src 'self' data: fonts.googleapis.com fonts.gstatic.com; report-uri /report-csp-violation
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Thu, 24 Apr 2025 23:17:28 GMT
+link: <//cdn03.boxcdn.net>; rel=preconnect; crossorigin
+strict-transport-security: max-age=2592000; includeSubDomains; preload
+vary: Cookie,Box-Country,X-Box-Geo-Country,X-Consumer-ID,X-Frame-Options,Accept-Encoding
+via: varnish
+x-ah-environment: prod
+x-box-geo-country: US
+x-cache: HIT
+x-cache-hits: 2
+x-consumer-id: default_consumer
+x-content-type-options: nosniff
+x-request-id: v-49ff294a-2162-11f0-a37f-93b940a95ab5
+x-xss-protection: 1; mode=block
+cf-cache-status: HIT
+age: 277772
+set-cookie: __cf_bm=l6LhGQmqWHCO5J_yPhHzgSc0Y9SLa6NMtr9D4Qi36x8-1745814420-1.0.1.1-d.6EInVmGj1AwA9_HPem1ye8yauzAP2Uw.lnO2bxYIlGrrBj5lTM3oOSRh22KaCUbX8kJow6oxGyybDSDffqjWIwwnfqMgnoV4zNwhEaDMI; path=/; expires=Mon, 28-Apr-25 04:57:00 GMT; domain=.box.com; HttpOnly; Secure; SameSite=None
+x-frame-options: SAMEORIGIN
+aaa-loc-header: US
+server: cloudflare
+cf-ray: 9373ce002af61007-LAX
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://www.box.com/

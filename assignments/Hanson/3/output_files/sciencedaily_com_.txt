@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Mon, 28 Apr 2025 04:27:58 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://sciencedaily.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 731f87fb6b20f5081d003fc098e7e068.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: PHX50-C2
+X-Amz-Cf-Id: AdCm8z_CQCJFB9GvMyhjh98S6ZxfhiEUUL4tOmLRcbpf-XDNcGho3g==
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: frame-ancestors 'self'; upgrade-insecure-requests
+X-Content-Type-Options: nosniff
+
+HTTP/2 403 
+server: CloudFront
+date: Mon, 28 Apr 2025 04:27:58 GMT
+content-type: text/html
+content-length: 919
+x-cache: Error from cloudfront
+via: 1.1 3121d2e54e5ff8e2983790ff921d76ec.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX50-C2
+x-amz-cf-id: RyAbyX9mwcWgBsZ-efeF-RSMnSJwc3vvH01zP5SSwsElW1e37at-bw==
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests
+x-content-type-options: nosniff
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+
+Final-URL: https://sciencedaily.com/

@@ -1,0 +1,21 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 28 Apr 2025 04:27:48 GMT
+Content-Type: text/html
+Connection: close
+Location: https://www.ouest-france.fr
+Cache-Control: max-age=10800
+Vary: Accept-Language
+
+HTTP/2 403 
+server: AkamaiGHost
+mime-version: 1.0
+content-length: 15324
+cache-control: no-cache, no-store, must-revalidate
+pragma: no-cache
+expires: 0
+content-type: text/html
+date: Mon, 28 Apr 2025 04:27:48 GMT
+x-n: S
+
+Final-URL: https://www.ouest-france.fr/

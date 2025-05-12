@@ -1,0 +1,29 @@
+HTTP/1.1 302 Found
+Location: https://books.google.com/?hl=en
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+X-Content-Type-Options: nosniff
+Date: Mon, 28 Apr 2025 04:26:59 GMT
+Server: OFE/0.1
+Content-Length: 228
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: NID=523=MemgiGsxjx6ePFZEE3DBrwCOU686l3GmsEPDuoliKMvUzRV5mMLAYB-4WoQOJxk9QTPcPPeS2x0dHyWgBlxwLiL-TA98CHIDJnn5zQUe06gswiCJbhFAQ0_OnYNP0XWWhoOMRPZjHu53C2MesnNVoiuQ6qiezQaTjTepj-ko011ywIlaP6yjGiMbtPT5susRXkMZuaM; expires=Tue, 28-Oct-2025 04:26:59 GMT; path=/; domain=.google.com; HttpOnly
+
+HTTP/2 200 
+date: Mon, 28 Apr 2025 04:27:00 GMT
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=604800
+pragma: no-cache
+content-type: text/html; charset=ISO-8859-1
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+x-content-type-options: nosniff
+server: OFE/0.1
+set-cookie: NID=523=pk3ED8rJucg-y2pRABi6Q5DHykdDNTPs9vsiNbRAskqNmWbFZKeqGDO30fJISdDC38XmhjEJmQtpZnev7xPfJMnSqwl-KCCdfJ7hpEE3wRIM0OZSgkGNKkZBYexSsqhrtgxqH1_xYYv1rvCgtPp6xtRz7l6g-avyjNXIHFngQ2qbZKXg73MaM_ylufXYh6l6kqUAXA; expires=Tue, 28-Oct-2025 04:27:00 GMT; path=/; domain=.google.com; HttpOnly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+Final-URL: https://books.google.com/?hl=en

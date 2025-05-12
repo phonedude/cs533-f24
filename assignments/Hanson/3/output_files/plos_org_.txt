@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:27:49 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://plos.org/
+CF-Ray: 9373cf345f8bdbcc-LAX
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+ki-cache-type: None
+Ki-CF-Cache-Status: BYPASS
+ki-edge: v=21.0.0;mv=4.1.1
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+Set-Cookie: __cf_bm=BydbFhcf4Ls6thjneZnS1rQDm53AojJ12_oUoZfpXNc-1745814469-1.0.1.1-Ynta1Kzl8leIzGHhdt3QIL_jALJfIAPchOXut4fMCy7dB4q497lPH_HjWmtLJExd2FasjQKafxVhL8FAYOiO2jGmBmR5abX8rtwN1DsN7fI; path=/; expires=Mon, 28-Apr-25 04:57:49 GMT; domain=.plos.org; HttpOnly
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=AegiMcOH3GcjFU82aAo43waWJDwVu4Zrmphqa%2BT8ZvCb28sCc6nq38IYn6SXtZgVtNuEqzq0l%2BkoqvpKE49VQBkjSIsipoIXYFXXkkdP3fu%2BzHPCQi4ZLzfY"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 28 Apr 2025 04:27:50 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: 9373cf363aff7ba7-LAX
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+link: <https://plos.org/wp-json/>; rel="https://api.w.org/", <https://plos.org/wp-json/wp/v2/pages/51>; rel="alternate"; title="JSON"; type="application/json", <https://plos.org/>; rel=shortlink
+vary: Accept-Encoding
+ki-cache-type: None
+ki-cf-cache-status: BYPASS
+ki-edge: v=21.0.0;mv=4.1.1
+x-content-type-options: nosniff
+x-edge-location-klb: 1
+x-kinsta-cache: HIT
+set-cookie: __cf_bm=Fyafc5S6hO09rQGJ42ixA9YeUGE1FJFFjdQSfLoPfjM-1745814470-1.0.1.1-fjwyDDoV5ldgMU8hEKJkAkcUHQK7PxabUUsOdIt5tYwx0joq3Va.Q9EWO_Duzbr.ScYOahSlHAJoNgRDUMMUiiFJBYq.p9UrOrUpKqWuiyc; path=/; expires=Mon, 28-Apr-25 04:57:50 GMT; domain=.plos.org; HttpOnly; Secure; SameSite=None
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=e1pa6jAVvKF3J6Cyk4GZwW2NAK1fDuvbpTMB6aS2VWLLeza1v7o2aZiWNCB10bjT560CSlZTXyaXaabTOG8YRBIXedPw%2B3QFtVoIta8cgfK04P0C46W0s%2Fj9"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://plos.org/

@@ -1,0 +1,48 @@
+HTTP/1.1 301 Moved permanently
+X-Yandex-Req-Id: 1745814499834352-607337268224744438-balancer-l7leveler-kubr-yp-sas-90-BAL
+Location: https://yandex.com/
+Date: Mon, 28 Apr 2025 04:28:19 GMT
+Cache-Control: max-age=86400,private
+NEL: {"report_to": "network-errors", "max_age": 100, "success_fraction": 0.001, "failure_fraction": 0.1}
+Portal: Home
+set-cookie: is_gdpr=0; Path=/; Domain=.yandex.com; Expires=Wed, 28 Apr 2027 04:28:19 GMT
+set-cookie: is_gdpr_b=CKj9UhCnvQIoAg==; Path=/; Domain=.yandex.com; Expires=Wed, 28 Apr 2027 04:28:19 GMT
+set-cookie: _yasc=y4UOLT+vVDHiFIvle0gZoV8yEwxZpzvaN3LhG2Sqqpr4vQdl1/jetlYYnOpF6IFKjWY=; domain=.yandex.com; path=/; expires=Thu, 26 Apr 2035 04:28:19 GMT; secure
+set-cookie: receive-cookie-deprecation=1; Path=/; Domain=.yandex.com; Expires=Tue, 28 Apr 2026 04:28:19 GMT; SameSite=None; Secure; HttpOnly; Partitioned
+set-cookie: bh=YOOHvMAGagL/VQ==; Path=/; Domain=.yandex.com; Expires=Tue, 02 Jun 2026 04:28:19 GMT
+X-Content-Type-Options: nosniff
+Report-To: { "group": "network-errors", "max_age": 100, "endpoints": [{"url": "https://dr.yandex.net/nel", "priority": 1}, {"url": "https://dr2.yandex.net/nel", "priority": 2}]}
+P3P: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
+Accept-CH: Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT, Width
+
+HTTP/2 200 
+x-content-type-options: nosniff
+nel: {"report_to": "network-errors", "max_age": 100, "success_fraction": 0.001, "failure_fraction": 0.1}
+accept-ch: Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT, Width
+content-security-policy: script-src 'unsafe-inline' https://mc.yandex.com https://yandex.com https://surveys.yandex.ru https://yastatic.net https://mc.yandex.ru https://*.mc.yandex.ru https://adstat.yandex.ru 'unsafe-eval';frame-src https://*.ya.ru https://*.yandex.ru https://ya.ru https://yandex.ru https://yandex.com https://mc.yandex.ru https://mc.yandex.md https://mc.yandex.com https://*.ya.ru https://*.yandex.ru https://ya.ru https://yandex.ru;style-src 'unsafe-inline' https://yastatic.net;report-uri https://csp.yandex.net/csp?project=morda&from=morda.big.com&showid=1745814500578491-209777438462890652-balancer-l7leveler-kubr-yp-sas-159-BAL&h=home-mordago-stable-web-backend-60.sas.yp-c.yandex.net&yandexuid=7628906521745814500&&version=2025-04-25-822&adb=0;media-src https://yastatic.net;connect-src https://*.strm.yandex.net https://mc.yandex.com https://yandex.com https://surveys.yandex.ru https://yastatic.net https://yastat.net https://mc.yandex.ru https://*.mc.yandex.ru https://adstat.yandex.ru https://mc.admetrica.ru https://*.yandex.net https://an.yandex.ru https://yandex.ru;img-src https://*.verify.yandex.ru https://*.ya.ru https://*.yandex.ru https://ya.ru https://yabs.yandex.by https://yabs.yandex.kz https://yabs.yandex.ru https://yabs.yandex.uz https://yandex.ru https://yandex.com https://favicon.yandex.net https://yastatic.net https://avatars.mds.yandex.net 'self' data: https://mc.admetrica.ru https://mc.yandex.com https://*.mc.yandex.ru https://adstat.yandex.ru https://mc.yandex.ru;default-src 'self' https://yastatic.net https://yastat.net;font-src https://yastatic.net
+x-yandex-req-id: 1745814500578491-209777438462890652-balancer-l7leveler-kubr-yp-sas-159-BAL
+set-cookie: yandex_gid=103304; Path=/; Domain=yandex.com; Expires=Wed, 28 May 2025 04:28:20 GMT
+set-cookie: yp=1748406500.ygu.1; Path=/; Domain=yandex.com; Expires=Thu, 26 Apr 2035 04:28:20 GMT
+set-cookie: is_gdpr=0; Path=/; Domain=.yandex.com; Expires=Wed, 28 Apr 2027 04:28:20 GMT
+set-cookie: is_gdpr_b=CKj9UhCnvQIoAg==; Path=/; Domain=.yandex.com; Expires=Wed, 28 Apr 2027 04:28:20 GMT
+set-cookie: _yasc=Qw48EdQhCk4WeoGf9ii/9ZXVqKwn3hnJ04j0NEKM+quxL0YkYeq31qHlSdSSM5wNF0JW; domain=.yandex.com; path=/; expires=Thu, 26 Apr 2035 04:28:20 GMT; secure
+set-cookie: i=TtJ37tswEH9UtXf5BuBUAKBHd2Did+TuaC3CK9gztTBYVX6oszk5voShkF5+VG7JYj5tQv1XYoBCLxs9C5u+GQlmsa0=; Expires=Wed, 28-Apr-2027 04:28:20 GMT; Domain=.yandex.com; Path=/; Secure; HttpOnly
+set-cookie: yandexuid=7628906521745814500; Expires=Wed, 28-Apr-2027 04:28:20 GMT; Domain=.yandex.com; Path=/; Secure
+set-cookie: yashr=6944508941745814500; Path=/; Domain=.yandex.com; Expires=Tue, 28 Apr 2026 04:28:20 GMT; Secure; HttpOnly
+set-cookie: receive-cookie-deprecation=1; Path=/; Domain=.yandex.com; Expires=Tue, 28 Apr 2026 04:28:20 GMT; SameSite=None; Secure; HttpOnly; Partitioned
+set-cookie: bh=YOSHvMAGagL/VQ==; Path=/; Domain=.yandex.com; Expires=Tue, 02 Jun 2026 04:28:20 GMT
+p3p: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
+expires: Mon, 28 Apr 2025 04:28:20 GMT
+content-type: text/html; charset=UTF-8
+x-frame-options: DENY
+report-to: { "group": "network-errors", "max_age": 100, "endpoints": [{"url": "https://dr.yandex.net/nel", "priority": 1}, {"url": "https://dr2.yandex.net/nel", "priority": 2}]}
+last-modified: Mon, 28 Apr 2025 04:28:20 GMT
+vary: Cookie,Accept-Language,Accept-Encoding
+link: <//yastatic.net/s3/frontend/yandex-int/mini-suggest/_/V7if85wf.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+link: <https://yastatic.net/react/18.2.0/react-with-dom.min.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+link: <https://yastatic.net/s3/home-static/_/nova/6af97c5536f4d7a717162a46afa7ab315612946ea33b5f61698b8822a22ab932.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+date: Mon, 28 Apr 2025 04:28:20 GMT
+reporting-endpoints: default="https://yandex.com/portal/front/reports/?slots=912280%2C0%2C11&region=103304&reqid=1745814500578491-209777438462890652-balancer-l7leveler-kubr-yp-sas-159-BAL&dc=sas&page=desktop.global&enableOtherTypes=0"
+cache-control: no-cache,no-store,max-age=0,must-revalidate
+
+Final-URL: https://yandex.com/

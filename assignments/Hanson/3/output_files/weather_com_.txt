@@ -1,0 +1,78 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://weather.com/
+Expires: Mon, 28 Apr 2025 04:28:15 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Mon, 28 Apr 2025 04:28:15 GMT
+Connection: keep-alive
+Set-Cookie: ci=TWC-Locale-Group=US&TWC-Device-Class=desktop&X-Origin-Hint=PROD-AWS-Daybreak-home&TWC-Network-Type=wifi&TWC-GeoIP-Country=US&TWC-GeoIP-Lat=33.4486&TWC-GeoIP-Long=-112.0733&TWC-Privacy=usa&TWC-GeoIP-DMA=753&TWC-GeoIP-City=PHOENIX&TWC-GeoIP-Region=AZ; path=/; domain=.weather.com; secure
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Property-id: TWC-WX-Prod
+TWC-PATH-LOCALE: /
+TWC-Experiment: e30=
+X-IN-EW-Prod: True
+TWC-Unit: u
+TWC-Privacy: usa
+TWC-GeoIP-Region: AZ
+TWC-GeoIP-City: PHOENIX
+TWC-GeoIP-DMA: 753
+TWC-GeoIP-LatLong: 33.4486,-112.0733
+TWC-GeoIP-Country: US
+TWC-Device-Class: desktop
+TWC-Locale-Group: US
+Strict-Transport-Security: max-age=15552000; preload
+TWC-AK-Req-ID: 2a6ac4da
+X-Origin-Hint: PROD-AWS-Daybreak-home
+Set-Cookie: gbuuid=f5bdafed-51ed-4433-83a7-67153690c498; Expires=Wed, 28 May 2025 04:28:15 GMT; Domain=.weather.com; Path=/
+twc-subs: none
+Server-Timing: ak_p; desc="1745814495438_399098290_711640282_12_14332_13_0_-";dur=1
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+webcakes-app-name: daybreak-home
+webcakes-app-version: 1.0.0-95356748e3
+webcakes-region: us-east-1
+etag: "1b5103-rMZBxnGJ0IqPohGo3hjOpi925JI"
+expires: Mon, 28 Apr 2025 04:28:15 GMT
+cache-control: max-age=0, no-cache
+pragma: no-cache
+date: Mon, 28 Apr 2025 04:28:15 GMT
+set-cookie: ci=TWC-Locale-Group=US&TWC-Device-Class=desktop&X-Origin-Hint=PROD-AWS-Daybreak-home&TWC-Network-Type=wifi&TWC-GeoIP-Country=US&TWC-GeoIP-Lat=33.4486&TWC-GeoIP-Long=-112.0733&TWC-Privacy=usa&TWC-GeoIP-DMA=753&TWC-GeoIP-City=PHOENIX&TWC-GeoIP-Region=AZ; path=/; domain=.weather.com; secure
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: *
+access-control-allow-methods: GET,POST,OPTIONS
+access-control-allow-origin: *
+property-id: TWC-WX-Prod
+x-lma: PS
+twc-path-locale: /
+twc-experiment: e30=
+x-in-ew-prod: True
+twc-unit: u
+twc-privacy: usa
+twc-geoip-region: AZ
+twc-geoip-city: PHOENIX
+twc-geoip-dma: 753
+twc-geoip-latlong: 33.4486,-112.0733
+twc-geoip-country: US
+twc-device-class: desktop
+twc-locale-group: US
+strict-transport-security: max-age=15552000; preload
+twc-ak-req-id: 2a6ac540
+x-origin-hint: PROD-AWS-Daybreak-home
+set-cookie: gbuuid=85f69d6b-bdec-4471-92de-e2c2c4fe35a1; Expires=Wed, 28 May 2025 04:28:15 GMT; Domain=.weather.com; Path=/
+twc-subs: none
+server-timing: ak_p; desc="1745814495486_399098290_711640384_1177_10035_15_35_15";dur=1
+
+Final-URL: https://weather.com/

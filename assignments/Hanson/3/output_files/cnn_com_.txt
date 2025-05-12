@@ -1,0 +1,48 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+cache-control: max-age=300, public
+location: https://www.cnn.com/
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:27:01 GMT
+Via: 1.1 varnish
+set-cookie: SecGpc=0; Domain=.cnn.com; Path=/; SameSite=Lax
+set-cookie: countryCode=US; Domain=.cnn.com; Path=/; SameSite=Lax
+set-cookie: stateCode=AZ; Domain=.cnn.com; Path=/; SameSite=Lax
+set-cookie: geoData=tempe|AZ|85282|US|NA|-700|cable|33.400|-111.920|753; Domain=.cnn.com; Path=/; SameSite=Lax
+X-Served-By: cache-phx1710059-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745814422.664139,VS0,VE2
+Vary: Origin
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/2 200 
+x-last-modified: Mon, 28 Apr 2025 04:18:37 GMT
+cache-control: max-age=60
+x-content-hub: build-env=prod; unique-deployment-key=rn0423af; build-version=v6.4.6-0-g66813625a4; build-commit-hash=66813625a47398616a9a8173469a08999d666461
+x-content-type-options: nosniff
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*; script-src 'unsafe-eval' 'unsafe-inline' 'self' *; style-src 'unsafe-inline' 'self' blob: *; child-src 'self' blob: *; frame-src 'self' *; object-src 'self' *; img-src 'self' data: blob: *; media-src 'self' data: blob: *; font-src 'self' data: *; connect-src 'self' data: *; frame-ancestors 'self' https://*.cnn.com:* http://*.cnn.com https://*.cnn.io:* http://*.cnn.io:* *.turner.com:* courageousstudio.com;
+via: 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Mon, 28 Apr 2025 04:27:01 GMT
+age: 491
+set-cookie: SecGpc=0; Domain=.cnn.com; Path=/; SameSite=None; Secure
+set-cookie: countryCode=US; Domain=.cnn.com; Path=/; SameSite=None; Secure
+set-cookie: stateCode=AZ; Domain=.cnn.com; Path=/; SameSite=None; Secure
+set-cookie: geoData=tempe|AZ|85282|US|NA|-700|cable|33.400|-111.920|753; Domain=.cnn.com; Path=/; SameSite=None; Secure
+set-cookie: FastAB=0=3927,1=3715,2=0552,3=9233,4=5626,5=1178,6=6777,7=2240,8=5539,9=7470,10=5320,11=6795,12=0532,13=0913,14=0518,15=5234,16=1186,17=9156,18=7723,19=2694; Domain=.cnn.com; Path=/; Expires=Tue, 28 Apr 2026 04:27:01 GMT; SameSite=Lax; HttpOnly
+set-cookie: wbdFch=47e3627e40d21dbd6624a36f909f4c463ae8d3e6; Domain=www.cnn.com; Path=/; Max-Age=30; SameSite=None; Secure
+x-served-by: cache-iad-kcgs7200156-IAD, cache-iad-kcgs7200113-IAD, cache-phx1710077-PHX
+x-cache: MISS, HIT, HIT
+x-cache-hits: 0, 355, 1
+x-timer: S1745814422.745440,VS0,VE5
+vary: Accept-Encoding,Origin,Accept-Language
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+content-length: 3551449
+
+Final-URL: https://www.cnn.com/

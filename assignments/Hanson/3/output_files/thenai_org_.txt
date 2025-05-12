@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:28:07 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: https://thenai.org/
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9373cfa4be338ea3-LAX
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 28 Apr 2025 04:28:08 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Accept-Encoding
+vary: Accept-Encoding
+vary: Accept-Encoding,Cookie
+x-powered-by: WP Engine
+link: <https://thenai.org/wp-json/>; rel="https://api.w.org/"
+link: <https://thenai.org/wp-json/wp/v2/pages/126>; rel="alternate"; title="JSON"; type="application/json"
+link: <https://thenai.org/>; rel=shortlink
+x-et-api-version: v1
+x-et-api-root: https://thenai.org/wp-json/tribe/tickets/v1/
+x-et-api-origin: https://thenai.org
+x-tec-api-version: v1
+x-tec-api-root: https://thenai.org/wp-json/tribe/events/v1/
+x-tec-api-origin: https://thenai.org
+x-cacheable: SHORT
+cache-control: max-age=600, must-revalidate
+x-cache: HIT: 116
+x-cache-group: normal
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: 9373cfa65bba2b4f-LAX
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://thenai.org/

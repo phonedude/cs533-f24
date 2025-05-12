@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:27:10 GMT
+Server: Apache
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Location: https://www.goo.ne.jp
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/2 200 
+cache-control: must-revalidate, no-cache, no-store, post-check=0, pre-check=0, private
+content-type: text/html; charset=UTF-8
+date: Mon, 28 Apr 2025 04:27:12 GMT
+set-cookie: XSRF-TOKEN=eyJpdiI6IkJ0ZkNBZFBlZWJPNUxEMzBKNkpHSlE9PSIsInZhbHVlIjoiUi9MRUhrT3Jtb21Wcmh4TXoxQU96aWhGZS9zbkg4clBGOWw1RjZwME5pU3YzVTkwdWsvTHpENGozUWZRNHpDWGVoblhBOFVxRmtLYnVSR3FCN3kycUZXcGRKdktOd215UWE1KzZYZHcvSUJ3b1dBNmwvK1dTcm54QytscVJQNlIiLCJtYWMiOiJmNjkwYmYzNjM4MTE0OGU2ZmIxMzE4ZDFlZDIxNjI4MDY3MDBmNjA2YjRmMjVkNDllNzE5NmMwYmVhOGI0ZmI4IiwidGFnIjoiIn0%3D; expires=Mon, 28 Apr 2025 06:27:12 GMT; Max-Age=7200; path=/; secure
+set-cookie: top_session=eyJpdiI6IjJEUDVwQUxrL2pleGJ3clIzY09jdkE9PSIsInZhbHVlIjoiWmM3dUdqMkJzWHB4MjEvdFdhWE93anBvWnp2ODlzc0ZGdUdJaTNnaHlOcHNic09pMmZPM0FKZ1k5NkJSekdONHFzVWpPU0RHNmVUL1B3L3dGUjZPNWcrak1xZzNXeGlTOUhzYU54UlZmZGtrT1JtTHJSSnpWb3ZuM0xHdkZ1TDYiLCJtYWMiOiI0MmY3OTQ5NGY2MWRhMzg5MjQ3YTliMTI3YzVmNTE0OTAyODY2YzMwMjM2ZWM2MDEwZGVmNWVjZWNjMzIwMmNjIiwidGFnIjoiIn0%3D; expires=Mon, 28 Apr 2025 06:27:12 GMT; Max-Age=7200; path=/; secure; httponly
+set-cookie: gootop=NE:0&SJA:0_1535601469&CST:ce5dffdca89e91da5688b7f44b1aad85&SR:&PCE:1&SL:2_3_4_53_11_8_16_6_27; expires=Sun, 28 Apr 2041 04:27:12 GMT; Max-Age=504921600; path=/; secure
+set-cookie: gootopstay=eyJpdiI6IjNuTEgxazgrRFRZdUhMUGtTeVFGemc9PSIsInZhbHVlIjoiM2dPKzB5L3Q4bzFldk92bFF0NlZnb1RsL1A4cU5yV2lWSG9OcFFvTzRKbE53N1dJSm0wSDNlUE5kdWp2VUVPRnVXSnM1OGw4S2lHbE5WaWx2THh3anc9PSIsIm1hYyI6IjZlZDAwODVhNTc2OWMzN2JjMGIyZWU2ZmM0ZTk1NDlkNWFkMGY1MDc1OTg5M2Q1NTMzMWVhOWMzZTE3NWI1YjEiLCJ0YWciOiIifQ==; expires=Tue, 28 Apr 2026 04:27:12 GMT; Max-Age=31536000; path=/; secure
+set-cookie: mental=eyJpdiI6IjFNUEoyUXlzYUFqQUo3TnBudFNpMWc9PSIsInZhbHVlIjoiSzcvWUYwalc0STh0WGlFM1EvMVRJYWYwNk1GblJNMThTdCtjeWwvR1VBWENRaVBXT2dvaU02a2FHRXFUSlBtYXVCTnRJZ0xueGY4VzlpbDNBZ0RCclE9PSIsIm1hYyI6IjAwYzdiOWRjODJjODg1ZDY3NWEzNGM1M2QzMjIyYmYyYmMxMThmZGZhZDE3YzgyZjFiZGVhY2JhMzkyYWNiZmIiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 29 Apr 2025 04:27:12 GMT; Max-Age=86400; path=/; secure; httponly
+set-cookie: gooproperty=AR%3D%26HO%3D1%26MD%3D%26TH%3DM13%26HH%3D%26WEATHER%3D; expires=Wed, 28 Apr 2027 04:27:12 GMT; Max-Age=63072000; path=/; domain=.goo.ne.jp; secure
+set-cookie: searchstate=deleted; expires=Sun, 28 Apr 2024 04:27:11 GMT; Max-Age=0; path=/; domain=goo.ne.jp; secure; httponly
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-vcap-request-id: 8984524a-7060-42c7-4eb1-85a959f05e4e
+x-xss-protection: 1; mode=block
+set-cookie: TS01ea13e3=016952d21e1562041057719036fa9142d39f6b33174443b6d79823bcf4241d1645f9fa6e48ecdd34110240d4d16eb649f239f6d10f; Path=/
+set-cookie: TS011bfe84=016952d21e1562041057719036fa9142d39f6b33174443b6d79823bcf4241d1645f9fa6e48ecdd34110240d4d16eb649f239f6d10f; path=/; domain=.goo.ne.jp
+set-cookie: TS011667c7=016952d21e1562041057719036fa9142d39f6b33174443b6d79823bcf4241d1645f9fa6e48ecdd34110240d4d16eb649f239f6d10f; path=/; domain=goo.ne.jp
+
+Final-URL: https://www.goo.ne.jp/

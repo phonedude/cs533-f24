@@ -1,0 +1,7 @@
+HTTP/1.1 405 Not Allowed
+date: Mon, 28 Apr 2025 04:27:59 GMT
+content-type: text/html
+content-length: 154
+server: Parking/1.0
+
+Final-URL: http://sedoparking.com/

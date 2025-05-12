@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Cache-Control: private, no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Date: Mon, 28 Apr 2025 04:27:52 GMT
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+Location: https://www.repubblica.it/
+Server: Varnish
+X-Varnish: 32182098
+X-Cache: Miss from cloudfront
+Via: 1.1 fe7a664e98e1fa233d473b9022e08898.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: PHX50-P1
+X-Amz-Cf-Id: dYC3tcS2II4_cGGA_dxDLveCwUcg6KPHPbTd3P-iHv7TF5v06FZEhA==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-guploader-uploadid: AAO2VwoyBiRnEk7TxD9KDDqEPviVADZTG0mBjkbmBei3H7P1X90woQ1nAlR71GV49RGVvknA
+expires: Mon, 28 Apr 2025 04:26:55 GMT
+x-goog-generation: 1745812786655307
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 267588
+x-goog-meta-mtime: 2025-04-28T05:59:46.351790662+02:00
+x-goog-hash: crc32c=0D4jeA==
+x-goog-hash: md5=0+LSmfnADYlt4h5rMswrvA==
+x-goog-storage-class: REGIONAL
+x-cacheable: YES
+referrer-policy: unsafe-url
+content-security-policy: upgrade-insecure-requests; default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Mon, 28 Apr 2025 04:26:55 GMT
+x-kw-expires: Mon, 28 Apr 2025 04:26:55 GMT
+cache-control: max-age=61, s-maxage=61
+smaxagedone: yup
+x-kw-cache-control: max-age=61, s-maxage=61
+accept-ranges: bytes
+date: Mon, 28 Apr 2025 04:27:15 GMT
+via: 1.1 google, 1.1 3cededc6247c2956504523dd5843463e.cloudfront.net (CloudFront)
+vary: Accept-Encoding,gd-facet-webview
+x-cache: Hit from cloudfront
+x-amz-cf-pop: PHX52-P1
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: _d84aOsHm1wQgrbk8mvE0xpSXXutsfskVKMn7nzOlSldWTPaoWVghw==
+age: 56
+
+Final-URL: https://www.repubblica.it/

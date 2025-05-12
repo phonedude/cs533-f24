@@ -1,0 +1,48 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://salesforce.com/
+Expires: Mon, 28 Apr 2025 04:27:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 28 Apr 2025 04:27:54 GMT
+Connection: keep-alive
+Akamai-GRN: 0.77cfdb17.1745814474.5274a6bf
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.salesforce.com/
+Expires: Mon, 28 Apr 2025 04:27:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 28 Apr 2025 04:27:54 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Akamai-GRN: 0.79cfdb17.1745814474.44c84758
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+etag: W/"76778-csOTEuImna3xSql50a4W0LP/4Ag"
+origin-agent-cluster: ?1
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-dns-prefetch-control: on
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: master-only
+x-xss-protection: 0
+mpulse_cdn_cache: HIT
+mpulse_origin_time: 0
+cache-control: private, must-revalidate, max-age=300
+expires: Mon, 28 Apr 2025 04:32:55 GMT
+date: Mon, 28 Apr 2025 04:27:55 GMT
+set-cookie: ak_loc=cc:US,ct:PHOENIX,st:AZ,msa:6200,pmsa:6200; path=/
+set-cookie: akacd_Homepage_Split_Prod=1777350475~rv=24~id=a1ff5420054435c54adaa0acc1b6a548; path=/; Expires=Tue, 28 Apr 2026 04:27:55 GMT; Secure; SameSite=None
+strict-transport-security: max-age=86400
+ak-uuid: 0.906d3e17.1745814475.8f4d89e3
+set-cookie: _abck=C5FB00F3D32F890FC90B146155A36931~-1~YAAQkG0+F+o93lGWAQAAjtGmeg03Trp2V04tk6NWh57XImkTU0xGw+aVh8pGABsfIXRLaGnHKDtgyApcYXUgEqtvCHV02ACU4ykiqahQBZpl4IgYR2ZsJ6i+EZtoowhCatB+6TOmO0PQCaX3bq/iy9YAS7TZvt5tVZnwRUquwrDMzBr8FVCjG7vnstB2UoOeOeEwImWbhuMJthupptGefwyb0PswFk3HLwQ53pk+FjVccSGnBRJCtlEoXAfh9Vpu2R0HF8HYYN/13TeiBtJ59Gn/kVyHKzWlbOcPOWwLBPdvTrkToQOH8Pyt3GNfQEp35oC6GdZ2KWIBJ7xcnjrI80nYQHIskxTcYH1yNY2jg4t8Ok1QWDO/+UUO8x0m0QHbN7hQCG+EC4GAptnyeXEdn273cmVWQ9gijRE3abUH~-1~-1~-1; Domain=.salesforce.com; Path=/; Expires=Tue, 28 Apr 2026 04:27:55 GMT; Max-Age=31536000; Secure
+set-cookie: bm_sz=8AD8961DEF69B2328757C6AA27139B6B~YAAQkG0+F+s93lGWAQAAjtGmehszAlsI++xyXG93dKkOVPY8jt8sj4LynpivdEw0sr589oDEvl80Ynkla5fOWC08m3h9mQCsLcRImkaFIfQXoXW4VZ1wUon1og6znOgXmxZ8q69qpDk5ArnSXn3HMgqUTRLIGYe9xDL776OZHDn733gUgyQX0Tx7Y3UH5RVvtaZZC0q2VsYsq1ZdQi/bHd2VwB4e0nzpWCRhE0EFjJxl98EbrDy6EUDr2Gs7VGgeDDArunu99aNW+HdUDMp/RoGkiBf0NIJ8Zby/wAmVF5DBnvSOXjoH+W3F1VJiT+RpFDGopo5RGwYeyx62N4h6EiAcBHDn+27apVvjIqcssyow59lNKDPIiDgoOPk=~3486008~3486021; Domain=.salesforce.com; Path=/; Expires=Mon, 28 Apr 2025 08:27:55 GMT; Max-Age=14400
+server-timing: ak_p; desc="1745814475028_389967248_2404223459_2706_65120_12_28_15";dur=1
+
+Final-URL: https://www.salesforce.com/
