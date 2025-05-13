@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:28:12 GMT
+Connection: keep-alive
+Location: https://www.trustpilot.com/
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 293130
+date: Mon, 28 Apr 2025 04:11:00 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: deny
+cache-control: public, max-age=1200
+etag: "kzfeyrp41a69zo"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 2f6d7b98ca58ef623842ac6154dbdafc.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX52-P1
+x-amz-cf-id: gOQnBGgbjbFLqfWMgIwK_68fFQfUkMdfWMROHNPuOe-Ut0cDoGDfGw==
+age: 1032
+
+Final-URL: https://www.trustpilot.com/

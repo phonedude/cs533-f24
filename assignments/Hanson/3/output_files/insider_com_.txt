@@ -1,0 +1,39 @@
+HTTP/1.1 308 redirects
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.businessinsider.com/
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:27:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx1710049-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745814438.885359,VS0,VE0
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+set-cookie: AWSALBTG=OXbz3gZEFmt2GZVJm6ykIYuiUcMGS8XQ3MSySioa3ksnosko7CdCz2HLaXubZvZqzH9bGINtdzR1m9Kp+IZ5BcqGUrFF2FehAD4pMeXtPOIPBCHuEicDGNDpu7tAjkHWMrnCGfXQT2SGQAGQ4jtRorXOS7ShMnN6CEIYdm0a9rRH; Expires=Mon, 05 May 2025 04:27:18 GMT; Path=/
+set-cookie: AWSALBTGCORS=OXbz3gZEFmt2GZVJm6ykIYuiUcMGS8XQ3MSySioa3ksnosko7CdCz2HLaXubZvZqzH9bGINtdzR1m9Kp+IZ5BcqGUrFF2FehAD4pMeXtPOIPBCHuEicDGNDpu7tAjkHWMrnCGfXQT2SGQAGQ4jtRorXOS7ShMnN6CEIYdm0a9rRH; Expires=Mon, 05 May 2025 04:27:18 GMT; Path=/; SameSite=None; Secure
+x-powered-by: Fenrir
+last-modified: Mon, 28 Apr 2025 04:27:18 GMT
+cache-control: public, max-age=120
+x-origin-version: -
+x-frame-options: sameorigin
+link: </styles/v1-landing-page.2a9cd7cc5a6d9055bee4.css>; rel=preload; as=style; nopush, </scripts/main.e61e9a9df32764d4e5dc.js>; rel=preload; as=script; fetchpriority=low; nopush, </scripts/vendors.bdc5721c5cc1e0c576a8.js>; rel=preload; as=script; fetchpriority=low; nopush, </scripts/utilities.57d21720dc615bd9f845.js>; rel=preload; as=script; fetchpriority=low; nopush, </public/fonts/Garnett-VF-Subset-Web.woff2>; rel=preload; as=font; type=font/woff2; crossorigin; fetchpriority=low; nopush
+etag: W/"81489-J+ynt+IV0EJ+Kbq6z24mBWoRduk"
+via: 1.1 varnish, 1.1 varnish
+x-country-code: US
+accept-ranges: bytes
+age: 0
+date: Mon, 28 Apr 2025 04:27:18 GMT
+x-served-by: cache-iad-kcgs7200030-IAD, cache-lax-kwhp1940118-LAX
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1745814438.061629,VS0,VE559
+vary: Accept-Encoding, Authorization, Fastly-SSL, X-Device, X-Continent-Code, X-User-Status, X-User-Has-Access, X-Is-Sponsored-Country, X-Privacy-Api, X-Is-Bot, X-ABTest-ga1, X-ABTest-zpd-job, X-ABTest-vvhp
+strict-transport-security: max-age=31536000
+content-length: 529545
+
+Final-URL: https://www.businessinsider.com/

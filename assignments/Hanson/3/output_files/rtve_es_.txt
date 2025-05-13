@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+date: Mon, 28 Apr 2025 04:27:53 GMT
+location: https://www.rtve.es/
+content-length: 0
+
+HTTP/2 200 
+content-type: text/html; charset=ISO-8859-1
+cpc-age: 25
+cpc-cache: HIT
+cache-control: max-age=30
+accept-ranges: bytes
+age: 41
+date: Mon, 28 Apr 2025 04:27:53 GMT
+x-served-by: cache-mad22082-MAD, cache-phx1710050-PHX
+x-cache: HIT, MISS
+x-cache-hits: 3, 0
+x-timer: S1745814473.320000,VS0,VE592
+server: RTVE Server
+vary: Accept-Encoding
+content-length: 1358097
+
+Final-URL: https://www.rtve.es/

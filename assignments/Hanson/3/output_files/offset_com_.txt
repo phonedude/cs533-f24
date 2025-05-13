@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Mon, 28 Apr 2025 04:27:37 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://offset.com:443/
+
+HTTP/2 301 
+server: awselb/2.0
+date: Mon, 28 Apr 2025 04:27:37 GMT
+content-type: text/html
+content-length: 134
+location: https://www.offset.com:443/
+
+HTTP/2 200 
+content-type: text/html
+content-length: 30782
+date: Sat, 05 Apr 2025 11:38:07 GMT
+last-modified: Thu, 21 Mar 2024 16:04:14 GMT
+etag: "e9bf427654715c36f8de2762d4ab3844"
+x-amz-server-side-encryption: AES256
+cache-control: public, max-age=31536000
+accept-ranges: bytes
+server: AmazonS3
+x-cache: Hit from cloudfront
+via: 1.1 475b5af14d0e61a492d23f6a5c7a1370.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX50-P1
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: gsPhDVGKH_F8veEN6w2Xk70OrrTCyMvRtAXX03MzNT5DLensy6M6aw==
+age: 1961371
+
+Final-URL: https://www.offset.com:443/

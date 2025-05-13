@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:27:01 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Mon, 28 Apr 2025 05:27:01 GMT
+Location: https://cpanel.com/
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 9373ce08ed94720e-PHX
+
+HTTP/2 302 
+date: Mon, 28 Apr 2025 04:27:02 GMT
+location: https://cpanel.net/
+cache-control: no-cache, no-store, must-revalidate, max-age=0
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+strict-transport-security: max-age=15552000; preload
+server: cloudflare
+cf-ray: 9373ce098ddb5011-PHX
+
+HTTP/2 200 
+cache-control: public, max-age=300
+expires: Mon, 28 Apr 2025 04:32:02 GMT
+content-type: text/html
+last-modified: Sat, 26 Apr 2025 11:37:16 GMT
+accept-ranges: bytes
+content-length: 59907
+date: Mon, 28 Apr 2025 04:27:02 GMT
+server: LiteSpeed
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+vary: User-Agent,User-Agent
+strict-transport-security: max-age=31536000
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+Final-URL: https://cpanel.net/

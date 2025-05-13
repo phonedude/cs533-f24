@@ -1,0 +1,49 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:28:22 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://zoom.us/
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=wjet4MihzLTSTnFZ406ZquRF16p197Ezj7FMQ6kpnfY-1745814502-1.0.1.1-YSfxssPznm8F_tUicCIKIO4FbpXv8C0JXR.5rvo0FC_HhKtohTBo__ZeZFbvkmDixx5ZtTRFEKWrvQ96oHJoVIz2g5AdW86KDqmufYAPW6A; path=/; expires=Mon, 28-Apr-25 04:58:22 GMT; domain=.zoom.us; HttpOnly
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=MOwD9XcNebDJTE7kg1GuUAkp1aVISj1V9e4j2ObXdIYeHnGrO%2FDgH%2FT5ws%2FTXuTfdoaiHnj24OkXMjtWebdoN4jBuwH7wER1Kdkbmsxol0yov5QdJV7i9sQ%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9373cffdac6c2b65-LAX
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 302 
+date: Mon, 28 Apr 2025 04:28:22 GMT
+content-type: text/html
+content-length: 110
+location: https://www.zoom.com/
+cache-control: private, max-age=0
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=6bZE4SNDXBDctLbrAtw4R9u4X6tA9.1q4R7Qd9pYNcQ-1745814502-1.0.1.1-A37.cfMntY.m2nnQgzLewSllFfUhFLGLhBDTAe.LstTt4x6kEzyQLR._HAN2Q51S.TM28x8Uo6AAUe1v3FjqWHnBaTKYe6PRaugVdD3UWPQ; path=/; expires=Mon, 28-Apr-25 04:58:22 GMT; domain=.zoom.us; HttpOnly; Secure; SameSite=None
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=1WhKw8HYw3QC3x8laCwEfLoktPRyYk%2BE36ET26ftVZlBnmUHlvL3EaCscNRDD%2FHNhcyy3%2FVE8XlJAaONfMqPvieeh0%2BhNHLBWrJDnTquL%2F07a%2F4%2FkyMCpwc%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 9373cfff0d3178e0-LAX
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 28 Apr 2025 04:28:22 GMT
+content-type: text/html
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+age: 81
+cache-control: public, max-age=31536000
+etag: W/"430e05c4493e82dbb6cdd8ad6870e6df"
+expires: Tue, 28 Apr 2026 04:28:22 GMT
+last-modified: Fri, 18 Apr 2025 23:14:09 GMT
+strict-transport-security: max-age=15552000; includeSubDomains
+vary: Origin, Accept-Encoding
+access-control-request-method: HEAD
+cross-origin-resource-policy: cross-origin
+x-amz-server-side-encryption: AES256
+alt-svc: h3=":443"; ma=86400
+set-cookie: __cf_bm=QX1NVRHalX7vCZgh5iqOageFiF8cFhlLaO7j.mFyLrU-1745814502-1.0.1.1-sVZ15BRxosulyg73E5Qt.jbnl5mnGZIBu0b37mgEXkfUcU6S0NgNL6rVtRwYBiGn68h0FjDbeCOUCp.bcBACtMao4whZI2O59MgzdKNJ0v0; path=/; expires=Mon, 28-Apr-25 04:58:22 GMT; domain=.zoom.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 9373d0006afd7d4e-LAX
+
+Final-URL: https://www.zoom.com/

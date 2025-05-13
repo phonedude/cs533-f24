@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx-rc
+Date: Mon, 28 Apr 2025 04:28:21 GMT
+Content-Type: text/html
+Content-Length: 174
+Connection: keep-alive
+Location: https://www.youronlinechoices.com/
+Strict-Transport-Security: max-age=31536000
+
+HTTP/2 200 
+server: nginx-rc
+date: Mon, 28 Apr 2025 04:28:21 GMT
+content-type: text/html
+content-length: 7497
+vary: Accept-Encoding
+last-modified: Fri, 23 Apr 2021 13:19:20 GMT
+etag: "1d49-5c0a3a4c30600"
+strict-transport-security: max-age=631138519; includeSubDomains
+x-content-type-options: nosniff
+x-xss-protection: 1;
+strict-transport-security: max-age=31536000
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-runcloud-cache: HIT
+x-runcache-type: native
+accept-ranges: bytes
+
+Final-URL: https://www.youronlinechoices.com/

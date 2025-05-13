@@ -1,0 +1,92 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://huffingtonpost.com/
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:27:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx1710040-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745814437.195460,VS0,VE0
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Referrer-Policy: no-referrer-when-downgrade
+X-XSS-Protection: 1; mode=block
+cache-control: max-age=3600
+
+HTTP/2 301 
+server: Varnish
+retry-after: 0
+location: https://www.huffingtonpost.com/
+accept-ranges: bytes
+date: Mon, 28 Apr 2025 04:27:17 GMT
+via: 1.1 varnish
+x-served-by: cache-phx1710058-PHX
+x-cache: HIT
+x-cache-hits: 0
+x-timer: S1745814437.269593,VS0,VE0
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+referrer-policy: no-referrer-when-downgrade
+x-xss-protection: 1; mode=block
+cache-control: max-age=3600
+content-length: 0
+
+HTTP/2 301 
+content-type: text/plain; charset=utf-8
+document-policy: js-profiling
+location: https://www.huffpost.com/
+server: nginx
+x-hp-webp: false
+x-powered-by: Express
+x-request-id: 24ea3f54e1a9f59b7c45890acf55b189
+accept-ranges: bytes
+age: 0
+date: Mon, 28 Apr 2025 04:27:17 GMT
+via: 1.1 varnish
+x-served-by: cache-phx1710069-PHX
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1745814437.353440,VS0,VE243
+vary: Accept, Accept-Encoding, X-BF-Canary, X-BF-Canary-Site-Router, X-BF-Canary-Perimeter
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+referrer-policy: no-referrer-when-downgrade
+x-xss-protection: 1; mode=block
+cache-control: max-age=3600
+content-length: 59
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+cache-control: no-store, no-cache, must-revalidate
+document-policy: js-profiling
+expires: 0
+server: nginx
+x-hp-page-version: 293288
+x-hp-webp: false
+x-powered-by: Express
+x-request-id: a1693c60731f205509177d1e1a71e89f
+x-varnish-cambria-ttl: 5s
+via: 1.1 varnish, 1.1 varnish
+content-security-policy: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation; frame-ancestors 'self' *.huffpost.com *.huffingtonpost.com *.huffpost.net *.buzzfeed.com clients.opinary.com compass.pressekompass.net *.newsbreak.com *.newsbreakapp.com *.upday-content.com *.upday.com *.samsung-news.com; report-uri https://huffpost.report-uri.com/r/d/csp/enforce;
+accept-ranges: bytes
+age: 462
+date: Mon, 28 Apr 2025 04:27:17 GMT
+x-served-by: cache-iad-kiad7000176-IAD, cache-phx1710025-PHX
+x-cache: HIT, HIT
+x-cache-hits: 181, 0
+x-timer: S1745814438.732069,VS0,VE1
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+referrer-policy: no-referrer-when-downgrade
+x-xss-protection: 1; mode=block
+set-cookie: bf-geo-country=US; expires=Tue, 29 Apr 2025 04:27:17 GMT; path=/; domain=www.huffpost.com;
+set-cookie: bf-geo-region=AZ; expires=Tue, 29 Apr 2025 04:27:17 GMT; path=/;  domain=www.huffpost.com;
+set-cookie: ccpa=true; expires=Mon, 12 May 2025 04:27:17 GMT; path=/; domain=www.huffpost.com;
+vary: Accept-Encoding
+content-length: 783726
+
+Final-URL: https://www.huffpost.com/

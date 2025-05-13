@@ -1,0 +1,48 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 28 Apr 2025 04:26:54 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://archives.gov/
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src ‘self’ ‘unsafe-inline’ ‘unsafe-eval’ https: data:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 28 Apr 2025 04:26:55 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.archives.gov/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src ‘self’ ‘unsafe-inline’ ‘unsafe-eval’ https: data:
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 27214
+date: Mon, 28 Apr 2025 04:26:55 GMT
+content-language: en
+last-modified: Sun, 27 Apr 2025 11:26:48 GMT
+x-content-type-options: nosniff
+v-ttl: 25192
+cache-control: public, max-age=60, s-maxage=3600
+v-cache-ttl: 25192
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+accept-ranges: bytes
+etag: W/"1745753208-0-gzip"
+vary: Cookie,Accept-Encoding
+x-cache: Miss from cloudfront
+via: 1.1 6d22f808ca7913389d497e76f02c0ffc.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX52-P2
+x-amz-cf-id: ANFx-ymY3gKNB1hWTV3xIda_CDzxvv9T4Ucf7LzJp_CFFX6sCIpjag==
+
+Final-URL: https://www.archives.gov/

@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Apr 2025 04:27:58 GMT
+Server: Apache/2.4.62 () PHP/7.4.33
+Location: https://www.sciencemag.org/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/2 403 
+date: Mon, 28 Apr 2025 04:27:58 GMT
+content-type: text/html; charset=UTF-8
+content-length: 6989
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cf-mitigated: challenge
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cross-origin-embedder-policy: require-corp
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+permissions-policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+referrer-policy: same-origin
+server-timing: chlray;desc="9373cf6d9abeb66b"
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+set-cookie: __cf_bm=qDrNdI2J.psYH8t8PcNZ_F2oe1qj0lQCPnXC8a0npVE-1745814478-1.0.1.1-dNFzqBcwP0Ri2OmVF6DJW_GLWvMZI32y.HJX2Hzeby2pcnQdFkGBVFfxZ9mBIYX48fbRh3EYQTG1_q5bhHUy6CjffrMp_cbAexpQgWHD93Y; path=/; expires=Mon, 28-Apr-25 04:57:58 GMT; domain=.www.sciencemag.org; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=15552000
+server: cloudflare
+cf-ray: 9373cf6d9abeb66b-PHX
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://www.sciencemag.org/

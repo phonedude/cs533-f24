@@ -1,0 +1,47 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://target.com/
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:28:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx1710047-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745814487.741767,VS0,VE0
+
+HTTP/2 301 
+server: Varnish
+retry-after: 0
+location: https://www.target.com/
+accept-ranges: bytes
+date: Mon, 28 Apr 2025 04:28:06 GMT
+via: 1.1 varnish
+x-served-by: cache-phx1710052-PHX
+x-cache: HIT
+x-cache-hits: 0
+x-timer: S1745814487.813486,VS0,VE0
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-length: 0
+
+HTTP/2 200 
+cache-control: private, no-cache
+x-frame-options: SAMEORIGIN
+content-type: text/html; charset=utf-8
+x-sigsci-origin-status: 200
+x-content-type-options: nosniff
+accept-ranges: bytes
+set-cookie: visitorId=01967AA6FFA10201B046DD82E56B6C09; Max-Age=63072000; Expires=Wed, 28 Apr 2027 04:28:06 GMT; Path=/; Domain=.target.com; Secure; SameSite=None
+set-cookie: sapphire=1; Max-Age=2629746; Expires=Wed, 28 May 2025 14:57:12 GMT; Path=/; Domain=.target.com; Secure; SameSite=None
+set-cookie: TealeafAkaSid=5La2RzEraBiTXKBEAwv3Duf2Ed7rBCTg; Expires=Wed, 28 May 2025 04:28:07 GMT; Path=/; Domain=target.com;
+set-cookie: GuestLocation=85282|33.400|-111.920|AZ|US;Path=/; Secure; Max-Age=86400
+referrer-policy: no-referrer-when-downgrade
+etag: "w48y6xkzc3ah08"
+date: Mon, 28 Apr 2025 04:28:07 GMT
+vary: Accept-Encoding
+content-security-policy: frame-ancestors 'self' https://*.target.com;
+strict-transport-security: max-age=31536000; includeSubDomains
+
+Final-URL: https://www.target.com/

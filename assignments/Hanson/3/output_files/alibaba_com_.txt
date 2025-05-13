@@ -1,0 +1,54 @@
+HTTP/1.1 301 Moved Permanently
+Server: Tengine/AServer-Ingress/3.0.24
+Date: Mon, 28 Apr 2025 04:26:50 GMT
+Content-Type: text/html
+Content-Length: 270
+Connection: keep-alive
+Location: https://alibaba.com/
+Ups-Target-Key: asin.alibaba.com
+X-protocol: HTTP/1.1
+EagleEye-TraceId: 210325bb17458144108382224e1506
+s-rt: 0
+Timing-Allow-Origin: *
+EagleId: 210325bb17458144108382224e1506
+server-timing: rt;dur=0.000,eagleid;desc=210325bb17458144108382224e1506,brt;dur=
+
+HTTP/2 301 
+date: Mon, 28 Apr 2025 04:26:51 GMT
+content-type: text/html
+content-length: 278
+location: https://www.alibaba.com/
+server: Tengine
+set-cookie: ali_apache_id=33.3.19.236.174581441170.339511.2; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+ups-target-key: asin.alibaba.com
+x-protocol: HTTP/2.0
+eagleeye-traceid: 210313ec17458144110696105e26d4
+strict-transport-security: max-age=31536000
+s-brt: 1
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+s-rt: 2
+timing-allow-origin: *
+eagleid: 210313ec17458144110696105e26d4
+server-timing: rt;dur=0.002,eagleid;desc=210313ec17458144110696105e26d4,brt;dur=1
+
+HTTP/2 200 
+content-type: text/plain
+content-length: 0
+server: Tengine
+render_policy: blocked-by-nginx
+ups-target-key: haumea.alibaba.vipserver
+x-protocol: HTTP/1.1
+eagleeye-traceid: 21032fcc17458144112093213e0f3c
+strict-transport-security: max-age=31536000
+s-brt: 0
+s-rt: 2
+timing-allow-origin: *
+eagleid: 21032fcc17458144112093213e0f3c
+server-timing: rt;dur=0.002,eagleid;desc=21032fcc17458144112093213e0f3c,brt;dur=0
+date: Mon, 28 Apr 2025 04:26:51 GMT
+alt-svc: h3=":443"; ma=2592000
+server-timing: akamai;dur=55;desc=cache-miss
+object-status: ttl=0,age=0
+edge-type: akamai
+
+Final-URL: https://www.alibaba.com/

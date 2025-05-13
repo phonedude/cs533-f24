@@ -1,0 +1,45 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Mon, 28 Apr 2025 04:27:56 GMT
+Content-Type: text/html
+Content-Length: 154
+Connection: keep-alive
+Location: https://sapo.pt/
+x-name: 1
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Mon, 28 Apr 2025 04:27:56 GMT
+Content-Type: text/html
+Content-Length: 154
+Connection: keep-alive
+Location: https://www.sapo.pt/
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; block-all-mixed-content
+Referrer-Policy: origin-when-cross-origin
+x-name: 1
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 28 Apr 2025 04:27:58 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 665126
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-store
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: camera=(), microphone=()
+Content-Security-Policy: default-src https: blob: ; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline' ; img-src https: data: ; media-src blob: https: ; upgrade-insecure-requests; block-all-mixed-content;  connect-src https: wss://*.insurads.com wss://*.hotjar.com;
+X-Server: Kara Kum
+X-NCache: hit
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; block-all-mixed-content
+Referrer-Policy: origin-when-cross-origin
+x-name: 2
+
+Final-URL: https://www.sapo.pt/

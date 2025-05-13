@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+server: nginx
+date: Mon, 28 Apr 2025 04:27:08 GMT
+content-type: text/plain; charset=utf-8
+content-length: 62
+x-redirector: dw
+location: https://www.francetvinfo.fr/
+vary: Accept
+
+HTTP/2 200 
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+access-control-allow-origin: https://jeux.francetvinfo.fr
+strict-transport-security: max-age=10080
+etag: "e7fc8c628c48a3f4b01d5982fce4f880-gzip"
+content-type: text/html; charset=UTF-8
+cache-control: max-age=60, public
+version: 1.0
+server: Microsoft IIS 4.0
+date: Mon, 28 Apr 2025 04:27:09 GMT
+
+Final-URL: https://www.francetvinfo.fr/

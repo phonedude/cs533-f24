@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private
+Location: https://www.last.fm:443/
+Content-Length: 0
+Date: Mon, 28 Apr 2025 04:27:20 GMT
+Content-Type: text/html; charset=UTF-8
+
+HTTP/2 200 
+set-cookie: lpfrmo=0; Domain=last.fm; expires=Mon, 28 Apr 2025 04:28:21 GMT; Max-Age=60; Path=/; Secure
+set-cookie: lfmanon=1; Path=/
+set-cookie: not_first_visit=1; Path=/
+set-cookie: sessionid=eyJfYXV0aF91c2VyX2hhc2giOiJkZWZhdWx0Iiwic2Vzc2lvbl9pZCI6IjZlMzQ4OTg5LWU4MjktNGFlMS1hZTA0LTMwZWFmZDAxNTM0NiJ9:1u9G5R:otCT3fTtZAL-QM-dhUEfL29bNjn2Xp0c4YMjTqa7Q8A; Domain=.last.fm; expires=Tue, 28 Apr 2026 04:27:21 GMT; HttpOnly; Max-Age=31536000; Path=/; SameSite=Lax; Secure
+accept-ranges: bytes
+x-pjax-url: https://www.last.fm/
+server: nginx
+content-language: en
+content-type: text/html; charset=utf-8
+content-security-policy: upgrade-insecure-requests;
+x-frame-options: DENY
+content-security-policy-report-only: default-src https: 'unsafe-inline' 'unsafe-eval' wss: ;img-src https: data: blob: ; font-src https: data:; form-action https: http://www.last.fm; report-uri https://cbsi.report-uri.io/r/default/csp/enforce
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+date: Mon, 28 Apr 2025 04:27:21 GMT
+x-served-by: cache-phx1710029-PHX, cache-phx1710083-PHX
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1745814441.087960,VS0,VE136
+vary: Accept-Encoding, Accept-Language, Cookie
+x-lfm-upstream: /
+x-lfm-upstream-type: PASS
+x-request-category: page
+x-lfm-cacheable-page: 0
+set-cookie: X-UA-Device-Type=desktop; max-age=60; secure; same-site=strict; Path=/
+set-cookie: X-UA-Country-Code=US; max-age=60; secure; same-site=strict; Path=/
+cache-control: max-age=0, must-revalidate
+strict-transport-security: max-age=300
+content-length: 122618
+
+Final-URL: https://www.last.fm:443/

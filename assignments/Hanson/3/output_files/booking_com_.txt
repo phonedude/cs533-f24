@@ -1,0 +1,51 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Mon, 28 Apr 2025 04:26:58 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://booking.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 962d5e462d98b7ff1b8a2361adb83eee.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: PHX50-P1
+X-Amz-Cf-Id: q6Ikg2d3dahceMa2-ClZNm7jm9fhjxMu67eMbUwO2qpNKFvTYqf9pg==
+
+HTTP/2 301 
+location: https://www.booking.com/
+server: nginx
+date: Mon, 28 Apr 2025 04:26:58 GMT
+nel: {"report_to":"default","max_age":604800}
+report-to: {"endpoints":[{"url":"https://nellie.booking.com/report"}],"group":"default","max_age":604800}
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+content-security-policy-report-only: frame-ancestors 'none'; report-uri https://nellie.booking.com/csp-report-uri?type=report&tag=112&pid=2b221f49451903b1&e=UmFuZG9tSVYkc2RlIyh9YdPFJGDFjZSqK4Z-4dNTMVt3GnT4o2t5YbI45y7imphzZvjBD_PzMdo
+x-terms-of-service: https://www.booking.com/content/terms.html
+x-xss-protection: 1; mode=block
+set-cookie: bkng_sso_auth=CAIQ0+WGHxpmGXUwpygnpQMoyuM7uR6QdhPANKBnLbFbkBtNn57EmY3tfuOHMsoYg1psyXOI5KM8+LgUMLTTCrpmz4p8C5fbx1F0w2YEXNt8dEnzfQiSEz6uRXykQsLozc16dyYeXmL2NHawPG/u; Domain=.booking.com; Path=/; Expires=Wed, 28 Apr 2027 04:26:58 GMT; HttpOnly; Secure; SameSite=Lax
+set-cookie: pcm_consent=analytical%3Dtrue%26countryCode%3DUS%26consentId%3D1306ed10-4a83-4169-bf93-1a00a5dc54dd%26consentedAt%3D2025-04-28T04%3A26%3A58.599Z%26expiresAt%3D2025-10-25T04%3A26%3A58.599Z%26implicit%3Dtrue%26marketing%3Dtrue%26regionCode%3DAZ%26regulation%3Dnone%26legacyRegulation%3Dnone; Domain=.booking.com; Path=/; Expires=Tue, 28 Apr 2026 04:26:58 GMT; HttpOnly; Secure; SameSite=Lax
+x-cache: Miss from cloudfront
+via: 1.1 a3fcfc1aa68473c1f8608ba55a0e426e.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX50-P1
+x-amz-cf-id: dZdzNymkWlKHGZqb19WR-gR62KzOXth4JJc8jdxFNrQDCf473tgC3g==
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+server: nginx
+date: Mon, 28 Apr 2025 04:26:59 GMT
+nel: {"report_to":"default","max_age":604800}
+report-to: {"endpoints":[{"url":"https://nellie.booking.com/report"}],"group":"default","max_age":604800}
+set-cookie: _implmdnbl=2__1__0; path=/; expires=Wed, 29-Apr-2020 04:26:58 GMT; HttpOnly
+set-cookie: bkng=11UmFuZG9tSVYkc2RlIyh9Yaa29%2F3xUOLbnmKTRaewPBubnBeeJApTx725KW7cXoOh8gwDHyjDfwnZvmr5ZBkqeIwZ5vBnjDl0lfbDrCoteca%2FA75bEdoqizONXuVUR696bQ2%2BJg4koys%2F2oTYngz8KlzIeJWONemjbmC5t63qHlmxA5fZ8ky2LzTCawqpuZtiGW1WsWqbyOQ%3D; domain=.booking.com; path=/; expires=Sat, 27-Apr-2030 04:26:59 GMT; Secure; HTTPOnly; SameSite=None
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-recruiting: Like HTTP headers? Come write ours: https://careers.booking.com
+content-security-policy-report-only: base-uri 'none'; object-src 'none'; report-uri https://nellie.booking.com/csp-report-uri?type=report&tag=146&pid=52521f498a0a05cf&e=UmFuZG9tSVYkc2RlIyh9YYYdGuViorKPFBYxaEfmBeP4zu3qoEuxtSl6cVeADwKX; script-src 'self' 'nonce-tvnZIz7bmIKFAw5' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: 'sha256-47mKTaMaEn1L3m5DAz9muidMqw636xxw7EFAK/YnPdg=' 'sha256-iry7oJKoKJ+9HSjmU3E1TlRlpSesJWZ1vapuUz2MP38='
+x-terms-of-service: https://www.booking.com/content/terms.html
+x-xss-protection: 1; mode=block
+set-cookie: bkng_sso_auth=CAIQ0+WGHxpm5rHNhwHdPGJBqs+5EzExAZelxH+BT7O2zxzn7HQ9b2BhapClrAU83HtyRrvsNj4TW63YtHV/Q3gbumdnsLh3d2JdL3ietY+A4fUhXAS1STc8Z17ye+N8sLwUXy6onwZF6JGVJ6MB; Domain=.booking.com; Path=/; Expires=Wed, 28 Apr 2027 04:26:58 GMT; HttpOnly; Secure; SameSite=Lax
+set-cookie: pcm_consent=analytical%3Dtrue%26countryCode%3DUS%26consentId%3D92ce71e4-fffd-474a-9a6b-b7d27fda5361%26consentedAt%3D2025-04-28T04%3A26%3A58.858Z%26expiresAt%3D2025-10-25T04%3A26%3A58.858Z%26implicit%3Dtrue%26marketing%3Dtrue%26regionCode%3DAZ%26regulation%3Dnone%26legacyRegulation%3Dnone; Domain=.booking.com; Path=/; Expires=Tue, 28 Apr 2026 04:26:58 GMT; HttpOnly; Secure; SameSite=Lax
+x-cache: Miss from cloudfront
+via: 1.1 6670ee9e0650f7e00fb4790cba91ee96.cloudfront.net (CloudFront)
+x-amz-cf-pop: PHX50-P1
+x-amz-cf-id: 3XH_M3U67Xcqi0f17LZhhO9hGWD3KRdiFr09xplbm-4KoskAMGugYA==
+
+Final-URL: https://www.booking.com/

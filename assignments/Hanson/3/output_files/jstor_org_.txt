@@ -1,0 +1,38 @@
+HTTP/1.1 301 Permanent Redirect
+Connection: keep-alive
+Content-Length: 58
+Server: Varnish
+Retry-After: 0
+Location: http://www.jstor.org/
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:27:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx1710063-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 41691
+server: envoy
+content-type: text/html; charset=utf-8
+x-frame-options: DENY
+x-envoy-upstream-service-time: 99
+set-cookie: AccessSession=H4sIAAAAAAAA_5WSTYvbMBCG_4vOO0EajTSSbyHQDwo97GYPbSllZMupi7MbHKfQhv3vlZ2QzSlLDYaZ4XlHr2Z0VIdD16hKOW3r2LYI6E0G0kaDpNSCNBilZUNWsrpT3a6wMSwM0wK1Kb-fqlMHbaJnEU8shtE1wrkxkpy3GJMNWLhhBsVK430boI6GgKLLEB1ayDlxdkXaytS0l7HAqNGBJsCw1lQhVyYuAhlCxhC-TtjhJhYMz9j-NsVupsZaVa30-3ynfks_u73W8EXjdAjRxkkj4zjsVXVUq1XBPy9LabUu0Zi3u_xjOSGrLyV_fCjR_WqOYC4_TNjH9Yflp6V6KY0O489lXY-l2bfvJT2Hx9N4LRMjuSLLc94IOibPkJACUDAOYkAPwZNo5hZJZLrRn10u9H3edM9PJd92T922-5vf9bJR1TgcylX78wE2OjetqT-Lhln0uM9DsXdlg4y_2MAm2eRSA05MsVFmCaFNBIEJhTJRDua_baDzb9gwWmt7MRFz0NzkGlrLCahmB1IHBF2bEMXVSYt-NfF-eD7sbnq4HsJmok-Hl6X8Oj31Nz51Wub5Lb38A36WEnJlAwAA; Path=/; SameSite=Lax; Secure
+set-cookie: AccessSessionSignature=631805591dc6252e623acad408ef49b85743b0902984ec79fd3b9d206727853f; Path=/; SameSite=Lax; Secure
+set-cookie: AccessSessionTimedSignature=3faef27005550e5d15d8701ef93aa215966e1417c78f75cbef3d97dfe0b19768; Path=/; SameSite=Lax; Secure
+set-cookie: UUID=503c9ff2-261e-4010-abbf-ad29af7143ae; expires=Thu, 27 Apr 2028 04:27:19 GMT; Max-Age=94608000; Path=/; SameSite=None; Secure
+set-cookie: csrftoken=m1NSaHy5hvmKwKtwHmnmY1QB7Gg5WYxo; expires=Mon, 27 Apr 2026 04:27:19 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+set-cookie: ReferringRequestId=fastly-default:d72425755a589b2c5b44ebaf4c7814f5; Path=/; SameSite=Lax; Secure
+X-JSTOR-Restarts: 0
+Accept-Ranges: bytes
+Date: Mon, 28 Apr 2025 04:27:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx1710041-PHX, cache-phx1710033-PHX
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1745814440.743645,VS0,VE196
+Vary: Cookie, origin, Accept-Encoding,Fastly-SSL,Origin,X-Requested-Host
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+Final-URL: http://www.jstor.org/
