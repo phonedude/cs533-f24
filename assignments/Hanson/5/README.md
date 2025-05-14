@@ -74,7 +74,7 @@ Tests how the `Content-Security-Policy` header affects iframe embedding behavior
 - `server.js` serves `embed.html`, dynamically controlling CSP to allow or block content from `https://www.target.com`.
 
 ### Results
-- **Embedding Allowed**, but not captured as CSP policies from selected websites prevented the manual environment variable change.
+- **Embedding Allowed**, but not captured as CSP policies from selected websites prevented the manual environment variable change based on the violation of the 'frame-ancestors' directive.
 - **Embedding Blocked**  
   ![Blocked Embed](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.3/CSP%20Blocked%20but%20cannot%20Enable.png)
 
