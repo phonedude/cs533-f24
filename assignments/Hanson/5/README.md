@@ -85,7 +85,7 @@ Tests how the `Content-Security-Policy` header affects iframe embedding behavior
 
 - [5.1 - JSON Test with CORS](https://youtu.be/C6W1dUFxKlo)  
 - [5.2 - Custom Headers with CORS](https://youtu.be/ejneNIRQals)  
-- [5.3 - Embedding with CSP]()
+- [5.3 - Embedding with CSP](https://youtu.be/cJDOFXgAKmg)
 
 ---
 
