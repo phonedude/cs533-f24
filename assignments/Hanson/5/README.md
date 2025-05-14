@@ -75,8 +75,9 @@ Tests how the `Content-Security-Policy` header affects iframe embedding behavior
 
 ### Results
 - **Embedding Allowed**, but not captured as CSP policies from selected websites prevented the manual environment variable change based on the violation of the 'frame-ancestors' directive.
+  ![Enabled Embed](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.3/CSP%20Enabled%20but%20Unable%20to%20Load%20iFrame%20.png)
 - **Embedding Blocked**  
-  ![Blocked Embed](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.3/CSP%20Blocked%20but%20cannot%20Enable.png)
+  ![Blocked Embed](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.3/CSP%20Blocked.png)
 
 ---
 
