@@ -125,7 +125,7 @@ These sites blocked framing by setting restrictive `Content-Security-Policy` (CS
 ---
 
 ### Other Cases
-Websites with unclear/unspecified framing behaviors:
+Websites with no specified headers of X-Frame-Options or CSP:
 - alexa_com.html
 - alibaba_com.html
 - amazon_co_jp.html
