@@ -1,4 +1,4 @@
-# CS533 FA24 Assignment 5 Submission  
+# Assignment 5 CS533 FA24  
 ## Brian Hanson, Jr.
 
 This submission documents the implementation and testing of **Cross-Origin Resource Sharing (CORS)** and **Content Security Policy (CSP)** using Node.js servers and web clients. Each section includes setup instructions, observed results, and visual demonstrations.
