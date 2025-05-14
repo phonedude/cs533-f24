@@ -1,4 +1,4 @@
-# Assignment 5 Submission  
+# CS533 FA24 Assignment 5 Submission  
 ## Brian Hanson, Jr.
 
 This submission documents the implementation and testing of **Cross-Origin Resource Sharing (CORS)** and **Content Security Policy (CSP)** using Node.js servers and web clients. Each section includes setup instructions, observed results, and visual demonstrations.
@@ -42,9 +42,9 @@ node Server1.js
 
 ### Results
 - **Blocked JSON**  
-  ![Blocked JSON]()
+  ![Blocked JSON](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.1/CORS_JSON_blocked.png)
 - **Allowed JSON**  
-  ![Allowed JSON]()
+  ![Allowed JSON](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.1/CORS_JSON_enabled.png)
 
 ---
 
@@ -59,9 +59,9 @@ Demonstrates how CORS affects visibility of custom headers (e.g., `X-CS533f24-fa
 
 ### Results
 - **Blocked Headers**  
-  ![Blocked Headers]()
+  ![Blocked Headers](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.2/CORS_headers_blocked.png)
 - **Allowed Headers** (with `exposedHeaders` properly configured)  
-  ![Allowed Headers]()
+  ![Allowed Headers](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.2/CORS_headers_enabled.png)
 
 ---
 
@@ -77,7 +77,7 @@ Tests how the `Content-Security-Policy` header affects iframe embedding behavior
 - **Embedding Allowed**  
   ![Allowed Embed]()
 - **Embedding Blocked**  
-  ![Blocked Embed]()
+  ![Blocked Embed](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.3/CSP%20Blocked%20but%20cannot%20Enable.png)
 
 ---
 
