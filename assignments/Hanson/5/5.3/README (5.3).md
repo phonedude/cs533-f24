@@ -50,13 +50,13 @@ The server reads the `ENABLE_EMBEDDING` environment variable to determine the CS
   In `server.js`, when `ENABLE_EMBEDDING` is set to `'true'`, the CSP directive is set to:
 
   ```http
-  Content-Security-Policy: frame-src 'self' https://www.target
+  Content-Security-Policy: "frame-ancestors 'self' https://*.target.com"
   ```
 
   **Observed Behavior**:
 
-  - The iframe does not successfully loads the target content.
-  - CSP violation errors appear in the browser console specifically violation of the 'frame-ancestors' directive. 
+  - The iframe does not successfully load the target content.
+  - CSP violation errors appear in the browser console, specifically violating the 'frame-ancestors' directive. 
 
 - **Embedding Disabled (`ENABLE_EMBEDDING=false`)**:
 
