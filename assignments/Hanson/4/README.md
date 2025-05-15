@@ -65,6 +65,7 @@ These sites explicitly refused framing with `X-Frame-Options` headers:
 - alibaba_com.html (DENY)
 - amazon_co_uk.html (SAMEORIGIN)
 - amazon_fr.html (SAMEORIGIN)
+- amazon_co_jp.html (SAMEORIGIN)
 - arxiv_org.html (SAMEORIGIN)
 - afternic_com.html (SAMEORIGIN)
 - bbc_com.html (SAMEORIGIN)
@@ -79,7 +80,9 @@ These sites explicitly refused framing with `X-Frame-Options` headers:
 - facebook_com.html (DENY)
 - gnu_org.html (SAMEORIGIN)
 - gravatar_com.html (SAMEORIGIN)
+- hubspot_com.html (DENY)
 - insider_com.html (SAMEORIGIN)
+- jhu_edu.html (SAMEORIGIN)
 - jstor_org.html (DENY)
 - justice_gov.html (SAMEORIGIN)
 - last_fm.html (DENY)
@@ -112,6 +115,7 @@ These sites explicitly refused framing with `X-Frame-Options` headers:
 - who_int.html (SAMEORIGIN)
 - www_canalblog_com.html (DENY)
 - youronlinechoices_com.html (SAMEORIGIN)
+- - yandex_com.html (DENY)
 
 
 ---
@@ -120,31 +124,24 @@ These sites explicitly refused framing with `X-Frame-Options` headers:
 These sites blocked framing by setting restrictive `Content-Security-Policy` (CSP) headers:
 - cnn_com.html (CSP: default-src 'self')
 - hollywoodreporter_com.html (CSP: frame-ancestors 'none')
+- huffingtonpost_com.html (CSP: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation; frame-ancestors 'self' *.huffpost.com *.huffingtonpost.com *.huffpost.net *.buzzfeed.com clients.opinary.com compass.pressekompass.net *.newsbreak.com *.newsbreakapp.com *.upday-content.com *.upday.com *.samsung-news.com; report-uri https://huffpost.report-uri.com/r/d/csp/enforce;)
+- uol_com_br.html (CSP: frame-ancestors 'self' *.intranet *.uolinc.com;)
+- www_livejournal_com.html (CSP: default-src 'self' *.livejournal.com *.livejournal.net *.dsp-rambler.ru *.google.com google.com *.rambler-co.ru rambler-co.ru *.rambler.ru rambler.ru *.tiktok.com tiktok.com *.youtube.com youtube.com; script-src 'self' *.livejournal.com *.livejournal.net *.adfox.ru *.adlooxtracking.com adlooxtracking.com *.adlooxtracking.ru adlooxtracking.ru ad.mail.ru api.giphy.com bs.serving-sys.ru cdn.ampproject.org cdn.jsdelivr.net cdnjs.smi2.ru content.adriver.ru *.criteo.com *.criteo.net data.24smi.net *.doubleclick.net *.dropbox.com dsp-rambler.ru *.dsp-rambler.ru embed.bsky.app *.exelator.com *.facebook.com vk.com *.facebook.net gist.github.com googleads.g.doubleclick.net *.google-analytics.com *.googleapis.com *.google.com google.com *.google.ru *.googlesyndication.com *.googletagmanager.com googletagmanager.com *.googletagservices.com *.gstatic.com *.instagram.com js.mamydirect.com jsn.24smi.net *.lj.ru mc.yandex.com mc.yandex.ru *.newrelic.com *.nr-data.net *.ok.ru openstat.net pingback.giphy.com *.pingdom.com *.pingdom.net *.pinterest.com *.plista.com privacy-cs.mail.ru *.rambler-co.ru rambler-co.ru *.rambler.ru rambler.ru rb.infox.sg r.mradx.net *.rnet.plus *.rubiconproject.com r.webturn.ru *.scorecardresearch.com sdk.canva.com *.services.livejournal.com smi2.ru ssl.p.jwpcdn.com ssp.24smi.net static.smi2cdn.ru static.smi2.net static.xx.fbcdn.net stat.media telegram.org tiktokcdn-us.com *.tiktok.com tiktok.com tns-counter.ru *.top100.ru top-fwz1.mail.ru tpc.googlesyndication.com *.ttwstatic.com twemoji.maxcdn.com *.twimg.com *.twitter.com *.videos.livejournal.com *.vk.com *.weborama.fm weborama.fm *.weborama.fr weborama.fr *.weborama.ru weborama.ru *.weborama-tech.ru weborama-tech.ru *.webturn.ru *.webvisor.org *.yahooapis.com *.yandex.ru yandex.ru yastatic.net ymetrica.com *.youtube.com youtube.com z.moatads.com 'unsafe-inline' 'unsafe-eval'; style-src http: https: data: 'unsafe-inline'; img-src blob: http: https: data:; frame-src http: https:; font-src http: https: data:; connect-src 'self' *.livejournal.com *.livejournal.net ad.adriver.ru ad.mail.ru *.ad-tech.ru api.giphy.com bs.serving-sys.ru cdn.ampproject.org *.criteo.com csi.gstatic.com data00.adlooxtracking.com dsp-rambler.ru *.dsp-rambler.ru *.eaglecdn.com export-download.canva.com *.g.doubleclick.net googleads.g.doubleclick.net *.google-analytics.com *.googleapis.com *.google.com google.com *.googletagmanager.com googletagmanager.com graph.facebook.com gstatic.com *.lj.ru lj.stat.eagleplatform.com mc.yandex.by mc.yandex.com mc.yandex.md mc.yandex.ru pingback.giphy.com *.pingdom.net privacy-cs.mail.ru *.rambler-co.ru rambler-co.ru *.rambler.ru rambler.ru rb.infox.sg *.rnet.plus *.services.livejournal.com *.ssp.rambler.ru ssp.rambler.ru static-mon.yandex.net static.xx.fbcdn.net stat.media stats.g.doubleclick.net smi2.net smi2.ru sve.online.sberbank.ru *.tiktok.com tiktok.com top-fwz1.mail.ru *.twitter.com *.webturn.ru *.webvisor.org wss://www.livejournal.com yandexmetrica.com yandexmetrica.com:29010 yandexmetrica.com:30103 *.yandex.net *.yandex.ru yandex.ru yastatic.net ymetrica1.com ymetrica.com *.youtube.com youtube.com; report-uri https://www.livejournal.com/csp_reports; report-to livejournal; media-src http: https: blob: data: storage.mds.yandex.net; frame-ancestors 'self'; worker-src 'self' blob:; object-src 'self' blob: *.livejournal.net youtube.com *.youtube.com; child-src 'self' blob:;)
 
 
 ---
 
 ### Other Cases
 Websites with no specified headers of X-Frame-Options or CSP:
-- alexa_com.html
-- alibaba_com.html
-- amazon_co_jp.html
-- amazon_com.html
-- focus_de.html
-- jstor_org.html
-- hubspot_com.html
-- huffingtonpost_com.html
-- microsoft_com.html
-- sedoparking_com.html
-- target_com.html
-- jhu_edu.html
-- ouest-frane.fr
-- softonic_com.html
-- thesun_co_uk.html
-- uol_com_br.html
-- www_livejournal_com.html
-- www_yahoo_com.html
-- yandex_com.html
+- alexa_com.html ?
+- alibaba_com.html ?
+- amazon_com.html ?
+- focus_de.html ?
+- ouest-frane.fr (403 Response Code)
+- softonic_com.html (406 Response Code)
+- thesun_co_uk.html ?
+- www_yahoo_com.html (429 Response Code)
+
 
 ---
 
