@@ -1,0 +1,26 @@
+URL: http://biglobe.ne.jp
+Final URL: http://biglobe.ne.jp/
+Status Code: 200
+
+Headers:
+Date: Wed, 30 Oct 2024 21:04:29 GMT
+Content-Type: text/html
+Content-Length: 254
+Connection: keep-alive
+Server: Apache
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Last-Modified: Thu, 05 Apr 2018 04:11:53 GMT
+Accept-Ranges: bytes
+
+Content Snippet (first 500 characters):
+<html>
+<head>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store" />
+<meta http-equiv="refresh" content="0;url=https://www.biglobe.ne.jp/" />
+<title>BIGLOBE</title>
+</head>
+<body>
+</body>
+</html>

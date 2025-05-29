@@ -1,0 +1,54 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Fri, 01 Nov 2024 02:02:33 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://shutterstock.com:443/
+
+HTTP/2 301 
+server: awselb/2.0
+date: Fri, 01 Nov 2024 02:02:34 GMT
+content-type: text/html
+content-length: 134
+location: https://www.shutterstock.com:443/
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 338998
+server: CloudFront
+date: Fri, 01 Nov 2024 02:02:34 GMT
+x-request-id: aeffc8fa-5784-4505-a143-f22bf28d3b85
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-dns-prefetch-control: on
+x-download-options: noopen
+x-frame-options: SAMEORIGIN https://app.contentful.com
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+last-modified: Fri, 01 Nov 2024 02:02:34 GMT
+set-cookie: n_v=ab3cdb1c001; Path=/; Secure; SameSite=None
+x-end-user-ip: 98.166.237.183
+x-middleware-rewrite: /en/_shutterstock
+cache-control: max-age=900, no-cache="Set-Cookie"
+link: <https://ak.picdn.net>; rel="preconnect", <https://images.ctfassets.net>; rel="preconnect"
+etag: "pjx8ztmk5r79hi"
+server-timing: getInitialProps; dur=0.14617399871349335; desc="getInitialProps metric"
+server-timing: getServerSideProps; dur=19.95015499740839; desc="getServerSideProps metric"
+server-timing: server; dur=148.4206259995699; desc="server metric"
+server-timing: nextRender; dur=127.77764499932528; desc="nextRender metric"
+server-timing: express; dur=0.954982; desc="start express handler"
+server-timing: getServerSidePropsNonNative; dur=19.959388999999998; desc="getServerSideProps server-timing lib"
+server-timing: total; dur=154.59194499999998; desc="Total Response Time"
+vary: Accept-Encoding,Cookie
+x-cache: Miss from cloudfront
+via: 1.1 4c18e6ed879a674305cb5156731cf396.cloudfront.net (CloudFront)
+x-amz-cf-pop: EWR53-C1
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: rPIyJTiY08KRDk9G98pwD8M-gAKwzx_PMLAm-aAv2_DLM8j3Ay1OAg==
+
+Final-URL: https://www.shutterstock.com:443/

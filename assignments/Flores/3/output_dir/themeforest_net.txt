@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:02:38 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Fri, 01 Nov 2024 03:02:38 GMT
+Location: https://themeforest.net/
+Set-Cookie: __cf_bm=F5ZGF6a87UTPYBFh3ttDsjmtwYPyavtY_wPSNH9KlME-1730426558-1.0.1.1-gCgZunXkemE2IoTNgg0GOmJKzGnbU4LpoGPKmRkl6VXp5yAEDCnVkJr4QBx2tYnKZuTwclZLGSZhwxShvMjLqg; path=/; expires=Fri, 01-Nov-24 02:32:38 GMT; domain=.themeforest.net; HttpOnly
+Server: cloudflare
+CF-RAY: 8db84dc38f894fcf-ORF
+
+HTTP/2 200 
+date: Fri, 01 Nov 2024 02:02:38 GMT
+content-type: text/html; charset=utf-8
+strict-transport-security: max-age=31536000
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+link: <https://assets.market-storefront.envato-static.com/storefront/assets/styles-acb799ee1e865cab3104235aaabbbbf14380b5582fb2a07f2d7538878fda7a28.css>; rel=preload; as=style; type=text/css,<https://assets.market-storefront.envato-static.com/storefront/assets/home/themeforest/search-header-05971474482f1a21d041838addc1f022fa748078e6e4d40f6f728e743231b234.webp>; rel=preload; as=image,<https://assets.market-storefront.envato-static.com/storefront/assets/logos/themeforest-dd57a83e1947d49586491f03d1c3eedc4c6a438d2740328c5277e6b67bc46ad9.webp>; rel=preload; as=image,<https://assets.market-storefront.envato-static.com/storefront/assets/styles-acb799ee1e865cab3104235aaabbbbf14380b5582fb2a07f2d7538878fda7a28.css>; rel=preload; as=style; nopush,<https://assets.market-storefront.envato-static.com/storefront/assets/datadog-ec395bd2189566b6e307ac2df1c2d19a95d85dfdc0ee86841e98131e05770c93.js>; rel=preload; as=script; crossorigin=anonymous; nopush,<https://assets.market-storefront.envato-static.com/storefront/assets/legacy-947e52c66b6c54d32e6af8842543dfc056ad6c8c8fd221c5febb01e577162e02.js>; rel=preload; as=script; crossorigin=anonymous; nopush
+vary: Accept
+cache-control: max-age=1800, public, stale-while-revalidate=300, stale-if-error=28800
+etag: W/"c01341ed8e19a63d1aa7232bfdebc631"
+x-request-id: ba6c91dd-5949-4a4a-8489-7f45027bc124
+x-runtime: 0.268903
+x-content-digest: 51e9af7a1adf1acba32d94db3885334120bdbca2
+x-rack-cache: stale, invalid, store
+cf-cache-status: HIT
+set-cookie: __cf_bm=SUHGL98QUeb.k6OyOyvlf1c3mQWc_6FJLXSC6tbF4p0-1730426558-1.0.1.1-d8sBAC7vKv0JWxn3G3ONk0s9MR3l50mpx6E2ZUvlVF8PIU.Yjhqcdzze3CTWEpw_AfE1PIXLpHCf3Y9gZwvMAQ; path=/; expires=Fri, 01-Nov-24 02:32:38 GMT; domain=.themeforest.net; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 8db84dc43f774fe1-ORF
+
+Final-URL: https://themeforest.net/

@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:02:36 GMT
+Content-Length: 0
+Connection: keep-alive
+perf: 7402827104
+location: https://t.co/
+cache-control: no-cache, no-store, max-age=0
+x-transaction-id: 883f5e5cc1c74087
+x-response-time: 1
+x-connection-hash: 40a63100276081118333cf60acfbb7282e5568928d404ec9c433c98e0ae354a4
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=tJyzhfy8LXj5JFIqG0kEHmBmDZ0zfYQ9bJmobU3_xQA-1730426556-1.0.1.1-gpUoH8Q4KR6eBHbOF85YgbhJ92Z8d61Fncz3AdTV_msbe1hPSk9wamB1vc1S95Xl4grCgtH4.ozRBELM_KrKyQ; path=/; expires=Fri, 01-Nov-24 02:32:36 GMT; domain=.t.co; HttpOnly
+Server: cloudflare tsa_b
+CF-RAY: 8db84dbcbfbe4fe8-ORF
+
+HTTP/2 200 
+date: Fri, 01 Nov 2024 02:02:37 GMT
+content-type: text/html; charset=utf-8
+perf: 7402827104
+cache-control: no-cache, no-store, max-age=0
+x-transaction-id: 4675bcef1ddf040f
+x-xss-protection: 0
+strict-transport-security: max-age=0
+x-response-time: 6
+x-connection-hash: 47dd2fa90d7ba55654bc44a121d6469fe230ba91e59e8feb1d16be8a35a26900
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=_glvSOs56xOExODKoGkpeS51xoy3tO8irtCnAGFrPZA-1730426557-1.0.1.1-XdWsypHXAE9ZsqH39eCjnkj_xU_lXsOW6eosFZgiOwjdvc77wOpuWFJtDtC6QL679OegIX4VRlgluVQpYfQ4EA; path=/; expires=Fri, 01-Nov-24 02:32:37 GMT; domain=.t.co; HttpOnly; Secure; SameSite=None
+server: cloudflare tsa_b
+cf-ray: 8db84dbd6dbb4fd8-ORF
+
+Final-URL: https://t.co/

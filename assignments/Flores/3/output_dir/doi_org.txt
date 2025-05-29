@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:01:57 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Fri, 01 Nov 2024 03:01:57 GMT
+Location: https://doi.org/
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tzd0srXNj3zKhaMhrank6YHtrWgPcxp%2F3ohVnAQrViihI3Gbm7E1K2L3bP%2BqwkUOH5qrrIw%2Bq4J6LiMieDaVyX78q6zDXK%2FLGDdDDUI%2FpZTGCVJmF54YPxXCm%2FETrGzvT3Ya3zs%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8db84cc67f310619-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 301 
+date: Fri, 01 Nov 2024 02:01:57 GMT
+content-length: 0
+location: https://www.doi.org/
+vary: Origin
+permissions-policy: interest-cohort=(),browsing-topics=()
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=9nHAsq9xme2Qhi4oU%2FTblBDT6Q9uxYrZweJITX0MTjkijF9%2Bzwkup3zMXPKLC1qjcckWWOJNb%2FAbK3ZyfEhURrpHcS2H%2FLf5%2BTeMV47H09OHJAJdLH70yUu2kqn2N1mxt6xlUkY%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+server: cloudflare
+cf-ray: 8db84cc6fe1ee5b4-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+content-type: text/html
+content-length: 6951
+date: Fri, 01 Nov 2024 02:01:59 GMT
+last-modified: Tue, 17 Sep 2024 17:33:27 GMT
+etag: "40ca3249393c605326f122c98984af8a"
+x-amz-server-side-encryption: AES256
+x-amz-meta-md5chksum: 40ca3249393c605326f122c98984af8a
+content-encoding: gzip
+accept-ranges: bytes
+server: AmazonS3
+x-cache: Miss from cloudfront
+via: 1.1 ddba66e53ff633c34296b8e866a481e2.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD55-P8
+x-amz-cf-id: K4nbFH1EXFlSi5hBd_yVPXVmHSochQJjpxJAGh2V0LjuW3KEtPCAZw==
+
+Final-URL: https://www.doi.org/

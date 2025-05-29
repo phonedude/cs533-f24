@@ -1,0 +1,41 @@
+URL: http://britannica.com
+Final URL: https://www.britannica.com:443/
+Status Code: 200
+
+Headers:
+Date: Wed, 30 Oct 2024 21:04:31 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: Accept-Encoding,User-Agent
+x-tserver: ip-10-145-22-85/127.0.1.1
+Set-Cookie: bcomID=1595622517111773940; Max-Age=315360000; Expires=Sat, 28 Oct 2034 21:04:31 GMT; Domain=britannica.com; Path=/, SessionAuth=vQocCUuH5QBOHcXJqs7N9B9wLQaUzmmb72mzAkBf54Quq2rNpIF0oUX5orpkfpfGQivoIKEEnzw/Py2EQQyElQ==; Domain=britannica.com; Path=/, subreturn=https%3A%2F%2Fwww.britannica.com%2F; Domain=britannica.com; Path=/, webstats=referer_page=https%3A%2F%2Fwww.britannica.com%2F; Domain=britannica.com; Path=/, __mendel=%7B%27surveyShown%27%3Afalse%2C%27visitedTopicId%27%3A0%2C%27currentDate%27%3A20241030%7D; Domain=britannica.com; Path=/, __cf_bm=kTbOxR_oDmccxBQ9IGWi1t9Vckt0c8lpLjKpVCa8fT8-1730322271-1.0.1.1-g8uz9K2WGrplR9ycTbcuBVF4LZkyDLOiEX1n1SJ.8HabDLAg6bv8hLOBgMCdydvKcGG_Naryz_IrPQ50fdXrNg; path=/; expires=Wed, 30-Oct-24 21:34:31 GMT; domain=.britannica.com; HttpOnly; Secure; SameSite=None
+content-language: en-US
+x-wserver: 127.0.0.1
+x-iset: green
+x-xss-protection: 1; mode=block
+x-permitted-cross-domain-policies: master-only
+expect-ct: max-age=604800
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Uj%2BreYLqPUnjtFw%2BPMScaO4W6xjF8aAWe6BQm4UNY9NqWjftxYp81LFH0mAUHp%2FrmYWVR69594k89m1YNhoG7mBrLf6R1fzfqH9OOLHfgccjyXxDYa2gIAJMKiVfOh45Lz9BDQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8dae5bb6d98e59e5-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+Content Snippet (first 500 characters):
+<!doctype html>
+
+<html lang="en" class="home-desktop ui-chrome91 ui-chrome">
+
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="dns-prefetch" href="https://cdn.britannica.com/mendel-resources/3-127">
+	<link rel="preconnect" href="https://cdn.britannica.com/mendel-resources/3-127">
+
+    <link 

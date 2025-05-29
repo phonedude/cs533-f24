@@ -1,0 +1,99 @@
+HTTP/1.1 302 Moved Temporarily
+Location: https://sites.google.com/
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 01 Nov 2024 02:02:34 GMT
+Expires: Fri, 01 Nov 2024 02:02:34 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+
+HTTP/2 302 
+content-type: text/html; charset=UTF-8
+location: https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/&followup=https://sites.google.com/
+date: Fri, 01 Nov 2024 02:02:34 GMT
+expires: Fri, 01 Nov 2024 02:02:34 GMT
+cache-control: private, max-age=0
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+accept-ranges: none
+vary: Accept-Encoding
+
+HTTP/2 302 
+content-type: application/binary
+set-cookie: __Host-GAPS=1:TK7jf9xhpFpT5xQWMvWxETkDBtJ4tQ:Z8Gp2BelaqxtCYSo; Expires=Sun, 01-Nov-2026 02:02:34 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Fri, 01 Nov 2024 02:02:34 GMT
+location: https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/&followup=https://sites.google.com/&passive=1209600&service=jotspot&ifkv=AcMMx-c33qWiwv38GepNxP-rkZFmJfMAnos9jFYGzukgzV6vLpIL8IvWRSTglF4wLs_Ictdmpchbnw
+content-length: 0
+strict-transport-security: max-age=31536000; includeSubDomains
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+cross-origin-opener-policy: unsafe-none
+content-security-policy: script-src 'nonce-VvzIqtYVeaDpGVcWy_4jlQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
+content-security-policy: require-trusted-types-for 'script';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport
+cross-origin-resource-policy: cross-origin
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+server: ESF
+x-xss-protection: 0
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 302 
+content-type: text/html; charset=UTF-8
+set-cookie: __Host-GAPS=1:4HGHVOAPO_NgXMM-xkUxcgxQs-1JKg:kqrh_xqEoeOAvmuP;Path=/;Expires=Sun, 01-Nov-2026 02:02:34 GMT;Secure;HttpOnly;Priority=HIGH
+x-frame-options: DENY
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Fri, 01 Nov 2024 02:02:34 GMT
+location: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2F&followup=https%3A%2F%2Fsites.google.com%2F&ifkv=AcMMx-dM_9j0a-4qNMrbuiX3qqfqSx6hzq3seazNYTDko-fiS33tr_uRxAd_bUkKeoOg_u-CVFcPJg&passive=1209600&service=jotspot&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S102364845%3A1730426554733595
+content-length: 567
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: script-src 'nonce-1ygjsLwvVdJIWPXmvkiTtA' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+content-security-policy: require-trusted-types-for 'script';report-uri /cspreport
+report-to: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
+cross-origin-opener-policy-report-only: same-origin; report-to="coop_gse_qebhlk"
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-frame-options: DENY
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+set-cookie: __Host-GAPS=1:MqTjKotU9X8SiGG1uSMO974qun4lVg:EPLBGTdTVKSJqCm6; Expires=Sun, 01-Nov-2026 02:02:34 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+x-auto-login: realm=com.google&args=service%3Djotspot%26continue%3Dhttps://sites.google.com/
+link: <https://workspace.google.com/intl/en-US/products/sites/>; rel="canonical"
+x-ua-compatible: IE=edge
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Fri, 01 Nov 2024 02:02:34 GMT
+content-length: 834540
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: same-site
+content-security-policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+content-security-policy: script-src 'nonce-6KBRGdwETq1FieoL_Rw4gw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+report-to: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+cross-origin-opener-policy-report-only: same-origin; report-to="AccountsSignInUi"
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+reporting-endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwz1IAmEcB2B54R8hDhEOYkMlGNFg5xVUQ4RBLQ0JrZaXeKYQp51X0FaDQ2VhRB9Ig0OTa4NoHxQUVJDpewfREBREKiFRVEND9HvgMR-wLrPdNNppN506Cswz-cJG0Jd9ZRKeT1XYJSrFClOxLlXZB64mqmwDD5NVlsMdS42l8SJXY1do-66xDnzM7NIzDs_skRcTD0XawsDfHcUwby3RCQ5mS-TB9rcSOTEslWkWP2Nl-kF3G6chPOrjdIb6Gqd7dCY59eBKitM6RtOc4rh_zCmDLQM6teLYhE7jeBPSqYjJL51SuGk1aBtVm0FL6PMaJOHyrUEJdL0bJGKzpbFQT-Ubmp6uy7_M0R2IzvkjQVnRItpiSI0qmqwEp-e18HwkLqsLsuoXBbHXLYj9LsHtjwn_K_2d1w"
+server: ESF
+x-xss-protection: 0
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+Final-URL: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2F&followup=https%3A%2F%2Fsites.google.com%2F&ifkv=AcMMx-dM_9j0a-4qNMrbuiX3qqfqSx6hzq3seazNYTDko-fiS33tr_uRxAd_bUkKeoOg_u-CVFcPJg&passive=1209600&service=jotspot&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S102364845%3A1730426554733595

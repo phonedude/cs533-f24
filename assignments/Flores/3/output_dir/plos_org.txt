@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:02:16 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://plos.org/
+CF-Ray: 8db84d3d49d04fe8-ORF
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+ki-cache-type: None
+Ki-CF-Cache-Status: BYPASS
+ki-edge: v=20.2.8;mv=3.1.4
+ki-origin: g1p
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lCQYkOvqOqOgrAXgY%2FLABXqOCBBy7Alba30VQlLxhDWa%2FApwCcfemx%2Bq3TqRli%2BtVhgyKrRM2hBWY%2BWNzQpWUEDVFMQpqmaMhBUGRFmnTA4E%2B2ceJbpj1k2YCMMIMKBOXerGJD0g"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Fri, 01 Nov 2024 02:02:16 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: 8db84d3e5e65505c-ORF
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+link: <https://plos.org/wp-json/>; rel="https://api.w.org/", <https://plos.org/wp-json/wp/v2/pages/51>; rel="alternate"; title="JSON"; type="application/json", <https://plos.org/>; rel=shortlink
+vary: Accept-Encoding
+ki-cache-type: None
+ki-cf-cache-status: BYPASS
+ki-edge: v=20.2.8;mv=3.1.4
+ki-origin: g1p
+x-content-type-options: nosniff
+x-edge-location-klb: 1
+x-kinsta-cache: HIT
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=W7OmwcaxfA2ItN3cqjacg7rSVNfarJVY959KwdOkgDk%2F4gMqdoPLc90ej05bSAiqaUUpv39e8nBOWLbImhFpAG4edhMQjvBqnuAurlEwN4z0HQaDJJlMo3k7GM%2B2VyPceBgx%2B9FY"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://plos.org/

@@ -1,0 +1,25 @@
+URL: http://offset.com
+Final URL: https://www.offset.com:443/
+Status Code: 200
+
+Headers:
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Thu, 21 Mar 2024 16:04:14 GMT
+Content-Encoding: gzip
+x-amz-server-side-encryption: AES256
+Server: AmazonS3
+Date: Sat, 05 Oct 2024 17:35:55 GMT
+Cache-Control: public, max-age=31536000
+ETag: W/"e9bf427654715c36f8de2762d4ab3844"
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 f01dafb3bec9893b47152910d47900a4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD12-P3
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: x0X_knzvK5Qos3bzkD5IkPdG_JNh8xzuPqGq4l0VzC3CsxMeGntqgw==
+Age: 2172588
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link type="text/css" rel="stylesheet" href="css/style.css"/><title>OFFSET by Shutterstock</title><meta content="A high-end imagery resource from Shutterstock. Authentic, captivating stock photography and illustrations. All royalty-free." name="description"/><meta name="

@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://tripadvisor.com/
+Accept-Ranges: bytes
+Date: Fri, 01 Nov 2024 02:02:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100053-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1730426561.813874,VS0,VE0
+
+HTTP/2 403 
+x-envoy-upstream-service-time: 21
+server: envoy
+x-datadome: protected
+access-control-allow-credentials: true
+access-control-allow-origin: *
+x-datadome-cid: AHrlqAAAAAMA_zAEJotwCy8AYqbttw==
+x-dd-b: 1
+pragma: no-cache
+content-type: text/html;charset=utf-8
+cache-control: no-store, must-revalidate
+accept-ch: Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory
+set-cookie: datadome=lSxctOungr2kgQfwrejy2QoLKRzJgmds5K21w9jluPRgq7BYuZHST4cy3xMe6~yr5Ob8lMmBK~zPTy4lE1aNNTYYLX0BIXEHmSlT3lVUhwtawPjJyKyVVc0o1MSyvcZn; Max-Age=31104000; Domain=.tripadvisor.com; Path=/; Secure; SameSite=Lax
+set-cookie: TAUnique=%1%enc%3A%2BX43c2vuE78rAEI3piRmV7BUhkoD2uiKsvfqLL1eSCLNgXSpMsiwVUbzGENXrJKHNox8JbUSTxk%3D; Max-Age=63072000; HttpOnly; Path=/
+access-control-expose-headers: x-dd-b, x-set-cookie
+charset: utf-8
+x-request-id: bc74395e-f97f-4719-b595-a6f1b9be13c1
+accept-ranges: bytes
+date: Fri, 01 Nov 2024 02:02:40 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kjyo7100176-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1730426561.878401,VS0,VE31
+vary: Accept-Encoding
+content-length: 725
+
+Final-URL: https://tripadvisor.com/

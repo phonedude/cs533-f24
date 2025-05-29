@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.estadao.com.br/
+Expires: Fri, 01 Nov 2024 02:02:01 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 01 Nov 2024 02:02:01 GMT
+Connection: keep-alive
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: openresty
+etag: W/"13f695-0ZL/nPhNuf90SAgdxXylsuitFHs"
+x-arc-pb-mx-id: 00000000
+x-arc-pb-request-id: 6c2e6e9a-6dda-47ab-a7c3-97969a3e39f9
+x-arc-pb-request-id: 85cd0fde-9f85-4f94-b18f-3e355923c152
+last-modified: Fri, 01 Nov 2024 02:00:32 GMT
+mpulse_cdn_cache: HIT
+mpulse_origin_time: 0
+cache-control: private, max-age=60
+expires: Fri, 01 Nov 2024 02:03:01 GMT
+date: Fri, 01 Nov 2024 02:02:01 GMT
+content-security-policy: upgrade-insecure-requests
+x-arc-ttl: 120
+x-arc-request-id: 0.b702de17.1730426521.d7c8b1d
+server-timing: ak_p; desc="1730426521403_400425655_226265885_9457_9481_18_22_15";dur=1
+
+Final-URL: https://www.estadao.com.br/

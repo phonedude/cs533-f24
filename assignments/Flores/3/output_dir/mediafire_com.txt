@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:02:10 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Fri, 01 Nov 2024 03:02:10 GMT
+Location: https://www.mediafire.com/
+Set-Cookie: __cf_bm=yS2ZB4gX9trkexTfQ3jU7c9BF9Itw6oHUIBNKit3Wpc-1730426530-1.0.1.1-x1wRlMcczSOi1o25L4_dAOjYbJTeNY8voBS7_cs93QBSnZJd2yhTCIK8vBVQPSjW5BEhjuBv7V6ejMol7ukmRw; path=/; expires=Fri, 01-Nov-24 02:32:10 GMT; domain=.mediafire.com; HttpOnly
+Server: cloudflare
+CF-RAY: 8db84d15fe0e4fcc-ORF
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Fri, 01 Nov 2024 02:02:10 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: 8db84d16d8044fd8-ORF
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+cache-control: no-cache, no-store, must-revalidate, max-age=0, post-check=0, pre-check=0
+expires: 0
+set-cookie: ukey=kp3lnoz74sxisluoaxwge14dll94w9yk; expires=Tue, 01-Nov-2044 02:02:10 GMT; Max-Age=631152000; path=/; domain=.mediafire.com; HttpOnly
+strict-transport-security: max-age=0
+pragma: no-cache
+access-control-allow-methods: OPTIONS, POST, GET
+alt-svc: h3=":443"; ma=86400
+content-security-policy: frame-ancestors *.mediafire.com
+x-frame-options: SAMEORIGIN
+x-mf-env: liveApi
+x-mf-fe: mf1
+set-cookie: __cf_bm=WGyGI4xlE2tJAmG_xAoC8rxaWsSWmV1RbJgpDBqccbU-1730426530-1.0.1.1-Pb0SldelvtbrCqxtVUvHCX3Hy7xDqu1NkgF20kB7H367kMzUTdrPuH2NMwrJp4dzILFyzOVIBhNzuLVx6aekRQ; path=/; expires=Fri, 01-Nov-24 02:32:10 GMT; domain=.mediafire.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+
+Final-URL: https://www.mediafire.com/

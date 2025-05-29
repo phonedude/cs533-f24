@@ -198,4 +198,4 @@ Resolving server's HEAD vs. GET behavior is outside of the scope for this class;
 
 ### Extra Credit -- 2 points
 
-* The title of slide 48 in week 4 is a literary reference.  Briefly describe this literary reference (but "Buzz Lightyear" does not count), both the origin and the meaning in the slides.
+* The title of slide 48 in week 4 is a literary reference.  Briefly describe this literary reference, both the origin and the meaning in the slides.

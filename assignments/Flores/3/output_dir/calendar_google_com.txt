@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 01 Nov 2024 02:01:54 GMT
+Content-Length: 3457
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=518=sxE6HroqzlxUfmmmouDc_ae68-TAJrTV-XFzqXiVHvHqRUTEuJGOiGEwCP8MQ34LfdkmemhyFlyqUAp6Jhpj2ssXEJ4Fzk5R7dU-I_2gpm4LUeSfscsijuur9z3JDXVIqBsUnU4l3zl6Qmo3yna6cSmkHjGy_-HMOo75CSBKEK8iUbYlMJo; expires=Sat, 03-May-2025 02:01:54 GMT; path=/; domain=.google.com; HttpOnly
+
+Final-URL: http://calendar.google.com/

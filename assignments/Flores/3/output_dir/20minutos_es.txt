@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Fri, 01 Nov 2024 02:01:44 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://20minutos.es/
+X-Cache: Redirect from cloudfront
+Via: 1.1 df2f03f1e32bc36cc15af726be2891aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD55-P7
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 7kOvsq7-NXncWjyZUQHxdWvAUEjxQo4A9K4IDCBs4mGnJDbdQGEiKA==
+
+HTTP/2 301 
+content-length: 0
+location: https://www.20minutos.es/
+date: Fri, 01 Nov 2024 02:01:44 GMT
+x-cache: Miss from cloudfront
+via: 1.1 ccbaf468b9286180aaf02d6bf95cd27e.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD55-P7
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: xLd4-LeTdS2M3ENpY2K3wVL7vhg7YXfOERyHLSLy0Rx2y-IKTsrL-w==
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 305420
+date: Fri, 01 Nov 2024 02:01:44 GMT
+expires: Fri, 01 Nov 2024 02:00:52 GMT
+cache-control: max-age=120, public
+accept-ranges: bytes
+vary: User-Agent,Accept-Encoding
+x-cache: Miss from cloudfront
+via: 1.1 20e1ec5c4961778268603d507aa565a0.cloudfront.net (CloudFront)
+x-amz-cf-pop: ATL56-P2
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: 87CCv6O69ISMOCXvoDDYGotgrDfDPiMUznXXVg-SRPbrNur6GZNSUA==
+
+Final-URL: https://www.20minutos.es/

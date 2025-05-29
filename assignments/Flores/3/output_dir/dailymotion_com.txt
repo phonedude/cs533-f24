@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Date: Fri, 01 Nov 2024 02:01:55 GMT
+Location: https://dailymotion.com/
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 301 Moved Permanently
+Server: DMS/1.0.42
+Content-Type: text/html
+Strict-Transport-Security: max-age=31708800; includeSubDomains; preload
+Date: Fri, 01 Nov 2024 02:01:56 GMT
+Server-Timing: total;dur=0, dc;desc="ix7"
+Location: https://www.dailymotion.com/
+Timing-Allow-Origin: *
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 01 Nov 2024 02:01:56 GMT
+Etag: W/"2a153-8+/37o3DoyJFmu+a+lCyCQZrzl0"
+Last-Modified: Fri, 01 Nov 2024 01:44:46 GMT
+Server: DMS/1.0.42
+Server-Timing: total;dur=23, dc;desc="ix7"
+Set-Cookie: ts=984249; Path=/; Domain=dailymotion.com; Expires=Mon, 01 Dec 2025 02:01:57 GMT; Max-Age=34127999; Secure; SameSite=None
+Set-Cookie: v1st=9815f720-d071-490e-a7a3-e1aa4efeefbf; Path=/; Domain=dailymotion.com; Expires=Mon, 01 Dec 2025 02:01:57 GMT; Max-Age=34127999; Secure; SameSite=None
+Strict-Transport-Security: max-age=31708800; includeSubDomains; preload
+Timing-Allow-Origin: *
+Vary: X-DM-SSL
+Vary: Accept-Encoding
+
+Final-URL: https://www.dailymotion.com/

@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:02:10 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Fri, 01 Nov 2024 03:02:10 GMT
+Location: https://medium.com/
+X-Content-Type-Options: nosniff
+Set-Cookie: _cfuvid=ODOGJ9D.6QuPHy4_6tZC67MTCSuxqSTAk4uwODzA4Bo-1730426530543-0.0.1.1-604800000; path=/; domain=.medium.com; HttpOnly
+Server: cloudflare
+CF-RAY: 8db84d17dd28505a-ORF
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 103 
+link: <https://glyph.medium.com/css/unbound.css>; as=style; rel=preload
+
+HTTP/2 200 
+date: Fri, 01 Nov 2024 02:02:10 GMT
+content-type: text/html; charset=utf-8
+cf-ray: 8db84d182f874fdf-ORF
+cf-cache-status: DYNAMIC
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+link: <https://glyph.medium.com/css/unbound.css>; as="style"; rel="preload"
+set-cookie: uid=lo_11ec06e558c2; Domain=medium.com; Path=/; Expires=Sat, 06 Dec 2025 02:02:10 GMT; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+content-security-policy: frame-ancestors 'self' https://medium.com
+medium-fulfilled-by: edgy/8.8.0, valencia/main-20241030-200843-40bbab2e86, lite/main-20241031-173728-9c0c9e86e0, rito/main-20241031-165100-a3b1b3074f
+medium-missing-time: 68
+worker-cache-key: medium.com/?li=false&gate-enable_update_topic_portals_wtf=true&gate-enable_indexeddb=true
+worker-cache-middleware: true
+worker-missing-cookies: 1
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 82
+x-request-received-at: 1730426530656
+set-cookie: sid=1:+xltkU2KW4YjQt33DaRVpSjNgShw550gyDDWJp82PKtRSpTCgNKxTF8dt8TXdQky; Domain=medium.com; Path=/; Expires=Sat, 06 Dec 2025 02:02:10 GMT; HttpOnly; Secure; SameSite=None
+set-cookie: _cfuvid=ALWNif1XPR7lek.Vkly9T2CUfFBNQO4_SWHYpvb_9FU-1730426530735-0.0.1.1-604800000; path=/; domain=.medium.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://medium.com/

@@ -1,0 +1,55 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:02:16 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Fri, 01 Nov 2024 03:02:16 GMT
+Location: https://plesk.com/
+Set-Cookie: __cf_bm=DEpOoA6K.UPrYcBSAlfade8EALUuwF7o9Ut6_UXod6E-1730426536-1.0.1.1-bfZVWdgST2R048xqrxjzb7QnEj8OK30tU8hG3XN7s9EROSpUSPWJRPthxHpIGHDx13gItO7Xvqi5K36oUNLImQ; path=/; expires=Fri, 01-Nov-24 02:32:16 GMT; domain=.plesk.com; HttpOnly
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 8db84d3a197a505f-ORF
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 301 
+date: Fri, 01 Nov 2024 02:02:16 GMT
+location: https://www.plesk.com/
+x-powered-by: PleskLin
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+alt-svc: h3=":443"; ma=86400
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=VJrW5rpXVDUlck3IAMY4bQ4qRkB6nlcBneBGDPILHYE-1730426536-1.0.1.1-58c7yNnvmvLniYwAalNrUEJOrC3Uvq7QydnGQqNVYhDjofEuhKFdzO6e_b_F759cK5x9522UO.uF_gzWTlm2ng; path=/; expires=Fri, 01-Nov-24 02:32:16 GMT; domain=.plesk.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=15552000
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 8db84d3a8d69505d-ORF
+
+HTTP/2 200 
+date: Fri, 01 Nov 2024 02:02:16 GMT
+content-type: text/html; charset=UTF-8
+x-powered-by: PHP/8.2.25
+x-powered-by: PleskLin
+x-xss-protection: 1; mode=block
+x-dns-prefetch-control: on
+content-security-policy: frame-ancestors 'self'; default-src https: *.crazyegg.com blob:; frame-src https: 'self' 'unsafe-inline' 'unsafe-eval'; script-src https: 'self' 'unsafe-inline' 'unsafe-eval' *.crazyegg.com blob:; connect-src 'self' https: wss: *.crazyegg.com; img-src https: 'self' data: *.crazyegg.com; style-src https: 'unsafe-inline'; font-src https: 'unsafe-inline' data:;
+x-frame-options: SAMEORIGIN
+link: <https://www.plesk.com/wp-json/>; rel="https://api.w.org/"
+link: <https://www.plesk.com/wp-json/wp/v2/pages/27874>; rel="alternate"; title="JSON"; type="application/json"
+link: <https://www.plesk.com/>; rel=shortlink
+cache-control: public, max-age=172800
+expires: Sat, 02 Nov 2024 16:14:56 GMT
+x-litespeed-cache: hit
+access-control-allow-origin: *
+alt-svc: h3=":443"; ma=86400
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=DuiFIf23mk77D6JrvdiIFLmauAYfdpYQhVpPLn9bFmk-1730426536-1.0.1.1-qxl_MiGKNUGzRRjj7q3OArYWbYpv8dept6MZgnBWHkHUTDLPrRwVa1iGNuvx2XcfFn.uAXFNeO3zPdewSe_GaA; path=/; expires=Fri, 01-Nov-24 02:32:16 GMT; domain=.plesk.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=15552000
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 8db84d3bef9a4fcd-ORF
+
+Final-URL: https://www.plesk.com/

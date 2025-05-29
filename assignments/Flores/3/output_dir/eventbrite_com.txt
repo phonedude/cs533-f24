@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Fri, 01 Nov 2024 02:02:01 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://eventbrite.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 145a3c1a881b9a37bb761d4b0890859a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK52-P3
+X-Amz-Cf-Id: Wl2c6AYDDdydLfNyfOOVoJpseNByPLEslDHYNBSTW3O58NVN2FVCmA==
+
+HTTP/2 301 
+content-length: 0
+location: https://www.eventbrite.com
+server: CloudFront
+date: Fri, 01 Nov 2024 02:02:01 GMT
+via: 1.1 8918721f9949345e08455e61518a59ec.cloudfront.net (CloudFront), 1.1 932c2b3276a26e6c28876ec88fecf714.cloudfront.net (CloudFront)
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-amz-cf-pop: IAD79-C1
+x-cache: Miss from cloudfront
+x-amz-cf-pop: JFK52-P3
+x-amz-cf-id: qpTNM23o11SIZGEksHqYe-w6gcrop_JCsrwSbqyGFPlrlIci06JSeA==
+
+HTTP/2 200 
+content-type: text/html
+content-length: 143333
+server: CloudFront
+date: Fri, 01 Nov 2024 02:01:14 GMT
+x-amzn-remapped-connection: keep-alive
+x-amz-apigw-id: Ai1wtE2HIAMEETw=
+cache-control: public, max-age=300, s-maxage=600
+x-amzn-remapped-date: Fri, 01 Nov 2024 02:01:14 GMT
+vary: Accept-Encoding
+via: 1.1 bad43b7a5f64a218c0ba43b47a8d182e.cloudfront.net (CloudFront), 1.1 aadc36bc93844687d7ba70137223bc20.cloudfront.net (CloudFront)
+set-cookie: csrftoken=12d899340ce3404e81440ac20a1c3224;Domain= .eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=none
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-amzn-requestid: 1d01972d-694b-4c38-a32a-4170a783deb7
+x-amz-cf-pop: IAD79-C1
+x-cache: Miss from cloudfront
+x-amz-cf-pop: IAD55-P2
+x-amz-cf-id: uAIZgzuINPJJPC52iVPbqfxTneO73-oJNnjd8p834M7auniGT0sJZA==
+age: 47
+
+Final-URL: https://www.eventbrite.com/

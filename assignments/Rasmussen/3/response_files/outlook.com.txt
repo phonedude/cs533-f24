@@ -1,0 +1,25 @@
+URL: http://outlook.com
+Final URL: https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0
+Status Code: 200
+
+Headers:
+Accept-Ranges: bytes
+Content-Type: text/html
+ETag: "85de642e1467807f64f7e10807df3869:1711562737.176211"
+Last-Modified: Tue, 26 Mar 2024 18:16:43 GMT
+Server: AkamaiNetStorage
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Wed, 30 Oct 2024 21:05:44 GMT
+Content-Length: 12623
+Connection: keep-alive
+
+Content Snippet (first 500 characters):
+
+<!DOCTYPE html><html xmlns:mscom="http://schemas.microsoft.com/CMSvNext"
+        xmlns:md="http://schemas.microsoft.com/mscom-data" lang="en-us"
+        xmlns="http://www.w3.org/1999/xhtml"><head><link rel="shortcut icon"
+                        href="//www.microsoft.com/favicon.ico?v2" /><link
+                        type="text/css" rel="stylesheet"
+                        href="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.25.0/css/mwf-west-european-default.min.css"
+     

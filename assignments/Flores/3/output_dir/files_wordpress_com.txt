@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 01 Nov 2024 02:02:02 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://files.wordpress.com/
+
+HTTP/2 302 
+server: nginx
+date: Fri, 01 Nov 2024 02:02:02 GMT
+content-type: text/html
+content-length: 138
+location: https://wordpress.com
+x-nc:  dca 2
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+server: nginx
+date: Fri, 01 Nov 2024 02:02:02 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-hacker: Want root?  Visit join.a8c.com/hacker and mention this header.
+host-header: WordPress.com
+vary: Cookie
+set-cookie: tk_ai=ylrMTNgWqZvK4NPqNspTq9sl; expires=Wed, 31-Oct-2029 02:02:02 GMT; Max-Age=157680000; path=/; domain=.wordpress.com; secure; SameSite=None
+set-cookie: tk_ai_explat=ylrMTNgWqZvK4NPqNspTq9sl; expires=Wed, 31-Oct-2029 02:02:02 GMT; Max-Age=157680000; path=/; domain=.wordpress.com; secure; SameSite=None
+set-cookie: tk_qs=_en%3Dwpcom_experiment_variation_assigned%26_ut%3Danon%26_ui%3DylrMTNgWqZvK4NPqNspTq9sl%26_ts%3D1730426522684%26experiment_id%3D22073%26experiment_variation_id%3D4740%26reason%3Dset_by_anon_id; path=/; domain=.wordpress.com; secure; SameSite=Strict
+set-cookie: explat_test_aa_weekly_lohp_2024_week_44=control; expires=Mon, 18-Nov-2024 00:00:00 GMT; Max-Age=1461478; path=/; domain=.wordpress.com; secure; SameSite=None
+set-cookie: tk_qs=_en%3Dwpcom_experiment_variation_assigned%26_ut%3Danon%26_ui%3DylrMTNgWqZvK4NPqNspTq9sl%26_ts%3D1730426522684%26experiment_id%3D22073%26experiment_variation_id%3D4740%26reason%3Dset_by_anon_id%20_en%3Dwpcom_experiment_variation_assigned%26_ut%3Danon%26_ui%3DylrMTNgWqZvK4NPqNspTq9sl%26_ts%3D1730426522685%26experiment_id%3D22053%26experiment_variation_id%3D4697%26reason%3Dset_by_anon_id; path=/; domain=.wordpress.com; secure; SameSite=Strict
+set-cookie: lohp_headline_copy_test_20241010=control; expires=Mon, 25-Nov-2024 00:00:00 GMT; Max-Age=2066278; path=/; domain=.wordpress.com; secure; SameSite=None
+x-ac: 2.dca _dca BYPASS
+strict-transport-security: max-age=31536000; preload
+alt-svc: h3=":443"; ma=86400
+
+Final-URL: https://wordpress.com/

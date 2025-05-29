@@ -1,0 +1,11 @@
+HTTP/1.1 400 Bad Request
+Vary: Origin
+Access-Control-Allow-Origin: *
+Timing-Allow-Origin: *
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Tue, 08 Oct 2024 00:06:47 GMT
+Server: fife
+Content-Length: 1555
+X-XSS-Protection: 0
+

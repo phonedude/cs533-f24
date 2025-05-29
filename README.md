@@ -1,17 +1,4 @@
 ### ODU CS 433/533 Web Security, Fall 2024
-Instructor: [Michael L. Nelson](http://www.cs.odu.edu/~mln/) <mln@cs.odu.edu>
-
-Office Hours: Wednesdays 2-4 and by appointment 
-
-Time: Asynchronous, online
-
-Place: Asynchronous, online -- contact mln@cs.odu.edu for the Youtube Playlist URL.  
-
-[Syllabus](https://raw.githubusercontent.com/phonedude/cs533-f24/master/syllabus.txt)
-
-Class Email list: [https://groups.google.com/group/cs533-f24](https://groups.google.com/group/cs533-f24)
-
-[CRNs](https://www.cs.odu.edu/~zeil/courseSchedule/viewer.php?semester=fall24&group=SC251): 20312, 20313, 20314 (433) and 20315, 20316, 20317 (533)
 
 ### Course Objectives
 
@@ -82,7 +69,7 @@ his course materials (although any errors are mine).
    * [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
    * [CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy](https://research.google/pubs/pub45542/)
    * [Defence in Depth: The medieval castle approach to internet security](https://medstack.co/blog/defence-in-depth-the-medieval-castle-approach-to-internet-security/)
-   * [Class slides](https://docs.google.com/presentation/d/1zl9Fnz0_izeb9l4wXYsMuCIlb9J7XfnHgjGZ53LT_ms/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1m9aiIwfehu37zgkfMXaN1nI2VYO8AisGc_4dsZLYIrg/edit)
 
 * Week 07 - Fingerprinting and Privacy
    * [Browser Fingerprinting: An Introduction and the Challenges Ahead](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead)
@@ -91,7 +78,7 @@ his course materials (although any errors are mine).
 * Week 08 - Transport Layer Security
     * [Looking back at the Snowden revelations](https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/)
     * [HTTPS encryption on the web](https://transparencyreport.google.com/https/overview)
-    * [Class slides](https://docs.google.com/presentation/d/1XCbpbbsOII5B2bu35Y2ZB9DWUU2VI_fhdiF0_jlLHfI/edit)
+    * [Class slides](https://docs.google.com/presentation/d/17k2wy3MlP5fdTLL7QzQwNIThtfVaPASyhYvcqTeVSJI/edit#)
 
 * Week 09 - HSTS, Certificate Transparency
     * [Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
@@ -102,24 +89,24 @@ his course materials (although any errors are mine).
 
 * Week 10 - Authentication
     * [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-    * [Class slides](https://docs.google.com/presentation/d/1DSTAmRKJgc6_2-IrzZI_M12eflqM_OSn57Vy00z9iVI/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1dS0WQ4l6vaZozTOwXZH0dlLqCzTA6lH0yJYFrnd6f4Y/edit)
 
 * Week 11 - Local HTTP Server Security
     * [Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!](https://infosecwriteups.com/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5)
-    * [Class slides](https://docs.google.com/presentation/d/1onYeg9tRDaSFWs_bMqcUSwwzeoIfZGeBgZ34GZYeFbY/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1bY4q_uOauOXA65IcwxBpJmCCwUvcQQUh78kdp3l9JmU/edit)
 
 * Week 12 - DNS rebinding attacks
     * [Millions of Streaming Devices Are Vulnerable to a Retro Web Attack](https://www.wired.com/story/chromecast-roku-sonos-dns-rebinding-vulnerability/)
     * [Protecting Browsers from DNS Rebinding Attacks](https://crypto.stanford.edu/dns/dns-rebinding.pdf)
-    * [Class slides](https://docs.google.com/presentation/d/1sdp10RkKxUyqTtoDH4--UmKTPHQv8jSWu76EATDivhI/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1yH2gE2jwMF-ySg44qflwttsHh7rqFKepfdokYuySGS0/edit)
 
-* Week 13 - Thanksgiving -- no classes
-
-* Week 14 - UI Denial-of-service, Phishing, Side Channels
+* Week 13 - UI Denial-of-service, Phishing, Side Channels
     * [The Annoying Site](https://github.com/feross/theannoyingsite.com)
     * [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/)
     * [The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/)
-    * [Class slides](https://docs.google.com/presentation/d/1tFVuMX7r1FDp4ogX1y5hQilBKxfn40hIhB4dQW4Tizc/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1yLOAAMgyweGspggK9R7ZlDBH11G7VRu5yT19QOgPYAA/edit)
+
+* Week 14 - Thanksgiving -- no classes
 
 * Week 15 - Rehosting, Web Archiving
     * [Rewriting History: Changing the Archived Web from the Present](https://rewritinghistory.cs.washington.edu/) ([slides](slides/Lerner-ACM-CCS-2017.pdf), [video](https://www.youtube.com/watch?v=Pn65m3l0Zw8), [DSHR blog post](https://blog.dshr.org/2017/09/attacking-users-of-wayback-machine.html))
@@ -145,10 +132,10 @@ his course materials (although any errors are mine).
    * [Due: November 1](/assignments/assignment-4.md)
 
 * Assignment 5: Same-origin Policy, CORS, CSP
-   * [Due: November 15](/assignments/assignment-5.md)
+   * [Due: November 22](/assignments/assignment-5.md)
 
 * Assignment 6: Fingerprinting
-   * Due: [November 29](/assignments/assignment-6.md)
+   * Due: [December 2](/assignments/assignment-6.md)
 
 * Assignment 7: Phishing
    * Due: [December 13](/assignments/assignment-7.md)

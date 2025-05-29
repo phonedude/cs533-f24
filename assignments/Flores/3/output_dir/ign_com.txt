@@ -1,0 +1,31 @@
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.ign.com/
+Accept-Ranges: bytes
+Date: Fri, 01 Nov 2024 02:02:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100070-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1730426526.394122,VS0,VE0
+Cache-Control: max-age:604800
+
+HTTP/2 403 
+retry-after: 0
+accept-ranges: bytes
+date: Fri, 01 Nov 2024 02:02:06 GMT
+x-served-by: cache-iad-kjyo7100135-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1730426527.503906,VS0,VE0
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST, PUT
+access-control-allow-headers: Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, Authorization
+set-cookie: geoCC=US; path=/
+strict-transport-security: max-age=300
+content-length: 3506
+
+Final-URL: https://www.ign.com/

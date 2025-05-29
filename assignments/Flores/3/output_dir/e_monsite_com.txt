@@ -1,0 +1,51 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:01:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/8.2.6
+Location: http://www.e-monsite.com/
+X-EMS-Server: 162
+X-Frame-Options: sameorigin
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=88JPx6m0YARTSBhVG3QV88TRSWTojjB70S4EnKdc79OTItjmydiOfliQQIPMPIilxu83QoLzFOK4pJBf5eATd4f6w%2FPhR8Cur75NHzUK2haRIOU382jcvtaAOaG86DYyfkXhDkmvjtfRC5dW"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8db84ccafb6a0806-IAD
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=16347&sent=1&recv=3&lost=0&retrans=0&sent_bytes=0&recv_bytes=78&delivery_rate=0&cwnd=249&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 01 Nov 2024 02:01:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/8.2.6
+Location: https://www.e-monsite.com/
+X-EMS-Server: 70
+X-Frame-Options: sameorigin
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Ks%2FuvRHTFaQ61p%2F2ZY%2FFnVqQ7bf6YMI8iC%2F4KWZjgJcjBHXURYUFBeTfFLJJEVwjUDEExX8JwJdyJXpskZSqswij5MMvOndxfW6Yr%2Bj2VZDwLPPEuSJUU9IhhqOXk%2ByN021%2FLqj93qLl1wp5%2Bt6GgA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8db84ccccc5dc98f-IAD
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=18274&sent=1&recv=3&lost=0&retrans=0&sent_bytes=0&recv_bytes=82&delivery_rate=0&cwnd=249&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+
+HTTP/2 200 
+date: Fri, 01 Nov 2024 02:01:59 GMT
+content-type: text/html; charset=UTF-8
+cache-control: must-revalidate, no-cache, private
+x-powered-by: PHP/8.2.6
+pragma: no-cache
+expires: Sat, 26 Jul 1997 05:00:00 GMT
+set-cookie: current_cart_id=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; domain=www.e-monsite.com
+x-ems-server: 98
+x-frame-options: sameorigin
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6Z10udmYsv366L%2B%2BmS%2FSW3ZEIU8djkapiBbI0Z7fXoSROjEgHDkjFLhiedkzvzbxohf5Z4Gsfpn74v1FaeD2aC42qtOZ40b90xPn5WHXvIwdz3J17ivEDoqUF9piamO7vC3KZNWSduIsbz%2F8muButg%3D%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 8db84cce5965c574-IAD
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=18227&sent=7&recv=8&lost=0&retrans=0&sent_bytes=3390&recv_bytes=827&delivery_rate=219591&cwnd=253&unsent_bytes=0&cid=08e9ce84febc7724&ts=511&x=0"
+
+Final-URL: https://www.e-monsite.com/

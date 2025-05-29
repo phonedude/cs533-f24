@@ -1,0 +1,43 @@
+HTTP/1.1 307 Temporary Redirect
+Server: openresty/1.11.2.3
+Date: Fri, 01 Nov 2024 02:02:39 GMT
+Content-Type: text/html
+Content-Length: 193
+Connection: keep-alive
+Location: https://thetimes.co.uk/
+Cache-Control: max-age=60
+
+HTTP/2 301 
+server: openresty/1.11.2.3
+date: Fri, 01 Nov 2024 02:02:39 GMT
+content-type: text/html
+content-length: 191
+location: https://www.thetimes.com
+cache-control: max-age=60
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 1736854
+server: CloudFront
+date: Fri, 01 Nov 2024 02:01:55 GMT
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+x-content-type-options: nosniff
+expires: Fri, 01 Nov 2024 02:04:54 GMT
+etag: "1a8096-eVOKHW17/JiT7DA9+/93zQNi71U"
+x-acs-version: 2
+cache-control: public, max-age=180, stale-if-error=178
+vary: Accept-Encoding
+set-cookie: nuk_customer_location_hint=GLOBAL; path=/; domain=.thetimes.com
+set-cookie: nuk_zephr_decisions=eyJ1bmxvY2stYnktdXJsLS0tZnJlbmNoLWVsZWN0aW9uIjoiTk9fQUNDRVNTIiwidW5sb2NrLWJ5LXVybCI6Ik5PX0FDQ0VTUyIsInRpbWVzLXRyYXZlbC11bmxvY2stYXBpIjoiTk9fQUNDRVNTIiwidGltZXMtYW5vbnltb3VzLXRyaWFsIjoiQVJUSUNMRV9BQ0NFU1MiLCJuZXctaG90LWNvbGQtcGF5d2FsbCI6IlJFR1dBTEw6SE9UIiwiaGFsaWZheC0tLXVubG9jay1icHRsLXNlY3Rpb24iOiJOT19BQ0NFU1MiLCJjb3Jwb3JhdGUtaXAtbmV3IjoiTk9fQUNDRVNTIiwiY29ycG9yYXRlLWlwLWFjY2Vzcy0yIjoiTk9fQUNDRVNTIiwiY29ycG9yYXRlLWlwLWFjY2VzcyI6Ik5PX0FDQ0VTUyIsImJ5cGFzcy1wYXl3YWxsLWZvci1wZXJmb3JtYW5jZS1tb25pdG9yaW5nIjoiTk9fQUNDRVNTOkIifQ==; path=/
+set-cookie: nuk_customer_country_code=US; path=/; domain=.thetimes.com; secure
+set-cookie: nuk_customer_region_code=SC; path=/; domain=.thetimes.com; secure
+set-cookie: euconsent-v2=expire; expires=Tue, 01-Jan-2019 00:00:00 GMT; path=/
+x-cache: Hit from cloudfront
+via: 1.1 44bf771f8484aeae8f408da7ade14f32.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK52-P5
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: Iha1bgCVXYkIcSfWFag2w803MmS6ZWeNRH-6AiCcFRgPyDKRnRWD4A==
+age: 45
+
+Final-URL: https://www.thetimes.com/

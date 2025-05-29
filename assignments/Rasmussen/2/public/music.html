@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Favorite Musician</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/video_styles.css">
+    <link rel="icon" href="/images/mj_favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>My Favorite Musician: Sierra Ferrell</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="drums">Drums</a></li>
+        <li><a href="comedy">Comedy</a></li>
+        <li><a href="videogames">Video Games</a></li>
+        <li><a href="music" class="current-page">Music</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <img alt="Sierra Ferrell in 2022"
+           src="/images/Sierra_Ferrell.jpg" 
+           class="center-image"
+           onclick="openModal('https://www.youtube.com/embed/_2W8kCk1qnU?si=hAmbWOQve7JWfsv-')"/>
+      <p class="center-text"><small><em>Click the image to see a video of Sierra</em></small></p>
+      <p>Sierra Ferrell makes my favorite music.</p>
+      <p>
+        I first learned of Sierra's music in late 2018 when I was living in Arkansas. After moving
+        from Virginia to Arkansas, I rented a place in the Ozarks and wanted to get familiar with the 
+        sounds of folk, Bluegrass, and the local music scene. I found Sierra's music so raw that I 
+        was immediately hooked. I love her voice, her lyrics, and her style. She sings from the heart 
+        and her songs are amazing.
+      </p>
+      <p>
+        I've been fortunate to see Sierra perform live and it was quite an experience. While I missed a
+        show of her's that I had tickets for in Eureka Springs, AR in February 2022, I was able to see her 
+        perform at the Neptune Theater in Seattle, WA in May 2023--the mixture of the vibe in the crowd, the look
+        and feel of the theater, and the coming-home-ness of Sierra playing in Seattle is ineffable. This also happened to
+        be the first concert that my 11 year old daughter attended. She loved it and we both had a great time! 
+        We missed her again at the Seattle Zoo in August 2024 because I moved back to VA from Seattle. And sadly I will
+        miss her again this weekend in Raleigh, NC. If it sounds like she's busy just based on the dates I've missed her, 
+        it's because she is! She's been touring non-stop and will be headed to Austrailia in 2025.
+      </p>
+      <p>
+        Other than her soulfoul voice, style, and guitar playing, I love that she's a great story teller. In my
+        opinion this is what makes a songwriter great, in particular a musician in the folk/bluegrass genre. 
+        And of course I'm not alone in my opinion--in the past decade she has gone from busking at Pike Place Market 
+        in Seattle to playing the Grand Ole Opry in Nashville. She's a friend of Dolly Parton and has been on stage 
+        with some of the greatest musicians of our era.
+      </p>
+    </main>
+
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p>
+          <small>
+              Image credits:
+              <a href="https://commons.wikimedia.org/wiki/File:Sierra_Ferrell.jpg">Radcliffe Kelso</a>,
+              <em>Sierra Ferrell</em>. 
+              Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+          </small>
+        </p>
+      </div>
+      <div>
+        <p>
+          <small>
+            Video credits:
+            <a href="https://youtu.be/_2W8kCk1qnU?si=pVG6aXoPkrZKVDFr">Sierra Ferrell - Years | Audiotree STAGED</a>.
+            Used under <em>fair use</em> for commentary and educational purposes. 
+          </small>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/scripts/modal.js"></script>
+  </body>
+</html>

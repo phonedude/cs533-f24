@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: myracloud
+Date: Fri, 01 Nov 2024 02:02:14 GMT
+Content-Type: text/html
+Content-Length: 161
+Connection: keep-alive
+Location: https://php.net/
+
+HTTP/2 301 
+server: myracloud
+date: Fri, 01 Nov 2024 02:02:14 GMT
+content-type: text/html
+content-length: 161
+location: https://www.php.net/
+
+HTTP/2 200 
+server: myracloud
+date: Fri, 01 Nov 2024 02:02:15 GMT
+content-type: text/html; charset=utf-8
+last-modified: Fri, 01 Nov 2024 01:50:09 GMT
+content-language: en
+permissions-policy: interest-cohort=()
+x-frame-options: SAMEORIGIN
+set-cookie: COUNTRY=NA%2C80.90.5.137; expires=Fri, 08 Nov 2024 02:02:15 GMT; Max-Age=604800; path=/; domain=.php.net
+set-cookie: LAST_NEWS=1730426535; expires=Sat, 01 Nov 2025 02:02:15 GMT; Max-Age=31536000; path=/; domain=.php.net
+link: <https://www.php.net/index>; rel=shorturl
+expires: Fri, 01 Nov 2024 02:02:15 GMT
+cache-control: max-age=0
+
+Final-URL: https://www.php.net/

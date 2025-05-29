@@ -1,0 +1,65 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=3600
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:43 GMT
+Location: https://tinyurl.com/
+Server: cloudflare
+Content-Length: 167
+Content-Type: text/html
+Expires: Sat, 19 Oct 2024 05:22:43 GMT
+Alt-Svc: h3=":443"; ma=86400
+CF-RAY: 8d4dfd1afccd4fe7-ORF
+Client-Date: Sat, 19 Oct 2024 04:22:43 GMT
+Client-Peer: 104.17.112.233:80
+Client-Response-Num: 1
+Set-Cookie: __cf_bm=wMoqhw7nESR4DwXhyQLmgdKIjASOa14FJVKaD1B6Msg-1729311763-1.0.1.1-mCMvDWqH6xf3QXDAqnCuvSycF5vIdEBLCwR0Umen0a429Kd4E6R3iwuY2WLVzWCHxW8Edd0ehmHfDoHbwwEx8g; path=/; expires=Sat, 19-Oct-24 04:52:43 GMT; domain=.tinyurl.com; HttpOnly
+Title: 301 Moved Permanently
+
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Connection: close
+Date: Sat, 19 Oct 2024 04:22:43 GMT
+Server: cloudflare
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Alt-Svc: h3=":443"; ma=86400
+CF-Cache-Status: DYNAMIC
+CF-RAY: 8d4dfd1b9ab4505a-ORF
+Client-Date: Sat, 19 Oct 2024 04:22:43 GMT
+Client-Peer: 104.17.112.233:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Trust Services/CN=WE1
+Client-SSL-Cert-Subject: /CN=tinyurl.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Client-SSL-Warning: Peer certificate not verified
+Client-Transfer-Encoding: chunked
+Link: <https://fonts.googleapis.com>; rel="preconnect"
+Link: <https://fonts.gstatic.com>; crossorigin="crossorigin"; rel="preconnect"
+Link: <https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@100;300;400;500;600;700&display=swap>; rel="stylesheet"
+Link: </css/front.css?id=dcfec8bae835c22cc9f537fb81531e85>; rel="stylesheet"
+Link: </js/app.js?id=bfb92fa70b3dffb869d096008240f372>; as="script"; rel="preload"
+Link: <https://tinyurl.com/images/icons/favicon-16.png>; rel="icon"; sizes="16x16"; type="image/png"
+Link: <https://tinyurl.com/images/icons/favicon-32.png>; rel="icon"; sizes="32x32"; type="image/png"
+Link: <https://tinyurl.com/images/icons/favicon-48.png>; rel="icon"; sizes="48x48"; type="image/png"
+Link: <https://tinyurl.com/images/icons/favicon-64.png>; rel="icon"; sizes="64x64"; type="image/png"
+Link: <https://tinyurl.com/images/icons/favicon-128.png>; rel="icon"; sizes="128x128"; type="image/png"
+Link: <https://tinyurl.com/images/icons/favicon-192.png>; rel="icon"; sizes="192x192"; type="image/png"
+Link: <https://tinyurl.com/images/icons/favicon-152.png>; rel="apple-touch-icon"; sizes="152x152"
+Link: <https://tinyurl.com/images/icons/favicon-167.png>; rel="apple-touch-icon"; sizes="167x167"
+Link: <https://tinyurl.com/images/icons/favicon-180.png>; rel="apple-touch-icon"; sizes="180x180"
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Ilo1S3NFUnQ2aW1EekNiV0ROUGRoN2c9PSIsInZhbHVlIjoiYWlEb0owMjE5WEd6aEV3WVlPVjBCQlZDdVR4bXJpZkFXT1hRTVN3MXh5anpqbitnZm5IQ0Y2emhkWkNJc2RrUk1Wd3ZIUWcxSFkvZzFadUx2dVBFYTBVZXhxTWJSNWgxMHM0VllxMGJBNnpJZThQd3A1S2paNjkwc3hsbjRFZ2siLCJtYWMiOiI3OWRiZWU1OTEwM2VhZjQ4NGVhYjM1ODU2NGJiMzM5NGNmYWNlMmUyMzAwM2Y1NzNkZDEzZDJhMDdkMTA3ZmU2IiwidGFnIjoiIn0%3D; expires=Sat, 19 Oct 2024 06:22:43 GMT; Max-Age=7200; path=/; domain=.tinyurl.com; secure; samesite=lax
+Set-Cookie: tinyurl_session=eyJpdiI6IlhRMExvaGNJOHF4VlgveFBjYjROWkE9PSIsInZhbHVlIjoieFJ1Zng1TVBNc0RkcGdSRmlxSGsyV1J4bkl6WGNwdnZjdW96UjZOUVJhWTVSdGRSeGMrbWR2TGs0VEtlTnRxLzZtdTBqMDBaTE40N3lFTENpN2ZndzBkUktGRmZFZkdJSDJqSXpmUVBXRkxudHFMbDJsR2ttVlh1VGJZdlp1OXgiLCJtYWMiOiI1NjFjYjcxNWRhNTNlOTJhNTJiOTVlMmEzMDlmOTM2ZjQwNjlkNDJhMmU5ODRmMmEzMjMzNzdlMzI3NjkzOWY5IiwidGFnIjoiIn0%3D; expires=Sat, 19 Oct 2024 06:22:43 GMT; Max-Age=7200; path=/; domain=.tinyurl.com; httponly; samesite=lax
+Set-Cookie: tinyUUID=eyJpdiI6IjhXVURycEVPRmwzbk1aR2svYm9TV3c9PSIsInZhbHVlIjoiK0dKSmZCRWVBdGZqRnAzZjVkT3AvNnE5WVM5WnNEM3NQM2VRelJqaTVUajRndndaOVl2eDc1eEVpMjNHU3FlOFhiWUV4NGdtdTZaYUVWejRkTWZnNlFOelJzNWgycXFScVcvcWRrUkJMWjg9IiwibWFjIjoiMjc3ODI1ODEzYzFkNzQzZTI1YmY3ODc1ZjA1NDkxYWYyOGFiODE3MDFiOGQ3OTVhYjRiNjNjYTQxMTllOGFmZCIsInRhZyI6IiJ9; expires=Sun, 23 Nov 2025 04:22:43 GMT; Max-Age=34560000; path=/; domain=.tinyurl.com; secure; httponly; samesite=lax
+Set-Cookie: early-access=eyJpdiI6IldMeWhpZXZ6VjlJOW13RWQyaFNzNkE9PSIsInZhbHVlIjoiaE4vVGF2ZlVjdHhTRWMvUk9qdnZxMHQ1bmJwaCt1VmZuK3ljK05BVWlnWk9jcHJ2bDd4c1VaSlZxdE5rcUp2ekdjLzhFdWhFQy9yZlJHaVZTSEUzRVZ0U0IyMEV0TXA0ZUtNc1JSZ3kxd3c9IiwibWFjIjoiNTE1MGMzMTNmYzc3YmRmMGZiMGIyOTdkZjA5MTRlNjRiNzRmMjdjMGVjMTZhOTZiMTg2OGVmZThiNjY0YTg0NCIsInRhZyI6IiJ9; expires=Sun, 23 Nov 2025 04:22:43 GMT; Max-Age=34560000; path=/; domain=.tinyurl.com; secure; httponly; samesite=lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Title: URL Shortener, Branded Short Links & Analytics | TinyURL
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Meta-Charset: UTF-8
+X-Meta-Viewport: width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0
+X-Xss-Protection: 1; mode=block
+
+

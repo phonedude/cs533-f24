@@ -1,0 +1,45 @@
+URL: http://www.wix.com
+Final URL: https://www.wix.com/
+Status Code: 200
+
+Headers:
+Content-Type: text/html; charset=UTF-8
+Link: <https://static.parastorage.com/>; rel=preconnect; crossorigin;,<https://static.parastorage.com/>; rel=preconnect;,<https://static.wixstatic.com/>; rel=preconnect; crossorigin;,<https://static.wixstatic.com/>; rel=preconnect;,<https://siteassets.parastorage.com>; rel=preconnect; crossorigin;,
+Html-Cacheable: true
+ETag: W/"7e68cbfb196df70480586a8049cdb0ef"
+X-Meta-Site-Is-Wix-Site: 1
+Content-Language: en
+Referrer-Policy: no-referrer-when-downgrade
+Cache-Control: public,max-age=0,must-revalidate
+Strict-Transport-Security: max-age=31536000
+Server: Pepyaka
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Wed, 30 Oct 2024 21:06:26 GMT
+Age: 32279
+X-Served-By: cache-iad-kcgs7200179-IAD
+X-Cache: HIT
+Vary: Accept-Encoding
+Server-Timing: cache;desc=hit, varnish;desc=hit_hit, dc;desc=fastly_g
+Set-Cookie: ssr-caching=cache#desc=hit#varnish=hit_hit#dc#desc=fastly_g; max-age=20, _wixCIDX=72536ec0-47de-4cdc-b9ae-87e2a9640700; Max-Age=7776000; Expires=Tue, 28 Jan 2025 21:06:26 GMT; Path=/; Domain=.wix.com; Secure; SameSite=None, _wixUIDX=null-user-id; Max-Age=7776000; Expires=Tue, 28 Jan 2025 21:06:26 GMT; Path=/; Domain=.wix.com; Secure; SameSite=None
+X-Wix-Request-Id: 1730322386.952069927570139165
+X-Seen-By: yvSunuo/8ld62ehjr5B7kA==
+Via: 1.1 google
+glb-x-seen-by: bS8wRlGzu0Hc+WrYuHB8QIg44yfcdCMJRkBoQ1h6Vjc=
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+Content Snippet (first 500 characters):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wix.com Website Builder"/>
+
+  <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="https://www.wix.com/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" h

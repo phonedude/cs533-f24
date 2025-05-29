@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 44362
+content-type: text/html; charset=utf-8
+content-security-policy: frame-ancestors 'none'
+x-frame-options: SAMEORIGIN
+x-cloud-trace-context: 98f14b73cdcd60d9985d4eafc249612a
+server: Google Frontend
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Fri, 01 Nov 2024 02:01:53 GMT
+Age: 6
+X-Served-By: cache-lga21981-LGA, cache-iad-kjyo7100065-IAD
+X-Cache: HIT, HIT
+X-Timer: S1730426514.828162,VS0,VE1
+
+Final-URL: http://arxiv.org/

@@ -1,0 +1,59 @@
+HTTP/1.1 301 Moved Permanently
+Server: Tengine
+Date: Fri, 01 Nov 2024 02:01:48 GMT
+Content-Type: text/html
+Content-Length: 239
+Connection: keep-alive
+Location: https://alibaba.com/
+Timing-Allow-Origin: *
+EagleId: 2101d32817304265080225111e3aba
+server-timing: rt;dur=0.000,eagleid;desc=2101d32817304265080225111e3aba
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Credentials: true
+Alt-Svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
+
+HTTP/2 301 
+date: Fri, 01 Nov 2024 02:01:48 GMT
+content-type: text/html
+content-length: 278
+location: https://www.alibaba.com/
+server: Tengine
+set-cookie: ali_apache_id=33.1.211.40.1730426508398.361590.9; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+strict-transport-security: max-age=31536000
+timing-allow-origin: *
+eagleid: 2101d32817304265083965114e3aba
+server-timing: rt;dur=0.003,eagleid;desc=2101d32817304265083965114e3aba
+access-control-allow-headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+access-control-allow-methods: POST, GET, OPTIONS, DELETE
+access-control-allow-credentials: true
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+content-type: text/html;charset=UTF-8
+link: <https://s.alicdn.com>; rel=preconnect;
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+strict-transport-security: max-age=31536000
+timing-allow-origin: *
+eagleid: 21032cad17304265088014408e5bf4
+eagleeye-traceid: 21032cad17304265088014408e5bf4
+server-timing: rt;dur=0.008,eagleid;desc=21032cad17304265088014408e5bf4
+access-control-allow-headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+access-control-allow-methods: POST, GET, OPTIONS, DELETE
+access-control-allow-credentials: true
+date: Fri, 01 Nov 2024 02:01:48 GMT
+set-cookie: ali_apache_id=33.3.44.173.1730426508802.481066.1; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+set-cookie: JSESSIONID=059AEB3E932FC8D6BBC80D71B0D82515; Path=/; HttpOnly
+set-cookie: cna=jCSrH1TN0EICAS/2gNxlFf8t; Domain=.alibaba.com; Path=/; Expires=Wed, 19-Nov-2092 05:15:55 GMT; Secure; SameSite=None
+set-cookie: ug_se_c=organic_1730426508812; Domain=.alibaba.com; Expires=Mon, 10-Jul-2056 03:48:27 GMT; Path=/; Secure
+alt-svc: h3=":443"; ma=2592000
+server-timing: akamai;dur=44;desc=cache-miss
+object-status: ttl=-1,age=0
+edge-type: akamai
+
+Final-URL: https://www.alibaba.com/
