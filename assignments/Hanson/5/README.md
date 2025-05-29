@@ -1,4 +1,4 @@
-# Assignment 5 CS533 FA24  
+# Assignment 5 Submission  
 ## Brian Hanson, Jr.
 
 This submission documents the implementation and testing of **Cross-Origin Resource Sharing (CORS)** and **Content Security Policy (CSP)** using Node.js servers and web clients. Each section includes setup instructions, observed results, and visual demonstrations.
@@ -42,16 +42,16 @@ node Server1.js
 
 ### Results
 - **Blocked JSON**  
-  ![Blocked JSON](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.1/CORS_JSON_blocked.png)
+  ![Blocked JSON]()
 - **Allowed JSON**  
-  ![Allowed JSON](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.1/CORS_JSON_enabled.png)
+  ![Allowed JSON]()
 
 ---
 
 ## 5.2: Custom HTTP Headers with CORS
 
 ### Description
-Demonstrates how CORS affects visibility of custom headers (e.g., `X-CS533f24-favorites`) sent by the server.
+Demonstrates how CORS affects visibility of custom headers sent by the server.
 
 ### Setup
 - Server 1 includes custom response headers.
@@ -59,9 +59,9 @@ Demonstrates how CORS affects visibility of custom headers (e.g., `X-CS533f24-fa
 
 ### Results
 - **Blocked Headers**  
-  ![Blocked Headers](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.2/CORS_headers_blocked.png)
+  ![Blocked Headers]()
 - **Allowed Headers** (with `exposedHeaders` properly configured)  
-  ![Allowed Headers](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.2/CORS_headers_enabled.png)
+  ![Allowed Headers]()
 
 ---
 
@@ -71,13 +71,13 @@ Demonstrates how CORS affects visibility of custom headers (e.g., `X-CS533f24-fa
 Tests how the `Content-Security-Policy` header affects iframe embedding behavior.
 
 ### Setup
-- `server.js` serves `embed.html`, dynamically controlling CSP to allow or block content from `https://www.target.com`.
+- `server.js` serves `embed.html`, dynamically controlling CSP to allow or block content from `https://www.wikipedia.org`.
 
 ### Results
-- **Embedding Allowed**, but not captured as CSP policies from selected websites prevented the manual environment variable change based on the violation of the 'frame-ancestors' directive.
-  ![Enabled Embed](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.3/CSP%20Enabled%20but%20Unable%20to%20Load%20iFrame%20.png)
+- **Embedding Allowed**  
+  ![Allowed Embed]()
 - **Embedding Blocked**  
-  ![Blocked Embed](https://github.com/bdhansonjr/cs533-f24/blob/main/assignments/Hanson/5/5.3/CSP%20Blocked.png)
+  ![Blocked Embed]()
 
 ---
 
@@ -85,7 +85,7 @@ Tests how the `Content-Security-Policy` header affects iframe embedding behavior
 
 - [5.1 - JSON Test with CORS](https://youtu.be/C6W1dUFxKlo)  
 - [5.2 - Custom Headers with CORS](https://youtu.be/ejneNIRQals)  
-- [5.3 - Embedding with CSP](https://youtu.be/cJDOFXgAKmg)
+- [5.3 - Embedding with CSP](https://youtu.be/J7gI7bAl6Sk)
 
 ---
 
