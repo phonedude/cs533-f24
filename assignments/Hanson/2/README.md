@@ -13,6 +13,10 @@ This document lists all of the code developed while completing the setup of a lo
 - /narutouzumaki.html
 
 ## Screen Captures of Webpages with Cookies
+- **Brian McKnight** ![brianmcknightcookie.png](brianmcknightcookie.png)
+- **Naruto Uzumaki** ![marvelavengerscookie.png](marvelavengerscookie.png)
+- **Marvel Avengers** ![narutocookie.png](narutocookie.png)
+- **Sonic The Hedgehog** ![sonicthehedgehogcookie.png](sonicthehedgehogcookie.png)
 
 ## Setup instructions
 1. Installed dependencies: <npm install node.js>, <npm install express>, <npm install cookie-parser>, <npm install serve-favicon>
