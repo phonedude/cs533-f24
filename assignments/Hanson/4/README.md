@@ -21,6 +21,7 @@ These sites loaded successfully inside an iframe:
 - 20minutos_es.html
 - 4shared_com.html
 - abril_com_br.html
+- alibaba_com.html
 - adobe_com.html
 - blog_google.html
 - bandcamp_com.html
@@ -31,6 +32,7 @@ These sites loaded successfully inside an iframe:
 - enable-javascript_com.html
 - foxnews_com.html
 - francetvinfo_fr.html
+- focus_de.html
 - gofundme_com.html
 - howstuffworks_com.html
 - it_wikipedia_org.html
@@ -49,6 +51,7 @@ These sites loaded successfully inside an iframe:
 - sciencedirect_com.html
 - sedoparking_com.html
 - sputniknews.com
+- thesun_co_uk.html
 - t_co.html
 - theatlatntic_com.html
 - thenai_org.html
@@ -115,7 +118,7 @@ These sites explicitly refused framing with `X-Frame-Options` headers:
 - who_int.html (SAMEORIGIN)
 - www_canalblog_com.html (DENY)
 - youronlinechoices_com.html (SAMEORIGIN)
-- - yandex_com.html (DENY)
+- yandex_com.html (DENY)
 
 
 ---
@@ -133,13 +136,10 @@ These sites blocked framing by setting restrictive `Content-Security-Policy` (CS
 
 ### Other Cases
 Websites with no specified headers of X-Frame-Options or CSP:
-- alexa_com.html ?
-- alibaba_com.html ?
-- amazon_com.html ?
-- focus_de.html ?
+- alexa_com.html (503 Response Code)
+- amazon_com.html (503 Response Code)
 - ouest-frane.fr (403 Response Code)
 - softonic_com.html (406 Response Code)
-- thesun_co_uk.html ?
 - www_yahoo_com.html (429 Response Code)
 
 
