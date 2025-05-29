@@ -20,7 +20,7 @@ This document lists all of the code developed while completing the setup of a lo
 
 ## Setup instructions
 1. Installed dependencies: <npm install node.js>, <npm install express>, <npm install cookie-parser>, <npm install serve-favicon>
-2. Configured the codebase of the serve
+2. Configured the codebase of the server
 3. Started the server: <npm node Server.js>
 4. Opened the paths via the web browser
 
