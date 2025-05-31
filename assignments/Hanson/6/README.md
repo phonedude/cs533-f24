@@ -1,7 +1,7 @@
 # Assignment 6 CS 533 F24
 ## Brian Hanson, Jr.
 
-This Node.js Express server demonstrates browser fingerprinting by writing fingerprints to a server-side log. The server can recognize when the same user-agent revists the server by identifying the combined 8 HTTP headers. For different clients, Firefox, Chrome, Safari on a Macbook were served by the server. Then, Chrome & Safari on an iPhone using the MacBook's local IP address. curl was the final user-agent to access the server for which all browswers are personalized based on their client number.
+This Node.js Express server demonstrates browser fingerprinting by writing fingerprints to a server-side log. The server can recognize when the same user-agent revists the server by identifying the combined 8 HTTP headers. For different clients, Firefox, Chrome, Safari on a Macbook were served by the server. Then, Chrome & Safari on an iPhone using the MacBook's local IP address. `curl` was the final user-agent to access the server for which all browswers are personalized based on their client number.
 
 ---
 
