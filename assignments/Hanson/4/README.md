@@ -21,6 +21,7 @@ These sites loaded successfully inside an iframe:
 - 20minutos_es.html
 - 4shared_com.html
 - abril_com_br.html
+- alibaba_com.html
 - adobe_com.html
 - blog_google.html
 - bandcamp_com.html
@@ -31,6 +32,7 @@ These sites loaded successfully inside an iframe:
 - enable-javascript_com.html
 - foxnews_com.html
 - francetvinfo_fr.html
+- focus_de.html
 - gofundme_com.html
 - howstuffworks_com.html
 - it_wikipedia_org.html
@@ -49,6 +51,7 @@ These sites loaded successfully inside an iframe:
 - sciencedirect_com.html
 - sedoparking_com.html
 - sputniknews.com
+- thesun_co_uk.html
 - t_co.html
 - theatlatntic_com.html
 - thenai_org.html
@@ -115,7 +118,7 @@ These sites explicitly refused framing with `X-Frame-Options` headers:
 - who_int.html (SAMEORIGIN)
 - www_canalblog_com.html (DENY)
 - youronlinechoices_com.html (SAMEORIGIN)
-- - yandex_com.html (DENY)
+- yandex_com.html (DENY)
 
 
 ---
@@ -133,13 +136,10 @@ These sites blocked framing by setting restrictive `Content-Security-Policy` (CS
 
 ### Other Cases
 Websites with no specified headers of X-Frame-Options or CSP:
-- alexa_com.html ?
-- alibaba_com.html ?
-- amazon_com.html ?
-- focus_de.html ?
+- alexa_com.html (503 Response Code)
+- amazon_com.html (503 Response Code)
 - ouest-frane.fr (403 Response Code)
 - softonic_com.html (406 Response Code)
-- thesun_co_uk.html ?
 - www_yahoo_com.html (429 Response Code)
 
 
@@ -167,13 +167,10 @@ Despite the `Path` restriction, an iFrame hosted from another page attempted to 
 ## 3. Video Evidence
 
 - [Framable Sites Test](https://youtu.be/NAV3VPuTN-c)
-- [Frame Path Attack Demonstration](https://youtu.be/ZxUaO5UoXDI)
+- [Frame Path Attack Demonstration](https://youtu.be/hzEZ-w1pVCE)
 
 ---
 
 ## 4. Extra Credit - Literary Reference
 
-On Slide 65, "greedy" parsing refers to the HTML parser aggressively consuming content without waiting for external resources. This behavior mirrors **greedy algorithms** in computer science where a series of decisions are made based on what short-term gain through making immediate, local optimizations without regard for the overall impact.
-
-**Key Principle:**  
-Web Browsers prioritize rendering speed by greedily building the DOM tree as content streams in which ensures users see something quickly even before the page fully loads avoiding perception of internet not being broken.
+This literary reference is in regard to Coleridge's "Rime of the Ancient Mariner," which is a book about a group of sailors who were stranded in the ocean and became dehydrated. The book says, "Water, water, everywhere, Nor any drop to drink." This means that the stranded sailors can't drink the water surrounding them because the ocean's saltwater will kill them if they drink it. For our Web Security course, this relates to the subject of XSS because there are so many different parsers that developers have to employ, which can be hard to know how they will interact because of how complex their interrelationships are with user input. When input isn't parsed properly, we have learned that increased vulnerabilities to things like XSS are more probable.
