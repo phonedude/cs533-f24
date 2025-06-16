@@ -1,7 +1,7 @@
 
 # 5.3: CSP Embedding Demonstration
 
-This directory demonstrates the use of Content Security Policy (CSP) headers to control the embedding of external content using iframes. The example tests embedding [Target](https://www.target.com) and shows how to block or allow its content based on CSP configuration. The CSP settings can be toggled dynamically using an environment variable.
+This directory demonstrates the use of Content Security Policy (CSP) headers to control the embedding of external content using iframes. The example tests embedding [Wikipedia](https://www.wikipedia.org) and shows how to block or allow its content based on CSP configuration. The CSP settings can be toggled dynamically using an environment variable.
 
 ## Files
 
@@ -50,13 +50,13 @@ The server reads the `ENABLE_EMBEDDING` environment variable to determine the CS
   In `server.js`, when `ENABLE_EMBEDDING` is set to `'true'`, the CSP directive is set to:
 
   ```http
-  Content-Security-Policy: "frame-ancestors 'self' https://*.target.com"
+  Content-Security-Policy: frame-src 'self' https://wikipedia.org
   ```
 
   **Observed Behavior**:
 
-  - The iframe does not successfully load the target content.
-  - CSP violation errors appear in the browser console, specifically violating the 'frame-ancestors' directive. 
+  - The iframe does not successfully loads the target content.
+  - CSP violation errors appear in the browser console specifically violation of the 'frame-ancestors' directive. 
 
 - **Embedding Disabled (`ENABLE_EMBEDDING=false`)**:
 
@@ -74,7 +74,7 @@ The server reads the `ENABLE_EMBEDDING` environment variable to determine the CS
   **Example Error in Browser Console**:
 
   ```
-  Refused to frame 'https://www.target.com/' because it violates the following Content Security Policy directive: "frame-src 'none'".
+  Refused to frame 'https://www.wikipedia.org/' because it violates the following Content Security Policy directive: "frame-src 'none'".
   ```
 
 ---

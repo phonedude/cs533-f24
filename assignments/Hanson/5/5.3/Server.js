@@ -9,7 +9,7 @@ const ENABLE_EMBEDDING = process.env.ENABLE_EMBEDDING === 'true';
 app.use((req, res, next) => {
     if (ENABLE_EMBEDDING) {
         // Allow embedding from the specified site
-        res.setHeader('Content-Security-Policy', "frame-src 'self' https://www.target.com", "frame-ancestors 'self' https://www.target.com");
+        res.setHeader('Content-Security-Policy', "frame-src 'self' https://www.wikipedia.org", "frame-ancestors 'self' https://www.wikipedia.org");
         console.log('Embedding is ENABLED');
     } else {
         // Block all embedding
@@ -30,8 +30,8 @@ app.get('/embed.html', (req, res) => {
         </head>
         <body>
             <h1>CSP Embedding Test:</h1>
-            <p>Below is an iFrame attempting to embed <strong>https://www.target.com</strong>:</p>
-            <iframe src="https://www.target.com" width="800" height="600" style="border:1px solid black;"></iframe>
+            <p>Below is an iFrame attempting to embed <strong>https://www.wikipedia.org</strong>:</p>
+            <iframe src="https://www.wikipedia.org" width="800" height="600" style="border:1px solid black;"></iframe>
         </body>
         </html>
     `);

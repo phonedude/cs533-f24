@@ -1,0 +1,14 @@
+[2025-05-31T23:03:03.224Z] Server started on port 3000 and listening on all interfaces
+[2025-05-31T23:03:19.587Z] Server started on port 3000 and listening on all interfaces
+[2025-05-31T23:03:24.671Z] A new client 1 was created with fingerprint: f5bbc39860f1763335bccada4d69e458
+[2025-05-31T23:03:35.679Z] A new client 2 was created with fingerprint: ef1c1e02d6a09269e03c13a7c6a7cf21
+[2025-05-31T23:03:39.959Z] A new client 3 was created with fingerprint: b02df576135a67a71f9f342390205455
+[2025-05-31T23:03:44.413Z] A returning client 1 with fingerprint: f5bbc39860f1763335bccada4d69e458
+[2025-05-31T23:03:47.758Z] A returning client 2 with fingerprint: ef1c1e02d6a09269e03c13a7c6a7cf21
+[2025-05-31T23:03:51.389Z] A returning client 3 with fingerprint: b02df576135a67a71f9f342390205455
+[2025-05-31T23:03:58.047Z] A new client 4 was created with fingerprint: 73251f38ea4b4812af46822545627f98
+[2025-05-31T23:04:01.596Z] A returning client 4 with fingerprint: 73251f38ea4b4812af46822545627f98
+[2025-05-31T23:04:05.745Z] A new client 5 was created with fingerprint: b8f65807edfd514d3d2f5656cbc2d3cb
+[2025-05-31T23:04:10.586Z] A returning client 5 with fingerprint: b8f65807edfd514d3d2f5656cbc2d3cb
+[2025-05-31T23:04:23.856Z] A new client 6 was created with fingerprint: 442819c1cfcef0bb28151007eddf82a3
+[2025-05-31T23:04:30.662Z] A returning client 6 with fingerprint: 442819c1cfcef0bb28151007eddf82a3
